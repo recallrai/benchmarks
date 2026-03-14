@@ -5,16 +5,16 @@ description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "boto3>=1.42.64",
+    "boto3>=1.42.68",
     "mem0ai>=1.0.5",
     "pandas>=2.3.3",
     "plotly>=6.6.0",
     "python-dotenv>=1.2.2",
-    "recallrai==0.6.2",
+    "recallrai==0.6.5",
     "rich>=14.3.3",
     "streamlit>=1.55.0",
-    "supermemory>=3.27.0",
+    "supermemory>=3.29.0",
     "tiktoken>=0.12.0",
     "tomli-w>=1.2.0",
-    "zep-cloud>=3.17.0",
+    "zep-cloud>=3.18.0",
 ]

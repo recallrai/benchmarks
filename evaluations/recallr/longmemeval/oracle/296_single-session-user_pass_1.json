@@ -1,0 +1,24 @@
+{
+    "index": 296,
+    "question_type": "single-session-user",
+    "question": "What was my previous occupation?",
+    "question_date": "2023/05/30 (Tue) 16:21",
+    "ground_truth_answer": "Marketing specialist at a small startup",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which states 'User's previous role was as a marketing specialist at a small startup', which exactly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which states 'User's previous role was as a marketing specialist at a small startup', which exactly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user's previous occupation was a 'Marketing Specialist' at a 'small startup', which directly matches the gold answer."
+        }
+    ]
+}

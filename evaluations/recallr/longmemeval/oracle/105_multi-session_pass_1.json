@@ -1,0 +1,24 @@
+{
+    "index": 105,
+    "question_type": "multi-session",
+    "question": "How much total money did I spend on attending workshops in the last four months?",
+    "question_date": "2023/02/26 (Sun) 22:36",
+    "ground_truth_answer": "$720",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about workshops attended with costs: writing workshop ($200 in November 2022), mindfulness workshop ($20 in December 2022), and digital marketing workshop ($500 in February 2023), which total $720 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple memories showing workshops attended with costs: writing workshop ($200), mindfulness workshop ($20), and digital marketing workshop ($500), which totals to $720 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Confirmed total spent on workshops (last 4 months): $720', which matches the gold answer of $720."
+        }
+    ]
+}

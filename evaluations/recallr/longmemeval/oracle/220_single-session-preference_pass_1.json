@@ -1,0 +1,24 @@
+{
+    "index": 220,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling nostalgic lately. Do you think it would be a good idea to attend my high school reunion?",
+    "question_date": "2023/05/27 (Sat) 22:13",
+    "ground_truth_answer": "The user would prefer responses that draw upon their personal experiences and memories, specifically their positive high school experiences such as being part of the debate team and taking advanced placement courses. They would prefer suggestions that highlight the potential benefits of attending the reunion, such as reconnecting with old friends and revisiting favorite subjects like history and economics. The user might not prefer generic or vague responses that do not take into account their individual experiences and interests.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the key personal high school experiences mentioned in the gold answer (debate team, AP economics courses, old friends), which would enable a personalized response about attending the reunion based on these positive memories."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the user's positive high school experiences (debate team, AP economics courses) and information about old high school friends, which directly aligns with the gold answer's guidance to draw upon personal memories and highlight reconnection benefits."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user's debate team participation, AP Economics background, rich social network of high school friends, positive high school memories, and highlights the benefits of attending the reunion such as reconnecting with old friends \u2014 all of which align with the gold answer's key points."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 358,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+    "question_date": "2023/04/01 (Sat) 20:56",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user received the crystal chandelier from their aunt on March 4th, 2023, and the question was asked on April 1st, 2023, which is exactly 4 weeks later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user received the crystal chandelier from their aunt on March 4th, 2023, which is exactly 4 weeks (28 days) before the question date of April 1st, 2023, matching the gold answer of 4 weeks."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the event date was March 4, 2023. Using the question date of April 1, 2023 as the reference point, March 4, 2023 is exactly 28 days (4 weeks) prior, matching the gold answer of 4 weeks."
+        }
+    ]
+}

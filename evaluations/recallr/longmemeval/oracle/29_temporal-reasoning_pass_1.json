@@ -1,0 +1,24 @@
+{
+    "index": 29,
+    "question_type": "temporal-reasoning",
+    "question": "Which airline did I fly with the most in March and April?",
+    "question_date": "2023/04/27 (Thu) 13:11",
+    "ground_truth_answer": "United Airlines",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user flew United Airlines 4 times in March (Chicago trip with 2 flights each way) and accumulated 20,000 miles with United over the three months prior to April, while also showing Southwest flights in March and American Airlines flights in April, providing sufficient information to determine airline usage during this period."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user took 4 flights with United Airlines in March (Chicago trip with 2 flights each way on March 10-12) and 2 flights with Southwest in March, plus American Airlines flights in April, making United the most-used airline during this period."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that United Airlines had the most flights (4 confirmed) across March and April combined, matching the gold answer of United Airlines."
+        }
+    ]
+}

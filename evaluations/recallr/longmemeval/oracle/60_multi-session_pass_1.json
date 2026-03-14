@@ -1,0 +1,24 @@
+{
+    "index": 60,
+    "question_type": "multi-session",
+    "question": "How many items of clothing do I need to pick up or return from a store?",
+    "question_date": "2023/02/15 (Wed) 19:47",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 items to pick up from stores: the navy blue blazer from dry cleaning and the boots from Zara, but the gold answer states 3 items."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 2 items to pick up from stores: boots from Zara (exchanged and needs pickup) and a navy blue blazer from dry cleaning, but the gold answer indicates 3 items."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states there are 2 items pending pickup (boots from Zara and a navy blue blazer from the dry cleaner), while the gold answer is 3, so the context does not support the correct answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 45,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+    "question_date": "2023/05/29 (Mon) 09:14",
+    "ground_truth_answer": "Receiving the new phone case",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains event dates showing the phone case was purchased April 26-May 2, 2023, while the charger was lost mid-May (May 10-20, 2023), confirming the phone case came first as stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains event dates showing the phone case was purchased April 26-May 2, 2023 and the charger was lost May 10-20, 2023, which correctly indicates the phone case came first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the phone case was received first (late April to early May 2023), followed by the loss of the phone charger (mid-May 2023), which matches the gold answer."
+        }
+    ]
+}

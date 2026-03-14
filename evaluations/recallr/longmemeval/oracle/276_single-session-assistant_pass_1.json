@@ -1,0 +1,24 @@
+{
+    "index": 276,
+    "question_type": "single-session-assistant",
+    "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+    "question_date": "2023/05/30 (Tue) 04:21",
+    "ground_truth_answer": "The designation on your jumpsuit was 'LIV'.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context in Summary 1 explicitly states 'LIV (Roman numeral 54) on their jumpsuit was the key' and explains how this helped find file 54 in records, which directly answers the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'LIV (Roman numeral 54) on their jumpsuit was the key' to finding the file in records, which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The designation on your jumpsuit was **LIV**', which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 151,
+    "question_type": "knowledge-update",
+    "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+    "question_date": "2023/05/26 (Fri) 16:53",
+    "ground_truth_answer": "30",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current active memory explicitly stating 'user has completed 30 videos of Corey Schafer's Python programming series', which exactly matches the gold answer of 30."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory explicitly stating the user has completed 30 videos of Corey Schafer's Python programming series, which matches the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has completed 30 videos of Corey Schafer's Python programming series, which matches the gold answer exactly."
+        }
+    ]
+}

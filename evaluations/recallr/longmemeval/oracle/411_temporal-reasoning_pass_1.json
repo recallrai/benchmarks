@@ -1,0 +1,24 @@
+{
+    "index": 411,
+    "question_type": "temporal-reasoning",
+    "question": "I received a piece of jewelry last Saturday from whom?",
+    "question_date": "2023/03/09 (Thu) 15:42",
+    "ground_truth_answer": "my aunt",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user received a crystal chandelier from their aunt on March 4, 2023, which corresponds to 'last Saturday' relative to the question date of March 9, 2023 (Thursday), correctly identifying the aunt as the source of the gift on that date."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user received a crystal chandelier from their aunt on March 4, 2023, which corresponds to 'last Saturday' relative to the question date of March 9, 2023 (Thursday), and correctly identifies the giver as 'their aunt' matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'User received a crystal chandelier from their aunt on March 4, 2023,' and the question date is March 9, 2023 (Thursday), making March 4 'last Saturday.' While the item differs (chandelier vs. jewelry), the context identifies the aunt as the gift-giver on that specific date, which matches the gold answer."
+        }
+    ]
+}

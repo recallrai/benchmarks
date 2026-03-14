@@ -1,0 +1,24 @@
+{
+    "index": 470,
+    "question_type": "multi-session",
+    "question": "How many years will I be when my friend Rachel gets married?",
+    "question_date": "2022/09/01 (Thu) 21:32",
+    "ground_truth_answer": "33",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old (as of 2022/09/01) and Rachel is getting married next year (2023), which would make the user 33 years old at that time, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old on 2022/09/01 and Rachel is getting married next year (2023), which would make the user 33 years old at Rachel's wedding."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the user is 32 years old as of early 2026 and Rachel's wedding is in 2027, concluding the most likely age at the wedding is 33, which matches the gold answer."
+        }
+    ]
+}

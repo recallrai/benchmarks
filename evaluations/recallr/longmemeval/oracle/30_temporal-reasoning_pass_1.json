@@ -1,0 +1,24 @@
+{
+    "index": 30,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been bird watching when I attended the bird watching workshop?",
+    "question_date": "2023/05/25 (Thu) 19:42",
+    "ground_truth_answer": "Two months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the workshop was on April 25, 2023, and the user had been bird watching for about three months by May 25, 2023, which means they had been bird watching for approximately two months when they attended the workshop in April."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started bird watching around February 25, 2023 (based on the 3-month duration ending May 25, 2023) and attended the workshop on April 25, 2023, which is exactly 2 months later, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'When you attended the bird watching workshop at the local Audubon Society (around April 25, 2023), you had been bird watching for approximately 2 months,' which matches the gold answer of 'Two months.'"
+        }
+    ]
+}

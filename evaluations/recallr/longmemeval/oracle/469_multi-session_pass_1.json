@@ -1,0 +1,24 @@
+{
+    "index": 469,
+    "question_type": "multi-session",
+    "question": "How much did I save on the Jimmy Choo heels?",
+    "question_date": "2023/05/30 (Tue) 18:46",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the purchase price ($200) but does not contain any information about the original price or the amount saved ($300), which is necessary to answer the question about savings."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the Jimmy Choo heels were purchased for $200 at an outlet mall, but does not include information about the original price or the amount saved ($300), which is necessary to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states that the savings amount was never recorded, and only mentions the purchase price of $200 without any reference to the original retail price or a $300 savings figure."
+        }
+    ]
+}

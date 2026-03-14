@@ -1,0 +1,24 @@
+{
+    "index": 208,
+    "question_type": "single-session-preference",
+    "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+    "question_date": "2023/05/21 (Sun) 02:23",
+    "ground_truth_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's recent success with beef stew and their interest in making yogurt in the slow cooker, which are the specific experiences mentioned in the gold answer that should be used to tailor advice."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's recent success with beef stew and their specific interest in making yogurt in the slow cooker, which are the key experiences mentioned in the gold answer that should be utilized for tailored advice."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains detailed information about the user's beef stew success and their interest in making cashew-based yogurt in a slow cooker, which aligns with the gold answer's emphasis on tailoring advice to these specific experiences."
+        }
+    ]
+}

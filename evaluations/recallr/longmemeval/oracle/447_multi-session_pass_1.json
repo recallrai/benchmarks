@@ -1,0 +1,24 @@
+{
+    "index": 447,
+    "question_type": "multi-session",
+    "question": "How much did I save on the designer handbag at TK Maxx?",
+    "question_date": "2023/05/28 (Sun) 08:25",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the handbag was originally priced at $500 and bought for $200, which means the user saved $300, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the handbag was originally priced at $500 and bought for $200, which allows calculating the savings as $300, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user saved $300 on the designer handbag at TK Maxx (original price $500, paid $200), which matches the gold answer exactly."
+        }
+    ]
+}

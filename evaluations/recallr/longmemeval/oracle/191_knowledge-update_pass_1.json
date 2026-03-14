@@ -1,0 +1,24 @@
+{
+    "index": 191,
+    "question_type": "knowledge-update",
+    "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+    "question_date": "2023/05/24 (Wed) 22:13",
+    "ground_truth_answer": "Instant Pot",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user owns a new Instant Pot (created at 12:05 AM on 2023/05/21) and purchased an Air Fryer (created at 10:02 PM on 2023/05/21), with timestamps indicating the Instant Pot came before the Air Fryer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains clear information about the user owning a new Instant Pot (Memory 2 and Summary 1), which matches the gold answer, and this information would enable someone to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the Instant Pot was the kitchen gadget acquired before the Air Fryer, matching the gold answer exactly."
+        }
+    ]
+}

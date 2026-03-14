@@ -1,0 +1,24 @@
+{
+    "index": 499,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/28 (Sun) 06:58",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how much will the bus take.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains specific bus pricing information (Airport Limousine Bus at $29) and taxi pricing ($60 or $180-270), which contradicts the gold answer's claim that bus cost information was not provided."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains both taxi cost ($60) and bus cost ($29 for Airport Limousine Bus) in Ongoing Conversation 2, which would allow calculating the savings, contradicting the gold answer's claim that bus cost information is not provided."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the information provided is not enough because the user never mentioned the bus fare, but the retrieved context actually provides an estimated savings of ~$35-40 based on general/estimated bus costs (~$20-25) vs. the taxi quote (~$60), which contradicts the gold answer's conclusion that there is insufficient information."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 385,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+    "question_date": "2023/07/01 (Sat) 13:47",
+    "ground_truth_answer": "I first completed the Spring Sprint Triathlon, then took part in the Midsummer 5K Run, and finally participated in the company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three sports events with their specific dates (Spring Sprint Triathlon on June 2nd, Midsummer 5K Run on June 10th, and company's charity soccer tournament on June 17th), which matches the chronological order stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three sports events with specific dates (Spring Sprint Triathlon on June 2nd, Midsummer 5K Run on June 10th, and company's annual charity soccer tournament on June 17th, 2023) in the exact chronological order stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms the same order as the gold answer: Spring Sprint Triathlon (June 2), Midsummer 5K Run (June 10), and Company's Annual Charity Soccer Tournament (June 17), all within June 2023."
+        }
+    ]
+}

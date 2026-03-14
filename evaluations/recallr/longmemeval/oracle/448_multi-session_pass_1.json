@@ -1,0 +1,24 @@
+{
+    "index": 448,
+    "question_type": "multi-session",
+    "question": "What is the total number of goals and assists I have in the recreational indoor soccer league?",
+    "question_date": "2023/05/29 (Mon) 21:24",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has scored 3 goals and two assists in their indoor soccer league, which totals to 5 (3+2=5), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has scored 3 goals and two assists in their indoor soccer league, which totals to 5, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user has 3 goals and 2 assists in the recreational indoor soccer league, totaling 5 combined contributions, which matches the gold answer of 5."
+        }
+    ]
+}

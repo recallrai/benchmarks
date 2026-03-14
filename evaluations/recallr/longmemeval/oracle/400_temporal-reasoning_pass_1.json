@@ -1,0 +1,24 @@
+{
+    "index": 400,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I launch my website when I signed a contract with my first client?",
+    "question_date": "2023/03/25 (Sat) 17:23",
+    "ground_truth_answer": "19 days ago. 20 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the contract signing date (March 1st, 2023) and the website launch information (with event date range ending February 10, 2023), which allows calculating the time difference as 19-20 days, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context contains both the website launch date range (ending Feb 10, 2023) and the first client contract date (March 1, 2023), which allows calculation of 19-20 days between these events, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the website was launched approximately 19 days before the first client contract was signed on March 1, 2023 (with the website launch occurring around February 10, 2023), which matches the gold answer of 19 days."
+        }
+    ]
+}

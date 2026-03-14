@@ -1,0 +1,24 @@
+{
+    "index": 146,
+    "question_type": "knowledge-update",
+    "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+    "question_date": "2023/11/29 (Wed) 08:35",
+    "ground_truth_answer": "in my bedroom",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context (Memory #1, Version 3) explicitly states the painting 'Ethereal Dreams' by Emma Taylor is 'displayed above their bed in their bedroom', which directly matches the gold answer 'in my bedroom'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The current version (Version 3) of Memory 1 explicitly states the painting 'Ethereal Dreams' by Emma Taylor is 'displayed above their bed in their bedroom', which directly matches the gold answer 'in my bedroom'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that 'Ethereal Dreams' by Emma Taylor is currently hanging 'above the bed in the bedroom,' which matches the gold answer of 'in my bedroom.'"
+        }
+    ]
+}

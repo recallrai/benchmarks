@@ -1,0 +1,24 @@
+{
+    "index": 458,
+    "question_type": "multi-session",
+    "question": "How much more did I have to pay for the trip after the initial quote?",
+    "question_date": "2023/05/24 (Wed) 02:59",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the initial quote was $2,500 (version 1, dated 2023/05/20) and the updated quote was $2,800 (version 2, dated 2023/05/23), which is a difference of $300, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the initial quote was $2,500 (version 1, dated 2023/05/20) and the updated quote was $2,800 (version 2, dated 2023/05/23), which allows calculating the difference of $300 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user had to pay $300 more after the initial quote, matching the gold answer exactly."
+        }
+    ]
+}

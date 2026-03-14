@@ -1,0 +1,24 @@
+{
+    "index": 108,
+    "question_type": "multi-session",
+    "question": "How many rare items do I have in total?",
+    "question_date": "2023/05/30 (Tue) 02:34",
+    "ground_truth_answer": "99",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains specific quantities for all rare items (12 figurines + 57 records + 5 books + 25 coins = 99 total), which matches the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains specific quantities for all rare item categories (25 coins + 57 records + 12 figurines + 5 books = 99), which matches the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms '99 rare items' as the total (25 coins + 5 books + 57 records + 12 figurines), which matches the gold answer of 99."
+        }
+    ]
+}

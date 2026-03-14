@@ -1,0 +1,24 @@
+{
+    "index": 103,
+    "question_type": "multi-session",
+    "question": "How many kitchen items did I replace or fix?",
+    "question_date": "2023/05/29 (Mon) 20:45",
+    "ground_truth_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all five items mentioned in the gold answer: the kitchen faucet (replaced), kitchen mat (new), toaster (replaced), coffee maker (donated old one/received new espresso machine), and kitchen shelves (fixed), which would enable someone to correctly answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains memories about all five items mentioned in the gold answer: the kitchen faucet (replaced), kitchen mat (new from IKEA), toaster (replaced with toaster oven), coffee maker (donated old one/received espresso machine), and kitchen shelves (fixed), allowing someone to correctly answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context identifies only 4 kitchen items (toaster, faucet, coffee maker, and kitchen shelves), missing the kitchen mat that is included in the gold answer of 5 items, so the context would not allow someone to correctly answer with the gold answer."
+        }
+    ]
+}

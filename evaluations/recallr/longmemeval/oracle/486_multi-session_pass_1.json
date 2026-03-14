@@ -1,0 +1,24 @@
+{
+    "index": 486,
+    "question_type": "multi-session",
+    "question": "What is the average GPA of my undergraduate and graduate studies?",
+    "question_date": "2023/05/30 (Tue) 10:38",
+    "ground_truth_answer": "3.83",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the user's undergraduate GPA (3.86 from University of Mumbai) and graduate GPA (3.8 from University of Illinois), which when averaged equals 3.83, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the undergraduate GPA (3.86) and graduate GPA (3.8), which when averaged equals 3.83, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly calculates the average GPA as (3.86 + 3.80) \u00f7 2 = 3.83, which matches the gold answer exactly."
+        }
+    ]
+}

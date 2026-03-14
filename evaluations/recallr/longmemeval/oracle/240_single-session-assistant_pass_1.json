@@ -1,0 +1,24 @@
+{
+    "index": 240,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+    "question_date": "2023/05/24 (Wed) 17:31",
+    "ground_truth_answer": "38 subjects",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only shows that a previous conversation about binaural beats occurred but does not contain any specific information about the study in Music and Medicine or the number of subjects (38) that would enable answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a previous conversation about binaural beats for anxiety and depression but does not contain any information about the specific study published in Music and Medicine journal or the number of subjects (38) in that study."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the study published in the journal Music and Medicine involved 38 subjects, which matches the gold answer exactly."
+        }
+    ]
+}

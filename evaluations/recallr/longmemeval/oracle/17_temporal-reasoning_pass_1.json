@@ -1,0 +1,24 @@
+{
+    "index": 17,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+    "question_date": "2023/05/22 (Mon) 00:25",
+    "ground_truth_answer": "'The Hate U Give'",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows 'The Hate U Give' was finished around May 8, 2023, while 'The Nightingale' was finished during May 20-21, 2023, confirming 'The Hate U Give' was read first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows 'The Hate U Give' was finished around May 8, 2023, while 'The Nightingale' was finished during May 20-21, 2023, confirming the gold answer that 'The Hate U Give' was read first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'The Hate U Give' was finished first (~May 8, 2023), approximately 12-13 days before 'The Nightingale' (May 20-21, 2023), which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 119,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my iPad case to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 10:05",
+    "ground_truth_answer": "The information provided is not enough. You did not mention buying an iPad case.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no information about an iPad case purchase, which correctly supports the gold answer's statement that no such information was mentioned."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no mention of an iPad case purchase, only information about a laptop backpack, which would enable someone to correctly determine that the user did not mention buying an iPad case."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that there is no information stored about an iPad case purchase or delivery, which aligns with the gold answer stating the information is insufficient because no iPad case purchase was mentioned."
+        }
+    ]
+}

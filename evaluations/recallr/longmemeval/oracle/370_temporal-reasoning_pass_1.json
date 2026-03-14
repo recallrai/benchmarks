@@ -1,0 +1,24 @@
+{
+    "index": 370,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+    "question_date": "2023/06/01 (Thu) 23:23",
+    "ground_truth_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three trips mentioned in the gold answer (Muir Woods day hike with family on March 10, road trip to Big Sur and Monterey with friends on April 18-20, and solo camping trip to Yosemite), with sufficient details to identify and order them chronologically."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three trips mentioned in the gold answer (Muir Woods on March 10, Big Sur/Monterey on April 18-20, and Yosemite solo camping trip in April), with matching locations and companions, which would allow someone to answer the question about the three trips taken."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the order as Muir Woods \u2192 Big Sur/Monterey \u2192 Yosemite, but the retrieved context clearly shows the order as Muir Woods (March 10) \u2192 Yosemite (April 1\u201320) \u2192 Big Sur/Monterey (April 18\u201320), which contradicts the gold answer's ordering of the second and third trips."
+        }
+    ]
+}

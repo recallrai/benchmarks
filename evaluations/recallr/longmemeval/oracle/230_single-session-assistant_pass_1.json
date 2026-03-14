@@ -1,0 +1,24 @@
+{
+    "index": 230,
+    "question_type": "single-session-assistant",
+    "question": "I'm checking our previous chat about the shift rotation sheet for GM social media agents. Can you remind me what was the rotation for Admon on a Sunday?",
+    "question_date": "2023/05/26 (Fri) 02:28",
+    "ground_truth_answer": "Admon was assigned to the 8 am - 4 pm (Day Shift) on Sundays.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains general information about the team, shift times, and rotation preferences, but does not include the specific shift assignment for Admon on Sunday (8 am - 4 pm), which is what the question asks for."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows that a shift rotation sheet was requested with general parameters (7 agents including Admon, 4 shift times, Sunday-Saturday schedule) but does not contain the actual shift assignments or specify which shift Admon was assigned on Sunday."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Admon's Sunday rotation was the 8 am \u2013 4 pm (Day Shift), which matches the gold answer exactly."
+        }
+    ]
+}

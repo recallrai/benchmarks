@@ -1,0 +1,24 @@
+{
+    "index": 267,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous chat about the DHL Wellness Retreats campaign. Can you remind me how much was allocated for influencer marketing in the campaign plan?",
+    "question_date": "2023/05/26 (Fri) 18:24",
+    "ground_truth_answer": "$2,000",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "While the context confirms an influencer marketing campaign plan for DHL Wellness Retreats was discussed, it does not contain any specific budget allocation information or the $2,000 figure mentioned in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions that the user reviewed an influencer marketing campaign plan for DHL Wellness Retreats, but nowhere does it contain the specific budget amount of $2,000 that would allow someone to correctly answer the question about the allocated budget."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the influencer marketing budget allocated in the DHL Wellness Retreats campaign plan was $2,000, which matches the gold answer exactly."
+        }
+    ]
+}

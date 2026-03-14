@@ -1,0 +1,24 @@
+{
+    "index": 480,
+    "question_type": "multi-session",
+    "question": "How many years older am I than when I graduated from college?",
+    "question_date": "2023/05/27 (Sat) 16:37",
+    "ground_truth_answer": "7",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is 32 years old and completed their Bachelor's degree at age 25, allowing calculation of 32 - 25 = 7 years, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is 32 years old and completed their degree at age 25, allowing the calculation 32 - 25 = 7 years, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 7 years older than when they graduated from college (current age 32, graduation age 25, difference = 7), which matches the gold answer exactly."
+        }
+    ]
+}

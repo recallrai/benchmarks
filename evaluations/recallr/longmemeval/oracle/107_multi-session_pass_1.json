@@ -1,0 +1,24 @@
+{
+    "index": 107,
+    "question_type": "multi-session",
+    "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+    "question_date": "2023/05/01 (Mon) 09:52",
+    "ground_truth_answer": "3 days",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows a 2-day workshop on April 17-18, 2023 and a lecture on April 10, 2023, which totals 3 days and matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user attended a 2-day workshop on April 17-18, 2023 and a lecture on April 10, 2023, which totals 3 days and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 3 days attending workshops and lectures in April 2023, which matches the gold answer of 3 days."
+        }
+    ]
+}

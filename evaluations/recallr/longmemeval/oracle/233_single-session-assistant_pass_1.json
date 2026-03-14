@@ -1,0 +1,24 @@
+{
+    "index": 233,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to revisit Orlando. I was wondering if you could remind me of that unique dessert shop with the giant milkshakes we talked about last time?",
+    "question_date": "2023/05/30 (Tue) 09:10",
+    "ground_truth_answer": "The Sugar Factory at Icon Park.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user discussed dessert spots in Orlando and that the family are dessert fanatics, but does not contain any specific mention of 'The Sugar Factory', 'Icon Park', or giant milkshakes that would enable answering the question correctly."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user is interested in dessert spots in Orlando and their family are dessert fanatics, but it does not contain any specific mention of 'The Sugar Factory at Icon Park' or any dessert shop with giant milkshakes that would allow answering the question correctly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies the dessert shop with giant milkshakes as 'The Sugar Factory' located at 'Icon Park' in Orlando, which matches the gold answer exactly."
+        }
+    ]
+}

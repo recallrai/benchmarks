@@ -1,0 +1,24 @@
+{
+    "index": 50,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my attendance at a cultural festival or the start of my Spanish classes?",
+    "question_date": "2023/05/20 (Sat) 03:39",
+    "ground_truth_answer": "Spanish classes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the cultural festival occurred on May 19, 2023 and the Spanish classes event date as May 20, 2023, which contradicts the gold answer stating Spanish classes happened first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user has been taking Spanish classes for the past three months (as of May 20, 2023), meaning they started around February/March 2023, while the cultural festival occurred on May 19, 2023, confirming Spanish classes started first."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context clearly states that the cultural festival occurred on May 19, 2023, and Spanish classes started on May 20, 2023, meaning the cultural festival happened first \u2014 contradicting the gold answer which states 'Spanish classes' happened first."
+        }
+    ]
+}

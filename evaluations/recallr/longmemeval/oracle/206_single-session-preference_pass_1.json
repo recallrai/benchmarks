@@ -1,0 +1,24 @@
+{
+    "index": 206,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities that I can do in the evening?",
+    "question_date": "2023/05/24 (Wed) 05:51",
+    "ground_truth_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user preferring to wind down by 9:30 pm, finding meditation relaxing for sleep, and wanting to minimize social media usage, which touches on the key topics of evening relaxation preferences and avoiding screen-based activities mentioned in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user prefers winding down by 9:30 pm and wants to minimize social media usage, and enjoys meditation for relaxation, but does not explicitly state that phone or TV usage affects their sleep quality as claimed in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly contains the key information in the gold answer: the user prefers winding down by 9:30 PM, wants relaxing activities, and explicitly wants to minimize social media/screen usage as these affect sleep quality."
+        }
+    ]
+}

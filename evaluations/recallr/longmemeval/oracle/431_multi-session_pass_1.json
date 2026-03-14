@@ -1,0 +1,24 @@
+{
+    "index": 431,
+    "question_type": "multi-session",
+    "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+    "question_date": "2023/05/30 (Tue) 03:23",
+    "ground_truth_answer": "$6",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context states the taxi cost $12 (memory 1) and the daily train fare is $6 (memory 3), which gives a difference of $6, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context contains both the taxi cost ($12) and the daily train fare ($6), allowing calculation of the $6 difference that matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the taxi ride cost $12 while the train fare was $6, making the difference exactly $6, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 128,
+    "question_type": "knowledge-update",
+    "question": "How many hours have I spent on my abstract ocean sculpture?",
+    "question_date": "2023/06/18 (Sun) 14:57",
+    "ground_truth_answer": "10-12 hours",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has spent approximately 10-12 hours on their abstract ocean sculpture' which directly matches the gold answer of '10-12 hours'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact information in Memory 1 stating 'User has spent approximately 10-12 hours on their abstract ocean sculpture' which directly matches the gold answer of '10-12 hours'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user has spent approximately 10\u201312 hours on their abstract ocean sculpture, which matches the gold answer exactly."
+        }
+    ]
+}

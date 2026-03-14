@@ -1,0 +1,24 @@
+{
+    "index": 192,
+    "question_type": "knowledge-update",
+    "question": "How many Italian restaurants have I tried in my city?",
+    "question_date": "2023/06/24 (Sat) 09:01",
+    "ground_truth_answer": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no information about Italian restaurants but does contain information about Korean restaurants (four of them), which matches exactly what the gold answer states."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no information about Italian restaurants but does mention the user tried four Korean restaurants, which allows someone to correctly determine there is insufficient information about Italian restaurants, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that no Italian restaurant information exists in the memory graph, while noting that Korean restaurants were discussed - which matches the gold answer exactly."
+        }
+    ]
+}

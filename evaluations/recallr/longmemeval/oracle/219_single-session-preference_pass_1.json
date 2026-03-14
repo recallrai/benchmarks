@@ -1,0 +1,24 @@
+{
+    "index": 219,
+    "question_type": "single-session-preference",
+    "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+    "question_date": "2023/05/27 (Sat) 20:51",
+    "ground_truth_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user has a cat that sheds a lot, but is missing critical information from the gold answer about a recent deep clean of the living room and its effect on stirring up dust, which the user would want considered in the response."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user has a cat that sheds a lot and discusses living room dust concerns, but it completely lacks information about the cat's name (Luna) and the recent deep clean of the living room, which the gold answer specifically identifies as important factors to consider."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly mentions the user's cat that sheds a lot as a primary cause of sneezing in the living room, which aligns with the gold answer's reference to the cat's shedding. While the context doesn't name the cat 'Luna' or specifically mention a recent deep clean stirring up dust, it does contain enough information about the cat's shedding and dust accumulation in the living room to allow someone to correctly address the question in the spirit of the gold answer."
+        }
+    ]
+}

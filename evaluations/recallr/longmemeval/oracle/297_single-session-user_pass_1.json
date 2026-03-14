@@ -1,0 +1,24 @@
+{
+    "index": 297,
+    "question_type": "single-session-user",
+    "question": "How much did I spend on a designer handbag?",
+    "question_date": "2023/05/29 (Mon) 21:17",
+    "ground_truth_answer": "$800",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User bought a designer handbag for $800' in memory #1, which directly matches the gold answer of $800."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User bought a designer handbag for $800' in Memory #1, which directly matches the gold answer of $800."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent $800 on a designer handbag, which matches the gold answer exactly."
+        }
+    ]
+}

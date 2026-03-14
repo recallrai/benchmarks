@@ -1,0 +1,24 @@
+{
+    "index": 367,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "question_date": "2023/05/06 (Sat) 05:25",
+    "ground_truth_answer": "3 weeks ago",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user downloaded Ibotta on 2023/04/16, and the ongoing conversation is from 2023/05/06, which is approximately 3 weeks later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user downloaded Ibotta on April 16, 2023, and the question was asked in early May 2023 (conversation started May 6, 2023), which corresponds to approximately 3 weeks ago as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context confirms Ibotta was started on April 16, 2023, and the question was asked on May 6, 2023 \u2014 that's 20 days or approximately 3 weeks, matching the gold answer."
+        }
+    ]
+}

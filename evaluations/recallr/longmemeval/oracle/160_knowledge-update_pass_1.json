@@ -1,0 +1,24 @@
+{
+    "index": 160,
+    "question_type": "knowledge-update",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/04/23 (Sun) 13:41",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states in Memory 1 that 'User finished reading The Nightingale by Kristin Hannah' on 2023/03/30, which is before the question date of 2023/04/23, allowing the question to be correctly answered as 'Yes'."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, session summaries, or conversation history that indicates whether the user finished reading 'The Nightingale' - it only shows the user asking this same question, which doesn't provide the answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that the user finished reading 'The Nightingale' by Kristin Hannah on March 30, 2023, describing it as 'amazing and powerful', which matches the gold answer of 'Yes'."
+        }
+    ]
+}

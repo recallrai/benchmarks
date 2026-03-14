@@ -1,0 +1,24 @@
+{
+    "index": 15,
+    "question_type": "temporal-reasoning",
+    "question": "How many charity events did I participate in before the 'Run for the Cure' event?",
+    "question_date": "2023/11/29 (Wed) 21:26",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context lists 4 charity events with dates before the 'Run for the Cure' event on October 15, 2023: Dance for a Cause (May 1), Walk for Wildlife (June), charity golf tournament (July 17), and Food for Thought gala (September 25), which matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 4 charity events before October 15, 2023 (Run for the Cure): Dance for a Cause (May 1), Walk for Wildlife (June), charity golf tournament (July 17), and Food for Thought gala (September 25), matching the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'you participated in 4 charity events before the Run for the Cure' and lists all four events (Dance for a Cause, Walk for Wildlife, Charity Golf Tournament, and Food for Thought Charity Gala), matching the gold answer of 4."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 110,
+    "question_type": "multi-session",
+    "question": "How many magazine subscriptions do I currently have?",
+    "question_date": "2023/04/01 (Sat) 21:12",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows two active magazine subscriptions as of April 1, 2023: The New Yorker (subscribed February 2023) and Architectural Digest, while Forbes was canceled in March 2023 and National Geographic was purchased as individual issues rather than a subscription."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows two active magazine subscriptions (Architectural Digest and The New Yorker) as of the question date, with Forbes having been canceled in March 2023, which matches the gold answer of 2."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has 2 active magazine subscriptions (Architectural Digest and The New Yorker), which matches the gold answer of 2."
+        }
+    ]
+}

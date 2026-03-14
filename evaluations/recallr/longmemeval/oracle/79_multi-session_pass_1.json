@@ -1,0 +1,24 @@
+{
+    "index": 79,
+    "question_type": "multi-session",
+    "question": "How many times did I bake something in the past two weeks?",
+    "question_date": "2023/05/30 (Tue) 20:07",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains four distinct baking events in May 2023: cookies on May 18th, chocolate cake on May 20-21, whole wheat baguette on May 20, and sourdough bread on May 23, which matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains four distinct baking events within the relevant two-week timeframe: cookies on May 18th, chocolate cake on May 20th, whole wheat baguette on May 20th, and sourdough bread on May 23rd, which matches the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user baked 4 times in the past two weeks, matching the gold answer exactly."
+        }
+    ]
+}

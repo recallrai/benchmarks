@@ -1,0 +1,24 @@
+{
+    "index": 338,
+    "question_type": "single-session-user",
+    "question": "How many skeins of worsted weight yarn did I find in my stash?",
+    "question_date": "2023/05/30 (Tue) 19:28",
+    "ground_truth_answer": "17",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory #1 that 'User has a stash of 17 skeins of worsted weight yarn that they recently found,' which directly matches the gold answer of 17."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a stash of 17 skeins of worsted weight yarn that they recently found', which directly matches the gold answer of 17."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user found 17 skeins of worsted weight yarn in their stash, which matches the gold answer of 17."
+        }
+    ]
+}

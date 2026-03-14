@@ -1,0 +1,24 @@
+{
+    "index": 341,
+    "question_type": "single-session-user",
+    "question": "What is my ethnicity?",
+    "question_date": "2023/05/29 (Mon) 05:51",
+    "ground_truth_answer": "A mix of Irish and Italian",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which explicitly states 'User has mixed ethnicity: Irish and Italian', which directly matches the gold answer 'A mix of Irish and Italian'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory explicitly stating 'User has mixed ethnicity: Irish and Italian', which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has mixed Irish and Italian ethnicity, which directly matches the gold answer."
+        }
+    ]
+}

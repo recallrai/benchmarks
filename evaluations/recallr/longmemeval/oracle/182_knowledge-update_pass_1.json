@@ -1,0 +1,24 @@
+{
+    "index": 182,
+    "question_type": "knowledge-update",
+    "question": "What type of vehicle model am I currently working on?",
+    "question_date": "2023/06/11 (Sun) 18:18",
+    "ground_truth_answer": "Ford F-150 pickup truck",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User is working on a Ford F-150 pickup truck model' which directly matches the gold answer and enables correctly answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory (Version 2) explicitly stating 'User is working on a Ford F-150 pickup truck model', which directly matches the gold answer and would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is currently working on a Ford F-150 pickup truck model at 1/25 scale, which matches the gold answer exactly."
+        }
+    ]
+}

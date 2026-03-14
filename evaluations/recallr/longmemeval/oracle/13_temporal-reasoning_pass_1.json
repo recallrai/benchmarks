@@ -1,0 +1,24 @@
+{
+    "index": 13,
+    "question_type": "temporal-reasoning",
+    "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+    "question_date": "2023/05/20 (Sat) 06:04",
+    "ground_truth_answer": "Training pads for Luna",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows training pads were purchased on April 20, 2023 (Memory 6) while the dog bed was purchased in late April 2023, spanning April 20-30 (Memory 1), indicating the training pads were purchased first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows training pads were purchased on April 20, 2023, while the dog bed was purchased in 'late April 2023' (April 20-30), indicating the training pads were purchased first or at least as early as the dog bed."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Luna's training pads were purchased first (~April 20, 2023), followed by Max's orthopedic dog bed (~late April/early May 2023), which matches the gold answer."
+        }
+    ]
+}

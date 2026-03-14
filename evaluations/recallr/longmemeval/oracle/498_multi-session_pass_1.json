@@ -1,0 +1,24 @@
+{
+    "index": 498,
+    "question_type": "multi-session",
+    "question": "How old will Rachel be when I get married?",
+    "question_date": "2023/05/29 (Mon) 01:23",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how old Rachel is right now, nor when will you get married.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that Rachel is getting married in 2024 and that the user is 32 years old, but does not provide Rachel's age or when the user will get married, which are both necessary to answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context only mentions Rachel is getting married in 2024 and the user is 32, but does not provide Rachel's age nor when the user will get married, so the gold answer correctly identifies insufficient information."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that both Rachel's age and the user's wedding date are unknown/not recorded, which aligns perfectly with the gold answer stating insufficient information."
+        }
+    ]
+}

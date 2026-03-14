@@ -1,0 +1,24 @@
+{
+    "index": 149,
+    "question_type": "knowledge-update",
+    "question": "Do I go to the gym more frequently than I did previously?",
+    "question_date": "2023/08/18 (Fri) 04:17",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows a temporal change in gym frequency from 3 times per week (Tuesdays, Thursdays, Saturdays in version 1) to 4 times per week (version 2), which supports the gold answer that the user does go more frequently now."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user previously went to the gym on Tuesdays, Thursdays, and Saturdays (3 times a week) but now goes four times a week, clearly indicating an increase in frequency that matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that the user increased gym attendance from 3 days per week (June 2023) to 4 days per week (August 2023), which directly supports the gold answer of 'Yes'."
+        }
+    ]
+}

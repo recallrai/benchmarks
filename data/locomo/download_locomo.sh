@@ -1,0 +1,2 @@
+[ ! -f locomo10.json ] && wget https://github.com/snap-research/locomo/raw/refs/heads/main/data/locomo10.json
+[ ! -f msc_personas_all.json ] && wget https://github.com/snap-research/locomo/raw/refs/heads/main/data/msc_personas_all.json

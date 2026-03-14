@@ -1,0 +1,24 @@
+{
+    "index": 361,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I last visited a museum with a friend?",
+    "question_date": "2023/03/25 (Sat) 08:30",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user visited the Science Museum with their chemistry professor friend in October 2022 (between 10/15-10/22), and from late October 2022 to March 25, 2023 is approximately 5 months, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user visited the Science Museum with their chemistry professor friend in October 2022 (Event Date: 2022/10/15-2022/10/22), and from late October 2022 to the question date of March 25, 2023 is approximately 5 months, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context identifies the last museum visit with a friend as October 15-22, 2022. Using the question date of March 25, 2023 as reference, approximately 5 months have passed since late October 2022, which matches the gold answer of 5."
+        }
+    ]
+}

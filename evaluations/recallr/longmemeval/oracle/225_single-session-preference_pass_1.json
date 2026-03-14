@@ -1,0 +1,24 @@
+{
+    "index": 225,
+    "question_type": "single-session-preference",
+    "question": "I've got some free time tonight, any documentary recommendations?",
+    "question_date": "2023/05/22 (Mon) 01:48",
+    "ground_truth_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 3 which explicitly states the user has finished watching 'Our Planet', 'Free Solo', and 'Tiger King', along with additional memories showing interest in nature/wildlife documentaries, which directly aligns with the gold answer's reference to these same titles and the user's viewing preferences."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user has finished watching 'Our Planet', 'Free Solo', and 'Tiger King' (Memory #4) and is interested in nature and wildlife documentaries, which directly aligns with the gold answer's reference to these same documentaries as the basis for recommendations."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions all three documentaries from the gold answer (Our Planet, Free Solo, and Tiger King) as part of the user's viewing history, and provides personalized recommendations based on these preferences."
+        }
+    ]
+}

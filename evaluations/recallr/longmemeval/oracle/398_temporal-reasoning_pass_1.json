@@ -1,0 +1,24 @@
+{
+    "index": 398,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the charity gala or the charity bake sale?",
+    "question_date": "2023/05/01 (Mon) 02:55",
+    "ground_truth_answer": "I participated in the charity bake sale first.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the charity bake sale occurred on March 15, 2023 and the charity gala on March 28, 2023, confirming the bake sale came first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the charity bake sale occurred on March 15, 2023 and the charity gala on March 28, 2023, confirming the bake sale was first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly confirms that the charity bake sale (March 15, 2023) occurred before the charity gala (March 28, 2023), matching the gold answer."
+        }
+    ]
+}

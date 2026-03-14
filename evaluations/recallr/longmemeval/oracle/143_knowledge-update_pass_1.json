@@ -1,0 +1,24 @@
+{
+    "index": 143,
+    "question_type": "knowledge-update",
+    "question": "How many of Emma's recipes have I tried out?",
+    "question_date": "2023/06/09 (Fri) 10:52",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the current version of Memory 1 that 'User loves Emma's recipes on her channel and has tried three of them,' which matches the gold answer of 3."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'User loves Emma's recipes on her channel and has tried three of them,' which directly matches the gold answer of 3."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'you have tried 3 of Emma's recipes' as the confirmed current figure, matching the gold answer of 3."
+        }
+    ]
+}

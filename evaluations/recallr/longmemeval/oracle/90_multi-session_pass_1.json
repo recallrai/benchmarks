@@ -1,0 +1,24 @@
+{
+    "index": 90,
+    "question_type": "multi-session",
+    "question": "How many doctor's appointments did I go to in March?",
+    "question_date": "2023/03/27 (Mon) 15:58",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about two doctor's appointments in March 2023: one with Dr. Smith on March 3rd (bronchitis diagnosis) and one with Dr. Thompson on March 20th (follow-up for torn ACL), which matches the gold answer of 2."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows two doctor's appointments in March: March 3rd with Dr. Smith (bronchitis diagnosis) and March 20th with Dr. Thompson (orthopedic follow-up), which matches the gold answer of 2."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states '2 confirmed doctor's appointments in March 2023' (March 3rd with Dr. Smith for bronchitis, and March 20th with Dr. Thompson for ACL follow-up), which matches the gold answer of 2."
+        }
+    ]
+}

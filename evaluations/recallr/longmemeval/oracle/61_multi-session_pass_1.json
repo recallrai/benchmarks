@@ -1,0 +1,24 @@
+{
+    "index": 61,
+    "question_type": "multi-session",
+    "question": "How many projects have I led or am currently leading?",
+    "question_date": "2023/05/30 (Tue) 04:18",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user led the data analysis team in their Marketing Research class project (Memory 1) and is working on a solo project for their Data Mining class (Memory 3), which together could reasonably be counted as 2 projects led, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the user 'led the data analysis team in their Marketing Research class project' (1 project led) and 'is working on a solo project for their Data Mining class' (1 project currently leading), totaling 2 projects, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states 2 projects, but the retrieved context explicitly identifies 3 projects the user has led or is currently leading (Marketing Research Class Project, Data Mining Class Solo Project, and Social Media Influencer Research), which contradicts the gold answer of 2."
+        }
+    ]
+}

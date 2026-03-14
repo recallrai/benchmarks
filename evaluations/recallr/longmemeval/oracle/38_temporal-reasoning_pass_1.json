@@ -1,0 +1,24 @@
+{
+    "index": 38,
+    "question_type": "temporal-reasoning",
+    "question": "How long did I use my new binoculars before I saw the American goldfinches returning to the area?",
+    "question_date": "2023/05/26 (Fri) 09:53",
+    "ground_truth_answer": "Two weeks",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user got binoculars on May 5, 2023 and saw American goldfinches around May 18-20, 2023 (about a week before May 26), which is approximately two weeks - matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user got binoculars on May 5, 2023, and saw American goldfinches on May 19, 2023 (mentioned in the memory about going birding 'about a week ago'), which is 14 days or exactly two weeks."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The ongoing conversation states the user saw American goldfinches returning 'a week ago' from the question date of May 26, 2023 (placing it around May 19), and the agent analysis notes the first goldfinch sighting was ~13-15 days after getting the binoculars on May 5 \u2014 both approximately two weeks, matching the gold answer."
+        }
+    ]
+}

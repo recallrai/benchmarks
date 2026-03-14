@@ -1,0 +1,24 @@
+{
+    "index": 425,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+    "question_date": "2023/04/01 (Sat) 23:09",
+    "ground_truth_answer": "I got my own set of sculpting tools.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 stating the user acquired sculpting tools on March 4, 2023, which is approximately four weeks before the question date of April 1, 2023, and Memory 2 confirms this was related to an art competition."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating the user acquired a set of sculpting tools on March 4, 2023, which is approximately four weeks before the question date (April 1, 2023), and this relates to the art competition the user was entering, directly matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly confirms the user purchased a set of sculpting tools on March 4, 2023 (approximately four weeks before the question date of April 1, 2023) for a local art competition, which matches the gold answer."
+        }
+    ]
+}

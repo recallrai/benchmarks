@@ -1,0 +1,24 @@
+{
+    "index": 454,
+    "question_type": "multi-session",
+    "question": "What is the total number of days I spent in Japan and Chicago?",
+    "question_date": "2023/05/28 (Sun) 22:56",
+    "ground_truth_answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides Chicago trip duration as 4 days and Japan visit dates as April 15-22 (which equals 7-8 days depending on counting method), allowing calculation of the total as 11-12 days matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user visited Japan from April 15-22 (which is 7-8 days depending on counting method) and Chicago for 4 days, totaling 11-12 days, which matches the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states Japan trip was 8 days (April 15-22) and Chicago was 4 days, totaling 12 days, which matches one of the valid answers in the gold answer '11 days (or 12 days, if April 15th to 22nd is considered as 8 days)'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 54,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+    "question_date": "2023/05/30 (Tue) 08:08",
+    "ground_truth_answer": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about fixing the fence (May 9, 2023) but only mentions the user considering purchasing a cow, with no mention of actually purchasing three cows from Peter, which aligns with the gold answer stating insufficient information about the cow purchase."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user fixing the fence on May 9, 2023, but only mentions considering (not actually purchasing) a cow, with no mention of Peter or purchasing three cows from anyone, which aligns with the gold answer's statement that there is insufficient information."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states there is insufficient information because purchasing cows from Peter was never mentioned, but the retrieved context explicitly contains detailed information about both tasks (fixing the fence ~May 9, 2023 and purchasing three cows from Peter on May 30, 2023), which would lead to an answer contradicting the gold answer."
+        }
+    ]
+}

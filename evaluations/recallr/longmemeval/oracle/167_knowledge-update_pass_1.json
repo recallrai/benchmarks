@@ -1,0 +1,24 @@
+{
+    "index": 167,
+    "question_type": "knowledge-update",
+    "question": "How many Crash Course videos have I watched in the past few weeks?",
+    "question_date": "2023/10/05 (Thu) 21:04",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 that the user 'has finished 15 videos' of Crash Course on computer science, which directly matches the gold answer of 15."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been watching Crash Course videos on computer science and has finished 15 videos', which directly matches the gold answer of 15."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has watched 15 Crash Course videos in the past few weeks, which matches the gold answer of 15."
+        }
+    ]
+}

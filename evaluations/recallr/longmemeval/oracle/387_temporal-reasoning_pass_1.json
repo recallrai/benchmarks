@@ -1,0 +1,24 @@
+{
+    "index": 387,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+    "question_date": "2023/04/22 (Sat) 02:00",
+    "ground_truth_answer": "The order of the concerts I attended is: 1. Billie Eilish concert at the Wells Fargo Center in Philly, 2. Free outdoor concert series in the park, 3. Music festival in Brooklyn, 4. Jazz night at a local bar, 5. Queen + Adam Lambert concert at the Prudential Center in Newark, NJ.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all five concerts/events mentioned in the gold answer with specific dates (Billie Eilish on March 18, outdoor concert on March 25, Brooklyn festival March 26-April 1, jazz night April 8, Queen concert April 15) that allow for correct chronological ordering within the two-month timeframe before April 22, 2023."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all five concerts/musical events mentioned in the gold answer with specific dates that fall within the two-month timeframe (March 18, March 25, April 1, April 8, and approximately April 15, 2023), allowing the question to be answered correctly in chronological order."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms all 5 events in the same order as the gold answer: Billie Eilish (March 18), outdoor park concert (March 25), Brooklyn music festival (March 26-April 1), jazz night at a local bar (April 8), and Queen + Adam Lambert at the Prudential Center in Newark, NJ (early-mid April 2023)."
+        }
+    ]
+}

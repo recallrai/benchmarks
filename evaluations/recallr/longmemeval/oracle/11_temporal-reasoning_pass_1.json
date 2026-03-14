@@ -1,0 +1,24 @@
+{
+    "index": 11,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the purchase of the coffee maker or the malfunction of the stand mixer?",
+    "question_date": "2023/05/22 (Mon) 18:10",
+    "ground_truth_answer": "The malfunction of the stand mixer",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context indicates the stand mixer broke down 'last month' (from May 22 perspective, meaning April 2023) while the coffee maker was purchased 'around early May 2023' (May 1-10), showing the malfunction occurred first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the coffee maker was purchased in early May 2023, while the stand mixer malfunction occurred 'last month' (April 2023) from the May 22, 2023 conversation perspective, indicating the stand mixer malfunction happened first."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states that the coffee maker purchase happened first (early May 2023, approximately May 1\u201310), while the stand mixer malfunction occurred later (around May 8\u201310 or recorded as May 22, 2023). The gold answer claiming the stand mixer malfunction happened first contradicts the context."
+        }
+    ]
+}

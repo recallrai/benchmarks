@@ -1,0 +1,24 @@
+{
+    "index": 234,
+    "question_type": "single-session-assistant",
+    "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+    "question_date": "2023/05/23 (Tue) 04:42",
+    "ground_truth_answer": "Roscioli",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Roscioli' multiple times as a romantic dinner restaurant in Rome, which directly matches the gold answer and would enable correctly answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Roscioli' multiple times as a restaurant for a romantic dinner in Rome, which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Roscioli as the romantic Italian restaurant recommended for dinner in Rome, matching the gold answer exactly."
+        }
+    ]
+}

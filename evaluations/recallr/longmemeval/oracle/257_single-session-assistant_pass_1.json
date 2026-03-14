@@ -1,0 +1,24 @@
+{
+    "index": 257,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+    "question_date": "2023/05/26 (Fri) 15:32",
+    "ground_truth_answer": "28. Kg3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the complete chess game notation showing '27. Kg2 Bd5+ 28. Kg3 Be6', which clearly indicates that the move made after 27. Kg2 Bd5+ was 28. Kg3, matching the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the complete chess game notation showing '27. Kg2 Bd5+ 28. Kg3 Be6', which clearly indicates that the move after 27. Kg2 Bd5+ was 28. Kg3, matching the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that after 27. Kg2 Bd5+, the move played was 28. Kg3, which matches the gold answer exactly."
+        }
+    ]
+}

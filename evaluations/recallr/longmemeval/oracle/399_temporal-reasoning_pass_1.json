@@ -1,0 +1,24 @@
+{
+    "index": 399,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I watch the Super Bowl?",
+    "question_date": "2023/03/01 (Wed) 00:28",
+    "ground_truth_answer": "17 days ago. 18 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user watched the Super Bowl on 2023/02/12, and the conversation started on 2023/03/01, which is 17 days after February 12, matching the gold answer of 17-18 days ago."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the event date (2023/02/12) when the user watched the Super Bowl, and the ongoing conversation started on 2023/03/01, which is 17 days later (18 including both days), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context correctly identifies that the Super Bowl was watched on February 12, 2023, and the question was asked on March 1, 2023, which is exactly 17 days later \u2014 matching the gold answer."
+        }
+    ]
+}

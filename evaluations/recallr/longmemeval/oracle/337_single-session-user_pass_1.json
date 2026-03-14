@@ -1,0 +1,24 @@
+{
+    "index": 337,
+    "question_type": "single-session-user",
+    "question": "What book am I currently reading?",
+    "question_date": "2023/05/27 (Sat) 20:04",
+    "ground_truth_answer": "The Seven Husbands of Evelyn Hugo",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User is currently reading The Seven Husbands of Evelyn Hugo' which directly matches the gold answer and would enable correctly answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'User is currently reading \"The Seven Husbands of Evelyn Hugo\"' which exactly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is currently reading 'The Seven Husbands of Evelyn Hugo', which matches the gold answer exactly."
+        }
+    ]
+}

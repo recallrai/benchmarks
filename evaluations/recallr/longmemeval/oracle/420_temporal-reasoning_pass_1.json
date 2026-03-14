@@ -1,0 +1,24 @@
+{
+    "index": 420,
+    "question_type": "temporal-reasoning",
+    "question": "What is the artist that I started to listen to last Friday?",
+    "question_date": "2023/04/05 (Wed) 15:05",
+    "ground_truth_answer": "a bluegrass band that features a banjo player",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory #2 states 'User recently discovered a bluegrass band that features a banjo player' with an event date of 2023/03/31 (which was a Friday), matching the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User recently discovered a bluegrass band that features a banjo player' with an event date of 2023/03/31 (which was a Friday), matching the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user 'recently discovered a bluegrass band that features a banjo player,' which matches the gold answer exactly."
+        }
+    ]
+}

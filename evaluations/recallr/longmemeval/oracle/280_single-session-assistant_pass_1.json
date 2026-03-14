@@ -1,0 +1,24 @@
+{
+    "index": 280,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation where you created two sad songs for me. Can you remind me what was the chord progression for the chorus in the second song?",
+    "question_date": "2023/05/29 (Mon) 23:17",
+    "ground_truth_answer": "C D E F G A B A G F E D C",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains generic memories about the user's interest in songs with musical notation and romantic songs, but does not contain any information about the previous conversation where two sad songs were created or the specific chord progression 'C D E F G A B A G F E D C' for the chorus of the second song."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains high-level summaries about the user requesting sad songs with musical notation, but does not include the actual chord progression (C D E F G A B A G F E D C) for the chorus of the second song."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the chorus of the second song used the melodic note sequence 'C D E F G A B A G F E D C', which matches the gold answer exactly."
+        }
+    ]
+}

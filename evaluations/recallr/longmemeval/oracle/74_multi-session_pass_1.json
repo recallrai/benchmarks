@@ -1,0 +1,24 @@
+{
+    "index": 74,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on luxury items in the past few months?",
+    "question_date": "2023/05/30 (Tue) 23:17",
+    "ground_truth_answer": "$2,500",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three specific luxury purchases ($1,200 Gucci handbag, $800 evening gown, and $500 Italian leather boots) that total exactly $2,500, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three specific luxury purchases ($1,200 Gucci handbag, $800 evening gown, and $500 Italian designer boots) that total exactly $2,500, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the total documented luxury spending is $2,500, matching the gold answer exactly."
+        }
+    ]
+}

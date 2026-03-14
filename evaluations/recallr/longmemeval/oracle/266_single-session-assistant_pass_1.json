@@ -1,0 +1,24 @@
+{
+    "index": 266,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+    "question_date": "2023/05/27 (Sat) 09:58",
+    "ground_truth_answer": "Memrise",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains general information about the user using language learning apps and learning Japanese, but does not contain any mention of Memrise, mnemonics, or a conversation about specific language learning app options."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user requested language learning app recommendations but does not contain any specific app names (including Memrise) or any mention of apps that use mnemonics to help memorize words and phrases."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Memrise as the app that 'uses mnemonics to help learners memorize words, phrases, and grammatical concepts', which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 14,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+    "question_date": "2023/05/22 (Mon) 13:04",
+    "ground_truth_answer": "Fixing the fence",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains specific dates showing the fence was fixed around May 1, 2023 and goat hooves were trimmed around May 8, 2023, which confirms the gold answer that fixing the fence came first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains dates showing the fence was fixed on May 1, 2023 and the goats' hooves were trimmed on May 8, 2023, which allows correctly answering that fixing the fence came first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the Key Findings that 'You completed fixing the fence first, followed by trimming the goats' hooves approximately one week later,' which matches the gold answer."
+        }
+    ]
+}

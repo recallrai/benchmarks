@@ -1,0 +1,24 @@
+{
+    "index": 362,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the friends and family sale at Nordstrom?",
+    "question_date": "2022/12/01 (Thu) 11:48",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the user attended the Nordstrom friends and family sale on 2022/11/18 (found in Summary 1 and Memory 1), and the question was asked on 2022/12/01, which is 13 days or approximately 2 weeks apart, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context indicates the Nordstrom friends and family sale occurred around November 18, 2022 (per the session summary date), and the question was asked on December 1, 2022, which is 13 days or approximately 2 weeks ago, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the Nordstrom friends and family sale occurred approximately 3 days ago (less than 1 week), which contradicts the gold answer of 2 weeks ago. The context would not allow someone to correctly answer the question."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 265,
+    "question_type": "single-session-assistant",
+    "question": "Can you remind me what was the average improvement in framerate when using the Hardware-Aware Modular Training (HAMT) agent in the 'To Adapt or Not to Adapt? Real-Time Adaptation for Semantic Segmentation' submission?",
+    "question_date": "2023/05/26 (Fri) 18:19",
+    "ground_truth_answer": "The average improvement in framerate was approximately 20% when using the Hardware-Aware Modular Training (HAMT) agent.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user is working with the mentioned paper but does not contain any specific information about the Hardware-Aware Modular Training (HAMT) agent or the approximately 20% framerate improvement needed to answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the paper and general information about it, but does not contain any specific information about the HAMT agent's framerate improvement or the 20% figure mentioned in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'an average improvement in framerate of approximately 20% when using the Hardware-Aware Modular Training (HAMT) agent,' which directly matches the gold answer."
+        }
+    ]
+}

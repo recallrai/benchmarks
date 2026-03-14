@@ -1,0 +1,24 @@
+{
+    "index": 214,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+    "question_date": "2023/05/30 (Tue) 02:48",
+    "ground_truth_answer": "The user would prefer responses that build upon their previous experimentation with turbinado sugar, suggesting ingredients or techniques that complement its richer flavor. They might not prefer generic cookie-making advice or suggestions that don't take into account their existing use of turbinado sugar.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple memories about the user's experimentation with turbinado sugar and finding it adds richer flavor, which directly enables providing advice that builds upon their turbinado sugar experimentation as specified in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's experimentation with turbinado sugar and finding it adds a richer flavor, which would enable someone to provide advice that builds upon this experimentation rather than generic cookie advice, as the gold answer suggests."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly documents the user's experimentation with turbinado sugar and their preference for stronger, more intense flavors, which directly aligns with the gold answer's expectation that responses should build upon their turbinado sugar experimentation."
+        }
+    ]
+}

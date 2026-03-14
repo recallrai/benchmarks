@@ -1,0 +1,24 @@
+{
+    "index": 449,
+    "question_type": "multi-session",
+    "question": "How much did I spend on car wash and parking ticket?",
+    "question_date": "2023/05/30 (Tue) 04:05",
+    "ground_truth_answer": "$65",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a car wash expense of $15 (February 3, 2023) and a parking ticket of $50 (January 5, 2023), which totals $65 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains car wash cost of $15 (February 3, 2023) and parking ticket cost of $50 (January 5, 2023), which total $65 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows a car wash expense of $15 and a parking ticket of $50, totaling $65, which matches the gold answer exactly."
+        }
+    ]
+}

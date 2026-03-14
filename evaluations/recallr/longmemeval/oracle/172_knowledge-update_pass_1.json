@@ -1,0 +1,24 @@
+{
+    "index": 172,
+    "question_type": "knowledge-update",
+    "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+    "question_date": "2024/01/12 (Fri) 07:27",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Summary 1 that the user 'has collected 15 over 3 months' and Memory 2 confirms they started collecting around April 2023, with Memory 1 showing they had 15 baseballs by July 2023, which directly answers the question about the first three months of collection."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the user started collecting autographed baseballs around April 2023 and had 15 in their collection as of July 2023 (approximately 3 months later), with Summary 1 explicitly stating 'has collected 15 over 3 months', which matches the gold answer of 15."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 15 autographed baseballs were added in the first three months of the collection, which matches the gold answer exactly."
+        }
+    ]
+}

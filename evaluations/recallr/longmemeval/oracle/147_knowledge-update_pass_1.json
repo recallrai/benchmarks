@@ -1,0 +1,24 @@
+{
+    "index": 147,
+    "question_type": "knowledge-update",
+    "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+    "question_date": "2023/05/28 (Sun) 22:52",
+    "ground_truth_answer": "six",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Summary 2 explicitly states 'They own new black Converse sneakers that have been worn six times,' which matches the gold answer of 'six'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Summary 2 explicitly states 'They own new black Converse sneakers that have been worn six times,' which matches the gold answer of 'six' and would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user has worn their black Converse Chuck Taylor All Star sneakers four times, but the gold answer is six \u2014 these numbers do not match."
+        }
+    ]
+}

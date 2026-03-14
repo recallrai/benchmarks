@@ -1,0 +1,24 @@
+{
+    "index": 413,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I go with to the music event last Saturday?",
+    "question_date": "2023/04/22 (Sat) 11:24",
+    "ground_truth_answer": "my parents",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The question asks about 'last Saturday' from 2023/04/22, which refers to 2023/04/15, and the retrieved context shows the user attended a Queen concert at the Prudential Center on 2023/04/15 accompanied by their parents, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The question asks about 'last Saturday' (April 15, 2023) from the question date of April 22, 2023, and the retrieved context clearly states 'User saw Queen live with Adam Lambert at the Prudential Center in Newark, NJ, accompanied by their parents' with event date April 15, 2023, matching the gold answer 'my parents'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The question was asked on April 22, 2023, making 'last Saturday' April 15, 2023. The context table shows that on April 15, 2023, the user attended a Queen with Adam Lambert concert at the Prudential Center in Newark, NJ with 'Your parents', which matches the gold answer 'my parents'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 371,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I attend the Seattle International Film Festival?",
+    "question_date": "2021/10/02 (Sat) 09:44",
+    "ground_truth_answer": "4 months ago",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user attended SIFF on June 1st, 2021, and the question was asked on October 2, 2021, which is indeed approximately 4 months later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user attended SIFF on June 1st, 2021, and the question was asked on October 2nd, 2021, which is indeed approximately 4 months later, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms SIFF attendance on June 1, 2021, and the question was asked on October 2, 2021, which is approximately 4 months later, matching the gold answer."
+        }
+    ]
+}

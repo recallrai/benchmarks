@@ -1,0 +1,24 @@
+{
+    "index": 464,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the car cover and detailing spray I purchased?",
+    "question_date": "2023/05/24 (Wed) 22:16",
+    "ground_truth_answer": "$140",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the car cover cost of $120 (Memory 1) and the detailing spray cost of $20 (Memory 2), which totals to $140 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user purchased a car cover for $120 and had a detailing spray from Amazon for $20 that they previously used, totaling $140 which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly shows the car cover cost $120 and the detailing spray cost $20, totaling $140, which matches the gold answer exactly."
+        }
+    ]
+}

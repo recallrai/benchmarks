@@ -1,0 +1,24 @@
+{
+    "index": 459,
+    "question_type": "multi-session",
+    "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+    "question_date": "2023/05/28 (Sun) 13:45",
+    "ground_truth_answer": "8 meals",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The context states lentil soup lasted for 5 lunches but only mentions the user was on their 'third meal' from the chicken fajitas batch without specifying the total number of meals from that batch, making it impossible to definitively calculate the total of 8 meals."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The context explicitly states lentil soup provided 5 lunches, but only mentions the user was on their 'third meal' from chicken fajitas without confirming the total number of meals from that batch, making it impossible to definitively arrive at 8 total meals."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states a combined total of 8 lunch meals (3 from chicken fajitas + 5 from lentil soup), which matches the gold answer of 8 meals."
+        }
+    ]
+}

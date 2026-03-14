@@ -1,0 +1,24 @@
+{
+    "index": 412,
+    "question_type": "temporal-reasoning",
+    "question": "What charity event did I participate in a month ago?",
+    "question_date": "2023/04/18 (Tue) 07:36",
+    "ground_truth_answer": "the 'Walk for Hunger' charity event",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The question asks about a charity event from a month ago (from April 18, 2023, which would be around March 18, 2023), and the retrieved context clearly states the user participated in the 'Walk for Hunger' charity event on March 19, 2023, which matches the gold answer and the timeframe."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user participated in the 'Walk for Hunger' charity event on March 19, 2023, which is approximately one month before the question date of April 18, 2023, matching the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the 'Walk for Hunger' event on March 19, 2023, which aligns with 'a month ago' from the question date of April 18, 2023, matching the gold answer."
+        }
+    ]
+}

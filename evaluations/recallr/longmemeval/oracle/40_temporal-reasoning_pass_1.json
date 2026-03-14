@@ -1,0 +1,24 @@
+{
+    "index": 40,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been accepted into the exchange program when I started attending the pre-departure orientation sessions?",
+    "question_date": "2023/04/19 (Wed) 15:42",
+    "ground_truth_answer": "one week",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user was accepted on March 20th, 2023 and started attending orientation sessions on March 27, 2023, which is exactly one week apart, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user was accepted on March 20th but does not contain any information about when the user started attending pre-departure orientation sessions, which is necessary to calculate the time difference."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user had been accepted for exactly 1 week (7 days) when they started attending pre-departure orientation sessions (accepted March 20, 2023; started orientation March 27, 2023), which matches the gold answer of 'one week'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 492,
+    "question_type": "multi-session",
+    "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+    "question_date": "2023/05/25 (Thu) 05:00",
+    "ground_truth_answer": "30 minutes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows version 1 (active at question time) states user wakes at 6:00 AM on Fridays, while version 2 states 6:30 AM on weekdays, indicating a 30-minute difference matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user wakes up at 6:00 AM on Fridays (version 1, expired memory) and 6:30 AM on other weekdays (version 2, current memory), which is a 30-minute difference matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user previously woke up at 6:00 AM on Fridays, which was '30 minutes earlier' than the standard 6:30 AM weekday wake-up time, matching the gold answer of 30 minutes."
+        }
+    ]
+}

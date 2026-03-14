@@ -1,0 +1,24 @@
+{
+    "index": 155,
+    "question_type": "knowledge-update",
+    "question": "How long have I been sticking to my daily tidying routine?",
+    "question_date": "2023/09/30 (Sat) 18:36",
+    "ground_truth_answer": "4 weeks",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory (Memory 1, Version 2) that explicitly states 'User has been maintaining a daily tidying routine for 4 weeks', which directly matches the gold answer of '4 weeks'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'User has been maintaining a daily tidying routine for 4 weeks', which exactly matches the gold answer of '4 weeks'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has been maintaining their daily tidying routine for 4 weeks as of September 30, 2023, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 350,
+    "question_type": "single-session-user",
+    "question": "What is the name of my hamster?",
+    "question_date": "2023/05/22 (Mon) 13:42",
+    "ground_truth_answer": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple memories about a cat named Luna but no information about any hamster, which aligns with the gold answer stating the user did not mention hamster information but did mention their cat Luna."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's cat Luna but no information about a hamster, which matches the gold answer stating the user did not mention this information about a hamster."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states there is no hamster name in the memory graph, and the only pet on record is a cat named Luna, which directly matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 472,
+    "question_type": "multi-session",
+    "question": "How many dinner parties have I attended in the past month?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "three",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three dinner party events attended in May 2023 (past month from question date): BBQ at Mike's on May 7th, potluck at Alex's on May 20th, and Italian feast at Sarah's last week (May 22-28), matching the gold answer of 'three'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three dinner parties attended by the user in the past month from the question date (2023/05/30): BBQ at Mike's place on May 7th, potluck at Alex's place on May 20th, and Italian feast at Sarah's place last week (May 22-28), which matches the gold answer of three."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states three dinner parties, but the retrieved context explicitly states the user attended only 2 confirmed dinner parties (Alex's potluck on May 20 and Sarah's Italian feast ~May 22-28), with the BBQ at Mike's place on May 7 being categorized as a BBQ/social gathering rather than a dinner party. The context would lead someone to answer 'two' rather than 'three'."
+        }
+    ]
+}

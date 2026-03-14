@@ -1,0 +1,24 @@
+{
+    "index": 287,
+    "question_type": "single-session-user",
+    "question": "How long is my daily commute to work?",
+    "question_date": "2023/05/30 (Tue) 08:00",
+    "ground_truth_answer": "45 minutes each way",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User listens to audiobooks during their daily commute, which takes 45 minutes each way,' which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Memory #1 explicitly states 'User listens to audiobooks during their daily commute, which takes 45 minutes each way', which directly matches the gold answer of '45 minutes each way'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the daily commute is '45 minutes each way', which matches the gold answer exactly."
+        }
+    ]
+}

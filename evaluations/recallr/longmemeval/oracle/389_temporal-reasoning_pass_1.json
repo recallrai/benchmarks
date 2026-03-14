@@ -1,0 +1,24 @@
+{
+    "index": 389,
+    "question_type": "temporal-reasoning",
+    "question": "Which mode of transport did I use most recently, a bus or a train?",
+    "question_date": "2023/05/02 (Tue) 14:37",
+    "ground_truth_answer": "train",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows a train ride on March 3rd, 2023 and a bus ride on February 27, 2023, making the train the most recently used mode of transport, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user took a bus on February 27, 2023 and took a train on March 3rd, 2023, making the train the most recent mode of transport, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies the train (taken on March 3rd, 2023) as the most recently used mode of transport, which matches the gold answer of 'train'."
+        }
+    ]
+}

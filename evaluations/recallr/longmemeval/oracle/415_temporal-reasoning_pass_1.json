@@ -1,0 +1,24 @@
+{
+    "index": 415,
+    "question_type": "temporal-reasoning",
+    "question": "What was the airline that I flied with on Valentine's day?",
+    "question_date": "2023/03/02 (Thu) 21:56",
+    "ground_truth_answer": "American Airlines",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory #9 which explicitly states 'User had a previous American Airlines flight from LAX to JFK that was delayed by 2 hours due to bad weather conditions' with Event Date: 2023/02/14 (Valentine's Day), matching the gold answer of American Airlines."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory explicitly stating the user had an American Airlines flight from LAX to JFK on 2023/02/14 (Valentine's Day), which matches the gold answer of American Airlines."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that on Valentine's Day (February 14, 2023), the user flew with American Airlines on a flight from LAX to JFK, which matches the gold answer."
+        }
+    ]
+}

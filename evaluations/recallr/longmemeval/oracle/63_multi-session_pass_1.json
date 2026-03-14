@@ -1,0 +1,24 @@
+{
+    "index": 63,
+    "question_type": "multi-session",
+    "question": "How many days did I spend on camping trips in the United States this year?",
+    "question_date": "2023/04/29 (Sat) 22:31",
+    "ground_truth_answer": "8 days.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about a 3-day camping trip to Big Sur in April 2023 and a 5-day camping trip to Yellowstone in March 2023, which together total 8 days, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two camping trips in the US in 2023: a 5-day trip to Yellowstone in March 2023 and a 3-day trip to Big Sur in early April 2023, which total 8 days and match the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 8 days on camping trips in the United States in 2023 (5 days at Yellowstone + 3 days at Big Sur), which matches the gold answer exactly."
+        }
+    ]
+}

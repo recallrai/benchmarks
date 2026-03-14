@@ -1,0 +1,24 @@
+{
+    "index": 77,
+    "question_type": "multi-session",
+    "question": "How many babies were born to friends and family members in the last few months?",
+    "question_date": "2023/05/13 (Sat) 20:23",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 5 babies born to friends and family in March-April 2023: twins Ava and Lily (aunt's babies in April), Jasper (friend David's baby in late April), Max (cousin Rachel's baby in March), and Charlotte (friends Mike and Emma's baby in March)."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 5 babies born to friends and family in March-April 2023: Max (cousin Rachel's son), Charlotte (friends Mike and Emma's daughter), Ava and Lily (aunt's twins), and Jasper (friend David's son), which matches the gold answer of 5."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context confirms exactly 5 babies were born (Charlotte and Max in March, and twins Ava & Lily plus Jasper in April), with Aaliyah being adopted rather than born. The gold answer of 5 matches the number of biological births."
+        }
+    ]
+}

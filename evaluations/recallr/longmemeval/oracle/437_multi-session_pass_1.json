@@ -1,0 +1,24 @@
+{
+    "index": 437,
+    "question_type": "multi-session",
+    "question": "What percentage of packed shoes did I wear on my last trip?",
+    "question_date": "2023/05/28 (Sun) 15:36",
+    "ground_truth_answer": "40%",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user wore 2 pairs of shoes (sneakers and sandals) out of 5 pairs packed on their last trip, which calculates to 40% matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user packed 5 pairs of shoes and only wore 2 pairs (sneakers and sandals) on their last trip, which equals 40% (2/5)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user wore 2 out of 5 pairs of shoes (40%) on their last trip, which matches the gold answer of 40%."
+        }
+    ]
+}

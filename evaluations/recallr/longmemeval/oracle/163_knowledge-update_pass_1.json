@@ -1,0 +1,24 @@
+{
+    "index": 163,
+    "question_type": "knowledge-update",
+    "question": "How many tops have I bought from H&M so far?",
+    "question_date": "2023/10/20 (Fri) 18:28",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory (Version 2) stating 'User owns five tops from H&M', which directly matches the gold answer of 'five' and would enable someone to correctly answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User owns five tops from H&M' which directly matches the gold answer of 'five' and would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has purchased five (5) tops from H&M, which matches the gold answer exactly."
+        }
+    ]
+}

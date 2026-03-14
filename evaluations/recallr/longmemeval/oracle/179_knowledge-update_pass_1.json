@@ -1,0 +1,24 @@
+{
+    "index": 179,
+    "question_type": "knowledge-update",
+    "question": "How many followers do I have on Instagram now?",
+    "question_date": "2023/06/03 (Sat) 09:01",
+    "ground_truth_answer": "1300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the current memory that the user has approximately 1300 followers on Instagram (as of 2023/05/28), which matches the gold answer of 1300 and would enable correctly answering the question asked on 2023/06/03."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory stating 'user has approximately 1300 followers on Instagram' from 2023/05/28, which is 6 days before the question date and directly matches the gold answer of 1300."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the most recent recorded Instagram follower count is approximately 1,300 followers, matching the gold answer of 1300."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 365,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a baking class at a local culinary school when I made my friend's birthday cake?",
+    "question_date": "2022/04/15 (Fri) 14:21",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the baking class date (March 20, 2022) and the friend's birthday cake date (April 10, 2022), which allows for calculating the 21-day difference (or 22 days including the last day) between these two events."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both key dates: the baking class at the local culinary school on March 20, 2022 (from Summary 2, Memory 2) and the friend's birthday cake made on April 10, 2022 (from Summary 1, Memory 4), which allows calculation of the 21-22 day difference matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the baking class at the local culinary school was '21 days ago' (March 20, 2022), which matches the gold answer of 21 days."
+        }
+    ]
+}

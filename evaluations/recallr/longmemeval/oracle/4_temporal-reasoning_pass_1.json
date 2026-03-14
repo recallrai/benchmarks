@@ -1,0 +1,24 @@
+{
+    "index": 4,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Communication in the Workplace'?",
+    "question_date": "2023/01/13 (Fri) 19:39",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the workshop was on January 10th, 2023 and the team meeting was on January 17th, 2023, which is exactly 7 days apart (8 if counting inclusively), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the workshop was on January 10th, 2023 and the team meeting was on January 17th, 2023, which allows for calculating the correct answer of 7 days (or 8 days inclusive)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the workshop was attended 7 days before the team meeting (January 10th workshop, January 17th team meeting), which matches the gold answer of 7 days."
+        }
+    ]
+}

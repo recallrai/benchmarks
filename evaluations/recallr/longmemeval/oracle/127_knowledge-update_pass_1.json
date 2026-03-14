@@ -1,0 +1,24 @@
+{
+    "index": 127,
+    "question_type": "knowledge-update",
+    "question": "Is my mom using the same grocery list method as me?",
+    "question_date": "2023/05/08 (Mon) 03:18",
+    "ground_truth_answer": "Yes.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The most current memory (Version 2, April 30, 2023) states the user 'shares' the grocery list app with their mom, and Summary 2 confirms 'They share a grocery list app with their mom for easy collaboration,' which indicates they are both using the same method."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows that the user shares a grocery list app with their mom (as stated in Memory 1 Version 2 and Summary 2 from April 30, 2023), which indicates they are using the same method, supporting the 'Yes' answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that the user's mom is using the same grocery list app as the user, which matches the gold answer of 'Yes.'"
+        }
+    ]
+}

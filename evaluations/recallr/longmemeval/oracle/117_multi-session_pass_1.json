@@ -1,0 +1,24 @@
+{
+    "index": 117,
+    "question_type": "multi-session",
+    "question": "How many different museums or galleries did I visit in December?",
+    "question_date": "2023/03/03 (Fri) 18:26",
+    "ground_truth_answer": "0. You did not mention visitng any museum in December",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple museum/gallery visits (Modern Art Museum in January, Natural History Museum on February 8th, The Art Cube gallery on February 15th) but no mentions of any visits in December, which supports the gold answer that 0 museums were visited in December."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions museum/gallery visits only in January (Modern Art Museum) and February (Natural History Museum on 2/8, The Art Cube on 2/15), with no mentions of any visits in December, which aligns with the gold answer stating 0 visits in December."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that there are no recorded museum or gallery visits in December, with zero results found even when searching for the word 'December' across all memories, which matches the gold answer of 0 visits."
+        }
+    ]
+}

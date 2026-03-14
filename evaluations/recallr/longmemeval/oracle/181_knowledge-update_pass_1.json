@@ -1,0 +1,24 @@
+{
+    "index": 181,
+    "question_type": "knowledge-update",
+    "question": "How many projects have I completed since starting painting classes?",
+    "question_date": "2023/10/20 (Fri) 12:00",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current active memory (Version 2) that explicitly states 'User takes painting classes and has completed 5 projects since starting,' which directly matches the gold answer of 5."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User takes painting classes and has completed 5 projects since starting' in the current version of Memory 1, which directly matches the gold answer of 5."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has completed 5 projects since starting painting classes, which matches the gold answer of 5."
+        }
+    ]
+}

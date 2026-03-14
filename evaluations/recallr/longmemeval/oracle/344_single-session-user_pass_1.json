@@ -1,0 +1,24 @@
+{
+    "index": 344,
+    "question_type": "single-session-user",
+    "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+    "question_date": "2023/05/29 (Mon) 22:42",
+    "ground_truth_answer": "24 hours",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User learned from Alex that he marinates ribs in a special sauce for 24 hours before grilling', which directly matches the gold answer of 24 hours."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User learned from Alex that he marinates ribs in a special sauce for 24 hours before grilling,' which directly matches the gold answer of 24 hours."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Alex marinated his BBQ ribs in a special sauce for 24 hours, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 373,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amazon gift card from Ibotta'?",
+    "question_date": "2023/05/10 (Wed) 06:18",
+    "ground_truth_answer": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three events with specific dates (April 1st for Walmart coupon, April 10th for Ibotta redemption, and April 15th for ShopRite signup) that match the chronological order stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains specific dates for all three events (Walmart coupon on April 1st, Ibotta redemption on April 10th, ShopRite signup on April 15th) which matches the chronological order stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms the same chronological order as the gold answer: Walmart BOGO coupon (April 1), Ibotta cashback redemption (April 10), and ShopRite rewards signup (April 15), which matches perfectly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 275,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual gemstones?",
+    "question_date": "2023/05/29 (Mon) 20:24",
+    "ground_truth_answer": "@jessica_poole_jewellery",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about engagement rings and designers occurred, but does not contain the specific Instagram handle @jessica_poole_jewellery or any other Instagram handles that would allow someone to answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about engagement rings and designers occurred, but does not contain the specific Instagram handle @jessica_poole_jewellery or any information about a UK-based designer working with unusual gemstones that would enable answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the UK-based designer who works with unusual gemstones is Jessica Poole, with the Instagram handle @jessica_poole_jewellery, which matches the gold answer exactly."
+        }
+    ]
+}

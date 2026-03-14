@@ -1,0 +1,24 @@
+{
+    "index": 132,
+    "question_type": "knowledge-update",
+    "question": "Where do I initially keep my old sneakers?",
+    "question_date": "2023/11/30 (Thu) 14:06",
+    "ground_truth_answer": "under my bed",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains version history showing that initially (version 1) the user stored old sneakers under the bed, which matches the gold answer, even though they later planned to move them to a shoe rack in the closet."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains version history showing Version 1 (the initial memory) states 'User stores old sneakers under the bed', which directly matches the gold answer 'under my bed' and answers where the user initially kept them."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the sneakers were kept 'under my bed', but the retrieved context consistently states they were stored in the closet, which is a different location entirely."
+        }
+    ]
+}

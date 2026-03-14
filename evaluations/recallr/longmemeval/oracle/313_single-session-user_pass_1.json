@@ -1,0 +1,24 @@
+{
+    "index": 313,
+    "question_type": "single-session-user",
+    "question": "How old was I when my grandma gave me the silver necklace?",
+    "question_date": "2023/05/27 (Sat) 13:18",
+    "ground_truth_answer": "18",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the silver necklace was a gift from the user's grandma on their 18th birthday, which directly answers the question about how old they were."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User owns a silver necklace that was a gift from their grandma on their 18th birthday,' which directly answers the question with the same age as the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user was 18 years old when their grandma gave them the silver necklace, matching the gold answer of 18."
+        }
+    ]
+}

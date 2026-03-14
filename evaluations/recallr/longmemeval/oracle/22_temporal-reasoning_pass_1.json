@@ -1,0 +1,24 @@
+{
+    "index": 22,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+    "question_date": "2023/12/10 (Sun) 19:41",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact dates needed to calculate the answer: Holiday Market on November 17, 2023 and iPhone 13 Pro purchase on November 24, 2023, which is 7 days apart."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both dates needed to calculate the answer: Holiday Market on November 17, 2023 and iPhone 13 Pro purchase on November 24, 2023, which is 7 days apart, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the Holiday Market was attended on November 17, 2023, and the iPhone 13 Pro was purchased on November 24, 2023, confirming a 7-day gap, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 401,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+    "question_date": "2023/06/20 (Tue) 12:29",
+    "ground_truth_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user returned from the whitewater rafting trip on June 17th, 2023, and the question was asked on June 20, 2023, which is 3 days later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user returned from the whitewater rafting trip on June 17th, 2023, and the question was asked on June 20, 2023, which is exactly 3 days later, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the rafting trip ended on June 17, 2023, and the question was asked on June 20, 2023, making it exactly 3 days ago, which matches the gold answer."
+        }
+    ]
+}

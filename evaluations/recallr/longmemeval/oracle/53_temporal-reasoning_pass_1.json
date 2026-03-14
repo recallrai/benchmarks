@@ -1,0 +1,24 @@
+{
+    "index": 53,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the day I bought a gift for my brother's graduation ceremony and the day I bought a birthday gift for my best friend?",
+    "question_date": "2023/03/29 (Wed) 11:57",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the brother's graduation gift was bought on March 8th, 2023 (Memory 1) and the best friend's birthday was March 15th, 2023 (Memory 2), which is 7 days apart (8 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the brother's graduation gift was bought on March 8th, 2023 and the best friend's birthday (when the birthday gift was purchased) was March 15th, 2023, which is 7 days apart (or 8 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the gap between the two gift purchases was 21 days (March 8 to March 29, 2023), but the gold answer states it was 7 days (or 8 days inclusive), which is a significant discrepancy."
+        }
+    ]
+}

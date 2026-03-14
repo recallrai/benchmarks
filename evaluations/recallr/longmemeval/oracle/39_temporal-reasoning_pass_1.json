@@ -1,0 +1,24 @@
+{
+    "index": 39,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, Mark and Sarah or Tom?",
+    "question_date": "2023/05/28 (Sun) 17:00",
+    "ground_truth_answer": "Tom",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows Tom was met at a charity event 'a few months prior to May 2023' (event date: Feb-Apr 2023) while Mark and Sarah were met 'about a month ago' on a beach trip (event date: Apr 25-May 1, 2023), indicating Tom was met first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows Tom was met 'a few months prior to May 2023' (Feb-Apr 2023) while Mark and Sarah were met 'about a month ago' (late April 2023), clearly indicating Tom was met first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'You met Tom first' before Mark and Sarah, matching the gold answer of 'Tom'."
+        }
+    ]
+}

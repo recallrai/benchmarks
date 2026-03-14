@@ -1,0 +1,24 @@
+{
+    "index": 351,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage films?",
+    "question_date": "2023/05/24 (Wed) 21:54",
+    "ground_truth_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user collecting vintage cameras but no information about collecting vintage films, which aligns with the gold answer's clarification that the user mentioned cameras but not films."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about collecting vintage cameras but no information about collecting vintage films, which aligns with the gold answer's clarification."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that there are no records of the user collecting vintage films, and that the user's documented collection is vintage cameras (for 3 months), which matches the gold answer exactly."
+        }
+    ]
+}

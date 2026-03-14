@@ -1,0 +1,24 @@
+{
+    "index": 417,
+    "question_type": "temporal-reasoning",
+    "question": "Which bike did I fixed or serviced the past weekend?",
+    "question_date": "2023/03/21 (Tue) 05:24",
+    "ground_truth_answer": "road bike",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows that on March 19th, 2023 (which falls within the weekend of March 18-19, 2023), the user upgraded their road bike's pedals to clipless pedals, which constitutes servicing the road bike during a weekend, matching the gold answer of 'road bike'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the road bike needed maintenance and was being serviced during March 15-19, 2023 (including the weekend of March 18-19), with spongy brakes, gear issues, and pedal upgrades mentioned, which aligns with the gold answer of 'road bike'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that the road bike was serviced and worked on during the past weekend (March 18\u201319, 2023), which matches the gold answer of 'road bike'."
+        }
+    ]
+}

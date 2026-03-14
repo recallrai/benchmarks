@@ -1,0 +1,24 @@
+{
+    "index": 62,
+    "question_type": "multi-session",
+    "question": "How many model kits have I worked on or bought?",
+    "question_date": "2023/05/30 (Tue) 21:08",
+    "ground_truth_answer": "I have worked on or bought five model kits. The scales of the models are: Revell F-15 Eagle (scale not mentioned), Tamiya 1/48 scale Spitfire Mk.V, 1/16 scale German Tiger I tank, 1/72 scale B-29 bomber, and 1/24 scale '69 Camaro.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about all five model kits mentioned in the gold answer: Revell F-15 Eagle (completed), Tamiya 1/48 Spitfire Mk.V (completed), 1/16 Tiger I tank (working on), 1/72 B-29 bomber (purchased), and 1/24 '69 Camaro (purchased), which would enable someone to correctly answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about all five model kits mentioned in the gold answer: Revell F-15 Eagle (finished), Tamiya 1/48 scale Spitfire Mk.V (completed), 1/16 scale German Tiger I tank (working on), 1/72 scale B-29 bomber (purchased), and 1/24 scale '69 Camaro (purchased)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms exactly 5 model kits matching the gold answer: Revell F-15 Eagle, Tamiya 1/48 Spitfire Mk.V, 1/16 German Tiger I tank, 1/72 B-29 bomber, and 1/24 '69 Camaro."
+        }
+    ]
+}

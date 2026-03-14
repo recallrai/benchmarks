@@ -1,0 +1,24 @@
+{
+    "index": 406,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I fixed my mountain bike and the day I decided to upgrade my road bike's pedals?",
+    "question_date": "2023/04/10 (Mon) 18:16",
+    "ground_truth_answer": "4 days. 5 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The context shows the mountain bike was fixed on March 15, 2023, and the decision to upgrade road bike pedals was also made on March 15, 2023 (per Memory 1 version 1), which would be 0 days apart, not the 4-5 days indicated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user fixed their mountain bike on March 15, 2023 and decided to purchase/upgrade pedals on March 15, 2023 (which became reality on March 19, 2023), providing the dates needed to calculate the 4-5 day difference expected in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states there were 4 days between fixing the mountain bike (March 15, 2023) and deciding to upgrade the road bike's pedals (March 19, 2023), which matches the gold answer of 4 days."
+        }
+    ]
+}

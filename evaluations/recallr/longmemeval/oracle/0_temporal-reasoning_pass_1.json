@@ -1,0 +1,24 @@
+{
+    "index": 0,
+    "question_type": "temporal-reasoning",
+    "question": "What was the first issue I had with my new car after its first service?",
+    "question_date": "2023/04/10 (Mon) 23:07",
+    "ground_truth_answer": "GPS system not functioning correctly",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the first service was on March 15, 2023, and mentions a GPS system issue on March 22, 2023 (after the service), which matches the gold answer about GPS system not functioning correctly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the first service was on March 15th, 2023, and mentions a GPS system issue on March 22, 2023 (after the service), which matches the gold answer about GPS system not functioning correctly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the first issue after the first service was a GPS system malfunction, which matches the gold answer of 'GPS system not functioning correctly'."
+        }
+    ]
+}

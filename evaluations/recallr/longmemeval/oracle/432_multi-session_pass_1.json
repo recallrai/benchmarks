@@ -1,0 +1,24 @@
+{
+    "index": 432,
+    "question_type": "multi-session",
+    "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "100",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user started 2023 with 250 Instagram followers and has approximately 350 followers as of May 2023 after two weeks of posting regularly, which gives an increase of 100 followers (350-250=100), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user started with 250 Instagram followers and had approximately 350 followers after two weeks of posting regularly, which equals an increase of 100 followers matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states an approximate increase of ~100 Instagram followers over a two-week period, matching the gold answer of 100."
+        }
+    ]
+}

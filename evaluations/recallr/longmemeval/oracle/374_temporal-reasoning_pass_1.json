@@ -1,0 +1,24 @@
+{
+    "index": 374,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks in total do I spent on reading 'The Nightingale' and listening to 'Sapiens: A Brief History of Humankind' and 'The Power'?",
+    "question_date": "2022/04/30 (Sat) 03:21",
+    "ground_truth_answer": "2 weeks for 'The Nightingale', 4 weeks for 'Sapiens: A Brief History of Humankind', and 2 weeks for 'The Power', so a total of 8 weeks.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact start and end dates for all three books (Jan 1-15 for The Nightingale = 2 weeks, Feb 1-Mar 1 for Sapiens = 4 weeks, Mar 6-20 for The Power = 2 weeks), which allows calculation of the 8-week total matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact start and end dates for all three books (The Nightingale: Jan 1-15, Sapiens: Feb 1-Mar 1, The Power: Mar 6-20), which correctly calculates to 2, 4, and 2 weeks respectively, totaling 8 weeks as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms the exact breakdown matching the gold answer: 2 weeks for 'The Nightingale', 4 weeks for 'Sapiens: A Brief History of Humankind', and 2 weeks for 'The Power', totaling 8 weeks."
+        }
+    ]
+}

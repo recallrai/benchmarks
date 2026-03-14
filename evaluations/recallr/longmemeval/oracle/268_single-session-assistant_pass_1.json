@@ -1,0 +1,24 @@
+{
+    "index": 268,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+    "question_date": "2023/05/29 (Mon) 07:37",
+    "ground_truth_answer": "Patagonia and Southwest Airlines.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user asked for examples of companies like Triumvirate but does not contain the actual company names (Patagonia and Southwest Airlines) that would answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user asked about companies that prioritize employee safety like Triumvirate, but does not contain any mention of the specific companies (Patagonia and Southwest Airlines) that were supposedly provided as examples."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Patagonia and Southwest Airlines as the two companies mentioned in the previous conversation that prioritize employee safety and well-being like Triumvirate, matching the gold answer exactly."
+        }
+    ]
+}

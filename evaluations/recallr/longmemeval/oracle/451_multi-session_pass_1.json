@@ -1,0 +1,24 @@
+{
+    "index": 451,
+    "question_type": "multi-session",
+    "question": "What are the two hobbies that led me to join online communities?",
+    "question_date": "2023/05/29 (Mon) 21:10",
+    "ground_truth_answer": "photography and cooking",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly indicates the user joined online communities for both cooking (memories 1-4) and photography (memory 5), which matches the gold answer of photography and cooking."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has joined online communities related to cooking' (Memory 1) and 'is part of online photography communities' (Memory 2), directly matching the gold answer of photography and cooking."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies photography and cooking as the two distinct hobbies that led the user to join online communities, matching the gold answer exactly."
+        }
+    ]
+}

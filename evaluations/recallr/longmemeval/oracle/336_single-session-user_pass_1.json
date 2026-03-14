@@ -1,0 +1,24 @@
+{
+    "index": 336,
+    "question_type": "single-session-user",
+    "question": "What size is my new Samsung TV?",
+    "question_date": "2023/05/24 (Wed) 19:09",
+    "ground_truth_answer": "55-inch",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states 'User owns a Samsung 55-inch 4K smart TV' which directly matches the gold answer of '55-inch'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that the user owns a Samsung 55-inch 4K smart TV, which directly matches the gold answer of '55-inch'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the Samsung TV is 55 inches (a Samsung 55-inch 4K Smart TV), which matches the gold answer of '55-inch'."
+        }
+    ]
+}

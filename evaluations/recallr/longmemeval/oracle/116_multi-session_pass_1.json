@@ -1,0 +1,24 @@
+{
+    "index": 116,
+    "question_type": "multi-session",
+    "question": "How many times did I bake egg tarts in the past two weeks?",
+    "question_date": "2023/05/29 (Mon) 05:37",
+    "ground_truth_answer": "The information provided is not enough. You did not mention baking egg tarts.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no mention of egg tarts, only other baking activities (cookies, chocolate cake, bread, chicken wings), which correctly supports the gold answer that the user did not mention baking egg tarts."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no mention of egg tarts, which correctly aligns with the gold answer stating that no information about baking egg tarts was provided."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that there are no records of the user baking egg tarts at any point, which matches the gold answer that the information is not enough and the user did not mention baking egg tarts."
+        }
+    ]
+}

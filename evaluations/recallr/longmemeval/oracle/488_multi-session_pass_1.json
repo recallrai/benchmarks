@@ -1,0 +1,24 @@
+{
+    "index": 488,
+    "question_type": "multi-session",
+    "question": "What was the page count of the two novels I finished in January and March?",
+    "question_date": "2023/05/29 (Mon) 23:44",
+    "ground_truth_answer": "856",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context does not contain information about novels finished in January 2023 or March 2023; 'The Power' was read in December 2022 and 'The Nightingale' has an event date of April-May 2023, neither matching the requested timeframe."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, no session summaries, and no information about novels finished in January and March or their page counts that would allow answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states that no information about a March novel exists in the memory graph, and while it identifies a 416-page unnamed novel and 'The Nightingale' at 440 pages (which sum to 856), both appear to be from January \u2014 the context cannot support identifying a specific January + March combination totaling 856 pages."
+        }
+    ]
+}

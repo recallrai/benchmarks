@@ -1,0 +1,24 @@
+{
+    "index": 131,
+    "question_type": "knowledge-update",
+    "question": "Where did I go on my most recent family trip?",
+    "question_date": "2023/06/09 (Fri) 21:26",
+    "ground_truth_answer": "Paris",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user took a family trip to Hawaii in May 2023 (May 8-28) and to Paris in April 2023, making Hawaii the most recent family trip as of the question date (June 9, 2023), not Paris."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows two family trips: Paris in April 2023 and Hawaii in May 2023 (May 8-28), with the question asked on June 9, 2023, making Hawaii the most recent family trip, not Paris."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states that the most recent family trip was to Hawaii (May 8\u201328, 2023), not Paris (April 2023), directly contradicting the gold answer of 'Paris'."
+        }
+    ]
+}

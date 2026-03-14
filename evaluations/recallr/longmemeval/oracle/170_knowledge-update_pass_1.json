@@ -1,0 +1,24 @@
+{
+    "index": 170,
+    "question_type": "knowledge-update",
+    "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+    "question_date": "2023/06/19 (Mon) 14:41",
+    "ground_truth_answer": "Premier Silver",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows version history where Premier Silver (version 1, expired) was the user's status before achieving Premier Gold (version 2, current), which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows in Memory 1's version history that the user's previous status was 'Premier Silver' (version 1, expired) before achieving the current 'Premier Gold' status (version 2, current), which matches the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the previous frequent flyer status on United Airlines MileagePlus was 'Premier Silver', which matches the gold answer exactly."
+        }
+    ]
+}

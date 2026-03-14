@@ -1,0 +1,24 @@
+{
+    "index": 44,
+    "question_type": "temporal-reasoning",
+    "question": "How many months before my anniversary did Rachel get engaged?",
+    "question_date": "2023/07/07 (Fri) 23:22",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Rachel's engagement date (May 15, 2023) and the user's anniversary date (July 22nd), which allows calculation of the 2-month difference matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states Rachel got engaged on May 15, 2023 and the user's wedding anniversary is on July 22nd, which is approximately 2 months later, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states Rachel got engaged on May 15, 2023, and the user's anniversary is July 22nd, which is approximately 2 months and 7 days \u2014 rounded to 2 months, matching the gold answer."
+        }
+    ]
+}

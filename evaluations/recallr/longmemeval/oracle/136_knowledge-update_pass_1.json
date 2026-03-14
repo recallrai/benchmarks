@@ -1,0 +1,24 @@
+{
+    "index": 136,
+    "question_type": "knowledge-update",
+    "question": "How many titles are currently on my to-watch list?",
+    "question_date": "2023/06/20 (Tue) 09:36",
+    "ground_truth_answer": "25",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory stating 'User has a to-watch list with 25 titles that they want help organizing', which directly matches the gold answer of 25."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 that 'User has a to-watch list with 25 titles that they want help organizing' which directly matches the gold answer of 25."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has 25 titles on their to-watch list, matching the gold answer exactly."
+        }
+    ]
+}

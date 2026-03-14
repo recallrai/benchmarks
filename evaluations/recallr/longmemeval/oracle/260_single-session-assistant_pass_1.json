@@ -1,0 +1,24 @@
+{
+    "index": 260,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+    "question_date": "2023/05/29 (Mon) 18:21",
+    "ground_truth_answer": "By Chloe",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user is interested in vegan/vegetarian food in NYC but does not contain any specific restaurant recommendation such as 'By Chloe' or any vegan eatery name with multiple locations."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains general information about the user's interest in vegan/vegetarian food in New York City, but does not mention the specific restaurant name 'By Chloe' or any other specific vegan eatery that was recommended."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies 'By Chloe' as the popular plant-based eatery with multiple locations throughout New York City, which matches the gold answer exactly."
+        }
+    ]
+}

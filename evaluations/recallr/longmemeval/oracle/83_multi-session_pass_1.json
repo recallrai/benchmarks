@@ -1,0 +1,24 @@
+{
+    "index": 83,
+    "question_type": "multi-session",
+    "question": "How many different types of food delivery services have I used recently?",
+    "question_date": "2023/05/29 (Mon) 14:52",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three different food delivery services the user has used recently: Domino's Pizza, Uber Eats, and Fresh Fusion, which matches the gold answer of 3."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three distinct food delivery services the user has used recently: Domino's Pizza, Uber Eats, and Fresh Fusion, which matches the gold answer of 3."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has used 3 distinct food delivery services recently (Fresh Fusion, Domino's Pizza, and Uber Eats), which matches the gold answer of 3."
+        }
+    ]
+}

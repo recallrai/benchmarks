@@ -1,0 +1,24 @@
+{
+    "index": 135,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+    "question_date": "2023/10/31 (Tue) 06:56",
+    "ground_truth_answer": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user led a team of 4 engineers when starting the Senior Software Engineer role (Summary 1, dated 2023/05/11) and now leads a team of 5 engineers (Memory 1 Version 2, dated 2023/10/24), matching the gold answer's progression from 4 to 5 engineers."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user led a team of 4 engineers when starting as Senior Software Engineer (Summary 1, dated 2023/05/11) and currently leads a team of 5 engineers (Memory 1 Version 2 and Summary 2, dated 2023/10/24), which matches the gold answer's information."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the user led 4 engineers when starting the role, but the retrieved context consistently references 5 engineers (or no explicit number) when the user started, and 5 engineers currently \u2014 there is no mention of 4 engineers anywhere in the context."
+        }
+    ]
+}

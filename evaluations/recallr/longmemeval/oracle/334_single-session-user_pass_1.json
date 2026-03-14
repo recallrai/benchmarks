@@ -1,0 +1,24 @@
+{
+    "index": 334,
+    "question_type": "single-session-user",
+    "question": "How much screen time have I been averaging on Instagram per day?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "2 hours",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been averaging around 2 hours of screen time on Instagram per day for the past two weeks', which directly matches the gold answer of '2 hours'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'User has been averaging around 2 hours of screen time on Instagram per day for the past two weeks,' which matches the gold answer of '2 hours' and would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has been averaging 2 hours of Instagram screen time per day, which matches the gold answer exactly."
+        }
+    ]
+}

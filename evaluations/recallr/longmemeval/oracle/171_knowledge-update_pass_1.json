@@ -1,0 +1,24 @@
+{
+    "index": 171,
+    "question_type": "knowledge-update",
+    "question": "What was my previous personal best time for the charity 5K run?",
+    "question_date": "2023/08/23 (Wed) 07:49",
+    "ground_truth_answer": "27 minutes and 45 seconds",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user's current personal best is 26:30, improved from their previous time of 27 minutes and 45 seconds achieved at a charity 5K run in April 2023, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user's current personal best is 26 minutes and 30 seconds, improved from 27 minutes and 45 seconds achieved at a charity 5K run in April 2023, which directly answers the question about the previous personal best time."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the previous personal best (Version 1, now superseded) was 27 minutes and 45 seconds at the April 2023 charity 5K run, which matches the gold answer exactly."
+        }
+    ]
+}

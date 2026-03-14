@@ -1,0 +1,24 @@
+{
+    "index": 461,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster on my thesis research?",
+    "question_date": "2023/05/27 (Sat) 08:24",
+    "ground_truth_answer": "Harvard University",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user attended their first research conference at Harvard University where they presented a poster on their thesis research, which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user attended their first research conference at Harvard University where they presented a poster on their thesis research, which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user presented a poster on their thesis research at Harvard University, which matches the gold answer exactly."
+        }
+    ]
+}

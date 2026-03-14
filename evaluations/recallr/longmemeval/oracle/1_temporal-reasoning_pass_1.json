@@ -1,0 +1,24 @@
+{
+    "index": 1,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+    "question_date": "2023/05/28 (Sun) 06:47",
+    "ground_truth_answer": "'Data Analysis using Python' webinar",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the 'Data Analysis using Python' webinar occurred in March 2023 while the 'Effective Time Management' workshop occurred on May 27, 2023, clearly indicating the webinar came first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the 'Data Analysis using Python' webinar occurred in March 2023 while the 'Effective Time Management' workshop occurred on May 27, 2023, confirming the webinar came first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the 'Data Analysis using Python' webinar was attended first in March 2023, followed by the 'Effective Time Management' workshop on May 27, 2023, which matches the gold answer."
+        }
+    ]
+}

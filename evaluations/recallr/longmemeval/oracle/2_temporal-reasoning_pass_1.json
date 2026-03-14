@@ -1,0 +1,24 @@
+{
+    "index": 2,
+    "question_type": "temporal-reasoning",
+    "question": "Which vehicle did I take care of first in February, the bike or the car?",
+    "question_date": "2023/03/10 (Fri) 23:15",
+    "ground_truth_answer": "bike",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the bike was repaired in mid-February 2023 (Feb 11-20) while the car was washed on February 27th, 2023, confirming the bike was taken care of first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the bike was repaired in mid-February 2023 (Feb 11-20) and the car was washed on February 27th, 2023, clearly indicating the bike was taken care of first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that the bike was repaired in mid-February 2023 (approximately Feb 11-20) while the car was detailed on February 27, 2023, confirming the bike was taken care of first, which matches the gold answer."
+        }
+    ]
+}

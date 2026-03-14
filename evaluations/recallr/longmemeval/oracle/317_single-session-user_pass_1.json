@@ -1,0 +1,24 @@
+{
+    "index": 317,
+    "question_type": "single-session-user",
+    "question": "Where did I attend my cousin's wedding?",
+    "question_date": "2023/05/22 (Mon) 18:38",
+    "ground_truth_answer": "The Grand Ballroom",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User attended their cousin's wedding at the Grand Ballroom last weekend' which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User attended their cousin's wedding at the Grand Ballroom last weekend' which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the cousin's wedding took place at 'The Grand Ballroom', which matches the gold answer exactly."
+        }
+    ]
+}

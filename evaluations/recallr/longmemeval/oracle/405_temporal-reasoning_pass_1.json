@@ -1,0 +1,24 @@
+{
+    "index": 405,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+    "question_date": "2023/04/12 (Wed) 20:28",
+    "ground_truth_answer": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both events with specific dates (vegan chili recipe on March 10, 2023 and #PlankChallenge on March 15, 2023), confirming that the vegan chili recipe post came first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both events with specific dates: vegan chili recipe post on March 10, 2023 and #PlankChallenge participation on March 15, 2023, confirming the vegan chili recipe came first as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly confirms that the vegan chili recipe post on Instagram (March 10, 2023, under #FoodieAdventures) came first, before the #PlankChallenge participation (March 15, 2023), which matches the gold answer."
+        }
+    ]
+}

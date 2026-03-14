@@ -1,0 +1,24 @@
+{
+    "index": 380,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+    "question_date": "2023/06/01 (Thu) 19:32",
+    "ground_truth_answer": "38 days. 39 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows feedback was received on March 17, 2023 (Memory 3) and the new suspension was tested on April 24, 2023 (Memory 9 and Summary 1), which is 38 days apart (or 39 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user received suspension feedback on March 17, 2023 and tested the new suspension setup on April 24, 2023 (the track day at VIR), which is 38 days apart (or 39 days inclusive), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states that 8 days passed between March 17, 2023 (suspension feedback) and March 25, 2023 (new suspension testing), which contradicts the gold answer of 38 days."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 96,
+    "question_type": "multi-session",
+    "question": "How many pieces of jewelry did I acquire in the last two months?",
+    "question_date": "2023/05/29 (Mon) 17:44",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three jewelry acquisitions within the last two months before May 29, 2023: emerald earrings (May 27-28), silver necklace (April 15), and engagement ring (around April 29), which matches the gold answer of 3."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, session summaries, or any information about jewelry acquisitions that would enable answering the question about how many pieces were acquired."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 3 pieces of jewelry were acquired in the last two months (engagement ring, silver necklace, and emerald earrings), which matches the gold answer of 3."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 231,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to visit Bandung again and I was wondering if you could remind me of the name of that restaurant in Cihampelas Walk that serves a great Nasi Goreng?",
+    "question_date": "2023/05/25 (Thu) 15:43",
+    "ground_truth_answer": "Miss Bee Providore",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly mentions Miss Bee Providore as a restaurant the user planned to visit in Bandung where they wanted to try the Nasi Goreng, which matches the gold answer and would enable correctly answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions Miss Bee Providore as a restaurant serving Nasi Goreng and connects it to the user's Bandung/Cihampelas Walk visit plans, which would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies the restaurant as 'Miss Bee Providore' located in Cihampelas Walk, Bandung, which matches the gold answer exactly."
+        }
+    ]
+}

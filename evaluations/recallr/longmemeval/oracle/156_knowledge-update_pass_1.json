@@ -1,0 +1,24 @@
+{
+    "index": 156,
+    "question_type": "knowledge-update",
+    "question": "How long have I had my cat, Luna?",
+    "question_date": "2023/11/30 (Thu) 03:32",
+    "ground_truth_answer": "9 months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has had Luna for about 9 months' which directly matches the gold answer of '9 months'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 that 'User has had Luna for about 9 months', which directly matches the gold answer of '9 months'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has had Luna for approximately 9 months as of November 2023, which matches the gold answer exactly."
+        }
+    ]
+}

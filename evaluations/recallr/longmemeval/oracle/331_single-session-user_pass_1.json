@@ -1,0 +1,24 @@
+{
+    "index": 331,
+    "question_type": "single-session-user",
+    "question": "What type of action figure did I buy from a thrift store?",
+    "question_date": "2023/05/30 (Tue) 13:38",
+    "ground_truth_answer": "a blue Snaggletooth",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User acquired a rare blue Snaggletooth action figure from a thrift store', which directly matches the gold answer about the type of action figure purchased."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User acquired a rare blue Snaggletooth action figure from a thrift store' which directly matches the gold answer 'a blue Snaggletooth'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User acquired a rare blue Snaggletooth action figure from a thrift store,' which directly matches the gold answer of 'a blue Snaggletooth'."
+        }
+    ]
+}

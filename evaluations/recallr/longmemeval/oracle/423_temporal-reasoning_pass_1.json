@@ -1,0 +1,24 @@
+{
+    "index": 423,
+    "question_type": "temporal-reasoning",
+    "question": "What did I do with Rachel on the Wednesday two months ago?",
+    "question_date": "2023/04/01 (Sat) 20:22",
+    "ground_truth_answer": "I started taking ukulele lessons with Rachel.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory #1 stating 'User started taking ukulele lessons with their friend Rachel on February 1st, 2023', which matches the gold answer about starting ukulele lessons with Rachel, and February 1st, 2023 is indeed the Wednesday two months before the question date of April 1st, 2023."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory #5 stating 'User started taking ukulele lessons with their friend Rachel on February 1st, 2023', and February 1st, 2023 (a Wednesday) is indeed two months before the question date of April 1, 2023, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the memory that 'User started taking ukulele lessons with their friend Rachel on February 1st, 2023,' which matches the gold answer. February 1, 2023 is approximately two months before the question date of April 1, 2023, and it was indeed a Wednesday."
+        }
+    ]
+}

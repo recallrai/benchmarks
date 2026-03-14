@@ -1,0 +1,24 @@
+{
+    "index": 340,
+    "question_type": "single-session-user",
+    "question": "What time do I usually get home from work on weeknights?",
+    "question_date": "2023/05/29 (Mon) 16:15",
+    "ground_truth_answer": "6:30 pm",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User gets home from work around 6:30 pm on weekdays' which directly matches the gold answer of '6:30 pm' and answers the question about weeknight arrival times."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which explicitly states 'User gets home from work around 6:30 pm on weekdays', which directly matches the gold answer of '6:30 pm' and would allow someone to correctly answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user typically gets home from work around 6:30 pm on weekdays, which matches the gold answer exactly."
+        }
+    ]
+}

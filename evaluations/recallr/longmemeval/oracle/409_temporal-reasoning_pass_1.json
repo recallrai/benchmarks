@@ -1,0 +1,24 @@
+{
+    "index": 409,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish a week ago?",
+    "question_date": "2023/02/07 (Tue) 10:44",
+    "ground_truth_answer": "'The Nightingale' by Kristin Hannah",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user finished 'The Nightingale' by Kristin Hannah on January 31, 2023 (event date range ends 2023/01/31), which is approximately one week before the question date of February 7, 2023, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, session summaries, or any information about books the user has read or finished, making it impossible to answer the question about 'The Nightingale' by Kristin Hannah."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies 'The Nightingale' by Kristin Hannah as the book finished approximately a week ago, matching the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 158,
+    "question_type": "knowledge-update",
+    "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+    "question_date": "2023/03/16 (Thu) 07:05",
+    "ground_truth_answer": "20",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User currently has 20 dozen eggs stocked in the fridge' which directly matches the gold answer of 20."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User currently has 20 dozen eggs stocked in the fridge' which directly matches the gold answer of 20."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the current egg count is 20 dozen eggs, which matches the gold answer exactly."
+        }
+    ]
+}

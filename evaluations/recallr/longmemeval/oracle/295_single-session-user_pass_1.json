@@ -1,0 +1,24 @@
+{
+    "index": 295,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new tennis racket from?",
+    "question_date": "2023/05/23 (Tue) 12:01",
+    "ground_truth_answer": "the sports store downtown",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a new tennis racket from a sports store downtown' which directly matches the gold answer 'the sports store downtown'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 explicitly states 'User has a new tennis racket from a sports store downtown' which directly answers the question and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the tennis racket was purchased from 'a sports store located downtown', which matches the gold answer of 'the sports store downtown'."
+        }
+    ]
+}

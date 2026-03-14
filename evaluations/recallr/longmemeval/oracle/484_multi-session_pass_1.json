@@ -1,0 +1,24 @@
+{
+    "index": 484,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on the designer handbag and high-end skincare products?",
+    "question_date": "2023/05/28 (Sun) 18:00",
+    "ground_truth_answer": "$1,300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact amounts spent on the Coach handbag ($800) and high-end skincare products ($500), which totals to $1,300, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the Coach handbag purchase of $800 and the high-end skincare products purchase of $500, which totals $1,300 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the total amount spent on the designer handbag ($800 Coach handbag) and high-end skincare products ($500) is $1,300, which matches the gold answer exactly."
+        }
+    ]
+}

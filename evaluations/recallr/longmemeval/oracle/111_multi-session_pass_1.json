@@ -1,0 +1,24 @@
+{
+    "index": 111,
+    "question_type": "multi-session",
+    "question": "How many online courses have I completed in total?",
+    "question_date": "2023/05/30 (Tue) 13:11",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two memories stating the user completed 2 courses on edX and 3 courses on Coursera, which totals 5 courses matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two active memories stating the user completed 3 courses on Coursera and 2 courses on edX, which totals to 5 courses matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has completed 5 online courses in total (3 on Coursera and 2 on edX), which matches the gold answer of 5."
+        }
+    ]
+}

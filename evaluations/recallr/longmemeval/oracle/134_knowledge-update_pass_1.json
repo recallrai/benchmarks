@@ -1,0 +1,24 @@
+{
+    "index": 134,
+    "question_type": "knowledge-update",
+    "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+    "question_date": "2023/06/28 (Wed) 22:01",
+    "ground_truth_answer": "220",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User is currently on page 220 of A Short History of Nearly Everything' which exactly matches the gold answer of 220."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User is currently on page 220 of A Short History of Nearly Everything' which directly matches the gold answer of 220."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has read 220 pages of 'A Short History of Nearly Everything', which matches the gold answer exactly."
+        }
+    ]
+}

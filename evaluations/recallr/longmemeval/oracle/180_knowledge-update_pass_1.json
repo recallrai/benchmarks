@@ -1,0 +1,24 @@
+{
+    "index": 180,
+    "question_type": "knowledge-update",
+    "question": "What is my current record in the recreational volleyball league?",
+    "question_date": "2023/07/17 (Mon) 02:55",
+    "ground_truth_answer": "5-2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 3 explicitly states 'User plays in a volleyball league on weeknights; their team is called Net Ninjas and has a record of 5-2', which matches the gold answer of 5-2."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 explicitly states the user's volleyball team 'Net Ninjas' has a record of 5-2, which matches the gold answer exactly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the current record in the recreational volleyball league is 5 wins and 2 losses (5-2), which matches the gold answer exactly."
+        }
+    ]
+}

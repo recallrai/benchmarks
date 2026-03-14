@@ -1,0 +1,24 @@
+{
+    "index": 270,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+    "question_date": "2023/05/28 (Sun) 06:43",
+    "ground_truth_answer": "2014.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved memories confirm the user was working on the Bajimaya v Reward Homes Pty Ltd case but contain no information about when construction of the house began (2014)."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains information about the Bajimaya v Reward Homes Pty Ltd case but does not include any specific information about when construction of the house began (2014 or any other year)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'The construction of the house began in 2014,' which matches the gold answer of 2014."
+        }
+    ]
+}

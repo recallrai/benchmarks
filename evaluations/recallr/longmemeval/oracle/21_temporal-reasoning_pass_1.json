@@ -1,0 +1,24 @@
+{
+    "index": 21,
+    "question_type": "temporal-reasoning",
+    "question": "What was the date on which I attended the first BBQ event in June?",
+    "question_date": "2023/07/01 (Sat) 23:13",
+    "ground_truth_answer": "June 3rd",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User attended a backyard BBQ party at their colleague's house on Saturday, June 3rd, 2023' which directly answers the question about the first BBQ event attended in June."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User attended a backyard BBQ party at their colleague's house on Saturday, June 3rd, 2023' which matches the gold answer and enables correctly answering the question about the first BBQ event in June."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the first BBQ event attended in June was on June 3rd, 2023, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 100,
+    "question_type": "multi-session",
+    "question": "How many bikes did I service or plan to service in March?",
+    "question_date": "2023/03/20 (Mon) 14:45",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the road bike was serviced at Pedal Power on March 10th and there was a plan to replace a bike's front tire in March, which supports the answer of 2 bikes being serviced or planned for service."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the road bike was serviced at Pedal Power on March 10th, 2023, and the user planned to replace their bike's front tire in March 2023, totaling 2 bikes serviced or planned for service in March."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that 2 bikes were serviced or planned to be serviced in March 2023 (road bike and hybrid commuter bike), which matches the gold answer of 2."
+        }
+    ]
+}

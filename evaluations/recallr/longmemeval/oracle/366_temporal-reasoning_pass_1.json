@@ -1,0 +1,24 @@
+{
+    "index": 366,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+    "question_date": "2023/04/18 (Tue) 20:43",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user started watering their herb garden on March 22, 2023 and harvested on April 15, 2023, which allows calculation of 24 days passed (or 25 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user started watering their herb garden on March 22, 2023 and harvested on April 15, 2023, which is exactly 24 days apart (or 25 including both days), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 24 days passed between March 22, 2023 (started watering) and April 15, 2023 (first harvest), which matches the gold answer of 24 days exactly."
+        }
+    ]
+}

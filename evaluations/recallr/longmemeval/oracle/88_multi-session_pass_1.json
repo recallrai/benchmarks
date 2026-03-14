@@ -1,0 +1,24 @@
+{
+    "index": 88,
+    "question_type": "multi-session",
+    "question": "How many different art-related events did I attend in the past month?",
+    "question_date": "2023/03/08 (Wed) 22:33",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 4 art-related events the user attended (Street Art lecture on March 3rd, Women in Art exhibition on February 10th, Children's Museum Art Afternoon on February 17th, and History Museum tour on February 24th), which matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains 4 distinct art-related events the user attended: the 'Women in Art' exhibition (Feb 10), Children's Museum 'Art Afternoon' volunteering (Feb 17), History Museum guided tour (Feb 24), and 'Evolution of Street Art' lecture (Mar 3), which matches the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user attended 4 distinct art-related events in the past month (February 8 \u2013 March 8, 2023), which matches the gold answer of 4."
+        }
+    ]
+}

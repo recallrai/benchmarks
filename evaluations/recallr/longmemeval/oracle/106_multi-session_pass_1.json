@@ -1,0 +1,24 @@
+{
+    "index": 106,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+    "question_date": "2023/05/25 (Thu) 04:12",
+    "ground_truth_answer": "15 days",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains memories stating the user spent 10 days in Hawaii and 5 days in New York City, which totals 15 days matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user completed a 10-day trip to Hawaii and a 5-day trip to New York City, which totals 15 days matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the combined total of travel days across Hawaii (10 days) and New York City (5 days) is 15 days, matching the gold answer exactly."
+        }
+    ]
+}

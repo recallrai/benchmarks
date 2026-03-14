@@ -1,0 +1,24 @@
+{
+    "index": 48,
+    "question_type": "temporal-reasoning",
+    "question": "Which gift did I buy first, the necklace for my sister or the photo album for my mom?",
+    "question_date": "2023/05/22 (Mon) 12:21",
+    "ground_truth_answer": "the photo album for my mom",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains event dates showing the photo album was ordered around May 8, 2023 (Memory 3) and the necklace was purchased May 20-21, 2023 (Memory 2), which matches the gold answer that the photo album was purchased first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the photo album was ordered around May 8, 2023 (Memory 2) and the necklace was purchased May 20-21, 2023 (Memory 1), confirming the photo album was bought first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the photo album for mom was purchased first (~May 8, 2023), followed by the Tiffany's necklace for the sister (May 20-21, 2023), which matches the gold answer."
+        }
+    ]
+}

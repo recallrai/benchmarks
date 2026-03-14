@@ -1,0 +1,24 @@
+{
+    "index": 69,
+    "question_type": "multi-session",
+    "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+    "question_date": "2023/05/27 (Sat) 18:41",
+    "ground_truth_answer": "2 AM",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user had a doctor's appointment on Thursday, May 25th, 2023, and went to bed at 2 AM on Wednesday, May 24, 2023 (the day before), which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context explicitly states the user went to bed at 2 AM on Wednesday, May 24, 2023, and had a doctor's appointment on Thursday, May 25th, 2023, which matches the gold answer of 2 AM for the bedtime the day before the appointment."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user went to bed at 2:00 AM on Wednesday, May 24, 2023, the night before their doctor's appointment on May 25, 2023, which matches the gold answer of '2 AM'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 368,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I finished reading 'The Seven Husbands of Evelyn Hugo' when I attended the book reading event at the local library, where the author of 'The Silent Patient' is discussing her latest thriller novel?",
+    "question_date": "2023/02/10 (Fri) 14:44",
+    "ground_truth_answer": "18 days. 19 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides the exact dates needed: user finished reading 'The Seven Husbands of Evelyn Hugo' on December 28, 2022, and attended the book reading event on January 15, 2023, which allows for calculating the 18-19 days that passed between these events."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact dates needed (finished book on December 28, 2022 and attended event on January 15, 2023), which allows calculation of the correct answer of 18 days between these dates."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 18 days passed between finishing 'The Seven Husbands of Evelyn Hugo' on December 28, 2022, and attending the library book reading event on January 15, 2023, which matches the gold answer exactly."
+        }
+    ]
+}

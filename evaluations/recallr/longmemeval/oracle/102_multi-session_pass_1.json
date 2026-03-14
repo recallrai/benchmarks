@@ -1,0 +1,24 @@
+{
+    "index": 102,
+    "question_type": "multi-session",
+    "question": "How many days did I spend participating in faith-related activities in December?",
+    "question_date": "2024/01/10 (Wed) 21:47",
+    "ground_truth_answer": "3 days.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three specific faith-related activities in December: volunteering at St. Mary's Church food drive on December 10th, leading a Bible study on December 17th, and attending midnight mass on December 24th, which matches the gold answer of 3 days."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three specific faith-related activities in December: volunteering at St. Mary's Church on December 10th, leading a Bible study on December 17th, and attending midnight mass on December 24th, which totals 3 days matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 3 days participating in faith-related activities in December (December 10, 17, and 24, 2023), which matches the gold answer of 3 days."
+        }
+    ]
+}

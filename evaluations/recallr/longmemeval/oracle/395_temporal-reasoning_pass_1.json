@@ -1,0 +1,24 @@
+{
+    "index": 395,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+    "question_date": "2023/05/01 (Mon) 06:46",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the workshop was on April 1st, 2023, and the question date is May 1st, 2023, which is exactly 30 days or 4 weeks apart, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no information about the user attending a bird watching workshop at the Audubon society, with no memories or session summaries found that would allow answering when this event occurred."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the workshop occurred on April 1st, 2023, and the question was asked on May 1st, 2023, which is exactly 30 days (approximately 4 weeks) later, matching the gold answer of 4 weeks."
+        }
+    ]
+}

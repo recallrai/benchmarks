@@ -1,0 +1,24 @@
+{
+    "index": 84,
+    "question_type": "multi-session",
+    "question": "How many hours of jogging and yoga did I do last week?",
+    "question_date": "2023/05/30 (Tue) 11:44",
+    "ground_truth_answer": "0.5 hours",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains plans for yoga and a jog from May 20 (which is outside 'last week' from May 30), but no actual completed workouts during the week of May 22-28, so it cannot support the gold answer of 0.5 hours."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The question asks about 'last week' from May 30, 2023, which would be approximately May 22-28, but the only specific workout mentioned is a 30-minute jog on May 20th, which falls outside this timeframe, and there are no records of actual yoga sessions completed during last week."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows 0.5 hours of jogging (one 30-minute Saturday jog) and 0 hours of yoga logged for last week, totaling 0.5 hours, which matches the gold answer."
+        }
+    ]
+}

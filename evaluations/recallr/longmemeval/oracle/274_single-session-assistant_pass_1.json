@@ -1,0 +1,24 @@
+{
+    "index": 274,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+    "question_date": "2023/05/30 (Tue) 04:27",
+    "ground_truth_answer": "Fissionator.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user settled on 'Fissionator' as the name for their radiation-themed zombie enemy, which matches the gold answer perfectly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'settled on Fissionator' for their radiation-themed zombie enemy, which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the name finally decided upon for the Radiation Amplified zombie was 'Fissionator', which matches the gold answer exactly."
+        }
+    ]
+}

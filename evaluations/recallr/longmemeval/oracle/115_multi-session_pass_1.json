@@ -1,0 +1,24 @@
+{
+    "index": 115,
+    "question_type": "multi-session",
+    "question": "How many graduation ceremonies have I attended in the past three months?",
+    "question_date": "2023/07/21 (Fri) 23:20",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user attended 2 graduation ceremonies (Rachel's in early July and Emma's on May 21) but missed Jack's ceremony in June, totaling only 2 attended ceremonies, not 3 as stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context mentions user attended Rachel's graduation (July 7, 2023), Emma's preschool graduation (May 21, 2023), and Summary 4 states user attended colleague Alex's graduation from a leadership program (June 21-July 21, 2023) - all three are within the past three months from the question date of July 21, 2023."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states the user attended 2 graduation ceremonies (Emma's preschool graduation and Rachel's Master's degree graduation), while the gold answer is 3. The context even notes that Jack's graduation was missed and should not be counted."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 185,
+    "question_type": "knowledge-update",
+    "question": "What time do I wake up on Saturday mornings?",
+    "question_date": "2023/06/15 (Thu) 00:49",
+    "ground_truth_answer": "7:30 am",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current active memory stating 'User likes to wake up at 7:30 AM on Saturdays' which directly matches the gold answer of '7:30 am'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User likes to wake up at 7:30 AM on Saturdays' which directly matches the gold answer of 7:30 am."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the Key Finding section that the user wakes up at 7:30 AM on Saturday mornings, which matches the gold answer exactly."
+        }
+    ]
+}

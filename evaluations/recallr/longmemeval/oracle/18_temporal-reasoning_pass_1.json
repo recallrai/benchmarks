@@ -1,0 +1,24 @@
+{
+    "index": 18,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "Smart thermostat",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the smart thermostat was set up in late April 2023 (Memory 1) and the mesh network system was set up on May 3, 2023 (Memory 3), confirming the smart thermostat was first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the smart thermostat was set up in late April 2023 (memory 1.1) and the mesh network system was set up on May 3, 2023 (memory 1), confirming the smart thermostat was first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'You set up the smart thermostat first' with a date of late April 2023, followed by the mesh network system on May 3, 2023, which matches the gold answer."
+        }
+    ]
+}

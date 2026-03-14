@@ -1,0 +1,24 @@
+{
+    "index": 251,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+    "question_date": "2023/05/29 (Mon) 10:13",
+    "ground_truth_answer": "+49 (0) 62 32 / 14 23 - 0",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms the user previously requested contact information for Speyer's tourism board, it does not contain the actual phone number (+49 (0) 62 32 / 14 23 - 0) that would allow someone to answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions that the user requested contact information for Speyer's local tourism board in a previous session, but it does not contain the actual phone number (+49 (0) 62 32 / 14 23 - 0) that would allow someone to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly contains the exact phone number '+49 (0) 62 32 / 14 23 - 0' for the Speyer Tourismus Marketing GmbH, which matches the gold answer perfectly."
+        }
+    ]
+}

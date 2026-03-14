@@ -1,0 +1,24 @@
+{
+    "index": 386,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+    "question_date": "2023/10/15 (Sun) 12:05",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The context shows the user recovered from flu on January 19, 2023 and completed their 10th jog on April 10, 2023, which is approximately 11-12 weeks apart (81 days), not 15 weeks as stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The context indicates the user recovered from flu on January 19, 2023 and completed their 10th outdoor jog on April 10, 2023, which is approximately 11-12 weeks apart, not 15 weeks as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states that 11 weeks and 4 days (approximately 11.6 weeks) passed between flu recovery and the 10th outdoor jog, which does not match the gold answer of 15 weeks."
+        }
+    ]
+}

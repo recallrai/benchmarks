@@ -1,0 +1,24 @@
+{
+    "index": 200,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some resources where I can learn more about video editing?",
+    "question_date": "2023/05/24 (Wed) 22:03",
+    "ground_truth_answer": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user uses Adobe Premiere Pro specifically, is interested in learning advanced settings (particularly Lumetri Color Panel features), and wants to learn specific advanced techniques, which directly aligns with the gold answer's preference for Adobe Premiere Pro-specific advanced resources over general video editing materials."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user enjoys Adobe Premiere Pro and is specifically interested in learning its advanced settings (particularly the Lumetri Color Panel), which directly supports the gold answer's indication that resources should be tailored to Adobe Premiere Pro with focus on advanced settings."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly establishes that the user is specifically focused on Adobe Premiere Pro and its advanced settings (particularly the Lumetri Color Panel), which directly matches the gold answer's specification that resources should be tailored to Adobe Premiere Pro's advanced settings rather than general video editing or other software."
+        }
+    ]
+}

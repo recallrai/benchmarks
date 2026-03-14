@@ -1,0 +1,24 @@
+{
+    "index": 101,
+    "question_type": "multi-session",
+    "question": "How much money did I raise for charity in total?",
+    "question_date": "2023/03/20 (Mon) 23:39",
+    "ground_truth_answer": "$3,750",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains four specific fundraising amounts ($2,000 for animal shelter, $500 for American Cancer Society, $250 for Run for Hunger, and $1,000 for bake sale) that sum to exactly $3,750, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains four separate charity fundraising amounts ($2,000, $500, $250, and $1,000) that add up to exactly $3,750, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states a confirmed total of $3,750 raised for charity across four completed fundraising events, which matches the gold answer exactly."
+        }
+    ]
+}

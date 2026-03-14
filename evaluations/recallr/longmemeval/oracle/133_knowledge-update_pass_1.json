@@ -1,0 +1,24 @@
+{
+    "index": 133,
+    "question_type": "knowledge-update",
+    "question": "How many short stories have I written since I started writing regularly?",
+    "question_date": "2023/06/14 (Wed) 08:23",
+    "ground_truth_answer": "seven",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 2 explicitly states 'User has completed 7 short stories since starting to write regularly three months ago' which directly matches the gold answer of seven."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 2 which states 'User has completed 7 short stories since starting to write regularly three months ago', which matches the gold answer of seven."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly identifies 'seven' as an erroneous figure derived from an AI brainstorming suggestion (not a user-confirmed fact), and states the correct, user-confirmed answer is 4 short stories. The context would lead someone to answer 'four,' not 'seven,' which is the gold answer."
+        }
+    ]
+}

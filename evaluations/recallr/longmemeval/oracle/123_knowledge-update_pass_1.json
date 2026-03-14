@@ -1,0 +1,24 @@
+{
+    "index": 123,
+    "question_type": "knowledge-update",
+    "question": "How many Korean restaurants have I tried in my city?",
+    "question_date": "2023/10/08 (Sun) 21:51",
+    "ground_truth_answer": "four",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User has tried four different Korean restaurants' which directly matches the gold answer of 'four'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory explicitly stating 'User has tried four different Korean restaurants' which directly answers the question with the same number as the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has tried 4 (four) Korean restaurants in their city, matching the gold answer exactly."
+        }
+    ]
+}

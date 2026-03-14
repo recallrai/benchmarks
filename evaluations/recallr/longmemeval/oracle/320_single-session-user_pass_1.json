@@ -1,0 +1,24 @@
+{
+    "index": 320,
+    "question_type": "single-session-user",
+    "question": "What type of cocktail recipe did I try last weekend?",
+    "question_date": "2023/05/26 (Fri) 02:26",
+    "ground_truth_answer": "lavender gin fizz",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user has been experimenting with lavender in cocktails and is particularly interested in gin-based cocktails, which directly relates to the gold answer 'lavender gin fizz' (a gin-based cocktail with lavender), touching on the same topic and allowing the question to be answered."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The session summary explicitly states that the user 'previously attempted a lavender gin fizz that didn't turn out well,' which directly matches the gold answer of 'lavender gin fizz'"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user attempted a 'Lavender Gin Fizz' last weekend, which matches the gold answer exactly."
+        }
+    ]
+}

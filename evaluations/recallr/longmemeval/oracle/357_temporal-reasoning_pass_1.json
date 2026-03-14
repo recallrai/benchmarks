@@ -1,0 +1,24 @@
+{
+    "index": 357,
+    "question_type": "temporal-reasoning",
+    "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a customized phone case for my friend's birthday?",
+    "question_date": "2023/03/22 (Wed) 18:48",
+    "ground_truth_answer": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three events with dates showing the correct chronological order: nursery preparation (2023/02/05), baby shower shopping (2023/02/10), and customized phone case (2023/02/20), matching the gold answer's sequence."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three events with specific dates (nursery preparation on 2023/02/05, cousin's baby shower on 2023/02/10, and customized phone case order on 2023/02/20) that match the chronological order stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms the chronological order matches the gold answer: nursery preparation (Feb 5), baby shower shopping (Feb 10), and customized phone case order (Feb 20), which aligns perfectly with the gold answer."
+        }
+    ]
+}

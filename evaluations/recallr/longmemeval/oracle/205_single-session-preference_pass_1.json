@@ -1,0 +1,24 @@
+{
+    "index": 205,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend a show or movie for me to watch tonight?",
+    "question_date": "2023/05/27 (Sat) 18:09",
+    "ground_truth_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user admires stand-up comedy specials (specifically John Mulaney's 'Kid Gorgeous') for storytelling abilities and is an aspiring comedian interested in improving storytelling craft, which would enable someone to correctly recommend stand-up comedy specials with strong storytelling, though Netflix as a specific platform is not mentioned."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user admires stand-up comedy specials with strong storytelling (specifically John Mulaney's 'Kid Gorgeous') and is an aspiring comedian interested in storytelling, which aligns with the core elements of the gold answer about preferring stand-up comedy specials known for storytelling, though the specific Netflix platform preference is not explicitly mentioned."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies the user as an aspiring stand-up comedian who values storytelling (admiring John Mulaney's 'Kid Gorgeous' for its storytelling), and the top recommendations are stand-up comedy specials on Netflix known for their storytelling (Hasan Minhaj: Homecoming King and Mike Birbiglia: My Girlfriend's Boyfriend), which aligns with the gold answer."
+        }
+    ]
+}

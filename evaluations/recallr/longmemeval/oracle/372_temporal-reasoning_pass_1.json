@@ -1,0 +1,24 @@
+{
+    "index": 372,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I buy a smoker?",
+    "question_date": "2023/03/25 (Sat) 21:28",
+    "ground_truth_answer": "10 days ago. 11 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user got a smoker on March 15, 2023, and the ongoing conversation shows the question was asked on March 25, 2023, which is 10 days later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User got a smoker on March 15, 2023' and the question was asked on March 25, 2023 (from ongoing conversation timestamp), which is indeed 10 days later, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context states the smoker was purchased on March 15, 2023, and the question was asked on March 25, 2023, which is exactly 10 days later, matching the gold answer."
+        }
+    ]
+}

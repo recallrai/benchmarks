@@ -1,0 +1,24 @@
+{
+    "index": 35,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+    "question_date": "2023/05/30 (Tue) 03:49",
+    "ground_truth_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user got the area rug in late April 2023 (April 23-30) and rearranged furniture in early May 2023 (May 1-10), which indicates approximately 7-10 days between these events, matching the gold answer range."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user got the area rug in late April 2023 and rearranged furniture in early May 2023, which aligns with the gold answer of one week (7-10 days) between these events."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the rug arrived in late April 2023 and the furniture rearrangement occurred in early May 2023, making the gap approximately one to two weeks, which overlaps with the gold answer of one week (7-10 days acceptable range)."
+        }
+    ]
+}

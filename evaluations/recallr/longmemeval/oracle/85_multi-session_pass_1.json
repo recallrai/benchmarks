@@ -1,0 +1,24 @@
+{
+    "index": 85,
+    "question_type": "multi-session",
+    "question": "Which social media platform did I gain the most followers on over the past month?",
+    "question_date": "2023/05/28 (Sun) 00:07",
+    "ground_truth_answer": "TikTok",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows TikTok gained around 200 followers over three weeks while Twitter gained 120 followers over a month, clearly indicating TikTok had the highest follower growth, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows TikTok gained around 200 followers over the past three weeks, Twitter gained 120 followers (540-420) over the past month, and Facebook remained steady at 800, clearly indicating TikTok had the highest follower growth."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'TikTok was your fastest-growing platform over the past month, gaining approximately 200 followers over just three weeks,' which directly matches the gold answer of TikTok."
+        }
+    ]
+}

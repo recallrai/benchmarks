@@ -1,0 +1,24 @@
+{
+    "index": 87,
+    "question_type": "multi-session",
+    "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+    "question_date": "2023/05/25 (Thu) 15:52",
+    "ground_truth_answer": "$270",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the Tokyo accommodation cost (~$30 per night) and Hawaii/Maui accommodation cost (over $300 per night), which allows calculating the difference of $270 to correctly answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states Hawaii accommodation cost over $300 per night and Tokyo cost around $30 per night, which allows calculation of approximately $270 difference (consistent with the gold answer)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 'over $270 more per night' on accommodations in Hawaii compared to Tokyo, which matches the gold answer of $270."
+        }
+    ]
+}

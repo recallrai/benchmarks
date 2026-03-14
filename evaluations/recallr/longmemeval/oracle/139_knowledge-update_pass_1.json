@@ -1,0 +1,24 @@
+{
+    "index": 139,
+    "question_type": "knowledge-update",
+    "question": "How many sessions of the bereavement support group did I attend?",
+    "question_date": "2023/11/14 (Tue) 04:58",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory (Version 2) stating 'User attended a bereavement support group last year for five sessions' which directly matches the gold answer of 'five'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current active memory explicitly stating 'User attended a bereavement support group last year for five sessions', which directly matches the gold answer of 'five'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user attended five (5) sessions of the bereavement support group, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 125,
+    "question_type": "knowledge-update",
+    "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+    "question_date": "2023/12/09 (Sat) 11:53",
+    "ground_truth_answer": "$400,000",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User got pre-approved for a $400,000 mortgage from Wells Fargo' which exactly matches the gold answer of $400,000."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states in Memory 1 (Version 2, Current Version) that 'User got pre-approved for a $400,000 mortgage from Wells Fargo', which directly matches the gold answer of $400,000."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the current pre-approval amount from Wells Fargo is $400,000, which matches the gold answer exactly."
+        }
+    ]
+}

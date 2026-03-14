@@ -1,0 +1,24 @@
+{
+    "index": 217,
+    "question_type": "single-session-preference",
+    "question": "I'm getting excited about my visit to the music store this weekend. Any tips on what to look for in a new guitar?",
+    "question_date": "2023/05/28 (Sun) 01:56",
+    "ground_truth_answer": "The user would prefer responses that highlight the differences between Fender Stratocaster and Gibson Les Paul electric guitars, such as the feel of the neck, weight, and sound profile. They might not prefer general tips on buying an electric guitar or suggestions that do not take into account their current guitar and desired upgrade.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the user's current guitar (Fender Stratocaster), their desired upgrade (Gibson Les Paul), and detailed conversation history discussing the specific differences between these two guitars including neck feel, weight, and sound profile, which directly matches what the gold answer indicates the user would prefer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user currently owns a Fender Stratocaster, is considering upgrading to a Gibson Les Paul, and has had detailed conversations about the differences between these guitars including neck feel, weight, and sound profile, which directly aligns with the gold answer's description of preferred response content."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context extensively covers the differences between Fender Stratocaster and Gibson Les Paul guitars, including neck feel, weight, and sound profile, which directly matches what the gold answer says the user would prefer to hear about."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 421,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+    "question_date": "2022/04/12 (Tue) 13:26",
+    "ground_truth_answer": "a chocolate cake",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 clearly states the user baked a chocolate cake for a friend's birthday party, with the memory created on 2022/04/10 (a couple of days before the question date of 2022/04/12), which matches the gold answer of 'a chocolate cake'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory created on April 10, 2022 (a couple of days before the question date of April 12) stating the user baked a chocolate cake for a friend's birthday party, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that on April 10, 2022 (two days before the question date), the user mentioned baking a chocolate cake for a friend's birthday party, which matches the gold answer."
+        }
+    ]
+}

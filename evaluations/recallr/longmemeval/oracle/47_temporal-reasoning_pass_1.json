@@ -1,0 +1,24 @@
+{
+    "index": 47,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the meeting with Rachel or the pride parade?",
+    "question_date": "2023/05/09 (Tue) 17:23",
+    "ground_truth_answer": "The meeting with Rachel",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the meeting with Rachel was on April 10th, 2023 and the pride parade was on May 1st, 2023, which allows correctly identifying that the meeting with Rachel happened first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the meeting with Rachel was on April 10th, 2023 and the pride parade was on May 1st, 2023, which allows correctly determining that the meeting with Rachel happened first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the meeting with Rachel (April 10, 2023) happened first, preceding the pride parade (May 1, 2023) by approximately 3 weeks, which matches the gold answer."
+        }
+    ]
+}

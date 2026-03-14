@@ -1,0 +1,24 @@
+{
+    "index": 430,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'The Nightingale'?",
+    "question_date": "2023/05/25 (Thu) 10:43",
+    "ground_truth_answer": "190",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is on page 250 out of 440 pages in 'The Nightingale', which allows calculation of 190 pages remaining (440-250=190), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is on page 250 out of 440 pages in 'The Nightingale', which allows calculation of 190 pages remaining (440 - 250 = 190), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states '190 pages left' to read in The Nightingale, which matches the gold answer of 190 exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 281,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+    "question_date": "2023/05/29 (Mon) 18:39",
+    "ground_truth_answer": "Nostalgia",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a previous conversation about traditional Indian embroidery and tailoring techniques occurred, but does not contain the specific store name 'Nostalgia' or any online store name that would allow answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses the user's interest in traditional Indian embroidery and tailoring techniques and mentions they asked about where to find materials, but does not contain any mention of 'Nostalgia' or any specific online store name."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies 'Nostalgia' as the India-based online store selling traditional Indian fabrics, threads, and embellishments, which matches the gold answer exactly."
+        }
+    ]
+}

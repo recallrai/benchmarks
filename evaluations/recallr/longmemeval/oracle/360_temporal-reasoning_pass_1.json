@@ -1,0 +1,24 @@
+{
+    "index": 360,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I started playing along to my favorite songs on my old keyboard and the day I discovered a bluegrass band?",
+    "question_date": "2023/04/05 (Wed) 02:19",
+    "ground_truth_answer": "6 days. 7 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides the specific dates for both events (keyboard playing on March 25, 2023 and bluegrass band discovery on March 31, 2023), which allows calculating the 6-day difference that matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started playing their old keyboard on March 25, 2023 and discovered a bluegrass band on March 31, 2023, which allows calculation of 6 days between these dates (or 7 including the end date), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that exactly 6 days passed between March 25, 2023 (keyboard playing) and March 31, 2023 (bluegrass band discovery), which matches the gold answer of 6 days."
+        }
+    ]
+}

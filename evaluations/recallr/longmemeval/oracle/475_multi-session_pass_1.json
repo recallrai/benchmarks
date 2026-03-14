@@ -1,0 +1,24 @@
+{
+    "index": 475,
+    "question_type": "multi-session",
+    "question": "What is the total weight of the new feed I purchased in the past two months?",
+    "question_date": "2023/05/30 (Tue) 12:23",
+    "ground_truth_answer": "70 pounds",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two feed purchases within the past two months: 50 pounds of layer feed (event date 2023/05/16-23) and 20 pounds of organic scratch grains (event date 2023/05/23-30), totaling 70 pounds which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two feed purchases within the past two months: 50 pounds of layer feed (Event Date: 2023/05/16-23) and 20 pounds of organic scratch grains (Event Date: 2023/05/23-30), totaling 70 pounds, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the total new feed purchased in the past two months is 70 pounds (50 lbs layer feed + 20 lbs organic scratch grains), which matches the gold answer exactly."
+        }
+    ]
+}

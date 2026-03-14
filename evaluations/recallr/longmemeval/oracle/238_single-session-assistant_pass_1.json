@@ -1,0 +1,24 @@
+{
+    "index": 238,
+    "question_type": "single-session-assistant",
+    "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+    "question_date": "2023/05/30 (Tue) 00:36",
+    "ground_truth_answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context (Summary 1) explicitly lists all four alternative terms mentioned in the gold answer: 'sexual fixations,' 'problematic sexual behaviors,' 'sexual impulsivity,' and 'compulsive sexuality.'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context (Summary 1) explicitly lists all four alternative terms mentioned in the gold answer: 'sexual fixations,' 'problematic sexual behaviors,' 'sexual impulsivity,' and 'compulsive sexuality.'"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly lists all four alternative terms: 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality', which exactly match the gold answer."
+        }
+    ]
+}

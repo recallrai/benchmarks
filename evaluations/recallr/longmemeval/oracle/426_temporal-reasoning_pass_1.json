@@ -1,0 +1,24 @@
+{
+    "index": 426,
+    "question_type": "temporal-reasoning",
+    "question": "What kitchen appliance did I buy 10 days ago?",
+    "question_date": "2023/03/25 (Sat) 18:04",
+    "ground_truth_answer": "a smoker",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'User got a smoker on March 15, 2023' and 10 days before the question date (March 25, 2023) is March 15, 2023, which matches the gold answer 'a smoker'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'User got a smoker on March 15, 2023' and 10 days before the question date (2023/03/25) is 2023/03/15, matching the gold answer 'a smoker'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'You got a smoker on March 15, 2023,' and the question date is March 25, 2023, making March 15 exactly 10 days prior \u2014 matching the gold answer of 'a smoker.'"
+        }
+    ]
+}

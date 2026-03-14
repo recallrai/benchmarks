@@ -1,0 +1,24 @@
+{
+    "index": 183,
+    "question_type": "knowledge-update",
+    "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+    "question_date": "2023/10/12 (Thu) 00:50",
+    "ground_truth_answer": "level 100",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows in Memory 1's version history that the user's previous goal (version 1) was to reach level 100 in Apex Legends, which was later updated to level 150 (version 2), matching the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows version history where Version 1 (expired) states 'User's goal is to reach level 100 in Apex Legends before the end of 2023' and Version 2 (current) shows the updated goal is level 150, which directly answers the question about the previous goal being level 100."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the previous Apex Legends level goal was level 100, which matches the gold answer exactly."
+        }
+    ]
+}

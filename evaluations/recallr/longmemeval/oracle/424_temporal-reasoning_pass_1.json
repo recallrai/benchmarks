@@ -1,0 +1,24 @@
+{
+    "index": 424,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+    "question_date": "2023/03/11 (Sat) 21:26",
+    "ground_truth_answer": "No, you did not visit with a friend.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The question asks about a museum visit two months before March 11, 2023 (approximately January 2023), and Memory 4 shows the user attended a lecture at the History Museum in January 2023 with no mention of a friend accompanying them, which aligns with the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories or information about a museum visit from two months ago or whether the user visited with a friend or not, making it impossible to answer the question correctly."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that the museum visit around two months before March 2023 (January 2023) had no companion recorded, and the closest visit with a companion (February 2023 Natural History Museum) was with the user's dad, not a friend \u2014 supporting the gold answer that the user did not visit with a friend."
+        }
+    ]
+}

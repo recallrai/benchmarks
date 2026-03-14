@@ -1,0 +1,24 @@
+{
+    "index": 433,
+    "question_type": "multi-session",
+    "question": "How many antique items did I inherit or acquire from my family members?",
+    "question_date": "2023/05/30 (Tue) 17:24",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context lists exactly 5 antique items from family members: tea set from cousin Rachel, music box from great-aunt, diamond necklace from grandmother, depression-era glassware from mom, and vintage typewriter from dad, which matches the gold answer of 5."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies 5 antique items from family members: music box (great-aunt), diamond necklace (grandmother), glassware (mom), typewriter (dad), and tea set (cousin Rachel), matching the gold answer of 5."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user acquired or inherited 5 antique/vintage items from family members, which matches the gold answer of 5."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 71,
+    "question_type": "multi-session",
+    "question": "How many movie festivals that I attended?",
+    "question_date": "2023/05/29 (Mon) 08:34",
+    "ground_truth_answer": "I attended four movie festivals.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user attending/participating in four distinct film festivals: AFI Fest, Seattle International Film Festival, Portland Film Festival, and Austin Film Festival, which matches the gold answer of four movie festivals."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly mentions four distinct movie festivals the user attended: Portland Film Festival, Austin Film Festival, Seattle International Film Festival, and AFI Fest in LA, which matches the gold answer of four movie festivals."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user attended 4 film festivals (Portland Film Festival, Austin Film Festival, Seattle International Film Festival, and AFI Fest), which matches the gold answer of four movie festivals."
+        }
+    ]
+}

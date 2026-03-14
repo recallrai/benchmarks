@@ -1,0 +1,24 @@
+{
+    "index": 339,
+    "question_type": "single-session-user",
+    "question": "How many hours did I spend watching documentaries on Netflix last month?",
+    "question_date": "2023/05/23 (Tue) 17:55",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating the user spent 10 hours watching documentaries on Netflix in April 2023, which corresponds to 'last month' from the question date of May 23, 2023, matching the gold answer of 10."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User spent 10 hours watching documentaries on Netflix in April 2023', which directly answers the question about last month (April 2023, relative to the question date of May 23, 2023) and matches the gold answer of 10."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 10 hours watching documentaries on Netflix in April 2023, which matches 'last month' relative to the question date of May 23, 2023, and matches the gold answer of 10."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 197,
+    "question_type": "knowledge-update",
+    "question": "How often do I play table tennis with my friends at the local park?",
+    "question_date": "2023/06/19 (Mon) 15:12",
+    "ground_truth_answer": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple references to the user playing 'tennis' at the local park every other week, but no mentions of 'table tennis', which aligns with the gold answer's distinction between tennis and table tennis."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user playing tennis (not table tennis) at the local park every other week, which would allow someone to correctly answer that the question asks about table tennis but only tennis information is available."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that there is no recorded information about table tennis frequency, but there is information about regular court tennis (every other week), which aligns with the gold answer stating the user mentioned tennis but not table tennis."
+        }
+    ]
+}

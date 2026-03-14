@@ -1,0 +1,24 @@
+{
+    "index": 429,
+    "question_type": "multi-session",
+    "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+    "question_date": "2022/09/24 (Sat) 19:30",
+    "ground_truth_answer": "8 miles",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a 5-mile hike on September 10th, 2022 and a 3-mile hike on September 17-18, 2022, which are consecutive weekends totaling 8 miles as specified in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about a 5-mile hike on September 10th, 2022 and a 3-mile hike on the weekend of September 17-18, 2022, which are consecutive weekends totaling 8 miles, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the total distance of the two consecutive weekend hikes is 8 miles (5 miles at Red Rock Canyon + 3 miles at Valley of Fire State Park), which matches the gold answer."
+        }
+    ]
+}

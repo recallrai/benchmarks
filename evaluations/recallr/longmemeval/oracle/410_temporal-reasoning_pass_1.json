@@ -1,0 +1,24 @@
+{
+    "index": 410,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned participating in a sports event two weeks ago. What was the event?",
+    "question_date": "2023/07/01 (Sat) 06:58",
+    "ground_truth_answer": "The company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly mentions the user participating in 'their company's annual charity soccer tournament,' which exactly matches the gold answer and would enable someone to correctly identify the sports event."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states 'User is participating in their company's annual charity soccer tournament on Saturday, 17th June 2023' which directly matches the gold answer about the company's annual charity soccer tournament."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies the sports event as 'the company's annual charity soccer tournament' which took place on Saturday, 17th June 2023 - exactly two weeks before the question date of July 1, 2023."
+        }
+    ]
+}

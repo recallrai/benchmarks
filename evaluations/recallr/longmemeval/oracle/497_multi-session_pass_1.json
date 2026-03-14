@@ -1,0 +1,24 @@
+{
+    "index": 497,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster for my undergrad course research project?",
+    "question_date": "2023/05/28 (Sun) 22:39",
+    "ground_truth_answer": "The information provided is not enough. You did not mention presenting a poster for your undergrad course research project.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions presenting a poster on 'thesis research' at Harvard University, but contains no information about presenting a poster for an 'undergrad course research project,' which supports the gold answer's statement that this information was not provided."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions the user presenting a poster on their 'thesis research' at Harvard University, not an 'undergrad course research project,' which is a distinct type of project - the gold answer correctly states this information was not provided."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states that the user never mentioned presenting a poster for an undergrad course research project, meaning there is insufficient information to answer. However, the retrieved context provides a specific answer (Harvard University), directly contradicting the gold answer."
+        }
+    ]
+}

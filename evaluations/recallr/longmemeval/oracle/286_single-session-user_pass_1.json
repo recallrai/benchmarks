@@ -1,0 +1,24 @@
+{
+    "index": 286,
+    "question_type": "single-session-user",
+    "question": "What degree did I graduate with?",
+    "question_date": "2023/05/23 (Tue) 19:11",
+    "ground_truth_answer": "Business Administration",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User graduated with a degree in Business Administration' which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User graduated with a degree in Business Administration' which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user graduated with a degree in Business Administration, which matches the gold answer exactly."
+        }
+    ]
+}

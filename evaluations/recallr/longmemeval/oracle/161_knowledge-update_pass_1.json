@@ -1,0 +1,24 @@
+{
+    "index": 161,
+    "question_type": "knowledge-update",
+    "question": "Where did I get my guitar serviced?",
+    "question_date": "2023/06/12 (Mon) 07:37",
+    "ground_truth_answer": "The music shop on Main St.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which explicitly states 'User owns an acoustic guitar that was serviced at a music shop on Main St', directly matching the gold answer location."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User owns an acoustic guitar that was serviced at a music shop on Main St' which directly matches the gold answer and would allow someone to correctly answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the guitar was serviced at 'Rhythm Central', a music shop on Main St., which matches the gold answer of 'The music shop on Main St.'"
+        }
+    ]
+}

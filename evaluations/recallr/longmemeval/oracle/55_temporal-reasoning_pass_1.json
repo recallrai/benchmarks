@@ -1,0 +1,24 @@
+{
+    "index": 55,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at Google?",
+    "question_date": "2023/05/23 (Tue) 10:59",
+    "ground_truth_answer": "The information provided is not enough. From the information provided, You haven't started working at Google yet.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no information about the user working at Google and shows the user is currently a freelancer after leaving NovaTech, which aligns with the gold answer that the user hasn't started working at Google yet."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user worked at NovaTech until May 2023 and is now a freelancer, with no mention of Google employment, which aligns with the gold answer stating the user hasn't started working at Google yet."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states that the user hasn't started working at Google yet, meaning there's insufficient information to answer the question. However, the retrieved context explicitly states the user currently works at Google and provides a detailed career timeline showing ~9 years of pre-Google experience. This directly contradicts the gold answer's assertion that the user hasn't started at Google yet."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 444,
+    "question_type": "multi-session",
+    "question": "How much older am I than the average age of employees in my department?",
+    "question_date": "2023/05/29 (Mon) 10:06",
+    "ground_truth_answer": "2.5 years",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the user's age (32 years old) and the department's average age (29.5 years old), which allows for calculating the difference of 2.5 years matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the user's age (32 years old) and the department's average employee age (29.5 years old), which enables calculating the correct difference of 2.5 years."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 2.5 years older than the average employee in their department, matching the gold answer exactly."
+        }
+    ]
+}

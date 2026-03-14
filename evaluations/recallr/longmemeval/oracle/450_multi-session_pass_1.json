@@ -1,0 +1,24 @@
+{
+    "index": 450,
+    "question_type": "multi-session",
+    "question": "How many sports have I played competitively in the past?",
+    "question_date": "2023/05/26 (Fri) 14:53",
+    "ground_truth_answer": "two",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user 'used to play tennis competitively in high school' and 'used to swim competitively in college', which are two competitive sports matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly indicates the user played two sports competitively in the past: tennis competitively in high school and swimming competitively in college, which matches the gold answer of 'two'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has played 2 sports competitively in the past: tennis (high school) and swimming (college), which matches the gold answer of 'two'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 104,
+    "question_type": "multi-session",
+    "question": "How many times did I ride rollercoasters across all the events I attended from July to October?",
+    "question_date": "2023/11/04 (Sat) 23:11",
+    "ground_truth_answer": "10 times",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains specific information about rollercoaster rides during July-October 2023: 3 rides at SeaWorld (Mako, Kraken, Manta in July), 3 rides at Disneyland (Space Mountain three times on Sept 24), 1 ride at Knott's Berry Farm (Xcelerator on Oct 8), and 3 rides at Universal Studios (Revenge of the Mummy three times on Oct 15), totaling exactly 10 rides matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains specific memories showing the user rode 3 rollercoasters at SeaWorld in July, 3 times on Space Mountain in September, 1 time on Xcelerator in October, and 3 times on Revenge of the Mummy in October, totaling exactly 10 rides matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states a confirmed total of at least 10 rollercoaster rides across 4 events from July to October 2023, matching the gold answer of 10 times."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 307,
+    "question_type": "single-session-user",
+    "question": "What certification did I complete last month?",
+    "question_date": "2023/05/29 (Mon) 09:02",
+    "ground_truth_answer": "Data Science",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user completed a Data Science certification in April 2023, and since the question date is May 29, 2023, 'last month' correctly refers to April 2023, matching the gold answer of Data Science."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, no session summaries, and no information about any certification completion - it's completely empty except for the question itself."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user completed a Data Science certification in April 2023, which is 'last month' relative to the question date of May 29, 2023, matching the gold answer exactly."
+        }
+    ]
+}

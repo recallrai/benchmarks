@@ -1,0 +1,24 @@
+{
+    "index": 353,
+    "question_type": "single-session-user",
+    "question": "How long was I in Korea for?",
+    "question_date": "2023/05/27 (Sat) 17:25",
+    "ground_truth_answer": "You did not mention this information. You mentioned staying in Japan, but not in Korea.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user expressed interest in visiting South Korea but contains no information about actually having stayed there, while it does mention a two-week trip to Japan, which aligns with the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user is interested in visiting Korea and has heard great things about Seoul, but only mentions an actual past trip to Japan for two weeks, which aligns with the gold answer stating they mentioned staying in Japan but not in Korea."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that no Korea trip is recorded, only a two-week solo trip to Japan, which aligns perfectly with the gold answer stating the user mentioned Japan but not Korea."
+        }
+    ]
+}

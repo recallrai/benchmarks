@@ -1,0 +1,24 @@
+{
+    "index": 473,
+    "question_type": "multi-session",
+    "question": "How much did I spend on gifts for my sister?",
+    "question_date": "2023/05/27 (Sat) 18:44",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user bought their sister a $200 necklace from Tiffany's and previously gave her a $100 spa gift card, totaling $300, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user bought their sister a $200 Tiffany's necklace and previously gave a $100 spa gift card, which totals $300 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the confirmed total spent on the sister is ~$300 ($100 spa gift card + ~$200 Tiffany's necklace), which matches the gold answer of $300."
+        }
+    ]
+}

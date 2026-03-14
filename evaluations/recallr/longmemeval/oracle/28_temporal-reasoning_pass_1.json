@@ -1,0 +1,24 @@
+{
+    "index": 28,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+    "question_date": "2023/05/30 (Tue) 12:34",
+    "ground_truth_answer": "The arrival of the new prime lens",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the prime lens arrived on 2023/04/30 and the road trip occurred 2023/05/21-27, confirming the prime lens arrived first as stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the prime lens arrived around April 30, 2023 (Memory #2) and the road trip occurred May 21-27, 2023 (Memory #1), confirming the prime lens arrived first as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the new 50mm f/1.8 prime lens arrived around April 30, 2023, approximately 3 weeks before the road trip to the coast (May 21\u201327, 2023), confirming that the prime lens arrival happened first, matching the gold answer."
+        }
+    ]
+}

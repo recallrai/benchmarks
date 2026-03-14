@@ -1,0 +1,24 @@
+{
+    "index": 315,
+    "question_type": "single-session-user",
+    "question": "How much RAM did I upgrade my laptop to?",
+    "question_date": "2023/05/27 (Sat) 21:08",
+    "ground_truth_answer": "16GB",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User recently upgraded their laptop's RAM to 16GB' which directly matches the gold answer of 16GB."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User recently upgraded their laptop's RAM to 16GB' which directly matches the gold answer of 16GB."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user upgraded their laptop's RAM to 16GB, which matches the gold answer exactly."
+        }
+    ]
+}

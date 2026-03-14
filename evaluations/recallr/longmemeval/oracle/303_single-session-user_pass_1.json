@@ -1,0 +1,24 @@
+{
+    "index": 303,
+    "question_type": "single-session-user",
+    "question": "What speed is my new internet plan?",
+    "question_date": "2023/05/30 (Tue) 05:53",
+    "ground_truth_answer": "500 Mbps",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User upgraded to 500 Mbps internet service' which directly matches the gold answer of 500 Mbps."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User upgraded to 500 Mbps internet service' which directly matches the gold answer of 500 Mbps."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user's new internet plan runs at 500 Mbps, which matches the gold answer exactly."
+        }
+    ]
+}

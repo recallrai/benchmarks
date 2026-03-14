@@ -1,0 +1,24 @@
+{
+    "index": 113,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+    "question_date": "2021/08/20 (Fri) 19:01",
+    "ground_truth_answer": "10 years",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about high school (2010-2014, 4 years), Associate's degree from PCC (earned May 2016, approximately 2 years after high school), and Bachelor's degree from UCLA (2016-2020, 4 years), which totals 10 years from high school through Bachelor's completion."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context provides all necessary information: high school from 2010-2014 (4 years), Associate's degree completed in May 2016 (approximately 2 years after high school), and Bachelor's at UCLA from 2016-2020 (4 years), totaling 10 years."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 10 years in formal education from high school through Bachelor's degree completion (2010-2020), which matches the gold answer of 10 years."
+        }
+    ]
+}

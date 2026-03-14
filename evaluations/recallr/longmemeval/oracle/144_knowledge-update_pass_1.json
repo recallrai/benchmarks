@@ -1,0 +1,24 @@
+{
+    "index": 144,
+    "question_type": "knowledge-update",
+    "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+    "question_date": "2023/06/20 (Tue) 11:24",
+    "ground_truth_answer": "TechCorp",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Rachel 'currently works at TechCorp' in Memory 1, which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory #1 that Rachel 'currently works at TechCorp,' which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the Key Findings section that 'Rachel, your old colleague from your previous company, is currently working at TechCorp,' which directly matches the gold answer."
+        }
+    ]
+}

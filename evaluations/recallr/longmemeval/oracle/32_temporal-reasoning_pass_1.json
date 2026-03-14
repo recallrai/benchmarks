@@ -1,0 +1,24 @@
+{
+    "index": 32,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the new router?",
+    "question_date": "2023/03/28 (Tue) 01:17",
+    "ground_truth_answer": "new router",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains dates showing the router was set up on January 15, 2023 and the smart thermostat on February 10, 2023, which allows determining the router came first, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the router was obtained on January 15, 2023 and the smart thermostat was set up on February 10, 2023, confirming the router came first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the new router was set up first on January 15, 2023, which matches the gold answer."
+        }
+    ]
+}

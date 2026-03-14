@@ -1,0 +1,24 @@
+{
+    "index": 477,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/26 (Fri) 00:54",
+    "ground_truth_answer": "$50",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the train fare ($10) and taxi fare ($60) which allows calculation of the savings as $50, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information that the train fare is around $10 and the taxi fare is estimated at $60, which allows calculating the savings of $50 ($60 - $10 = $50), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly shows a savings table where the hotel package deal scenario results in savings of ~$50 ($60 taxi cost minus $10 train cost), which matches the gold answer of $50."
+        }
+    ]
+}

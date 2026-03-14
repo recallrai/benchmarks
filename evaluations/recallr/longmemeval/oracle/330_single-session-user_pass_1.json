@@ -1,0 +1,24 @@
+{
+    "index": 330,
+    "question_type": "single-session-user",
+    "question": "How long did I wait for the decision on my asylum application?",
+    "question_date": "2023/05/28 (Sun) 19:47",
+    "ground_truth_answer": "over a year",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User's asylum application was approved after over a year of waiting,' which directly matches the gold answer 'over a year' and enables correctly answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User's asylum application was approved after over a year of waiting', which directly matches the gold answer 'over a year'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user waited 'over a year' for the decision on their asylum application, which matches the gold answer exactly."
+        }
+    ]
+}

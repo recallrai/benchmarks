@@ -1,0 +1,24 @@
+{
+    "index": 377,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I meet Emma?",
+    "question_date": "2023/04/20 (Thu) 09:29",
+    "ground_truth_answer": "9 days ago. 10 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user had lunch with Emma on April 11, 2023, and the question is being asked on April 20, 2023 (from the ongoing conversation timestamp), which is exactly 9 days later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user had lunch with Emma on April 11, 2023, and the question was asked on April 20, 2023, which allows calculating the correct answer of 9-10 days ago."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context correctly identifies that Emma was met on April 11, 2023, and the question was asked on April 20, 2023, which is exactly 9 days later \u2014 matching the gold answer."
+        }
+    ]
+}

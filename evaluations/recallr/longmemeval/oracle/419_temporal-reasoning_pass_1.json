@@ -1,0 +1,24 @@
+{
+    "index": 419,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet with during the lunch last Tuesday?",
+    "question_date": "2023/04/18 (Tue) 02:06",
+    "ground_truth_answer": "Emma",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User had lunch with Emma on April 11th, 2023', and since the question was asked on 2023/04/18 (Tuesday), 'last Tuesday' refers to 2023/04/11, which matches the gold answer of Emma."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User had lunch with Emma on April 11th, 2023', and 'last Tuesday' from the question date of 2023/04/18 (Tuesday) refers to 2023/04/11 (the previous Tuesday), which matches the gold answer 'Emma'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had lunch with Emma on Tuesday, April 11th, 2023, which matches 'last Tuesday' relative to the question date of April 18, 2023, and aligns with the gold answer."
+        }
+    ]
+}

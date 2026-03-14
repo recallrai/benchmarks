@@ -1,0 +1,24 @@
+{
+    "index": 325,
+    "question_type": "single-session-user",
+    "question": "How many copies of my favorite artist's debut album were released worldwide?",
+    "question_date": "2023/05/29 (Mon) 20:11",
+    "ground_truth_answer": "500",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the signed poster has 500 copies worldwide, but the question asks about the album copies, not the poster copies - these are different items."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user owns a signed poster from their favorite artist's debut album which is a limited edition of only 500 copies worldwide, and this 500 number matches the gold answer about copies of the album released worldwide."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the favorite artist's debut album was released as a limited edition of only 500 copies worldwide, which matches the gold answer of 500."
+        }
+    ]
+}

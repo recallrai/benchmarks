@@ -1,0 +1,24 @@
+{
+    "index": 204,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+    "question_date": "2023/05/24 (Wed) 18:12",
+    "ground_truth_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple memories showing the user is learning Spanish and French, wants to find language exchange events, is interested in cultural events celebrating language diversity and cultural exchange, and seeks conversational practice opportunities - all of which directly support the preferences described in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple memories indicating the user is learning French and Spanish, wants to find language exchange events in their area, is interested in cultural events celebrating language diversity and cultural exchange, and wants to improve conversational skills - all of which aligns with the gold answer's description of the user's preferences for cultural event recommendations."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies that the user is learning French and Spanish, prefers in-person cultural events for language practice, and is interested in language exchange events and cultural festivals \u2014 which directly aligns with the gold answer's description of the user's preferences for events involving Spanish/French language practice and cultural exchange."
+        }
+    ]
+}

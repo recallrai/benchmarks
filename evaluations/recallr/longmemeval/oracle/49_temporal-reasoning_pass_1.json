@@ -1,0 +1,24 @@
+{
+    "index": 49,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+    "question_date": "2023/05/20 (Sat) 05:18",
+    "ground_truth_answer": "volleyball league",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the volleyball league started around March 20, 2023 (memory 3: playing for about 2 months as of May 20, 2023) and the charity 5K run was in April 2023 (memory 1), confirming volleyball league came first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the volleyball league started around March 20, 2023 (event date 2023/03/20) and the charity 5K occurred in April 2023, confirming the volleyball league came first as stated in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that the volleyball league started around March 2023, which was before the charity 5K run in April 2023, matching the gold answer of 'volleyball league'."
+        }
+    ]
+}

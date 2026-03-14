@@ -1,0 +1,24 @@
+{
+    "index": 26,
+    "question_type": "temporal-reasoning",
+    "question": "What time do I wake up on Tuesdays and Thursdays?",
+    "question_date": "2023/05/30 (Tue) 10:45",
+    "ground_truth_answer": "6:45 AM",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'On Tuesdays and Thursdays, user wakes up 15 minutes earlier (at 6:45 AM)' which directly matches the gold answer of 6:45 AM."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that on Tuesdays and Thursdays, the user wakes up at 6:45 AM, which exactly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'On Tuesdays and Thursdays, you wake up at 6:45 AM' which matches the gold answer exactly."
+        }
+    ]
+}

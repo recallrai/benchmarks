@@ -1,0 +1,24 @@
+{
+    "index": 176,
+    "question_type": "knowledge-update",
+    "question": "How many pre-1920 American coins do I have in my collection?",
+    "question_date": "2023/05/28 (Sun) 13:18",
+    "ground_truth_answer": "38",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 explicitly states 'user has a collection of 38 pre-1920 American coins' which directly matches the gold answer of 38."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'user has a collection of 38 pre-1920 American coins', which directly matches the gold answer of 38."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has 38 pre-1920 American coins in their collection, which matches the gold answer exactly."
+        }
+    ]
+}

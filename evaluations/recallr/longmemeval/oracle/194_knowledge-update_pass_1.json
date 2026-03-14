@@ -1,0 +1,24 @@
+{
+    "index": 194,
+    "question_type": "knowledge-update",
+    "question": "How often do I see Dr. Johnson?",
+    "question_date": "2023/05/31 (Wed) 19:10",
+    "ground_truth_answer": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only contains information about Dr. Smith (therapy sessions every week) and no mention of Dr. Johnson, which aligns with the gold answer stating there is not enough information about Dr. Johnson."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains multiple references to Dr. Smith but no mentions of Dr. Johnson, which would enable someone to correctly determine that there is insufficient information about Dr. Johnson and match the gold answer's response."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that there is no record of 'Dr. Johnson' in the memory graph, but the user has mentioned seeing 'Dr. Smith' weekly, which aligns perfectly with the gold answer stating the information is insufficient regarding Dr. Johnson but Dr. Smith was mentioned."
+        }
+    ]
+}

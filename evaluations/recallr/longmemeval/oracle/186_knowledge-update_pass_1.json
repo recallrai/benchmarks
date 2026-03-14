@@ -1,0 +1,24 @@
+{
+    "index": 186,
+    "question_type": "knowledge-update",
+    "question": "How many women are on the team led by my former manager Rachel?",
+    "question_date": "2023/08/09 (Wed) 07:46",
+    "ground_truth_answer": "6",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 (the most relevant memory with similarity 1.0000) explicitly states 'User worked with Rachel's team, which had 6 women out of 10 people' which directly matches the gold answer of 6."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 (current version) explicitly states 'User worked with Rachel's team, which had 6 women out of 10 people', which matches the gold answer of 6."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the most recently updated memory (July 2023, Version A) says Rachel's team had 6 women out of 10 people, which matches the gold answer of 6."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 124,
+    "question_type": "knowledge-update",
+    "question": "Where did Rachel move to after her recent relocation?",
+    "question_date": "2023/06/24 (Sat) 08:50",
+    "ground_truth_answer": "the suburbs",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'User has a friend named Rachel who recently moved back to the suburbs,' which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'Rachel recently moved back to the suburbs,' which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Rachel 'moved back to the suburbs' after her recent relocation, which matches the gold answer of 'the suburbs'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 438,
+    "question_type": "multi-session",
+    "question": "When did I submit my research paper on sentiment analysis?",
+    "question_date": "2023/05/25 (Thu) 09:10",
+    "ground_truth_answer": "February 1st",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context mentions 'February 1st' as the ACL conference submission deadline in Summary 2, and Memory 1 confirms the user submitted a research paper on sentiment analysis to ACL, allowing the connection to be made."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, no session summaries, and no information about the research paper submission date - it only shows the unanswered question itself."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the research paper on sentiment analysis was submitted on May 23, 2023, while the gold answer is February 1st \u2014 these dates are completely different."
+        }
+    ]
+}

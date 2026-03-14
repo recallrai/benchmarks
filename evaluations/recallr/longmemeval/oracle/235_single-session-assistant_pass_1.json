@@ -1,0 +1,24 @@
+{
+    "index": 235,
+    "question_type": "single-session-assistant",
+    "question": "I remember you told me about the refining processes at CITGO's three refineries earlier. Can you remind me what kind of processes are used at the Lake Charles Refinery?",
+    "question_date": "2023/05/26 (Fri) 20:26",
+    "ground_truth_answer": "Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only indicates that the user previously inquired about refining processes at CITGO's refineries but does not contain the actual information about what specific processes (atmospheric distillation, FCC, alkylation, hydrotreating) are used at the Lake Charles Refinery."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only indicates that the user previously inquired about refining processes at CITGO's three refineries but does not contain the specific processes (atmospheric distillation, FCC, alkylation, hydrotreating) used at the Lake Charles Refinery."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly lists all four processes at the Lake Charles Refinery: atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating \u2014 exactly matching the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 383,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the sports events I watched in January?",
+    "question_date": "2023/01/30 (Mon) 01:51",
+    "ground_truth_answer": "First, I attended a NBA game at the Staples Center, then I watched the College Football National Championship game, and finally, I watched the NFL playoffs.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three sports events with specific dates (NBA game on Jan 5, College Football Championship on Jan 14, NFL playoffs on Jan 14-15), which matches the chronological order stated in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all three sports events with specific dates (NBA game on Jan 5, College Football Championship on Jan 14, NFL playoffs on Jan 14-15), which clearly establishes the chronological order matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the same chronological order as the gold answer: first an NBA game at the Staples Center (Jan 5), then the College Football National Championship (Jan 14), and finally the NFL playoffs/Divisional Round (Jan 14-15)."
+        }
+    ]
+}

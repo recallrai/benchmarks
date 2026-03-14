@@ -1,0 +1,24 @@
+{
+    "index": 435,
+    "question_type": "multi-session",
+    "question": "How much cashback did I earn at SaveMart last Thursday?",
+    "question_date": "2023/05/29 (Mon) 13:21",
+    "ground_truth_answer": "$0.75",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user shops at SaveMart with 1% cashback membership, but does not contain the specific cashback amount of $0.75 earned on Thursday 2023/05/25 or the purchase amount needed to calculate it."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user spent $75 at SaveMart on May 25, 2023 (last Thursday from the question date) and has a 1% cashback membership, which calculates to $0.75 cashback matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user earned $0.75 in cashback from a $75 SaveMart purchase at a 1% cashback rate, which matches the gold answer of $0.75."
+        }
+    ]
+}

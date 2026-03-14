@@ -1,0 +1,24 @@
+{
+    "index": 319,
+    "question_type": "single-session-user",
+    "question": "How long did it take to move to the new apartment?",
+    "question_date": "2023/05/29 (Mon) 07:44",
+    "ground_truth_answer": "5 hours",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context in Summary 1 explicitly states 'The move took about 5 hours with help from friends,' which directly matches the gold answer of 5 hours."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The session summary explicitly states 'The move took about 5 hours with help from friends,' which directly answers the question and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the move took approximately 5 hours, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 78,
+    "question_type": "multi-session",
+    "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+    "question_date": "2023/05/30 (Tue) 18:48",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains information about 4 pieces of furniture: purchased coffee table (Memory 1), assembled IKEA bookshelf (Memory 2), fixed kitchen table (Memory 3), and ordered Casper mattress (Memory 10), which matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context contains information about 4 pieces of furniture: coffee table purchased from West Elm (May 25th), IKEA bookshelf assembled (March 2023), kitchen table fixed (last weekend around May 27-28), and Casper mattress ordered, which totals to the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states '4 distinct pieces of furniture across 4 separate actions' (assembled an IKEA bookshelf, bought a coffee table, bought a Casper mattress, and fixed a kitchen table), which matches the gold answer of 4."
+        }
+    ]
+}

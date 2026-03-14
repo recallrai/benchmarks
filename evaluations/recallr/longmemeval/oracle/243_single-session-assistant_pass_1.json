@@ -1,0 +1,24 @@
+{
+    "index": 243,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Native American powwows and I was wondering, which traditional game did you say was often performed by skilled dancers at powwows?",
+    "question_date": "2023/05/29 (Mon) 16:06",
+    "ground_truth_answer": "Hoop Dance",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about traditional games at Native American powwows occurred, but does not contain the specific answer 'Hoop Dance' or any information that would allow someone to correctly identify which game was discussed."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms a conversation about Native American powwows and traditional games occurred, it does not contain any specific mention of 'Hoop Dance' or identify which particular game was performed by skilled dancers, making it impossible to correctly answer the question from this context alone."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies the Hoop Dance as the traditional game 'often performed by skilled dancers at powwows,' which matches the gold answer exactly."
+        }
+    ]
+}

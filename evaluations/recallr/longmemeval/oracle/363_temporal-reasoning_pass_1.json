@@ -1,0 +1,24 @@
+{
+    "index": 363,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+    "question_date": "2023/10/01 (Sun) 03:53",
+    "ground_truth_answer": "Michael's engagement party",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both events with specific dates (Michael's engagement party on May 6, 2023 and cousin's wedding on June 15, 2023), clearly showing Michael's engagement party occurred first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows Michael's engagement party was on May 6, 2023 and the cousin's wedding was on June 15, 2023, confirming Michael's engagement party happened first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Michael's engagement party (May 6, 2023) happened first, approximately 6 weeks before the cousin's wedding (June 15, 2023), which matches the gold answer."
+        }
+    ]
+}

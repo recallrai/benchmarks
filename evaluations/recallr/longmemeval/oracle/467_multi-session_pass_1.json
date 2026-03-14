@@ -1,0 +1,24 @@
+{
+    "index": 467,
+    "question_type": "multi-session",
+    "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+    "question_date": "2023/05/27 (Sat) 13:11",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the car was getting 30 mpg a few months ago (version 1) and currently gets 28 mpg (version 2), which is a difference of 2 mpg, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the car was getting 30 mpg a few months ago (version 1) and currently gets 28 mpg (version 2), which is a difference of 2 mpg matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the car was getting 30 MPG a few months ago and 28 MPG currently, a difference of exactly 2 MPG, matching the gold answer."
+        }
+    ]
+}

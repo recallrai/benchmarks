@@ -1,0 +1,24 @@
+{
+    "index": 316,
+    "question_type": "single-session-user",
+    "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+    "question_date": "2023/05/24 (Wed) 22:04",
+    "ground_truth_answer": "The painting is worth triple what I paid for it.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states 'User's flea market find is worth triple what they paid for it' and refers to artwork found at a flea market, which directly matches the gold answer's information about the painting being worth triple what was paid for it."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'User's flea market find is worth triple what they paid for it' which directly matches the gold answer's core information that the painting is worth triple what was paid for it."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the sunset painting is worth 'triple' (3\u00d7) what was paid for it, which directly matches the gold answer."
+        }
+    ]
+}

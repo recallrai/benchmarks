@@ -1,0 +1,24 @@
+{
+    "index": 327,
+    "question_type": "single-session-user",
+    "question": "Where did I go on a week-long trip with my family?",
+    "question_date": "2023/05/26 (Fri) 07:00",
+    "ground_truth_answer": "Hawaii",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'User went to Hawaii with their family for a week in April 2023', which perfectly matches the gold answer 'Hawaii'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User went to Hawaii with their family for a week in April 2023', which directly answers the question and matches the gold answer of Hawaii."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user went on a week-long trip to Hawaii with their family in April 2023, which matches the gold answer of Hawaii."
+        }
+    ]
+}

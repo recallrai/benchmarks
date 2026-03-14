@@ -1,0 +1,24 @@
+{
+    "index": 138,
+    "question_type": "knowledge-update",
+    "question": "How long have I been using my Fitbit Charge 3?",
+    "question_date": "2023/09/03 (Sun) 20:23",
+    "ground_truth_answer": "9 months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current active memory explicitly stating 'User has been using their Fitbit Charge 3 for 9 months', which directly matches the gold answer of '9 months'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory explicitly stating 'User has been using their Fitbit Charge 3 for 9 months', which directly matches the gold answer of '9 months'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has been using their Fitbit Charge 3 for 9 months as of September 2023, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 347,
+    "question_type": "single-session-user",
+    "question": "What health issue did I initially think was just a cold?",
+    "question_date": "2023/05/25 (Thu) 08:18",
+    "ground_truth_answer": "bronchitis",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states that the user had a bad case of bronchitis that they initially thought was just a cold, which perfectly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User recently had a bad case of bronchitis that they initially thought was just a cold,' which directly answers the question and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the health issue initially thought to be a cold was bronchitis, which matches the gold answer exactly."
+        }
+    ]
+}

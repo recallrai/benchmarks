@@ -1,0 +1,24 @@
+{
+    "index": 92,
+    "question_type": "multi-session",
+    "question": "How many health-related devices do I use in a day?",
+    "question_date": "2023/05/27 (Sat) 06:53",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context identifies four health-related devices the user uses daily: nebulizer machine (twice daily), Fitbit Versa 3 (worn non-stop with daily breathing sessions), Accu-Chek blood sugar monitor (three times daily), and hearing aids (relied on heavily), which matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 4 health-related devices the user uses daily: nebulizer machine (twice daily), blood sugar monitor/Accu-Chek (three times daily), Fitbit Versa 3 (worn non-stop), and hearing aids (relied on daily), which matches the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user uses 4 health-related devices in a day (nebulizer machine, blood glucose monitor, hearing aids, and Fitbit Versa 3), matching the gold answer of 4."
+        }
+    ]
+}

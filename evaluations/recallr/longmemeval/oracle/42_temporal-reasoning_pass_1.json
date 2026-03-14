@@ -1,0 +1,24 @@
+{
+    "index": 42,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+    "question_date": "2023/05/27 (Sat) 02:34",
+    "ground_truth_answer": "Four weeks",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows guitar lessons started around April 15, 2023 and the guitar amp was bought around May 13, 2023, which is approximately 4 weeks later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows guitar lessons started around April 15, 2023 and the amp was bought around May 13, 2023, which is approximately 4 weeks apart, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that when the new guitar amp was purchased (~May 13, 2023), the user had been taking guitar lessons for approximately 4 weeks, which matches the gold answer of 'Four weeks'."
+        }
+    ]
+}

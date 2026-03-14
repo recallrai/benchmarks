@@ -1,0 +1,24 @@
+{
+    "index": 109,
+    "question_type": "multi-session",
+    "question": "What is the total amount of money I earned from selling my products at the markets?",
+    "question_date": "2023/06/01 (Thu) 21:36",
+    "ground_truth_answer": "$495",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three market sales ($225 from jam, $120 from herbs, and $150 from potted plants calculated as 20 \u00d7 $7.5) which total to $495, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three market sales: $225 from jam, $120 from herbs, and $150 from potted plants (20 \u00d7 $7.5), which totals exactly $495 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states a total of $495.00 in confirmed market earnings, which matches the gold answer of $495."
+        }
+    ]
+}

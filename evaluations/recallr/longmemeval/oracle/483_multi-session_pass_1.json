@@ -1,0 +1,24 @@
+{
+    "index": 483,
+    "question_type": "multi-session",
+    "question": "How many days a week do I attend fitness classes?",
+    "question_date": "2023/05/21 (Sun) 07:51",
+    "ground_truth_answer": "4 days.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user attends fitness classes on Tuesdays (Zumba), Wednesdays (yoga), Thursdays (Zumba), and Saturdays (weightlifting), which totals 4 days per week, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user attends Zumba on Tuesdays and Thursdays, yoga on Wednesdays, and weightlifting on Saturdays, which totals 4 days per week, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user attends fitness classes 3 days per week (Tuesday, Thursday, Saturday), while the gold answer says 4 days \u2014 these do not match."
+        }
+    ]
+}

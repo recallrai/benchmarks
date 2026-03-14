@@ -1,0 +1,24 @@
+{
+    "index": 89,
+    "question_type": "multi-session",
+    "question": "What is the average age of me, my parents, and my grandparents?",
+    "question_date": "2023/05/26 (Fri) 03:27",
+    "ground_truth_answer": "59.6",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all necessary ages (user: 32, mother: 55, father: 58, grandma: 75, grandpa: 78) which when averaged equals 59.6, matching the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all necessary age information (user: 32, mother: 55, father: 58, grandma: 75, grandpa: 78) which correctly calculates to an average of 59.6"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly calculates the average age as (32 + 58 + 55 + 78 + 75) \u00f7 5 = 59.6, which exactly matches the gold answer."
+        }
+    ]
+}

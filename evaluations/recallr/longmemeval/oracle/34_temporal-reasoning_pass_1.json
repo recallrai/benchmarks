@@ -1,0 +1,24 @@
+{
+    "index": 34,
+    "question_type": "temporal-reasoning",
+    "question": "How old was I when I moved to the United States?",
+    "question_date": "2023/05/29 (Mon) 21:08",
+    "ground_truth_answer": "27",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old and has been living in the United States for the past five years, which allows calculation that they were 27 when they moved (32 - 5 = 27)."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old (as of May 2023) and has been living in the United States for five years (since May 2018), which allows calculation that they were 27 when they moved (32 - 5 = 27)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user was 27 years old when they moved to the United States, matching the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 250,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+    "question_date": "2023/05/25 (Thu) 02:24",
+    "ground_truth_answer": "Mod Podge or another sealant",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains memories about DIY home decor projects with wine corks and bottle caps, but does not mention a newspaper flower vase or any sealant recommendation (Mod Podge or otherwise)."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses wine cork bulletin boards and bottle cap coasters but contains no information about a newspaper flower vase or any sealant recommendations like Mod Podge."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the recommended sealant for the Newspaper Flower Vase was 'Mod Podge (or another sealant of your choice)', which matches the gold answer exactly."
+        }
+    ]
+}

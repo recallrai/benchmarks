@@ -1,0 +1,24 @@
+{
+    "index": 381,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+    "question_date": "2023/04/01 (Sat) 16:11",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the user started ukulele lessons on February 1st, 2023 and took their Taylor GS Mini guitar for servicing on February 25, 2023, which allows calculating that 24 days passed (or 25 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started ukulele lessons on February 1st, 2023 and took their guitar to the tech on February 25, 2023, which is 24 days later (or 25 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 24 days had passed between when the user started ukulele lessons (February 1, 2023) and when they took their Taylor GS Mini to the guitar tech for servicing (February 25, 2023), which matches the gold answer of 24 days."
+        }
+    ]
+}

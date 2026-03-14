@@ -1,0 +1,24 @@
+{
+    "index": 76,
+    "question_type": "multi-session",
+    "question": "How many weddings have I attended in this year?",
+    "question_date": "2023/10/15 (Sun) 22:23",
+    "ground_truth_answer": "I attended three weddings. The couples were Rachel and Mike, Emily and Sarah, and Jen and Tom.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about three weddings attended in 2023: Rachel's wedding in August, Emily and Sarah's wedding in October, and Jen and Tom's wedding in October, which matches the gold answer's count and identifies the same couples (though Mike's name as Rachel's spouse is not explicitly mentioned in the context)."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly documents the user attending three weddings in 2023: Rachel's wedding (as bridesmaid in August), Emily and Sarah's wedding (college roommate in October), and Jen and Tom's wedding (friend in October), which matches the count and most couples mentioned in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the user attended 3 weddings in 2023 involving Rachel, Emily, and Jen, which matches the gold answer's count of three weddings with the same individuals (though the partners' last names aren't mentioned in the context)."
+        }
+    ]
+}

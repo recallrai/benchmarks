@@ -1,0 +1,24 @@
+{
+    "index": 335,
+    "question_type": "single-session-user",
+    "question": "What type of bulb did I replace in my bedside lamp?",
+    "question_date": "2023/05/26 (Fri) 15:27",
+    "ground_truth_answer": "Philips LED bulb",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a Philips LED bulb in their bedside lamp,' which directly contains the same bulb type (Philips LED bulb) and lamp location (bedside lamp) as mentioned in the gold answer, enabling someone to correctly answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'User has a Philips LED bulb in their bedside lamp,' which directly contains the information needed to answer the question about what type of bulb was replaced in the bedside lamp (Philips LED bulb)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating 'User has a Philips LED bulb in their bedside lamp' and the user mentioned using a 'Philips LED bulb' in their bedside lamp, which matches the gold answer of 'Philips LED bulb' as the replacement bulb."
+        }
+    ]
+}

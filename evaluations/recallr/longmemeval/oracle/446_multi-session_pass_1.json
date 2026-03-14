@@ -1,0 +1,24 @@
+{
+    "index": 446,
+    "question_type": "multi-session",
+    "question": "How many Marvel movies did I re-watch?",
+    "question_date": "2023/05/26 (Fri) 23:52",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains two explicit memories about re-watching Marvel movies: Avengers: Endgame (May 19th, 2023) and Spider-Man: No Way Home (May 22nd, 2023), which matches the gold answer of 2."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions two Marvel movies that were re-watched: Avengers: Endgame (May 19th, 2023) and Spider-Man: No Way Home (May 22, 2023), which matches the gold answer of 2."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Total confirmed re-watches: 2' (Avengers: Endgame and Spider-Man: No Way Home), which matches the gold answer of 2."
+        }
+    ]
+}

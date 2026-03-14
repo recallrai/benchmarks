@@ -1,0 +1,24 @@
+{
+    "index": 212,
+    "question_type": "single-session-preference",
+    "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+    "question_date": "2023/05/26 (Fri) 02:34",
+    "ground_truth_answer": "Considering their mixology class background, the user would prefer cocktail suggestions that build upon their existing skills and interests, such as creative variations of classic cocktails or innovative twists on familiar flavors. They might appreciate recommendations that incorporate their experience with refreshing summer drinks like Pimm's Cup. The user would not prefer overly simplistic or basic cocktail recipes, and may not be interested in suggestions that don't take into account their mixology class background.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains extensive information about the user's mixology class background, experience with Pimm's Cup and other classic cocktails, interest in creative variations with techniques like muddling and homemade syrups, and preference for visually appealing presentations, which directly supports all key aspects of the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly establishes the user's mixology class background, experience with Pimm's Cup and other classic cocktails, interest in creative variations (Pimm's Cup with a Twist), and advanced techniques (making syrups, muddling, garnishing), which directly supports the gold answer's recommendation for creative variations building on their existing skills."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user's mixology class background, their development of a Pimm's Cup with a Twist, and provides cocktail suggestions that build upon their existing skills and interests - all directly matching the gold answer's criteria."
+        }
+    ]
+}

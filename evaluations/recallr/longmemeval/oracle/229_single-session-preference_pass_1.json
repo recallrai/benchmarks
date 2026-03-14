@@ -1,0 +1,24 @@
+{
+    "index": 229,
+    "question_type": "single-session-preference",
+    "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+    "question_date": "2023/05/27 (Sat) 16:05",
+    "ground_truth_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the key information about the user's existing resources (Suica card and TripIt app) and their nervousness about the trip, which would enable providing personalized tips for navigating Tokyo as specified in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the key information referenced in the gold answer, specifically that the user has a Suica card (Memory #2) and TripIt app (Memory #4), along with their nervousness about the trip (Memory #5), which would enable providing personalized tips utilizing these existing resources."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies both the Suica card and TripIt app as the user's key existing resources and builds the entire navigation advice around personalizing tips based on these tools, which aligns directly with the gold answer."
+        }
+    ]
+}

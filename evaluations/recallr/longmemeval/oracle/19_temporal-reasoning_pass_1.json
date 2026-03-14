@@ -1,0 +1,24 @@
+{
+    "index": 19,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I book the Airbnb in San Francisco?",
+    "question_date": "2023/05/27 (Sat) 01:55",
+    "ground_truth_answer": "Five months ago",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context states the user booked an Airbnb 'three months in advance' for a wedding in 'late March 2023', which means booking occurred around late December 2022/early January 2023, and from that time to the question date (May 27, 2023) is approximately five months."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user booked an Airbnb 'three months in advance' for their best friend's wedding in 'late March 2023,' which would be around late December 2022/early January 2023, approximately five months before the question date of May 27, 2023."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context states the Airbnb was booked 'three months in advance' of the late March 2023 wedding trip, placing the booking around late December 2022. From the question date of May 27, 2023, that's approximately five months ago, matching the gold answer."
+        }
+    ]
+}

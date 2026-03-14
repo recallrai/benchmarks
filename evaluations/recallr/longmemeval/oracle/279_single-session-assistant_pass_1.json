@@ -1,0 +1,24 @@
+{
+    "index": 279,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about fracking in the Marcellus Shale region. You mentioned that some states require fracking companies to monitor groundwater quality at nearby wells before drilling and for a certain period after drilling is complete. Can you remind me which state you mentioned as an example that has this requirement?",
+    "question_date": "2023/05/21 (Sun) 12:42",
+    "ground_truth_answer": "Pennsylvania",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains memories and a summary about the user's views on fracking but does not mention Pennsylvania or any specific state having groundwater monitoring requirements for fracking companies."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains memories about the user's views on fracking and a summary mentioning groundwater quality discussion, but does not contain any information about Pennsylvania or any specific state having groundwater monitoring requirements."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Pennsylvania as the state that requires fracking companies to monitor groundwater quality before and after drilling, which matches the gold answer exactly."
+        }
+    ]
+}

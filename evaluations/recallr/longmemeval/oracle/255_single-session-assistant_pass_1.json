@@ -1,0 +1,24 @@
+{
+    "index": 255,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was?",
+    "question_date": "2023/05/26 (Fri) 05:10",
+    "ground_truth_answer": "Absinthe",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about 5 bottles for gin-based cocktails occurred but does not contain the actual list of recommended bottles or specify that the fifth bottle was Absinthe."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about 5 bottles for gin-based cocktails occurred but does not contain the actual list of recommended bottles or any mention of Absinthe, making it impossible to answer what the fifth bottle was."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the fifth bottle recommended was Absinthe, matching the gold answer exactly."
+        }
+    ]
+}

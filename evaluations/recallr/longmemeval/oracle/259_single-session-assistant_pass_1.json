@@ -1,0 +1,24 @@
+{
+    "index": 259,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+    "question_date": "2023/05/30 (Tue) 13:07",
+    "ground_truth_answer": "2-3 eggs",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about French omelettes occurred but does not contain any information about the specific number of eggs (2-3) needed for the recipe, making it impossible to answer the question from the provided context."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a conversation about making French omelettes occurred and mentions that essential ingredients were discussed, but it does not contain the specific information about needing 2-3 eggs, which is required to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the recommended amount is '2 to 3 eggs' for the classic French omelette recipe, which matches the gold answer of '2-3 eggs'."
+        }
+    ]
+}

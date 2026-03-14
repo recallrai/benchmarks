@@ -1,0 +1,24 @@
+{
+    "index": 99,
+    "question_type": "multi-session",
+    "question": "How many musical instruments do I currently own?",
+    "question_date": "2023/05/26 (Fri) 20:36",
+    "ground_truth_answer": "I currently own 4 musical instruments. I've had the Fender Stratocaster electric guitar for 5 years, the Yamaha FG800 acoustic guitar for 8 years, the 5-piece Pearl Export drum set for an unspecified amount of time, and the Korg B1 piano for 3 years.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains explicit memories stating the user owns 4 instruments: a Fender Stratocaster electric guitar (5 years), Yamaha FG800 acoustic guitar (8 years), 5-piece Pearl Export drum set, and Korg B1 piano (3 years), which matches the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies all 4 musical instruments the user owns (Fender Stratocaster, Yamaha FG800, Pearl Export drum set, and Korg B1 piano) with matching ownership durations, enabling a correct answer to the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms exactly 4 musical instruments (Fender Stratocaster, Yamaha FG800, Korg B1 piano, and Pearl Export drum set) with the same ownership durations as mentioned in the gold answer."
+        }
+    ]
+}

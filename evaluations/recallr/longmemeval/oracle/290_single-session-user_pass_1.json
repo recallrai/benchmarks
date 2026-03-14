@@ -1,0 +1,24 @@
+{
+    "index": 290,
+    "question_type": "single-session-user",
+    "question": "What is the name of the playlist I created on Spotify?",
+    "question_date": "2023/05/29 (Mon) 04:35",
+    "ground_truth_answer": "Summer Vibes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a Spotify playlist called 'Summer Vibes'' which directly matches the gold answer 'Summer Vibes'."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, session summaries, or conversation history that mentions the playlist name 'Summer Vibes' or any Spotify playlist information that would allow someone to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the Spotify playlist is named 'Summer Vibes', which matches the gold answer exactly."
+        }
+    ]
+}

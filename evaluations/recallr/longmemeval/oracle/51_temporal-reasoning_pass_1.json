@@ -1,0 +1,24 @@
+{
+    "index": 51,
+    "question_type": "temporal-reasoning",
+    "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+    "question_date": "2023/05/24 (Wed) 23:47",
+    "ground_truth_answer": "Japanese Zero fighter plane model",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the Japanese Zero was started around April 24, 2023 while the Ferrari model was started on April 30, 2023, confirming the Japanese Zero was started first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the Ferrari model was started on April 30, 2023, while the Japanese Zero fighter plane was started around April 24, 2023, clearly indicating the Japanese Zero was started first, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly confirms that the Japanese Zero fighter plane model was started first (around April 24, 2023), approximately six days before the Ferrari 288 GTO (April 30, 2023), which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 193,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+    "question_date": "2023/06/03 (Sat) 02:36",
+    "ground_truth_answer": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user's new role as 'Senior Software Engineer' (not 'Software Engineer Manager'), which aligns with the gold answer stating there's no information about a Software Engineer Manager role."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user started a new role as 'Senior Software Engineer' (not 'Software Engineer Manager'), which aligns with the gold answer's clarification that the user mentioned Senior Software Engineer, not Software Engineer Manager."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The gold answer states that there is insufficient information because the user mentioned starting as Senior Software Engineer, not Software Engineer Manager. However, the retrieved context explicitly contains information about the user's role as Software Engineer Manager and states they led 4 engineers when they started (with a possible update to 5), which directly contradicts the gold answer's claim of insufficient information."
+        }
+    ]
+}

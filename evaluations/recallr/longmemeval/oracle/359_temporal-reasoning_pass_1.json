@@ -1,0 +1,24 @@
+{
+    "index": 359,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I participated in two charity events in a row, on consecutive days?",
+    "question_date": "2023/04/18 (Tue) 10:43",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user participated in charity events on February 14, 2023 ('24-Hour Bike Ride') and February 15, 2023 ('Books for Kids'), which are consecutive days, and approximately 2 months passed from mid-February to the question date of April 18, 2023."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user participated in the '24-Hour Bike Ride' charity event on February 14, 2023 and the 'Books for Kids' charity book drive on February 15, 2023 (consecutive days), which is approximately 2 months before the question date of April 18, 2023."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context correctly identifies the consecutive charity events as occurring on February 14-15, 2023. From that date to the question date of April 18, 2023, approximately 2 months have passed, matching the gold answer of 2 (the context's temporal analysis uses March 19, 2023 as the reference date, which is incorrect, but the key event dates are present and would allow correctly calculating 2 months)."
+        }
+    ]
+}

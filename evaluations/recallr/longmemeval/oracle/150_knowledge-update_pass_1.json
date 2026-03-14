@@ -1,0 +1,24 @@
+{
+    "index": 150,
+    "question_type": "knowledge-update",
+    "question": "How many new postcards have I added to my collection since I started collecting again?",
+    "question_date": "2023/12/20 (Wed) 22:41",
+    "ground_truth_answer": "25",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User has added 25 new postcards since starting to collect again' (created 2023/11/30), which directly matches the gold answer of 25."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, no session summaries, and no information about postcards or the number 25 that would enable answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user has added 25 new postcards to their collection since starting again, which matches the gold answer exactly."
+        }
+    ]
+}

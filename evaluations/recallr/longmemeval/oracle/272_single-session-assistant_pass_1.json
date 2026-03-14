@@ -1,0 +1,24 @@
+{
+    "index": 272,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+    "question_date": "2023/05/25 (Thu) 14:10",
+    "ground_truth_answer": "Andy was wearing an untidy, stained white shirt.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions Andy has a 'stained shirt' which touches on the same topic as the gold answer ('untidy, stained white shirt'), providing enough information to answer the question about what Andy was wearing."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions Andy wearing a 'stained shirt' in the summary of the comedy movie script, which matches the key detail in the gold answer about Andy wearing a stained white shirt."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Andy was wearing 'an untidy, stained white shirt,' which matches the gold answer exactly."
+        }
+    ]
+}

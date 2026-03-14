@@ -1,0 +1,24 @@
+{
+    "index": 81,
+    "question_type": "multi-session",
+    "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+    "question_date": "2023/05/27 (Sat) 02:43",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user learning or trying vegan cuisine (class with lasagna), Indian cuisine (class with chicken tikka masala), Korean cuisine (bibimbap recipe), and fermentation techniques including sauerkraut and kimchi, which collectively represent 4 different cuisines learned or tried."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly mentions four distinct cuisines: vegan cuisine (attended class, made lasagna), Indian cuisine (attended class, made chicken tikka masala), Korean cuisine (tried bibimbap recipe, made kimchi), and Ethiopian cuisine (tried at restaurant, wants to make dishes), which matches the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user engaged with 4 distinct cuisines (Korean, Indian, Italian/Vegan, and Ethiopian) over the past few months, which matches the gold answer of 4."
+        }
+    ]
+}

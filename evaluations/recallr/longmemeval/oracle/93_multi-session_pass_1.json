@@ -1,0 +1,24 @@
+{
+    "index": 93,
+    "question_type": "multi-session",
+    "question": "How many fish are there in total in both of my aquariums?",
+    "question_date": "2023/05/27 (Sat) 17:21",
+    "ground_truth_answer": "17",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user's tanks have 10 neon tetras, 5 golden honey gouramis, 1 small pleco catfish, and 1 betta fish named Bubbles, which totals 17 fish across both aquariums."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user has two tanks: a 10-gallon with Bubbles (1 betta fish) and a 20-gallon with 10 neon tetras + 5 golden honey gouramis + 1 pleco catfish (16 fish), totaling 17 fish, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states a grand total of 17 fish across both aquariums (16 in the 20-gallon tank and 1 in the 10-gallon tank), which matches the gold answer of 17."
+        }
+    ]
+}

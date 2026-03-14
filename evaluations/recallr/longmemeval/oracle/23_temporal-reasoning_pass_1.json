@@ -1,0 +1,24 @@
+{
+    "index": 23,
+    "question_type": "temporal-reasoning",
+    "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+    "question_date": "2023/05/20 (Sat) 11:34",
+    "ground_truth_answer": "'Game of Thrones'",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows Game of Thrones was started around April 20, 2023 ('about a month ago' from May 20), while The Crown season 3 was started on May 7, 2023, confirming Game of Thrones was watched first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started watching 'Game of Thrones' around April 20, 2023 (about a month before May 20), and started 'The Crown' season 3 on May 7, 2023, confirming Game of Thrones was watched first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'Game of Thrones' was started first (~April 20, 2023), approximately two to three weeks before 'The Crown', which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 352,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my uncle's birthday party?",
+    "question_date": "2023/05/30 (Tue) 06:23",
+    "ground_truth_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about baking a lemon blueberry cake for a niece's birthday party but contains no information about an uncle's birthday party, which aligns with the gold answer's statement that the user mentioned the niece's party but not the uncle's."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context correctly shows the user baked a lemon blueberry cake for their niece's birthday party but contains no information about baking for an uncle's birthday party, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that there is no stored memory of baking for the uncle's birthday party, but there is a memory of baking a lemon blueberry cake for the niece's birthday party \u2014 which matches the gold answer exactly."
+        }
+    ]
+}

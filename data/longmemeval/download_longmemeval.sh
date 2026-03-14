@@ -1,0 +1,3 @@
+[ ! -f longmemeval_m.json ] && wget https://huggingface.co/datasets/xiaowu0162/longmemeval/resolve/main/longmemeval_m -O longmemeval_m.json
+[ ! -f longmemeval_s.json ] && wget https://huggingface.co/datasets/xiaowu0162/longmemeval/resolve/main/longmemeval_s -O longmemeval_s.json
+[ ! -f longmemeval_oracle.json ] && wget https://huggingface.co/datasets/xiaowu0162/longmemeval/resolve/main/longmemeval_oracle -O longmemeval_oracle.json

@@ -1,0 +1,24 @@
+{
+    "index": 285,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+    "question_date": "2023/05/29 (Mon) 23:31",
+    "ground_truth_answer": "Grilled Snapper with Mango Salsa",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions Escovitch Fish (with pickled vegetables), but the gold answer is Grilled Snapper with Mango Salsa - there is no mention of any snapper dish with fruit in the retrieved context."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions Escovitch Fish (with pickled vegetables), not Grilled Snapper with Mango Salsa (with fruit/mango), so it does not contain the information needed to answer the question about a Jamaican snapper dish with fruit."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies 'Grilled Snapper with Mango Salsa' as the dish the user is asking about, which matches the gold answer exactly."
+        }
+    ]
+}

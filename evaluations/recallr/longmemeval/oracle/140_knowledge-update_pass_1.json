@@ -1,0 +1,24 @@
+{
+    "index": 140,
+    "question_type": "knowledge-update",
+    "question": "What type of camera lens did I purchase most recently?",
+    "question_date": "2023/09/08 (Fri) 04:23",
+    "ground_truth_answer": "a 70-200mm zoom lens",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory about a 70-200mm zoom lens from August 30, 2023, which is more recent than the 50mm prime lens memory from March 11, 2023, allowing someone to correctly identify the 70-200mm as the most recent lens acquisition."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context contains information about a 70-200mm zoom lens (event date 2023/08/30) which is more recent than the 50mm prime lens purchase (event date 2023/03/11), allowing someone to correctly identify the 70-200mm as the most recent lens acquisition."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the most recently purchased camera lens is the 70-200mm zoom lens, which matches the gold answer exactly."
+        }
+    ]
+}

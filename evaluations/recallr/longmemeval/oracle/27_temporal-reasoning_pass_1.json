@@ -1,0 +1,24 @@
+{
+    "index": 27,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+    "question_date": "2023/02/03 (Fri) 23:24",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the exact dates needed to answer the question: Adidas shoes purchased on January 10th, 2023 and Converse shoelace broke on January 24th, 2023, which allows calculating 14 days between these dates (or 15 days inclusive)."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context contains both dates needed to calculate the answer: Adidas running shoes purchased on January 10th, 2023 (Memory 1) and Converse shoelace broke on January 24th, 2023 (Memory 5), which is 14 days apart (or 15 including the purchase day), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 14 days elapsed between the Adidas running shoes purchase on January 10, 2023, and the broken Converse shoelace discovery on January 24, 2023, which matches the gold answer exactly."
+        }
+    ]
+}

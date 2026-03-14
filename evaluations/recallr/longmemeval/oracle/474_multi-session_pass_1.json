@@ -1,0 +1,24 @@
+{
+    "index": 474,
+    "question_type": "multi-session",
+    "question": "What time did I reach the clinic on Monday?",
+    "question_date": "2023/05/29 (Mon) 00:19",
+    "ground_truth_answer": "9:00 AM",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the user left home at 7 AM on Monday, May 15, 2023, but does not contain any information about what time they reached/arrived at the clinic (gold answer: 9:00 AM)."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user left home at 7 AM on Monday, May 15, 2023 for their doctor's appointment, but does not contain any information about what time they actually reached or arrived at the clinic."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states that the exact clinic arrival time was never recorded, and the only inferred estimate mentioned is approximately 7:45 AM \u2014 not 9:00 AM as specified in the gold answer."
+        }
+    ]
+}

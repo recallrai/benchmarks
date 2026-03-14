@@ -1,0 +1,24 @@
+{
+    "index": 43,
+    "question_type": "temporal-reasoning",
+    "question": "Which streaming service did I start using most recently?",
+    "question_date": "2023/05/22 (Mon) 04:35",
+    "ground_truth_answer": "Disney+",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user had a Disney+ free trial in April 2023, which is more recent than Netflix/Hulu/Amazon Prime (started ~November 2022) and Apple TV+ (started ~February 2023), correctly identifying Disney+ as the most recently started streaming service."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses Netflix, Hulu, Amazon Prime, and Apple TV+, but contains no mention of Disney+ which is the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Disney+ (started as a free trial in April 2023) is the most recently started streaming service, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 37,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did the narrator take first, the solo trip to Europe or the family road trip across the American Southwest?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "The family road trip across the American Southwest",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the family road trip across the American Southwest occurred during 2019-2021 (memory 2), while the solo Europe trip occurred in summer 2022 (memory 1), allowing someone to correctly determine the family road trip came first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context clearly shows the family road trip across the American Southwest occurred 2019-2021 while the solo Europe trip occurred in summer 2022, confirming the family road trip came first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The family road trip across the American Southwest came first' (2019\u20132021), predating the solo trip to Europe in summer 2022, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 452,
+    "question_type": "multi-session",
+    "question": "How old was I when Alex was born?",
+    "question_date": "2023/05/29 (Mon) 23:46",
+    "ground_truth_answer": "11",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains that the user is 32 years old (turned 32 in April 2023) and Alex is 21 years old (as of May 2023), which gives an age difference of 11 years, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old (turned 32 in April 2023) and Alex is 21 years old, which allows calculating that the user was 11 years old when Alex was born (32 - 21 = 11)."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context calculates that the user was approximately 10-11 years old when Alex was born, and specifically states '11' as the answer when Alex was born in or after April, which aligns with the gold answer of 11."
+        }
+    ]
+}

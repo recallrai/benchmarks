@@ -1,0 +1,24 @@
+{
+    "index": 393,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+    "question_date": "2023/03/26 (Sun) 20:43",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides the exact dates needed: spider plant repotted on March 4th, 2023 and cuttings given to Mrs. Johnson on March 18, 2023, which is 14 days apart (or 15 including the last day), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the repotting date (March 4, 2023) and the date cuttings were given to Mrs. Johnson (March 18, 2023), which allows calculation of 14 days between them, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that 14 days passed between the spider plant repotting on March 4, 2023 and giving cuttings to Mrs. Johnson on March 18, 2023, which matches the gold answer of 14 days."
+        }
+    ]
+}

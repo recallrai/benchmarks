@@ -1,0 +1,24 @@
+{
+    "index": 91,
+    "question_type": "multi-session",
+    "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+    "question_date": "2023/03/01 (Wed) 19:29",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user ordered the remote shutter release on February 5th, 2023 and received it on February 10th, 2023, which allows calculation of 5 days between dates (or 6 days inclusively), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user ordered the remote shutter release on February 5th, 2023, and received it on February 10th, 2023, which allows calculating the delivery time as 5 days (or 6 days inclusive), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the remote shutter release was ordered on February 5th, 2023 and received on February 10th, 2023, which is exactly 5 days, matching the gold answer."
+        }
+    ]
+}

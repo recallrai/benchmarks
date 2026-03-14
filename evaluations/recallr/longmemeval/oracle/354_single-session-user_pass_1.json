@@ -1,0 +1,24 @@
+{
+    "index": 354,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing violin every day?",
+    "question_date": "2023/05/29 (Mon) 04:31",
+    "ground_truth_answer": "You did not mention this information. You mentioned practing guitar everyday, but not violin.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no mention of violin practice but does include information about guitar practice (30 minutes daily), which aligns with the gold answer stating violin was not mentioned but guitar practice was."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about guitar practice (30 minutes daily) but no mention of violin, which enables correctly answering that the user did not mention violin practice but did mention guitar practice."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms that there is no information about violin practice in the memory graph, and explicitly notes that the user mentioned practicing guitar for 30 minutes every day \u2014 which perfectly aligns with the gold answer."
+        }
+    ]
+}

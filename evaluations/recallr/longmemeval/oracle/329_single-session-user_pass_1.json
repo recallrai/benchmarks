@@ -1,0 +1,24 @@
+{
+    "index": 329,
+    "question_type": "single-session-user",
+    "question": "What is the name of the music streaming service have I been using lately?",
+    "question_date": "2023/05/27 (Sat) 06:16",
+    "ground_truth_answer": "Spotify",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User listens to music on Spotify' which directly answers the question and matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User listens to music on Spotify' which directly matches the gold answer and would enable correctly answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user has been using Spotify as their music streaming service, which matches the gold answer."
+        }
+    ]
+}

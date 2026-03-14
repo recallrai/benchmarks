@@ -1,0 +1,24 @@
+{
+    "index": 41,
+    "question_type": "temporal-reasoning",
+    "question": "Which group did I join first, 'Page Turners' or 'Marketing Professionals'?",
+    "question_date": "2023/05/25 (Thu) 07:58",
+    "ground_truth_answer": "Page Turners",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows Page Turners was joined between May 15-21, 2023, while Marketing Professionals was joined on May 24, 2023, indicating Page Turners was joined first, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows Page Turners was joined May 15-21, 2023 and Marketing Professionals was joined May 24th, 2023, confirming Page Turners was first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'Page Turners' was joined first (May 15-21, 2023) before 'Marketing Professionals' (May 24, 2023), matching the gold answer."
+        }
+    ]
+}

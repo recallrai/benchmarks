@@ -1,0 +1,24 @@
+{
+    "index": 346,
+    "question_type": "single-session-user",
+    "question": "What brand of shampoo do I currently use?",
+    "question_date": "2023/05/28 (Sun) 23:42",
+    "ground_truth_answer": "Trader Joe's",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User uses lavender scented shampoo from Trader Joe's' which directly answers the question and matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User uses lavender scented shampoo from Trader Joe's that has been working well for their hair' which directly identifies Trader Joe's as the brand of shampoo currently used, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user uses 'lavender scented shampoo from Trader Joe's,' which matches the gold answer of Trader Joe's."
+        }
+    ]
+}

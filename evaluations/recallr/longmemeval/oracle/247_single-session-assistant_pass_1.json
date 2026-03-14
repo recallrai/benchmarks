@@ -1,0 +1,24 @@
+{
+    "index": 247,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about the grant aim page on molecular subtypes and endometrial cancer. Can you remind me what were the three objectives we outlined for the project?",
+    "question_date": "2023/05/29 (Mon) 11:49",
+    "ground_truth_answer": "The three objectives were: 1) to identify molecular subtypes of endometrial cancer, 2) to investigate their clinical and biological significance, and 3) to develop biomarkers for early detection and prognosis.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that a grant aim page was requested but does not contain any information about the three specific objectives that the question asks about."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that a grant aim page was requested for molecular subtypes and endometrial cancer, but does not contain any information about the three specific objectives (identifying subtypes, investigating significance, developing biomarkers) that would be needed to answer the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms all three objectives matching the gold answer: identifying molecular subtypes, investigating clinical and biological significance, and developing biomarkers for early detection and prognosis."
+        }
+    ]
+}

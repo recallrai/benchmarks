@@ -1,0 +1,24 @@
+{
+    "index": 7,
+    "question_type": "temporal-reasoning",
+    "question": "Which seeds were started first, the tomatoes or the marigolds?",
+    "question_date": "2023/03/10 (Fri) 02:46",
+    "ground_truth_answer": "Tomatoes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows tomatoes were started indoors since February 20th, 2023 (and were 2-3 inches tall by March 10th), while marigold seeds only arrived on March 3rd, 2023, clearly indicating tomatoes were started first."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states tomatoes were started on February 20th, 2023, while marigold seeds arrived on March 3rd, 2023, allowing someone to correctly determine tomatoes were started first."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states that tomatoes were started first on February 20, 2023, approximately 11-13 days before the marigolds, which matches the gold answer."
+        }
+    ]
+}

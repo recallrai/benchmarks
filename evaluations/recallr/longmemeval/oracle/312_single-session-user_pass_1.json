@@ -1,0 +1,24 @@
+{
+    "index": 312,
+    "question_type": "single-session-user",
+    "question": "What is the name of my cat?",
+    "question_date": "2023/05/28 (Sun) 16:07",
+    "ground_truth_answer": "Luna",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a cat named Luna' in memory 1, which directly matches the gold answer 'Luna'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a cat named Luna' in Memory 1, which directly matches the gold answer 'Luna'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Your cat's name is Luna' and confirms this with a stored memory: 'User has a cat named Luna,' which matches the gold answer exactly."
+        }
+    ]
+}

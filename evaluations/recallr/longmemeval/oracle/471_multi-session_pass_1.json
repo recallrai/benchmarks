@@ -1,0 +1,24 @@
+{
+    "index": 471,
+    "question_type": "multi-session",
+    "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+    "question_date": "2023/10/01 (Sun) 22:42",
+    "ground_truth_answer": "10 minutes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains both the previous year's 5K time (45 minutes from 2022) and the recent 5K time (35 minutes from 2023), which allows calculating the improvement of 10 minutes faster, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the previous year's 5K time of 45 minutes and the recent 5K time of 35 minutes, which allows calculating the improvement as 10 minutes faster, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user finished their recent 5K run 10 minutes faster than their previous year's time (35 minutes vs. 45 minutes), which matches the gold answer exactly."
+        }
+    ]
+}

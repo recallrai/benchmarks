@@ -1,0 +1,24 @@
+{
+    "index": 288,
+    "question_type": "single-session-user",
+    "question": "Where did I redeem a $5 coupon on coffee creamer?",
+    "question_date": "2023/05/30 (Tue) 01:13",
+    "ground_truth_answer": "Target",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user redeemed a $5 coupon on coffee creamer and extensively discusses their use of Target's Cartwheel app and regular Target shopping, which strongly indicates the coupon was redeemed at Target."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user redeemed a $5 coupon on coffee creamer and shows the entire conversation is about Target shopping, the Target Cartwheel app, and regular Target purchases, which would allow someone to correctly infer the coupon was redeemed at Target."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the $5 coffee creamer coupon was redeemed at Target on May 21, 2023, matching the gold answer."
+        }
+    ]
+}

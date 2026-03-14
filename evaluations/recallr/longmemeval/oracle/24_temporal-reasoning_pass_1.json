@@ -1,0 +1,24 @@
+{
+    "index": 24,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+    "question_date": "2023/05/24 (Wed) 21:38",
+    "ground_truth_answer": "Two weeks",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context states the user joined 'Book Lovers Unite' on May 3rd, 2023 and attended a meetup during the week of May 15-21, 2023, which allows calculation of approximately two weeks membership duration, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user joined 'Book Lovers Unite' on May 3rd, 2023 and attended a meetup during May 15-21, 2023, which is approximately 12-18 days (roughly 2 weeks) after joining, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user was a member for approximately 12-18 days (roughly 1.5 to 2.5 weeks), which encompasses 'two weeks' as stated in the gold answer."
+        }
+    ]
+}

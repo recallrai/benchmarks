@@ -1,0 +1,24 @@
+{
+    "index": 94,
+    "question_type": "multi-session",
+    "question": "How many fitness classes do I attend in a typical week?",
+    "question_date": "2023/05/28 (Sun) 03:47",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context lists specific fitness classes with days: Zumba on Tuesdays and Thursdays (2), BodyPump on Mondays (1), Hip Hop Abs on Saturdays (1), and yoga on Sundays (1), totaling 5 classes per week, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context lists specific fitness classes on specific days: BodyPump on Mondays, Zumba on Tuesdays and Thursdays, Hip Hop Abs on Saturdays, and yoga on Sundays, totaling 5 classes per week."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user attends 5 scheduled fitness classes per week, which matches the gold answer of 5."
+        }
+    ]
+}

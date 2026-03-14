@@ -1,0 +1,24 @@
+{
+    "index": 445,
+    "question_type": "multi-session",
+    "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+    "question_date": "2023/05/30 (Tue) 20:55",
+    "ground_truth_answer": "12,000",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context contains information that the Facebook ad campaign reached 2,000 people and the Instagram influencer collaboration was with an influencer who promoted to 10,000 followers, totaling 12,000 which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the Facebook ad campaign reached 2,000 people and the Instagram influencer collaboration reached 10,000 followers, which totals 12,000 and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the combined total reach was approximately 12,000 people (2,000 from Facebook ad campaign + 10,000 from Instagram influencer collaboration), which matches the gold answer."
+        }
+    ]
+}

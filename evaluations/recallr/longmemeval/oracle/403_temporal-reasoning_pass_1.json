@@ -1,0 +1,24 @@
+{
+    "index": 403,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+    "question_date": "2023/08/05 (Sat) 23:49",
+    "ground_truth_answer": "3 weeks ago",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context in Ongoing Conversation 2 explicitly mentions that the Universal Studios Hollywood visit was 'three weeks ago' (stated on 2026/01/23), and the current question is asked on 2026/01/25, making '3 weeks ago' still accurate and matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a conversation where the assistant explicitly states 'you went to Universal Studios Hollywood three weeks ago' in reference to the Summer Nights festival, which matches the gold answer of '3 weeks ago'."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The ongoing conversation started on 2023/07/15 shows the user just returned from the 'Summer Nights' festival, and the question was asked on 2023/08/05, which is exactly 21 days (3 weeks) later, matching the gold answer."
+        }
+    ]
+}

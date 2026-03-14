@@ -1,0 +1,24 @@
+{
+    "index": 455,
+    "question_type": "multi-session",
+    "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+    "question_date": "2023/05/26 (Fri) 13:56",
+    "ground_truth_answer": "$5,150",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the vintage diamond necklace is worth $5,000 and the user expects to sell the restored vanity for at least $150, which totals to $5,150 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the vintage diamond necklace is worth $5,000 and the user expects to sell the restored vanity for at least $150, which totals to the gold answer of $5,150."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the combined minimum value is $5,000 (vintage diamond necklace) + $150 (antique vanity) = $5,150, which matches the gold answer exactly."
+        }
+    ]
+}

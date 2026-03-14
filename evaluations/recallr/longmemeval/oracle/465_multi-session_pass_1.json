@@ -1,0 +1,24 @@
+{
+    "index": 465,
+    "question_type": "multi-session",
+    "question": "What is the total distance I covered in my four road trips?",
+    "question_date": "2023/05/26 (Fri) 11:56",
+    "ground_truth_answer": "3,000 miles",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about three road trips totaling 1,800 miles and a separate Yellowstone trip covering 1,200 miles, which together equal the four road trips totaling 3,000 miles mentioned in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context states the user covered 1,800 miles on three recent road trips and 1,200 miles on the Yellowstone trip, which totals 3,000 miles across four trips, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has accumulated '3,000+ miles' across all sessions, combining the 1,800 miles from three trips (Durango, Breckenridge, Santa Fe) and 1,200 miles from the Yellowstone trip, which together equal exactly 3,000 miles \u2014 matching the gold answer."
+        }
+    ]
+}

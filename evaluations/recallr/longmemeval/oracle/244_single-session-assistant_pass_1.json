@@ -1,0 +1,24 @@
+{
+    "index": 244,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+    "question_date": "2023/05/24 (Wed) 06:33",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains general D&D preferences but no information about the Lost Temple of the Djinn one-shot or the number of mummies, making it impossible to answer the specific question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user requested a D&D one-shot adventure but does not contain any specific information about the Lost Temple of the Djinn adventure content, including the number of mummies in the temple."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the party will face 4 mummies in The Lost Temple of the Djinn, which matches the gold answer of 4."
+        }
+    ]
+}

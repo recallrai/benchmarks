@@ -1,0 +1,24 @@
+{
+    "index": 263,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about natural remedies for dark circles under the eyes. You mentioned applying tomato juice mixed with lemon juice, how long did you say I should leave it on for?",
+    "question_date": "2023/05/28 (Sun) 19:59",
+    "ground_truth_answer": "10 minutes",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains general information about the user's interest in natural remedies for dark circles but does not include any specific information about tomato juice mixed with lemon juice or the 10-minute duration needed to answer the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions various natural remedies for dark circles were discussed but does not contain any specific information about tomato juice mixed with lemon juice or the '10 minutes' duration mentioned in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the tomato juice and lemon juice mixture should be left on for 10 minutes, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 479,
+    "question_type": "multi-session",
+    "question": "How many years older is my grandma than me?",
+    "question_date": "2024/02/05 (Mon) 08:25",
+    "ground_truth_answer": "43",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the grandma's age (75) and the user's age (32), which allows calculation of the age difference as 43 years (75 - 32 = 43), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is 32 years old and the grandma is 75 years old, which gives an age difference of 43 years matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the grandma is 43 years older than the user (75 - 32 = 43), which matches the gold answer exactly."
+        }
+    ]
+}

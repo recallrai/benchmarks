@@ -1,0 +1,24 @@
+{
+    "index": 199,
+    "question_type": "knowledge-update",
+    "question": "Where do I currently keep my old sneakers?",
+    "question_date": "2023/06/07 (Wed) 04:15",
+    "ground_truth_answer": "in a shoe rack in my closet",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user 'plans to store them in a shoe rack' (as of May 26), which indicates a future intention rather than confirming the sneakers are currently stored there, whereas the gold answer states they are currently 'in a shoe rack in my closet'."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user 'plans to store them in a shoe rack' (as of May 26, 2023), but the gold answer indicates they are currently stored 'in a shoe rack in my closet', which suggests the plan was already executed - information not confirmed in the retrieved context."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions that the user planned to organize their closet and move old sneakers to a shoe rack during the weekend of May 27-28, 2023. Since the question was asked on June 7, 2023 (after that planned organization weekend), the context provides enough information to conclude the sneakers would now be in a shoe rack in the closet, matching the gold answer."
+        }
+    ]
+}

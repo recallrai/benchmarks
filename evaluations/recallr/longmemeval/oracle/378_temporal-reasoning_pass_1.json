@@ -1,0 +1,24 @@
+{
+    "index": 378,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the six museums I visited from earliest to latest?",
+    "question_date": "2023/03/10 (Fri) 19:11",
+    "ground_truth_answer": "Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, Modern Art Museum, Natural History Museum",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all six museums with specific dates that match the chronological order in the gold answer: Science Museum (Jan 15, 2023), Museum of Contemporary Art (Jan 22, 2023), Metropolitan Museum of Art (Feb 10, 2023), Museum of History (Feb 15, 2023), Modern Art Museum (Feb 20, 2023), and Natural History Museum (Mar 4, 2023)."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains dated visits to all six museums mentioned in the gold answer (Science Museum on 01/15, Museum of Contemporary Art on 01/15, Metropolitan Museum of Art on 02/10, Museum of History on 02/15, Modern Art Museum on 02/20, and Natural History Museum on 03/04), which when ordered chronologically matches the gold answer sequence."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context lists the six museums in exactly the same order as the gold answer: Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, Modern Art Museum, Natural History Museum, with corresponding dates confirming the chronological sequence."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 66,
+    "question_type": "multi-session",
+    "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+    "question_date": "2023/05/05 (Fri) 19:59",
+    "ground_truth_answer": "$185",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three specific bike-related expenses from 2023: helmet for $120 (April 10th), bike chain replacement for $25 (April 20th), and bike lights for $40 (April 20th), which total $185 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three bike-related expenses: helmet for $120 (April 10, 2023), bike chain replacement for $25 (April 20, 2023), and bike lights for $40 (April 20, 2023), which total exactly $185 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly confirms that the total bike-related spending since the start of 2023 is $185, matching the gold answer exactly."
+        }
+    ]
+}

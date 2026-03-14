@@ -1,0 +1,24 @@
+{
+    "index": 215,
+    "question_type": "single-session-preference",
+    "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+    "question_date": "2023/05/27 (Sat) 23:31",
+    "ground_truth_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all the key information referenced in the gold answer: the user's previous success with lemon poppyseed cake that was well-received, their enjoyment of baking for social events, and their experience with cakes and cookies, which would enable providing suggestions that build upon their existing baking experience."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's previous success with lemon poppyseed cake (which was well-received), their experience with other baking projects (chocolate chip cookies, lemon lavender pound cake), and their enjoyment of baking for social events, which would enable providing suggestions that build upon their existing baking experience as described in the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user's previous success with a lemon poppyseed cake at a colleague's going-away party and provides suggestions building on that experience, directly matching the gold answer's description of preferred baking suggestions."
+        }
+    ]
+}

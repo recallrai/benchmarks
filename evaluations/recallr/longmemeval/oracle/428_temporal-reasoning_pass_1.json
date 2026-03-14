@@ -1,0 +1,24 @@
+{
+    "index": 428,
+    "question_type": "temporal-reasoning",
+    "question": "What was the social media activity I participated 5 days ago?",
+    "question_date": "2023/03/20 (Mon) 05:50",
+    "ground_truth_answer": "You participated in a social media challenge called #PlankChallenge.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a memory stating the user participated in the #PlankChallenge social media challenge on March 15, 2023, which is exactly 5 days before the question date of March 20, 2023, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains memory stating 'User participated in the #PlankChallenge social media challenge on March 15, 2023', which is exactly 5 days before the question date (March 20, 2023) and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 'five days ago' the user participated in the #PlankChallenge social media fitness challenge, which matches the gold answer exactly."
+        }
+    ]
+}

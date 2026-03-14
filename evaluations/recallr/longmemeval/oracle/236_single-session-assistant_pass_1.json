@@ -1,0 +1,24 @@
+{
+    "index": 236,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+    "question_date": "2023/05/30 (Tue) 07:46",
+    "ground_truth_answer": "International Budget Hostel",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions that hostel suggestions were provided during a previous conversation about Amsterdam, but it does not contain the specific hostel name 'International Budget Hostel' or any other specific hostel names, making it impossible to correctly answer the question about which specific hostel near the Red Light District was recommended."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user was seeking budget-friendly hostel recommendations in Amsterdam, but does not contain the specific hostel name 'International Budget Hostel' or any mention of a hostel near the Red Light District that was recommended."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies the 'International Budget Hostel' as the hostel near the Red Light District that was recommended, which matches the gold answer exactly."
+        }
+    ]
+}

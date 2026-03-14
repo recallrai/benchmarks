@@ -1,0 +1,24 @@
+{
+    "index": 277,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about music theory. You mentioned some online resources for learning music theory. Can you remind me of the website you recommended for free lessons and exercises?",
+    "question_date": "2023/05/30 (Tue) 06:11",
+    "ground_truth_answer": "MusicTheory.net",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'MusicTheory.net' in Memory 1 ('user plans to use MusicTheory.net to learn music theory') and the session summary confirms it was recommended as a learning resource, which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user plans to use MusicTheory.net to learn music theory, which directly matches the gold answer and would allow someone to correctly answer the question about which website was recommended for free music theory lessons and exercises."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that MusicTheory.net was the website recommended for free music theory lessons and exercises, which matches the gold answer exactly."
+        }
+    ]
+}

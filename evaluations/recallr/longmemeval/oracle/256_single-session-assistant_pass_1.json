@@ -1,0 +1,24 @@
+{
+    "index": 256,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercises like 'The Mountain Meditation' and 'The Body Scan Meditation'?",
+    "question_date": "2023/05/30 (Tue) 08:10",
+    "ground_truth_answer": "Mindful.org.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user's interest in guided imagery exercises and mindfulness resources, but does not contain any mention of the specific website (Mindful.org) or the specific exercises ('The Mountain Meditation' and 'The Body Scan Meditation') that would enable answering the question."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user's interest in guided imagery exercises and mindfulness resources, but does not contain the specific website name 'Mindful.org' or mention of the specific exercises like 'The Mountain Meditation' or 'The Body Scan Meditation' that would enable answering the question."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Mindful.org as the website with free guided imagery exercises including 'The Mountain Meditation' and 'The Body Scan Meditation', which matches the gold answer exactly."
+        }
+    ]
+}

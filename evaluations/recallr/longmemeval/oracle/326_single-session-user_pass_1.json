@@ -1,0 +1,24 @@
+{
+    "index": 326,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage cameras?",
+    "question_date": "2023/05/25 (Thu) 17:36",
+    "ground_truth_answer": "three months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been collecting vintage cameras for three months' which directly matches the gold answer of 'three months'"
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been collecting vintage cameras for three months' which directly matches the gold answer of 'three months'"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has been collecting vintage cameras for three months, which matches the gold answer exactly."
+        }
+    ]
+}

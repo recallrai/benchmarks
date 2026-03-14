@@ -1,0 +1,24 @@
+{
+    "index": 463,
+    "question_type": "multi-session",
+    "question": "How much more was the pre-approval amount than the final sale price of the house?",
+    "question_date": "2023/05/29 (Mon) 15:54",
+    "ground_truth_answer": "$25,000",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the pre-approval amount of $350,000 (memory 5) and the final sale price of $325,000 (memory 1), which allows calculating the difference as $25,000, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the pre-approval amount of $350,000 (Memory 3) and the final sale price of $325,000 (Memories 1, 4, and Summary 2), which allows calculation of the difference as $25,000, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the pre-approval amount was $350,000 and the final sale price was $325,000, making the difference exactly $25,000, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 282,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+    "question_date": "2023/05/27 (Sat) 20:30",
+    "ground_truth_answer": "Patagonia",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that Patagonia was provided as an example of a company successfully implementing environmentally responsible supply chain practices, which directly matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions Patagonia as the company discussed for environmental sustainability and supply chain practices, with the session summary confirming 'Patagonia was provided as an example' of a company successfully implementing environmentally responsible practices."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Patagonia as the company mentioned in the conversation about environmentally responsible supply chain practices, which matches the gold answer exactly."
+        }
+    ]
+}

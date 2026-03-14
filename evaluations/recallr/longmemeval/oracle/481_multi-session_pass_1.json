@@ -1,0 +1,24 @@
+{
+    "index": 481,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on gifts for my coworker and brother?",
+    "question_date": "2023/05/30 (Tue) 22:15",
+    "ground_truth_answer": "$200",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user spent $100 on a gift card for their brother's graduation and $100 on baby clothes/toys for their coworker's baby shower, totaling $200 which matches the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user spent $100 on a gift card for their brother's graduation and $100 on baby clothes/toys for their coworker's baby shower, totaling $200, which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly shows $100 spent on a brother's graduation gift and $100 on a coworker's baby shower gift, totaling $200, which matches the gold answer."
+        }
+    ]
+}

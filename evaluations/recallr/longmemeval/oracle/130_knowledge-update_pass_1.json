@@ -1,0 +1,24 @@
+{
+    "index": 130,
+    "question_type": "knowledge-update",
+    "question": "What day of the week do I take a cocktail-making class?",
+    "question_date": "2023/07/12 (Wed) 04:11",
+    "ground_truth_answer": "Friday",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains a current memory (Memory 1, Version 2) explicitly stating 'User has a cocktail-making class on Fridays', which directly matches the gold answer of 'Friday'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User has a cocktail-making class on Fridays' which directly matches the gold answer of 'Friday'"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the Key Finding section that 'Your cocktail-making class is on Fridays,' which matches the gold answer of Friday."
+        }
+    ]
+}

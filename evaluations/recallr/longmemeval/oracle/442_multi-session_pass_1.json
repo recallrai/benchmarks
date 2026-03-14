@@ -1,0 +1,24 @@
+{
+    "index": 442,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+    "question_date": "2023/05/28 (Sun) 21:42",
+    "ground_truth_answer": "8",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user planted 5 tomato plants and has 3 cucumber plants, which totals 8 plants, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information that the user planted 5 tomato plants and has 3 cucumber plants, which totals 8 plants combined, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The context shows 5 tomato plants and 3 cucumber plants were planted, which totals 8 plants \u2014 matching the gold answer of 8."
+        }
+    ]
+}

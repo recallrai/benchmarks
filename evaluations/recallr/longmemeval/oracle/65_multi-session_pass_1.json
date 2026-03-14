@@ -1,0 +1,24 @@
+{
+    "index": 65,
+    "question_type": "multi-session",
+    "question": "How many plants did I acquire in the last month?",
+    "question_date": "2023/05/28 (Sun) 09:22",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "WRONG",
+            "reasoning": "The context mentions multiple plants with event dates in May 2023 but does not clearly identify which specific plants were newly acquired versus already owned, making it impossible to determine that exactly 3 plants were acquired in the last month from the question date."
+        },
+        {
+            "tag": "balanced",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains no memories, session summaries, or conversation history about plants or acquisitions - it only shows the current question being asked with no information to answer it."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only confirms 1 plant (snake plant) acquired in the last month, with a possible 2nd (peace lily) without a confirmed date, but the gold answer is 3 plants \u2014 the context does not support this count."
+        }
+    ]
+}

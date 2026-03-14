@@ -1,0 +1,24 @@
+{
+    "index": 396,
+    "question_type": "temporal-reasoning",
+    "question": "How many months passed between the completion of my undergraduate degree and the submission of my master's thesis?",
+    "question_date": "2023/07/01 (Sat) 13:31",
+    "ground_truth_answer": "6 months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the undergraduate degree was completed in the date range ending November 17, 2022, and the master's thesis was submitted May 15, 2023, which is approximately 6 months apart, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the undergraduate degree was completed around November 17, 2022 and the master's thesis was submitted on May 15, 2023, which is approximately 6 months and matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "WRONG",
+            "reasoning": "The retrieved context calculates approximately 11 months and 14 days between the undergraduate degree completion (June 1, 2022) and the master's thesis submission (May 15, 2023), which significantly contradicts the gold answer of 6 months."
+        }
+    ]
+}

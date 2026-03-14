@@ -1,0 +1,24 @@
+{
+    "index": 223,
+    "question_type": "single-session-preference",
+    "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+    "question_date": "2023/05/29 (Mon) 10:41",
+    "ground_truth_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains detailed information about the user's meal prep preferences including quinoa, roasted vegetables, protein sources (turkey and chicken), and healthy eating habits, which aligns with all key elements described in the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains detailed information about the user's meal prep habits including their use of quinoa, roasted vegetables, varied protein sources (chicken, turkey), interest in healthy options like lentil bolognese and homemade granola, which aligns with and enables answering according to the gold answer's description of their preferences for healthy meal prep recipes."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the user's preference for healthy meal prep with quinoa, roasted vegetables, and varied protein sources (chicken, turkey, and plant-based options), which aligns with the gold answer's description of their preferences."
+        }
+    ]
+}

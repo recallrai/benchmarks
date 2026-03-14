@@ -1,0 +1,24 @@
+{
+    "index": 390,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+    "question_date": "2023/04/01 (Sat) 21:45",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows classes started on February 11, 2023 (from Memory 2's event date) and sculpting tools were acquired on March 4, 2023 (from Memory 1), which is 3 weeks later, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows sculpting classes started on 2023/02/11 (Memory 1) and tools were acquired on 2023/03/04 (Memory 3), which is exactly 3 weeks apart, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had been taking sculpting classes for 3 weeks when they invested in their own sculpting tools, which matches the gold answer of 3."
+        }
+    ]
+}

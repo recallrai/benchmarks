@@ -1,0 +1,24 @@
+{
+    "index": 189,
+    "question_type": "knowledge-update",
+    "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+    "question_date": "2023/06/26 (Mon) 00:11",
+    "ground_truth_answer": "You increased the limit (from one cup to two cups)",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows in Memory 1 (Version 3) that the user increased their morning coffee limit to two cups, with the version history showing progression from one cup to two cups, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows in Memory 1's version history that the user increased their coffee limit from one cup (version 2) to two cups (version 3), which matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the Key Finding section that the user 'most recently increased your morning coffee limit \u2014 from one cup up to two cups,' which directly matches the gold answer."
+        }
+    ]
+}

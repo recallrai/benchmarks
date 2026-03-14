@@ -1,0 +1,24 @@
+{
+    "index": 436,
+    "question_type": "multi-session",
+    "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+    "question_date": "2023/05/27 (Sat) 03:27",
+    "ground_truth_answer": "$750",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the luxury boots cost $800 and the budget store boots cost $50, which gives a difference of $750 matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the luxury boots cost $800 and the similar budget store boots cost $50, which allows calculating the difference of $750 matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the price difference between the luxury boots ($800) and the budget store alternative ($50) is $750, which matches the gold answer exactly."
+        }
+    ]
+}

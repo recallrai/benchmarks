@@ -1,0 +1,24 @@
+{
+    "index": 460,
+    "question_type": "multi-session",
+    "question": "How much did I spend on each coffee mug for my coworkers?",
+    "question_date": "2023/05/27 (Sat) 22:10",
+    "ground_truth_answer": "$12",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user spent $60 on 5 coffee mugs for coworkers, which calculates to $12 per mug, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user spent $60 on 5 coffee mugs, which allows calculation of $12 per mug, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states '$12 per coffee mug' for coworkers, which matches the gold answer of $12."
+        }
+    ]
+}

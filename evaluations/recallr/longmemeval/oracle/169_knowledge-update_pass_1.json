@@ -1,0 +1,24 @@
+{
+    "index": 169,
+    "question_type": "knowledge-update",
+    "question": "How many different species of birds have I seen in my local park?",
+    "question_date": "2023/06/28 (Wed) 14:23",
+    "ground_truth_answer": "32",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory 1 which explicitly states 'User has a bird species count of 32' (current version), matching the gold answer exactly."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains an active memory stating 'User has a bird species count of 32' which directly matches the gold answer of 32."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has seen 32 different bird species in their local park, which matches the gold answer exactly."
+        }
+    ]
+}

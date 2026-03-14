@@ -1,0 +1,24 @@
+{
+    "index": 168,
+    "question_type": "knowledge-update",
+    "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+    "question_date": "2023/06/08 (Thu) 16:35",
+    "ground_truth_answer": "Oahu",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 explicitly states 'User is planning a birthday trip to Hawaii, specifically to Oahu' which directly matches the gold answer of Oahu."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "Memory 1 explicitly states in its current version that 'User is planning a birthday trip to Hawaii, specifically to Oahu', which directly matches the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions that the user's trip planning shifted to an Oahu focus (May 30, 2023), with an active memory recording the destination as Oahu, which matches the gold answer of 'Oahu'."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 379,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+    "question_date": "2023/05/08 (Mon) 21:01",
+    "ground_truth_answer": "6 days. 7 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both dates needed to answer the question: the gardening workshop on April 15, 2023 and the tomato planting on April 21, 2023, which are 6 days apart (or 7 days inclusively), matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the workshop date (April 15, 2023) and the planting date (April 21, 2023), which allows calculation of 6 days between them (or 7 days inclusively), matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that 6 days passed between the gardening workshop (April 15, 2023) and the tomato sapling planting (April 21, 2023), which matches the gold answer of 6 days."
+        }
+    ]
+}

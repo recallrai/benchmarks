@@ -1,0 +1,24 @@
+{
+    "index": 86,
+    "question_type": "multi-session",
+    "question": "Which grocery store did I spend the most money at in the past month?",
+    "question_date": "2023/05/30 (Tue) 20:10",
+    "ground_truth_answer": "Thrive Market",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows spending at Thrive Market ($150 in April 2023), Walmart ($120 on May 13, 2023), and Publix ($60 on May 26, 2023), which allows someone to correctly identify Thrive Market as having the highest single expenditure."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains Memory #5 stating the user placed a Thrive Market order in April 2023 for around $150, which is the highest spending amount compared to Walmart ($120), Publix ($60), and Trader Joe's (~$40) within the past month timeframe."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly identifies Thrive Market as the store with the highest recorded spend (~$150 in April 2023), which matches the gold answer, and the ongoing conversation also confirms the user placed an order with Thrive Market 'last month'."
+        }
+    ]
+}

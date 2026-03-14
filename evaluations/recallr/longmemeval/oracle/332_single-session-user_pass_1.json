@@ -1,0 +1,24 @@
+{
+    "index": 332,
+    "question_type": "single-session-user",
+    "question": "How long was I in Japan for?",
+    "question_date": "2023/05/28 (Sun) 23:29",
+    "ground_truth_answer": "two weeks",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The first memory explicitly states 'User traveled solo in Japan for two weeks a few months ago', which directly matches the gold answer of 'two weeks'."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User traveled solo in Japan for two weeks a few months ago' which directly matches the gold answer of 'two weeks'"
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user was in Japan for 'two weeks', which matches the gold answer exactly."
+        }
+    ]
+}

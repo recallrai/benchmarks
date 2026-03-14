@@ -1,0 +1,24 @@
+{
+    "index": 129,
+    "question_type": "knowledge-update",
+    "question": "How many bikes do I currently own?",
+    "question_date": "2023/10/29 (Sun) 15:48",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in the current active memory (Version 2) that 'User owns four bikes: a road bike, a mountain bike, a commuter bike, and a hybrid bike,' which directly answers the question and matches the gold answer of 4."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states in Memory 1 (current version) that 'User owns four bikes: a road bike, a mountain bike, a commuter bike, and a hybrid bike,' which directly matches the gold answer of 4."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user currently owns 4 bikes (road bike, mountain bike, commuter bike, and hybrid bike), which matches the gold answer of 4."
+        }
+    ]
+}

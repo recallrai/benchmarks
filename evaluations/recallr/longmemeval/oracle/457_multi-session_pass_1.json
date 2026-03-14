@@ -1,0 +1,24 @@
+{
+    "index": 457,
+    "question_type": "multi-session",
+    "question": "What is the total cost of Lola's vet visit and flea medication?",
+    "question_date": "2023/05/27 (Sat) 02:14",
+    "ground_truth_answer": "$75",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the vet visit cost of $50 and flea medication cost of $25, which correctly adds up to the gold answer of $75."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the vet visit cost ($50) and the flea medication cost ($25), which together total $75, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the total combined cost of Lola's vet visit ($50) and flea medication ($25) is $75, matching the gold answer exactly."
+        }
+    ]
+}

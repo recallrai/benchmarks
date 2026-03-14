@@ -1,0 +1,24 @@
+{
+    "index": 314,
+    "question_type": "single-session-user",
+    "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+    "question_date": "2023/05/27 (Sat) 00:51",
+    "ground_truth_answer": "3:1",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User prefers a 3:1 gin-to-vermouth ratio with a dash of citrus bitters for their classic martini', which directly matches the gold answer of 3:1."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User prefers a 3:1 gin-to-vermouth ratio with a dash of citrus bitters for their classic martini,' which directly contains the gold answer of 3:1."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user's preferred gin-to-vermouth ratio is 3:1, which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 376,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks passed between the day I bought my new tennis racket and the day I received it?",
+    "question_date": "2023/04/15 (Sat) 10:34",
+    "ground_truth_answer": "1 week",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user bought the tennis racket on March 10th, 2023 and received it on March 17th, 2023, which is exactly 1 week (7 days) apart, matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user bought the tennis racket on March 10th, 2023 and received it on March 17th, 2023, which is exactly 1 week apart, matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that exactly 1 week (7 days) passed between the purchase date of March 10, 2023 and the delivery date of March 17, 2023, which matches the gold answer."
+        }
+    ]
+}

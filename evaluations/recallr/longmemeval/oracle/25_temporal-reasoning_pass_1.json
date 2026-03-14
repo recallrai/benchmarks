@@ -1,0 +1,24 @@
+{
+    "index": 25,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+    "question_date": "2023/05/27 (Sat) 08:13",
+    "ground_truth_answer": "2 months",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started watching stand-up comedy around late February 2023 (Memory 2: event date starts 2023/02/27) and attended the open mic in April 2023 (Memory 1), which is approximately 2 months - matching the gold answer."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user started watching stand-up comedy around Feb 27, 2023 and attended the open mic in April 2023, which is approximately 2 months - matching the gold answer."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user had been watching stand-up comedy specials regularly for approximately '1\u20132 months' when they attended the open mic night, which encompasses the gold answer of '2 months'."
+        }
+    ]
+}

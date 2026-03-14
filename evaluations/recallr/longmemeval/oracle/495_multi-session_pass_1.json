@@ -1,0 +1,24 @@
+{
+    "index": 495,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and chili peppers?",
+    "question_date": "2023/05/24 (Wed) 23:41",
+    "ground_truth_answer": "The information provided is not enough. You mentioned planting 5 plants for tomatoes but you did not mention chili peppers.",
+    "judge_response": [
+        {
+            "tag": "low_latency",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 5 tomato plants but no mention of chili peppers, which aligns with the gold answer stating there's information about 5 tomato plants but no mention of chili peppers."
+        },
+        {
+            "tag": "balanced",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about 5 tomato plants but no mention of chili peppers, which aligns with the gold answer stating the user planted 5 tomato plants but didn't mention chili peppers."
+        },
+        {
+            "tag": "agentic",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms 5 tomato plants were initially planted and explicitly states there is no record of chili pepper plants in the memory graph, which aligns perfectly with the gold answer."
+        }
+    ]
+}

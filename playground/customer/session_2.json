@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-03-15T20:38:00Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi, I need to talk about my billing. Something is wrong with what I was charged."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Priya, good to have you back. I can see you're on the Pro Annual plan and you joined about 18 days ago — the seat provisioning issue from your first day was resolved, I hope? Let's look at the billing concern. What specifically looks wrong — is it the amount, the date, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, the seats got fixed, thank you for that. But this is a different issue. I got charged $49 yesterday on my credit card from FlowDesk. My plan is $299 per year — I paid that upfront. So why am I being charged again so soon?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good question and I completely understand the concern — an unexpected charge 18 days into an annual plan would alarm anyone. Let me pull up your billing history. The $49 charge is from our add-on store — specifically it looks like a \"FlowDesk Forms\" add-on was purchased yesterday. This is a separate product from your base plan. Did you or anyone on your team intentionally purchase this add-on?"
+    },
+    {
+      "role": "user",
+      "content": "I have no idea what FlowDesk Forms is. I definitely didn't buy it. Could one of my team members have done this without my knowledge?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, unfortunately that's possible — on the Pro plan, workspace admins can purchase add-ons and the charge goes to the billing account on file, which is yours. It's worth checking with your team. However, if this was genuinely an unauthorized or accidental purchase, we can process a refund. FlowDesk Forms is a form builder add-on that lets you collect data from clients — given that you run a digital marketing agency, it's possible a team member thought it was useful and didn't realize it would charge the account. Do you want me to process a refund now, or would you prefer to check with your team first?"
+    },
+    {
+      "role": "user",
+      "content": "I'd like the refund please. And also can you add some kind of restriction so team members can't purchase add-ons without my approval? This can't happen again."
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely — I've initiated the $49 refund, which should appear on your card within 5–7 business days. For the add-on purchase restriction: I've updated your workspace settings to require admin approval for all add-on purchases going forward. Any team member who tries to add something will now see a \"Request approval\" button instead of a direct purchase button, and you'll receive an email notification to approve or decline. I'm also noting this incident on your account: unauthorized add-on purchase by a team member on Day 18, $49 refunded, purchase approval restriction enabled. Is there anything else while I have you?"
+    },
+    {
+      "role": "user",
+      "content": "Actually yes. My team has been using FlowDesk for a couple of weeks now and overall it's going okay, but we've run into a recurring issue with the Slack integration. Every time someone updates a task status, it sends a notification to our Slack channel — but it's sending one notification per team member who has the task assigned, not one notification per task update. So if 3 people are assigned to a task, one status change sends 3 identical Slack notifications. It's flooding our channel."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a known bug in the Slack integration that was introduced in our last update — our engineering team has a fix in the pipeline, expected to deploy within the next 2 weeks. In the meantime, there's a workaround: go to Settings > Integrations > Slack > Notification Rules, and change the \"Assignee notification mode\" from \"Per assignee\" to \"Per task.\" This collapses all assignee notifications into a single message per task update. It's not ideal that the default was wrong, but the workaround should stop the flooding immediately. I've logged the Slack issue on your account as a known bug — if the fix isn't deployed within 2 weeks, follow up and I'll escalate it as still affecting your account specifically."
+    },
+    {
+      "role": "user",
+      "content": "That workaround helped, thank you. The Slack thing was driving my team absolutely crazy."
+    },
+    {
+      "role": "assistant",
+      "content": "Completely understandable — notification flooding is one of those things that starts as an annoyance and quickly becomes a morale issue. Glad the workaround is holding up. I'll make sure the Slack bug fix is flagged against your account so you're notified when it's permanently resolved."
+    }
+  ]
+}

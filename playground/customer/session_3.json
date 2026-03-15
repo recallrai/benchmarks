@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-03-15T20:38:00Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey. We've been having a good experience overall but I have a few things to bring up today."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Priya, good to hear from you. You're about 6 weeks in now — glad the overall experience has been positive. What's on your mind?"
+    },
+    {
+      "role": "user",
+      "content": "First — the Slack bug. It's back. The workaround stopped working about 4 days ago. We're back to getting triple notifications for every task update."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that — and I see it's been over 2 weeks since we first logged that bug, which means the fix should have deployed by now. Let me check the status. It looks like the engineering fix was deployed but there was a regression for workspaces using certain Slack workspace configurations. Your workspace appears to be in the affected group. I'm escalating this directly to our integrations team as a regression bug with your account specifically tagged — you'll receive an email update within 24 hours with either a resolution or a timeline. I apologize for the recurrence. Is there anything else?"
+    },
+    {
+      "role": "user",
+      "content": "Yes. I want to talk about our team size. When I signed up I had 8 people. We just brought on 2 new hires so we're now at 10. I know Pro supports 15 seats so I should be fine — just wanted to flag it. But actually while we're talking — I'm also expecting to hire 3 more people over the next 2 months. So we'd be at 13. Still under 15 so I think we're okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "You're correct — 13 seats is well within the Pro plan's 15-seat limit, so no action needed on your end right now. I've updated your team size from 8 to 10 currently, with 3 more anticipated hires bringing you to 13 within 2 months. If you ever get close to the 15 limit, I'd recommend reaching out before you hit it so we can discuss upgrade options without any interruption to your team's access. I've noted the growth trajectory on your account."
+    },
+    {
+      "role": "user",
+      "content": "Good. Now the bigger issue. We've been trying to use the client portal feature — which was the main reason I chose FlowDesk — and we're running into a significant limitation. The client portal only shows tasks, but our clients also want to see the project timeline in Gantt view. When I share the client portal link, clients see a flat task list with no timeline. The Gantt view is completely absent from the portal. Is this a known limitation?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes — and I want to be upfront with you: client portal Gantt view is not currently available on any FlowDesk plan. The client portal shows task lists, file attachments, and comments only. Gantt view is an internal-only feature. I understand this may be a significant gap given that timeline visibility was likely part of why you chose FlowDesk for client-facing work. I want to check your original onboarding notes — yes, I can see that the session from Day 1 noted client portal as a primary reason for choosing FlowDesk. I'm genuinely sorry this limitation wasn't made clearer at signup. Client portal Gantt is on our product roadmap but I don't have a confirmed delivery date. I'm flagging this as a high-priority feature gap on your account and submitting it as a customer-impact report to our product team. Is this a deal-breaker for your use case or is the task list view workable for now?"
+    },
+    {
+      "role": "user",
+      "content": "It's a problem. My clients are used to seeing Gantt timelines — they specifically ask for them in review meetings. The task list doesn't give them the visual context they need. I'm not saying I'm leaving but this is a real issue and I want it on record that this affects my renewal decision."
+    },
+    {
+      "role": "assistant",
+      "content": "Completely noted — and I appreciate you being direct about that. I've formally logged on your account: \"Client portal Gantt view unavailability is a material gap directly impacting client deliverables. Customer has stated this affects renewal decision.\" This is not just a support note — I'm escalating this to our customer success team with a flag that your account is renewal-at-risk due to a documented feature gap. A customer success manager will reach out to you within 48 hours to discuss your situation directly, including any roadmap timelines we can share. You deserve a real conversation with someone who can give you product timeline information, not just a support agent."
+    },
+    {
+      "role": "user",
+      "content": "I appreciate that. Let's see what they say."
+    },
+    {
+      "role": "assistant",
+      "content": "Fair enough. The Slack regression escalation and the customer success outreach are both active — you should hear on both within 24–48 hours. I've made sure everything is connected on your account so whoever reaches out has the full picture."
+    }
+  ]
+}

@@ -141,6 +141,8 @@ class SupermemoryRunner(BaseLongMemEvalRunner):
                 client.search.memories,
                 q=question,
                 container_tag=container_tag,
+                threshold=0.6,
+                limit=20
             )
             
             results = resp.results

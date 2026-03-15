@@ -129,6 +129,8 @@ class Mem0Runner(BaseLongMemEvalRunner):
                 query=question,
                 filters={"user_id": user_id},
                 enable_graph=strategy == "graph",
+                threshold=0.6,
+                top_k=20,
             )
 
             memories = []

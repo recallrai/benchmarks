@@ -1,0 +1,23 @@
+{
+    "index": 86,
+    "question_type": "multi-session",
+    "question": "Which grocery store did I spend the most money at in the past month?",
+    "question_date": "2023/05/30 (Tue) 20:10",
+    "ground_truth_answer": "Thrive Market",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_86_multi-session",
+        "supermemory_document_ids": [
+            "CENDToJbDZpgePTZK7XEjz",
+            "2RoKRNUqzAaiGuwF8WGL6Y",
+            "UP3ktnV2UaDHUs15H8nxT9",
+            "3ugXiTE6AbPZYZU43LXnK2"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User wants to maximize Ibotta cashback for sustainable grocery purchases",
+            "latency": 1052.889
+        }
+    ]
+}

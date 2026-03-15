@@ -1,0 +1,14 @@
+{
+    "index": 155,
+    "question_type": "knowledge-update",
+    "question": "How long have I been sticking to my daily tidying routine?",
+    "question_date": "2023/09/30 (Sat) 18:36",
+    "ground_truth_answer": "4 weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the daily tidying routine or its duration."
+        }
+    ]
+}

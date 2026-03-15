@@ -1,0 +1,14 @@
+{
+    "index": 183,
+    "question_type": "knowledge-update",
+    "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+    "question_date": "2023/10/12 (Thu) 00:50",
+    "ground_truth_answer": "level 100",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the current goal of level 150 but contains no information about the previous goal of level 100."
+        }
+    ]
+}

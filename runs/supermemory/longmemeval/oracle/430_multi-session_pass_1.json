@@ -1,0 +1,21 @@
+{
+    "index": 430,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'The Nightingale'?",
+    "question_date": "2023/05/25 (Thu) 10:43",
+    "ground_truth_answer": "190",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_430_multi-session",
+        "supermemory_document_ids": [
+            "bPK72YjmatfCvq3zB7GaMQ",
+            "AexGpmgB4H9fvRFpzVzpMw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is reading \"The Nightingale\", which has 440 pages\nUser reads \"Sapiens\" at a speed of 10-20 pages per week",
+            "latency": 2365.592
+        }
+    ]
+}

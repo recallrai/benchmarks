@@ -1,0 +1,20 @@
+{
+    "index": 367,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "question_date": "2023/05/06 (Sat) 05:25",
+    "ground_truth_answer": "3 weeks ago",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_367_temporal-reasoning",
+        "supermemory_document_ids": [
+            "f3HQYmT1KjCbre7A99J1x6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User should check Ibotta regularly for new Thrive Market cashback deals\nUser should check Ibotta app for available cashback offers on Thrive Market purchases\nUser can earn cashback on Thrive Market purchases by shopping through Ibotta\nIbotta offers cashback on Thrive Market purchases\nUser can stack Thrive Market sales/discounts with Ibotta cashback offers\nUser should read terms and conditions of Ibotta cashback offers for Thrive Market\nUser can link Thrive Market account to Ibotta account\nShipt offers new members a free 2-week trial",
+            "latency": 1486.833
+        }
+    ]
+}

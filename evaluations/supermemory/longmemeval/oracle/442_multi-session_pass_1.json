@@ -1,0 +1,14 @@
+{
+    "index": 442,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+    "question_date": "2023/05/28 (Sun) 21:42",
+    "ground_truth_answer": "8",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context only mentions five tomato plants but does not specify the number of cucumber plants initially planted, making it impossible to determine the total of 8 plants."
+        }
+    ]
+}

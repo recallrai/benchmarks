@@ -1,0 +1,21 @@
+{
+    "index": 35,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+    "question_date": "2023/05/30 (Tue) 03:49",
+    "ground_truth_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_35_temporal-reasoning",
+        "supermemory_document_ids": [
+            "jRRGNqjLt8fB9xQAMvHLWg",
+            "tzGUmx1njLSjRJmfRG5Gon"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User added a new area rug to the living room a month ago\nUser wants deep coral throw pillows to complement the new area rug in the living room\nUser has a fern in the living room\nApplying mulch or decorative stones under planters helps retain moisture and protects the living-room rug from water damage\nUser has a spider plant in the living room\nUser has a snake plant in the living room",
+            "latency": 1500.703
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 3,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+    "question_date": "2023/03/15 (Wed) 03:53",
+    "ground_truth_answer": "Samsung Galaxy S22",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_3_temporal-reasoning",
+        "supermemory_document_ids": [
+            "XW9qL8bWD3qcLuckJKqgpA",
+            "h279zRA9gFsvubzuEKkpuK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User pre-ordered Dell XPS 13 laptop on January 28 and it arrived on February 25 after a delay from the expected February 11 arrival.\nUser purchased a Samsung Galaxy S22 from Best Buy at the mall on February 20.\nUser will bring Dell XPS 13 laptop on the Hawaii trip.\nUser will bring Samsung Galaxy S22 phone on the Hawaii trip.\nUser saved about $100 on the Samsung Galaxy S22 purchase using a student discount.\nUser purchased an Anker PowerCore 20000 portable power bank from Amazon a week before getting the new Samsung Galaxy S22.\nUser traded in an iPhone 12 for an extra $200 discount on the Samsung Galaxy S22.\nUser plans to use the Samsung Galaxy S22 to photograph the Haleakala sunrise.\nUser wants to capture photos and track fitness progress with the Samsung Galaxy S22 while driving the Road to Hana\nUser plans to bring a tripod to stabilize the Samsung Galaxy S22 for sunrise photos at Haleakala.",
+            "latency": 3955.505
+        }
+    ]
+}

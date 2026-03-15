@@ -1,0 +1,21 @@
+{
+    "index": 9,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+    "question_date": "2023/06/28 (Wed) 20:07",
+    "ground_truth_answer": "4 days.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_9_temporal-reasoning",
+        "supermemory_document_ids": [
+            "jibKAbhCE9VGU6GBxeLnmH",
+            "MQp1vRErBZ6PzEF321jFZT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended 'Rack Fest' on June 18th\nUser attended 'Rack Fest' event on June 18th.\nUser participated in \"Turbocharged Tuesdays\" auto racing event on June 14th\nUser attended 'Rack Fest' event in a nearby city on June 18th.\nUser met a mechanic from a local shop at the 'Turbocharged Tuesdays' event.\nThe user is looking for performance shops in the nearby city of 'Rack Fest' for their 2018 Ford Mustang GT.\nUser is attending the 'Racing Nationals' drag racing event in August\nUser is planning to attend the 'Racing Nationals' event in August.\nUser has reserved a spot in the 'Racing Nationals' event.\nUser is asking for advice on preparing for a big drag racing event.",
+            "latency": 4242.0
+        }
+    ]
+}

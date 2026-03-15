@@ -1,0 +1,21 @@
+{
+    "index": 492,
+    "question_type": "multi-session",
+    "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+    "question_date": "2023/05/25 (Thu) 05:00",
+    "ground_truth_answer": "30 minutes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_492_multi-session",
+        "supermemory_document_ids": [
+            "1pp8ZUB95vrJQWSTi7aDju",
+            "etfUsUh1UyuSjnZA5GKz7C"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Wakes up at 6:00 AM on Fridays.\nUser wakes up at 6:30 AM on weekdays.\nDoes a 45-minute workout starting at 6:10 AM each Friday.\nMediates for 30 minutes starting at 7:15 AM each Friday.\nUser gets ready for work at 8:00 AM each weekday\nUser grabs coffee and catches up on news for 25 minutes starting at 8:35 AM each Friday.",
+            "latency": 1483.976
+        }
+    ]
+}

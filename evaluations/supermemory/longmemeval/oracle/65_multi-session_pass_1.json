@@ -1,0 +1,14 @@
+{
+    "index": 65,
+    "question_type": "multi-session",
+    "question": "How many plants did I acquire in the last month?",
+    "question_date": "2023/05/28 (Sun) 09:22",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one plant (a snake plant) obtained last month, but the gold answer indicates the user acquired 3 plants in total, making the context insufficient to correctly answer the question."
+        }
+    ]
+}

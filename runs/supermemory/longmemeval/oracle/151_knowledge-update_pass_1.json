@@ -1,0 +1,21 @@
+{
+    "index": 151,
+    "question_type": "knowledge-update",
+    "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+    "question_date": "2023/05/26 (Fri) 16:53",
+    "ground_truth_answer": "30",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_151_knowledge-update",
+        "supermemory_document_ids": [
+            "58ui31hydfdc3bf9sh6EF7",
+            "UjB3N2kggru7CdQoeZRvXB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 476.9
+        }
+    ]
+}

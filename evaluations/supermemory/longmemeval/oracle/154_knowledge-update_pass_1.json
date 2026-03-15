@@ -1,0 +1,14 @@
+{
+    "index": 154,
+    "question_type": "knowledge-update",
+    "question": "How long have my parents been staying with me in the US?",
+    "question_date": "2023/10/22 (Sun) 20:20",
+    "ground_truth_answer": "nine months",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'Parents have overstayed their visa for nine months,' which directly corresponds to the gold answer of 'nine months' and provides the duration information needed to answer the question about how long the parents have been staying."
+        }
+    ]
+}

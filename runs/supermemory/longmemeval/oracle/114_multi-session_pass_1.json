@@ -1,0 +1,22 @@
+{
+    "index": 114,
+    "question_type": "multi-session",
+    "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+    "question_date": "2023/05/28 (Sun) 22:31",
+    "ground_truth_answer": "23",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_114_multi-session",
+        "supermemory_document_ids": [
+            "jpJDcf5siQe5CVwGfCrEMk",
+            "2YnxBbywpxBB1Wfnyw3hck",
+            "EB1ZujzwMSE9Gx6iXTXyKe"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has written 17 poems in the past two weeks.\nUser has written five short stories.\nUser plans to create subfolders for \"Forgotten Memories\" writing challenge prompt.\nUser wrote a piece titled \"The Smell of Old Books\" for the \"forgotten memories\" writing challenge prompt.\nUser plans to categorize writing challenge submissions by prompt.\nUser plans to create cards in Trello for ideas and drafts for writing challenge submissions.\nUser is seeking writing prompts to stay motivated.\nUser plans to create lists in Trello for each writing challenge prompt.\nUser plans to create subfolders for \"Future Prompts\" writing challenge prompt.\nUser plans to transition from writing prompts or exercises to their main writing project after warming up.",
+            "latency": 1700.519
+        }
+    ]
+}

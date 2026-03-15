@@ -1,0 +1,21 @@
+{
+    "index": 491,
+    "question_type": "multi-session",
+    "question": "How much discount will I get on my next purchase at FreshMart?",
+    "question_date": "2023/05/30 (Tue) 10:10",
+    "ground_truth_answer": "$5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_491_multi-session",
+        "supermemory_document_ids": [
+            "27Ec5M47rcFuQsV3M3PDXe",
+            "NVFGLyNLTfPuQb6TPBCZFb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "500 points at FreshMart translates to a $5 discount on the next purchase.\nUser is eligible for a discount at FreshMart\nUser has 500 points at FreshMart.\nUser is shopping at FreshMart more often.\nUser has a \"silver\" tier discount at OfficeDepot",
+            "latency": 887.952
+        }
+    ]
+}

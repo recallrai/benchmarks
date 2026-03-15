@@ -1,0 +1,21 @@
+{
+    "index": 441,
+    "question_type": "multi-session",
+    "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+    "question_date": "2023/05/26 (Fri) 10:38",
+    "ground_truth_answer": "27",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_441_multi-session",
+        "supermemory_document_ids": [
+            "NioNJN2SPAmmSppjonRJAK",
+            "td132KgeqZ4iptRfbBTPJj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2401.312
+        }
+    ]
+}

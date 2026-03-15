@@ -1,0 +1,21 @@
+{
+    "index": 369,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did I spend on my solo camping trip to Yosemite National Park?",
+    "question_date": "2023/06/01 (Thu) 12:42",
+    "ground_truth_answer": "2 days. 3 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_369_temporal-reasoning",
+        "supermemory_document_ids": [
+            "AATyJHqHscUWyzW3RQbmkY",
+            "2N8ctvoShGmH4Kzfu7etYB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user completed a solo camping trip to Yosemite National Park today\nThe user plans to camp at Whitney Portal Campground the night before the Mount Whitney hike",
+            "latency": 1427.173
+        }
+    ]
+}

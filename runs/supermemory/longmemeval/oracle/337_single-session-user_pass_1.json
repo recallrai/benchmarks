@@ -1,0 +1,20 @@
+{
+    "index": 337,
+    "question_type": "single-session-user",
+    "question": "What book am I currently reading?",
+    "question_date": "2023/05/27 (Sat) 20:04",
+    "ground_truth_answer": "The Seven Husbands of Evelyn Hugo",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_337_single-session-user",
+        "supermemory_document_ids": [
+            "4yYgbn33WM4tNHbjRN7zVj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is interested in popular book awards and reading lists to discover new titles\nUser sometimes reads 50-60 pages in a single sitting.",
+            "latency": 643.93
+        }
+    ]
+}

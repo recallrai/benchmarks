@@ -1,0 +1,23 @@
+{
+    "index": 110,
+    "question_type": "multi-session",
+    "question": "How many magazine subscriptions do I currently have?",
+    "question_date": "2023/04/01 (Sat) 21:12",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_110_multi-session",
+        "supermemory_document_ids": [
+            "uSYkq3kjooCsupS3fGWURy",
+            "HBjrifUaBVfd8xaCzupDqx",
+            "RBnaYr58SbwQ7NkUrUmf2G",
+            "nLQBYymKWQR74GL15NXsaK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User subscribed to The New Yorker magazine in early February\nUser bought National Geographic issue on March 15th\nUser reads weekly issues of The New Yorker to stay up-to-date on current events and culture",
+            "latency": 2920.089
+        }
+    ]
+}

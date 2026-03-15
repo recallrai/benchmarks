@@ -1,0 +1,14 @@
+{
+    "index": 162,
+    "question_type": "knowledge-update",
+    "question": "What is my current highest score in Ticket to Ride?",
+    "question_date": "2023/06/09 (Fri) 07:46",
+    "ground_truth_answer": "132 points",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user achieved a Ticket to Ride score of 132 points, which matches the gold answer of 132 points and provides the information needed to answer the question about their highest score."
+        }
+    ]
+}

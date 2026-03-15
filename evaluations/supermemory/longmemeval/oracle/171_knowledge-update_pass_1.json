@@ -1,0 +1,14 @@
+{
+    "index": 171,
+    "question_type": "knowledge-update",
+    "question": "What was my previous personal best time for the charity 5K run?",
+    "question_date": "2023/08/23 (Wed) 07:49",
+    "ground_truth_answer": "27 minutes and 45 seconds",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context states the current personal best is 26:30 and they beat their previous best by 1.5 minutes, which would make the previous best 28:00, not 27:45 as stated in the gold answer."
+        }
+    ]
+}

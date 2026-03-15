@@ -1,0 +1,14 @@
+{
+    "index": 195,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Shinjuku?",
+    "question_date": "2023/10/15 (Sun) 09:44",
+    "ground_truth_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions Harajuku (not Shinjuku), which aligns with the gold answer stating there's insufficient information about Shinjuku and only mentions Harajuku."
+        }
+    ]
+}

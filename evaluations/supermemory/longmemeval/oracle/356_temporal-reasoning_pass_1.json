@@ -1,0 +1,14 @@
+{
+    "index": 356,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?",
+    "question_date": "2023/02/01 (Wed) 13:01",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and provides no information about the dates of either museum visit, making it impossible to calculate the number of days between them."
+        }
+    ]
+}

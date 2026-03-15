@@ -1,0 +1,14 @@
+{
+    "index": 314,
+    "question_type": "single-session-user",
+    "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+    "question_date": "2023/05/27 (Sat) 00:51",
+    "ground_truth_answer": "3:1",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about gin-to-vermouth ratios or martinis that would allow answering the question."
+        }
+    ]
+}

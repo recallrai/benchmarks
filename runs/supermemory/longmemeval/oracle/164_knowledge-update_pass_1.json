@@ -1,0 +1,21 @@
+{
+    "index": 164,
+    "question_type": "knowledge-update",
+    "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+    "question_date": "2023/10/02 (Mon) 04:40",
+    "ground_truth_answer": "$420",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_164_knowledge-update",
+        "supermemory_document_ids": [
+            "mrrdD6HNK8g7URTtexp8GR",
+            "tBC4jA95TpmJpn9upuXrK8"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User earned $420 at the Downtown Farmers Market on the most recent visit\nThe user cleared out some old stock at the Foodie Festival\nThe user sells homemade jams, candles, and soaps",
+            "latency": 1678.612
+        }
+    ]
+}

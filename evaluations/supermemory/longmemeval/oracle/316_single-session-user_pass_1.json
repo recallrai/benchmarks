@@ -1,0 +1,14 @@
+{
+    "index": 316,
+    "question_type": "single-session-user",
+    "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+    "question_date": "2023/05/24 (Wed) 22:04",
+    "ground_truth_answer": "The painting is worth triple what I paid for it.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the sunset painting or its value relative to the purchase price."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 427,
+    "question_type": "temporal-reasoning",
+    "question": "Where did I attend the religious activity last week?",
+    "question_date": "2023/04/10 (Mon) 08:05",
+    "ground_truth_answer": "the Episcopal Church",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_427_temporal-reasoning",
+        "supermemory_document_ids": [
+            "s7bjSGAaswMna3CD2Aoyd2"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended the Maundy Thursday service at the Episcopal Church\nUser helped at an Easter Egg Hunt event last week\nUser learned that the food bank is located at 123 Main St, Anytown, USA 12345",
+            "latency": 3754.12
+        }
+    ]
+}

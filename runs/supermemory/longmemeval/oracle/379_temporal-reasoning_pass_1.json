@@ -1,0 +1,21 @@
+{
+    "index": 379,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+    "question_date": "2023/05/08 (Mon) 21:01",
+    "ground_truth_answer": "6 days. 7 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_379_temporal-reasoning",
+        "supermemory_document_ids": [
+            "8Rxj8unwbGSGbTsxexXY7f",
+            "Y6h1m5Xb1RyCcNcMyBZRc7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2525.57
+        }
+    ]
+}

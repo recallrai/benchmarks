@@ -1,0 +1,21 @@
+{
+    "index": 456,
+    "question_type": "multi-session",
+    "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+    "question_date": "2023/05/30 (Tue) 02:24",
+    "ground_truth_answer": "10%",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_456_multi-session",
+        "supermemory_document_ids": [
+            "Gs5zGcodS2xchRcffu5pur",
+            "3ZgSD9RXK1Ac141vbxYvhe"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is planning renovations to their current house.\nUser estimates the cost of renovations to be around $20,000.\nUser plans a $20,000 renovation budget that includes adding a deck and a patio.\nUser plans to start renovation project in the spring.\nUser wants to estimate the impact of renovations on their property taxes.\nUser wants to minimize the impact of renovations on property taxes.\nUser wants to understand how renovations affect property taxes.\nProperty value appreciation in the area can amplify the impact of renovations on property taxes.\nUser can phase the renovation project to minimize the impact on property taxes.\nUser expects the deck and patio renovations to have a moderate impact on property taxes.",
+            "latency": 2865.005
+        }
+    ]
+}

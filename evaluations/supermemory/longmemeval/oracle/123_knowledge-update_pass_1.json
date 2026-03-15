@@ -1,0 +1,14 @@
+{
+    "index": 123,
+    "question_type": "knowledge-update",
+    "question": "How many Korean restaurants have I tried in my city?",
+    "question_date": "2023/10/08 (Sun) 21:51",
+    "ground_truth_answer": "four",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses Indian restaurants but provides no information about Korean restaurants or any count that would answer the question about how many Korean restaurants were tried."
+        }
+    ]
+}

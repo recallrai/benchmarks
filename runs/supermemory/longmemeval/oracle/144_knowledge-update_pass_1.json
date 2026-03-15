@@ -1,0 +1,21 @@
+{
+    "index": 144,
+    "question_type": "knowledge-update",
+    "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+    "question_date": "2023/06/20 (Tue) 11:24",
+    "ground_truth_answer": "TechCorp",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_144_knowledge-update",
+        "supermemory_document_ids": [
+            "eirXizUn3YHuxPdSZokByc",
+            "tUegAVLQ9YZRXReUKwcpSU"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User knows Rachel, who works at TechCorp.\nUser met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10 and 11, 2023",
+            "latency": 1256.041
+        }
+    ]
+}

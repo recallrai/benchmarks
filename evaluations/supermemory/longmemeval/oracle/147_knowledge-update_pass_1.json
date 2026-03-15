@@ -1,0 +1,14 @@
+{
+    "index": 147,
+    "question_type": "knowledge-update",
+    "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+    "question_date": "2023/05/28 (Sun) 22:52",
+    "ground_truth_answer": "six",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the black Converse Chuck Taylor All Star sneakers or how many times they were worn."
+        }
+    ]
+}

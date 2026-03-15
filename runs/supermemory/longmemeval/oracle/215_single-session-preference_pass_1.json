@@ -1,0 +1,20 @@
+{
+    "index": 215,
+    "question_type": "single-session-preference",
+    "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+    "question_date": "2023/05/27 (Sat) 23:31",
+    "ground_truth_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_215_single-session-preference",
+        "supermemory_document_ids": [
+            "b4ufcF6iYJVqUEJ63CgctU"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1148.69
+        }
+    ]
+}

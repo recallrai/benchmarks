@@ -1,0 +1,21 @@
+{
+    "index": 386,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+    "question_date": "2023/10/15 (Sun) 12:05",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_386_temporal-reasoning",
+        "supermemory_document_ids": [
+            "mo97mmf46UosvrotKwY4Ry",
+            "BBkisrykKdD3HjoUxXTXWC"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Entity completed their 10th outdoor jog today\nEntity is taking it easy after recovering from the flu",
+            "latency": 1644.602
+        }
+    ]
+}

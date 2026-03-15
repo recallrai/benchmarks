@@ -1,0 +1,21 @@
+{
+    "index": 195,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Shinjuku?",
+    "question_date": "2023/10/15 (Sun) 09:44",
+    "ground_truth_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_195_knowledge-update",
+        "supermemory_document_ids": [
+            "MDx5oR53vpUzz2di6pWSkj",
+            "mvUxJ5ZYm7whropbNex4JD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has been living in Harajuku for 3 months\nUser has been living in Harajuku for 3 months\nThe user lives in Tokyo and has a studio apartment in Harajuku.\nThe user finds the commute from Harajuku to work convenient.",
+            "latency": 1296.25
+        }
+    ]
+}

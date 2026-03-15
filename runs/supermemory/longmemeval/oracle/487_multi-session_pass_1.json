@@ -1,0 +1,21 @@
+{
+    "index": 487,
+    "question_type": "multi-session",
+    "question": "How many minutes did I exceed my target time by in the marathon?",
+    "question_date": "2023/05/23 (Tue) 02:53",
+    "ground_truth_answer": "12",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_487_multi-session",
+        "supermemory_document_ids": [
+            "9LRTeiprnVUkyDGWMQZmtc",
+            "9FC2hqNoykoJZvfqgQdgnF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's target marathon time was 4 hours and 10 minutes.\nUser completed first full marathon in 4h 22min.\nUser completed a 30-mile charity cycling event in 2 hours and 15 minutes.\nUser's marathon endurance is helpful for triathlon run segment\nUser completed 30 miles at 'Pedal for a Purpose' charity cycling event in 2 hours and 15 minutes",
+            "latency": 2332.244
+        }
+    ]
+}

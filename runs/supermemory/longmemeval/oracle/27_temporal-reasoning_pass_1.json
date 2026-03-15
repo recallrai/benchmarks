@@ -1,0 +1,21 @@
+{
+    "index": 27,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+    "question_date": "2023/02/03 (Fri) 23:24",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_27_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ca6xsyoWXCXvbYHw21xqHm",
+            "NCyCgkcXbkDjW4EG8vYTZK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Acquired new Adidas running shoes on January 10\nUser replaced broken shoelace on old Converse sneakers on January 24\nUser bought new Adidas running shoes with sister at outlet mall on January 10\nThe Adidas running shoes cost $80\nThe user liked the design of the Adidas running shoes\nThe user wants to clean the sneakers that were worn on February 1 for basketball\nUser lent their Vans to their brother, who returned them on 2026-02-10, and the shoes were tighter than before",
+            "latency": 1546.146
+        }
+    ]
+}

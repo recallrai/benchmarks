@@ -1,0 +1,14 @@
+{
+    "index": 163,
+    "question_type": "knowledge-update",
+    "question": "How many tops have I bought from H&M so far?",
+    "question_date": "2023/10/20 (Fri) 18:28",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about H&M purchases or the number of tops bought, so it cannot be used to answer the question."
+        }
+    ]
+}

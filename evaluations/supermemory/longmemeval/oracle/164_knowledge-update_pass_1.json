@@ -1,0 +1,14 @@
+{
+    "index": 164,
+    "question_type": "knowledge-update",
+    "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+    "question_date": "2023/10/02 (Mon) 04:40",
+    "ground_truth_answer": "$420",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'User earned $420 at the Downtown Farmers Market on the most recent visit', which exactly matches the gold answer of $420."
+        }
+    ]
+}

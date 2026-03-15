@@ -1,0 +1,14 @@
+{
+    "index": 464,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the car cover and detailing spray I purchased?",
+    "question_date": "2023/05/24 (Wed) 22:16",
+    "ground_truth_answer": "$140",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context states the user paid $120 for a waterproof car cover and bought a $20 detailing spray from Amazon, which totals $140 matching the gold answer."
+        }
+    ]
+}

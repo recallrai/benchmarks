@@ -1,0 +1,14 @@
+{
+    "index": 205,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend a show or movie for me to watch tonight?",
+    "question_date": "2023/05/27 (Sat) 18:09",
+    "ground_truth_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's preferences for stand-up comedy specials on Netflix or storytelling content, so it cannot be used to answer the question."
+        }
+    ]
+}

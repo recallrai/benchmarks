@@ -1,0 +1,20 @@
+{
+    "index": 377,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I meet Emma?",
+    "question_date": "2023/04/20 (Thu) 09:29",
+    "ground_truth_answer": "9 days ago. 10 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_377_temporal-reasoning",
+        "supermemory_document_ids": [
+            "BNWdTJNSdhHnXybju6xCYW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2595.733
+        }
+    ]
+}

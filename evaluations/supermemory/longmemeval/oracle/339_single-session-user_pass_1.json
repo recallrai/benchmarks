@@ -1,0 +1,14 @@
+{
+    "index": 339,
+    "question_type": "single-session-user",
+    "question": "How many hours did I spend watching documentaries on Netflix last month?",
+    "question_date": "2023/05/23 (Tue) 17:55",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about watching documentaries on Netflix or the number of hours (10), so it cannot be used to answer the question."
+        }
+    ]
+}

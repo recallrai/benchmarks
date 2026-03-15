@@ -1,0 +1,21 @@
+{
+    "index": 118,
+    "question_type": "multi-session",
+    "question": "How many fish are there in my 30-gallon tank?",
+    "question_date": "2023/05/28 (Sun) 08:12",
+    "ground_truth_answer": "The information provided is not enough. You did not mention that you have a 30-gallon tank.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_118_multi-session",
+        "supermemory_document_ids": [
+            "WDcJjum1dnXY7n2SDRMPQw",
+            "nWRqf8xvq8JnnNrcX1ELvr"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3430.936
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 419,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet with during the lunch last Tuesday?",
+    "question_date": "2023/04/18 (Tue) 02:06",
+    "ground_truth_answer": "Emma",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_419_temporal-reasoning",
+        "supermemory_document_ids": [
+            "kEyJZE3HGgwGGb1hwrdRwg"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is meeting Emma, a freelance writer, for lunch today\nUser attended a digital marketing workshop last week",
+            "latency": 400.125
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 358,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+    "question_date": "2023/04/01 (Sat) 20:56",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms the user received a crystal chandelier from their aunt, it contains no temporal information (date, relative time reference, etc.) that would allow someone to determine this occurred 4 weeks before the question date."
+        }
+    ]
+}

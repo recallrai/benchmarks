@@ -1,0 +1,14 @@
+{
+    "index": 175,
+    "question_type": "knowledge-update",
+    "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+    "question_date": "2023/06/25 (Sun) 04:48",
+    "ground_truth_answer": "Wednesday",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions meeting Maria on Thursday, but the question asks about meeting Juan on a different day (Wednesday according to the gold answer), so the context does not contain relevant information to answer the question."
+        }
+    ]
+}

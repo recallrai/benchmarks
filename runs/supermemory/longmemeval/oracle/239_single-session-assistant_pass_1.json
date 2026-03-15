@@ -1,0 +1,20 @@
+{
+    "index": 239,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+    "question_date": "2023/05/25 (Thu) 23:30",
+    "ground_truth_answer": "Doc Martin",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_239_single-session-assistant",
+        "supermemory_document_ids": [
+            "9ECs3zQWmEwPXwbAKLawcJ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1330.222
+        }
+    ]
+}

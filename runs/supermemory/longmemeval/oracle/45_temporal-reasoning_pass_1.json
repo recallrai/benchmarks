@@ -1,0 +1,21 @@
+{
+    "index": 45,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+    "question_date": "2023/05/29 (Mon) 09:14",
+    "ground_truth_answer": "Receiving the new phone case",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_45_temporal-reasoning",
+        "supermemory_document_ids": [
+            "PFGarTHULTEr4d9FMowxNQ",
+            "ent1cBXbj5zZsMutqJ7hdc"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's new phone case protects the phone during beach trips",
+            "latency": 2202.329
+        }
+    ]
+}

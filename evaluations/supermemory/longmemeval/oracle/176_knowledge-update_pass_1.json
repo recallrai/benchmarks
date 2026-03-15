@@ -1,0 +1,14 @@
+{
+    "index": 176,
+    "question_type": "knowledge-update",
+    "question": "How many pre-1920 American coins do I have in my collection?",
+    "question_date": "2023/05/28 (Sun) 13:18",
+    "ground_truth_answer": "38",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user had 37 pre-1920 American coins and separately notes that 'User added a 1915\u2011S Barber quarter to their pre\u20111920 American coin collection,' which together indicates 38 total coins, matching the gold answer."
+        }
+    ]
+}

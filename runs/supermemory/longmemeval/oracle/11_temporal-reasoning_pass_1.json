@@ -1,0 +1,21 @@
+{
+    "index": 11,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the purchase of the coffee maker or the malfunction of the stand mixer?",
+    "question_date": "2023/05/22 (Mon) 18:10",
+    "ground_truth_answer": "The malfunction of the stand mixer",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_11_temporal-reasoning",
+        "supermemory_document_ids": [
+            "c7vVjsdkJpQg5x4JxL1U9a",
+            "MPGmdgmicryXPpzMsPV3cL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's stand mixer broke down last month and took two weeks to fix.\nThe user purchased a coffee maker approximately three weeks ago.\nThe user uses their coffee maker every morning.\nThe user's coffee maker is black and stainless steel.\nThe user wants to use their coffee maker or other appliances for dessert recipes.\nThe user is interested in Coffee Cr\u00e8me Br\u00fbl\u00e9e made with a coffee maker.\nThe user is interested in Mocha Trifle made with a coffee maker.\nThe user should lubricate the stand mixer's gears and moving parts regularly.\nThe user needs a hand mixer as an alternative to a stand mixer for whipping cream, beating eggs, and mixing small batches.\nThe user is seeking cleaning and maintenance tips for their coffee maker.",
+            "latency": 3869.042
+        }
+    ]
+}

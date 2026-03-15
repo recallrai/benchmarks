@@ -1,0 +1,20 @@
+{
+    "index": 319,
+    "question_type": "single-session-user",
+    "question": "How long did it take to move to the new apartment?",
+    "question_date": "2023/05/29 (Mon) 07:44",
+    "ground_truth_answer": "5 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_319_single-session-user",
+        "supermemory_document_ids": [
+            "RWcRoBiXMe9GBPst7bbkFe"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1071.622
+        }
+    ]
+}

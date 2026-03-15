@@ -1,0 +1,20 @@
+{
+    "index": 241,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "Evolution",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_241_single-session-assistant",
+        "supermemory_document_ids": [
+            "ZnJgmGwfRMKUiLpFMMtSj2"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1366.024
+        }
+    ]
+}

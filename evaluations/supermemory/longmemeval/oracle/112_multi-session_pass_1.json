@@ -1,0 +1,14 @@
+{
+    "index": 112,
+    "question_type": "multi-session",
+    "question": "How many music albums or EPs have I purchased or downloaded?",
+    "question_date": "2023/05/27 (Sat) 15:44",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one EP purchase, but the gold answer indicates the user has purchased or downloaded 3 music albums or EPs total, so the context is insufficient to correctly answer the question."
+        }
+    ]
+}

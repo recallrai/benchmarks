@@ -1,0 +1,14 @@
+{
+    "index": 308,
+    "question_type": "single-session-user",
+    "question": "How many bikes do I own?",
+    "question_date": "2023/05/21 (Sun) 04:11",
+    "ground_truth_answer": "three",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about bikes or their quantity, making it impossible to answer the question."
+        }
+    ]
+}

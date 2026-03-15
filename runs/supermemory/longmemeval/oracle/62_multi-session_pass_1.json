@@ -1,0 +1,23 @@
+{
+    "index": 62,
+    "question_type": "multi-session",
+    "question": "How many model kits have I worked on or bought?",
+    "question_date": "2023/05/30 (Tue) 21:08",
+    "ground_truth_answer": "I have worked on or bought five model kits. The scales of the models are: Revell F-15 Eagle (scale not mentioned), Tamiya 1/48 scale Spitfire Mk.V, 1/16 scale German Tiger I tank, 1/72 scale B-29 bomber, and 1/24 scale '69 Camaro.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_62_multi-session",
+        "supermemory_document_ids": [
+            "kRuaefLhKuYwA6zZLKQq7Q",
+            "VK6io4GDJZTZWZL4tR9LkD",
+            "pFPMPdazw2ejdSjdLvEQXS",
+            "wdF6KfQopvus19YgdtLH3d"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user plans to start working on engine wiring and fuel lines for the 1/24\u2011scale 1969 Camaro model\nThe user prefers using thin, flexible wire 0.5\u202fmm to 1.5\u202fmm in diameter for model wire work.",
+            "latency": 3006.984
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 341,
+    "question_type": "single-session-user",
+    "question": "What is my ethnicity?",
+    "question_date": "2023/05/29 (Mon) 05:51",
+    "ground_truth_answer": "A mix of Irish and Italian",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about ethnicity, so it cannot be used to answer the question about being a mix of Irish and Italian."
+        }
+    ]
+}

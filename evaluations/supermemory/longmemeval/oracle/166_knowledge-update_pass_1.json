@@ -1,0 +1,14 @@
+{
+    "index": 166,
+    "question_type": "knowledge-update",
+    "question": "What time do I usually go to the gym?",
+    "question_date": "2023/06/08 (Thu) 00:54",
+    "ground_truth_answer": "6:00 pm",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions '6:00 pm gym session' which matches the gold answer, even though it also references 7:00 PM sessions on specific days."
+        }
+    ]
+}

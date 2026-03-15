@@ -1,0 +1,21 @@
+{
+    "index": 169,
+    "question_type": "knowledge-update",
+    "question": "How many different species of birds have I seen in my local park?",
+    "question_date": "2023/06/28 (Wed) 14:23",
+    "ground_truth_answer": "32",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_169_knowledge-update",
+        "supermemory_document_ids": [
+            "HQMMBvckFQV37bmJgjCwff",
+            "jh5esr8Wz4v2cnw6WkhK4e"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has spotted 32 bird species in their local park\nUser saw a Northern Flicker in their local park\nThe user uses multiple bird attractants (sunflower seeds, suet, water, fruit, peanut butter) to attract various bird species at the picnic\nUser uses the eBird app to track and submit bird sightings",
+            "latency": 1463.303
+        }
+    ]
+}

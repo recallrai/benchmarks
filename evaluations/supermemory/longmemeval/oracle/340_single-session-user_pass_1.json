@@ -1,0 +1,14 @@
+{
+    "index": 340,
+    "question_type": "single-session-user",
+    "question": "What time do I usually get home from work on weeknights?",
+    "question_date": "2023/05/29 (Mon) 16:15",
+    "ground_truth_answer": "6:30 pm",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's typical arrival time from work on weeknights."
+        }
+    ]
+}

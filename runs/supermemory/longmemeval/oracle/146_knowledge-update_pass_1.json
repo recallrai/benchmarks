@@ -1,0 +1,21 @@
+{
+    "index": 146,
+    "question_type": "knowledge-update",
+    "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+    "question_date": "2023/11/29 (Wed) 08:35",
+    "ground_truth_answer": "in my bedroom",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_146_knowledge-update",
+        "supermemory_document_ids": [
+            "XRytALFcyvAJ5PW52n14DQ",
+            "VZ19KEKr6ykf9QWdNgnyJz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1428.232
+        }
+    ]
+}

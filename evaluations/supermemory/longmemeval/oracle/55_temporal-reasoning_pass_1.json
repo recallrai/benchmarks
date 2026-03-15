@@ -1,0 +1,14 @@
+{
+    "index": 55,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at Google?",
+    "question_date": "2023/05/23 (Tue) 10:59",
+    "ground_truth_answer": "The information provided is not enough. From the information provided, You haven't started working at Google yet.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The gold answer indicates the person hasn't started at Google yet, but the retrieved context only mentions nine years of professional experience without addressing whether they've started at Google, making it impossible to correctly answer the question from the context alone."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 281,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+    "question_date": "2023/05/29 (Mon) 18:39",
+    "ground_truth_answer": "Nostalgia",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_281_single-session-assistant",
+        "supermemory_document_ids": [
+            "p3odBN9cPmm8CykT28NAtN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2108.425
+        }
+    ]
+}

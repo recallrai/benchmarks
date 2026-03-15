@@ -1,0 +1,23 @@
+{
+    "index": 66,
+    "question_type": "multi-session",
+    "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+    "question_date": "2023/05/05 (Fri) 19:59",
+    "ground_truth_answer": "$185",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_66_multi-session",
+        "supermemory_document_ids": [
+            "jqeUcPfTCRBhmo5ZEe6NVw",
+            "7TN7NcEcj29uihfXS2YRjn",
+            "ye4ciamQdY651jDAmRCHdH",
+            "htYJtEEAzHMumrZ5pdQZ9j"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has logged 347 miles of bike riding since the start of the year\nUser installed new bike lights on April 20, 2026 costing $40\nUser replaced the bike chain on April 20, 2026 costing $25\nUser purchased a new set of bike lights for $40, improving visibility on early morning rides\nUser wants to calculate average speed of bike rides\nUser aims to reach 1000 miles of bike riding by the end of summer\nUser aims to reach 1000 miles of bike riding by the end of summer\nUser's last bike tune\u2011up was a month ago\nUser bought a Bell Zephyr helmet from the local downtown bike shop on 2026-04-10\nUser had a bike tune-up on April 20, 2026 because gears were stuck",
+            "latency": 1085.652
+        }
+    ]
+}

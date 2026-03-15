@@ -1,0 +1,14 @@
+{
+    "index": 446,
+    "question_type": "multi-session",
+    "question": "How many Marvel movies did I re-watch?",
+    "question_date": "2023/05/26 (Fri) 23:52",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions two Marvel movies that the user re-watched: Avengers: Endgame and Spider-Man: No Way Home, which matches the gold answer of 2."
+        }
+    ]
+}

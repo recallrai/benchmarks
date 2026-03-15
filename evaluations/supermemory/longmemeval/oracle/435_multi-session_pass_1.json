@@ -1,0 +1,14 @@
+{
+    "index": 435,
+    "question_type": "multi-session",
+    "question": "How much cashback did I earn at SaveMart last Thursday?",
+    "question_date": "2023/05/29 (Mon) 13:21",
+    "ground_truth_answer": "$0.75",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions cashback earnings of $0.55, but the gold answer indicates the cashback earned last Thursday was $0.75, which is a different amount."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 357,
+    "question_type": "temporal-reasoning",
+    "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a customized phone case for my friend's birthday?",
+    "question_date": "2023/03/22 (Wed) 18:48",
+    "ground_truth_answer": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_357_temporal-reasoning",
+        "supermemory_document_ids": [
+            "6nen6tuBEKxKrgPyyzKR2Q",
+            "e1cDVotp9NvkzBhY1Vqsb2",
+            "sd9qssHbVHMNqqcHZEBpi6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User ordered a customized phone case for a friend\u2019s birthday today\nUser\u2019s friend loved the customized phone case",
+            "latency": 738.54
+        }
+    ]
+}

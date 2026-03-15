@@ -1,0 +1,20 @@
+{
+    "index": 293,
+    "question_type": "single-session-user",
+    "question": "What color did I repaint my bedroom walls?",
+    "question_date": "2023/05/21 (Sun) 13:44",
+    "ground_truth_answer": "a lighter shade of gray",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_293_single-session-user",
+        "supermemory_document_ids": [
+            "gwLqUV6aae6Hi3fnxWUv4x"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user repainted the bedroom walls a lighter shade of gray, brightening the room.\nThe user is considering adding a ZZ Plant to the bedroom to complement the lighter gray walls",
+            "latency": 749.62
+        }
+    ]
+}

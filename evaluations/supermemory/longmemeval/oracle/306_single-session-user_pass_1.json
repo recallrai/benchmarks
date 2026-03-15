@@ -1,0 +1,14 @@
+{
+    "index": 306,
+    "question_type": "single-session-user",
+    "question": "What brand are my favorite running shoes?",
+    "question_date": "2023/05/30 (Tue) 20:23",
+    "ground_truth_answer": "Nike",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about running shoes or the brand Nike."
+        }
+    ]
+}

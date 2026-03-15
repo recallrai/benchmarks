@@ -1,0 +1,21 @@
+{
+    "index": 17,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+    "question_date": "2023/05/22 (Mon) 00:25",
+    "ground_truth_answer": "'The Hate U Give'",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_17_temporal-reasoning",
+        "supermemory_document_ids": [
+            "neEaaZ7jkKSWmacVTy27y7",
+            "Ymka6Jx22B2prgRbkr9KJP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User finished reading \"The Hate U Give\" by Angie Thomas\nUser finished reading \"The Nightingale\" by Kristin Hannah last weekend.\nUser finished reading \"The Hate U Give\" by Angie Thomas for a book club meeting two weeks ago\nUser says narration helped them connect with the characters' emotions in \"The Hate U Give\"",
+            "latency": 1300.191
+        }
+    ]
+}

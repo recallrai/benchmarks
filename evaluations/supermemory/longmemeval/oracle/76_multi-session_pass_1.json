@@ -1,0 +1,14 @@
+{
+    "index": 76,
+    "question_type": "multi-session",
+    "question": "How many weddings have I attended in this year?",
+    "question_date": "2023/10/15 (Sun) 22:23",
+    "ground_truth_answer": "I attended three weddings. The couples were Rachel and Mike, Emily and Sarah, and Jen and Tom.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the user attended three weddings (Rachel and Mike, Emily and Sarah, and Jen and Tom), but the retrieved context only mentions one wedding attended (Jen and Tom's), which is insufficient to correctly answer the question about the total number of weddings."
+        }
+    ]
+}

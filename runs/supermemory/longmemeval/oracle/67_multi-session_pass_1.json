@@ -1,0 +1,22 @@
+{
+    "index": 67,
+    "question_type": "multi-session",
+    "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+    "question_date": "2023/05/30 (Tue) 07:22",
+    "ground_truth_answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_67_multi-session",
+        "supermemory_document_ids": [
+            "MyHdqcNd93GJV8TnWAJwPs",
+            "PAvJuAkZo82VZzE5xxPeej",
+            "otjMSKCaeKWeZkiEfuE9Zn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1848.809
+        }
+    ]
+}

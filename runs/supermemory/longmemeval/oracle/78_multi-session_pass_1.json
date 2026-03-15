@@ -1,0 +1,23 @@
+{
+    "index": 78,
+    "question_type": "multi-session",
+    "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+    "question_date": "2023/05/30 (Tue) 18:48",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_78_multi-session",
+        "supermemory_document_ids": [
+            "FMfUAazJQuwnxewqTZf1DU",
+            "Hjjht57QpMVF7mxHPpbYuJ",
+            "avgWdL2k8dMEFb7syiTU1J",
+            "aEHyoJ4NTk211iJtAwwYDc"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User fixed the wobbly leg on the kitchen table last weekend\nUser's wooden coffee table from West Elm was delivered last Thursday\nUser bought a wooden coffee table with metal legs from West Elm\nUser's coffee table is wooden with metal legs\nUser spent hours browsing West Elm website for a wooden coffee table with metal legs\nThe user enjoys their new bookshelf in the home office, helping them stay organized and focused",
+            "latency": 820.433
+        }
+    ]
+}

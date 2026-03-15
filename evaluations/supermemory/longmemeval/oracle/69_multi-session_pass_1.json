@@ -1,0 +1,14 @@
+{
+    "index": 69,
+    "question_type": "multi-session",
+    "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+    "question_date": "2023/05/27 (Sat) 18:41",
+    "ground_truth_answer": "2 AM",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the doctor's appointment on Thursday but does not contain any information about what time the user went to bed the day before (Wednesday night)."
+        }
+    ]
+}

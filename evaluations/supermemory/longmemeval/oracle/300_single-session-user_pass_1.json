@@ -1,0 +1,14 @@
+{
+    "index": 300,
+    "question_type": "single-session-user",
+    "question": "What was the discount I got on my first purchase from the new clothing brand?",
+    "question_date": "2023/05/30 (Tue) 21:10",
+    "ground_truth_answer": "10%",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a discount, clothing brand purchase, or the 10% value mentioned in the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 445,
+    "question_type": "multi-session",
+    "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+    "question_date": "2023/05/30 (Tue) 20:55",
+    "ground_truth_answer": "12,000",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_445_multi-session",
+        "supermemory_document_ids": [
+            "UzcfXvwBYsAZR66VDpXF6s",
+            "Mo7Jmg9uT6G64h5rWy2hre"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user\u2019s previous Facebook ad campaign goal was to drive website traffic and increase brand awareness\nThe user\u2019s previous campaign resulted in 50 clicks to the website",
+            "latency": 1203.941
+        }
+    ]
+}

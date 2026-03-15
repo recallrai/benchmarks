@@ -1,0 +1,14 @@
+{
+    "index": 77,
+    "question_type": "multi-session",
+    "question": "How many babies were born to friends and family members in the last few months?",
+    "question_date": "2023/05/13 (Sat) 20:23",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 4 babies born in the last few months (Max in March, Jasper a few weeks ago, and twins Ava and Lily in April), but the gold answer states 5 babies were born."
+        }
+    ]
+}

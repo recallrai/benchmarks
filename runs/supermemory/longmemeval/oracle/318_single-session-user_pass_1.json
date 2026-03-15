@@ -1,0 +1,20 @@
+{
+    "index": 318,
+    "question_type": "single-session-user",
+    "question": "Where did I complete my Bachelor's degree in Computer Science?",
+    "question_date": "2023/05/21 (Sun) 09:52",
+    "ground_truth_answer": "University of California, Los Angeles (UCLA)",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_318_single-session-user",
+        "supermemory_document_ids": [
+            "viRcxqKaVPtDoe1aYrUSC1"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1940.817
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 414,
+    "question_type": "temporal-reasoning",
+    "question": "What gardening-related activity did I do two weeks ago?",
+    "question_date": "2023/05/05 (Fri) 03:53",
+    "ground_truth_answer": "planting 12 new tomato saplings",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_414_temporal-reasoning",
+        "supermemory_document_ids": [
+            "JHiuNBJi1UdVnViwTSMXqq",
+            "pDoVe8ic1xK51CjVRZT41B"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 933.193
+        }
+    ]
+}

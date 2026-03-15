@@ -1,0 +1,21 @@
+{
+    "index": 93,
+    "question_type": "multi-session",
+    "question": "How many fish are there in total in both of my aquariums?",
+    "question_date": "2023/05/27 (Sat) 17:21",
+    "ground_truth_answer": "17",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_93_multi-session",
+        "supermemory_document_ids": [
+            "yyApiUR1VPRw8TLTtpscea",
+            "nn6mxaP9RAX8JaPui8CbGn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has gouramis in their 20-gallon tank\nUser plans to add schooling fish such as lemon tetras and zebra danios to the 20-gallon tank\nUser plans to introduce a school of 10-15 lemon tetras or zebra danios to the 20-gallon tank\nUser will leave open swimming space in the tank while arranging decorations\nUser plans to upgrade tank decorations with artificial coral and rocks to create more hiding places\nUser plans to arrange artificial coral and rocks to create a visually appealing aquascape",
+            "latency": 3158.884
+        }
+    ]
+}

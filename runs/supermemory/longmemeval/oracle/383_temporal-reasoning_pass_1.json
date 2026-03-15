@@ -1,0 +1,22 @@
+{
+    "index": 383,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the sports events I watched in January?",
+    "question_date": "2023/01/30 (Mon) 01:51",
+    "ground_truth_answer": "First, I attended a NBA game at the Staples Center, then I watched the College Football National Championship game, and finally, I watched the NFL playoffs.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_383_temporal-reasoning",
+        "supermemory_document_ids": [
+            "G8nxt9FcYK6HJkxGFoLE84",
+            "pFMcV9DrxGrxDm1hdNHCH7",
+            "sYZinS2iXDa1uVd9ePfSF5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User watched the College Football National Championship game with family at home, where Georgia defeated Alabama 33-18.\nUser attended an NBA game at the Staples Center, watching the Lakers play the Chicago Bulls with coworkers",
+            "latency": 1675.173
+        }
+    ]
+}

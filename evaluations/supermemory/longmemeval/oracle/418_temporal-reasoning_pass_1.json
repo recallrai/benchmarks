@@ -1,0 +1,14 @@
+{
+    "index": 418,
+    "question_type": "temporal-reasoning",
+    "question": "What was the the life event of one of my relatives that I participated in a week ago?",
+    "question_date": "2023/06/22 (Thu) 11:12",
+    "ground_truth_answer": "my cousin's wedding",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly identifies the life event as the cousin's wedding and confirms the user's participation as a bridesmaid, which matches the gold answer of 'my cousin's wedding'."
+        }
+    ]
+}

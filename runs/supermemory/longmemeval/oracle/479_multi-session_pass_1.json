@@ -1,0 +1,21 @@
+{
+    "index": 479,
+    "question_type": "multi-session",
+    "question": "How many years older is my grandma than me?",
+    "question_date": "2024/02/05 (Mon) 08:25",
+    "ground_truth_answer": "43",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_479_multi-session",
+        "supermemory_document_ids": [
+            "AKMf5eUn53ka54k6HhLULJ",
+            "FtivVaaopJDSf8GYYZZuxM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's grandmother is 75 years old.\nUser's birthday was a week after grandma's 75th birthday celebration.\nThe user's grandmother is energetic and sharp.\nUser is inspired by grandma's 75th birthday celebration.",
+            "latency": 1290.14
+        }
+    ]
+}

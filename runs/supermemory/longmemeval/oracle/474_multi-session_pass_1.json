@@ -1,0 +1,21 @@
+{
+    "index": 474,
+    "question_type": "multi-session",
+    "question": "What time did I reach the clinic on Monday?",
+    "question_date": "2023/05/29 (Mon) 00:19",
+    "ground_truth_answer": "9:00 AM",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_474_multi-session",
+        "supermemory_document_ids": [
+            "cWEsBGteuNyBY9tCnXGHUZ",
+            "FF1KBa8ju9uGtwdbwJWqZo"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User had a doctor's appointment last Monday.\nUser returned to the office around 1:00 PM last Monday.\nCommunity Health Clinic has morning appointments available on Monday and Wednesday from 9:00 am to 12:00 pm.\nUser took a half-day off from work last Monday.\nUser wants a clinic within an hour's drive from home.\nCommunity Health Clinic is 40 miles away and a 50-minute drive.\nUser wants to ask about morning appointment availability at Family Care Medical Center.\nUser wants to ask about the average wait time in the waiting room at Family Care Medical Center.\nUser wants to ask about the estimated appointment duration at Family Care Medical Center.\nFamily Care Medical Center has morning appointments available on Monday, Wednesday, and Friday from 8:00 am to 12:00 pm.",
+            "latency": 463.891
+        }
+    ]
+}

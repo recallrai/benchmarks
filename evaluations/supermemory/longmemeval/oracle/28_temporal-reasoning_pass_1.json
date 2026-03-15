@@ -1,0 +1,14 @@
+{
+    "index": 28,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+    "question_date": "2023/05/30 (Tue) 12:34",
+    "ground_truth_answer": "The arrival of the new prime lens",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the road trip to the coast but contains no information about the arrival of the new prime lens, making it impossible to determine which event happened first."
+        }
+    ]
+}

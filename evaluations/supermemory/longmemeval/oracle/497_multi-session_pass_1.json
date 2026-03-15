@@ -1,0 +1,14 @@
+{
+    "index": 497,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster for my undergrad course research project?",
+    "question_date": "2023/05/28 (Sun) 22:39",
+    "ground_truth_answer": "The information provided is not enough. You did not mention presenting a poster for your undergrad course research project.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The gold answer states there is insufficient information about a poster presentation for an undergrad course research project, and the retrieved context only mentions general research presentations at conferences without specifying it was a poster or for an undergrad course project."
+        }
+    ]
+}

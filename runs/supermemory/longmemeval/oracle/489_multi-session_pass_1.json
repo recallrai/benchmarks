@@ -1,0 +1,21 @@
+{
+    "index": 489,
+    "question_type": "multi-session",
+    "question": "What is the total number of siblings I have?",
+    "question_date": "2023/05/28 (Sun) 09:39",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_489_multi-session",
+        "supermemory_document_ids": [
+            "djBVNa3Z3AGkr9VkZDv5S7",
+            "4dQyzf3bH1zPF84VMe3Gz3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has 3 sisters.\nUser has a strong female presence in their family.",
+            "latency": 2910.401
+        }
+    ]
+}

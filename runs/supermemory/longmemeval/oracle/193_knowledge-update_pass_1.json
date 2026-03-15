@@ -1,0 +1,21 @@
+{
+    "index": 193,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+    "question_date": "2023/06/03 (Sat) 02:36",
+    "ground_truth_answer": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_193_knowledge-update",
+        "supermemory_document_ids": [
+            "VHd8k6VS85G7cCVMhimfpK",
+            "G8FLWs8NqUkQftxJGdYCAi"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User leads a team of five engineers as Senior Software Engineer",
+            "latency": 810.538
+        }
+    ]
+}

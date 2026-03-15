@@ -1,0 +1,14 @@
+{
+    "index": 169,
+    "question_type": "knowledge-update",
+    "question": "How many different species of birds have I seen in my local park?",
+    "question_date": "2023/06/28 (Wed) 14:23",
+    "ground_truth_answer": "32",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has spotted 32 bird species in their local park' which directly answers the question and matches the gold answer of 32."
+        }
+    ]
+}

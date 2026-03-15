@@ -1,0 +1,14 @@
+{
+    "index": 335,
+    "question_type": "single-session-user",
+    "question": "What type of bulb did I replace in my bedside lamp?",
+    "question_date": "2023/05/26 (Fri) 15:27",
+    "ground_truth_answer": "Philips LED bulb",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'The user has a Philips LED bulb in their bedside lamp' which directly matches the gold answer and provides the information needed to answer what type of bulb was replaced in the bedside lamp."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 218,
+    "question_type": "single-session-preference",
+    "question": "I was thinking of trying a new coffee creamer recipe. Any recommendations?",
+    "question_date": "2023/05/25 (Thu) 15:08",
+    "ground_truth_answer": "The user would prefer responses that suggest variations on their existing almond milk, vanilla extract, and honey creamer recipe or new ideas that align with their goals of reducing sugar intake and saving money. They might not prefer responses that recommend commercial creamer products or recipes that are high in sugar or expensive.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's existing creamer recipe (almond milk, vanilla extract, honey) or their goals of reducing sugar intake and saving money, which are essential to answering the question correctly."
+        }
+    ]
+}

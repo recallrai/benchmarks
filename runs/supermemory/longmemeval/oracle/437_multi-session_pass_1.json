@@ -1,0 +1,21 @@
+{
+    "index": 437,
+    "question_type": "multi-session",
+    "question": "What percentage of packed shoes did I wear on my last trip?",
+    "question_date": "2023/05/28 (Sun) 15:36",
+    "ground_truth_answer": "40%",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_437_multi-session",
+        "supermemory_document_ids": [
+            "i1X4zbjx9BBS6MFt5UN1WN",
+            "fRmb6x7EvGNdQWfunmiNEw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1736.144
+        }
+    ]
+}

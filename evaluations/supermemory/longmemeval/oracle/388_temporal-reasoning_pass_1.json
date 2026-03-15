@@ -1,0 +1,14 @@
+{
+    "index": 388,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I finished reading 'The Nightingale' and the day I started reading 'The Hitchhiker's Guide to the Galaxy'?",
+    "question_date": "2022/05/01 (Sun) 21:43",
+    "ground_truth_answer": "1 day. 2 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context indicates when the user started 'The Hitchhiker's Guide to the Galaxy' but provides no information about when they finished reading 'The Nightingale', making it impossible to calculate the days between these two events."
+        }
+    ]
+}

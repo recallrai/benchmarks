@@ -1,0 +1,21 @@
+{
+    "index": 163,
+    "question_type": "knowledge-update",
+    "question": "How many tops have I bought from H&M so far?",
+    "question_date": "2023/10/20 (Fri) 18:28",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_163_knowledge-update",
+        "supermemory_document_ids": [
+            "bBwfwxQwfPGHcy1q14fnRA",
+            "CxdMHCjSfXV4sQir8JvC8d"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1014.26
+        }
+    ]
+}

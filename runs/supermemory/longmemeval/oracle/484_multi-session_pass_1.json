@@ -1,0 +1,21 @@
+{
+    "index": 484,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on the designer handbag and high-end skincare products?",
+    "question_date": "2023/05/28 (Sun) 18:00",
+    "ground_truth_answer": "$1,300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_484_multi-session",
+        "supermemory_document_ids": [
+            "eaMjvmvuBZGEeCuCxcFdn3",
+            "Z3PefRaSA8VvTnL6jzJXmK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User will review past purchases and track spending on skincare and beauty products for the past 3-6 months.\nUser splurged on high-end skincare products during the Nordstrom anniversary sale.\nUser splurged on high-end skincare products during Nordstrom anniversary sale.\nUser is seeking feedback on their skincare budget plan.\nUser wants help creating a skincare budget plan.\nUser will set a realistic monthly budget for skincare and beauty products based on their financial goals, income, and expenses.\nUser splurged on a Coach handbag.\nUser will identify must-have skincare and beauty products and allocate a larger portion of their budget to them.\nUser wants to set a specific budget for skincare and beauty products.\nLuxury watches have a higher potential for appreciation in value over time compared to designer handbags.",
+            "latency": 1047.005
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 451,
+    "question_type": "multi-session",
+    "question": "What are the two hobbies that led me to join online communities?",
+    "question_date": "2023/05/29 (Mon) 21:10",
+    "ground_truth_answer": "photography and cooking",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about hobbies or joining online communities, making it impossible to answer the question."
+        }
+    ]
+}

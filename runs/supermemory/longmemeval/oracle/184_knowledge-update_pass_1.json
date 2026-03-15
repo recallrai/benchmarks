@@ -1,0 +1,21 @@
+{
+    "index": 184,
+    "question_type": "knowledge-update",
+    "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+    "question_date": "2023/12/12 (Tue) 20:12",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_184_knowledge-update",
+        "supermemory_document_ids": [
+            "MNffUejR4FNZH3NLkeLqb5",
+            "s39qPXMCdnYtBjAGiDXTmF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 743.558
+        }
+    ]
+}

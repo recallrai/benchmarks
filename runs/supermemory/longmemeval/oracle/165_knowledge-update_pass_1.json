@@ -1,0 +1,21 @@
+{
+    "index": 165,
+    "question_type": "knowledge-update",
+    "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+    "question_date": "2023/12/29 (Fri) 12:41",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_165_knowledge-update",
+        "supermemory_document_ids": [
+            "tchrDr5zwbhbg9RajdwfVP",
+            "royepDZb9WoKvEiDfgTjCW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user\u2019s friend Emma taught them how to make a Negroni.\nThe user has tried making a Negroni at home ten times.\nUser wants to try a Bee's Knees cocktail, enjoying the gin and honey combination\nThe user intends to make a Grapefruit Basil Martini for an upcoming dinner party.\nUser wants to try making a Pimm's Cup\nThe user intends to make a Lavender Gin Fizz for an upcoming dinner party.",
+            "latency": 1000.344
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 454,
+    "question_type": "multi-session",
+    "question": "What is the total number of days I spent in Japan and Chicago?",
+    "question_date": "2023/05/28 (Sun) 22:56",
+    "ground_truth_answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_454_multi-session",
+        "supermemory_document_ids": [
+            "kntYTMzMBV7WewQWRf2kah",
+            "SomgYpWt9eXjow7eRdmhrZ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user visited Japan from April 15 to April 22\nThe user visited Chicago in March and walked along the Lake Michigan shoreline\nThe user plans to stay at The Wit Hotel in Chicago\nThe user will visit Millennium Park during the upcoming Chicago trip",
+            "latency": 2772.764
+        }
+    ]
+}

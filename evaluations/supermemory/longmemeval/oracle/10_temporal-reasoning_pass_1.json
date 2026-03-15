@@ -1,0 +1,14 @@
+{
+    "index": 10,
+    "question_type": "temporal-reasoning",
+    "question": "Which pair of shoes did I clean last month?",
+    "question_date": "2023/05/30 (Tue) 01:50",
+    "ground_truth_answer": "white Adidas sneakers",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User cleaned white Adidas sneakers last month,' which directly matches the gold answer of 'white Adidas sneakers.'"
+        }
+    ]
+}

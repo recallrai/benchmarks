@@ -1,0 +1,20 @@
+{
+    "index": 317,
+    "question_type": "single-session-user",
+    "question": "Where did I attend my cousin's wedding?",
+    "question_date": "2023/05/22 (Mon) 18:38",
+    "ground_truth_answer": "The Grand Ballroom",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_317_single-session-user",
+        "supermemory_document_ids": [
+            "taXGuzgxgNYiaDMUcMS6WM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's mom looked stunning at the cousin's wedding at the Grand Ballroom last weekend.",
+            "latency": 3076.839
+        }
+    ]
+}

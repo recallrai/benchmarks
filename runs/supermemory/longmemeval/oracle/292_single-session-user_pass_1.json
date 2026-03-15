@@ -1,0 +1,20 @@
+{
+    "index": 292,
+    "question_type": "single-session-user",
+    "question": "Where do I take yoga classes?",
+    "question_date": "2023/05/26 (Fri) 15:21",
+    "ground_truth_answer": "Serenity Yoga",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_292_single-session-user",
+        "supermemory_document_ids": [
+            "DJYeCbPGAVNXGnWiMEw56W"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user seeks to respond to stress and anxiety with greater calm and compassion thanks to yoga.\nThe user feels more energized and focused throughout the day after yoga.",
+            "latency": 1449.46
+        }
+    ]
+}

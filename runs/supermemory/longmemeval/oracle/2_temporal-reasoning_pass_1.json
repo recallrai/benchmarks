@@ -1,0 +1,21 @@
+{
+    "index": 2,
+    "question_type": "temporal-reasoning",
+    "question": "Which vehicle did I take care of first in February, the bike or the car?",
+    "question_date": "2023/03/10 (Fri) 23:15",
+    "ground_truth_answer": "bike",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_2_temporal-reasoning",
+        "supermemory_document_ids": [
+            "hk5xPd3tJckx4CB8rgKqv6",
+            "1ouDRnpNcUcaTeqF52po3c"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user had a bike gear repair in mid-February because the gears were acting up and could not shift properly\nThe user washed the Toyota Corolla on 2023-02-27\nThe user has a hybrid bike\nThe user took the Toyota Corolla to a dealership for a routine checkup on Friday after the check engine light came on\nThe user drives a Toyota Corolla",
+            "latency": 4242.0
+        }
+    ]
+}

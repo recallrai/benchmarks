@@ -1,0 +1,20 @@
+{
+    "index": 321,
+    "question_type": "single-session-user",
+    "question": "What type of rice is my favorite?",
+    "question_date": "2023/05/25 (Thu) 11:51",
+    "ground_truth_answer": "Japanese short-grain rice",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_321_single-session-user",
+        "supermemory_document_ids": [
+            "sw35rT5qaa1p2RVHqup24N"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 556.595
+        }
+    ]
+}

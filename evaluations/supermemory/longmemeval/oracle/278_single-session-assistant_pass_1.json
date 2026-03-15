@@ -1,0 +1,14 @@
+{
+    "index": 278,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Seco de Cordero recipe from Ancash. You mentioned using a light or medium-bodied beer, but I was wondering if you could remind me what type of beer you specifically recommended?",
+    "question_date": "2023/05/23 (Tue) 07:05",
+    "ground_truth_answer": "I recommended using a Pilsner or Lager for the recipe.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about beer recommendations for the Seco de Cordero recipe, so it cannot support answering the question."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 204,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+    "question_date": "2023/05/24 (Wed) 18:12",
+    "ground_truth_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's interest in French and Spanish language-focused cultural events, language exchange opportunities, and cultural diversity celebrations, which directly aligns with the gold answer's description of the user's preferences for language practice and cultural exchange events."
+        }
+    ]
+}

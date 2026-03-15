@@ -1,0 +1,22 @@
+{
+    "index": 90,
+    "question_type": "multi-session",
+    "question": "How many doctor's appointments did I go to in March?",
+    "question_date": "2023/03/27 (Mon) 15:58",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_90_multi-session",
+        "supermemory_document_ids": [
+            "qHhjjU9wsj2hNghhZg2yM2",
+            "mtEWYGXgypxXaN1SDpJuW3",
+            "pgJnfFYDViMB5acCweruZy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User was diagnosed with bronchitis by Dr. Smith on March 3rd.\nUser had a follow-up appointment with orthopedic surgeon Dr. Thompson on 2026-03-20, and was told the knee is healing well.\nUser is scheduled to start physical therapy sessions twice a week beginning March 25, 2026.\nUser should attend physical therapy sessions consistently, attending scheduled appointments twice a week.\nUser has an EMG test scheduled with neurologist Dr. Johnson on 2026-04-01.\nUser's orthopedic surgeon Dr. Thompson cleared them to begin physical therapy.\nUser is anxious about the upcoming EMG test scheduled on April 1st with Dr. Johnson.\nNumbness in left hand was noticed around March 15th.\nUser will schedule an appointment with Dr. Smith to discuss the left hand numbness\nUser began experiencing heartburn and acid reflux symptoms in late January 2026.",
+            "latency": 1293.086
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 373,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amazon gift card from Ibotta'?",
+    "question_date": "2023/05/10 (Wed) 06:18",
+    "ground_truth_answer": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_373_temporal-reasoning",
+        "supermemory_document_ids": [
+            "TvVdxYJ7gT1FfYN9yb2yir",
+            "JTGdYYXBu6LPzLiZvmMMiS",
+            "jZeF8fQjNP1Fr2VtyaBCwR"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User used a Buy One Get One Free coupon on Luvs diapers at Walmart today\nUser redeemed $12 cashback for a $10 Amazon gift card from Ibotta\nUser can stack digital coupons with ShopRite rewards points to earn points while using coupons\nUser has used Ibotta before and liked it\nUser wants to learn how Ibotta works\nUser can use manufacturer coupons from Pampers, Huggies, Enfamil, and Similac for diapers and formula\nUser can redeem Rakuten cashback rewards as gift cards from Amazon, Walmart, or Target.\nUser can earn 500 points (worth $0.50) for buying a pack of Pampers diapers on Fetch Rewards.\nRetailMeNot offers cashback on online purchases from Amazon, Walmart, and Target\nUser receives a $10 welcome bonus from Rakuten after making the first purchase through its platform.",
+            "latency": 620.611
+        }
+    ]
+}

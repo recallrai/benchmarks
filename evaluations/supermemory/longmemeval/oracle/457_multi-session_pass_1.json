@@ -1,0 +1,14 @@
+{
+    "index": 457,
+    "question_type": "multi-session",
+    "question": "What is the total cost of Lola's vet visit and flea medication?",
+    "question_date": "2023/05/27 (Sat) 02:14",
+    "ground_truth_answer": "$75",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context contains both the vet consultation fee ($50) and the flea and tick prevention medication cost ($25), which sum to the gold answer of $75."
+        }
+    ]
+}

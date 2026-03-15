@@ -1,0 +1,14 @@
+{
+    "index": 61,
+    "question_type": "multi-session",
+    "question": "How many projects have I led or am currently leading?",
+    "question_date": "2023/05/30 (Tue) 04:18",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about projects the user has led or is currently leading, so it cannot support answering the question."
+        }
+    ]
+}

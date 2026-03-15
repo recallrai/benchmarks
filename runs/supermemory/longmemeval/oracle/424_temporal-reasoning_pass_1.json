@@ -1,0 +1,22 @@
+{
+    "index": 424,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+    "question_date": "2023/03/11 (Sat) 21:26",
+    "ground_truth_answer": "No, you did not visit with a friend.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_424_temporal-reasoning",
+        "supermemory_document_ids": [
+            "HHdT8CrV41ojzdmMzkzvJQ",
+            "JfZ9wkFgReikHi1HcaLMF7",
+            "jq785xErnFhnaWAYm6VRU8"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended a guided tour at the Natural History Museum yesterday.\nUser was impressed by the Natural History Museum's fossil collection.\nUser was particularly impressed by the new T-Rex skeleton at the Natural History Museum.\nThe museum is planning lectures, workshops, and family activities to accompany the hadrosaur exhibit.",
+            "latency": 2769.459
+        }
+    ]
+}

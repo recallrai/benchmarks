@@ -1,0 +1,21 @@
+{
+    "index": 138,
+    "question_type": "knowledge-update",
+    "question": "How long have I been using my Fitbit Charge 3?",
+    "question_date": "2023/09/03 (Sun) 20:23",
+    "ground_truth_answer": "9 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_138_knowledge-update",
+        "supermemory_document_ids": [
+            "GnXsz8fqaE8564fsBCWug1",
+            "EZpDqoU7vLHtz5APy4nsD8"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has been using Fitbit Charge 3 for 9 months",
+            "latency": 3154.025
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 37,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did the narrator take first, the solo trip to Europe or the family road trip across the American Southwest?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "The family road trip across the American Southwest",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about either trip or their chronological order."
+        }
+    ]
+}

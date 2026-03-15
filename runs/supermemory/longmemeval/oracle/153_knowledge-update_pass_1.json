@@ -1,0 +1,21 @@
+{
+    "index": 153,
+    "question_type": "knowledge-update",
+    "question": "What brand of BBQ sauce am I currently obsessed with?",
+    "question_date": "2023/07/02 (Sun) 10:10",
+    "ground_truth_answer": "Kansas City Masterpiece",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_153_knowledge-update",
+        "supermemory_document_ids": [
+            "w6PwtJ3CnPkHpLb8iyCD6R",
+            "icAvGDtVt5P8PYg4jw1jnY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is obsessed with Kansas City Masterpiece BBQ sauce on ribs\nUser's favourite BBQ sauce for pulled pork is Kansas City Masterpiece BBQ sauce\nUser is open to trying other BBQ sauce options for pulled pork\nUser is considering Bone Suckin' BBQ Sauce for pulled pork.\nUser is considering Stubb's BBQ Sauce for pulled pork.\nUser is considering Franklin Barbecue BBQ Sauce for pulled pork.\nUser is considering Dinosaur Bar-B-Que BBQ Sauce for pulled pork.\nUser has heard great things about Killer Hogs BBQ Rub\nUser is considering Sweet Baby Ray's BBQ Sauce for pulled pork.\nUser is considering using Killer Hogs BBQ Rub",
+            "latency": 1117.836
+        }
+    ]
+}

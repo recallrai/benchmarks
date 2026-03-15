@@ -1,0 +1,20 @@
+{
+    "index": 234,
+    "question_type": "single-session-assistant",
+    "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+    "question_date": "2023/05/23 (Tue) 04:42",
+    "ground_truth_answer": "Roscioli",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_234_single-session-assistant",
+        "supermemory_document_ids": [
+            "e6AWjPnf8ZD2hPfNhpDM8c"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1193.333
+        }
+    ]
+}

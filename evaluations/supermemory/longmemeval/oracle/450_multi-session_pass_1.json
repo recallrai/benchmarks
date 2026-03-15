@@ -1,0 +1,14 @@
+{
+    "index": 450,
+    "question_type": "multi-session",
+    "question": "How many sports have I played competitively in the past?",
+    "question_date": "2023/05/26 (Fri) 14:53",
+    "ground_truth_answer": "two",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context explicitly mentions only one competitive sport (swimming in college), while the gold answer states two competitive sports were played in the past."
+        }
+    ]
+}

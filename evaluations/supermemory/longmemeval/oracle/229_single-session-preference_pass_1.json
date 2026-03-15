@@ -1,0 +1,14 @@
+{
+    "index": 229,
+    "question_type": "single-session-preference",
+    "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+    "question_date": "2023/05/27 (Sat) 16:05",
+    "ground_truth_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions general transportation options to shopping districts but does not contain any information about the user's existing resources like their Suica card and TripIt app, which are the key elements of the gold answer."
+        }
+    ]
+}

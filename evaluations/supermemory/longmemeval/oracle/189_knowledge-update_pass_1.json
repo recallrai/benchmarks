@@ -1,0 +1,14 @@
+{
+    "index": 189,
+    "question_type": "knowledge-update",
+    "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+    "question_date": "2023/06/26 (Mon) 00:11",
+    "ground_truth_answer": "You increased the limit (from one cup to two cups)",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User increased morning coffee limit to two cups,' which directly answers the question and matches the gold answer indicating an increase from one to two cups."
+        }
+    ]
+}

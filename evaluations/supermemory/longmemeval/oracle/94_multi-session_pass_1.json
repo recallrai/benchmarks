@@ -1,0 +1,14 @@
+{
+    "index": 94,
+    "question_type": "multi-session",
+    "question": "How many fitness classes do I attend in a typical week?",
+    "question_date": "2023/05/28 (Sun) 03:47",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one fitness class (Hip Hop Abs on Saturdays) and does not provide information about attending 5 classes per week total."
+        }
+    ]
+}

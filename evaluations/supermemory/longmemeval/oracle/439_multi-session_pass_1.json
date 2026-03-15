@@ -1,0 +1,14 @@
+{
+    "index": 439,
+    "question_type": "multi-session",
+    "question": "What percentage discount did I get on the book from my favorite author?",
+    "question_date": "2023/05/24 (Wed) 05:52",
+    "ground_truth_answer": "20%",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a book purchase but does not contain any information about a discount or discount percentage, making it impossible to answer the question about the 20% discount."
+        }
+    ]
+}

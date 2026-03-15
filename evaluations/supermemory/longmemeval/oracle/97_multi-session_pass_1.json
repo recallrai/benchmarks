@@ -1,0 +1,14 @@
+{
+    "index": 97,
+    "question_type": "multi-session",
+    "question": "How much money did I raise in total through all the charity events I participated in?",
+    "question_date": "2023/05/01 (Mon) 23:35",
+    "ground_truth_answer": "$5,850",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions future plans to create an event concept for charities, but contains no information about the specific total amount ($5,850) raised through past charity events."
+        }
+    ]
+}

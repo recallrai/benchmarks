@@ -1,0 +1,21 @@
+{
+    "index": 122,
+    "question_type": "knowledge-update",
+    "question": "What was my personal best time in the charity 5K run?",
+    "question_date": "2023/06/01 (Thu) 00:58",
+    "ground_truth_answer": "25 minutes and 50 seconds (or 25:50)",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_122_knowledge-update",
+        "supermemory_document_ids": [
+            "SwPubRowtTt6piJRPx7yoY",
+            "NiGUVYZbGJpA7SQL7v6E9X"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user set a personal best time of 25:50 in a charity 5K run\nUser aims to beat personal best time of 25:50 in upcoming charity 5K run\nThe user is training for an upcoming charity 5K run\nUser visualizes finishing the charity 5K under 25:50 as mental preparation\nUser runs a 30-minute easy run on Thursday\nUser completes a 6-8\u202fkm long run on Saturday\nUser runs a 30-minute easy run on Monday\nUser aims to maintain a slight negative split (faster second half) during runs\nUser has been doing regular running\nUser practices single-leg balance for 30 seconds to improve stability while running",
+            "latency": 1898.44
+        }
+    ]
+}

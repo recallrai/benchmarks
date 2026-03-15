@@ -1,0 +1,14 @@
+{
+    "index": 438,
+    "question_type": "multi-session",
+    "question": "When did I submit my research paper on sentiment analysis?",
+    "question_date": "2023/05/25 (Thu) 09:10",
+    "ground_truth_answer": "February 1st",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the submission date of the research paper on sentiment analysis."
+        }
+    ]
+}

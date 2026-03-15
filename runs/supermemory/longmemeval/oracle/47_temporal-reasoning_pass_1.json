@@ -1,0 +1,21 @@
+{
+    "index": 47,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the meeting with Rachel or the pride parade?",
+    "question_date": "2023/05/09 (Tue) 17:23",
+    "ground_truth_answer": "The meeting with Rachel",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_47_temporal-reasoning",
+        "supermemory_document_ids": [
+            "HzHuWWxWKfhsqBT52MkuPj",
+            "BjgSCyqZtxhULQi96mEh61"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user met with mentor Rachel on April 10th\nRachel is the user's mentor who provides guidance and support\nThe user will ask Rachel for examples of successful diversity and inclusion initiatives she has been involved with\nThe user will ask Rachel how the leadership team is likely to respond to the diversity and inclusion proposal and how to increase support\nThe user plans to discuss the unconscious bias training initiative with mentor Rachel\nThe user will ask Rachel about existing company policies or procedures that can support the diversity and inclusion initiative",
+            "latency": 1801.521
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 314,
+    "question_type": "single-session-user",
+    "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+    "question_date": "2023/05/27 (Sat) 00:51",
+    "ground_truth_answer": "3:1",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_314_single-session-user",
+        "supermemory_document_ids": [
+            "hc6vq9CHj2MfPNWt3YNRXr"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1356.601
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 288,
+    "question_type": "single-session-user",
+    "question": "Where did I redeem a $5 coupon on coffee creamer?",
+    "question_date": "2023/05/30 (Tue) 01:13",
+    "ground_truth_answer": "Target",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_288_single-session-user",
+        "supermemory_document_ids": [
+            "fsd23uy6f9t9SxfUpENqHV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User redeemed a $5 coupon on coffee creamer last Sunday",
+            "latency": 856.865
+        }
+    ]
+}

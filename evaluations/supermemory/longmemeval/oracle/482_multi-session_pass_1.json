@@ -1,0 +1,14 @@
+{
+    "index": 482,
+    "question_type": "multi-session",
+    "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+    "question_date": "2023/05/30 (Tue) 02:21",
+    "ground_truth_answer": "33",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context only mentions 12 comments on the Facebook Live session but does not provide the number of comments on the most popular YouTube video, making it impossible to calculate the total of 33."
+        }
+    ]
+}

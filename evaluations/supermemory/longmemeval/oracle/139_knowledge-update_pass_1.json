@@ -1,0 +1,14 @@
+{
+    "index": 139,
+    "question_type": "knowledge-update",
+    "question": "How many sessions of the bereavement support group did I attend?",
+    "question_date": "2023/11/14 (Tue) 04:58",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User attended five sessions of a bereavement support group last year' which directly answers the question about how many sessions were attended."
+        }
+    ]
+}

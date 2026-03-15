@@ -1,0 +1,21 @@
+{
+    "index": 156,
+    "question_type": "knowledge-update",
+    "question": "How long have I had my cat, Luna?",
+    "question_date": "2023/11/30 (Thu) 03:32",
+    "ground_truth_answer": "9 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_156_knowledge-update",
+        "supermemory_document_ids": [
+            "HoQ2P7TQDK1rNotuS98uvS",
+            "AzLmXkZupi1AhcursyCdLB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Microchipping provides permanent identification for Luna\nLuna enjoys playing with a laser pointer\nLuna is scheduled for microchipping on 2026-01-30\nLuna enjoys feather teaser toys\nOwner should keep Luna's microchip registration contact information up-to-date\nLuna is brushed daily with a new brush\nLuna can be monitored with a pet camera\nLuna can be monitored with a Petcube Bites 2 camera\nOwner plans to register Luna with the International Committee for Animal Recording (ICAR) pet recovery service\nLuna receives freeze-dried salmon treats, which she loves",
+            "latency": 1141.715
+        }
+    ]
+}

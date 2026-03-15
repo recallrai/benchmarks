@@ -1,0 +1,21 @@
+{
+    "index": 31,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did I take first, the one to Europe with family or the solo trip to Thailand?",
+    "question_date": "2023/05/23 (Tue) 23:37",
+    "ground_truth_answer": "The solo trip to Thailand",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_31_temporal-reasoning",
+        "supermemory_document_ids": [
+            "9jr1ktcUC5ftBEhieGxQze",
+            "zcFVM5vh6RD5pgQ9wERvRx"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User traveled solo in Thailand last year, staying in hostels and meeting other travelers.\nUser traveled to Europe with parents and younger brother for two weeks last month\nUser's parents were impressed with the scenic beauty of Europe, especially Rome and Barcelona\nUser's parents were more worn out by the end of the Europe trip but still had a great time.\nUser's parents were tired from walking and sightseeing during the Europe trip",
+            "latency": 1628.842
+        }
+    ]
+}

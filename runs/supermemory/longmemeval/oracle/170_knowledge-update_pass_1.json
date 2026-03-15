@@ -1,0 +1,21 @@
+{
+    "index": 170,
+    "question_type": "knowledge-update",
+    "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+    "question_date": "2023/06/19 (Mon) 14:41",
+    "ground_truth_answer": "Premier Silver",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_170_knowledge-update",
+        "supermemory_document_ids": [
+            "nyhoyxKHdMiE4yBZnfxcmK",
+            "iTkPTAVKUNxbWT8EnZUEJV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user holds United Airlines MileagePlus Premier Gold status\nUser has a United Airlines MileagePlus account\nUser would earn approximately 3,698 miles on a round\u2011trip United flight from Washington D.C. to San Francisco as a Premier Gold member\nUser would need approximately 10-15 months of 2-3 flights per month to reach Premier Platinum status\nThe user will travel from Washington Dulles International Airport (IAD) to San Francisco International Airport (SFO) on United Airlines\nUser plans to set up price alerts for United flight price drops",
+            "latency": 1509.467
+        }
+    ]
+}

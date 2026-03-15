@@ -1,0 +1,21 @@
+{
+    "index": 481,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on gifts for my coworker and brother?",
+    "question_date": "2023/05/30 (Tue) 22:15",
+    "ground_truth_answer": "$200",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_481_multi-session",
+        "supermemory_document_ids": [
+            "QkwyMigV5JU9svqHvCYVqz",
+            "Yz7TXBWhBya4opa4vZAHnn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User spent $100 on a set of baby clothes and toys from Buy Buy Baby for coworker's baby shower.\nUser spent $500 on gifts recently.\nUser bought brother a $100 graduation gift in May.\nUser bought sister a $75 birthday present last month.\nUser has accounted for $295 of $500 in gift expenses.\nUser attended a baby shower and bought a gift for a coworker's baby last month.\nUser has $205 remaining to account for in gift expenses out of a total of $500.\nUser purchased a set of baby clothes and toys for coworker's baby shower gift from Buy Buy Baby.\nUser bought a birthday present for sister last month.\nUser bought a set of baby clothes and toys from Buy Buy Baby for coworker's baby shower.",
+            "latency": 1515.669
+        }
+    ]
+}

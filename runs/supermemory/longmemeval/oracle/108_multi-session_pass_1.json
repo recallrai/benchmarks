@@ -1,0 +1,23 @@
+{
+    "index": 108,
+    "question_type": "multi-session",
+    "question": "How many rare items do I have in total?",
+    "question_date": "2023/05/30 (Tue) 02:34",
+    "ground_truth_answer": "99",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_108_multi-session",
+        "supermemory_document_ids": [
+            "7SFV137KEHZLPZrZYbhShe",
+            "hVgP9nqRTvKk7C4hpFLrEv",
+            "FpU8iCd3KedCHPi2Lo4rgd",
+            "5ByNXZSgUMghY43dwvyMpY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has 57 rare records in their collection\nUser has 25 rare coins\nUser plans to store each rare coin in a protective holder or case\nUser can use the Record Collector app to manage their rare record inventory\nUser wants dividers or trays to organize the 25 rare coins\nUser can use Music Collector software to catalog and manage their rare record collection\nUser will update the inventory list of their rare vinyl record collection\nUser is considering LP Display Frames to showcase rare records",
+            "latency": 505.798
+        }
+    ]
+}

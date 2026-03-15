@@ -1,0 +1,21 @@
+{
+    "index": 477,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/26 (Fri) 00:54",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_477_multi-session",
+        "supermemory_document_ids": [
+            "WMo3hNHkpWFq2c7kCqnSk9",
+            "2tKzSJnqfVd1Aw6PTihtmz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is comparing taxi costs to train and subway fares from Narita Airport to Tokyo.\nUser is seeking confirmation on a potential $10 train fare from Narita Airport to their Shinjuku hotel.\nUser is comparing taxi costs to airport bus fares from Narita Airport to Tokyo.\nUser was informed that a $10 train fare from Narita Airport to Shinjuku is unlikely.\nUser estimates taxi fare from Narita Airport to Tokyo at $60.\nUser is exploring if a special deal or package could explain a $10 train fare from Narita Airport to a Shinjuku hotel.\nUser is exploring train and subway options from Narita Airport to Tokyo, with estimated fares of $20-$30.\nUser is comparing taxi costs to advance-booked private car service fares from Narita Airport to Tokyo.\nHotel staff can provide local knowledge about the best way to get to their location from the airport.\nUser can consider shuttle bus services like the Airport Limousine Bus as a more affordable alternative to a taxi.",
+            "latency": 392.0
+        }
+    ]
+}

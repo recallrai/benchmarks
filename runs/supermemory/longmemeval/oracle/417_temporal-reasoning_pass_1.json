@@ -1,0 +1,21 @@
+{
+    "index": 417,
+    "question_type": "temporal-reasoning",
+    "question": "Which bike did I fixed or serviced the past weekend?",
+    "question_date": "2023/03/21 (Tue) 05:24",
+    "ground_truth_answer": "road bike",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_417_temporal-reasoning",
+        "supermemory_document_ids": [
+            "XVMjWfqtsqmPcAVc46eCtH",
+            "S4J8uXtjuLzg6pCN9az5EV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's mountain bike has been running smoothly since the repair\nThe user fixed a flat tire on their mountain bike a few weeks ago\nThe user replaced the inner tube on their mountain bike\nThe user cleaned the chain on their mountain bike\nThe user asks the mechanic to tighten or replace any loose or worn quick releases and bolts as needed\nThe user asks the mechanic to check the quick releases on wheels, seatpost, and handlebars for proper tightening\nThe user asks the mechanic to inspect the bolts on the stem, handlebars, and seatpost for proper tightening and wear",
+            "latency": 616.096
+        }
+    ]
+}

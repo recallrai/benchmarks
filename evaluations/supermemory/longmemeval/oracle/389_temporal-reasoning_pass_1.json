@@ -1,0 +1,14 @@
+{
+    "index": 389,
+    "question_type": "temporal-reasoning",
+    "question": "Which mode of transport did I use most recently, a bus or a train?",
+    "question_date": "2023/05/02 (Tue) 14:37",
+    "ground_truth_answer": "train",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a train ride on 2026-03-03, which is after the question date of 2023/05/02, so it cannot be the 'most recently' used transport at the time the question was asked."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 102,
+    "question_type": "multi-session",
+    "question": "How many days did I spend participating in faith-related activities in December?",
+    "question_date": "2024/01/10 (Wed) 21:47",
+    "ground_truth_answer": "3 days.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one planned service during the holiday season but does not provide information about the total number of days (3 days) spent on faith-related activities in December."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 305,
+    "question_type": "single-session-user",
+    "question": "What was my previous stance on spirituality?",
+    "question_date": "2023/05/29 (Mon) 23:42",
+    "ground_truth_answer": "A staunch atheist",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_305_single-session-user",
+        "supermemory_document_ids": [
+            "7hDQePKz77yUARZr6f6Gbn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 588.553
+        }
+    ]
+}

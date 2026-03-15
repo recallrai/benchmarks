@@ -1,0 +1,20 @@
+{
+    "index": 303,
+    "question_type": "single-session-user",
+    "question": "What speed is my new internet plan?",
+    "question_date": "2023/05/30 (Tue) 05:53",
+    "ground_truth_answer": "500 Mbps",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_303_single-session-user",
+        "supermemory_document_ids": [
+            "fXjN899EggzdvVE7uYtgS5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 984.973
+        }
+    ]
+}

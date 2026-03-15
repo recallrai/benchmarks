@@ -1,0 +1,14 @@
+{
+    "index": 315,
+    "question_type": "single-session-user",
+    "question": "How much RAM did I upgrade my laptop to?",
+    "question_date": "2023/05/27 (Sat) 21:08",
+    "ground_truth_answer": "16GB",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a laptop RAM upgrade or the 16GB specification mentioned in the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 185,
+    "question_type": "knowledge-update",
+    "question": "What time do I wake up on Saturday mornings?",
+    "question_date": "2023/06/15 (Thu) 00:49",
+    "ground_truth_answer": "7:30 am",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_185_knowledge-update",
+        "supermemory_document_ids": [
+            "nZPmutcQvWcRijHvtWatQT",
+            "DfWSNNP7mL3Tu5BHsxuo53"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User wakes up at 7:30 am on Saturdays\nUser plans to go for a jog on Saturday morning\nUser intends to do weekly meal prep after breakfast on Sunday mornings.",
+            "latency": 1708.914
+        }
+    ]
+}

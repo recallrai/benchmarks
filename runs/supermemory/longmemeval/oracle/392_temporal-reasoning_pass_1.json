@@ -1,0 +1,24 @@
+{
+    "index": 392,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of airlines I flew with from earliest to latest before today?",
+    "question_date": "2023/03/02 (Thu) 07:38",
+    "ground_truth_answer": "JetBlue, Delta, United, American Airlines",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_392_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Csew1UXYAUTxTtcdCVTPZN",
+            "M2PdoxRQrkcWQGjp8FhQPz",
+            "wevsFiduLBMXijdcrSpPxc",
+            "TemMnY4V4sZKkJM3NsFc3R",
+            "13rwyJ8Ys5q3SYqizmWxVi"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 955.982
+        }
+    ]
+}

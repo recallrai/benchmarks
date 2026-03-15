@@ -1,0 +1,20 @@
+{
+    "index": 244,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+    "question_date": "2023/05/24 (Wed) 06:33",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_244_single-session-assistant",
+        "supermemory_document_ids": [
+            "rugBKZ3696rnHy9Zp4E2E2"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 650.51
+        }
+    ]
+}

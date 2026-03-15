@@ -1,0 +1,14 @@
+{
+    "index": 231,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to visit Bandung again and I was wondering if you could remind me of the name of that restaurant in Cihampelas Walk that serves a great Nasi Goreng?",
+    "question_date": "2023/05/25 (Thu) 15:43",
+    "ground_truth_answer": "Miss Bee Providore",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a restaurant in Cihampelas Walk or Miss Bee Providore, therefore it cannot be used to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 289,
+    "question_type": "single-session-user",
+    "question": "What play did I attend at the local community theater?",
+    "question_date": "2023/05/30 (Tue) 03:57",
+    "ground_truth_answer": "The Glass Menagerie",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_289_single-session-user",
+        "supermemory_document_ids": [
+            "KqNBH5ZkjPW8NdRxcQ2WY9"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1568.528
+        }
+    ]
+}

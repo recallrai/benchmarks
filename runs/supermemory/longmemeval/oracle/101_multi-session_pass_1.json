@@ -1,0 +1,23 @@
+{
+    "index": 101,
+    "question_type": "multi-session",
+    "question": "How much money did I raise for charity in total?",
+    "question_date": "2023/03/20 (Mon) 23:39",
+    "ground_truth_answer": "$3,750",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_101_multi-session",
+        "supermemory_document_ids": [
+            "iKWCZkZe8RVqsWoD7a1vGo",
+            "R3UMxJasPXWhnkzBM4AD4H",
+            "uhWkHF4ZT56HHneUT49wGS",
+            "iybEcwA94jtUm7pSgNSVrf"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User raises money for charitable causes\nUser raised over $2,000 for a local animal shelter on January 20th.\nUser raised $500 for the American Cancer Society during a charity fitness challenge in February\nUser raised $1,000 for a local children's hospital through a charity bake sale\nUser raised $250 for a local food bank during the Run for Hunger charity event.\nUser has been doing charity fitness challenges recently\nUser is participating in a charity cycling event\nUser should focus on the larger purpose of raising money and awareness for the cause\nUser intends to raise money for a local food bank through an upcoming charity run\nUser has trained hard for the charity cycling event",
+            "latency": 1059.294
+        }
+    ]
+}

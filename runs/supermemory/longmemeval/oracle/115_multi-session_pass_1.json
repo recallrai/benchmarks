@@ -1,0 +1,24 @@
+{
+    "index": 115,
+    "question_type": "multi-session",
+    "question": "How many graduation ceremonies have I attended in the past three months?",
+    "question_date": "2023/07/21 (Fri) 23:20",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_115_multi-session",
+        "supermemory_document_ids": [
+            "cDYv333LZVLYzc2bXiMbL1",
+            "9YLjh21GsHKQyodreZfQik",
+            "Mq4eZ3qHcF4u5x4B3wfoXa",
+            "imxr7fsPexeLXX4pFnu1kE",
+            "PWBqX2nZe3ukkd6AbkuxV3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended cousin Emma's preschool graduation approximately two months ago.\nUser was inspired by Rachel's graduation ceremony to invest in personal education and growth.\nThe user plans to attend their alma mater's annual alumni reunion in a few weeks.\nThe user is considering attending their alma mater's annual alumni reunion.\nUser will follow up with people met after alumni reunion.\nUser will research attendees before alumni reunion.\nThe user will research attendees before the alumni reunion.\nThe user will follow up with people they meet after the alumni reunion.",
+            "latency": 1826.04
+        }
+    ]
+}

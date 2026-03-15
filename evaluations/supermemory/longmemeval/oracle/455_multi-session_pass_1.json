@@ -1,0 +1,14 @@
+{
+    "index": 455,
+    "question_type": "multi-session",
+    "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+    "question_date": "2023/05/26 (Fri) 13:56",
+    "ground_truth_answer": "$5,150",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the antique vanity's value ($150) but contains no information about the vintage diamond necklace or its value, which is needed to calculate the total minimum amount of $5,150."
+        }
+    ]
+}

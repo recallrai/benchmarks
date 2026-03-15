@@ -1,0 +1,21 @@
+{
+    "index": 449,
+    "question_type": "multi-session",
+    "question": "How much did I spend on car wash and parking ticket?",
+    "question_date": "2023/05/30 (Tue) 04:05",
+    "ground_truth_answer": "$65",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_449_multi-session",
+        "supermemory_document_ids": [
+            "SQNMPbr9oBejAVj5utmwH8",
+            "K9b1ioSnfexswNkBBBnndy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user paid $15 for a car wash on February 3.\nThe user filled the gas tank on February 10 for $30.\nThe user filled the gas tank on December 28; cost unknown.\nUser plans to allocate $110 of Yamaha FZ6R sale proceeds to cover recent bike repair, air filter replacement, car wash, and gas fill-up expenses.\nThe user\u2019s car insurance premium is $80 per month.\nUser incurred a bike repair cost of $40 on January 25.\nThe user replaced the air filter on February 10 for $25.",
+            "latency": 1291.992
+        }
+    ]
+}

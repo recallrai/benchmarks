@@ -1,0 +1,21 @@
+{
+    "index": 420,
+    "question_type": "temporal-reasoning",
+    "question": "What is the artist that I started to listen to last Friday?",
+    "question_date": "2023/04/05 (Wed) 15:05",
+    "ground_truth_answer": "a bluegrass band that features a banjo player",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_420_temporal-reasoning",
+        "supermemory_document_ids": [
+            "tgWwE4UWmZY2M194F2JAHv",
+            "ujUqVLh9LLaiR1L4g6V1dt"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is interested in exploring more genres of music and discovering new artists.\nUser started playing keyboard along to songs today.",
+            "latency": 2159.954
+        }
+    ]
+}

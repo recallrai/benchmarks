@@ -1,0 +1,21 @@
+{
+    "index": 135,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+    "question_date": "2023/10/31 (Tue) 06:56",
+    "ground_truth_answer": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_135_knowledge-update",
+        "supermemory_document_ids": [
+            "jvHUGSrAUao3kbGf7LrW7b",
+            "5ny7ESey7Cy8DFDydKKWsa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Senior Software Engineer leads a team of 5 engineers\nSenior Software Engineer intends to provide necessary resources and support to team members\nRachel is the manager of the Senior Software Engineer\nSenior Software Engineer aims to set realistic deadlines when delegating tasks\nSenior Software Engineer plans structured activities to encourage teamwork and collaboration for the team outing\nSenior Software Engineer plans to hike at Mount Tamalpais State Park\nSenior Software Engineer plans a scavenger hunt during the team hike at Mount Tamalpais State Park",
+            "latency": 665.864
+        }
+    ]
+}

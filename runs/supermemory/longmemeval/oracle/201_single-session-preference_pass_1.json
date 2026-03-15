@@ -1,0 +1,20 @@
+{
+    "index": 201,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some accessories that would complement my current photography setup?",
+    "question_date": "2023/05/30 (Tue) 05:04",
+    "ground_truth_answer": "The user would prefer suggestions of Sony-compatible accessories or high-quality photography gear that can enhance their photography experience. They may not prefer suggestions of other brands' equipment or low-quality gear.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_201_single-session-preference",
+        "supermemory_document_ids": [
+            "YN6KyTtV4a2uVHjfyBGjMV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1676.748
+        }
+    ]
+}

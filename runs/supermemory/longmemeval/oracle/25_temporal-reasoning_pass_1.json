@@ -1,0 +1,21 @@
+{
+    "index": 25,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+    "question_date": "2023/05/27 (Sat) 08:13",
+    "ground_truth_answer": "2 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_25_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Fc4Sjht8W2cC73JNSZ4Lpv",
+            "hghUAaNxZsJaMUiu3hVPs3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended an open mic night last month\nThe user found it amazing to see people trying out their material in front of a live audience at the open mic night\nThe user studies other comedians' performances to learn structure, pacing, and delivery\nThe user is still having trouble finding humor in mundane situations despite attending the open mic night\nThe user is seeking advice on joke writing to improve their stand-up comedy craft\nThe user wants to avoid being too hard on themselves while improving their comedy\nThe user plans to start recording stand-up performances for review",
+            "latency": 3009.689
+        }
+    ]
+}

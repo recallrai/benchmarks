@@ -1,0 +1,21 @@
+{
+    "index": 130,
+    "question_type": "knowledge-update",
+    "question": "What day of the week do I take a cocktail-making class?",
+    "question_date": "2023/07/12 (Wed) 04:11",
+    "ground_truth_answer": "Friday",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_130_knowledge-update",
+        "supermemory_document_ids": [
+            "SdJCvKfXnWDMQQV2BFEXQ6",
+            "qYinoJpcv1snMrVhtuNU5b"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 588.97
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 18,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "Smart thermostat",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_18_temporal-reasoning",
+        "supermemory_document_ids": [
+            "fVgAt8VSdDP4YPsjaK63Yt",
+            "GMWymDkSYAL7bB1iomLLyF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has installed a smart thermostat that has helped reduce energy bills.\nUser upgraded home Wi\u2011Fi router to a new mesh network system, improving internet connection",
+            "latency": 2550.001
+        }
+    ]
+}

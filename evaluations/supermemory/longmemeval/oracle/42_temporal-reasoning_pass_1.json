@@ -1,0 +1,14 @@
+{
+    "index": 42,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+    "question_date": "2023/05/27 (Sat) 02:34",
+    "ground_truth_answer": "Four weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions when the amp was purchased (two weeks ago) but does not contain any information about how long the user had been taking guitar lessons at the time of purchase, which is what the question asks."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 459,
+    "question_type": "multi-session",
+    "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+    "question_date": "2023/05/28 (Sun) 13:45",
+    "ground_truth_answer": "8 meals",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_459_multi-session",
+        "supermemory_document_ids": [
+            "63tTEBrZwymTUBPhfSSYoQ",
+            "nythktRRTP7GyrXFimjh43"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User asks for suggestions on spices to add to lentil soup to boost flavor.",
+            "latency": 1746.025
+        }
+    ]
+}

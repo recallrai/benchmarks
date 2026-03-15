@@ -1,0 +1,14 @@
+{
+    "index": 426,
+    "question_type": "temporal-reasoning",
+    "question": "What kitchen appliance did I buy 10 days ago?",
+    "question_date": "2023/03/25 (Sat) 18:04",
+    "ground_truth_answer": "a smoker",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user acquired a smoker, which directly matches the gold answer 'a smoker' and would enable correctly answering the question about what kitchen appliance was purchased."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 237,
+    "question_type": "single-session-assistant",
+    "question": "I think we discussed work from home jobs for seniors earlier. Can you remind me what was the 7th job in the list you provided?",
+    "question_date": "2023/05/30 (Tue) 15:53",
+    "ground_truth_answer": "Transcriptionist.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_237_single-session-assistant",
+        "supermemory_document_ids": [
+            "WCYwS7Cv5npJdhioz2NT5K"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1391.897
+        }
+    ]
+}

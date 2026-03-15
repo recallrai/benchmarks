@@ -1,0 +1,21 @@
+{
+    "index": 172,
+    "question_type": "knowledge-update",
+    "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+    "question_date": "2024/01/12 (Fri) 07:27",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_172_knowledge-update",
+        "supermemory_document_ids": [
+            "tefTYiCzMPWxtrF1xj3HEh",
+            "bo5uVzbx1GAMEpJJBNxR7r"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user can discuss autographed baseballs on the Autograph Collectors online community\nThe user can research eBay completed listings to estimate the value of autographed baseballs\nThe user is planning to sell some autographed baseballs to make room for new items\nThe user can authenticate autographed baseballs through Professional Sports Authenticator (PSA)\nThe user can sell autographed baseballs through Lelands auction house.\nThe user can approach local sports memorabilia shops to sell autographed baseballs\nThe user can authenticate autographed baseballs via James Spence Authentication (JSA)\nThe user should research authenticity, provenance, and condition of autographed baseballs before selling.\nThe user can consign autographed baseballs to Heritage Auctions for sale\nThe user should set a competitive price for autographed baseballs based on research and condition.",
+            "latency": 1079.592
+        }
+    ]
+}

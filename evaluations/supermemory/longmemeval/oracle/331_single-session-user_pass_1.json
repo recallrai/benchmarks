@@ -1,0 +1,14 @@
+{
+    "index": 331,
+    "question_type": "single-session-user",
+    "question": "What type of action figure did I buy from a thrift store?",
+    "question_date": "2023/05/30 (Tue) 13:38",
+    "ground_truth_answer": "a blue Snaggletooth",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about an action figure purchase from a thrift store or a blue Snaggletooth."
+        }
+    ]
+}

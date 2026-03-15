@@ -1,0 +1,14 @@
+{
+    "index": 53,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the day I bought a gift for my brother's graduation ceremony and the day I bought a birthday gift for my best friend?",
+    "question_date": "2023/03/29 (Wed) 11:57",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides the specific dates (March 8 for brother's graduation gift and March 15 for best friend's birthday gift), which allows calculating that 7 days passed between these dates (or 8 if counting inclusively), matching the gold answer."
+        }
+    ]
+}

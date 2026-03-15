@@ -1,0 +1,25 @@
+{
+    "index": 374,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks in total do I spent on reading 'The Nightingale' and listening to 'Sapiens: A Brief History of Humankind' and 'The Power'?",
+    "question_date": "2022/04/30 (Sat) 03:21",
+    "ground_truth_answer": "2 weeks for 'The Nightingale', 4 weeks for 'Sapiens: A Brief History of Humankind', and 2 weeks for 'The Power', so a total of 8 weeks.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_374_temporal-reasoning",
+        "supermemory_document_ids": [
+            "4pfyL492sHPqG36qC7f9x3",
+            "JnpPZVe4eQwWdRA22VkeDg",
+            "hqbaAHn4pgoTLSZAFdJiWL",
+            "9CZSXTZnWVznpAYRkARxWn",
+            "cmF8na3py7NvFb3mJKLyif",
+            "JSUCgR75Uk5xcQYB7hni7J"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user finished listening to \"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari today\nThe user listened to \"The Power\" by Naomi Alderman today",
+            "latency": 1127.523
+        }
+    ]
+}

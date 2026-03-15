@@ -1,0 +1,21 @@
+{
+    "index": 145,
+    "question_type": "knowledge-update",
+    "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+    "question_date": "2023/07/23 (Sun) 03:18",
+    "ground_truth_answer": "You switched to less water (5 ounces) per tablespoon of coffee.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_145_knowledge-update",
+        "supermemory_document_ids": [
+            "S7NwHPe4GNbZzmndqE3Mdp",
+            "ZGkgzYzf5b58S59EbZj9wV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User uses a French press coffee ratio of 1 tablespoon of coffee per 5 ounces of water\nPlans to brew the new coffee beans using a French press\nUser rinses French press with hot water to remove loose coffee grounds\nRegular cleaning of the French press prevents old coffee oils from building up and affecting coffee flavor\nUser rinses French press thoroughly with hot water after scrubbing\nUser dries French press with a towel, paying attention to crevices\nUser soaks French press in hot, soapy water for about 30 minutes\nUser scrubs French press with a soft\u2011bristled brush to remove coffee oils\nUser can sanitize French press by soaking in a bleach solution (1 tbsp bleach per quart water) for 10\u201115 minutes\nUser can soak French press in equal parts water and baking soda for several hours to remove stubborn stains",
+            "latency": 512.974
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 191,
+    "question_type": "knowledge-update",
+    "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+    "question_date": "2023/05/24 (Wed) 22:13",
+    "ground_truth_answer": "Instant Pot",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about kitchen gadgets, the Instant Pot, or the Air Fryer, making it impossible to answer the question."
+        }
+    ]
+}

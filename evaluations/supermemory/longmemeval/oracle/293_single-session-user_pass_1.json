@@ -1,0 +1,14 @@
+{
+    "index": 293,
+    "question_type": "single-session-user",
+    "question": "What color did I repaint my bedroom walls?",
+    "question_date": "2023/05/21 (Sun) 13:44",
+    "ground_truth_answer": "a lighter shade of gray",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user repainted the bedroom walls 'a lighter shade of gray,' which exactly matches the gold answer."
+        }
+    ]
+}

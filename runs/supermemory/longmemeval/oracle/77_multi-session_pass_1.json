@@ -1,0 +1,23 @@
+{
+    "index": 77,
+    "question_type": "multi-session",
+    "question": "How many babies were born to friends and family members in the last few months?",
+    "question_date": "2023/05/13 (Sat) 20:23",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_77_multi-session",
+        "supermemory_document_ids": [
+            "eeYb7y39v6XDcUczNkxx68",
+            "D2JM6FB2NQE2XCfkeGxgB9",
+            "EdfCXdUZzmshEBEiQwGhtj",
+            "FpeRVnYNffuAqJCXuKYe1P"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's cousin Rachel had a baby boy named Max in March.\nUser's friend David welcomed a baby boy named Jasper a few weeks ago\nUser attended Rachel's baby shower in February.\nUser's aunt's twins Ava and Lily received diaper cakes as gifts\nUser wants to keep track of birthdays and milestones of friends and family\nUser is excited to get a thoughtful gift for a friend\u2019s baby\nA card can welcome the twins to the family and express excitement.\nUser is looking for a personalized blanket for a friend's baby shower.\nUser is looking for personalized baby blankets with names Ava and Lily\nAva and Lily were born in April",
+            "latency": 1380.313
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 17,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+    "question_date": "2023/05/22 (Mon) 00:25",
+    "ground_truth_answer": "'The Hate U Give'",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context indicates 'The Hate U Give' was finished two weeks ago while 'The Nightingale' was finished last weekend, showing 'The Hate U Give' was read first, which matches the gold answer."
+        }
+    ]
+}

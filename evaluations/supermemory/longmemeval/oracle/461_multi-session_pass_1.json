@@ -1,0 +1,14 @@
+{
+    "index": 461,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster on my thesis research?",
+    "question_date": "2023/05/27 (Sat) 08:24",
+    "ground_truth_answer": "Harvard University",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the user attended a research conference at Harvard University and presented research at a conference, which together would allow someone to correctly identify Harvard University as the location of the research presentation."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 115,
+    "question_type": "multi-session",
+    "question": "How many graduation ceremonies have I attended in the past three months?",
+    "question_date": "2023/07/21 (Fri) 23:20",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 graduation ceremonies (Emma's preschool graduation approximately two months ago and Rachel's graduation ceremony), but the gold answer indicates 3 ceremonies were attended in the past three months."
+        }
+    ]
+}

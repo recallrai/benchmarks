@@ -1,0 +1,21 @@
+{
+    "index": 54,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+    "question_date": "2023/05/30 (Tue) 08:08",
+    "ground_truth_answer": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_54_temporal-reasoning",
+        "supermemory_document_ids": [
+            "XhTjG4cQqLMB5JXQpyBgtc",
+            "2TCHkWEZcfD3kvGWNh5s18"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User trimmed the cows' hooves successfully two weeks ago with no mess",
+            "latency": 1782.986
+        }
+    ]
+}

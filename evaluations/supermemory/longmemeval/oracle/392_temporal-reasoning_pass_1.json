@@ -1,0 +1,14 @@
+{
+    "index": 392,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of airlines I flew with from earliest to latest before today?",
+    "question_date": "2023/03/02 (Thu) 07:38",
+    "ground_truth_answer": "JetBlue, Delta, United, American Airlines",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any airlines or flights that would allow someone to answer the question about the chronological order of airlines flown."
+        }
+    ]
+}

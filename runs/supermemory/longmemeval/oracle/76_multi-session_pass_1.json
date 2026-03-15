@@ -1,0 +1,22 @@
+{
+    "index": 76,
+    "question_type": "multi-session",
+    "question": "How many weddings have I attended in this year?",
+    "question_date": "2023/10/15 (Sun) 22:23",
+    "ground_truth_answer": "I attended three weddings. The couples were Rachel and Mike, Emily and Sarah, and Jen and Tom.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_76_multi-session",
+        "supermemory_document_ids": [
+            "yXexnP3eyJxGMooF7MnoZ4",
+            "orEmZAhALRVmyfLk2x7Z5p",
+            "er15FSDs8gGoX4rt7HsAWZ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended Jen and Tom's rustic barn wedding last weekend and was inspired by the cozy atmosphere\nUser is planning their own wedding\nUser wants an intimate wedding with about 50 guests\nUser wants wedding guest list limited to about 50 guests",
+            "latency": 659.521
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 34,
+    "question_type": "temporal-reasoning",
+    "question": "How old was I when I moved to the United States?",
+    "question_date": "2023/05/29 (Mon) 21:08",
+    "ground_truth_answer": "27",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_34_temporal-reasoning",
+        "supermemory_document_ids": [
+            "QZdJi3mqEmqzkmhDK7GioA",
+            "D1WJDg7S3btHn7SQqTZNNA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has lived in the United States for five years on a company-sponsored work visa\nUser is originally from India.\nThe employee is uncertain about a permanent long-term stay in the United States, but intends to work for a few years.\nThe employee is 32 years old.",
+            "latency": 1885.018
+        }
+    ]
+}

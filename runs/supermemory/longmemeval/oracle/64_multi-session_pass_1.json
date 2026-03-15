@@ -1,0 +1,21 @@
+{
+    "index": 64,
+    "question_type": "multi-session",
+    "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+    "question_date": "2023/05/30 (Tue) 08:15",
+    "ground_truth_answer": "3.5 weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_64_multi-session",
+        "supermemory_document_ids": [
+            "HZKJfho5Zqm4qC9Uir7qyY",
+            "TnacE3GWJdh62rx62BDTDz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 621.299
+        }
+    ]
+}

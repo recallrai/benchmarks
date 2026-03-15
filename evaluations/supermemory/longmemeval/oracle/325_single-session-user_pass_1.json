@@ -1,0 +1,14 @@
+{
+    "index": 325,
+    "question_type": "single-session-user",
+    "question": "How many copies of my favorite artist's debut album were released worldwide?",
+    "question_date": "2023/05/29 (Mon) 20:11",
+    "ground_truth_answer": "500",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and provides no information about the favorite artist, their debut album, or the number of copies released (500)."
+        }
+    ]
+}

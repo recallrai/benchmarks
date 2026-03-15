@@ -1,0 +1,14 @@
+{
+    "index": 241,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "Evolution",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Fifth Album or any song, therefore it cannot be used to answer the question about which song exemplified the band's growth."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 266,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+    "question_date": "2023/05/27 (Sat) 09:58",
+    "ground_truth_answer": "Memrise",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about language learning apps, mnemonics, or Memrise, making it impossible to answer the question correctly."
+        }
+    ]
+}

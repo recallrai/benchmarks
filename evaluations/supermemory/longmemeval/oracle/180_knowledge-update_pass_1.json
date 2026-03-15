@@ -1,0 +1,14 @@
+{
+    "index": 180,
+    "question_type": "knowledge-update",
+    "question": "What is my current record in the recreational volleyball league?",
+    "question_date": "2023/07/17 (Mon) 02:55",
+    "ground_truth_answer": "5-2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms volleyball participation but does not contain any information about the specific win-loss record (5-2) needed to answer the question."
+        }
+    ]
+}

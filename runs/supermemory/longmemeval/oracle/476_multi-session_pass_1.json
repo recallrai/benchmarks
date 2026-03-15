@@ -1,0 +1,21 @@
+{
+    "index": 476,
+    "question_type": "multi-session",
+    "question": "What percentage of leadership positions do women hold in the my company?",
+    "question_date": "2023/05/25 (Thu) 13:59",
+    "ground_truth_answer": "20%",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_476_multi-session",
+        "supermemory_document_ids": [
+            "oRBD8Ci3cKeM1Aeo7Zrw6U",
+            "N16v1xxGpRmjZLba3mVFek"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Women occupy 20 leadership positions in the company.\nThe company's gender ratio in leadership positions is being compared to industry benchmarks.\nMcKinsey's Women in the Workplace Report provides the average percentage of women in leadership positions by industry and company size.\nMcKinsey's Women in the Workplace Report provides the average percentage of women in leadership positions by industry and company size.\nMcKinsey's Women in the Workplace Report provides data on women's representation in leadership positions.\nMcKinsey's Women in the Workplace Report provides data on women's representation in leadership positions.\nDeloitte's Global Survey of Women in the Workplace provides data on the average percentage of women in leadership positions by industry and company size.\nDeloitte's Global Survey of Women in the Workplace provides data on the average percentage of women in leadership positions by industry and company size.\nThe user stated the company has a total of 100 leadership positions.\nCatalyst publishes data on the average percentage of women in leadership positions by industry and company size.",
+            "latency": 1710.614
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 272,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+    "question_date": "2023/05/25 (Thu) 14:10",
+    "ground_truth_answer": "Andy was wearing an untidy, stained white shirt.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_272_single-session-assistant",
+        "supermemory_document_ids": [
+            "ozqaypWcsPjocDpXWnYYKo"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1817.227
+        }
+    ]
+}

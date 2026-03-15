@@ -1,0 +1,21 @@
+{
+    "index": 465,
+    "question_type": "multi-session",
+    "question": "What is the total distance I covered in my four road trips?",
+    "question_date": "2023/05/26 (Fri) 11:56",
+    "ground_truth_answer": "3,000 miles",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_465_multi-session",
+        "supermemory_document_ids": [
+            "aPCSHVgHSDc6Ff6txnskqV",
+            "RvA8nutdULNeRbZvakripW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User covered a total of 1,200 miles during the Yellowstone trip.\nUser took a 4-day trip to Yellowstone National Park last month.\nUser drove 300 miles on the first day of the Yellowstone trip to reach Jackson, Wyoming.",
+            "latency": 1041.059
+        }
+    ]
+}

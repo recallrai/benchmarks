@@ -1,0 +1,20 @@
+{
+    "index": 310,
+    "question_type": "single-session-user",
+    "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+    "question_date": "2023/05/23 (Tue) 07:23",
+    "ground_truth_answer": "12",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_310_single-session-user",
+        "supermemory_document_ids": [
+            "Z4THXu73kL3wwh3AuGm2ca"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User caught 12 largemouth bass on a recent Lake Michigan fishing trip.\nUser is planning a fishing trip to Lake Michigan with friends.\nUser wants tips on the best trout fishing spots in Lake Michigan.\nUser found that spinner lures work better than live bait for trout in Lake Michigan.\nUser asked for the best type of spinner lure to use for trout in Lake Michigan.\nUser believes size 2 hooks and chartreuse plastic worms are good for catching largemouth bass",
+            "latency": 1050.302
+        }
+    ]
+}

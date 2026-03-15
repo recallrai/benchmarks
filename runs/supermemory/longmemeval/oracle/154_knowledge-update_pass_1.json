@@ -1,0 +1,21 @@
+{
+    "index": 154,
+    "question_type": "knowledge-update",
+    "question": "How long have my parents been staying with me in the US?",
+    "question_date": "2023/10/22 (Sun) 20:20",
+    "ground_truth_answer": "nine months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_154_knowledge-update",
+        "supermemory_document_ids": [
+            "V58XakY4EuYmXUHFVmx68q",
+            "QGW2W34Fh2PPTKHJMfRCsa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Parents have overstayed their visa for nine months.\nParents' overstaying may impact the user's immigration status or future applications.\nParents' overstaying may result in bars to re-entry.\nParents' overstaying may result in inadmissibility due to unlawful presence.\nUser wants to address parents' overstaying while minimizing harm to their green card application.\nUser is asking about the waiver of inadmissibility process for parents.\nUser is asking how the waiver of inadmissibility process might apply to parents' situation.\nProcessing time for Immediate Relative Petitions is typically 5-10 months.\nUser's parents will file Form I-601 waiver of inadmissibility with USCIS\nProcessing time for Family-Based Petitions is typically 6-12 months.",
+            "latency": 691.218
+        }
+    ]
+}

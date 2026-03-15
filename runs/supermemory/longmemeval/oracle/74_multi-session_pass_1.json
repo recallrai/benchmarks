@@ -1,0 +1,22 @@
+{
+    "index": 74,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on luxury items in the past few months?",
+    "question_date": "2023/05/30 (Tue) 23:17",
+    "ground_truth_answer": "$2,500",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_74_multi-session",
+        "supermemory_document_ids": [
+            "FNQTSP7Bfm7S5d6WeR8uxM",
+            "7xqp5XivET74TwCUrh7xqS",
+            "h1TisJfiRF8N11N1HJXs7L"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User splurges on luxury items every few months, typically when stressed or celebrating\nUser wants to determine the amount to allocate for a monthly treat\u2011yourself budget for luxury fashion items\nUser bought a Gucci handbag for $1,200 (luxury purchase)\nUser splurges on high-end accessories such as handbags and shoes\nUser does not set a budget before buying luxury items\nUser bought leather boots from a high-end Italian designer for $500 (luxury purchase)\nUser splurges on occasional luxury clothing items like evening gowns\nUser is trying to understand shopping habits, especially clothing\nUser tends to swing between luxury and budget-friendly purchases\nUser often justifies luxury purchases as investment pieces but acknowledges they are driven by emotional responses",
+            "latency": 854.842
+        }
+    ]
+}

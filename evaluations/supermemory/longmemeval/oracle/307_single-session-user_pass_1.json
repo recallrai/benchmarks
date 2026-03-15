@@ -1,0 +1,14 @@
+{
+    "index": 307,
+    "question_type": "single-session-user",
+    "question": "What certification did I complete last month?",
+    "question_date": "2023/05/29 (Mon) 09:02",
+    "ground_truth_answer": "Data Science",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user completed a Data Science certification last month, which directly matches the gold answer 'Data Science' and provides the exact information needed to answer the question."
+        }
+    ]
+}

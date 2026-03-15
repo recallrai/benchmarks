@@ -1,0 +1,14 @@
+{
+    "index": 159,
+    "question_type": "knowledge-update",
+    "question": "How many issues of National Geographic have I finished reading?",
+    "question_date": "2023/07/18 (Tue) 09:43",
+    "ground_truth_answer": "Five",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The user has finished five issues of National Geographic' which directly matches the gold answer of 'Five'."
+        }
+    ]
+}

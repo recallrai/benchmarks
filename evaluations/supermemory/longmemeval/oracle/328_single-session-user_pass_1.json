@@ -1,0 +1,14 @@
+{
+    "index": 328,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my niece's birthday party?",
+    "question_date": "2023/05/25 (Thu) 18:44",
+    "ground_truth_answer": "a lemon blueberry cake",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about baking anything for a niece's birthday party, so the question cannot be answered from the provided context."
+        }
+    ]
+}

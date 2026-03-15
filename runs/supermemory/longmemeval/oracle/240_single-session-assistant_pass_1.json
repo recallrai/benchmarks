@@ -1,0 +1,20 @@
+{
+    "index": 240,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+    "question_date": "2023/05/24 (Wed) 17:31",
+    "ground_truth_answer": "38 subjects",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_240_single-session-assistant",
+        "supermemory_document_ids": [
+            "QvUvkKm6Ahv9xb6oroXamB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1768.384
+        }
+    ]
+}

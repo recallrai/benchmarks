@@ -1,0 +1,20 @@
+{
+    "index": 335,
+    "question_type": "single-session-user",
+    "question": "What type of bulb did I replace in my bedside lamp?",
+    "question_date": "2023/05/26 (Fri) 15:27",
+    "ground_truth_answer": "Philips LED bulb",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_335_single-session-user",
+        "supermemory_document_ids": [
+            "Emaq5bYm6S7b7ehkaETpdE"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has a Philips LED bulb in their bedside lamp\nUser likes the warm tone of the Philips LED bulb in bedside lamp\nUser will start with Philips LED Warm White bulbs (3000K) in the kitchen\nUser was advised to check the packaging or product description to ensure smart bulbs are compatible with existing lighting fixtures and the smart home system.\nUser wants to replace harsh overhead lighting in the kitchen with smart bulbs\nUser will start with Philips LED Soft White bulbs (2800K) in the kitchen\nUser plans to start with warm white bulbs for the kitchen\nUser plans to purchase smart light bulbs for the kitchen.\nUser prefers warm white bulbs over color-changing bulbs for the kitchen\nUser is considering white light smart bulbs for the kitchen",
+            "latency": 1927.933
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 232,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+    "question_date": "2023/05/24 (Wed) 21:34",
+    "ground_truth_answer": "The Plesiosaur had a blue scaly body.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_232_single-session-assistant",
+        "supermemory_document_ids": [
+            "LoSuJbZWGZDLt529SWqKEq"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1000.122
+        }
+    ]
+}

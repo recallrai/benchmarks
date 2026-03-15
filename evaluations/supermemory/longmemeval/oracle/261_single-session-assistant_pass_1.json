@@ -1,0 +1,14 @@
+{
+    "index": 261,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about the fusion breakthrough at Lawrence Livermore National Laboratory. Can you remind me who is the President's Chief Advisor for Science and Technology mentioned in the article?",
+    "question_date": "2023/05/27 (Sat) 20:32",
+    "ground_truth_answer": "Dr. Arati Prabhakar",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the President's Chief Advisor for Science and Technology or Dr. Arati Prabhakar."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 376,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks passed between the day I bought my new tennis racket and the day I received it?",
+    "question_date": "2023/04/15 (Sat) 10:34",
+    "ground_truth_answer": "1 week",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user received a tennis racket but provides no information about when it was purchased, when it was received, or the time gap between these events, making it impossible to determine that 1 week passed between purchase and receipt."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 63,
+    "question_type": "multi-session",
+    "question": "How many days did I spend on camping trips in the United States this year?",
+    "question_date": "2023/04/29 (Sat) 22:31",
+    "ground_truth_answer": "8 days.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about camping trips or the number of days spent camping, making it impossible to answer the question."
+        }
+    ]
+}

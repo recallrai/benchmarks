@@ -1,0 +1,14 @@
+{
+    "index": 111,
+    "question_type": "multi-session",
+    "question": "How many online courses have I completed in total?",
+    "question_date": "2023/05/30 (Tue) 13:11",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about online courses or any number that would indicate the user has completed 5 courses."
+        }
+    ]
+}

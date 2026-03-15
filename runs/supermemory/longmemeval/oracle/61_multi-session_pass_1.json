@@ -1,0 +1,23 @@
+{
+    "index": 61,
+    "question_type": "multi-session",
+    "question": "How many projects have I led or am currently leading?",
+    "question_date": "2023/05/30 (Tue) 04:18",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_61_multi-session",
+        "supermemory_document_ids": [
+            "sYLASWCW4VQYbnCcHHD4kU",
+            "sthNeZBGDod9jJD29x4rW8",
+            "M9Yz1iRd8VwCB5BaqYdsDQ",
+            "PUuEMTQDTgMRqBEdUGkqnV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3088.977
+        }
+    ]
+}

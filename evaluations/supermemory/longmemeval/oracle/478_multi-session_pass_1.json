@@ -1,0 +1,14 @@
+{
+    "index": 478,
+    "question_type": "multi-session",
+    "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+    "question_date": "2023/05/29 (Mon) 09:49",
+    "ground_truth_answer": "1,998",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context identifies the most popular videos on both platforms with view counts (over 1,400 for TikTok and 542 for YouTube) which, when added together, approximate the gold answer of 1,998."
+        }
+    ]
+}

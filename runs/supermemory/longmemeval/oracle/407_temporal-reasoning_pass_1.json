@@ -1,0 +1,22 @@
+{
+    "index": 407,
+    "question_type": "temporal-reasoning",
+    "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+    "question_date": "2022/08/20 (Sat) 11:32",
+    "ground_truth_answer": "Emma graduated first, followed by Rachel and then Alex.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_407_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Y5hSXsAAxJ8X9XwTiqqCWp",
+            "B5uU4hWf3rvp5S2AqeJdnu",
+            "5FRzDz4bsjXp7HPx3Vpkbp"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user noted that Emma received a few awards for her academic achievements at the graduation ceremony.\nThe user attended Emma's high school graduation ceremony on a sunny Saturday in late May.\nUser attended friend Rachel's master's degree graduation ceremony yesterday.",
+            "latency": 1778.585
+        }
+    ]
+}

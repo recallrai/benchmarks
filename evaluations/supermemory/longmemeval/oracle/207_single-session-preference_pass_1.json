@@ -1,0 +1,14 @@
+{
+    "index": 207,
+    "question_type": "single-session-preference",
+    "question": "My kitchen's becoming a bit of a mess again. Any tips for keeping it clean?",
+    "question_date": "2023/05/28 (Sun) 12:29",
+    "ground_truth_answer": "The user would prefer responses that acknowledge and build upon their existing efforts to organize their kitchen, such as utilizing their new utensil holder to keep countertops clutter-free. They would also appreciate tips that address their concern for maintaining their granite surface, particularly around the sink area. Preferred responses would provide practical and actionable steps to maintain cleanliness, leveraging the user's current tools and setup. They might not prefer generic or vague suggestions that do not take into account their specific kitchen setup or concerns.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's kitchen setup, utensil holder, granite surface concerns, or existing organizational efforts that are referenced in the gold answer."
+        }
+    ]
+}

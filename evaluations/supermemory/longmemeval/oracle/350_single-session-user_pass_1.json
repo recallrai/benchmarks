@@ -1,0 +1,14 @@
+{
+    "index": 350,
+    "question_type": "single-session-user",
+    "question": "What is the name of my hamster?",
+    "question_date": "2023/05/22 (Mon) 13:42",
+    "ground_truth_answer": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about either a hamster or a cat named Luna, while the gold answer specifically references that a cat Luna was mentioned but not the hamster information."
+        }
+    ]
+}

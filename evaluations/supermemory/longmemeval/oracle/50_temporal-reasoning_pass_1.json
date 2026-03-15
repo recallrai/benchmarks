@@ -1,0 +1,14 @@
+{
+    "index": 50,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my attendance at a cultural festival or the start of my Spanish classes?",
+    "question_date": "2023/05/20 (Sat) 03:39",
+    "ground_truth_answer": "Spanish classes",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions both Spanish classes and the cultural festival, but provides no temporal information about which event occurred first, making it impossible to correctly answer the question about their chronological order."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 452,
+    "question_type": "multi-session",
+    "question": "How old was I when Alex was born?",
+    "question_date": "2023/05/29 (Mon) 23:46",
+    "ground_truth_answer": "11",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only provides the user's current age (32) but contains no information about Alex or when Alex was born, which is necessary to determine the user was 11 years old at that time."
+        }
+    ]
+}

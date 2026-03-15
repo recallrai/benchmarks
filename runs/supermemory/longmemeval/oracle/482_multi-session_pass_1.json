@@ -1,0 +1,21 @@
+{
+    "index": 482,
+    "question_type": "multi-session",
+    "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+    "question_date": "2023/05/30 (Tue) 02:21",
+    "ground_truth_answer": "33",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_482_multi-session",
+        "supermemory_document_ids": [
+            "vDpwgjF46UEZRSrnUbeotr",
+            "LsYvDZa3vQVNon7o1RLff4"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's Facebook Live session about vegan recipes received 12 comments\nUser's most popular video is on social media analytics.\nUser considers covering a variety of vegan recipes in one YouTube video based on Facebook Live session.\nUser's Facebook Live session focused on vegan recipes.\nUser provides value in Facebook Live sessions\nUser utilizes Facebook's 'Watch Party' feature for Facebook Live sessions\nUser is advised to repurpose vegan recipes Facebook Live session into YouTube videos.\nUser is considering creating a YouTube video based on their Facebook Live session about vegan recipes.\nUser shares Facebook Live sessions in relevant Facebook Groups\nUser is consistent with Facebook Live sessions",
+            "latency": 2045.19
+        }
+    ]
+}

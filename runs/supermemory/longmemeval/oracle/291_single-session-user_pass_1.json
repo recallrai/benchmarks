@@ -1,0 +1,20 @@
+{
+    "index": 291,
+    "question_type": "single-session-user",
+    "question": "What was my last name before I changed it?",
+    "question_date": "2023/05/29 (Mon) 18:26",
+    "ground_truth_answer": "Johnson",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_291_single-session-user",
+        "supermemory_document_ids": [
+            "Bf4hSgUDXLThyHzUb77AG6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Winters is the user's current last name\nWinters changed last name from Johnson to Winters\nCredit card company may require additional documentation or verification to update name\nWinters should confirm the name change by entering the current password\nWinters should go to Settings > Account Settings and click Edit next to Name to change the name to Winters\nWinters should review credit card account details, including limit, rate, and rewards, after name change\nWinters should have documents ready, like government ID or court order, for credit card name change\nWinters should provide a certified marriage certificate, court order, or government ID with the new name when updating credit reports\nWinters should review credit card account details after name change\nWinters should update credit card information with the new name",
+            "latency": 1189.956
+        }
+    ]
+}

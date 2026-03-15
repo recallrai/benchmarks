@@ -1,0 +1,21 @@
+{
+    "index": 485,
+    "question_type": "multi-session",
+    "question": "How much more money did I raise than my initial goal in the charity cycling event?",
+    "question_date": "2023/05/28 (Sun) 14:12",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_485_multi-session",
+        "supermemory_document_ids": [
+            "Gyj42k33w7k6JwHiuKYkes",
+            "TgY5Sc9DL3UoM4K7mziPap"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user participated in a charity cycling event and raised $250 in donations.\nThe user participated in a charity cycling event and raised $250 in donations.\nThe user aims to raise $200 in donations for the local children's hospital.",
+            "latency": 2147.416
+        }
+    ]
+}

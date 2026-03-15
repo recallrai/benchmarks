@@ -1,0 +1,21 @@
+{
+    "index": 143,
+    "question_type": "knowledge-update",
+    "question": "How many of Emma's recipes have I tried out?",
+    "question_date": "2023/06/09 (Fri) 10:52",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_143_knowledge-update",
+        "supermemory_document_ids": [
+            "w3Cufimys6nGqayUcdPeSN",
+            "6zc3c6GNr8pJR6AcNP5oMz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has tried three of Emma's recipes, all of which were amazing.",
+            "latency": 533.145
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 288,
+    "question_type": "single-session-user",
+    "question": "Where did I redeem a $5 coupon on coffee creamer?",
+    "question_date": "2023/05/30 (Tue) 01:13",
+    "ground_truth_answer": "Target",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the coupon redemption but does not mention any location (Target or otherwise) where it occurred, which is what the question asks for."
+        }
+    ]
+}

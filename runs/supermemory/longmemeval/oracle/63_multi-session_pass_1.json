@@ -1,0 +1,22 @@
+{
+    "index": 63,
+    "question_type": "multi-session",
+    "question": "How many days did I spend on camping trips in the United States this year?",
+    "question_date": "2023/04/29 (Sat) 22:31",
+    "ground_truth_answer": "8 days.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_63_multi-session",
+        "supermemory_document_ids": [
+            "sqxgnhiNQp81fG6huHZPKD",
+            "DKrqKcPsJUe5VYGMCWQArm",
+            "SYPyBa3Vr9iUGcAwqVNCZs"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3139.534
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 95,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 20:00",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_95_multi-session",
+        "supermemory_document_ids": [
+            "rz2DHLy7wGKY6d72eXswZu",
+            "a1dPWdPg73A5PrZ1KCG3JR"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user started using a new laptop backpack that arrived on 2026-01-20 and finds it a lifesaver for carrying the work laptop",
+            "latency": 768.907
+        }
+    ]
+}

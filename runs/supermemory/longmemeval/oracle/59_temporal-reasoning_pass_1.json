@@ -1,0 +1,21 @@
+{
+    "index": 59,
+    "question_type": "temporal-reasoning",
+    "question": "Who became a parent first, Tom or Alex?",
+    "question_date": "2023/03/17 (Fri) 16:37",
+    "ground_truth_answer": "The information provided is not enough. You mentioned Alex becoming a parent in January, but you didn't mention anything about Tom.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_59_temporal-reasoning",
+        "supermemory_document_ids": [
+            "SeyUfUYSayfWymaeJeda3C",
+            "xohXNNBaD8JFcmfdFeaFmB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's cousin Alex adopted a baby girl from China in January",
+            "latency": 813.963
+        }
+    ]
+}

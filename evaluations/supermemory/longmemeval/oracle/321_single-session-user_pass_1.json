@@ -1,0 +1,14 @@
+{
+    "index": 321,
+    "question_type": "single-session-user",
+    "question": "What type of rice is my favorite?",
+    "question_date": "2023/05/25 (Thu) 11:51",
+    "ground_truth_answer": "Japanese short-grain rice",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about rice preferences that would allow someone to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 97,
+    "question_type": "multi-session",
+    "question": "How much money did I raise in total through all the charity events I participated in?",
+    "question_date": "2023/05/01 (Mon) 23:35",
+    "ground_truth_answer": "$5,850",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_97_multi-session",
+        "supermemory_document_ids": [
+            "HqrmXCPuEnJKHwXywzR7sD",
+            "wAY4QJi55fFWJfQ2DYtCmG",
+            "gXaGcfogtZMwC6YURf3Lqc"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User plans to create a compelling event concept to attract attendees and sponsors for education and children's welfare charities",
+            "latency": 1367.111
+        }
+    ]
+}

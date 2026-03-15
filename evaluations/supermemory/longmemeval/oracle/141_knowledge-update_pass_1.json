@@ -1,0 +1,14 @@
+{
+    "index": 141,
+    "question_type": "knowledge-update",
+    "question": "How often do I see my therapist, Dr. Smith?",
+    "question_date": "2023/12/01 (Fri) 13:17",
+    "ground_truth_answer": "every week",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User sees Dr. Smith weekly for sessions' which directly corresponds to the gold answer of 'every week'."
+        }
+    ]
+}

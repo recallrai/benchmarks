@@ -1,0 +1,20 @@
+{
+    "index": 308,
+    "question_type": "single-session-user",
+    "question": "How many bikes do I own?",
+    "question_date": "2023/05/21 (Sun) 04:11",
+    "ground_truth_answer": "three",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_308_single-session-user",
+        "supermemory_document_ids": [
+            "NmURBncLeH4wp3Pmnt5f2i"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 863.831
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 129,
+    "question_type": "knowledge-update",
+    "question": "How many bikes do I currently own?",
+    "question_date": "2023/10/29 (Sun) 15:48",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_129_knowledge-update",
+        "supermemory_document_ids": [
+            "ed9AYrSpiBu1cAKmkUWRP7",
+            "pssSZWyXpuZP2R1nPDoLE7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User will bring a road bike, mountain bike, commuter bike, and a new hybrid bike on the trip\nUser will use a sturdy bike rack or trailer capable of holding four bikes on the vehicle\nUser will bring multiple locks and chains to secure the bikes when not in use\nUser will confirm each accommodation can accommodate all four bikes\nUser will use high-quality bike covers or bags to protect the bikes during transport\nUser will perform regular bike maintenance checks using a basic tool kit, spare tubes, and a pump\nUser has a new bike computer and tracks progress on Strava",
+            "latency": 925.519
+        }
+    ]
+}

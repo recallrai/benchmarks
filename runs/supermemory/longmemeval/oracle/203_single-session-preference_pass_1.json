@@ -1,0 +1,20 @@
+{
+    "index": 203,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest a hotel for my upcoming trip to Miami?",
+    "question_date": "2023/05/29 (Mon) 16:40",
+    "ground_truth_answer": "The user would prefer suggestions of hotels in Miami that offer great views, possibly of the ocean or the city skyline, and have unique features such as a rooftop pool or a hot tub on the balcony. They may not prefer suggestions of basic or budget hotels without these features.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_203_single-session-preference",
+        "supermemory_document_ids": [
+            "3HmUUeoR7EHkQpdghHurWP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user needs help finding a hotel.\nThe user wants a hotel with a great city view in Seattle.\nThe user likes hotels with a rooftop pool.",
+            "latency": 1415.136
+        }
+    ]
+}

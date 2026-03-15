@@ -1,0 +1,14 @@
+{
+    "index": 223,
+    "question_type": "single-session-preference",
+    "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+    "question_date": "2023/05/29 (Mon) 10:41",
+    "ground_truth_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's meal prep preferences, dietary habits, or recipe preferences needed to answer the question."
+        }
+    ]
+}

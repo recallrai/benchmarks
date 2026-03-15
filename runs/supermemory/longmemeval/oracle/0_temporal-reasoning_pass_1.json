@@ -1,0 +1,22 @@
+{
+    "index": 0,
+    "question_type": "temporal-reasoning",
+    "question": "What was the first issue I had with my new car after its first service?",
+    "question_date": "2023/04/10 (Mon) 23:07",
+    "ground_truth_answer": "GPS system not functioning correctly",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_0_temporal-reasoning",
+        "supermemory_document_ids": [
+            "b2CJnFo59Z9iFWdxvP6riG",
+            "iJnpgy1j32GAYyeSdrb12c",
+            "MWce6kgBALcCx9QfWJsz3n"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User plans to get a car wax and detailing done soon\nUser had a GPS system issue on 2026-03-22, the dealership replaced the entire system, and it now works flawlessly\nUser will consider paint correction service to remove imperfections and scratches\nUser found a local detailer with great reviews and is also considering other options\nUser will ask questions to clarify details about car detailing products or services\nUser is happy with the new car accessories\nUser owns a silver Honda Civic\nUser will consider DIY car detailing using purchased products and online tutorials\nUser purchased new floor mats using the gift card\nUser purchased a silver Honda Civic on February 10th",
+            "latency": 3737.438
+        }
+    ]
+}

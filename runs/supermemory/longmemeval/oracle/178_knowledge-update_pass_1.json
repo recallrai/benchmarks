@@ -1,0 +1,21 @@
+{
+    "index": 178,
+    "question_type": "knowledge-update",
+    "question": "How much weight have I lost since I started going to the gym consistently?",
+    "question_date": "2023/06/23 (Fri) 16:42",
+    "ground_truth_answer": "10 pounds",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_178_knowledge-update",
+        "supermemory_document_ids": [
+            "RJzwwzq4ZrHd5g7DjoFp17",
+            "urtVhLLFGTKKzRJcpoEPqy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has lost 10 pounds since starting consistent gym workouts 3 months ago\nUser lost 5 pounds in the past month.\nUser aims to reach goal weight by the end of summer.\nUser tracks exercise progress using a fitness tracker, workout log, or progress photos\nUser starts with a manageable exercise routine and gradually increases intensity and duration\nUser considers hiring a personal trainer or fitness coach for a customized exercise plan and accountability\nUser makes exercise convenient by using stairs, walking to work, or short home workouts during breaks\nUser exercises with a workout buddy for accountability and motivation",
+            "latency": 691.573
+        }
+    ]
+}

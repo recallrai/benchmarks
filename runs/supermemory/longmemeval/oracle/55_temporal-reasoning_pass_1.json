@@ -1,0 +1,21 @@
+{
+    "index": 55,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at Google?",
+    "question_date": "2023/05/23 (Tue) 10:59",
+    "ground_truth_answer": "The information provided is not enough. From the information provided, You haven't started working at Google yet.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_55_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ewdqe8L7TA6MWynAaE6kj7",
+            "aVeNrwFkSD9rs52whMkQE1"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Has nine years of professional experience.",
+            "latency": 1404.805
+        }
+    ]
+}

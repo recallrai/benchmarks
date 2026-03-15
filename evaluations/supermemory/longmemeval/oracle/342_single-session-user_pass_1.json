@@ -1,0 +1,14 @@
+{
+    "index": 342,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing guitar every day?",
+    "question_date": "2023/05/30 (Tue) 08:58",
+    "ground_truth_answer": "30 minutes",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about guitar practice time, so it cannot support answering the question."
+        }
+    ]
+}

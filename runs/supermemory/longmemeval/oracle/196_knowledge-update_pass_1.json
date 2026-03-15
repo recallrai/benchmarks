@@ -1,0 +1,21 @@
+{
+    "index": 196,
+    "question_type": "knowledge-update",
+    "question": "How many autographed football have I added to my collection in the first three months of collection?",
+    "question_date": "2023/06/16 (Fri) 03:13",
+    "ground_truth_answer": "The information provided is not enough. You mentioned collecting autographed baseball but not football.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_196_knowledge-update",
+        "supermemory_document_ids": [
+            "zyQRCdW2sX9QqRSCLXhtz5",
+            "Nowzbj2vtqeTvLvwKfJizK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user plans to sell autographed baseballs to make space for new items in their collection\nUser can visit local sports memorabilia shops to assess autographed baseball value\nUser can use PSA authentication service to verify autographed baseballs\nUser can use eBay to research values of autographed baseballs\nThe user should research the authenticity, provenance, and condition of their autographed baseballs to determine value\nThe user should take high-quality photos of their autographed baseballs from multiple angles",
+            "latency": 1727.501
+        }
+    ]
+}

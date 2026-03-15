@@ -1,0 +1,21 @@
+{
+    "index": 21,
+    "question_type": "temporal-reasoning",
+    "question": "What was the date on which I attended the first BBQ event in June?",
+    "question_date": "2023/07/01 (Sat) 23:13",
+    "ground_truth_answer": "June 3rd",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_21_temporal-reasoning",
+        "supermemory_document_ids": [
+            "TgytEA25iTaEt6tAKsGqoT",
+            "JUR1BXk97StsohJyegs5Ny"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended a backyard BBQ party at a colleague's house on June 3\nThe user made Korean-style BBQ dishes on 10 June\nThe user is planning a BBQ party soon\nThe user is planning a BBQ party with vegetarian options for non-meat-eating friends\nThe user experimented with different wood chips for BBQ dishes\nThe user should provide shade, fans, or misting stations to keep guests comfortable during the BBQ party\nThe user should use string lights or lanterns to create a warm inviting ambiance at the BBQ party",
+            "latency": 1159.02
+        }
+    ]
+}

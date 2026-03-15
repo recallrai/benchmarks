@@ -1,0 +1,20 @@
+{
+    "index": 228,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities I can do during my commute to work?",
+    "question_date": "2023/05/28 (Sun) 21:56",
+    "ground_truth_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_228_single-session-preference",
+        "supermemory_document_ids": [
+            "KcSSpza2AihiE4kjmwDYp4"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The commute is 40 minutes each way\nCan listen to up to 80 minutes of history podcasts per day during the commute",
+            "latency": 1249.294
+        }
+    ]
+}

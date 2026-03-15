@@ -1,0 +1,14 @@
+{
+    "index": 373,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amazon gift card from Ibotta'?",
+    "question_date": "2023/05/10 (Wed) 06:18",
+    "ground_truth_answer": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms two of the three events occurred but does not provide any information about the chronological order of the events or when the ShopRite rewards program signup happened."
+        }
+    ]
+}

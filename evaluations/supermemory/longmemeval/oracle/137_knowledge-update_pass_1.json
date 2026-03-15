@@ -1,0 +1,14 @@
+{
+    "index": 137,
+    "question_type": "knowledge-update",
+    "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+    "question_date": "2023/08/01 (Tue) 14:49",
+    "ground_truth_answer": "120",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user needs 120 stars to reach Gold level on Starbucks Rewards, which directly matches the gold answer of 120."
+        }
+    ]
+}

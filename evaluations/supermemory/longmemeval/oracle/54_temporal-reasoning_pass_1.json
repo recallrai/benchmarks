@@ -1,0 +1,14 @@
+{
+    "index": 54,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+    "question_date": "2023/05/30 (Tue) 08:08",
+    "ground_truth_answer": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions trimming cows' hooves, but does not contain information about fixing the fence or purchasing cows from Peter, which are the two tasks the question asks about."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 423,
+    "question_type": "temporal-reasoning",
+    "question": "What did I do with Rachel on the Wednesday two months ago?",
+    "question_date": "2023/04/01 (Sat) 20:22",
+    "ground_truth_answer": "I started taking ukulele lessons with Rachel.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_423_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ayy5DG5sfwLNq3JBZeWE6M",
+            "sYh2252xVXBUfUbLEDZgBk"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3331.511
+        }
+    ]
+}

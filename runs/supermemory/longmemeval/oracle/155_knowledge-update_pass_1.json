@@ -1,0 +1,21 @@
+{
+    "index": 155,
+    "question_type": "knowledge-update",
+    "question": "How long have I been sticking to my daily tidying routine?",
+    "question_date": "2023/09/30 (Sat) 18:36",
+    "ground_truth_answer": "4 weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_155_knowledge-update",
+        "supermemory_document_ids": [
+            "qaJjp3X9oXTzqw6g2yDCTq",
+            "oYeFtowaghL5rYuom7Zcg9"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2851.797
+        }
+    ]
+}

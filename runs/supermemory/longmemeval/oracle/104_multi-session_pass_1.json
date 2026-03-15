@@ -1,0 +1,23 @@
+{
+    "index": 104,
+    "question_type": "multi-session",
+    "question": "How many times did I ride rollercoasters across all the events I attended from July to October?",
+    "question_date": "2023/11/04 (Sat) 23:11",
+    "ground_truth_answer": "10 times",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_104_multi-session",
+        "supermemory_document_ids": [
+            "hGVZonP22UUL4dGdNW3npd",
+            "kb36ZtTpD8W6M6uNgN6fxo",
+            "Z1UBFQGouu7chnJePPfBqM",
+            "NFDD5VFqFMZ2bZeFCY1gjB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User rode three rollercoasters in one night at SeaWorld San Diego in July\nUser rode the Revenge of the Mummy rollercoaster at Universal Studios Hollywood three times on October 15\nUser rode the Kraken rollercoaster at SeaWorld San Diego in July\nUser rode the Xcelerator rollercoaster at Knott's Berry Farm on October 8 and it is one of their favorite thrill rides\nUser rode the Mako rollercoaster at SeaWorld San Diego in July\nUser rode the Manta rollercoaster at SeaWorld San Diego in July\nUser rode Space Mountain: Ghost Galaxy three times at Disneyland on September 24 during Mickey's Halloween Party\nUser is a huge rollercoaster fan",
+            "latency": 464.652
+        }
+    ]
+}

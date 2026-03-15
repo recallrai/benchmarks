@@ -1,0 +1,21 @@
+{
+    "index": 36,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before my best friend's birthday party did I order her gift?",
+    "question_date": "2022/05/15 (Sun) 06:22",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_36_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Pc1s9geFHaqQ6U8EzD8zh7",
+            "QeABexx1PYtJ3xbTermW4t"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's best friend celebrated their 30th birthday on April 22\nThe user purchased a personalized photo album from Shutterfly on 2025-04-15 for their best friend's birthday\nUser's best friend loved the personalized photo album given for the birthday\nUser should check reviews, verify spelling of names, and order the customized necklace early to ensure it arrives by Mother\u2019s Day\nThe user wants to buy a watch for their brother's birthday\nUser intends to get a customized necklace for their mother with her birthstone and children's names engraved",
+            "latency": 2576.124
+        }
+    ]
+}

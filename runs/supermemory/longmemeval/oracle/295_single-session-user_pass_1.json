@@ -1,0 +1,20 @@
+{
+    "index": 295,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new tennis racket from?",
+    "question_date": "2023/05/23 (Tue) 12:01",
+    "ground_truth_answer": "the sports store downtown",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_295_single-session-user",
+        "supermemory_document_ids": [
+            "EL4cn8wNrc2ATe6XFRspLw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1493.562
+        }
+    ]
+}

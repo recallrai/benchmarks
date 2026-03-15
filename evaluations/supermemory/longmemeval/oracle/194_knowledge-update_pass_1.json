@@ -1,0 +1,14 @@
+{
+    "index": 194,
+    "question_type": "knowledge-update",
+    "question": "How often do I see Dr. Johnson?",
+    "question_date": "2023/05/31 (Wed) 19:10",
+    "ground_truth_answer": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions Dr. Smith (not Dr. Johnson), which allows someone to correctly conclude that there is insufficient information about Dr. Johnson, matching the gold answer."
+        }
+    ]
+}

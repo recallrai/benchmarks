@@ -1,0 +1,14 @@
+{
+    "index": 107,
+    "question_type": "multi-session",
+    "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+    "question_date": "2023/05/01 (Mon) 09:52",
+    "ground_truth_answer": "3 days",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one day (April 10) when the user attended a lecture, but the gold answer indicates the user spent 3 days attending workshops, lectures, and conferences in April, so the context is incomplete and insufficient to answer the question correctly."
+        }
+    ]
+}

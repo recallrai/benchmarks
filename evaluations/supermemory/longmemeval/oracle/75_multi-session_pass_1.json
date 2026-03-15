@@ -1,0 +1,14 @@
+{
+    "index": 75,
+    "question_type": "multi-session",
+    "question": "How many hours have I spent playing games in total?",
+    "question_date": "2023/05/30 (Tue) 21:53",
+    "ground_truth_answer": "140 hours",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 30 hours spent on one specific game (The Last of Us Part II), which does not provide sufficient information to answer the question about total hours spent playing games (140 hours)."
+        }
+    ]
+}

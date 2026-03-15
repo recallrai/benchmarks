@@ -1,0 +1,21 @@
+{
+    "index": 471,
+    "question_type": "multi-session",
+    "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+    "question_date": "2023/10/01 (Sun) 22:42",
+    "ground_truth_answer": "10 minutes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_471_multi-session",
+        "supermemory_document_ids": [
+            "EDftQj3HYZdjNxgkEsFfV6",
+            "3Xr62V7AbY9eC2iiSUoW8K"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has previously run a 5K in 45 minutes.\nUser recently finished a 5K run in 35 minutes.\nUser's average pace for a 5K is approximately 14:30 minutes per mile.\nUser is training for a 5K run.\nUser is aiming to complete a 5K (3.1 miles) in 30-45 minutes.\nUser's 5K training plan involves building speed and endurance in weeks 5-6 with 3 runs per week.\nUser is creating a training plan for a 5K run.\nUser's inspiration for organizing the 'Sweet Support for the Season' charity event stems from their recent completion of a 5K run.\nUser's inspiration for organizing the 'Sweet Support for the Season' charity event stems from their recent completion of a 5K run.\nUser's 5K training plan involves a base building phase in weeks 1-2 with 3 runs per week.",
+            "latency": 1227.082
+        }
+    ]
+}

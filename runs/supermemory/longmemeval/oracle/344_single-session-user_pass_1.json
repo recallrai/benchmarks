@@ -1,0 +1,20 @@
+{
+    "index": 344,
+    "question_type": "single-session-user",
+    "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+    "question_date": "2023/05/29 (Mon) 22:42",
+    "ground_truth_answer": "24 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_344_single-session-user",
+        "supermemory_document_ids": [
+            "RqKrL7tUZjVvHcgMQiPq12"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2307.779
+        }
+    ]
+}

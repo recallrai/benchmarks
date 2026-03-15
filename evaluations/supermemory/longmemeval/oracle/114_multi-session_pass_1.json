@@ -1,0 +1,14 @@
+{
+    "index": 114,
+    "question_type": "multi-session",
+    "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+    "question_date": "2023/05/28 (Sun) 22:31",
+    "ground_truth_answer": "23",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains 17 poems (past two weeks), 5 short stories, and 1 writing challenge piece ('The Smell of Old Books'), which totals to 23 pieces matching the gold answer."
+        }
+    ]
+}

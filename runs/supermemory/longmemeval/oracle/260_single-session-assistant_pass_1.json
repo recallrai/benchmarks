@@ -1,0 +1,20 @@
+{
+    "index": 260,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+    "question_date": "2023/05/29 (Mon) 18:21",
+    "ground_truth_answer": "By Chloe",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_260_single-session-assistant",
+        "supermemory_document_ids": [
+            "jD86Ltapf59bQr12nsrEod"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1651.061
+        }
+    ]
+}

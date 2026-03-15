@@ -1,0 +1,22 @@
+{
+    "index": 73,
+    "question_type": "multi-session",
+    "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+    "question_date": "2023/05/24 (Wed) 18:37",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_73_multi-session",
+        "supermemory_document_ids": [
+            "LE7b97e1KvnSE72D3QA9Pv",
+            "DZ2aGvYmUfkTRUh62MSKw9",
+            "iUVEeEXL2FsxudMcuwZDAT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1707.809
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 56,
+    "question_type": "temporal-reasoning",
+    "question": "When did I book the Airbnb in Sacramento?",
+    "question_date": "2023/05/25 (Thu) 14:37",
+    "ground_truth_answer": "The information provided is not enough. You only mentioned booking Airbnb in San Francisco.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_56_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ZVQCcSKFZUBMois7CaiySA",
+            "quJrw45Z66XTXHH2WK1sbm"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User visited San Francisco for best friend's wedding two months ago, staying five days\nUser plans a trip to San Francisco next month\nUser plans to rent a car for the upcoming San Francisco trip.\nUser is excited to explore the Bay Area.",
+            "latency": 579.688
+        }
+    ]
+}

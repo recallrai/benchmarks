@@ -1,0 +1,21 @@
+{
+    "index": 152,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Harajuku?",
+    "question_date": "2023/10/15 (Sun) 12:38",
+    "ground_truth_answer": "3 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_152_knowledge-update",
+        "supermemory_document_ids": [
+            "DWZJukPqVF2ArymY8Be7oC",
+            "Mbsbje5XuZRAPF2Vi7kS4C"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has been living in their Harajuku studio apartment for 3 months.\nThe user recently moved into a studio apartment in Harajuku, Tokyo.\nThe user is enjoying the independence of their new studio apartment in Harajuku.\nThe user finds their commute to work from Harajuku, Tokyo to be convenient.\nUser intends to visit Kawai Shrine in Harajuku.",
+            "latency": 414.592
+        }
+    ]
+}

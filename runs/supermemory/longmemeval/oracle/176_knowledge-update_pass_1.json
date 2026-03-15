@@ -1,0 +1,21 @@
+{
+    "index": 176,
+    "question_type": "knowledge-update",
+    "question": "How many pre-1920 American coins do I have in my collection?",
+    "question_date": "2023/05/28 (Sun) 13:18",
+    "ground_truth_answer": "38",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_176_knowledge-update",
+        "supermemory_document_ids": [
+            "gstWpk81STFyUiUdn59TBv",
+            "MT6TgzUe9uZ4CgXATQoN1L"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's collection includes 37 pre-1920 American coins.\nUser is seeking tips on proper storage and display for the 37 pre-1920 American coins.\nUser plans to organize the 37 pre-1920 American coins by denomination and mint mark.\nUser added a 1915\u2011S Barber quarter to their pre\u20111920 American coin collection\nUser requests recommendations for coin display cases or albums capable of holding all 37 coins.\nUser possesses a 1913 Liberty Head nickel, a rare and valuable coin.\nUser plans to get the 1972 doubled die cent authenticated soon\nUser wants to have the 1972 doubled\u2011die cent authenticated\nUser will submit the 1972 doubled\u2011die cent to PCGS for authentication\nUser plans to use Coin Collector's Assistant to catalog coin collection",
+            "latency": 1332.236
+        }
+    ]
+}

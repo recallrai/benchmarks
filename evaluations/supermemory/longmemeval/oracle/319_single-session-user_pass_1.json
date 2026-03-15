@@ -1,0 +1,14 @@
+{
+    "index": 319,
+    "question_type": "single-session-user",
+    "question": "How long did it take to move to the new apartment?",
+    "question_date": "2023/05/29 (Mon) 07:44",
+    "ground_truth_answer": "5 hours",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the duration of the apartment move."
+        }
+    ]
+}

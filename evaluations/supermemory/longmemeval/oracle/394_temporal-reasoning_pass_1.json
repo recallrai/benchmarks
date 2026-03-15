@@ -1,0 +1,14 @@
+{
+    "index": 394,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I replaced my spark plugs and the day I participated in the Turbocharged Tuesdays auto racking event?",
+    "question_date": "2023/04/01 (Sat) 07:18",
+    "ground_truth_answer": "29 days. 30 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms both events occurred (spark plug replacement and Turbocharged Tuesdays participation), it contains no temporal information or dates that would allow calculating the 29-30 day difference between them."
+        }
+    ]
+}

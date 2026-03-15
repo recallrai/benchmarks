@@ -1,0 +1,14 @@
+{
+    "index": 182,
+    "question_type": "knowledge-update",
+    "question": "What type of vehicle model am I currently working on?",
+    "question_date": "2023/06/11 (Sun) 18:18",
+    "ground_truth_answer": "Ford F-150 pickup truck",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context repeatedly mentions the user working on a 'Ford F-150 model' and 'Ford F-150 pickup truck model' with detailed descriptions of weathering, decals, and other modeling work, which directly matches the gold answer."
+        }
+    ]
+}

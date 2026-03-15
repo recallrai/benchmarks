@@ -1,0 +1,14 @@
+{
+    "index": 156,
+    "question_type": "knowledge-update",
+    "question": "How long have I had my cat, Luna?",
+    "question_date": "2023/11/30 (Thu) 03:32",
+    "ground_truth_answer": "9 months",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context contains various facts about Luna's care and preferences but does not include any information about when the owner acquired Luna or how long they have had her."
+        }
+    ]
+}

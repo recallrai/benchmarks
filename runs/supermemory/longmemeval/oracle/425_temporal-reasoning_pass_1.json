@@ -1,0 +1,21 @@
+{
+    "index": 425,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+    "question_date": "2023/04/01 (Sat) 23:09",
+    "ground_truth_answer": "I got my own set of sculpting tools.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_425_temporal-reasoning",
+        "supermemory_document_ids": [
+            "mCWyV7tpSQu56QUxrDCz4Q",
+            "iLGsVqo337LtQemgx5jypo"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1720.122
+        }
+    ]
+}

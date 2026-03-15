@@ -1,0 +1,14 @@
+{
+    "index": 353,
+    "question_type": "single-session-user",
+    "question": "How long was I in Korea for?",
+    "question_date": "2023/05/27 (Sat) 17:25",
+    "ground_truth_answer": "You did not mention this information. You mentioned staying in Japan, but not in Korea.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The empty retrieved context is consistent with the gold answer indicating that no information about Korea was mentioned, which would allow correctly answering that this information was not provided."
+        }
+    ]
+}

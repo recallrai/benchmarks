@@ -1,0 +1,21 @@
+{
+    "index": 119,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my iPad case to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 10:05",
+    "ground_truth_answer": "The information provided is not enough. You did not mention buying an iPad case.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_119_multi-session",
+        "supermemory_document_ids": [
+            "eVvT1xmKT8rWdagigGv5TR",
+            "5zUnthGn5mFU9wy5oJ1UjM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User bought the backpack from Amazon on January 15",
+            "latency": 442.467
+        }
+    ]
+}

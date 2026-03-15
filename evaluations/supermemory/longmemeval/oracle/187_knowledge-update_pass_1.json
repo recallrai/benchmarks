@@ -1,0 +1,14 @@
+{
+    "index": 187,
+    "question_type": "knowledge-update",
+    "question": "Do I have a spare screwdriver for opening up my laptop?",
+    "question_date": "2023/09/06 (Wed) 17:02",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a spare screwdriver for cleaning laptop fans' and 'User picked up a spare screwdriver while organizing their computer desk a while ago', which directly confirms the gold answer of 'Yes'."
+        }
+    ]
+}

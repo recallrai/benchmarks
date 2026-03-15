@@ -1,0 +1,14 @@
+{
+    "index": 252,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat and I wanted to clarify something about the prayer of beginners in Tanqueray's Spiritual Life treatise. Can you remind me which chapter of the second part discusses vocal prayer and meditation?",
+    "question_date": "2023/05/26 (Fri) 14:58",
+    "ground_truth_answer": "Chapter 4 of Book 1, titled 'Vocal Prayer and Meditation'.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Tanqueray's Spiritual Life treatise or which chapter discusses vocal prayer and meditation."
+        }
+    ]
+}

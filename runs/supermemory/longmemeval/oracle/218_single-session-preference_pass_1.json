@@ -1,0 +1,20 @@
+{
+    "index": 218,
+    "question_type": "single-session-preference",
+    "question": "I was thinking of trying a new coffee creamer recipe. Any recommendations?",
+    "question_date": "2023/05/25 (Thu) 15:08",
+    "ground_truth_answer": "The user would prefer responses that suggest variations on their existing almond milk, vanilla extract, and honey creamer recipe or new ideas that align with their goals of reducing sugar intake and saving money. They might not prefer responses that recommend commercial creamer products or recipes that are high in sugar or expensive.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_218_single-session-preference",
+        "supermemory_document_ids": [
+            "FedVK17JRLYMt64YmPmWcF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1622.444
+        }
+    ]
+}

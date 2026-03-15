@@ -1,0 +1,20 @@
+{
+    "index": 331,
+    "question_type": "single-session-user",
+    "question": "What type of action figure did I buy from a thrift store?",
+    "question_date": "2023/05/30 (Tue) 13:38",
+    "ground_truth_answer": "a blue Snaggletooth",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_331_single-session-user",
+        "supermemory_document_ids": [
+            "7pNr3uKVq5App6U1sqKeN9"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 600.546
+        }
+    ]
+}

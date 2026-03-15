@@ -1,0 +1,20 @@
+{
+    "index": 267,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous chat about the DHL Wellness Retreats campaign. Can you remind me how much was allocated for influencer marketing in the campaign plan?",
+    "question_date": "2023/05/26 (Fri) 18:24",
+    "ground_truth_answer": "$2,000",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_267_single-session-assistant",
+        "supermemory_document_ids": [
+            "G6vjYwTV1dwbMX7RLyk5aS"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 793.118
+        }
+    ]
+}

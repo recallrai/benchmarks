@@ -1,0 +1,14 @@
+{
+    "index": 104,
+    "question_type": "multi-session",
+    "question": "How many times did I ride rollercoasters across all the events I attended from July to October?",
+    "question_date": "2023/11/04 (Sat) 23:11",
+    "ground_truth_answer": "10 times",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context lists specific rollercoaster rides from July to October that total 10 rides: 3 at SeaWorld San Diego in July (Kraken, Mako, Manta), 3 times on Space Mountain in September, 3 times on Revenge of the Mummy in October, and 1 time on Xcelerator in October, which matches the gold answer of 10 times."
+        }
+    ]
+}

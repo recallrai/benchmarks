@@ -1,0 +1,14 @@
+{
+    "index": 367,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "question_date": "2023/05/06 (Sat) 05:25",
+    "ground_truth_answer": "3 weeks ago",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains general information about using Ibotta with Thrive Market, but does not include any information about when the user started using Ibotta or any time reference that would indicate they started 3 weeks ago."
+        }
+    ]
+}

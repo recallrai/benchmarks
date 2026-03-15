@@ -1,0 +1,20 @@
+{
+    "index": 349,
+    "question_type": "single-session-user",
+    "question": "What game did I finally beat last weekend?",
+    "question_date": "2023/05/27 (Sat) 21:54",
+    "ground_truth_answer": "Dark Souls 3 DLC",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_349_single-session-user",
+        "supermemory_document_ids": [
+            "tivSJt38Ugoi1z5RPaE6vv"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user beat the Dark Souls 3 DLC boss last weekend after weeks of trying\nThe user enjoys the sense of accomplishment when defeating tough bosses in Dark Souls 3",
+            "latency": 741.662
+        }
+    ]
+}

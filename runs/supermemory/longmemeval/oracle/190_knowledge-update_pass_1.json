@@ -1,0 +1,21 @@
+{
+    "index": 190,
+    "question_type": "knowledge-update",
+    "question": "How many trips have I taken my Canon EOS 80D camera on?",
+    "question_date": "2023/06/14 (Wed) 10:15",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_190_knowledge-update",
+        "supermemory_document_ids": [
+            "F8mzDPE3qMNFHydGcpaTDY",
+            "wjetUwLVbQEaHRNcB7E4hC"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has taken their Canon EOS 80D on five trips\nThe Really Right Stuff TVC-34L tripod is compatible with the user's Canon EOS 80D camera\nThe user has taken their camera on trips to Yellowstone, Yosemite, and the Grand Canyon\nThe B87-80D camera plate is designed for the user's Canon EOS 80D\nThe BH-55 ballhead is recommended for the user's Canon EOS 80D on the Really Right Stuff tripod",
+            "latency": 549.048
+        }
+    ]
+}

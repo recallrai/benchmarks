@@ -1,0 +1,21 @@
+{
+    "index": 14,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+    "question_date": "2023/05/22 (Mon) 13:04",
+    "ground_truth_answer": "Fixing the fence",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_14_temporal-reasoning",
+        "supermemory_document_ids": [
+            "49WAByW4H5jQ2wag3cYoGD",
+            "qANeveB6NtjPWZF5oYZ8qZ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user last trimmed dairy cow hooves approximately two weeks ago.\nThe user has improved their skill in trimming dairy cow hooves.",
+            "latency": 462.556
+        }
+    ]
+}

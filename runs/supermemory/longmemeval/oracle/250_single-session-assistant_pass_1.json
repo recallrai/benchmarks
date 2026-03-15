@@ -1,0 +1,20 @@
+{
+    "index": 250,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+    "question_date": "2023/05/25 (Thu) 02:24",
+    "ground_truth_answer": "Mod Podge or another sealant",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_250_single-session-assistant",
+        "supermemory_document_ids": [
+            "udtDX1zKXBWNoRXMDx1org"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user is interested in DIY home decor projects using recycled materials",
+            "latency": 1168.972
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 131,
+    "question_type": "knowledge-update",
+    "question": "Where did I go on my most recent family trip?",
+    "question_date": "2023/06/09 (Fri) 21:26",
+    "ground_truth_answer": "Paris",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_131_knowledge-update",
+        "supermemory_document_ids": [
+            "PXGgYn6v6xNvZwuuNndoVR",
+            "LAAFC8A17ifxujp5XNaTji"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3213.8
+        }
+    ]
+}

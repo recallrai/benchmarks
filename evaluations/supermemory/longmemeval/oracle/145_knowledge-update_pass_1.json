@@ -1,0 +1,14 @@
+{
+    "index": 145,
+    "question_type": "knowledge-update",
+    "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+    "question_date": "2023/07/23 (Sun) 03:18",
+    "ground_truth_answer": "You switched to less water (5 ounces) per tablespoon of coffee.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the current ratio (1 tablespoon per 5 ounces) but does not mention any previous ratio or any switch/change, which is what the question specifically asks about."
+        }
+    ]
+}

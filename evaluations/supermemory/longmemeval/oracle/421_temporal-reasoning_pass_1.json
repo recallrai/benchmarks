@@ -1,0 +1,14 @@
+{
+    "index": 421,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+    "question_date": "2022/04/12 (Tue) 13:26",
+    "ground_truth_answer": "a chocolate cake",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about cooking a chocolate cake or anything else for a friend."
+        }
+    ]
+}

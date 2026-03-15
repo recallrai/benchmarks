@@ -1,0 +1,21 @@
+{
+    "index": 166,
+    "question_type": "knowledge-update",
+    "question": "What time do I usually go to the gym?",
+    "question_date": "2023/06/08 (Thu) 00:54",
+    "ground_truth_answer": "6:00 pm",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_166_knowledge-update",
+        "supermemory_document_ids": [
+            "zZZwrwpY9qB7JnBBxHCSEQ",
+            "hQpnwjHwodk9iEE7fPNTzm"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User prioritizes gym sessions on Mondays, Wednesdays, and Fridays at 7:00 PM\nUser's meeting ends before 3:00\u202fpm, providing a buffer before the 6:00\u202fpm gym session\nUser can create separate Todoist tasks for multiple gym sessions",
+            "latency": 1296.831
+        }
+    ]
+}

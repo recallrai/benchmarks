@@ -1,0 +1,24 @@
+{
+    "index": 75,
+    "question_type": "multi-session",
+    "question": "How many hours have I spent playing games in total?",
+    "question_date": "2023/05/30 (Tue) 21:53",
+    "ground_truth_answer": "140 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_75_multi-session",
+        "supermemory_document_ids": [
+            "PvAKtaQDpC4sngP9Nzhsso",
+            "uQDZgQaUMdRUTm1a1jSVco",
+            "ToLz1HgiNVSdKPBKdWa3Pq",
+            "6rXHMjj9MdYKcQX6mDm6nF",
+            "dFDyBRVSYLjMZEzaauJzSM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user played The Last of Us Part II on hard difficulty for approximately 30 hours",
+            "latency": 833.078
+        }
+    ]
+}

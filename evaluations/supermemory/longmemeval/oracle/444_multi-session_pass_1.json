@@ -1,0 +1,14 @@
+{
+    "index": 444,
+    "question_type": "multi-session",
+    "question": "How much older am I than the average age of employees in my department?",
+    "question_date": "2023/05/29 (Mon) 10:06",
+    "ground_truth_answer": "2.5 years",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's age or the average age of employees in their department, making it impossible to answer the question."
+        }
+    ]
+}

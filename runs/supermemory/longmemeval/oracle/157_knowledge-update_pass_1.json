@@ -1,0 +1,21 @@
+{
+    "index": 157,
+    "question_type": "knowledge-update",
+    "question": "How many Instagram followers do I currently have?",
+    "question_date": "2023/06/08 (Thu) 22:24",
+    "ground_truth_answer": "600",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_157_knowledge-update",
+        "supermemory_document_ids": [
+            "ijzMfjFnJ4FBpVDivNABRq",
+            "yWKH3vjpQQ3J5RonjSVLiJ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has 600 Instagram followers\nUser wants to increase Instagram presence\nUser will use Instagram's Poll feature to ask followers what content they prefer, such as more writing tips or behind-the-scenes posts.\nUser will share poll results in a follow-up Instagram story to keep followers engaged\nUser will ask followers via Instagram poll what they'd like to see more of: writing tips, behind-the-scenes content, or sneak peeks of manuscript",
+            "latency": 1376.664
+        }
+    ]
+}

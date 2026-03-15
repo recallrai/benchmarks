@@ -1,0 +1,20 @@
+{
+    "index": 285,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+    "question_date": "2023/05/29 (Mon) 23:31",
+    "ground_truth_answer": "Grilled Snapper with Mango Salsa",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_285_single-session-assistant",
+        "supermemory_document_ids": [
+            "ihxMqDeDQWq3vh925nRU9V"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 610.071
+        }
+    ]
+}

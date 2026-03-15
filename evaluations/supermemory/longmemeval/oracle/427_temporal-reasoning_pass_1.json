@@ -1,0 +1,14 @@
+{
+    "index": 427,
+    "question_type": "temporal-reasoning",
+    "question": "Where did I attend the religious activity last week?",
+    "question_date": "2023/04/10 (Mon) 08:05",
+    "ground_truth_answer": "the Episcopal Church",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user attended the Maundy Thursday service at the Episcopal Church, which occurred on April 6, 2023 (within 'last week' of the April 10 question date), matching the gold answer."
+        }
+    ]
+}

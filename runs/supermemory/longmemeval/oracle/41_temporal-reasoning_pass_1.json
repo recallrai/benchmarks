@@ -1,0 +1,22 @@
+{
+    "index": 41,
+    "question_type": "temporal-reasoning",
+    "question": "Which group did I join first, 'Page Turners' or 'Marketing Professionals'?",
+    "question_date": "2023/05/25 (Thu) 07:58",
+    "ground_truth_answer": "Page Turners",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_41_temporal-reasoning",
+        "supermemory_document_ids": [
+            "tfXuGm1eNLw5NysSrK5RUE",
+            "F7dhi1cjUdatot9PcCG5GV",
+            "RpSu2zmbqa3RCAYa9EP7uw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user joined the LinkedIn group \"Marketing Professionals\"\nThe user plans to share insights from the Marketing Professionals LinkedIn group in personal posts, aiming to add value without being promotional",
+            "latency": 1433.678
+        }
+    ]
+}

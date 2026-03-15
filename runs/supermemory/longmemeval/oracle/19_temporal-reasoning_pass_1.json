@@ -1,0 +1,21 @@
+{
+    "index": 19,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I book the Airbnb in San Francisco?",
+    "question_date": "2023/05/27 (Sat) 01:55",
+    "ground_truth_answer": "Five months ago",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_19_temporal-reasoning",
+        "supermemory_document_ids": [
+            "fd3cLnbNypP5ToV5sfNdEG",
+            "vb4n8sxcz75xJAg36E8Fok"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user had a great experience with Airbnb, booking three months in advance for a stay in Haight-Ashbury for a best friend's wedding.\nThe user is planning a trip to San Francisco.\nUser can use SuperShuttle from SFO to the Airbnb for $17\u201120, taking about 30\u201140 minutes\nThe user will take a short taxi ride from the BART Civic Center Station to the Airbnb in Haight\u2011Ashbury\nThe user is considering neighborhoods Fisherman's Wharf, North Beach, Mission District, Pacific Heights, Hayes Valley, Castro, and Russian Hill for an Airbnb stay in San Francisco.\nThe user took a 3\u2011day road\u2011trip to nearby mountains with family, starting a week after returning from San Francisco.",
+            "latency": 1635.367
+        }
+    ]
+}

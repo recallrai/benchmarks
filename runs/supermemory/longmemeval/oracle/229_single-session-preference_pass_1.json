@@ -1,0 +1,20 @@
+{
+    "index": 229,
+    "question_type": "single-session-preference",
+    "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+    "question_date": "2023/05/27 (Sat) 16:05",
+    "ground_truth_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_229_single-session-preference",
+        "supermemory_document_ids": [
+            "zKYxrCXDxTMrbZpbvqETEh"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User plans to shop at Harajuku district, reachable by taxi or subway from Park Hyatt Tokyo\nUser plans to shop at Ginza district, reachable by taxi or subway from Park Hyatt Tokyo\nUser plans to shop at Omotesando street, reachable by taxi or subway from Park Hyatt Tokyo\nUser plans to shop at Tokyu Hands, a department store within walking distance of Park Hyatt Tokyo",
+            "latency": 498.113
+        }
+    ]
+}

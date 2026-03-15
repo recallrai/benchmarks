@@ -1,0 +1,14 @@
+{
+    "index": 415,
+    "question_type": "temporal-reasoning",
+    "question": "What was the airline that I flied with on Valentine's day?",
+    "question_date": "2023/03/02 (Thu) 21:56",
+    "ground_truth_answer": "American Airlines",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any airline or Valentine's Day travel."
+        }
+    ]
+}

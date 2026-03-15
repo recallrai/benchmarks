@@ -1,0 +1,14 @@
+{
+    "index": 289,
+    "question_type": "single-session-user",
+    "question": "What play did I attend at the local community theater?",
+    "question_date": "2023/05/30 (Tue) 03:57",
+    "ground_truth_answer": "The Glass Menagerie",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about attending any play at a community theater, so it cannot be used to answer the question."
+        }
+    ]
+}

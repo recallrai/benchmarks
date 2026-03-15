@@ -1,0 +1,14 @@
+{
+    "index": 417,
+    "question_type": "temporal-reasoning",
+    "question": "Which bike did I fixed or serviced the past weekend?",
+    "question_date": "2023/03/21 (Tue) 05:24",
+    "ground_truth_answer": "road bike",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions work done on a mountain bike (flat tire repair, inner tube replacement, chain cleaning) from 'a few weeks ago', but the gold answer indicates the bike serviced the past weekend was a road bike, which is not mentioned anywhere in the context."
+        }
+    ]
+}

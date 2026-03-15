@@ -1,0 +1,21 @@
+{
+    "index": 4,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Communication in the Workplace'?",
+    "question_date": "2023/01/13 (Fri) 19:39",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_4_temporal-reasoning",
+        "supermemory_document_ids": [
+            "TrXNV6TzasxCzcTmSDLnuT",
+            "Ujj2VK5T2MYmxfM3DV7bxG"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended a workshop on Effective Communication in the Workplace on January 10th\nThe user is seeking active listening resources for the upcoming team meeting\nUser plans to practice active listening skills in the team meeting on January 17, 2026\nUser plans to practice conflict resolution skills in the team meeting on January 17, 2026\nThe user is seeking conflict resolution resources for the upcoming team meeting\nUser wants to prepare an agenda for the team meeting on January 17, 2026\nThe user has a team meeting scheduled for January 17, 2026\nThe user wants suggestions to prioritize tasks and allocate time for each discussion topic for the January 17 team meeting\nThe user should align meeting topics with the team's current goals and objectives\nUser should periodically review and clarify their notes during the meeting to resolve any unclear points",
+            "latency": 3730.627
+        }
+    ]
+}

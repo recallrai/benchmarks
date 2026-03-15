@@ -1,0 +1,23 @@
+{
+    "index": 94,
+    "question_type": "multi-session",
+    "question": "How many fitness classes do I attend in a typical week?",
+    "question_date": "2023/05/28 (Sun) 03:47",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_94_multi-session",
+        "supermemory_document_ids": [
+            "xs9UXLS4uTXJkmHejitUHm",
+            "BKVf4zMau2oVaUhsPDcSPn",
+            "EGKj7fWxqgKiSAes3aUj4H",
+            "KbsBmCCokkpRuvCfr3HjG7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attends Hip Hop Abs class on Saturdays at 10:00 AM",
+            "latency": 946.213
+        }
+    ]
+}

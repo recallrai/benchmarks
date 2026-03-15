@@ -1,0 +1,14 @@
+{
+    "index": 398,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the charity gala or the charity bake sale?",
+    "question_date": "2023/05/01 (Mon) 02:55",
+    "ground_truth_answer": "I participated in the charity bake sale first.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and provides no information about either the charity gala or the charity bake sale, making it impossible to determine which event was participated in first."
+        }
+    ]
+}

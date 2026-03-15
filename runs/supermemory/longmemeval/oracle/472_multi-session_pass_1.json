@@ -1,0 +1,21 @@
+{
+    "index": 472,
+    "question_type": "multi-session",
+    "question": "How many dinner parties have I attended in the past month?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "three",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_472_multi-session",
+        "supermemory_document_ids": [
+            "SaNBUJVLTcmtsD1vj2KuNH",
+            "sENUbGQ8GDNux4CF6DwEKY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user mentioned a dinner party at Alex's place yesterday.\nThe user mentioned a dinner party at Alex's place yesterday.\nThe user is hosting a dinner party soon.\nThe user is hosting a dinner party soon.\nThe user is hosting a dinner party soon.\nThe user attended a BBQ at Mike's place.\nThe user attended a BBQ at Mike's place.\nThe user is considering interactive elements for the dinner party.\nThe user is considering a potluck theme for the dinner party.\nThe user is considering a potluck theme for the dinner party.",
+            "latency": 574.9
+        }
+    ]
+}

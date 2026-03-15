@@ -1,0 +1,21 @@
+{
+    "index": 380,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+    "question_date": "2023/06/01 (Thu) 19:32",
+    "ground_truth_answer": "38 days. 39 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_380_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Ht1ZF8oj1CU43VVKU7N5HM",
+            "9t6NLt3UFcSPLR95bzoYa5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is planning to test the car's new suspension setup during an open track day at VIR\nUser aims to have the new suspension setup dialed in for the Track Day Frenzy event at VIR\nJudges indicated that User's car suspension was too soft, affecting handling in fast corners\nUser will consult a qualified mechanic to fine-tune the new suspension setup",
+            "latency": 2771.938
+        }
+    ]
+}

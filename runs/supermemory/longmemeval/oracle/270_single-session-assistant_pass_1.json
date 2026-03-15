@@ -1,0 +1,20 @@
+{
+    "index": 270,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+    "question_date": "2023/05/28 (Sun) 06:43",
+    "ground_truth_answer": "2014.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_270_single-session-assistant",
+        "supermemory_document_ids": [
+            "guDc1y7yJqZAKHncTn8hAz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Reward Homes Pty Ltd failed to complete Mr. Bajimaya's home construction by October 2015.\nMr. Bajimaya contracted with Reward Homes Pty Ltd for new home construction.\nReward Homes Pty Ltd failed to follow the approved plans and specifications for Mr. Bajimaya's home\nReward Homes Pty Ltd breached its contract with Mr. Bajimaya.\nReward Homes Pty Ltd failed to comply with the Building Code of Australia in constructing Mr. Bajimaya's home\nMeta description: Discover the legal issues, analysis, and key takeaways from Bajimaya v Reward Homes Pty Ltd. Learn how to protect your investment and avoid costly disputes.\nMeta description: Building your dream home? Don't let legal issues ruin your investment. Read about Bajimaya v Reward Homes Pty Ltd and learn how to protect yourself with proper legal guidance.\nConstruction of Mr. Bajimaya's home began in 2014.\nBajimaya v Reward Homes Pty Ltd case underscores significance of seeking legal advice before entering construction contracts.\nBajimaya v Reward Homes Pty Ltd case highlights importance of understanding building contracts and warranties.",
+            "latency": 421.469
+        }
+    ]
+}

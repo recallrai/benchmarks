@@ -1,0 +1,14 @@
+{
+    "index": 420,
+    "question_type": "temporal-reasoning",
+    "question": "What is the artist that I started to listen to last Friday?",
+    "question_date": "2023/04/05 (Wed) 15:05",
+    "ground_truth_answer": "a bluegrass band that features a banjo player",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions general interest in music and playing keyboard, but contains no information about a bluegrass band with a banjo player or any specific artist started listening to last Friday."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 39,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, Mark and Sarah or Tom?",
+    "question_date": "2023/05/28 (Sun) 17:00",
+    "ground_truth_answer": "Tom",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains information about Mark and Sarah but has no mention of Tom at all, making it impossible to determine who the user met first."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 20,
+    "question_type": "temporal-reasoning",
+    "question": "How long did I take to finish 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' combined?",
+    "question_date": "2023/05/28 (Sun) 05:21",
+    "ground_truth_answer": "5.5 weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_20_temporal-reasoning",
+        "supermemory_document_ids": [
+            "2v7Fr4qnRHMPS9LTcdQE1A",
+            "WGoJfqwRBZvRyfReg7ihYR",
+            "5KFFSQJzok9iuWc1HQwnmD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User finished \"The Seven Husbands of Evelyn Hugo\" in two and a half weeks\nThe user finished reading \"The Nightingale\" by Kristin Hannah in three weeks",
+            "latency": 801.223
+        }
+    ]
+}

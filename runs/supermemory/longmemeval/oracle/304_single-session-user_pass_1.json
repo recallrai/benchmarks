@@ -1,0 +1,20 @@
+{
+    "index": 304,
+    "question_type": "single-session-user",
+    "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+    "question_date": "2023/05/30 (Tue) 20:28",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_304_single-session-user",
+        "supermemory_document_ids": [
+            "Mn3aHFKygBRVh97ZPRgLiE"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 670.789
+        }
+    ]
+}

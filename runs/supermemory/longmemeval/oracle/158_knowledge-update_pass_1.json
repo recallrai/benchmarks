@@ -1,0 +1,21 @@
+{
+    "index": 158,
+    "question_type": "knowledge-update",
+    "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+    "question_date": "2023/03/16 (Thu) 07:05",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_158_knowledge-update",
+        "supermemory_document_ids": [
+            "7mwBDLxJcUWLDunbELHYH7",
+            "p69v8huUMCAtrSFmh1oq5g"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Has 20 dozen fresh eggs stocked in the fridge",
+            "latency": 1263.861
+        }
+    ]
+}

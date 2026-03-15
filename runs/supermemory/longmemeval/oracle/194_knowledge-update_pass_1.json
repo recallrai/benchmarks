@@ -1,0 +1,21 @@
+{
+    "index": 194,
+    "question_type": "knowledge-update",
+    "question": "How often do I see Dr. Johnson?",
+    "question_date": "2023/05/31 (Wed) 19:10",
+    "ground_truth_answer": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_194_knowledge-update",
+        "supermemory_document_ids": [
+            "zKYDMngvp1C7PrjMPYbrzA",
+            "t4aVa4vUC1zZy7VGYjgg71"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User sees Dr. Smith weekly\nUser has a weekly therapy session with Dr. Smith\nUser has a bi\u2011weekly dinner with friends\nUser had a helpful therapy session with Dr. Smith this week\nUser plans to review priorities and commitments on a weekly basis\nUser attends a weekly yoga class",
+            "latency": 793.104
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 470,
+    "question_type": "multi-session",
+    "question": "How many years will I be when my friend Rachel gets married?",
+    "question_date": "2022/09/01 (Thu) 21:32",
+    "ground_truth_answer": "33",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_470_multi-session",
+        "supermemory_document_ids": [
+            "De1MCRiwQ1LWuXq6LnfJZQ",
+            "AsURtYKML9qJ3z35VLMaYF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is 32 years old.",
+            "latency": 1377.255
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 292,
+    "question_type": "single-session-user",
+    "question": "Where do I take yoga classes?",
+    "question_date": "2023/05/26 (Fri) 15:21",
+    "ground_truth_answer": "Serenity Yoga",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only discusses the benefits of yoga for the user but does not mention any location or place name where yoga classes are taken."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 311,
+    "question_type": "single-session-user",
+    "question": "How many amateur comedians did I watch perform at the open mic night?",
+    "question_date": "2023/05/30 (Tue) 03:13",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about an open mic night or the number of amateur comedians watched."
+        }
+    ]
+}

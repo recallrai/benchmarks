@@ -1,0 +1,14 @@
+{
+    "index": 476,
+    "question_type": "multi-session",
+    "question": "What percentage of leadership positions do women hold in the my company?",
+    "question_date": "2023/05/25 (Thu) 13:59",
+    "ground_truth_answer": "20%",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states women occupy 20 leadership positions out of a total of 100 leadership positions, which allows calculating the percentage as 20% matching the gold answer."
+        }
+    ]
+}

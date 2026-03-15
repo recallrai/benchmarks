@@ -1,0 +1,20 @@
+{
+    "index": 251,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+    "question_date": "2023/05/29 (Mon) 10:13",
+    "ground_truth_answer": "+49 (0) 62 32 / 14 23 - 0",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_251_single-session-assistant",
+        "supermemory_document_ids": [
+            "wskHWbgeUaRGcCZU1fZyQZ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1052.347
+        }
+    ]
+}

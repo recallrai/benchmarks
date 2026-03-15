@@ -1,0 +1,14 @@
+{
+    "index": 179,
+    "question_type": "knowledge-update",
+    "question": "How many followers do I have on Instagram now?",
+    "question_date": "2023/06/03 (Sat) 09:01",
+    "ground_truth_answer": "1300",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Instagram followers, so it cannot be used to answer the question."
+        }
+    ]
+}

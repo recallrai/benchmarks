@@ -1,0 +1,21 @@
+{
+    "index": 69,
+    "question_type": "multi-session",
+    "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+    "question_date": "2023/05/27 (Sat) 18:41",
+    "ground_truth_answer": "2 AM",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_69_multi-session",
+        "supermemory_document_ids": [
+            "uR38eXKVfWSWZqEWntwJeM",
+            "Rwne6jhCXcYjrGfD35nh4L"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User was exhausted after the doctor's appointment on Thursday\nUser had a doctor's appointment at 10 AM last Thursday\nUser spent the rest of Thursday researching healthy recipes and creating a weekly meal plan\nUser will unwind for 30 minutes after yoga class at 6:30 PM on Tuesday\nUser plans to schedule tasks on Tuesday before an evening yoga class",
+            "latency": 631.176
+        }
+    ]
+}

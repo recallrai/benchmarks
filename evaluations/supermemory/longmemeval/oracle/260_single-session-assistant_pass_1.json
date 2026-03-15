@@ -1,0 +1,14 @@
+{
+    "index": 260,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+    "question_date": "2023/05/29 (Mon) 18:21",
+    "ground_truth_answer": "By Chloe",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a vegan eatery recommendation, so it cannot be used to answer the question about 'By Chloe'."
+        }
+    ]
+}

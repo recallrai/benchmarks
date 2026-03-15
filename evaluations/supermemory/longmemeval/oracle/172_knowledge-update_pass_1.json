@@ -1,0 +1,14 @@
+{
+    "index": 172,
+    "question_type": "knowledge-update",
+    "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+    "question_date": "2024/01/12 (Fri) 07:27",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses authentication, selling, and valuing autographed baseballs but does not contain any information about the number of baseballs added to the collection in the first three months."
+        }
+    ]
+}

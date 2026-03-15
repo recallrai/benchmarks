@@ -1,0 +1,22 @@
+{
+    "index": 410,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned participating in a sports event two weeks ago. What was the event?",
+    "question_date": "2023/07/01 (Sat) 06:58",
+    "ground_truth_answer": "The company's annual charity soccer tournament.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_410_temporal-reasoning",
+        "supermemory_document_ids": [
+            "jNJ4DSfeiXszgBDCWcqhEY",
+            "i6MJR5wvGKvF2xUs5nnvQm",
+            "aKajFVwp49qPFgFnWUUEsD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user participates in the company's annual charity soccer tournament today\nThe user should maintain mental toughness throughout the charity soccer tournament\nThe user should engage in low\u2011intensity active recovery such as walking, cycling or swimming after the tournament",
+            "latency": 1738.157
+        }
+    ]
+}

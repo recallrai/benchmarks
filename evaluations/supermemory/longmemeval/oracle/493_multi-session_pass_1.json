@@ -1,0 +1,14 @@
+{
+    "index": 493,
+    "question_type": "multi-session",
+    "question": "How many fun runs did I miss in March due to work commitments?",
+    "question_date": "2023/04/26 (Wed) 20:52",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context mentions one fun run missed in March explicitly due to work commitments (March 5th) and another fun run missed in March (March 26th) but without specifying the reason was work commitments, which does not fully support the gold answer of 2 missed due to work commitments."
+        }
+    ]
+}

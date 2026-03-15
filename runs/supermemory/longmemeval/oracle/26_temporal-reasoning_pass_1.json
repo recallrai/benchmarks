@@ -1,0 +1,21 @@
+{
+    "index": 26,
+    "question_type": "temporal-reasoning",
+    "question": "What time do I wake up on Tuesdays and Thursdays?",
+    "question_date": "2023/05/30 (Tue) 10:45",
+    "ground_truth_answer": "6:45 AM",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_26_temporal-reasoning",
+        "supermemory_document_ids": [
+            "BdLNSmrgjbUudg2cNPaqTC",
+            "VaNRqQgpPN9jx6wH93mRLH"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3547.905
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 82,
+    "question_type": "multi-session",
+    "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+    "question_date": "2023/03/08 (Wed) 22:16",
+    "ground_truth_answer": "I viewed four properties before making an offer on the townhouse in the Brookside neighborhood. The reasons I didn't make an offer on them were: the kitchen of the bungalow needed serious renovation, the property in Cedar Creek was out of my budget, the noise from the highway was a deal-breaker for the 1-bedroom condo, and my offer on the 2-bedroom condo was rejected due to a higher bid.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_82_multi-session",
+        "supermemory_document_ids": [
+            "KFd16Yw7FNyrCZUbSYFFme",
+            "5XviX4kJQxBxmtqNo4d4i8",
+            "MKvxuSZGAv4YfR9sjtry8F",
+            "X957wnuFigc8hKrUdRwUuk",
+            "VL4ztYEjXUxJJiFVMJmKQN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User saw a 3-bedroom townhouse in Brookside on February 22\nUser is finalizing the purchase of a townhouse in Brookside\nUser is purchasing a 3-bedroom townhouse in Brookside\nUser put an offer on the Brookside townhouse on February 25\nUser placed an offer on a 3-bedroom townhouse in Brookside on February 25, 2026 for $340,000\nUser negotiated with the seller to fix the minor plumbing and electrical issues found in the Brookside townhouse home inspection\nUser agreed on a purchase price of $340,000 for the Brookside townhouse\nUser's home inspection of the 3-bedroom townhouse in Brookside identified minor plumbing and electrical issues\nUser plans a down payment of $68,000 (20% of purchase price) for the Brookside townhouse\nUser saw a 3-bedroom bungalow in Oakwood on January 22",
+            "latency": 661.367
+        }
+    ]
+}

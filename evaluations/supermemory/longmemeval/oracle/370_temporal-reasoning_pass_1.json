@@ -1,0 +1,14 @@
+{
+    "index": 370,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+    "question_date": "2023/06/01 (Thu) 23:23",
+    "ground_truth_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any trips, therefore it cannot be used to determine the order of the three trips mentioned in the gold answer."
+        }
+    ]
+}

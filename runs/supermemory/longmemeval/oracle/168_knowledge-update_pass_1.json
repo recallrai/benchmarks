@@ -1,0 +1,21 @@
+{
+    "index": 168,
+    "question_type": "knowledge-update",
+    "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+    "question_date": "2023/06/08 (Thu) 16:35",
+    "ground_truth_answer": "Oahu",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_168_knowledge-update",
+        "supermemory_document_ids": [
+            "a1GcNZwbbgbJupcJncU4vf",
+            "WLVbGipLWREdkQvQXM5cLV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user plans a birthday trip to Hawaii in October\nUser plans to relax on Kaimana Beach on Oahu for their birthday, preferring a less crowded spot.\nUser is interested in Lanikai Beach on Oahu for a secluded birthday outing.\nUser considers Kailua Beach on Oahu as a serene, tranquil birthday beach option.\nUser likes Waialae Beach in Hawaii Kai on Oahu for a quiet birthday celebration with calm waters.\nUser can relax on Shark's Cove beach for a birthday outing\nThe user plans to snorkel at Shark's Cove on Oahu\nThe user plans to snorkel at Hanauma Bay Nature Preserve on Oahu",
+            "latency": 1107.77
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 452,
+    "question_type": "multi-session",
+    "question": "How old was I when Alex was born?",
+    "question_date": "2023/05/29 (Mon) 23:46",
+    "ground_truth_answer": "11",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_452_multi-session",
+        "supermemory_document_ids": [
+            "spjQWTVo8g2ZrW2qF2bLVv",
+            "JmJUm7AbzgkgpmUZfzMbTJ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user is currently 32 years old.",
+            "latency": 2863.129
+        }
+    ]
+}

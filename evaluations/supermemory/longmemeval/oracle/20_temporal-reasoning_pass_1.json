@@ -1,0 +1,14 @@
+{
+    "index": 20,
+    "question_type": "temporal-reasoning",
+    "question": "How long did I take to finish 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' combined?",
+    "question_date": "2023/05/28 (Sun) 05:21",
+    "ground_truth_answer": "5.5 weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user finished 'The Seven Husbands of Evelyn Hugo' in 2.5 weeks and 'The Nightingale' in 3 weeks, which adds up to 5.5 weeks total, matching the gold answer."
+        }
+    ]
+}

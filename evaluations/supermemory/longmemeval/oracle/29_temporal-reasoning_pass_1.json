@@ -1,0 +1,14 @@
+{
+    "index": 29,
+    "question_type": "temporal-reasoning",
+    "question": "Which airline did I fly with the most in March and April?",
+    "question_date": "2023/04/27 (Thu) 13:11",
+    "ground_truth_answer": "United Airlines",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a specific American Airlines flight to Hawaii and general loyalty to both United and American Airlines, but does not contain information indicating which airline was flown with most during March and April or any specific United Airlines flights during that period."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 181,
+    "question_type": "knowledge-update",
+    "question": "How many projects have I completed since starting painting classes?",
+    "question_date": "2023/10/20 (Fri) 12:00",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_181_knowledge-update",
+        "supermemory_document_ids": [
+            "5JGYEQz3495ZfLi8M6hYCn",
+            "csyQYwhRPDa15dHp6FXJ9s"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has completed 5 painting projects since starting painting classes\nThe user has completed 5 painting projects since starting painting classes\nThe user feels more confident in their painting skills\nThe user is excited to start working on an abstract painting with a bold and bright palette.\nThe user prefers using a limited palette for abstract paintings",
+            "latency": 905.094
+        }
+    ]
+}

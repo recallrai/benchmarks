@@ -1,0 +1,21 @@
+{
+    "index": 48,
+    "question_type": "temporal-reasoning",
+    "question": "Which gift did I buy first, the necklace for my sister or the photo album for my mom?",
+    "question_date": "2023/05/22 (Mon) 12:21",
+    "ground_truth_answer": "the photo album for my mom",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_48_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ooHrWQ2QPi6T8a9kFpmZMG",
+            "eGThK1xyJ12C3QCNyLS2Nh"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User bought a Tiffany necklace for sister last weekend costing around $200\nThe photo album cost $50\nThe photo album arrived on Wednesday, 2026-01-22\nThe user ordered the customized photo album from Shutterfly two weeks before the document date\nThe user ordered a customized photo album from Shutterfly\nUser will give sister a gift card to her favorite restaurant\nUser focused the photo album on family vacation memories, including beach trips and holidays\nUser will show a family slideshow during sister's birthday dinner\nUser will include a mix of recent and childhood photos in the sister's birthday slideshow",
+            "latency": 1715.41
+        }
+    ]
+}

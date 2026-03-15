@@ -1,0 +1,14 @@
+{
+    "index": 173,
+    "question_type": "knowledge-update",
+    "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+    "question_date": "2023/08/15 (Tue) 05:55",
+    "ground_truth_answer": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both key frequencies mentioned in the gold answer: 'plays tennis weekly' and 'plays tennis every other week on Sundays', which correspond to the previous and current frequencies respectively."
+        }
+    ]
+}

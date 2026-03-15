@@ -1,0 +1,21 @@
+{
+    "index": 434,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the new food bowl, measuring cup, dental chews, and flea and tick collar I got for Max?",
+    "question_date": "2023/05/26 (Fri) 21:10",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_434_multi-session",
+        "supermemory_document_ids": [
+            "2taM8PGRdwkKf1KiMv5VnU",
+            "fgtY7THBiuqejAvcwScqSn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Max's dental chews cost $10 per month\nMax has a flea and tick collar purchased for $20 (one-time expense)\nMax has a stainless steel food bowl purchased for $15 (one-time expense)\nMax's grain-free kibble costs $50 per month\nMax has a dog bed purchased for $40 (one-time expense)\nMax has a measuring cup purchased for $5 (one-time expense)\nUsing a rubber treat-dispensing toy provides mental stimulation for Max\nWest Paw Design Tux Interactive Dog Toy is made from non\u2011toxic Zogoflex, gentle on Max's teeth and gums\nMax's new dog bed from PetSmart is black and brown with a soft cushion\nOutward Hound Brick Puzzle is a durable rubber treat\u2011dispensing toy with holes and pockets, suitable for Max",
+            "latency": 2441.743
+        }
+    ]
+}

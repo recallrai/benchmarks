@@ -1,0 +1,21 @@
+{
+    "index": 49,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+    "question_date": "2023/05/20 (Sat) 05:18",
+    "ground_truth_answer": "volleyball league",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_49_temporal-reasoning",
+        "supermemory_document_ids": [
+            "eeT8kUmp54WaURpPLnfEdu",
+            "PcERt7P3Jz7djaqbKKoCkG"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user completed a charity 5K run for a local children's hospital about a month ago\nThe user plays volleyball regularly\nThe user considers charity events such as runs, walks, cycling events, or obstacle courses\nThe user selects charity events that fit their fitness level and interests.\nThe user checks registration processes and fees for charity events.\nThe user uses Volunteer Match to find charity events.\nThe user checks local running stores for charity event information.",
+            "latency": 2990.904
+        }
+    ]
+}

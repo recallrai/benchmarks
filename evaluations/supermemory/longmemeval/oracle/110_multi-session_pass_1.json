@@ -1,0 +1,14 @@
+{
+    "index": 110,
+    "question_type": "multi-session",
+    "question": "How many magazine subscriptions do I currently have?",
+    "question_date": "2023/04/01 (Sat) 21:12",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context shows only 1 subscription (The New Yorker), while National Geographic was a single issue purchase, not a subscription, which doesn't match the gold answer of 2 subscriptions."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 422,
+    "question_type": "temporal-reasoning",
+    "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+    "question_date": "2023/03/28 (Tue) 00:03",
+    "ground_truth_answer": "I signed a contract with my first client.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_422_temporal-reasoning",
+        "supermemory_document_ids": [
+            "chvw7TgCKuU8rdntse8xX6",
+            "WndNcib5S53fMfSXvCfc6o"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 666.496
+        }
+    ]
+}

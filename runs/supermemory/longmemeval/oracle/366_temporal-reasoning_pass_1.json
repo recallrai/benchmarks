@@ -1,0 +1,21 @@
+{
+    "index": 366,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+    "question_date": "2023/04/18 (Tue) 20:43",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_366_temporal-reasoning",
+        "supermemory_document_ids": [
+            "HkkWd6zNTJQ6ekEHGRTWN8",
+            "mkWnAHYJKaNjNyTdKhpDLs"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1537.895
+        }
+    ]
+}

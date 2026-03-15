@@ -1,0 +1,22 @@
+{
+    "index": 112,
+    "question_type": "multi-session",
+    "question": "How many music albums or EPs have I purchased or downloaded?",
+    "question_date": "2023/05/27 (Sat) 15:44",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_112_multi-session",
+        "supermemory_document_ids": [
+            "AcStuMEM5qFquammZhh3Zr",
+            "ctdWT6b7K9ocKQ64YeNvqK",
+            "S1CEwfEYGHeqggew6ijQoD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User bought the EP \"Midnight Sky\" by The Whiskey Wanderers at the festival merchandise booth.",
+            "latency": 730.515
+        }
+    ]
+}

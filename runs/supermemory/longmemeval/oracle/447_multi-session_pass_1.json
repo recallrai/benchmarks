@@ -1,0 +1,21 @@
+{
+    "index": 447,
+    "question_type": "multi-session",
+    "question": "How much did I save on the designer handbag at TK Maxx?",
+    "question_date": "2023/05/28 (Sun) 08:25",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_447_multi-session",
+        "supermemory_document_ids": [
+            "RonxM27vsCEMjFZKA33SQP",
+            "DAdMwP5KXNuo4Xm6v8bYWj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 533.222
+        }
+    ]
+}

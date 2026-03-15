@@ -1,0 +1,21 @@
+{
+    "index": 365,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a baking class at a local culinary school when I made my friend's birthday cake?",
+    "question_date": "2022/04/15 (Fri) 14:21",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_365_temporal-reasoning",
+        "supermemory_document_ids": [
+            "fd2F2fwE4WQn8wLtGSxwZD",
+            "Q9vgio56QteHXumHTbdHtV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User baked a chocolate cake for a friend's birthday party today, and it turned out amazing.\nUser made a strawberry rhubarb crisp a few weeks ago.",
+            "latency": 1683.398
+        }
+    ]
+}

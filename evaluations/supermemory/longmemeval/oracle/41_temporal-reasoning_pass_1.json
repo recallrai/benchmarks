@@ -1,0 +1,14 @@
+{
+    "index": 41,
+    "question_type": "temporal-reasoning",
+    "question": "Which group did I join first, 'Page Turners' or 'Marketing Professionals'?",
+    "question_date": "2023/05/25 (Thu) 07:58",
+    "ground_truth_answer": "Page Turners",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions joining 'Marketing Professionals' but contains no information about 'Page Turners' or the relative timing of joining these two groups, which is necessary to answer which was joined first."
+        }
+    ]
+}

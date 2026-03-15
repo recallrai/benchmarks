@@ -1,0 +1,20 @@
+{
+    "index": 243,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Native American powwows and I was wondering, which traditional game did you say was often performed by skilled dancers at powwows?",
+    "question_date": "2023/05/29 (Mon) 16:06",
+    "ground_truth_answer": "Hoop Dance",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_243_single-session-assistant",
+        "supermemory_document_ids": [
+            "JjrsdQ6FUpJaLM18uoFfzP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1817.067
+        }
+    ]
+}

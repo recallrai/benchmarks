@@ -1,0 +1,14 @@
+{
+    "index": 35,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+    "question_date": "2023/05/30 (Tue) 03:49",
+    "ground_truth_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The gold answer states the rug had been used for one week (7-10 days) when the furniture was rearranged, but the retrieved context only states the rug was added 'a month ago' (~30 days), which is a significant discrepancy and does not match the gold answer's timeframe."
+        }
+    ]
+}

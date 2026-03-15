@@ -1,0 +1,14 @@
+{
+    "index": 126,
+    "question_type": "knowledge-update",
+    "question": "How often do I attend yoga classes to help with my anxiety?",
+    "question_date": "2023/12/25 (Mon) 05:30",
+    "ground_truth_answer": "Three times a week.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user attends yoga classes three times a week, which directly matches the gold answer's frequency and would allow someone to correctly answer the question."
+        }
+    ]
+}

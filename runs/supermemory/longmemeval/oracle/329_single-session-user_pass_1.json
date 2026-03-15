@@ -1,0 +1,20 @@
+{
+    "index": 329,
+    "question_type": "single-session-user",
+    "question": "What is the name of the music streaming service have I been using lately?",
+    "question_date": "2023/05/27 (Sat) 06:16",
+    "ground_truth_answer": "Spotify",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_329_single-session-user",
+        "supermemory_document_ids": [
+            "Ff6gMZcs19kUDEfeYUBGff"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1793.248
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 494,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'Sapiens'?",
+    "question_date": "2023/05/30 (Tue) 14:10",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how many paged do you have left to read in 'Sapiens'.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions reading pace for 'Sapiens' but does not contain information about current page position or pages remaining, which aligns with the gold answer stating insufficient information was provided."
+        }
+    ]
+}

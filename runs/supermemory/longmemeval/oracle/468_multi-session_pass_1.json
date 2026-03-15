@@ -1,0 +1,21 @@
+{
+    "index": 468,
+    "question_type": "multi-session",
+    "question": "What is the total number of online courses I've completed?",
+    "question_date": "2023/05/25 (Thu) 10:41",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_468_multi-session",
+        "supermemory_document_ids": [
+            "V3AQEMHUMeyKykR4Xhqt2j",
+            "MxrYa15NdUDLQzj2VgKLFU"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has a solid foundation in data analysis from eight edX courses\nUser has a solid foundation in data analysis from eight completed edX courses\nUser is seeking online resources and courses for data analysis\nUser will celebrate milestones during the Machine Learning course.\nUdemy offers an Advanced Data Analysis course",
+            "latency": 782.431
+        }
+    ]
+}

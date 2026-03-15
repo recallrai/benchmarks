@@ -1,0 +1,14 @@
+{
+    "index": 62,
+    "question_type": "multi-session",
+    "question": "How many model kits have I worked on or bought?",
+    "question_date": "2023/05/30 (Tue) 21:08",
+    "ground_truth_answer": "I have worked on or bought five model kits. The scales of the models are: Revell F-15 Eagle (scale not mentioned), Tamiya 1/48 scale Spitfire Mk.V, 1/16 scale German Tiger I tank, 1/72 scale B-29 bomber, and 1/24 scale '69 Camaro.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one model kit (the 1/24-scale 1969 Camaro) but the gold answer indicates five model kits were worked on or bought, which cannot be determined from the provided context."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 175,
+    "question_type": "knowledge-update",
+    "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+    "question_date": "2023/06/25 (Sun) 04:48",
+    "ground_truth_answer": "Wednesday",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_175_knowledge-update",
+        "supermemory_document_ids": [
+            "pQ9NjjcP4nzbLSGg1MLLxb",
+            "JKcsQm9cmjJwyoH9RBGkE3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is meeting Maria on Thursday",
+            "latency": 2143.725
+        }
+    ]
+}

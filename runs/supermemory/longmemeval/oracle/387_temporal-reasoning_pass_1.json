@@ -1,0 +1,24 @@
+{
+    "index": 387,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+    "question_date": "2023/04/22 (Sat) 02:00",
+    "ground_truth_answer": "The order of the concerts I attended is: 1. Billie Eilish concert at the Wells Fargo Center in Philly, 2. Free outdoor concert series in the park, 3. Music festival in Brooklyn, 4. Jazz night at a local bar, 5. Queen + Adam Lambert concert at the Prudential Center in Newark, NJ.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_387_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ZbEc9126koC6UfFKHE9yWo",
+            "M78pndCNiy5q8er2w2SCPL",
+            "tXsLTQ8SWtEBTPTKeHHLWP",
+            "ZXofUYTqcfEeQhZeqhnqfK",
+            "e4HcCmZQHmsUBB2VQ7xm3p"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user enjoys attending music events with friends\nThe user attended a music festival in Brooklyn with friends featuring indie bands\nThe user attended a Queen concert with Adam Lambert at the Prudential Center in Newark, NJ with their parents\nThe user is interested in discovering local music events such as free outdoor concerts and jazz nights\nThe user saw Glass Animals live at a music festival in Brooklyn\nThe user is interested in Jazz in the Park summer concert series\nThe user is interested in attending summer outdoor jazz festivals\nThe user is interested in the Newport Jazz Festival (early August)\nThe user wants tips for enjoying low\u2011key live music settings\nThe user is interested in the San Francisco Jazz Festival (June to July)",
+            "latency": 924.269
+        }
+    ]
+}

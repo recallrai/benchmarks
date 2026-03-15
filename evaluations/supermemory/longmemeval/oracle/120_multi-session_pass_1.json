@@ -1,0 +1,14 @@
+{
+    "index": 120,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+    "question_date": "2023/05/28 (Sun) 06:00",
+    "ground_truth_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and does not contain any information about Hawaii (10 days) or Seattle trips that would be needed to correctly answer or acknowledge the incomplete information."
+        }
+    ]
+}

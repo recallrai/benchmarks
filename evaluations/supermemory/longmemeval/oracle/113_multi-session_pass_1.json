@@ -1,0 +1,14 @@
+{
+    "index": 113,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+    "question_date": "2021/08/20 (Fri) 19:01",
+    "ground_truth_answer": "10 years",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's educational timeline or duration of studies, making it impossible to answer the question about the 10 years spent in formal education."
+        }
+    ]
+}

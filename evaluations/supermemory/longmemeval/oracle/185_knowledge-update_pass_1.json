@@ -1,0 +1,14 @@
+{
+    "index": 185,
+    "question_type": "knowledge-update",
+    "question": "What time do I wake up on Saturday mornings?",
+    "question_date": "2023/06/15 (Thu) 00:49",
+    "ground_truth_answer": "7:30 am",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User wakes up at 7:30 am on Saturdays' which directly matches the gold answer of '7:30 am'."
+        }
+    ]
+}

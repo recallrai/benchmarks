@@ -1,0 +1,14 @@
+{
+    "index": 200,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some resources where I can learn more about video editing?",
+    "question_date": "2023/05/24 (Wed) 22:03",
+    "ground_truth_answer": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's preference for Adobe Premiere Pro resources or advanced settings, which is what the gold answer specifies."
+        }
+    ]
+}

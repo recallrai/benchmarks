@@ -1,0 +1,14 @@
+{
+    "index": 268,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+    "question_date": "2023/05/29 (Mon) 07:37",
+    "ground_truth_answer": "Patagonia and Southwest Airlines.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Patagonia, Southwest Airlines, or any companies that prioritize employee safety and well-being, making it impossible to answer the question."
+        }
+    ]
+}

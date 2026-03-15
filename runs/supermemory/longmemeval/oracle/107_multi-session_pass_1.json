@@ -1,0 +1,21 @@
+{
+    "index": 107,
+    "question_type": "multi-session",
+    "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+    "question_date": "2023/05/01 (Mon) 09:52",
+    "ground_truth_answer": "3 days",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_107_multi-session",
+        "supermemory_document_ids": [
+            "2UyytwSRCHNh8qTR5xiKkG",
+            "9keJ8W4XY7of486YJkXv3b"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended a lecture on sustainable development at the public library on April 10",
+            "latency": 1754.432
+        }
+    ]
+}

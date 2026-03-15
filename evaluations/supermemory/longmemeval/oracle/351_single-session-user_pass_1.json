@@ -1,0 +1,14 @@
+{
+    "index": 351,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage films?",
+    "question_date": "2023/05/24 (Wed) 21:54",
+    "ground_truth_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context about a vinyl record does not contain information about vintage films or vintage cameras, which is needed to provide the gold answer that clarifies the user collects cameras, not films."
+        }
+    ]
+}

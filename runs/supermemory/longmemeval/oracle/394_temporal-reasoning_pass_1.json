@@ -1,0 +1,21 @@
+{
+    "index": 394,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I replaced my spark plugs and the day I participated in the Turbocharged Tuesdays auto racking event?",
+    "question_date": "2023/04/01 (Sat) 07:18",
+    "ground_truth_answer": "29 days. 30 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_394_temporal-reasoning",
+        "supermemory_document_ids": [
+            "8JdSiSSQzAJ1bBLicoqcbS",
+            "xfGNRK4TVYGWSQyAUHXTLR"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user completed 10 laps at Speed Demon Racing Track with an average speed of 85 mph during the Turbocharged Tuesdays event.\nThe user experienced a slight engine misfire during a daily commute before replacing the spark plugs.\nThe user replaced spark plugs with new NGK plugs, resulting in smoother and more responsive engine performance.\nThe user plans to inspect and replace the car's suspension bushings before an auto racking event\nThe user had a dyno test at the Performance Garage during the Tune-Up Saturday event, recording 240 horsepower.\nThe user got a discount on brake pads at the Speed Shop during the Winter Tune-Up event earlier this year\nThe user is planning to participate in another auto racing event soon.",
+            "latency": 1037.986
+        }
+    ]
+}

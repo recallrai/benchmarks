@@ -1,0 +1,23 @@
+{
+    "index": 359,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I participated in two charity events in a row, on consecutive days?",
+    "question_date": "2023/04/18 (Tue) 10:43",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_359_temporal-reasoning",
+        "supermemory_document_ids": [
+            "zPxmbRNC42wF4nQFSHPgjG",
+            "QfzAEoyJaVuz9seFZuBBbu",
+            "zsXz22ssnyReNSzHGerACo",
+            "7Qj11BgkSTmtJaPxhtUbgJ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user rode a 24\u2011Hour Bike Ride charity event, cycling 4\u202fhours non\u2011stop to raise money for a local children\u2019s hospital\nUser participated in the Walk for Hunger charity event, walking 5 km to raise money for the local food bank\nUser is seeking tips on staying organized and managing time while volunteering for multiple charity events\nThe user volunteered at the Books for Kids charity book drive, sorting and packing over 500 books for underprivileged children",
+            "latency": 995.015
+        }
+    ]
+}

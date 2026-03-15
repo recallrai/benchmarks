@@ -1,0 +1,21 @@
+{
+    "index": 421,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+    "question_date": "2022/04/12 (Tue) 13:26",
+    "ground_truth_answer": "a chocolate cake",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_421_temporal-reasoning",
+        "supermemory_document_ids": [
+            "e7BXfAng1ShQf5tTP86224",
+            "gXZPdAzD6zk4bkkrogPfK5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2174.895
+        }
+    ]
+}

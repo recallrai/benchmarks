@@ -1,0 +1,23 @@
+{
+    "index": 81,
+    "question_type": "multi-session",
+    "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+    "question_date": "2023/05/27 (Sat) 02:43",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_81_multi-session",
+        "supermemory_document_ids": [
+            "TNjBKmV2MBWQ27zaLE1xCa",
+            "x6tE7G9MrMjPcCqPmf6Jif",
+            "cRq69TRn1Y7fiYkfLVcdF8",
+            "Vaqjk3q2tQ8CmsLpnJugjW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended a vegan cuisine class\nUser tried a Korean bibimbap recipe from the cooking class's online recipe library and found it amazing.\nUser learned to make vegan lasagna with a cashew-based ricotta cheese substitute\nUser attended a fermentation workshop at a local food co\u2011op where they learned to make sauerkraut and kimchi.\nUser plans to try teff flour, will adjust recipe ratios and experiment with different ingredients.\nUser plans to make a chicken and mixed vegetable stir\u2011fry this week.\nUser wants to incorporate fermented foods such as sauerkraut, kimchi, kefir, and miso into their diet.",
+            "latency": 841.712
+        }
+    ]
+}

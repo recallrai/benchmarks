@@ -1,0 +1,14 @@
+{
+    "index": 466,
+    "question_type": "multi-session",
+    "question": "What is the total time it takes I to get ready and commute to work?",
+    "question_date": "2023/05/27 (Sat) 13:44",
+    "ground_truth_answer": "an hour and a half",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a 30-minute workout and wake-up time but does not provide information about the total time to get ready and commute to work, which the gold answer specifies as an hour and a half."
+        }
+    ]
+}

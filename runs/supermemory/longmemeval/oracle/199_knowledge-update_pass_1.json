@@ -1,0 +1,21 @@
+{
+    "index": 199,
+    "question_type": "knowledge-update",
+    "question": "Where do I currently keep my old sneakers?",
+    "question_date": "2023/06/07 (Wed) 04:15",
+    "ground_truth_answer": "in a shoe rack in my closet",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_199_knowledge-update",
+        "supermemory_document_ids": [
+            "Q7fxGoAy1iRttsNJWjA15E",
+            "ZdPqDVDZnqppgx2PpM49WG"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 523.151
+        }
+    ]
+}

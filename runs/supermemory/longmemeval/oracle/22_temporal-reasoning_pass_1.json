@@ -1,0 +1,21 @@
+{
+    "index": 22,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+    "question_date": "2023/12/10 (Sun) 19:41",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_22_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Fkci14jWkzuWtDCVktZZLu",
+            "S54MFg2fcVyBjHaktQN54i"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1206.94
+        }
+    ]
+}

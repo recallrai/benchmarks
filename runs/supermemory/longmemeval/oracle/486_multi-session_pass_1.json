@@ -1,0 +1,21 @@
+{
+    "index": 486,
+    "question_type": "multi-session",
+    "question": "What is the average GPA of my undergraduate and graduate studies?",
+    "question_date": "2023/05/30 (Tue) 10:38",
+    "ground_truth_answer": "3.83",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_486_multi-session",
+        "supermemory_document_ids": [
+            "BZafaP7x2EQFhjR5v32Vpm",
+            "FKvWYzscdCyBWwHZMtSFx6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has a GPA of 3.8 out of 4.0.\nUser achieved a GPA of 3.86 out of 4.0 in Computer Science.\nUser has a strong foundation in computer science from undergraduate studies",
+            "latency": 1859.398
+        }
+    ]
+}

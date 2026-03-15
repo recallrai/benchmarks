@@ -1,0 +1,21 @@
+{
+    "index": 443,
+    "question_type": "multi-session",
+    "question": "How many hours do I work in a typical week during peak campaign seasons?",
+    "question_date": "2023/05/27 (Sat) 22:54",
+    "ground_truth_answer": "50",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_443_multi-session",
+        "supermemory_document_ids": [
+            "25JFzxv7obbm7Lto22BBNd",
+            "FeTvmfJ2fZAs79ErYzanPY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User worked up to 50 hours per week during peak campaign seasons, ensuring timely project delivery\nUser may work up to 45 hours per week during busier weeks\nUser works 40 hours per week under normal circumstances",
+            "latency": 688.031
+        }
+    ]
+}

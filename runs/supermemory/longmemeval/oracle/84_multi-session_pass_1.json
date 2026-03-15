@@ -1,0 +1,22 @@
+{
+    "index": 84,
+    "question_type": "multi-session",
+    "question": "How many hours of jogging and yoga did I do last week?",
+    "question_date": "2023/05/30 (Tue) 11:44",
+    "ground_truth_answer": "0.5 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_84_multi-session",
+        "supermemory_document_ids": [
+            "ZiuML8m1HHtypbWvC1yEDT",
+            "5JPzUJ3439PFv2cSTRDDKq",
+            "8nm2iRXbh5ky43Gz4UhRz7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user plans to practice yoga on Monday, Wednesday, and Friday mornings at 7:00\u202fam",
+            "latency": 1705.853
+        }
+    ]
+}

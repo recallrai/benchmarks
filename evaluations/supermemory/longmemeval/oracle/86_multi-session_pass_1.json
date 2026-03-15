@@ -1,0 +1,14 @@
+{
+    "index": 86,
+    "question_type": "multi-session",
+    "question": "Which grocery store did I spend the most money at in the past month?",
+    "question_date": "2023/05/30 (Tue) 20:10",
+    "ground_truth_answer": "Thrive Market",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions a general preference about Ibotta cashback and sustainable groceries, but does not mention Thrive Market or any specific grocery store spending information needed to answer the question."
+        }
+    ]
+}

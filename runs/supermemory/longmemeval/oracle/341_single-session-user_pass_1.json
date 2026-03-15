@@ -1,0 +1,20 @@
+{
+    "index": 341,
+    "question_type": "single-session-user",
+    "question": "What is my ethnicity?",
+    "question_date": "2023/05/29 (Mon) 05:51",
+    "ground_truth_answer": "A mix of Irish and Italian",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_341_single-session-user",
+        "supermemory_document_ids": [
+            "YGqdccVV7s4eN3g9jD5oNi"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2271.057
+        }
+    ]
+}

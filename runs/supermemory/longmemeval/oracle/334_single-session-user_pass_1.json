@@ -1,0 +1,20 @@
+{
+    "index": 334,
+    "question_type": "single-session-user",
+    "question": "How much screen time have I been averaging on Instagram per day?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "2 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_334_single-session-user",
+        "supermemory_document_ids": [
+            "rQt2epVhTGxtFcBonMRjpJ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User wants to set a daily time limit for Instagram to avoid excessive scrolling\nUser is trying to cut down on social media usage",
+            "latency": 1388.954
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 423,
+    "question_type": "temporal-reasoning",
+    "question": "What did I do with Rachel on the Wednesday two months ago?",
+    "question_date": "2023/04/01 (Sat) 20:22",
+    "ground_truth_answer": "I started taking ukulele lessons with Rachel.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about activities with Rachel or ukulele lessons, so it cannot be used to answer the question."
+        }
+    ]
+}

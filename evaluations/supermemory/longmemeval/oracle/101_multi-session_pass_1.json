@@ -1,0 +1,14 @@
+{
+    "index": 101,
+    "question_type": "multi-session",
+    "question": "How much money did I raise for charity in total?",
+    "question_date": "2023/03/20 (Mon) 23:39",
+    "ground_truth_answer": "$3,750",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context lists four completed fundraising amounts ($2,000 + $500 + $1,000 + $250) that sum to $3,750, matching the gold answer exactly."
+        }
+    ]
+}

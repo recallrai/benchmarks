@@ -1,0 +1,20 @@
+{
+    "index": 274,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+    "question_date": "2023/05/30 (Tue) 04:27",
+    "ground_truth_answer": "Fissionator.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_274_single-session-assistant",
+        "supermemory_document_ids": [
+            "8Fxc2RHUmNDNGSPctFkxYb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 483.299
+        }
+    ]
+}

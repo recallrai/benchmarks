@@ -1,0 +1,21 @@
+{
+    "index": 432,
+    "question_type": "multi-session",
+    "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "100",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_432_multi-session",
+        "supermemory_document_ids": [
+            "kw69rfNmHHaMkBm4cuwAox",
+            "AksRjLWDuiVAe9DDjfy66Q"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User gained approximately 350 Instagram followers after two weeks of regular posting\nUser grew Instagram followers significantly since the start of the year\nUser should post at least three to five times per week to maintain consistency on Instagram\nUser should collaborate with niche influencers to reach new Instagram audiences\nUser wants advice on increasing Twitter followers\nUser should experiment with different content types and track performance using Instagram Insights\nUser is experimenting with Instagram Stories and Reels and observed good engagement rates\nUser should respond to comments and use Instagram Stories for real\u2011time audience engagement",
+            "latency": 2668.752
+        }
+    ]
+}

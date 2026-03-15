@@ -1,0 +1,14 @@
+{
+    "index": 264,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?",
+    "question_date": "2023/05/29 (Mon) 23:58",
+    "ground_truth_answer": "Revolution Hall",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Portland venues or indie music shows, so it cannot be used to answer the question about Revolution Hall."
+        }
+    ]
+}

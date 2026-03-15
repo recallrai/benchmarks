@@ -1,0 +1,14 @@
+{
+    "index": 188,
+    "question_type": "knowledge-update",
+    "question": "How many times have I met up with Alex from Germany?",
+    "question_date": "2023/10/15 (Sun) 07:17",
+    "ground_truth_answer": "We've met up twice.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User and Alex have met up twice before', which directly matches the gold answer of 'We've met up twice.'"
+        }
+    ]
+}

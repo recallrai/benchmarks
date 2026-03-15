@@ -1,0 +1,21 @@
+{
+    "index": 30,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been bird watching when I attended the bird watching workshop?",
+    "question_date": "2023/05/25 (Thu) 19:42",
+    "ground_truth_answer": "Two months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_30_temporal-reasoning",
+        "supermemory_document_ids": [
+            "BBZi56H1mSSnSyaFVfFvNF",
+            "ESjGPhgH3TyzjEdvW8NPS5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended a bird watching workshop at the local Audubon society one month ago.\nUser is trying to get out more to spot birds\nUser wants to learn more about local bird species\nThe user wants a beginner-friendly bird field guide\nUser is recommended the Kaufman Field Guide to Birds as a beginner-friendly bird field guide\nUser should join a birding group or find a mentor for guidance on bird calls.\nUser is recommended Reddit's r/birding forum for learning bird calls\nUser should be patient and persistent while learning bird calls, as skill improves over time.\nUser is recommended the National Audubon Society Field Guide to Birds as a beginner-friendly bird field guide\nUser is recommended BirdForum website for learning bird calls",
+            "latency": 1473.237
+        }
+    ]
+}

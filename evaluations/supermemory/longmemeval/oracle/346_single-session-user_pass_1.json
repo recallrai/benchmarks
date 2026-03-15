@@ -1,0 +1,14 @@
+{
+    "index": 346,
+    "question_type": "single-session-user",
+    "question": "What brand of shampoo do I currently use?",
+    "question_date": "2023/05/28 (Sun) 23:42",
+    "ground_truth_answer": "Trader Joe's",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about shampoo brands or Trader Joe's that would enable answering the question."
+        }
+    ]
+}

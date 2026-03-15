@@ -1,0 +1,14 @@
+{
+    "index": 411,
+    "question_type": "temporal-reasoning",
+    "question": "I received a piece of jewelry last Saturday from whom?",
+    "question_date": "2023/03/09 (Thu) 15:42",
+    "ground_truth_answer": "my aunt",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the context correctly identifies 'aunt' as the giver, it describes the item as a 'crystal chandelier' rather than jewelry, which are fundamentally different types of items."
+        }
+    ]
+}

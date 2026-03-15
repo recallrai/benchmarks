@@ -1,0 +1,14 @@
+{
+    "index": 479,
+    "question_type": "multi-session",
+    "question": "How many years older is my grandma than me?",
+    "question_date": "2024/02/05 (Mon) 08:25",
+    "ground_truth_answer": "43",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context only provides the grandmother's age (75) but does not provide the user's age, which is necessary to calculate the age difference of 43 years."
+        }
+    ]
+}

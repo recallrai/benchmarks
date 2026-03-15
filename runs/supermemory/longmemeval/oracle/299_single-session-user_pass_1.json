@@ -1,0 +1,20 @@
+{
+    "index": 299,
+    "question_type": "single-session-user",
+    "question": "Where did I attend for my study abroad program?",
+    "question_date": "2023/05/29 (Mon) 14:58",
+    "ground_truth_answer": "University of Melbourne in Australia",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_299_single-session-user",
+        "supermemory_document_ids": [
+            "uCWqdyeziwQu2rqVupkzGW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User visited the Great Ocean Road during a study abroad program at the University of Melbourne\nUser visited the Great Ocean Road with friends during a study abroad program at the University of Melbourne",
+            "latency": 463.613
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 442,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+    "question_date": "2023/05/28 (Sun) 21:42",
+    "ground_truth_answer": "8",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_442_multi-session",
+        "supermemory_document_ids": [
+            "T4EhgiZdbegVrzsKyh97XQ",
+            "YstNZQSx4Jjkck7ERNKcrd"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user initially planted five tomato plants\nThe user harvests cucumbers daily from their garden\nThe user harvests tomatoes almost daily and uses them in salads, sandwiches, and cooked meals\nThe user uses tomato cages, trellises, or stakes to support upright growth\nUser finds homegrown tomatoes more flavorful than store-bought tomatoes\nThe user cut back the watering schedule, leading to healthier tomato plants\nThe user rotates tomato crops annually to prevent soil nutrient depletion and disease buildup\nThe user makes small batch dill pickles using 1-2 cups sliced cucumbers (about 0.5\u20131\u202flb) for 1\u20132 jars",
+            "latency": 2628.825
+        }
+    ]
+}

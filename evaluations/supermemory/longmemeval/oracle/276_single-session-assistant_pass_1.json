@@ -1,0 +1,14 @@
+{
+    "index": 276,
+    "question_type": "single-session-assistant",
+    "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+    "question_date": "2023/05/30 (Tue) 04:21",
+    "ground_truth_answer": "The designation on your jumpsuit was 'LIV'.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions a green-striped keycard and green pipes related to a security room, but contains no information about a jumpsuit designation 'LIV' or anything related to finding file numbers in a records room."
+        }
+    ]
+}

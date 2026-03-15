@@ -1,0 +1,14 @@
+{
+    "index": 93,
+    "question_type": "multi-session",
+    "question": "How many fish are there in total in both of my aquariums?",
+    "question_date": "2023/05/27 (Sat) 17:21",
+    "ground_truth_answer": "17",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions gouramis in one tank and future plans to add 10-15 fish, but does not provide any specific current count of fish or mention both aquariums, making it impossible to determine the total is 17."
+        }
+    ]
+}

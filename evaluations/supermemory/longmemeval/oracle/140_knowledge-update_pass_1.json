@@ -1,0 +1,14 @@
+{
+    "index": 140,
+    "question_type": "knowledge-update",
+    "question": "What type of camera lens did I purchase most recently?",
+    "question_date": "2023/09/08 (Fri) 04:23",
+    "ground_truth_answer": "a 70-200mm zoom lens",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user captured shots with a 70-200mm zoom lens and shows interest in purchasing a wide-angle lens, but does not indicate that the 70-200mm lens was the most recent purchase."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 415,
+    "question_type": "temporal-reasoning",
+    "question": "What was the airline that I flied with on Valentine's day?",
+    "question_date": "2023/03/02 (Thu) 21:56",
+    "ground_truth_answer": "American Airlines",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_415_temporal-reasoning",
+        "supermemory_document_ids": [
+            "BQvmgcePxTUjxpvgCJvGu9",
+            "oyaWq3w3YnGZrMnTs4rnwy",
+            "c5TWRWXCHkx6Pa9UGtm5ms",
+            "6CMnXFoGuDypJDY4rw4eUs",
+            "KcUL1ndFEGyDM8dat9eKjX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 955.299
+        }
+    ]
+}

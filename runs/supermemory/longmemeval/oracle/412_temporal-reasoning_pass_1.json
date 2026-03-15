@@ -1,0 +1,23 @@
+{
+    "index": 412,
+    "question_type": "temporal-reasoning",
+    "question": "What charity event did I participate in a month ago?",
+    "question_date": "2023/04/18 (Tue) 07:36",
+    "ground_truth_answer": "the 'Walk for Hunger' charity event",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_412_temporal-reasoning",
+        "supermemory_document_ids": [
+            "41uEWXE5pyvZWyxSAMWSoB",
+            "FaKPuMXFLZUrnvvWyBd9KV",
+            "KZuvx6xuNdLWz3yWM6n7LH",
+            "CfNcaw3vHyjk5L7wns93Ft"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User participated in the 24-Hour Bike Ride charity event, cycling for 4 hours to raise money for a local children's hospital.\nUser participated in the Walk for Hunger charity event, walking 5 kilometers to raise money for the local food bank\nUser volunteered at the \"Books for Kids\" charity book drive at the local library, sorting and packing over 500 books for underprivileged children\nUser is organizing a charity bake sale at the office to raise money for the local animal shelter\nUser seeks tips on staying organized and managing time effectively while volunteering for multiple charity events\nUser should wear moisture-wicking clothing to stay cool and dry during long charity walks.",
+            "latency": 1847.497
+        }
+    ]
+}

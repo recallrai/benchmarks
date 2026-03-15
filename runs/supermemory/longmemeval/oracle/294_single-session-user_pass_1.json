@@ -1,0 +1,20 @@
+{
+    "index": 294,
+    "question_type": "single-session-user",
+    "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+    "question_date": "2023/04/02 (Sun) 20:31",
+    "ground_truth_answer": "February 14th",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_294_single-session-user",
+        "supermemory_document_ids": [
+            "ChHHSFJN2ikZepLJeZkkFW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1052.153
+        }
+    ]
+}

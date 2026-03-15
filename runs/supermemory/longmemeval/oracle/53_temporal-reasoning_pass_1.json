@@ -1,0 +1,21 @@
+{
+    "index": 53,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the day I bought a gift for my brother's graduation ceremony and the day I bought a birthday gift for my best friend?",
+    "question_date": "2023/03/29 (Wed) 11:57",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_53_temporal-reasoning",
+        "supermemory_document_ids": [
+            "NePGTpiHbrdyUvoRBnQjmE",
+            "S5hTu8u177Gm7tehtyL64q"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User gave wireless headphones to brother as a graduation gift on March 8\nUser gave a silver necklace to best friend for their 30th birthday on March 15.\nUser is interested in portable speaker as a gift option for the friend\nUser gave a gift card to a popular coffee shop to neighbor last month\nUser is seeking music-related gift ideas for a friend",
+            "latency": 2971.426
+        }
+    ]
+}

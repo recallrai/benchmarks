@@ -1,0 +1,21 @@
+{
+    "index": 363,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+    "question_date": "2023/10/01 (Sun) 03:53",
+    "ground_truth_answer": "Michael's engagement party",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_363_temporal-reasoning",
+        "supermemory_document_ids": [
+            "yqmmj466Y726pc4SnPLeoo",
+            "zhgqT5MrVW8a7u7sgy2MA2"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1727.096
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 300,
+    "question_type": "single-session-user",
+    "question": "What was the discount I got on my first purchase from the new clothing brand?",
+    "question_date": "2023/05/30 (Tue) 21:10",
+    "ground_truth_answer": "10%",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_300_single-session-user",
+        "supermemory_document_ids": [
+            "Uaw4tAc1jNuzUiw9pAcQq1"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1114.722
+        }
+    ]
+}

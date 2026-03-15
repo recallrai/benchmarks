@@ -1,0 +1,14 @@
+{
+    "index": 345,
+    "question_type": "single-session-user",
+    "question": "Who gave me a new stand mixer as a birthday gift?",
+    "question_date": "2023/05/24 (Wed) 21:11",
+    "ground_truth_answer": "my sister",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user received a new stand mixer as a birthday gift from their sister, which directly matches the gold answer."
+        }
+    ]
+}

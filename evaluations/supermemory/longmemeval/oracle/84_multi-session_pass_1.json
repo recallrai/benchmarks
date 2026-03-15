@@ -1,0 +1,14 @@
+{
+    "index": 84,
+    "question_type": "multi-session",
+    "question": "How many hours of jogging and yoga did I do last week?",
+    "question_date": "2023/05/30 (Tue) 11:44",
+    "ground_truth_answer": "0.5 hours",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses future plans for yoga but does not provide information about actual hours completed last week (May 22-28, 2023), does not mention jogging, and does not specify the 0.5 hours duration mentioned in the gold answer."
+        }
+    ]
+}

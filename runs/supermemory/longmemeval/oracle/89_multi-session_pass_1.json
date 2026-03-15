@@ -1,0 +1,22 @@
+{
+    "index": 89,
+    "question_type": "multi-session",
+    "question": "What is the average age of me, my parents, and my grandparents?",
+    "question_date": "2023/05/26 (Fri) 03:27",
+    "ground_truth_answer": "59.6",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_89_multi-session",
+        "supermemory_document_ids": [
+            "UJdWadC9wUDVuhiK5fqdzh",
+            "yKuH9NsxxjUifdsCxEvXPM",
+            "HS1FgPM3PyHA9cQXZMKXXF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's grandfather is 78 years old\nUser's grandmother is 75 years old\nUser's father is 58 years old",
+            "latency": 755.472
+        }
+    ]
+}

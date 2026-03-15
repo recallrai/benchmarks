@@ -1,0 +1,14 @@
+{
+    "index": 23,
+    "question_type": "temporal-reasoning",
+    "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+    "question_date": "2023/05/20 (Sat) 11:34",
+    "ground_truth_answer": "'Game of Thrones'",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about when the user started watching either 'The Crown' or 'Game of Thrones', making it impossible to determine which show they watched first."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 18,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "Smart thermostat",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions both devices but does not provide any temporal information or ordering to indicate which device was set up first."
+        }
+    ]
+}

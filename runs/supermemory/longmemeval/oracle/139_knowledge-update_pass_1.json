@@ -1,0 +1,21 @@
+{
+    "index": 139,
+    "question_type": "knowledge-update",
+    "question": "How many sessions of the bereavement support group did I attend?",
+    "question_date": "2023/11/14 (Tue) 04:58",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_139_knowledge-update",
+        "supermemory_document_ids": [
+            "4bd1McWzmYTY99UDwayvvP",
+            "6GRMTEeFQhPPvJFgaATb12"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended five sessions of a bereavement support group last year and found it helpful\nUser experienced a strong sense of community in the bereavement support group\nUser described the bereavement support group as a safe space to share their story without judgment\nUser found the facilitator of the bereavement support group kind and understanding\nWill reach out to friends and family members who have experienced similar loss for support.\nPlans to join online forums or social media communities focused on grief, loss, and mental health.",
+            "latency": 1722.92
+        }
+    ]
+}

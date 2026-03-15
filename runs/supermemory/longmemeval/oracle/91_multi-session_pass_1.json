@@ -1,0 +1,21 @@
+{
+    "index": 91,
+    "question_type": "multi-session",
+    "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+    "question_date": "2023/03/01 (Wed) 19:29",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_91_multi-session",
+        "supermemory_document_ids": [
+            "4QPwvtVM1aRg3DHc9tU4EG",
+            "rraiZBYxid5xNkWLX9rcFF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User ordered a new remote shutter release online\nUser's new remote shutter release is working well\nUser ordered a new remote shutter release online on 2025-02-05 after losing the previous one\nUser lost remote shutter release on February 5",
+            "latency": 1301.97
+        }
+    ]
+}

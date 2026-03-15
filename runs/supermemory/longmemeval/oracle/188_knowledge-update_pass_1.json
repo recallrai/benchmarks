@@ -1,0 +1,21 @@
+{
+    "index": 188,
+    "question_type": "knowledge-update",
+    "question": "How many times have I met up with Alex from Germany?",
+    "question_date": "2023/10/15 (Sun) 07:17",
+    "ground_truth_answer": "We've met up twice.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_188_knowledge-update",
+        "supermemory_document_ids": [
+            "5i6f6rVEuuggydiP3JA9w8",
+            "bKtors379ZrwD2cAJgdpgM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User and Alex have met up twice before\nAlex is a friend of User from Germany\nAlex was met by User at a music festival\nUser plans to meet Alex in Kreuzberg\nUser recommends The Barn for coffee with Alex in Kreuzberg\nUser recommends Kaffee Burger for coffee with Alex in Kreuzberg\nUser and Alex plan to grab a drink and chat in Kreuzberg\nUser recommends Five Elephant for coffee with Alex in Kreuzberg\nUser recommends W\u00fcrgeengel bar for drinks with Alex in Kreuzberg\nUser recommends Golgatha beer garden for drinks with Alex in Kreuzberg",
+            "latency": 1581.221
+        }
+    ]
+}

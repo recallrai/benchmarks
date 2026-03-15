@@ -1,0 +1,21 @@
+{
+    "index": 450,
+    "question_type": "multi-session",
+    "question": "How many sports have I played competitively in the past?",
+    "question_date": "2023/05/26 (Fri) 14:53",
+    "ground_truth_answer": "two",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_450_multi-session",
+        "supermemory_document_ids": [
+            "YwmTge6vLRggs78bPb6SNK",
+            "1o2qk1ghnXBpgiZgjmTMNa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User swam competitively in college\nUser wants a fitness tracker that can track runs, soccer games, and tennis matches",
+            "latency": 2848.181
+        }
+    ]
+}

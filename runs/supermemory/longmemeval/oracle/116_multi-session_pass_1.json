@@ -1,0 +1,23 @@
+{
+    "index": 116,
+    "question_type": "multi-session",
+    "question": "How many times did I bake egg tarts in the past two weeks?",
+    "question_date": "2023/05/29 (Mon) 05:37",
+    "ground_truth_answer": "The information provided is not enough. You did not mention baking egg tarts.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_116_multi-session",
+        "supermemory_document_ids": [
+            "Kid7WUScLeaJa1jCVZEp35",
+            "ZsrJXg1qKmT4Hc9vZ44esr",
+            "mdqjSZf7A5ow8BwvuXwuCb",
+            "mGYXnFZGFNrkqMM6bfVTL3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is experimenting with different baking recipes.",
+            "latency": 1726.412
+        }
+    ]
+}

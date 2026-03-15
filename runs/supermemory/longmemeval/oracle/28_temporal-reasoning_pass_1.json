@@ -1,0 +1,21 @@
+{
+    "index": 28,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+    "question_date": "2023/05/30 (Tue) 12:34",
+    "ground_truth_answer": "The arrival of the new prime lens",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_28_temporal-reasoning",
+        "supermemory_document_ids": [
+            "h1PGJw8GixbdtgW9Lc3vXZ",
+            "EWDoKgWwsxUPiTpxGnwgi3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User went on a road trip to the coast with friends last week.\nUser took amazing shots of cliffs and beaches on the coastal road trip.\nUser spent three days driving along the coastal highway.\nUser took photos at scenic overlooks during the coastal highway trip.\nUser stopped at scenic overlooks during the coastal highway trip.",
+            "latency": 3074.296
+        }
+    ]
+}

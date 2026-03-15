@@ -1,0 +1,21 @@
+{
+    "index": 433,
+    "question_type": "multi-session",
+    "question": "How many antique items did I inherit or acquire from my family members?",
+    "question_date": "2023/05/30 (Tue) 17:24",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_433_multi-session",
+        "supermemory_document_ids": [
+            "gBXeBSTELXw6taPkbZE9Sv",
+            "sBuLSXBVDTSsPK7fQbpS18"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User will tell antique dealers that the antique tea set was gifted by cousin Rachel and the vintage typewriter belonged to their dad\nUser has an antique tea set that was a gift from cousin Rachel\nUser will emphasize the items' features, condition, and provenance when contacting antique dealers\nUser will mention that the antique tea set was a gift from cousin Rachel when contacting antique dealers\nUser owns a vintage typewriter that belonged to their dad\nOne appraisal report per heirloom item will be obtained initially\nUser will mention that the vintage typewriter belonged to their dad and share related stories or documents with antique dealers\nUser will briefly mention decluttering when asked by antique dealers, but will keep focus on item features and provenance\nUser should provide proof of ownership for the vintage diamond necklace, such as a will or inheritance papers.\nUser should research local antique dealers by checking directories, shops and antique malls",
+            "latency": 2306.739
+        }
+    ]
+}

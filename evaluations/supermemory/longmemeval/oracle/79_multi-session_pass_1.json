@@ -1,0 +1,14 @@
+{
+    "index": 79,
+    "question_type": "multi-session",
+    "question": "How many times did I bake something in the past two weeks?",
+    "question_date": "2023/05/30 (Tue) 20:07",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 4 baking instances within the past two weeks from the question date (2023/05/30): cookies on last Thursday (5/25), chocolate cake last weekend (5/27-28), whole wheat baguette last Saturday (5/27), and Italian bread on Tuesday (5/30 or 5/23), which matches the gold answer of 4."
+        }
+    ]
+}

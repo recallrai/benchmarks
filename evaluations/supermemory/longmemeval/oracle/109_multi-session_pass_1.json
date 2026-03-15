@@ -1,0 +1,14 @@
+{
+    "index": 109,
+    "question_type": "multi-session",
+    "question": "What is the total amount of money I earned from selling my products at the markets?",
+    "question_date": "2023/06/01 (Thu) 21:36",
+    "ground_truth_answer": "$495",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only shows earnings of $150 (Summer Solstice Market) + $120 (May 15 sale) = $270, which is significantly less than the gold answer of $495, meaning critical sales information is missing from the context."
+        }
+    ]
+}

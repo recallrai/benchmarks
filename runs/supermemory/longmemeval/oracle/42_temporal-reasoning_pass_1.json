@@ -1,0 +1,21 @@
+{
+    "index": 42,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+    "question_date": "2023/05/27 (Sat) 02:34",
+    "ground_truth_answer": "Four weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_42_temporal-reasoning",
+        "supermemory_document_ids": [
+            "whXSrx3cfT14Feg55PN3Hv",
+            "HVisUmtGMyAcUT45Tq1dxg"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User invested in a new guitar amp two weeks ago\nUser is experimenting with different tones on the new amp\nUser is taking online ukulele lessons to learn the basics\nUser is enjoying the sound of the new amp compared to an old borrowed amp\nUser is learning to play the ukulele\nUser attended a recent blues workshop focusing on string bending and feeling",
+            "latency": 1957.585
+        }
+    ]
+}

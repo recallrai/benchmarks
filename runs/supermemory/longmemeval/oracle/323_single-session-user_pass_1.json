@@ -1,0 +1,20 @@
+{
+    "index": 323,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new bookshelf from?",
+    "question_date": "2023/05/20 (Sat) 18:19",
+    "ground_truth_answer": "IKEA",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_323_single-session-user",
+        "supermemory_document_ids": [
+            "VmGUjTv42DWcrKuDYCpA5u"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is happy with new IKEA bookshelf\nAdded a new IKEA bookshelf to the living room, helping declutter books\nUser's books are organized and within easy reach",
+            "latency": 910.536
+        }
+    ]
+}

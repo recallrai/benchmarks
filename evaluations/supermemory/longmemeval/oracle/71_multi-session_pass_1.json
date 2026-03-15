@@ -1,0 +1,14 @@
+{
+    "index": 71,
+    "question_type": "multi-session",
+    "question": "How many movie festivals that I attended?",
+    "question_date": "2023/05/29 (Mon) 08:34",
+    "ground_truth_answer": "I attended four movie festivals.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about movie festivals or their count, making it impossible to answer the question."
+        }
+    ]
+}

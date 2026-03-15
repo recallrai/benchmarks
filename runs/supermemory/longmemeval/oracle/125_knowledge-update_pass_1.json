@@ -1,0 +1,21 @@
+{
+    "index": 125,
+    "question_type": "knowledge-update",
+    "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+    "question_date": "2023/12/09 (Sat) 11:53",
+    "ground_truth_answer": "$400,000",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_125_knowledge-update",
+        "supermemory_document_ids": [
+            "czUrD8WN3PTaGbub7WnuhL",
+            "Mfntw321y51ATFZSccUvBu"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user was pre\u2011approved for a $400,000 mortgage from Wells Fargo",
+            "latency": 3292.678
+        }
+    ]
+}

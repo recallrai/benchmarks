@@ -1,0 +1,14 @@
+{
+    "index": 51,
+    "question_type": "temporal-reasoning",
+    "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+    "question_date": "2023/05/24 (Wed) 23:47",
+    "ground_truth_answer": "Japanese Zero fighter plane model",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the Japanese Zero fighter plane was started 'about a month ago' while the Ferrari 288 GTO was started 'about three weeks ago', indicating the Zero was started first, which matches the gold answer."
+        }
+    ]
+}

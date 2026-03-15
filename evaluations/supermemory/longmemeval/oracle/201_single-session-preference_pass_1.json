@@ -1,0 +1,14 @@
+{
+    "index": 201,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some accessories that would complement my current photography setup?",
+    "question_date": "2023/05/30 (Tue) 05:04",
+    "ground_truth_answer": "The user would prefer suggestions of Sony-compatible accessories or high-quality photography gear that can enhance their photography experience. They may not prefer suggestions of other brands' equipment or low-quality gear.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's Sony photography setup or their preference for Sony-compatible or high-quality accessories, making it impossible to answer the question correctly."
+        }
+    ]
+}

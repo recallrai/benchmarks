@@ -1,0 +1,14 @@
+{
+    "index": 222,
+    "question_type": "single-session-preference",
+    "question": "I am planning another theme park weekend; do you have any suggestions?",
+    "question_date": "2023/08/15 (Tue) 16:25",
+    "ground_truth_answer": "The user would prefer theme park suggestions that cater to their interest in both thrill rides and special events, utilizing their previous experiences at Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood as a reference point. They would also appreciate recommendations that highlight unique food experiences and nighttime shows. The user might not prefer suggestions that focus solely on one aspect of theme parks, such as only thrill rides or only family-friendly attractions, and may not be interested in parks that lack special events or unique dining options.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user's interest in Halloween-themed food at the same four theme parks referenced in the gold answer, which demonstrates their interest in special events and unique food experiences, providing sufficient information to offer relevant theme park suggestions."
+        }
+    ]
+}

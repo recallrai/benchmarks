@@ -1,0 +1,21 @@
+{
+    "index": 174,
+    "question_type": "knowledge-update",
+    "question": "How much time do I dedicate to coding exercises each day?",
+    "question_date": "2023/06/22 (Thu) 19:41",
+    "ground_truth_answer": "about two hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_174_knowledge-update",
+        "supermemory_document_ids": [
+            "SNEvqarCGwqqrEjkZKN2yT",
+            "LWBTTRkHdDnypRSrnxJszj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1415.659
+        }
+    ]
+}

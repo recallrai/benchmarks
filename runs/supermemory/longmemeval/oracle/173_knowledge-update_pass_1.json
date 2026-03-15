@@ -1,0 +1,21 @@
+{
+    "index": 173,
+    "question_type": "knowledge-update",
+    "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+    "question_date": "2023/08/15 (Tue) 05:55",
+    "ground_truth_answer": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_173_knowledge-update",
+        "supermemory_document_ids": [
+            "eqdiJMkAqMampHCjEUQsRe",
+            "R6AxqPx89BF3i8zqqrUynf"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User plays tennis with friends at the local park every other week on Sundays\nUser plays tennis weekly with friends.\nUser plans to play tennis with friends this Sunday at the local park.\nUser was at the local park last Sunday.\nUser is thinking of getting a new tennis bag to carry a racket, shoes, and other essentials to the local park.\nUser has Nike Air Zoom tennis shoes.\nUser is practicing volleys and overheads to improve their net game\nUser is a baseline player who focuses on forehand and backhand groundstrokes",
+            "latency": 3331.084
+        }
+    ]
+}

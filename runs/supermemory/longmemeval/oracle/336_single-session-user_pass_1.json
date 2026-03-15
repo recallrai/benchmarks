@@ -1,0 +1,20 @@
+{
+    "index": 336,
+    "question_type": "single-session-user",
+    "question": "What size is my new Samsung TV?",
+    "question_date": "2023/05/24 (Wed) 19:09",
+    "ground_truth_answer": "55-inch",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_336_single-session-user",
+        "supermemory_document_ids": [
+            "1sMhZ9MNhHXGuALrmC8n1H"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1438.316
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 89,
+    "question_type": "multi-session",
+    "question": "What is the average age of me, my parents, and my grandparents?",
+    "question_date": "2023/05/26 (Fri) 03:27",
+    "ground_truth_answer": "59.6",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context only provides 3 out of 5 ages needed (grandfather: 78, grandmother: 75, father: 58), but is missing the user's age and mother's age, which are required to calculate the average of 59.6."
+        }
+    ]
+}

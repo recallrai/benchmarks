@@ -1,0 +1,14 @@
+{
+    "index": 131,
+    "question_type": "knowledge-update",
+    "question": "Where did I go on my most recent family trip?",
+    "question_date": "2023/06/09 (Fri) 21:26",
+    "ground_truth_answer": "Paris",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a family trip to Paris or any other destination."
+        }
+    ]
+}

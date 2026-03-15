@@ -1,0 +1,14 @@
+{
+    "index": 34,
+    "question_type": "temporal-reasoning",
+    "question": "How old was I when I moved to the United States?",
+    "question_date": "2023/05/29 (Mon) 21:08",
+    "ground_truth_answer": "27",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context states the user is 32 years old and has lived in the US for 5 years, which allows calculating they were 27 (32-5=27) when they moved."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 269,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+    "question_date": "2023/05/24 (Wed) 16:21",
+    "ground_truth_answer": "Jaipur Rugs",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_269_single-session-assistant",
+        "supermemory_document_ids": [
+            "1Q3PCMpoVQu7KMzcejKjTS"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1930.445
+        }
+    ]
+}

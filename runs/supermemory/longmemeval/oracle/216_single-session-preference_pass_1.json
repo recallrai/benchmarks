@@ -1,0 +1,20 @@
+{
+    "index": 216,
+    "question_type": "single-session-preference",
+    "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+    "question_date": "2023/05/27 (Sat) 13:23",
+    "ground_truth_answer": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate the new dresser and incorporate elements of this design aesthetic. They might not prefer general furniture arrangement tips or suggestions that do not consider their specific design preferences.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_216_single-session-preference",
+        "supermemory_document_ids": [
+            "j97ztyQiKu4xi2tSj5N3b9"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1497.059
+        }
+    ]
+}

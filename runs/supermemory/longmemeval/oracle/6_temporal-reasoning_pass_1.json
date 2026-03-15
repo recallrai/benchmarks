@@ -1,0 +1,21 @@
+{
+    "index": 6,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did it take for me to find a house I loved after starting to work with Rachel?",
+    "question_date": "2022/03/02 (Wed) 11:02",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_6_temporal-reasoning",
+        "supermemory_document_ids": [
+            "gUZatUn1muK7fZdQBs43es",
+            "FH29RJGjEUB8u6SpicNwjM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Rachel has been helping the user find homes that fit their criteria.\nThe user is working with Rachel, a real estate agent.\nRachel can provide insights on new construction listings within the user's budget.\nThe user saw a house they loved on March 1st.\nThe user started working with Rachel on 2/15.\nThe user started working with Rachel on 2/15.\nThe user plans to ask Rachel about new construction listings within their budget.\nRachel has a good understanding of the current market.\nAsking Rachel about upcoming developments can be crucial information.\nThe user might ask Rachel about opportunities to get in on the ground floor of a new development or purchase a pre-construction property.",
+            "latency": 4050.268
+        }
+    ]
+}

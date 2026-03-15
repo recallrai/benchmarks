@@ -1,0 +1,21 @@
+{
+    "index": 495,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and chili peppers?",
+    "question_date": "2023/05/24 (Wed) 23:41",
+    "ground_truth_answer": "The information provided is not enough. You mentioned planting 5 plants for tomatoes but you did not mention chili peppers.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_495_multi-session",
+        "supermemory_document_ids": [
+            "9MLg53cyCAmMXqwRL95dNW",
+            "iZXb7zZu2sNupuLCxrcTtu"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User planted 5 tomato plants\nUser's tomato plants are producing abundantly\nUser has 3 cucumber plants\nUser harvests tomatoes almost daily\nUser is growing cucumbers in their garden\nUser uses homegrown tomatoes in cooked meals\nUser's cucumber plants are producing a lot of cucumbers\nUser uses homegrown tomatoes in salads\nUser uses homegrown tomatoes in sandwiches\nUser's tomato plants are looking healthier after cutting back watering",
+            "latency": 886.998
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 494,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'Sapiens'?",
+    "question_date": "2023/05/30 (Tue) 14:10",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how many paged do you have left to read in 'Sapiens'.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_494_multi-session",
+        "supermemory_document_ids": [
+            "ijTF4ZucLbsebSrbBKiHBy",
+            "jh3WznkZLrynWgo1Zkg4yh"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User reads 'Sapiens' at a pace of 10-20 pages per week.\nUser is reading 'The Nightingale' which has 440 pages.\nUser has approximately 154 days left in the year to reach their reading goal.\nUser is on page 250 of \"The Nightingale\" by Kristin Hannah\nUser's estimated daily reading speed is approximately 2.14 pages per day.",
+            "latency": 3014.032
+        }
+    ]
+}

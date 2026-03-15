@@ -1,0 +1,14 @@
+{
+    "index": 92,
+    "question_type": "multi-session",
+    "question": "How many health-related devices do I use in a day?",
+    "question_date": "2023/05/27 (Sat) 06:53",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one health-related device (Fitbit Versa 3), but the gold answer indicates the user uses 4 devices in a day, so the context is insufficient to correctly answer the question."
+        }
+    ]
+}

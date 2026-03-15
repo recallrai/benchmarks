@@ -1,0 +1,21 @@
+{
+    "index": 496,
+    "question_type": "multi-session",
+    "question": "What is the total cost of my recently purchased headphones and the iPad?",
+    "question_date": "2023/05/27 (Sat) 05:33",
+    "ground_truth_answer": "The information provided is not enough. You mentioned purchasing a headphone, but you did not mention the iPad.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_496_multi-session",
+        "supermemory_document_ids": [
+            "4BD9YLY1BLVMc8mPHS8mmF",
+            "PjaD5w8n6tKAGmkqjc5sZb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User owns Sony WH-1000XM4 headphones.\nUser purchased Samsung Galaxy Watch Active2 for $200.\nUser uses Sony WH-1000XM4 headphones for their noise-cancelling feature.\nUser uses Sony WH-1000XM4 headphones for listening to podcasts during commute",
+            "latency": 2802.324
+        }
+    ]
+}

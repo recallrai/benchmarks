@@ -1,0 +1,14 @@
+{
+    "index": 32,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the new router?",
+    "question_date": "2023/03/28 (Tue) 01:17",
+    "ground_truth_answer": "new router",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the router was installed on 2026-01-15 and the smart thermostat was set up on 2026-02-10, which correctly indicates the router was set up first, matching the gold answer."
+        }
+    ]
+}

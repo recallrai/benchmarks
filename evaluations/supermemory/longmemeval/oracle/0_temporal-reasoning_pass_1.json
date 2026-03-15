@@ -1,0 +1,14 @@
+{
+    "index": 0,
+    "question_type": "temporal-reasoning",
+    "question": "What was the first issue I had with my new car after its first service?",
+    "question_date": "2023/04/10 (Mon) 23:07",
+    "ground_truth_answer": "GPS system not functioning correctly",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context mentions a GPS system issue dated 2026-03-22, which is approximately 3 years after the question was asked (2023/04/10), so it cannot be the first issue after the first service that the question is asking about."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 409,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish a week ago?",
+    "question_date": "2023/02/07 (Tue) 10:44",
+    "ground_truth_answer": "'The Nightingale' by Kristin Hannah",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_409_temporal-reasoning",
+        "supermemory_document_ids": [
+            "ACCXpQ47LeLB5vjfNNAYNA",
+            "1Z4nAc95uALYoFouZGimfK"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User finished reading \"The Nightingale\" by Kristin Hannah today\nUser aims to finish \"The Song of Achilles\" by the end of the month",
+            "latency": 458.894
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 316,
+    "question_type": "single-session-user",
+    "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+    "question_date": "2023/05/24 (Wed) 22:04",
+    "ground_truth_answer": "The painting is worth triple what I paid for it.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_316_single-session-user",
+        "supermemory_document_ids": [
+            "PkUrBXu55TCv5dce5qoHKi"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1032.265
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 445,
+    "question_type": "multi-session",
+    "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+    "question_date": "2023/05/30 (Tue) 20:55",
+    "ground_truth_answer": "12,000",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions clicks (50) from a Facebook ad campaign but does not contain information about the total reach (12,000) or any Instagram influencer collaboration mentioned in the question."
+        }
+    ]
+}

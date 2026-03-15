@@ -1,0 +1,14 @@
+{
+    "index": 337,
+    "question_type": "single-session-user",
+    "question": "What book am I currently reading?",
+    "question_date": "2023/05/27 (Sat) 20:04",
+    "ground_truth_answer": "The Seven Husbands of Evelyn Hugo",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses general reading habits but does not mention the specific book title 'The Seven Husbands of Evelyn Hugo' or any information that would allow someone to identify what book the user is currently reading."
+        }
+    ]
+}

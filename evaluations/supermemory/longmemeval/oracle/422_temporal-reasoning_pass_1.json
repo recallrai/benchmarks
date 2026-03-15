@@ -1,0 +1,14 @@
+{
+    "index": 422,
+    "question_type": "temporal-reasoning",
+    "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+    "question_date": "2023/03/28 (Tue) 00:03",
+    "ground_truth_answer": "I signed a contract with my first client.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about signing a contract with a first client or any business milestone."
+        }
+    ]
+}

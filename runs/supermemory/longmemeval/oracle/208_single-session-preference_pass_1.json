@@ -1,0 +1,20 @@
+{
+    "index": 208,
+    "question_type": "single-session-preference",
+    "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+    "question_date": "2023/05/21 (Sun) 02:23",
+    "ground_truth_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_208_single-session-preference",
+        "supermemory_document_ids": [
+            "zVLY8KNfJNhKT6y9fxQSE3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1022.804
+        }
+    ]
+}

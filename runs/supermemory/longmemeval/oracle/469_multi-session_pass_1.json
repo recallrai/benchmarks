@@ -1,0 +1,21 @@
+{
+    "index": 469,
+    "question_type": "multi-session",
+    "question": "How much did I save on the Jimmy Choo heels?",
+    "question_date": "2023/05/30 (Tue) 18:46",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_469_multi-session",
+        "supermemory_document_ids": [
+            "qud8zVrjyNujbu25yYNGSR",
+            "Q53J9jz3K1kaut7J5uw8N4"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Jimmy Choo heels originally retailed for $500.\nUser purchased new Jimmy Choo heels for $200 at an outlet mall.\nUser notes that designer brands like Jimmy Choo heels can be very pricey.\nAssistant suggests wearing hair down with a little black dress, Jimmy Choo heels, and a coral statement necklace for a relaxed, effortless vibe.\nAssistant believes a coral-colored geometric necklace would work well with a Little Black Dress and Jimmy Choo heels.\nAssistant believes a coral-colored geometric necklace would work well with a Little Black Dress and Jimmy Choo heels.\nUser is asking if wearing their hair down would work with an outfit including a little black dress, Jimmy Choo heels, and a coral statement necklace.\nUser will wear hair down with the little black dress, coral necklace, and Jimmy Choo heels",
+            "latency": 721.244
+        }
+    ]
+}

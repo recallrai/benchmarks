@@ -1,0 +1,14 @@
+{
+    "index": 355,
+    "question_type": "single-session-user",
+    "question": "What did my dad gave me as a birthday gift?",
+    "question_date": "2023/05/20 (Sat) 23:21",
+    "ground_truth_answer": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context is empty, which correctly reflects that no information about a birthday gift from dad was mentioned, matching the gold answer's statement that this information was not provided."
+        }
+    ]
+}

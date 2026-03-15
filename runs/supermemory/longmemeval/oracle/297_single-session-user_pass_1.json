@@ -1,0 +1,20 @@
+{
+    "index": 297,
+    "question_type": "single-session-user",
+    "question": "How much did I spend on a designer handbag?",
+    "question_date": "2023/05/29 (Mon) 21:17",
+    "ground_truth_answer": "$800",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_297_single-session-user",
+        "supermemory_document_ids": [
+            "Br39a4QaghxPXNX5mvjZUN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2188.713
+        }
+    ]
+}

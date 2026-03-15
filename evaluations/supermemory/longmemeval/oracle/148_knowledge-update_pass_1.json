@@ -1,0 +1,14 @@
+{
+    "index": 148,
+    "question_type": "knowledge-update",
+    "question": "How many episodes of the Science series have I completed on Crash Course?",
+    "question_date": "2023/06/21 (Wed) 00:41",
+    "ground_truth_answer": "50",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the number of Crash Course Science series episodes completed."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 191,
+    "question_type": "knowledge-update",
+    "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+    "question_date": "2023/05/24 (Wed) 22:13",
+    "ground_truth_answer": "Instant Pot",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_191_knowledge-update",
+        "supermemory_document_ids": [
+            "eFAjiNSMJLWv6ithEhoMm9",
+            "QRCYtAHpF7oXGf71Ca51sN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 897.42
+        }
+    ]
+}

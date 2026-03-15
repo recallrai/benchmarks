@@ -1,0 +1,21 @@
+{
+    "index": 162,
+    "question_type": "knowledge-update",
+    "question": "What is my current highest score in Ticket to Ride?",
+    "question_date": "2023/06/09 (Fri) 07:46",
+    "ground_truth_answer": "132 points",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_162_knowledge-update",
+        "supermemory_document_ids": [
+            "VGF1CR5RDyKsgS6YogcHzj",
+            "AaJCD4hktqF6V7HPec8P1X"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User achieved a Ticket to Ride score of 132 points.",
+            "latency": 1134.928
+        }
+    ]
+}

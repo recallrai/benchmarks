@@ -1,0 +1,20 @@
+{
+    "index": 342,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing guitar every day?",
+    "question_date": "2023/05/30 (Tue) 08:58",
+    "ground_truth_answer": "30 minutes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_342_single-session-user",
+        "supermemory_document_ids": [
+            "QDe3vWjFgB6xCvhe19DTSP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 653.668
+        }
+    ]
+}

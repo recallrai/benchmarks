@@ -1,0 +1,21 @@
+{
+    "index": 429,
+    "question_type": "multi-session",
+    "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+    "question_date": "2022/09/24 (Sat) 19:30",
+    "ground_truth_answer": "8 miles",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_429_multi-session",
+        "supermemory_document_ids": [
+            "faoXKrRnDND2QC1eLgAEBT",
+            "gw45snh4X8ozumVmkoDnnf"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1162.599
+        }
+    ]
+}

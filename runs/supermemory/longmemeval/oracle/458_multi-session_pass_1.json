@@ -1,0 +1,21 @@
+{
+    "index": 458,
+    "question_type": "multi-session",
+    "question": "How much more did I have to pay for the trip after the initial quote?",
+    "question_date": "2023/05/24 (Wed) 02:59",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_458_multi-session",
+        "supermemory_document_ids": [
+            "JfdFhTDiSU5HngqyKvrQYA",
+            "GG6SgsT2ozerXkHyeFGACN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Sakura Travel Agency's corrected price for the entire trip is $2,800",
+            "latency": 1791.186
+        }
+    ]
+}

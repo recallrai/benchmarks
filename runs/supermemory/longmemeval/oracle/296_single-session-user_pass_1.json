@@ -1,0 +1,20 @@
+{
+    "index": 296,
+    "question_type": "single-session-user",
+    "question": "What was my previous occupation?",
+    "question_date": "2023/05/30 (Tue) 16:21",
+    "ground_truth_answer": "Marketing specialist at a small startup",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_296_single-session-user",
+        "supermemory_document_ids": [
+            "VVYNFz1DXhrmYPTNoHhDAk"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1411.792
+        }
+    ]
+}

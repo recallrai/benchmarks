@@ -1,0 +1,14 @@
+{
+    "index": 132,
+    "question_type": "knowledge-update",
+    "question": "Where do I initially keep my old sneakers?",
+    "question_date": "2023/11/30 (Thu) 14:06",
+    "ground_truth_answer": "under my bed",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The user stores old sneakers under the bed, leading to odor' which directly matches the gold answer 'under my bed'."
+        }
+    ]
+}

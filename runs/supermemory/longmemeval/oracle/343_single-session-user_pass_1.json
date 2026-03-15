@@ -1,0 +1,20 @@
+{
+    "index": 343,
+    "question_type": "single-session-user",
+    "question": "Where does my sister Emily live?",
+    "question_date": "2023/05/22 (Mon) 18:58",
+    "ground_truth_answer": "Denver",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_343_single-session-user",
+        "supermemory_document_ids": [
+            "75xiA9GDhaKUAHerP8McfR"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has a sister named Emily who lives in Denver\nThe user plans to visit sister Emily in Denver soon",
+            "latency": 1378.285
+        }
+    ]
+}

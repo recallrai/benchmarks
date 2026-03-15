@@ -1,0 +1,22 @@
+{
+    "index": 44,
+    "question_type": "temporal-reasoning",
+    "question": "How many months before my anniversary did Rachel get engaged?",
+    "question_date": "2023/07/07 (Fri) 23:22",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_44_temporal-reasoning",
+        "supermemory_document_ids": [
+            "k5wfusBcbLhMHKnwvxkEeT",
+            "xrN1GgdLEKC6rn8FveX5cS",
+            "H9jFq9cUCUpK3LtNcGCFZu"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1807.092
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 484,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on the designer handbag and high-end skincare products?",
+    "question_date": "2023/05/28 (Sun) 18:00",
+    "ground_truth_answer": "$1,300",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms the user purchased a Coach handbag and high-end skincare products, it does not contain any specific dollar amounts or pricing information that would allow someone to determine the total of $1,300."
+        }
+    ]
+}

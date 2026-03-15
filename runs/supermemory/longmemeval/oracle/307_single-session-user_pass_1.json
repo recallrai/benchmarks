@@ -1,0 +1,20 @@
+{
+    "index": 307,
+    "question_type": "single-session-user",
+    "question": "What certification did I complete last month?",
+    "question_date": "2023/05/29 (Mon) 09:02",
+    "ground_truth_answer": "Data Science",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_307_single-session-user",
+        "supermemory_document_ids": [
+            "3KgPob9PrVZVGZ1o2mNsHN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user completed a Data Science certification last month.",
+            "latency": 914.421
+        }
+    ]
+}

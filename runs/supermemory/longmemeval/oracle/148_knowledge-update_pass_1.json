@@ -1,0 +1,21 @@
+{
+    "index": 148,
+    "question_type": "knowledge-update",
+    "question": "How many episodes of the Science series have I completed on Crash Course?",
+    "question_date": "2023/06/21 (Wed) 00:41",
+    "ground_truth_answer": "50",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_148_knowledge-update",
+        "supermemory_document_ids": [
+            "AiuQCCT1tbvuBQ7DCv4DRf",
+            "tCxtoyvcvdBfUMtSJjZjcY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1617.531
+        }
+    ]
+}

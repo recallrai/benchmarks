@@ -1,0 +1,14 @@
+{
+    "index": 488,
+    "question_type": "multi-session",
+    "question": "What was the page count of the two novels I finished in January and March?",
+    "question_date": "2023/05/29 (Mon) 23:44",
+    "ground_truth_answer": "856",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the context mentions two novels with page counts of 416 and 440 (totaling 856), it does not specify when these novels were finished or link them to January and March as required by the question."
+        }
+    ]
+}

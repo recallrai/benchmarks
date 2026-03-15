@@ -1,0 +1,14 @@
+{
+    "index": 67,
+    "question_type": "multi-session",
+    "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+    "question_date": "2023/05/30 (Tue) 07:22",
+    "ground_truth_answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about road trip destinations or driving hours, so it cannot be used to answer the question."
+        }
+    ]
+}

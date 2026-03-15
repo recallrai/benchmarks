@@ -1,0 +1,21 @@
+{
+    "index": 455,
+    "question_type": "multi-session",
+    "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+    "question_date": "2023/05/26 (Fri) 13:56",
+    "ground_truth_answer": "$5,150",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_455_multi-session",
+        "supermemory_document_ids": [
+            "cRHwMmYvQJqK2N2nMwzQWD",
+            "uZp6Ao8HeRFMj7Z1sbK7NS"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User believes the restored vanity is worth at least $150.\nUser plans to sell the restored antique vanity online\nUser wants to showcase the vanity's history and provenance when selling it online\nUser will describe the vanity as a great addition for antique furniture lovers.\nUser wants to provide a detailed description of the vanity's age, era, style, materials, notable features, and restoration work in the online listing\nUser will highlight the vanity's unique charm and character in the listing.\nUser wants to include documentation such as receipts, appraisals, certificates of authenticity, and historical records to prove the vanity's authenticity when selling online\nUser is restoring an antique vanity\nUser plans to mention the vanity's original purchase price of $150 in the online listing.\nUser believes the vanity offers great value for its price",
+            "latency": 886.282
+        }
+    ]
+}

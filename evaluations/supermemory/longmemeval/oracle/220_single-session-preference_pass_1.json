@@ -1,0 +1,14 @@
+{
+    "index": 220,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling nostalgic lately. Do you think it would be a good idea to attend my high school reunion?",
+    "question_date": "2023/05/27 (Sat) 22:13",
+    "ground_truth_answer": "The user would prefer responses that draw upon their personal experiences and memories, specifically their positive high school experiences such as being part of the debate team and taking advanced placement courses. They would prefer suggestions that highlight the potential benefits of attending the reunion, such as reconnecting with old friends and revisiting favorite subjects like history and economics. The user might not prefer generic or vague responses that do not take into account their individual experiences and interests.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's high school experiences, debate team participation, advanced placement courses, or favorite subjects (history and economics) that would be needed to provide the personalized response described in the gold answer."
+        }
+    ]
+}

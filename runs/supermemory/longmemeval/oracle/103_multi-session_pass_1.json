@@ -1,0 +1,24 @@
+{
+    "index": 103,
+    "question_type": "multi-session",
+    "question": "How many kitchen items did I replace or fix?",
+    "question_date": "2023/05/29 (Mon) 20:45",
+    "ground_truth_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_103_multi-session",
+        "supermemory_document_ids": [
+            "sJ7GD2ZR6KJuHVXjUHTn2B",
+            "SdN7nvcvSymt9ca9vm5JEx",
+            "LYtZz76HHvcvfr6QxMVvWn",
+            "RA3nYiSsx99CMwxAhzVWrP",
+            "JA7SbWgg37CbC6qJ3TmWD5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User fixed the kitchen shelves last weekend, increasing kitchen space\nUser decluttered kitchen countertops, removed the old toaster, and replaced it with a new toaster oven\nUser replaced the worn-out kitchen mat in front of the sink with a new IKEA mat that has a nice grip and is easy to clean",
+            "latency": 557.52
+        }
+    ]
+}

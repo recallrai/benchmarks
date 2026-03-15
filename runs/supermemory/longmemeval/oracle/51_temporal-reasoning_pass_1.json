@@ -1,0 +1,21 @@
+{
+    "index": 51,
+    "question_type": "temporal-reasoning",
+    "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+    "question_date": "2023/05/24 (Wed) 23:47",
+    "ground_truth_answer": "Japanese Zero fighter plane model",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_51_temporal-reasoning",
+        "supermemory_document_ids": [
+            "xoh8guB58knoBYDNZmBqxD",
+            "sfQ1XSsuZcWfLyh2dU5evp"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user started building the 1/48 scale Japanese Zero fighter plane about a month ago.\nThe user is building a 1/48 scale Japanese Zero fighter plane.\nUser plans to add texture and weathering effects to the airfield diorama for the Japanese Zero fighter plane\nThe user plans to add a pilot figure to the Japanese Zero fighter plane diorama\nThe user wants specific weathering patterns for the Japanese Zero fighter plane.\nThe user plans to add ground equipment like fuel drums and ammo crates to the Japanese Zero fighter plane diorama\nThe user started building the Ferrari 288 GTO model about three weeks ago on a rainy Sunday.\nUser can use small hinges and pins to create movable parts like ailerons, elevators, or rudders on the Japanese Zero fighter plane\nThe user is working on a Ferrari 288 GTO model.\nUser plans to add a racing helmet and pit board to the Ferrari 288 GTO model",
+            "latency": 715.497
+        }
+    ]
+}

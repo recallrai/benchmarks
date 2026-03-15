@@ -1,0 +1,20 @@
+{
+    "index": 301,
+    "question_type": "single-session-user",
+    "question": "How long did it take me to assemble the IKEA bookshelf?",
+    "question_date": "2023/05/28 (Sun) 03:40",
+    "ground_truth_answer": "4 hours",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_301_single-session-user",
+        "supermemory_document_ids": [
+            "XhtUgVYHWVXzWB9SVmk1aX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1906.005
+        }
+    ]
+}

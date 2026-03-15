@@ -1,0 +1,21 @@
+{
+    "index": 133,
+    "question_type": "knowledge-update",
+    "question": "How many short stories have I written since I started writing regularly?",
+    "question_date": "2023/06/14 (Wed) 08:23",
+    "ground_truth_answer": "seven",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_133_knowledge-update",
+        "supermemory_document_ids": [
+            "FztpXKvru4HUt3bdiK5Hee",
+            "Qhx7o5Xh1oNqVscQsXvk7W"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has been writing regularly for three months and completed seven short stories.\nThe user wants to write a memoir about their writing experiences from the past three months\nThe user writes on Sunday mornings, waking up early, making coffee, and sitting at the desk with a blank page as a therapeutic routine\nUser feels excitement and anticipation during Sunday morning writing\nThe user is planning to start a writing group with friends\nWriting is the user's happy place, providing an escape from everyday chaos.",
+            "latency": 885.611
+        }
+    ]
+}

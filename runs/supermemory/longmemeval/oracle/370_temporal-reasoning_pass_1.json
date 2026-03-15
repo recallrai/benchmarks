@@ -1,0 +1,22 @@
+{
+    "index": 370,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+    "question_date": "2023/06/01 (Thu) 23:23",
+    "ground_truth_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_370_temporal-reasoning",
+        "supermemory_document_ids": [
+            "eJimZ85TCRpUbBFg8m7Euc",
+            "WhadzSKwSUojT7i6XjrPHW",
+            "yhDdwVkQUKnj2AizKLu1aj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3080.097
+        }
+    ]
+}

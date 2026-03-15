@@ -1,0 +1,14 @@
+{
+    "index": 33,
+    "question_type": "temporal-reasoning",
+    "question": "Which health issue did I deal with first, the persistent cough or the skin tag removal?",
+    "question_date": "2023/02/28 (Tue) 02:35",
+    "ground_truth_answer": "Persistent cough",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context mentions a follow-up appointment for persistent cough on March 1st and a skin tag removal with no date, but does not provide sufficient information to determine which health issue was dealt with first chronologically."
+        }
+    ]
+}

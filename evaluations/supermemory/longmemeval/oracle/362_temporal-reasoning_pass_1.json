@@ -1,0 +1,14 @@
+{
+    "index": 362,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the friends and family sale at Nordstrom?",
+    "question_date": "2022/12/01 (Thu) 11:48",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context mentions shopping at Nordstrom 'yesterday' but doesn't provide an absolute date or enough information to determine if this corresponds to '2 weeks ago' from the question date of 2022/12/01."
+        }
+    ]
+}

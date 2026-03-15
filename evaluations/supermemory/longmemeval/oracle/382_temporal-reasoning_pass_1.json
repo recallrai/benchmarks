@@ -1,0 +1,14 @@
+{
+    "index": 382,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks passed between the time I sold homemade baked goods at the Farmers' Market for the last time and the time I participated in the Spring Fling Market?",
+    "question_date": "2023/04/01 (Sat) 09:53",
+    "ground_truth_answer": "3 weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user sold at the Farmers' Market and participated in the Spring Fling Market, but contains no temporal information or dates that would allow someone to determine that 3 weeks passed between these two events."
+        }
+    ]
+}

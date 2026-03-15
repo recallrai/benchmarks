@@ -1,0 +1,20 @@
+{
+    "index": 311,
+    "question_type": "single-session-user",
+    "question": "How many amateur comedians did I watch perform at the open mic night?",
+    "question_date": "2023/05/30 (Tue) 03:13",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_311_single-session-user",
+        "supermemory_document_ids": [
+            "VJBHuhELdZJffVsdjWX9GY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2423.484
+        }
+    ]
+}

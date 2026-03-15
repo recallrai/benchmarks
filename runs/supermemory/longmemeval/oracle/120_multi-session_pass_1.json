@@ -1,0 +1,21 @@
+{
+    "index": 120,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+    "question_date": "2023/05/28 (Sun) 06:00",
+    "ground_truth_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_120_multi-session",
+        "supermemory_document_ids": [
+            "CG2mJKCt1Ef9tNp2bAHgZy",
+            "bgFkkTx5PC2o7ZjRU835CX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 482.253
+        }
+    ]
+}

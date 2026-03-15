@@ -1,0 +1,20 @@
+{
+    "index": 206,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities that I can do in the evening?",
+    "question_date": "2023/05/24 (Wed) 05:51",
+    "ground_truth_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_206_single-session-preference",
+        "supermemory_document_ids": [
+            "wCm54aAjs7yUxar1vc3U36"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user aims to finish winding down by 9:30\u202fpm each evening to prepare for sleep.",
+            "latency": 3256.969
+        }
+    ]
+}

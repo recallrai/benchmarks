@@ -1,0 +1,20 @@
+{
+    "index": 309,
+    "question_type": "single-session-user",
+    "question": "What breed is my dog?",
+    "question_date": "2023/05/23 (Tue) 03:16",
+    "ground_truth_answer": "Golden Retriever",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_309_single-session-user",
+        "supermemory_document_ids": [
+            "99ctGK78QbJNRDFD9YcNCT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1974.134
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 348,
+    "question_type": "single-session-user",
+    "question": "Where did I meet Sophia?",
+    "question_date": "2023/05/25 (Thu) 15:35",
+    "ground_truth_answer": "a coffee shop in the city",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'The user met Sophia at a coffee shop in the city,' which matches the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "index": 70,
+    "question_type": "multi-session",
+    "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+    "question_date": "2023/05/28 (Sun) 01:01",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_70_multi-session",
+        "supermemory_document_ids": [
+            "Mkqdx9NBUQQrXm9o1ztgZM",
+            "w2vDrEpmU2AMWKTvR4Jv9B",
+            "bnTqiRWYbibwbExvBR9NqJ",
+            "jrMfqjDPjXQEzBgbjdd5nm"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User suggests citrus wheels and twists of lime, lemon, and orange as garnish for the DIY cocktail bar\nUser can infuse simple syrup with citrus peels (lemon, orange, grapefruit) for a bright citrus flavor\nUser can combine grapefruit, rosemary, and gin for a refreshing summer cocktail\nUser will provide cocktail recipe cards with suggested mixer and garnish combinations for the DIY cocktail bar\nUser can combine cranberry, lime, and ginger for a refreshing summer cocktail\nUser can use grapefruit soda as a mixer in a refreshing summer cocktail\nUser can use yuzu soda as a mixer in a refreshing summer cocktail\nUser can garnish a Cucumber Gimlet with a grapefruit twist\nUser can combine cucumber, basil, and lime for a refreshing summer cocktail\nUser suggests fresh strawberries, blueberries, raspberries, kiwi, peaches, and pineapple wedges as garnish options for the DIY cocktail bar",
+            "latency": 1435.035
+        }
+    ]
+}

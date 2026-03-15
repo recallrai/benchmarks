@@ -1,0 +1,14 @@
+{
+    "index": 324,
+    "question_type": "single-session-user",
+    "question": "What time do I stop checking work emails and messages?",
+    "question_date": "2023/05/30 (Tue) 12:46",
+    "ground_truth_answer": "7 pm",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about when the user stops checking work emails and messages."
+        }
+    ]
+}

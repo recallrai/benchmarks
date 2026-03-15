@@ -1,0 +1,14 @@
+{
+    "index": 13,
+    "question_type": "temporal-reasoning",
+    "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+    "question_date": "2023/05/20 (Sat) 06:04",
+    "ground_truth_answer": "Training pads for Luna",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context shows training pads for Luna were purchased 'about a month ago' while the dog bed for Max was bought 'three weeks ago', confirming training pads were purchased first as stated in the gold answer."
+        }
+    ]
+}

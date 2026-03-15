@@ -1,0 +1,14 @@
+{
+    "index": 119,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my iPad case to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 10:05",
+    "ground_truth_answer": "The information provided is not enough. You did not mention buying an iPad case.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The gold answer states no iPad case information was provided, and the retrieved context confirms this by only mentioning a backpack purchase, which allows someone to correctly answer that the iPad case information is not available."
+        }
+    ]
+}

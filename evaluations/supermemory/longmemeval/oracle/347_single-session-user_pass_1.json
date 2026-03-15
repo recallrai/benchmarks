@@ -1,0 +1,14 @@
+{
+    "index": 347,
+    "question_type": "single-session-user",
+    "question": "What health issue did I initially think was just a cold?",
+    "question_date": "2023/05/25 (Thu) 08:18",
+    "ground_truth_answer": "bronchitis",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user had bronchitis, which matches the gold answer and provides the key information needed to answer the question, even though it doesn't explicitly state the 'thought it was a cold' detail."
+        }
+    ]
+}

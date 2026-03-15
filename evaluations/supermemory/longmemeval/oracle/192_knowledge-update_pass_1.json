@@ -1,0 +1,14 @@
+{
+    "index": 192,
+    "question_type": "knowledge-update",
+    "question": "How many Italian restaurants have I tried in my city?",
+    "question_date": "2023/06/24 (Sat) 09:01",
+    "ground_truth_answer": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context is empty, which is consistent with the gold answer stating that there is not enough information to answer the question about Italian restaurants."
+        }
+    ]
+}

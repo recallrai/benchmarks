@@ -1,0 +1,21 @@
+{
+    "index": 431,
+    "question_type": "multi-session",
+    "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+    "question_date": "2023/05/30 (Tue) 03:23",
+    "ground_truth_answer": "$6",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_431_multi-session",
+        "supermemory_document_ids": [
+            "3AJ9F9ryYZsbUQMTdedREd",
+            "cjW5TCA6ZFWNdci2jiEn5v"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User missed the train by 5 minutes, resulting in a $12 taxi ride.\nUser missed the 7:45\u202fam train on a Wednesday, resulting in a $12 taxi ride.\nUser's daily train fare is $6.\nUser could save $191.94 per month by cycling to the station instead of taking the train.\nParticipating in the ride-sharing program can reduce User's daily commute expenses.\nUser typically takes the 7:45\u202fam train for the daily commute.\nCycling to the station would provide cost savings for User.\nUser considers the $12 taxi expense a setback.",
+            "latency": 2508.417
+        }
+    ]
+}

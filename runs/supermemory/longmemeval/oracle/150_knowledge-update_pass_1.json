@@ -1,0 +1,21 @@
+{
+    "index": 150,
+    "question_type": "knowledge-update",
+    "question": "How many new postcards have I added to my collection since I started collecting again?",
+    "question_date": "2023/12/20 (Wed) 22:41",
+    "ground_truth_answer": "25",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_150_knowledge-update",
+        "supermemory_document_ids": [
+            "tFo45fjFA69gvvVUN4hC9C",
+            "WEEqCKrUsGMgANsK76K3PN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has added 17 new postcards to their collection\nUser has added a total of 25 postcards to their collection\nUser acquired 8 new postcards from a local antique shop\nUser can follow Instagram accounts @postcardcollector, @postcrossing, and @vintagepostcards for postcard inspiration\nUser can participate in Reddit's r/postcards community for postcard collectors\nUser is satisfied with the current postcard catalog and plans to add more details later\nUser is interested in online communities for postcard collectors\nUser can browse The Postcard Collector website for collecting tips and resources\nUser will categorize postcards by theme\nUser can subscribe to the Postcard Collector's Newsletter for monthly updates",
+            "latency": 1659.083
+        }
+    ]
+}

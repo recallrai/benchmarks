@@ -1,0 +1,21 @@
+{
+    "index": 466,
+    "question_type": "multi-session",
+    "question": "What is the total time it takes I to get ready and commute to work?",
+    "question_date": "2023/05/27 (Sat) 13:44",
+    "ground_truth_answer": "an hour and a half",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_466_multi-session",
+        "supermemory_document_ids": [
+            "oPX4Sjc4GsQTJShzqgsvS1",
+            "WMCgLEiHqqhFdVgLFaSBC7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User wakes up at 6:30 AM.\nUser takes 30 minutes for a workout.\nUser is trying to improve productivity and time management skills.",
+            "latency": 2741.09
+        }
+    ]
+}

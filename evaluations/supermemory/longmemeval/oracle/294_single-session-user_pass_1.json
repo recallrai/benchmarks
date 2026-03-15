@@ -1,0 +1,14 @@
+{
+    "index": 294,
+    "question_type": "single-session-user",
+    "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+    "question_date": "2023/04/02 (Sun) 20:31",
+    "ground_truth_answer": "February 14th",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about volunteering at an animal shelter fundraising dinner or any related date."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 302,
+    "question_type": "single-session-user",
+    "question": "What did I buy for my sister's birthday gift?",
+    "question_date": "2023/05/30 (Tue) 04:48",
+    "ground_truth_answer": "a yellow dress",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_302_single-session-user",
+        "supermemory_document_ids": [
+            "uCSR7saG9kqH79hTKh2YF6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User bought a pair of earrings for sister's birthday.\nUser bought a yellow dress for sister's birthday.\nUser bought pens for coworkers.\nUser bought a pair of silver hoop earrings with a small pearl in the center for mom.\nUser bought Rachel's journal for coworkers.\nUser gave Rachel a beautiful journal and a set of nice pens at her going-away party\nUser bought drinks for coworkers.\nUser bought flowers for Mrs. Johnson when she was recovering from surgery.",
+            "latency": 686.003
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 71,
+    "question_type": "multi-session",
+    "question": "How many movie festivals that I attended?",
+    "question_date": "2023/05/29 (Mon) 08:34",
+    "ground_truth_answer": "I attended four movie festivals.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_71_multi-session",
+        "supermemory_document_ids": [
+            "8gZbpSV66LD5fzBJAEu6MP",
+            "uYYKE69gisgqrSWt6XvTjV",
+            "djbPmeyW2i2fDnQeNw3vQQ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 548.298
+        }
+    ]
+}

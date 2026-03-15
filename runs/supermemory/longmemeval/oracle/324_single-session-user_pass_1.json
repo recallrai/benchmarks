@@ -1,0 +1,20 @@
+{
+    "index": 324,
+    "question_type": "single-session-user",
+    "question": "What time do I stop checking work emails and messages?",
+    "question_date": "2023/05/30 (Tue) 12:46",
+    "ground_truth_answer": "7 pm",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_324_single-session-user",
+        "supermemory_document_ids": [
+            "p4xJwCP26jPG9hnRiDi5s7"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2709.376
+        }
+    ]
+}

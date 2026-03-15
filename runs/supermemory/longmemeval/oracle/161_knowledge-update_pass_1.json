@@ -1,0 +1,21 @@
+{
+    "index": 161,
+    "question_type": "knowledge-update",
+    "question": "Where did I get my guitar serviced?",
+    "question_date": "2023/06/12 (Mon) 07:37",
+    "ground_truth_answer": "The music shop on Main St.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_161_knowledge-update",
+        "supermemory_document_ids": [
+            "nJCW1drMQ2dhbJG3Aum2XQ",
+            "FxCNxjyVq97ZVLF9s1LKLk"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User had guitar serviced at a music shop on Main St and considers it good at guitar maintenance\nUser wants advice on how to prepare a guitar for servicing\nUser plans to get acoustic guitar serviced before the music festival\nUser will ask Rhythm Central about types of guitar servicing offered (e.g., setup, fretwork, electronics repair)\nUser will ask Rhythm Central for a rough cost estimate for guitar servicing\nUser will ask Rhythm Central about average turnaround time for guitar servicing\nThe user will call Rhythm Central on Main St to inquire about guitar servicing",
+            "latency": 2588.889
+        }
+    ]
+}

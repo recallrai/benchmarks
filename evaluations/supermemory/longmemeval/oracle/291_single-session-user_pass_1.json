@@ -1,0 +1,14 @@
+{
+    "index": 291,
+    "question_type": "single-session-user",
+    "question": "What was my last name before I changed it?",
+    "question_date": "2023/05/29 (Mon) 18:26",
+    "ground_truth_answer": "Johnson",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Winters changed last name from Johnson to Winters', which directly indicates that Johnson was the user's last name before changing it to Winters."
+        }
+    ]
+}

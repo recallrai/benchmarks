@@ -1,0 +1,14 @@
+{
+    "index": 45,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+    "question_date": "2023/05/29 (Mon) 09:14",
+    "ground_truth_answer": "Receiving the new phone case",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the phone case's function but provides no temporal information about when either event (losing the charger or receiving the case) occurred or their relative timing."
+        }
+    ]
+}

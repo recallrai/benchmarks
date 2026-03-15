@@ -1,0 +1,21 @@
+{
+    "index": 478,
+    "question_type": "multi-session",
+    "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+    "question_date": "2023/05/29 (Mon) 09:49",
+    "ground_truth_answer": "1,998",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_478_multi-session",
+        "supermemory_document_ids": [
+            "L12y4UyDonetNYNTCbVTSH",
+            "woyNRWZd1hb9aDV1zkiyCm"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's popular TikTok video of Luna chasing a laser pointer has over 1,400 views\nUser's YouTube tutorial on social media analytics has 542 views.",
+            "latency": 393.836
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 460,
+    "question_type": "multi-session",
+    "question": "How much did I spend on each coffee mug for my coworkers?",
+    "question_date": "2023/05/27 (Sat) 22:10",
+    "ground_truth_answer": "$12",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user spent $60 on coffee mugs and purchased 5 mugs, which allows calculation of $12 per mug, matching the gold answer."
+        }
+    ]
+}

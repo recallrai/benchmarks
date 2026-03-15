@@ -1,0 +1,14 @@
+{
+    "index": 143,
+    "question_type": "knowledge-update",
+    "question": "How many of Emma's recipes have I tried out?",
+    "question_date": "2023/06/09 (Fri) 10:52",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has tried three of Emma's recipes, which directly matches the gold answer of 3."
+        }
+    ]
+}

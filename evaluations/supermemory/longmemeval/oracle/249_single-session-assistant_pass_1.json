@@ -1,0 +1,14 @@
+{
+    "index": 249,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+    "question_date": "2023/05/30 (Tue) 12:39",
+    "ground_truth_answer": "Roscioli",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a deli near the Vatican or Roscioli."
+        }
+    ]
+}

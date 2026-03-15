@@ -1,0 +1,21 @@
+{
+    "index": 171,
+    "question_type": "knowledge-update",
+    "question": "What was my previous personal best time for the charity 5K run?",
+    "question_date": "2023/08/23 (Wed) 07:49",
+    "ground_truth_answer": "27 minutes and 45 seconds",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_171_knowledge-update",
+        "supermemory_document_ids": [
+            "jHgKpLEPTxtgdme8CLbP7C",
+            "fWV1CKwgvLjttcXwT7CBLb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user completed a charity 5K run last weekend, beating their personal best by 1.5 minutes\nUser's personal best 5K time is 26:30 minutes\nUser's previous charity 5K performance of 26 minutes 30 seconds is factored into the 10K training plan.\nUser's estimated 10K finish time is 53\u201155 minutes based on the 5K performance\nUser's estimated 10K performance is around 53-55 minutes, based on their 5K time.\nUser is committed to their 10K goal of under 55 minutes.\nUser's lactate threshold pace is estimated at 8:45-9:00 min/mile based on their 5K time.\nUser has 12 weeks until the 10K event.\nDuring weeks 1-4, User's shorter weekday runs will be 3-4 miles at a 8:45-9:00 min/mile pace.\nDuring weeks 1-4, User's longer weekend run will be 6-7 miles at a 9:00-9:15 min/mile pace.",
+            "latency": 1448.511
+        }
+    ]
+}

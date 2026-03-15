@@ -1,0 +1,14 @@
+{
+    "index": 215,
+    "question_type": "single-session-preference",
+    "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+    "question_date": "2023/05/27 (Sat) 23:31",
+    "ground_truth_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's previous baking success with lemon poppyseed cake or their baking experience, which is essential to answer the question according to the gold answer."
+        }
+    ]
+}

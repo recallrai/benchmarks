@@ -1,0 +1,14 @@
+{
+    "index": 38,
+    "question_type": "temporal-reasoning",
+    "question": "How long did I use my new binoculars before I saw the American goldfinches returning to the area?",
+    "question_date": "2023/05/26 (Fri) 09:53",
+    "ground_truth_answer": "Two weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions when the user acquired the binoculars (three weeks ago) but contains no information about American goldfinches or when they were observed, making it impossible to answer the question about the two-week timeframe."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 301,
+    "question_type": "single-session-user",
+    "question": "How long did it take me to assemble the IKEA bookshelf?",
+    "question_date": "2023/05/28 (Sun) 03:40",
+    "ground_truth_answer": "4 hours",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the IKEA bookshelf assembly time, making it impossible to answer the question."
+        }
+    ]
+}

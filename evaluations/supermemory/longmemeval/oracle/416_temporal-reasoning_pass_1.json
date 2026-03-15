@@ -1,0 +1,14 @@
+{
+    "index": 416,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+    "question_date": "2023/02/01 (Wed) 21:37",
+    "ground_truth_answer": "The Metropolitan Museum of Art.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the art event location, so it cannot be used to answer the question about where the event was held."
+        }
+    ]
+}

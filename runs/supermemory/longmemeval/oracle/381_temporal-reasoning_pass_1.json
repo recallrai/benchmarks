@@ -1,0 +1,21 @@
+{
+    "index": 381,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+    "question_date": "2023/04/01 (Sat) 16:11",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_381_temporal-reasoning",
+        "supermemory_document_ids": [
+            "wgB57VQg5ZQCMdxzoezvrM",
+            "AFRRsmybErEHum9eF2QFaa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User took the Taylor GS Mini to guitar tech Joe at Guitar Central today\nThe user owns a Taylor GS Mini ukulele.\nThe user plans to ask Joe to adjust the action on the Taylor GS Mini.\nJoe works as a guitar tech at Guitar Central.\nUser will ask Joe to check the tuning machines on the Taylor GS Mini for smooth operation and tuning stability.\nUser's Taylor GS Mini action is now perfect after service by Joe",
+            "latency": 644.367
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 323,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new bookshelf from?",
+    "question_date": "2023/05/20 (Sat) 18:19",
+    "ground_truth_answer": "IKEA",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'new IKEA bookshelf' twice, which directly answers where the bookshelf was purchased from and matches the gold answer."
+        }
+    ]
+}

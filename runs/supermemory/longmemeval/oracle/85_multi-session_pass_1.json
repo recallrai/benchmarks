@@ -1,0 +1,22 @@
+{
+    "index": 85,
+    "question_type": "multi-session",
+    "question": "Which social media platform did I gain the most followers on over the past month?",
+    "question_date": "2023/05/28 (Sun) 00:07",
+    "ground_truth_answer": "TikTok",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_85_multi-session",
+        "supermemory_document_ids": [
+            "B8S9eccdDQJANq3Zkjebpu",
+            "DRWj4TvRyhXzfWeZewpD8Q",
+            "WP1v6zjQKxGN3jUg9EMLxX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1630.335
+        }
+    ]
+}

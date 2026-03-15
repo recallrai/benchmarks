@@ -1,0 +1,20 @@
+{
+    "index": 332,
+    "question_type": "single-session-user",
+    "question": "How long was I in Japan for?",
+    "question_date": "2023/05/28 (Sun) 23:29",
+    "ground_truth_answer": "two weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_332_single-session-user",
+        "supermemory_document_ids": [
+            "V3zxhVYgPDPUxevcW1WUwV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2002.146
+        }
+    ]
+}

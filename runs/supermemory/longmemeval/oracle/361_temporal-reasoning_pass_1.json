@@ -1,0 +1,22 @@
+{
+    "index": 361,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I last visited a museum with a friend?",
+    "question_date": "2023/03/25 (Sat) 08:30",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_361_temporal-reasoning",
+        "supermemory_document_ids": [
+            "XB6CCpHLHXCd8t8UhYwwFc",
+            "oiAw54nPVGw1WSFFYSnp88",
+            "da8Zkkw1acZq1TCLY52ngp"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2219.364
+        }
+    ]
+}

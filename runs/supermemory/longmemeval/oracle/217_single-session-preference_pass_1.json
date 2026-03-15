@@ -1,0 +1,20 @@
+{
+    "index": 217,
+    "question_type": "single-session-preference",
+    "question": "I'm getting excited about my visit to the music store this weekend. Any tips on what to look for in a new guitar?",
+    "question_date": "2023/05/28 (Sun) 01:56",
+    "ground_truth_answer": "The user would prefer responses that highlight the differences between Fender Stratocaster and Gibson Les Paul electric guitars, such as the feel of the neck, weight, and sound profile. They might not prefer general tips on buying an electric guitar or suggestions that do not take into account their current guitar and desired upgrade.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_217_single-session-preference",
+        "supermemory_document_ids": [
+            "jVenznsnJfioFKBhZLU97C"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 699.995
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 160,
+    "question_type": "knowledge-update",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/04/23 (Sun) 13:41",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about whether the user finished reading 'The Nightingale' by Kristin Hannah."
+        }
+    ]
+}

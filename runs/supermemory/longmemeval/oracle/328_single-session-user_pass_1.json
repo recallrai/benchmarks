@@ -1,0 +1,20 @@
+{
+    "index": 328,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my niece's birthday party?",
+    "question_date": "2023/05/25 (Thu) 18:44",
+    "ground_truth_answer": "a lemon blueberry cake",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_328_single-session-user",
+        "supermemory_document_ids": [
+            "x3EtHMmvBt1ZzQvKqzKoun"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 683.371
+        }
+    ]
+}

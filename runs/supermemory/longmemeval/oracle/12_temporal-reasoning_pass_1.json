@@ -1,0 +1,21 @@
+{
+    "index": 12,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+    "question_date": "2023/03/14 (Tue) 15:20",
+    "ground_truth_answer": "14 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_12_temporal-reasoning",
+        "supermemory_document_ids": [
+            "PVjnYthLSJWahqSYG7FaxD",
+            "9cZebxvMiu8uXAG7jPQFsz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User volunteered at the Coastal Cleanup event on March 7\nUser participated in the Walk for Hunger 5K walk on February 21\nUser can take part in the California Coastal Commission's annual Coastal Cleanup Day in September to clean California coastlines and learn about marine debris impact on coral reefs\nUser can participate in Surfrider Foundation's Beach Cleanup Program to remove marine debris and protect coral reefs",
+            "latency": 783.821
+        }
+    ]
+}

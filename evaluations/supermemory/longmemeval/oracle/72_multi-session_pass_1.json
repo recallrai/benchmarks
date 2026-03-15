@@ -1,0 +1,14 @@
+{
+    "index": 72,
+    "question_type": "multi-session",
+    "question": "How many days did I take social media breaks in total?",
+    "question_date": "2023/03/14 (Tue) 22:35",
+    "ground_truth_answer": "17 days",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about social media breaks or the duration of 17 days needed to answer the question."
+        }
+    ]
+}

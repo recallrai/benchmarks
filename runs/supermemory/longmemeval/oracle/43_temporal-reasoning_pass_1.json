@@ -1,0 +1,22 @@
+{
+    "index": 43,
+    "question_type": "temporal-reasoning",
+    "question": "Which streaming service did I start using most recently?",
+    "question_date": "2023/05/22 (Mon) 04:35",
+    "ground_truth_answer": "Disney+",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_43_temporal-reasoning",
+        "supermemory_document_ids": [
+            "qATaJPNxb75iJ8PbLth8BN",
+            "5PU46sZGmQkJeWbTEAerZ9",
+            "KMdTM3MkYK7iueZJS7mL2A"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User watched a nature documentary on Disney+ during their free trial last month",
+            "latency": 1192.0
+        }
+    ]
+}

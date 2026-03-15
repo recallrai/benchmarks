@@ -1,0 +1,20 @@
+{
+    "index": 268,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+    "question_date": "2023/05/29 (Mon) 07:37",
+    "ground_truth_answer": "Patagonia and Southwest Airlines.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_268_single-session-assistant",
+        "supermemory_document_ids": [
+            "uwxUnjsusMzwhV77SuC7xg"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1875.096
+        }
+    ]
+}

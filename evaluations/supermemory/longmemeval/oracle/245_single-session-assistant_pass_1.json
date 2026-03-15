@@ -1,0 +1,14 @@
+{
+    "index": 245,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to go back to the Natural Park of Moncayo mountain in Arag\u00f3n and I was wondering, what was the name of that hiking trail you recommended that takes you through the park's most stunning landscapes and offers panoramic views of the surrounding mountainside?",
+    "question_date": "2023/05/29 (Mon) 19:48",
+    "ground_truth_answer": "The GR-90 trail.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the GR-90 trail or any hiking trail recommendation for the Natural Park of Moncayo mountain."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 286,
+    "question_type": "single-session-user",
+    "question": "What degree did I graduate with?",
+    "question_date": "2023/05/23 (Tue) 19:11",
+    "ground_truth_answer": "Business Administration",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_286_single-session-user",
+        "supermemory_document_ids": [
+            "7KsC24fhSgppfA8xsYZhX6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 998.158
+        }
+    ]
+}

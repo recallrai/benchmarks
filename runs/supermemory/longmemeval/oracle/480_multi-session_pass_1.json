@@ -1,0 +1,21 @@
+{
+    "index": 480,
+    "question_type": "multi-session",
+    "question": "How many years older am I than when I graduated from college?",
+    "question_date": "2023/05/27 (Sat) 16:37",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_480_multi-session",
+        "supermemory_document_ids": [
+            "9XdmjpjQxHHGxPQ3PYT9To",
+            "sxCxCnJX5mA49WhZfMCMbR"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is 32 years old.\nUser completed Bachelor's degree in Business Administration with a concentration in Marketing at age 25.",
+            "latency": 2019.641
+        }
+    ]
+}

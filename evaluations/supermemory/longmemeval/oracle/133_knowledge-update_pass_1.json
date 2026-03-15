@@ -1,0 +1,14 @@
+{
+    "index": 133,
+    "question_type": "knowledge-update",
+    "question": "How many short stories have I written since I started writing regularly?",
+    "question_date": "2023/06/14 (Wed) 08:23",
+    "ground_truth_answer": "seven",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly states 'completed seven short stories' which matches the gold answer of 'seven' exactly."
+        }
+    ]
+}

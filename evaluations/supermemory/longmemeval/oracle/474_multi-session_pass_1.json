@@ -1,0 +1,14 @@
+{
+    "index": 474,
+    "question_type": "multi-session",
+    "question": "What time did I reach the clinic on Monday?",
+    "question_date": "2023/05/29 (Mon) 00:19",
+    "ground_truth_answer": "9:00 AM",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The context mentions the clinic's general morning appointment hours (9:00 am to 12:00 pm) and that the user returned to office at 1:00 PM last Monday, but does not explicitly state when the user actually reached the clinic at 9:00 AM."
+        }
+    ]
+}

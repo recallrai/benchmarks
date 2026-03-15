@@ -1,0 +1,14 @@
+{
+    "index": 9,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+    "question_date": "2023/06/28 (Wed) 20:07",
+    "ground_truth_answer": "4 days.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context states Turbocharged Tuesdays was on June 14th and Rack Fest was on June 18th, which is exactly 4 days apart, matching the gold answer."
+        }
+    ]
+}

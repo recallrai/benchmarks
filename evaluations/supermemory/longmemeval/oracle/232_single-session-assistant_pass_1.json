@@ -1,0 +1,14 @@
+{
+    "index": 232,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+    "question_date": "2023/05/24 (Wed) 21:34",
+    "ground_truth_answer": "The Plesiosaur had a blue scaly body.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Plesiosaur's color or the children's book on dinosaurs, so it cannot be used to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 461,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster on my thesis research?",
+    "question_date": "2023/05/27 (Sat) 08:24",
+    "ground_truth_answer": "Harvard University",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_461_multi-session",
+        "supermemory_document_ids": [
+            "Y29nK2Vuyo4UguUjMYjXXD",
+            "dqA7yTwFqoVojznJxPoK86"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended a research conference at Harvard University\nThe user presented research on AI's impact on education at a conference over the summer.",
+            "latency": 1226.145
+        }
+    ]
+}

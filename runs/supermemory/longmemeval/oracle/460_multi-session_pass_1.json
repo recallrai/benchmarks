@@ -1,0 +1,21 @@
+{
+    "index": 460,
+    "question_type": "multi-session",
+    "question": "How much did I spend on each coffee mug for my coworkers?",
+    "question_date": "2023/05/27 (Sat) 22:10",
+    "ground_truth_answer": "$12",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_460_multi-session",
+        "supermemory_document_ids": [
+            "aQMhrs9wdJ63KZ9aMCv7TQ",
+            "89RTM6cBGHZ7WEXhEuyGnX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User spent $60 on coffee mugs for coworkers.\nUser purchased 5 coffee mugs with funny quotes for coworkers during the holiday season.\nUser allocates $150 annually for coworker birthday gifts.\nUser wants to buy nice but not too expensive gifts for coworkers.\nUser spent $60 on a gift for their brother's anniversary\nUser allocates approximately $325 annually for holiday gifts.\nUser spends approximately $250 on Christmas gifts annually.\nUser spent $32 on a gift for their mom's birthday\nUser's total gift-giving expenses for the past 3 months were $297.\nUser is seeking confirmation on their revised gift budget, which now includes coworker birthday gifts.",
+            "latency": 2374.742
+        }
+    ]
+}

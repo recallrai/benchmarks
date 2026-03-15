@@ -1,0 +1,14 @@
+{
+    "index": 91,
+    "question_type": "multi-session",
+    "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+    "question_date": "2023/03/01 (Wed) 19:29",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions an order placed on 2025-02-05, which is nearly 2 years after the question date (2023/03/01), suggesting it's a different order, and crucially, the context does not include any information about delivery time or receipt date to determine it took 5-6 days."
+        }
+    ]
+}

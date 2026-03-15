@@ -1,0 +1,14 @@
+{
+    "index": 369,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did I spend on my solo camping trip to Yosemite National Park?",
+    "question_date": "2023/06/01 (Thu) 12:42",
+    "ground_truth_answer": "2 days. 3 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms a solo camping trip to Yosemite was completed but does not provide any information about the duration or number of days spent on the trip."
+        }
+    ]
+}

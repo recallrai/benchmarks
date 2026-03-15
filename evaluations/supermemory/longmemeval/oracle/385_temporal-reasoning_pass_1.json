@@ -1,0 +1,14 @@
+{
+    "index": 385,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+    "question_date": "2023/07/01 (Sat) 13:47",
+    "ground_truth_answer": "I first completed the Spring Sprint Triathlon, then took part in the Midsummer 5K Run, and finally participated in the company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any sports events, so it cannot be used to answer the question about the order of the three sports events."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 282,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+    "question_date": "2023/05/27 (Sat) 20:30",
+    "ground_truth_answer": "Patagonia",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Patagonia or any company doing well with sustainability practices."
+        }
+    ]
+}

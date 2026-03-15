@@ -1,0 +1,21 @@
+{
+    "index": 435,
+    "question_type": "multi-session",
+    "question": "How much cashback did I earn at SaveMart last Thursday?",
+    "question_date": "2023/05/29 (Mon) 13:21",
+    "ground_truth_answer": "$0.75",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_435_multi-session",
+        "supermemory_document_ids": [
+            "f78CMzY5ULRCj1SvJWmhwb",
+            "qsm4ksWqQFFQyMCi6SYNoU"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "SaveMart promotion this week offers Buy One Get One 50% off ground beef, making a 3\u2011lb pack $4.99 (saving $5.00).\nThe updated cashback earnings are $0.55.\nSaveMart promotion this week offers Buy One Get One 50% off ground beef.\nUser planned to buy milk, eggs, bread, and snacks at SaveMart within a $50 budget.",
+            "latency": 2635.11
+        }
+    ]
+}

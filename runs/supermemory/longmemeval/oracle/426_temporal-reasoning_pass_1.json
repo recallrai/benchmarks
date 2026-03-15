@@ -1,0 +1,20 @@
+{
+    "index": 426,
+    "question_type": "temporal-reasoning",
+    "question": "What kitchen appliance did I buy 10 days ago?",
+    "question_date": "2023/03/25 (Sat) 18:04",
+    "ground_truth_answer": "a smoker",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_426_temporal-reasoning",
+        "supermemory_document_ids": [
+            "xvNvGaHEjLewCidnVQh8oT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User acquired a smoker for experimenting with BBQ",
+            "latency": 427.303
+        }
+    ]
+}

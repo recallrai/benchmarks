@@ -1,0 +1,14 @@
+{
+    "index": 312,
+    "question_type": "single-session-user",
+    "question": "What is the name of my cat?",
+    "question_date": "2023/05/28 (Sun) 16:07",
+    "ground_truth_answer": "Luna",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The user's cat is named Luna' which directly matches the gold answer."
+        }
+    ]
+}

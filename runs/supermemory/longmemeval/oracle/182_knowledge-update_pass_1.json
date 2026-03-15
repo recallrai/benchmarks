@@ -1,0 +1,21 @@
+{
+    "index": 182,
+    "question_type": "knowledge-update",
+    "question": "What type of vehicle model am I currently working on?",
+    "question_date": "2023/06/11 (Sun) 18:18",
+    "ground_truth_answer": "Ford F-150 pickup truck",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_182_knowledge-update",
+        "supermemory_document_ids": [
+            "tNtjcqv1TmNXUSto3vB24M",
+            "3iMadboeKaDjSffnsws7u3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user uses reference images of real vehicles to plan realistic weathering on the Ford F\u2011150 model\nUser focuses on wheel wells when weathering the underside of the Ford F\u2011150 model\nUser pays attention to suspension components when weathering the underside of the Ford F\u2011150 model\nUser tests decals on a scrap piece of plastic before applying to the Ford F-150 model\nUser keeps weathering effects subtle and realistic on the underside of the Ford F\u2011150 model\nUser uses a small brush for precise blending of rust effects on wheel wells and suspension.\nThe user recommends adding final details like decals, labels, and textures to complete the engine and transmission\nThe user plans to add decals to a Ford F-150 pickup truck model and seeks advice on applying decals to curved surfaces\nUser applies rust and corrosion weathering with rust-colored paint or rust-effect solution on undercarriage, suspension components, and exhaust system\nUser applies dust and dirt weathering to wheel wells, door handles, and the underside of the Ford F\u2011150 model",
+            "latency": 3576.866
+        }
+    ]
+}

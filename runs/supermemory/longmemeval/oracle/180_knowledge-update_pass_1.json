@@ -1,0 +1,21 @@
+{
+    "index": 180,
+    "question_type": "knowledge-update",
+    "question": "What is my current record in the recreational volleyball league?",
+    "question_date": "2023/07/17 (Mon) 02:55",
+    "ground_truth_answer": "5-2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_180_knowledge-update",
+        "supermemory_document_ids": [
+            "x6c3qfg1ZZ26V5vmfCnuoC",
+            "PdY7M9bZSFeun1LAuGcL1Q"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Net Ninja plays volleyball\nNet Ninja will invite friends from the volleyball league to the mini tournament",
+            "latency": 1146.525
+        }
+    ]
+}

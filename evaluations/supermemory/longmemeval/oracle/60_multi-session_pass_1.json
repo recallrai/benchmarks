@@ -1,0 +1,14 @@
+{
+    "index": 60,
+    "question_type": "multi-session",
+    "question": "How many items of clothing do I need to pick up or return from a store?",
+    "question_date": "2023/02/15 (Wed) 19:47",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses the user's methods for tracking pickups and returns (creating lists, using notes app) but does not contain any information about a specific number of items (3) that need to be picked up or returned from a store."
+        }
+    ]
+}

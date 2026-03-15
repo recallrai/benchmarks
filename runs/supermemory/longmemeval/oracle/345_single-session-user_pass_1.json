@@ -1,0 +1,20 @@
+{
+    "index": 345,
+    "question_type": "single-session-user",
+    "question": "Who gave me a new stand mixer as a birthday gift?",
+    "question_date": "2023/05/24 (Wed) 21:11",
+    "ground_truth_answer": "my sister",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_345_single-session-user",
+        "supermemory_document_ids": [
+            "a4psAHVFkvwDoNfhT7m9FQ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user received a new stand mixer as a birthday gift from their sister last month.\nThe user uses the whisk attachment on the stand mixer when making caramel sauce.\nThe user recently acquired a new coffee grinder\nThe user recently acquired a milk frother",
+            "latency": 469.972
+        }
+    ]
+}

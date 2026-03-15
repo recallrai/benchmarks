@@ -1,0 +1,21 @@
+{
+    "index": 446,
+    "question_type": "multi-session",
+    "question": "How many Marvel movies did I re-watch?",
+    "question_date": "2023/05/26 (Fri) 23:52",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_446_multi-session",
+        "supermemory_document_ids": [
+            "ybPz3dg7Y9ea5Yrp86HJZh",
+            "HjMUUmE6FHxxNvm4LQrmS6"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User re-watched the Marvel film Avengers: Endgame.\nUser re-watched Spider-Man: No Way Home\nUser is interested in newer non\u2011Marvel superhero movies released in the past few years\nUser is interested in newer non-Marvel superhero movies.\nUser is exploring sci\u2011fi and action movies with epic battles similar to Avengers: Endgame.\nUser watches movies with complex villains such as the Joker in The Dark Knight",
+            "latency": 2778.365
+        }
+    ]
+}

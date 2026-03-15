@@ -1,0 +1,14 @@
+{
+    "index": 395,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+    "question_date": "2023/05/01 (Mon) 06:46",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions bird watching interests and plans but contains no information about attending a workshop at the Audubon society or any timeframe that would indicate '4 weeks ago'."
+        }
+    ]
+}

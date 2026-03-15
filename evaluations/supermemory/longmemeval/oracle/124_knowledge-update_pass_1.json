@@ -1,0 +1,14 @@
+{
+    "index": 124,
+    "question_type": "knowledge-update",
+    "question": "Where did Rachel move to after her recent relocation?",
+    "question_date": "2023/06/24 (Sat) 08:50",
+    "ground_truth_answer": "the suburbs",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about Rachel's relocation or where she moved to."
+        }
+    ]
+}

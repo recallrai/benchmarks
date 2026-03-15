@@ -1,0 +1,21 @@
+{
+    "index": 46,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+    "question_date": "2023/05/28 (Sun) 15:31",
+    "ground_truth_answer": "the woman selling jam at the farmer's market",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_46_temporal-reasoning",
+        "supermemory_document_ids": [
+            "7HsMATeRKFXno8wHy6antd",
+            "Zo8uZJse9jfCFAm8Pd1aGV"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User had a conversation with a jam maker at the farmer's market two weeks ago on a Saturday morning",
+            "latency": 3107.459
+        }
+    ]
+}

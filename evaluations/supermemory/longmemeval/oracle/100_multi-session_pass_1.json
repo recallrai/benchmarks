@@ -1,0 +1,14 @@
+{
+    "index": 100,
+    "question_type": "multi-session",
+    "question": "How many bikes did I service or plan to service in March?",
+    "question_date": "2023/03/20 (Mon) 14:45",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions bike servicing events dated in March 2026, which is 3 years after the question date of March 2023, making the temporal context misaligned and unable to accurately answer a question about March 2023."
+        }
+    ]
+}

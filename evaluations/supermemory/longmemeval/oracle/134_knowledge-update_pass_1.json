@@ -1,0 +1,14 @@
+{
+    "index": 134,
+    "question_type": "knowledge-update",
+    "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+    "question_date": "2023/06/28 (Wed) 22:01",
+    "ground_truth_answer": "220",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the number of pages read of 'A Short History of Nearly Everything', so it cannot be used to answer the question correctly."
+        }
+    ]
+}

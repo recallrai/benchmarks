@@ -1,0 +1,14 @@
+{
+    "index": 303,
+    "question_type": "single-session-user",
+    "question": "What speed is my new internet plan?",
+    "question_date": "2023/05/30 (Tue) 05:53",
+    "ground_truth_answer": "500 Mbps",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the internet plan speed, so it cannot be used to answer the question about the 500 Mbps speed."
+        }
+    ]
+}

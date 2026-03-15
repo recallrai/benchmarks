@@ -1,0 +1,14 @@
+{
+    "index": 170,
+    "question_type": "knowledge-update",
+    "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+    "question_date": "2023/06/19 (Mon) 14:41",
+    "ground_truth_answer": "Premier Silver",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the current Premier Gold status and potential future Premier Platinum status, but does not contain any information about the previous Premier Silver status."
+        }
+    ]
+}

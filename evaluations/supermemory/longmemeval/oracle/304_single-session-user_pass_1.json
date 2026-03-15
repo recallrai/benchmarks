@@ -1,0 +1,14 @@
+{
+    "index": 304,
+    "question_type": "single-session-user",
+    "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+    "question_date": "2023/05/30 (Tue) 20:28",
+    "ground_truth_answer": "7",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about shirts packed for a Costa Rica trip."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "index": 105,
+    "question_type": "multi-session",
+    "question": "How much total money did I spend on attending workshops in the last four months?",
+    "question_date": "2023/02/26 (Sun) 22:36",
+    "ground_truth_answer": "$720",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_105_multi-session",
+        "supermemory_document_ids": [
+            "eTq5HVq6v5adANkuXKvUiu",
+            "vTQd97s5M2pB7osugnDc9C",
+            "gbYda8MC6EguFVPDt3UcbK",
+            "C6qxpRQBo22eoSC7JfXWR5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended five workshops in the past three months\nUser attended a half-day mindfulness workshop at a yoga studio on December 12, paying $20 and received a workbook\nUser attended a half-day mindfulness workshop at a yoga studio near home on December 12, paying $20 and received a workbook with exercises and tips.\nUser attended at least one workshop each month over the past three months\nUser paid $200 to attend the writing workshop\nUser's most recent workshop was a digital marketing workshop\nUser attended a two-day writing workshop at a literary festival in November\nUser aims to attend at least one workshop per month\nThe user attended a one-day photography workshop on February 22 at a local studio\nUser paid $500 to attend the digital marketing workshop at the city convention center",
+            "latency": 1051.377
+        }
+    ]
+}

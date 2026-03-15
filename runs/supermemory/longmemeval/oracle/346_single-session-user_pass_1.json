@@ -1,0 +1,20 @@
+{
+    "index": 346,
+    "question_type": "single-session-user",
+    "question": "What brand of shampoo do I currently use?",
+    "question_date": "2023/05/28 (Sun) 23:42",
+    "ground_truth_answer": "Trader Joe's",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_346_single-session-user",
+        "supermemory_document_ids": [
+            "L4xdfs4pbXPS3CWxKZFBb8"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1334.384
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 419,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet with during the lunch last Tuesday?",
+    "question_date": "2023/04/18 (Tue) 02:06",
+    "ground_truth_answer": "Emma",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states 'User is meeting Emma, a freelance writer, for lunch today' which directly identifies Emma as the lunch meeting person, matching the gold answer."
+        }
+    ]
+}

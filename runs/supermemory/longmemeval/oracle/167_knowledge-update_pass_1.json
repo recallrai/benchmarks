@@ -1,0 +1,21 @@
+{
+    "index": 167,
+    "question_type": "knowledge-update",
+    "question": "How many Crash Course videos have I watched in the past few weeks?",
+    "question_date": "2023/10/05 (Thu) 21:04",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_167_knowledge-update",
+        "supermemory_document_ids": [
+            "dgfr6wT8i7tJd2KsLzq81B",
+            "DDXxMVYV2sHYeqBpwCVzQN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has watched 15 Crash Course videos in the past few weeks.\nUser has watched 12 Crash Course videos on computer science.\nUser watched the video \"The Attention Mechanism\" by 3Blue1Brown",
+            "latency": 1890.645
+        }
+    ]
+}

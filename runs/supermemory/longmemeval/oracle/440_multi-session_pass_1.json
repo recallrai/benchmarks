@@ -1,0 +1,21 @@
+{
+    "index": 440,
+    "question_type": "multi-session",
+    "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+    "question_date": "2023/05/30 (Tue) 16:15",
+    "ground_truth_answer": "Yes.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_440_multi-session",
+        "supermemory_document_ids": [
+            "nhFcgLAaJysM5wdaM2ne4z",
+            "rdmYnw95UHncFxZQbWue8E"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 835.454
+        }
+    ]
+}

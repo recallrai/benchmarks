@@ -1,0 +1,14 @@
+{
+    "index": 211,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling a bit stuck with my paintings lately. Do you have any ideas on how I can find new inspiration?",
+    "question_date": "2023/05/27 (Sat) 01:37",
+    "ground_truth_answer": "The user would prefer responses that build upon their existing sources of inspiration, such as revisiting Instagram art accounts or exploring new techniques from online tutorials. They might also appreciate suggestions that revisit previous themes they found enjoyable, like painting flowers. The user would not prefer generic or vague suggestions for finding inspiration, and would likely appreciate responses that utilize their recent 30-day painting challenge experience.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the key information mentioned in the gold answer: social media/Instagram as inspiration source, online tutorials, and the 30-day painting challenge, which would enable providing appropriate suggestions for finding new inspiration."
+        }
+    ]
+}

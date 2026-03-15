@@ -1,0 +1,14 @@
+{
+    "index": 81,
+    "question_type": "multi-session",
+    "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+    "question_date": "2023/05/27 (Sat) 02:43",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context mentions vegan cuisine class, Korean (bibimbap/kimchi), Italian (vegan lasagna), and fermentation techniques (sauerkraut/kimchi), which can be reasonably counted as 4 different cuisines matching the gold answer."
+        }
+    ]
+}

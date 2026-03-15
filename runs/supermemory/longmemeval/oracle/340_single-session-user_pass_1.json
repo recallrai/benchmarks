@@ -1,0 +1,20 @@
+{
+    "index": 340,
+    "question_type": "single-session-user",
+    "question": "What time do I usually get home from work on weeknights?",
+    "question_date": "2023/05/29 (Mon) 16:15",
+    "ground_truth_answer": "6:30 pm",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_340_single-session-user",
+        "supermemory_document_ids": [
+            "FPs4ANpr636eY2tWBBPGBy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 435.204
+        }
+    ]
+}

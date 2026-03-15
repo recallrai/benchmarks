@@ -1,0 +1,20 @@
+{
+    "index": 205,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend a show or movie for me to watch tonight?",
+    "question_date": "2023/05/27 (Sat) 18:09",
+    "ground_truth_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_205_single-session-preference",
+        "supermemory_document_ids": [
+            "wyL7RscmgpSriMdizU9QnX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 947.184
+        }
+    ]
+}

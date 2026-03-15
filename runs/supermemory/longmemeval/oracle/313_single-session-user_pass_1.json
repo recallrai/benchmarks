@@ -1,0 +1,20 @@
+{
+    "index": 313,
+    "question_type": "single-session-user",
+    "question": "How old was I when my grandma gave me the silver necklace?",
+    "question_date": "2023/05/27 (Sat) 13:18",
+    "ground_truth_answer": "18",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_313_single-session-user",
+        "supermemory_document_ids": [
+            "iZr58EGytahujHh7s9xsgM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1032.095
+        }
+    ]
+}

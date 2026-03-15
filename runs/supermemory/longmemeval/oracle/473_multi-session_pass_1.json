@@ -1,0 +1,21 @@
+{
+    "index": 473,
+    "question_type": "multi-session",
+    "question": "How much did I spend on gifts for my sister?",
+    "question_date": "2023/05/27 (Sat) 18:44",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_473_multi-session",
+        "supermemory_document_ids": [
+            "vpA72c2EN4ZpNwzxpPaYsB",
+            "nipt7Fzfo2X7tfRrGinUPL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The silver necklace for sister cost around $200.\nTiffany's necklace for sister cost around $200.\nUser's sister enjoyed a $100 gift card to her favorite spa.\nUser is seeking gift ideas for sister's birthday next year.\nUser's sister received a silver necklace from Tiffany's.\nUser's sister loved the $100 gift card to her favorite spa.\nUser recently bought a silver necklace with a small pendant from Tiffany's for their sister.\nUser is considering a spa day for sister's birthday.\nUser is considering a personalized note for their sister's gift.\nUser is planning a gift for niece's birthday.",
+            "latency": 418.207
+        }
+    ]
+}

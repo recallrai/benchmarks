@@ -1,0 +1,14 @@
+{
+    "index": 168,
+    "question_type": "knowledge-update",
+    "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+    "question_date": "2023/06/08 (Thu) 16:35",
+    "ground_truth_answer": "Oahu",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context repeatedly mentions multiple locations on Oahu that the user plans to visit for their birthday trip, clearly indicating they are planning to stay on Oahu."
+        }
+    ]
+}

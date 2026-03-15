@@ -1,0 +1,20 @@
+{
+    "index": 352,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my uncle's birthday party?",
+    "question_date": "2023/05/30 (Tue) 06:23",
+    "ground_truth_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_352_single-session-user",
+        "supermemory_document_ids": [
+            "ijGPSSVaGQfuRRktuvC9Gj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has a niece who celebrated a birthday\nUser made a lemon blueberry cake for their niece's birthday, which was a huge hit\nUser enjoys creating lemon-based desserts",
+            "latency": 2620.517
+        }
+    ]
+}

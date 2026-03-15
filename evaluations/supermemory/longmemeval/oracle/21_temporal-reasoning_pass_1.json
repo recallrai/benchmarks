@@ -1,0 +1,14 @@
+{
+    "index": 21,
+    "question_type": "temporal-reasoning",
+    "question": "What was the date on which I attended the first BBQ event in June?",
+    "question_date": "2023/07/01 (Sat) 23:13",
+    "ground_truth_answer": "June 3rd",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The user attended a backyard BBQ party at a colleague's house on June 3' which directly matches the gold answer of June 3rd and would allow someone to correctly answer the question about the first BBQ event in June."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 282,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+    "question_date": "2023/05/27 (Sat) 20:30",
+    "ground_truth_answer": "Patagonia",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_282_single-session-assistant",
+        "supermemory_document_ids": [
+            "953hrHFwjd6SNopEB2K1wD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1560.967
+        }
+    ]
+}

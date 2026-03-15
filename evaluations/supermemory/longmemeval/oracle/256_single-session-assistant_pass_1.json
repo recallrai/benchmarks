@@ -1,0 +1,14 @@
+{
+    "index": 256,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercises like 'The Mountain Meditation' and 'The Body Scan Meditation'?",
+    "question_date": "2023/05/30 (Tue) 08:10",
+    "ground_truth_answer": "Mindful.org.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Mindful.org' among the list of recommended mindfulness resources, which matches the gold answer."
+        }
+    ]
+}

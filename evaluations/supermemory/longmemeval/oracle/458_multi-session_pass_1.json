@@ -1,0 +1,14 @@
+{
+    "index": 458,
+    "question_type": "multi-session",
+    "question": "How much more did I have to pay for the trip after the initial quote?",
+    "question_date": "2023/05/24 (Wed) 02:59",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only provides the final corrected price ($2,800) but does not include the initial quote amount or the difference ($300), which is needed to answer how much more was paid."
+        }
+    ]
+}

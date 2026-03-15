@@ -1,0 +1,20 @@
+{
+    "index": 333,
+    "question_type": "single-session-user",
+    "question": "Where did I attend the Imagine Dragons concert?",
+    "question_date": "2023/05/30 (Tue) 11:08",
+    "ground_truth_answer": "Xfinity Center",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_333_single-session-user",
+        "supermemory_document_ids": [
+            "LvFUPMqLK8yJLEA8e28jNT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3136.191
+        }
+    ]
+}

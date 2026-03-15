@@ -1,0 +1,21 @@
+{
+    "index": 475,
+    "question_type": "multi-session",
+    "question": "What is the total weight of the new feed I purchased in the past two months?",
+    "question_date": "2023/05/30 (Tue) 12:23",
+    "ground_truth_answer": "70 pounds",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_475_multi-session",
+        "supermemory_document_ids": [
+            "YctxgAtwXgcXRa1VYeWuMd",
+            "hLvFKT1YXorsEwRwh3msMt"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User purchased a 50-pound batch of layer feed.\nUser purchased 20 pounds of organic scratch grains for chickens.\nIncrease the proportion of new feed over the next 7-10 days until feeding 100% new layer feed.\nUser added two new hens to the flock.\nUser noticed an improvement in egg quality after adding new layer feed.\nStore some of the old feed in case a reversion is needed after transition.\nUser received a 10% discount on layer feed purchase.\nEnsure equal access to new feed and add extra feeding stations to prevent bullying.\nCost per pound of layer feed is $2.16.\nNet cost of layer feed after discount is $108.",
+            "latency": 1921.084
+        }
+    ]
+}

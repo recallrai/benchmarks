@@ -1,0 +1,21 @@
+{
+    "index": 5,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+    "question_date": "2023/02/20 (Mon) 22:35",
+    "ground_truth_answer": "30 days. 31 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_5_temporal-reasoning",
+        "supermemory_document_ids": [
+            "h1G6JZfx8KfPxQ593hLF9q",
+            "jr6UQyuFPbtZmzWsbTYxKU"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended Sunday mass at St. Mary's Church on January 2nd.\nUser is attending a Bible study group at St. Mary's Church, studying the Book of Psalms\nCatholic Charities' emergency shelters provide temporary housing, meals, and access to case management services\nThe user is interested in learning more about Catholic Charities and its services.\nThe user learned that Catholic Charities' housing services aim to help individuals regain stability and get back on their feet",
+            "latency": 4181.243
+        }
+    ]
+}

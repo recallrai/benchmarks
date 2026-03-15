@@ -1,0 +1,21 @@
+{
+    "index": 418,
+    "question_type": "temporal-reasoning",
+    "question": "What was the the life event of one of my relatives that I participated in a week ago?",
+    "question_date": "2023/06/22 (Thu) 11:12",
+    "ground_truth_answer": "my cousin's wedding",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_418_temporal-reasoning",
+        "supermemory_document_ids": [
+            "3UDJpJHdFUxuJA69JGLXUc",
+            "X2nxt12KVFoTNNWZ5eaBFa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user walked down the aisle as a bridesmaid at their cousin's wedding",
+            "latency": 3000.368
+        }
+    ]
+}

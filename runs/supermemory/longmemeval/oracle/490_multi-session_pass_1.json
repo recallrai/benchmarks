@@ -1,0 +1,21 @@
+{
+    "index": 490,
+    "question_type": "multi-session",
+    "question": "How much have I made from selling eggs this month?",
+    "question_date": "2023/05/30 (Tue) 23:35",
+    "ground_truth_answer": "$120",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_490_multi-session",
+        "supermemory_document_ids": [
+            "JMCpgBErMDfkQ9DYt1Npex",
+            "7DuecGK2f6KeEMAPnusryL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The farmer sells eggs to neighbor for $3 per dozen\nChicken feed costs $150\nBantam chickens lay 100-120 eggs per year\nLeghorn chickens lay 280-300 eggs per year\nSilkie chickens lay 100-120 eggs per year\nEaster Egger chickens lay 180-200 eggs per year\nSussex chickens lay 150-180 eggs per year\nMarans chickens lay 150-180 eggs per year\nBantam chickens lay various egg colors\nEaster Egger chickens lay various egg colors",
+            "latency": 2068.798
+        }
+    ]
+}

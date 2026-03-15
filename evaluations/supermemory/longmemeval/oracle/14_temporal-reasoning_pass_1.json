@@ -1,0 +1,14 @@
+{
+    "index": 14,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+    "question_date": "2023/05/22 (Mon) 13:04",
+    "ground_truth_answer": "Fixing the fence",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions trimming dairy cow hooves but does not mention fixing the fence or trimming goats' hooves, so it cannot answer which task was completed first."
+        }
+    ]
+}

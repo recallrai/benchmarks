@@ -1,0 +1,21 @@
+{
+    "index": 499,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/28 (Sun) 06:58",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how much will the bus take.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_499_multi-session",
+        "supermemory_document_ids": [
+            "4hMbkWE8urjJSyrcaM2Fnx",
+            "eghrGcUR9eCgFeBEiQ7SX1"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Shuttle bus services like the Airport Limousine Bus offer fixed prices and can be a more affordable option than a taxi.\nThe user is asking their hotel for transportation recommendations from the airport.\nThe user finds a $60 taxi fare from the airport to their hotel in Tokyo to be pricey.\nThe user is concerned that a taxi from Narita Airport to Tokyo is expensive.\nThe bus is a cheaper option than the train for travel from Narita Airport to Tokyo, with tickets starting around \u00a51,000.\nThe user finds a $60 taxi fare from Narita Airport to Tokyo to be pricey.\nThe user needs recommendations for getting from the airport to their hotel in Tokyo.\nShared ride services like Go-Van or Japan Bus Online from the airport to Tokyo can cost around $20-$30.\nIt is highly unlikely to find a $10 train ticket from Narita Airport to a hotel in Shinjuku.\nThe Airport Limousine Bus from Tokyo airports to Tokyo costs around $10-$20, depending on the route and destination.",
+            "latency": 1587.57
+        }
+    ]
+}

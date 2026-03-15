@@ -1,0 +1,21 @@
+{
+    "index": 37,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did the narrator take first, the solo trip to Europe or the family road trip across the American Southwest?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "The family road trip across the American Southwest",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_37_temporal-reasoning",
+        "supermemory_document_ids": [
+            "qYR18nBPPT8QgLkgwRWKXC",
+            "YCE172Bnvqxigjqdgo29No"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2060.371
+        }
+    ]
+}

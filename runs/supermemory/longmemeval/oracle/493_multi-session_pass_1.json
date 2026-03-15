@@ -1,0 +1,21 @@
+{
+    "index": 493,
+    "question_type": "multi-session",
+    "question": "How many fun runs did I miss in March due to work commitments?",
+    "question_date": "2023/04/26 (Wed) 20:52",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_493_multi-session",
+        "supermemory_document_ids": [
+            "ey9yGPoHEvScSVwMbsTkMA",
+            "v23jxsMset8ejQ3RzrEBub"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User missed 5K run on March 5th due to work commitments\nUser missed a 5K fun run on March 26th\nUser attended weekly 5K fun runs at local park\nUser completed first full marathon on April 10th",
+            "latency": 1071.046
+        }
+    ]
+}

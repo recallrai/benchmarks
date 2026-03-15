@@ -1,0 +1,14 @@
+{
+    "index": 286,
+    "question_type": "single-session-user",
+    "question": "What degree did I graduate with?",
+    "question_date": "2023/05/23 (Tue) 19:11",
+    "ground_truth_answer": "Business Administration",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's degree or Business Administration."
+        }
+    ]
+}

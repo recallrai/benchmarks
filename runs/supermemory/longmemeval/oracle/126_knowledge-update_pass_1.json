@@ -1,0 +1,21 @@
+{
+    "index": 126,
+    "question_type": "knowledge-update",
+    "question": "How often do I attend yoga classes to help with my anxiety?",
+    "question_date": "2023/12/25 (Mon) 05:30",
+    "ground_truth_answer": "Three times a week.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_126_knowledge-update",
+        "supermemory_document_ids": [
+            "4Bds5ddaeWssDzw1XbxgHN",
+            "e6mFG6qXRBeUpMTqycEbLB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attends yoga classes three times a week, which improves their focus.\nThe user feels more focused on days they attend yoga classes (Tuesday, Thursday, Friday).",
+            "latency": 3033.679
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 142,
+    "question_type": "knowledge-update",
+    "question": "How many MCU films did I watch in the last 3 months?",
+    "question_date": "2023/06/06 (Tue) 10:43",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_142_knowledge-update",
+        "supermemory_document_ids": [
+            "KhYDPo5W4yEgVCrm2do7st",
+            "1yCKPvG9pcJPYWxTqBwynh"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has watched 5 MCU films in the last 3 months\nUser has watched 12 films in the last 3 months\nUser is planning a movie marathon with family over the upcoming long weekend",
+            "latency": 1360.779
+        }
+    ]
+}

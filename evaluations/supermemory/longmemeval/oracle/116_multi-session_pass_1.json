@@ -1,0 +1,14 @@
+{
+    "index": 116,
+    "question_type": "multi-session",
+    "question": "How many times did I bake egg tarts in the past two weeks?",
+    "question_date": "2023/05/29 (Mon) 05:37",
+    "ground_truth_answer": "The information provided is not enough. You did not mention baking egg tarts.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The gold answer indicates that information about baking egg tarts was not provided, and the retrieved context only mentions general baking recipes without any specific mention of egg tarts, which aligns with the gold answer that this information is insufficient."
+        }
+    ]
+}

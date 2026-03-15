@@ -1,0 +1,14 @@
+{
+    "index": 359,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I participated in two charity events in a row, on consecutive days?",
+    "question_date": "2023/04/18 (Tue) 10:43",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions multiple charity events but lacks any date information or indication that any two events occurred on consecutive days, making it impossible to determine that 2 months have passed since such consecutive events."
+        }
+    ]
+}

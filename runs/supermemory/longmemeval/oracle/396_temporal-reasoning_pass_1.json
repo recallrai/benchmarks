@@ -1,0 +1,21 @@
+{
+    "index": 396,
+    "question_type": "temporal-reasoning",
+    "question": "How many months passed between the completion of my undergraduate degree and the submission of my master's thesis?",
+    "question_date": "2023/07/01 (Sat) 13:31",
+    "ground_truth_answer": "6 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_396_temporal-reasoning",
+        "supermemory_document_ids": [
+            "HSDy4SHdwRJXam9GV6CiD8",
+            "F4wRK1NxDvovqbkLJvgJsY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User submitted a master's thesis in Computer Science.\nUser completed undergraduate degree in Computer Science.",
+            "latency": 1701.194
+        }
+    ]
+}

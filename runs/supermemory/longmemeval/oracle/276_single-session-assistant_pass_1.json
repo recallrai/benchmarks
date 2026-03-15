@@ -1,0 +1,20 @@
+{
+    "index": 276,
+    "question_type": "single-session-assistant",
+    "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+    "question_date": "2023/05/30 (Tue) 04:21",
+    "ground_truth_answer": "The designation on your jumpsuit was 'LIV'.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_276_single-session-assistant",
+        "supermemory_document_ids": [
+            "YzVBDgKR2fdUYiN1qCNs25"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The protagonist used a green\u2011striped keycard to access the security room\nSecurity instructed the protagonist to follow green pipes to reach the security room\nThe protagonist followed green pipes to the security room",
+            "latency": 1055.775
+        }
+    ]
+}

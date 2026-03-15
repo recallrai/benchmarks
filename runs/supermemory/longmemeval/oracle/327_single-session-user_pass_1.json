@@ -1,0 +1,20 @@
+{
+    "index": 327,
+    "question_type": "single-session-user",
+    "question": "Where did I go on a week-long trip with my family?",
+    "question_date": "2023/05/26 (Fri) 07:00",
+    "ground_truth_answer": "Hawaii",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_327_single-session-user",
+        "supermemory_document_ids": [
+            "DZsF29DtP8n9VGGLWqsJ61"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 930.822
+        }
+    ]
+}

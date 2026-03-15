@@ -1,0 +1,21 @@
+{
+    "index": 436,
+    "question_type": "multi-session",
+    "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+    "question_date": "2023/05/27 (Sat) 03:27",
+    "ground_truth_answer": "$750",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_436_multi-session",
+        "supermemory_document_ids": [
+            "FApdiU2CQ7CKSTyEoK8CAW",
+            "NYxAiSym8SLwxDkJrWAonB"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User paid $800 for a pair of luxury black ankle boots.\nUser describes the luxury boots as black ankle boots with a heel, sleek design, high-quality leather, and feeling confident and stylish.\nUser wants affordable black ankle boots priced between $50 and $100.",
+            "latency": 1223.998
+        }
+    ]
+}

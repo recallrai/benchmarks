@@ -1,0 +1,21 @@
+{
+    "index": 464,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the car cover and detailing spray I purchased?",
+    "question_date": "2023/05/24 (Wed) 22:16",
+    "ground_truth_answer": "$140",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_464_multi-session",
+        "supermemory_document_ids": [
+            "DUBUaCHgxfV92hZ8xdcamM",
+            "fAPc7Fo2vhiNqtNkx9Nuih"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User paid $120 for a waterproof car cover.\nUser is thinking of getting a detailing spray to keep the car's exterior clean.\nUser recently got a waterproof car cover\nAutoglym Car Care Kit costs around $120-$130\nUser is exploring claiming the cost of a waterproof car cover on car insurance.\nChemical Guys Car Care Kit costs around $70-$80\nUser bought a $20 detailing spray from Amazon that removed tar and bug stains from the car's paint.\nUser decided to purchase the Meguiar's Gold Class Car Care Kit.\nUser believes $60-$70 is a reasonable price for the Meguiar's Gold Class Car Care Kit.\nUser wants a car detailing kit for general cleaning and maintenance",
+            "latency": 1271.246
+        }
+    ]
+}

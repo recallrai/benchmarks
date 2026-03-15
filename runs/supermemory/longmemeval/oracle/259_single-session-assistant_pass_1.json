@@ -1,0 +1,20 @@
+{
+    "index": 259,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+    "question_date": "2023/05/30 (Tue) 13:07",
+    "ground_truth_answer": "2-3 eggs",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_259_single-session-assistant",
+        "supermemory_document_ids": [
+            "Mr9wvsgiwFRot8RmPL8ahc"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 840.75
+        }
+    ]
+}

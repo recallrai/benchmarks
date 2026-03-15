@@ -1,0 +1,14 @@
+{
+    "index": 90,
+    "question_type": "multi-session",
+    "question": "How many doctor's appointments did I go to in March?",
+    "question_date": "2023/03/27 (Mon) 15:58",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only clearly mentions one doctor's appointment in March 2023 (diagnosis with Dr. Smith on March 3rd), but the gold answer states there were 2 appointments, which cannot be verified from the provided context."
+        }
+    ]
+}

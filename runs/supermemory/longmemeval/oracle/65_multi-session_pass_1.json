@@ -1,0 +1,22 @@
+{
+    "index": 65,
+    "question_type": "multi-session",
+    "question": "How many plants did I acquire in the last month?",
+    "question_date": "2023/05/28 (Sun) 09:22",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_65_multi-session",
+        "supermemory_document_ids": [
+            "GffkUAWpiQqJcM4XTiYuCA",
+            "JVU6gfc3KY4REHezBRq6By",
+            "j8J2JajC4Xue99xsH3wnve"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user obtained the snake plant from their sister last month.",
+            "latency": 1707.565
+        }
+    ]
+}

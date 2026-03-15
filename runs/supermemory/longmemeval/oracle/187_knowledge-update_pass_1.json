@@ -1,0 +1,21 @@
+{
+    "index": 187,
+    "question_type": "knowledge-update",
+    "question": "Do I have a spare screwdriver for opening up my laptop?",
+    "question_date": "2023/09/06 (Wed) 17:02",
+    "ground_truth_answer": "Yes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_187_knowledge-update",
+        "supermemory_document_ids": [
+            "oeMTFfedQ88EBk2n4uEKqY",
+            "v3w3FXYzP5x3SSX3pBX1UA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User needs a spare screwdriver to clean laptop fans\nUser has a spare screwdriver for cleaning laptop fans\nUser should pick up a small screwdriver for the laptop RAM upgrade\nUser intends to select a screwdriver with the correct tip type (Torx, Phillips, or Pentalobe) for their laptop\nUser picked up a spare screwdriver while organizing their computer desk a while ago\nUser plans to check the electronics store near their place for a small screwdriver",
+            "latency": 1823.76
+        }
+    ]
+}

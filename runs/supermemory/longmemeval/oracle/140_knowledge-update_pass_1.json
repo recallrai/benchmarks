@@ -1,0 +1,21 @@
+{
+    "index": 140,
+    "question_type": "knowledge-update",
+    "question": "What type of camera lens did I purchase most recently?",
+    "question_date": "2023/09/08 (Fri) 04:23",
+    "ground_truth_answer": "a 70-200mm zoom lens",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_140_knowledge-update",
+        "supermemory_document_ids": [
+            "ZYTo1kGV21gpxWb9TAbo7L",
+            "GqEazB2NNYtG8hjtpzywA8"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user wants a wide-angle lens for sweeping landscapes and cityscapes\nThe user captured great shots with a 70-200mm zoom lens at a local park.\nThe user is asking for brand recommendations (Nikon, Canon, or other) for a wide-angle lens",
+            "latency": 1138.926
+        }
+    ]
+}

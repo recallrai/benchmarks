@@ -1,0 +1,14 @@
+{
+    "index": 82,
+    "question_type": "multi-session",
+    "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+    "question_date": "2023/03/08 (Wed) 22:16",
+    "ground_truth_answer": "I viewed four properties before making an offer on the townhouse in the Brookside neighborhood. The reasons I didn't make an offer on them were: the kitchen of the bungalow needed serious renovation, the property in Cedar Creek was out of my budget, the noise from the highway was a deal-breaker for the 1-bedroom condo, and my offer on the 2-bedroom condo was rejected due to a higher bid.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one property viewed before the Brookside townhouse (a bungalow in Oakwood on January 22), but the gold answer states four properties were viewed with specific details about each, including properties in Cedar Creek and two condos that are not mentioned in the context at all."
+        }
+    ]
+}

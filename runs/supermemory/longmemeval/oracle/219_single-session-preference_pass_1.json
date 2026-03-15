@@ -1,0 +1,20 @@
+{
+    "index": 219,
+    "question_type": "single-session-preference",
+    "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+    "question_date": "2023/05/27 (Sat) 20:51",
+    "ground_truth_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_219_single-session-preference",
+        "supermemory_document_ids": [
+            "rf86cVoVFz47gSkfqFWcMa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2157.191
+        }
+    ]
+}

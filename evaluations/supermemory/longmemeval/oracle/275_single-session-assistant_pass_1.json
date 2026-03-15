@@ -1,0 +1,14 @@
+{
+    "index": 275,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual gemstones?",
+    "question_date": "2023/05/29 (Mon) 20:24",
+    "ground_truth_answer": "@jessica_poole_jewellery",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Instagram handle @jessica_poole_jewellery or any UK-based designer working with unusual gemstones."
+        }
+    ]
+}

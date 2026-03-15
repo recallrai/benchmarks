@@ -1,0 +1,21 @@
+{
+    "index": 488,
+    "question_type": "multi-session",
+    "question": "What was the page count of the two novels I finished in January and March?",
+    "question_date": "2023/05/29 (Mon) 23:44",
+    "ground_truth_answer": "856",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_488_multi-session",
+        "supermemory_document_ids": [
+            "RCXnLDRB6MykP8WAhiMZ7f",
+            "MPdRDmm9ZPBN3z14BTkxmQ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User prefers books with similar page lengths to \"The Power\"\nUser reads around 20-30 pages a day\nUser read a 416-page novel\nUser took 5 weeks to finish \"The Power\"\nUser finished reading \"The Nightingale\" by Kristin Hannah, a 440-page historical fiction novel, in about 3 weeks.",
+            "latency": 585.418
+        }
+    ]
+}

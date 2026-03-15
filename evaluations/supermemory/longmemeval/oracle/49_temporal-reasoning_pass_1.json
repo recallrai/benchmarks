@@ -1,0 +1,14 @@
+{
+    "index": 49,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+    "question_date": "2023/05/20 (Sat) 05:18",
+    "ground_truth_answer": "volleyball league",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the charity 5K run occurred about a month ago and that the user plays volleyball regularly, but it does not provide any timing information about when the volleyball league participation began or occurred relative to the charity 5K run, making it impossible to determine which event came first."
+        }
+    ]
+}

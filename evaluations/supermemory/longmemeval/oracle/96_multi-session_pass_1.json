@@ -1,0 +1,14 @@
+{
+    "index": 96,
+    "question_type": "multi-session",
+    "question": "How many pieces of jewelry did I acquire in the last two months?",
+    "question_date": "2023/05/29 (Mon) 17:44",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one specific jewelry acquisition (emerald earrings from last weekend), but the gold answer states 3 pieces were acquired in the last two months, so the context is insufficient to correctly answer the question."
+        }
+    ]
+}

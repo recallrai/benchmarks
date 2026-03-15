@@ -1,0 +1,21 @@
+{
+    "index": 39,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, Mark and Sarah or Tom?",
+    "question_date": "2023/05/28 (Sun) 17:00",
+    "ground_truth_answer": "Tom",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_39_temporal-reasoning",
+        "supermemory_document_ids": [
+            "nRRNhfB5hw6e18yx1cC78j",
+            "aXWMnzo6kxX9RYgEkEpn9V"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User met Mark and Sarah on a beach trip about a month ago\nUser plans a trip to visit friends Mark and Sarah\nUser knows that Mark and Sarah live in a small town near the mountains\nUser wants to learn about local traditions and customs from Mark and Sarah\nUser wants to learn about must-see historical sites in Mark and Sarah's hometown\nUser dined with Mark and Sarah at a seafood restaurant near the beach\nUser will ask Mark and Sarah about the local history and culture of their hometown\nUser wants to learn about local legends and folklore from Mark and Sarah\nUser wants to learn about personalized recommendations of hidden gems and cultural attractions from Mark and Sarah\nUser wants to learn about local cuisine and restaurant recommendations from Mark and Sarah",
+            "latency": 1060.508
+        }
+    ]
+}

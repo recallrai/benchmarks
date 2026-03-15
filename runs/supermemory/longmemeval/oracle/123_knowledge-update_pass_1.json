@@ -1,0 +1,21 @@
+{
+    "index": 123,
+    "question_type": "knowledge-update",
+    "question": "How many Korean restaurants have I tried in my city?",
+    "question_date": "2023/10/08 (Sun) 21:51",
+    "ground_truth_answer": "four",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_123_knowledge-update",
+        "supermemory_document_ids": [
+            "QgY2ExoZJzWeMJh9KnN7e9",
+            "uF5eUtZ3RqpR261Acy5h7n"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is interested in trying a new Indian restaurant in the neighborhood",
+            "latency": 1239.056
+        }
+    ]
+}

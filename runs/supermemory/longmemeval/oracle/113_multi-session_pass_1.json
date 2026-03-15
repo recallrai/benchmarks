@@ -1,0 +1,22 @@
+{
+    "index": 113,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+    "question_date": "2021/08/20 (Fri) 19:01",
+    "ground_truth_answer": "10 years",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_113_multi-session",
+        "supermemory_document_ids": [
+            "hUwYiqrQTF3kUcAzRoeNNP",
+            "qXy6f8UJVbKsGFqKJHn7U4",
+            "QJNGpLQ6KoFmemqh6Jn33g"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 520.002
+        }
+    ]
+}

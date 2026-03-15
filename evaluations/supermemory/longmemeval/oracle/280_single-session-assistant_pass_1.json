@@ -1,0 +1,14 @@
+{
+    "index": 280,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation where you created two sad songs for me. Can you remind me what was the chord progression for the chorus in the second song?",
+    "question_date": "2023/05/29 (Mon) 23:17",
+    "ground_truth_answer": "C D E F G A B A G F E D C",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the chord progression or the two sad songs mentioned in the question."
+        }
+    ]
+}

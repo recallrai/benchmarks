@@ -1,0 +1,21 @@
+{
+    "index": 134,
+    "question_type": "knowledge-update",
+    "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+    "question_date": "2023/06/28 (Wed) 22:01",
+    "ground_truth_answer": "220",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_134_knowledge-update",
+        "supermemory_document_ids": [
+            "parj6LsJwByWSzBc5U85RU",
+            "Md2yVFfaNvzJzgeo6dmf27"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1610.325
+        }
+    ]
+}

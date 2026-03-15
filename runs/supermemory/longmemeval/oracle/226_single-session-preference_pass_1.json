@@ -1,0 +1,20 @@
+{
+    "index": 226,
+    "question_type": "single-session-preference",
+    "question": "I noticed my bike seems to be performing even better during my Sunday group rides. Could there be a reason for this?",
+    "question_date": "2024/02/20 (Tue) 21:35",
+    "ground_truth_answer": "The user would prefer responses that reference specific details from their previous interactions, such as the replacement of the bike's chain and cassette, and the use of a new Garmin bike computer. They might prefer explanations that connect these details to the observed improvement in bike performance. The user may not prefer responses that fail to acknowledge these specific details or provide vague, general explanations for the improvement.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_226_single-session-preference",
+        "supermemory_document_ids": [
+            "xkGsp5mPUFf6WMLR3Tn4Bs"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1472.321
+        }
+    ]
+}

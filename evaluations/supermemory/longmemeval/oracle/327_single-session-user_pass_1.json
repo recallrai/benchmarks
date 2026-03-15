@@ -1,0 +1,14 @@
+{
+    "index": 327,
+    "question_type": "single-session-user",
+    "question": "Where did I go on a week-long trip with my family?",
+    "question_date": "2023/05/26 (Fri) 07:00",
+    "ground_truth_answer": "Hawaii",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a week-long family trip to Hawaii or any other destination."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 10,
+    "question_type": "temporal-reasoning",
+    "question": "Which pair of shoes did I clean last month?",
+    "question_date": "2023/05/30 (Tue) 01:50",
+    "ground_truth_answer": "white Adidas sneakers",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_10_temporal-reasoning",
+        "supermemory_document_ids": [
+            "bvKoUiJdWy7wNobToBuJv4",
+            "U6tX8cQTMU6kzCSATdsYUz",
+            "6V73Ei9857fubdLEvYfZcy",
+            "JupXS7xvriRiQqpoh3QKNs",
+            "7LmYUj37BZJvREjNQcQxTP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User cleaned white Adidas sneakers last month.\nUser cleaned white Adidas sneakers last month using soap and water.\nUser wore brown leather dress shoes to a cousin's wedding a few weeks ago.\nUser's white Adidas sneakers were dirty and stained after the outdoor music festival on the 15th.\nRunning shoes should be cleaned regularly using a soft-bristled brush or clean cloth.",
+            "latency": 4041.907
+        }
+    ]
+}

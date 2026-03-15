@@ -1,0 +1,21 @@
+{
+    "index": 444,
+    "question_type": "multi-session",
+    "question": "How much older am I than the average age of employees in my department?",
+    "question_date": "2023/05/29 (Mon) 10:06",
+    "ground_truth_answer": "2.5 years",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_444_multi-session",
+        "supermemory_document_ids": [
+            "J62ZKf5iDebh4EkuCQ2r3t",
+            "iDRkVKx6yWWKGwf32wTRsG"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 984.939
+        }
+    ]
+}

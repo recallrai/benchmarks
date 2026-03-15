@@ -1,0 +1,20 @@
+{
+    "index": 298,
+    "question_type": "single-session-user",
+    "question": "How many playlists do I have on Spotify?",
+    "question_date": "2023/05/24 (Wed) 23:54",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_298_single-session-user",
+        "supermemory_document_ids": [
+            "t4EdTNyUi8q2akLPqNZtQm"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 543.033
+        }
+    ]
+}

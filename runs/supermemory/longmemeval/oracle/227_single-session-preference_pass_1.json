@@ -1,0 +1,20 @@
+{
+    "index": 227,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some useful accessories for my phone?",
+    "question_date": "2023/05/28 (Sun) 00:20",
+    "ground_truth_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_227_single-session-preference",
+        "supermemory_document_ids": [
+            "g4H7pPcN8QyU2mUKJ6GDSP"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 437.6
+        }
+    ]
+}

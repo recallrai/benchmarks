@@ -1,0 +1,14 @@
+{
+    "index": 129,
+    "question_type": "knowledge-update",
+    "question": "How many bikes do I currently own?",
+    "question_date": "2023/10/29 (Sun) 15:48",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions four specific bikes (road bike, mountain bike, commuter bike, and hybrid bike) and references 'four bikes' multiple times, which matches the gold answer of 4."
+        }
+    ]
+}

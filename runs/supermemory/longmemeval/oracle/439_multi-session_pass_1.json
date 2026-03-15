@@ -1,0 +1,21 @@
+{
+    "index": 439,
+    "question_type": "multi-session",
+    "question": "What percentage discount did I get on the book from my favorite author?",
+    "question_date": "2023/05/24 (Wed) 05:52",
+    "ground_truth_answer": "20%",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_439_multi-session",
+        "supermemory_document_ids": [
+            "ByYyC3g1jLrrFx4KS94DW9",
+            "2Sm6UbfApamo9EmrFppCHT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user made an impulse purchase of a book for $24 last week at their favorite bookstore.",
+            "latency": 510.219
+        }
+    ]
+}

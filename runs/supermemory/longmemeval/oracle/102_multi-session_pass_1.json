@@ -1,0 +1,22 @@
+{
+    "index": 102,
+    "question_type": "multi-session",
+    "question": "How many days did I spend participating in faith-related activities in December?",
+    "question_date": "2024/01/10 (Wed) 21:47",
+    "ground_truth_answer": "3 days.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_102_multi-session",
+        "supermemory_document_ids": [
+            "B1sb4BQth7btzevxRrvn1Z",
+            "dKp7bPmKYaYDnQxhz6euRM",
+            "XcHP7NgAXYNvLwUUoAjUCY"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user plans to attend a Lessons and Carols service during the holiday season",
+            "latency": 909.789
+        }
+    ]
+}

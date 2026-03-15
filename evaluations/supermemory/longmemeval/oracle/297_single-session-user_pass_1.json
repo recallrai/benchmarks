@@ -1,0 +1,14 @@
+{
+    "index": 297,
+    "question_type": "single-session-user",
+    "question": "How much did I spend on a designer handbag?",
+    "question_date": "2023/05/29 (Mon) 21:17",
+    "ground_truth_answer": "$800",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a designer handbag purchase or the amount spent."
+        }
+    ]
+}

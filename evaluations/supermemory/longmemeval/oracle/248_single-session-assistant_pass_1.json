@@ -1,0 +1,14 @@
+{
+    "index": 248,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking about our previous conversation about data privacy and security. You mentioned that companies use two-factor authentication to enhance security. Can you remind me what kind of two-factor authentication methods you were referring to?",
+    "question_date": "2023/05/23 (Tue) 18:45",
+    "ground_truth_answer": "I mentioned biometric authentication or one-time passwords (OTP) as examples of two-factor authentication methods.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about two-factor authentication methods, biometric authentication, or one-time passwords (OTP) that would allow answering the question."
+        }
+    ]
+}

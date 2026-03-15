@@ -1,0 +1,25 @@
+{
+    "index": 378,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the six museums I visited from earliest to latest?",
+    "question_date": "2023/03/10 (Fri) 19:11",
+    "ground_truth_answer": "Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, Modern Art Museum, Natural History Museum",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_378_temporal-reasoning",
+        "supermemory_document_ids": [
+            "tmpLkqo91skzSH1DAcJ95U",
+            "BhMtjiVnNq6puxEWrC1UQJ",
+            "b69dFV5bWCGJrKb6E79LsF",
+            "Tj8L1hKYQa847e1STc4FwF",
+            "s4m5JnHzvwmtirQuMiPLjp",
+            "cih4SRi8BUv6e3buwBRh5Q"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended a lecture series at the Museum of Contemporary Art",
+            "latency": 1565.83
+        }
+    ]
+}

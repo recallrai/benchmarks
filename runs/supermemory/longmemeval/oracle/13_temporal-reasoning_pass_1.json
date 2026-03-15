@@ -1,0 +1,21 @@
+{
+    "index": 13,
+    "question_type": "temporal-reasoning",
+    "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+    "question_date": "2023/05/20 (Sat) 06:04",
+    "ground_truth_answer": "Training pads for Luna",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_13_temporal-reasoning",
+        "supermemory_document_ids": [
+            "EQdPjn5cVAWNMMZ32qUP7H",
+            "f7uD6hQmsVHY6HnWPfaCBa"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user bought an orthopedic memory foam dog bed for Max from Petco three weeks ago\nThe user purchased a set of 10 eco-friendly training pads from Chewy.com for $25 about a month ago\nLuna is currently in potty training\nThe user owns a puppy named Luna\nThe user decided to purchase a Kong Toy for Max\nThe orthopedic memory foam dog bed is helping Max's arthritis\nA bowl mat or silicone placemat should be used under Max's bowls to catch spills.\nMax's food and water bowls cleaning set purchased from Amazon for $20 includes a bowl cleaner, a brush, and a scrubber.\nThe user purchased 20 dental chews from the vet's office for $15 for Luna.\nThe user owns a golden retriever named Max",
+            "latency": 1588.936
+        }
+    ]
+}

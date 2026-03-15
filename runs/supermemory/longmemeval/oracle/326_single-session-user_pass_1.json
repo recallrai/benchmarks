@@ -1,0 +1,20 @@
+{
+    "index": 326,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage cameras?",
+    "question_date": "2023/05/25 (Thu) 17:36",
+    "ground_truth_answer": "three months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_326_single-session-user",
+        "supermemory_document_ids": [
+            "ZfxbesDDaqhjZteAJUqCBT"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has been collecting vintage cameras for three months\nThe user has 17 vintage cameras in the collection\nThe user keeps the cameras on a shelf for display\nUser schedules regular quarterly maintenance to inspect and clean the camera collection.\nThe user acquired a Brownie Hawkeye camera last week\nUser is considering tiered shelves for displaying vintage cameras\nUser wants to pair the Brownie Hawkeye with other cameras from the same era for a cohesive display\nUser considers using locks or security devices to protect the camera collection\nUser keeps original manuals and documentation for each camera in a binder or digital folder.\nUser stores each camera in its original case or an acid\u2011free box.",
+            "latency": 586.291
+        }
+    ]
+}

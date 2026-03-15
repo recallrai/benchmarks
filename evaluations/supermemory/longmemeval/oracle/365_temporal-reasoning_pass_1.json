@@ -1,0 +1,14 @@
+{
+    "index": 365,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a baking class at a local culinary school when I made my friend's birthday cake?",
+    "question_date": "2022/04/15 (Fri) 14:21",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions baking a chocolate cake for a friend's birthday but does not mention attending a baking class at a culinary school, nor does it provide any specific timing information that would allow someone to determine this occurred 21-22 days ago from the question date."
+        }
+    ]
+}

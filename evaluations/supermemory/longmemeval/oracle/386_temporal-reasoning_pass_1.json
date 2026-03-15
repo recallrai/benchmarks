@@ -1,0 +1,14 @@
+{
+    "index": 386,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+    "question_date": "2023/10/15 (Sun) 12:05",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the 10th outdoor jog and flu recovery but does not provide any temporal information about when the recovery occurred or how many weeks passed between recovery and the 10th jog, which is necessary to answer the question with '15 weeks'."
+        }
+    ]
+}

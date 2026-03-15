@@ -1,0 +1,21 @@
+{
+    "index": 400,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I launch my website when I signed a contract with my first client?",
+    "question_date": "2023/03/25 (Sat) 17:23",
+    "ground_truth_answer": "19 days ago. 20 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_400_temporal-reasoning",
+        "supermemory_document_ids": [
+            "A8FZWm2Dc47K4CB17VtYA9",
+            "jRQHCwH5Q9XWssCbP8hWDE"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1543.601
+        }
+    ]
+}

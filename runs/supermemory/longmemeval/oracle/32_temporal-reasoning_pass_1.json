@@ -1,0 +1,21 @@
+{
+    "index": 32,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the new router?",
+    "question_date": "2023/03/28 (Tue) 01:17",
+    "ground_truth_answer": "new router",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_32_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Jf2wqZ86DrCp7pZsiUozYE",
+            "NV1JjkNG7xoRijFN3cg6UW"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user set up a smart thermostat on 2026-02-10\nThe user installed a new router on 2026-01-15, improving Wi\u2011Fi signal strength\nThe user has 5 to 6 devices connected, including a laptop, smart TV, and smart speaker\nUser wants to access router analytics and logs",
+            "latency": 3567.312
+        }
+    ]
+}

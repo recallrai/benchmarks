@@ -1,0 +1,20 @@
+{
+    "index": 320,
+    "question_type": "single-session-user",
+    "question": "What type of cocktail recipe did I try last weekend?",
+    "question_date": "2023/05/26 (Fri) 02:26",
+    "ground_truth_answer": "lavender gin fizz",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_320_single-session-user",
+        "supermemory_document_ids": [
+            "Q8Nkcj7GuLtDMRByv28cZo"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is excited to experiment with the Lavender Dream cocktail to find the perfect flavor balance.\nUser attempted a lavender gin fizz without lavender syrup, but it was not successful\nUser plans to make homemade simple syrup this weekend",
+            "latency": 1085.568
+        }
+    ]
+}

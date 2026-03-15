@@ -1,0 +1,21 @@
+{
+    "index": 179,
+    "question_type": "knowledge-update",
+    "question": "How many followers do I have on Instagram now?",
+    "question_date": "2023/06/03 (Sat) 09:01",
+    "ground_truth_answer": "1300",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_179_knowledge-update",
+        "supermemory_document_ids": [
+            "14kAC7Vt5aYUqT1quDrPV5",
+            "euxWE6A6Pd43UGHJyxrLuX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2558.79
+        }
+    ]
+}

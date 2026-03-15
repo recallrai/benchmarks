@@ -1,0 +1,14 @@
+{
+    "index": 244,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+    "question_date": "2023/05/24 (Wed) 06:33",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Lost Temple of the Djinn one-shot or the number of mummies, so it cannot be used to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 467,
+    "question_type": "multi-session",
+    "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+    "question_date": "2023/05/27 (Sat) 13:11",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_467_multi-session",
+        "supermemory_document_ids": [
+            "9haijmHjQSYghX7AvzSaE9",
+            "wMtU2PWoshXVYiH4WHA1EF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's car is getting 28 miles per gallon in the city.\nA new air filter could potentially increase the User's city MPG by 1-2 miles per gallon.\nUser's car fuel efficiency is 28 miles per gallon in the city.\nUser wants to improve car's fuel efficiency.\nA new air filter can improve car's fuel efficiency.\nChanging oil can improve fuel efficiency by up to 2-3%.\nUser's oil change is overdue by approximately 1000 miles.\nThe impact of a new air filter on fuel efficiency depends on driving habits, vehicle condition, and other maintenance factors.\nA dirty engine can decrease fuel efficiency.\nA dirty air filter can decrease car's fuel efficiency by up to 20%.",
+            "latency": 1001.572
+        }
+    ]
+}

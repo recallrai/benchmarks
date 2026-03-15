@@ -1,0 +1,14 @@
+{
+    "index": 371,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I attend the Seattle International Film Festival?",
+    "question_date": "2021/10/02 (Sat) 09:44",
+    "ground_truth_answer": "4 months ago",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Seattle International Film Festival attendance, making it impossible to answer the question."
+        }
+    ]
+}

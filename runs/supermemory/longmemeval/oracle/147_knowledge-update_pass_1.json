@@ -1,0 +1,21 @@
+{
+    "index": 147,
+    "question_type": "knowledge-update",
+    "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+    "question_date": "2023/05/28 (Sun) 22:52",
+    "ground_truth_answer": "six",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_147_knowledge-update",
+        "supermemory_document_ids": [
+            "cengveLUpAeQ6Yewi4k2Gf",
+            "QZyUfvMWzxkyUSDMBCh4NX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 798.724
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 46,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+    "question_date": "2023/05/28 (Sun) 15:31",
+    "ground_truth_answer": "the woman selling jam at the farmer's market",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "While the context mentions meeting a jam maker at the farmer's market, it provides no information about the tourist from Australia or when that meeting occurred, making it impossible to determine who was met first."
+        }
+    ]
+}

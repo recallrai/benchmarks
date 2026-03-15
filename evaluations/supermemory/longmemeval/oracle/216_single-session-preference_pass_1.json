@@ -1,0 +1,14 @@
+{
+    "index": 216,
+    "question_type": "single-session-preference",
+    "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+    "question_date": "2023/05/27 (Sat) 13:23",
+    "ground_truth_answer": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate the new dresser and incorporate elements of this design aesthetic. They might not prefer general furniture arrangement tips or suggestions that do not consider their specific design preferences.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's plans to replace the bedroom dresser or their interest in mid-century modern style, which are essential details mentioned in the gold answer."
+        }
+    ]
+}

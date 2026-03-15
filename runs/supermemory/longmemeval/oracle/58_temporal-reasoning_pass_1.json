@@ -1,0 +1,21 @@
+{
+    "index": 58,
+    "question_type": "temporal-reasoning",
+    "question": "Which project did I start first, the Ferrari model or the Porsche 991 Turbo S model?",
+    "question_date": "2023/05/26 (Fri) 00:18",
+    "ground_truth_answer": "The information provided is not enough. You did not mention starting the Porsche 991 Turbo S model.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_58_temporal-reasoning",
+        "supermemory_document_ids": [
+            "7GVU5uz2St9q1cCz4KbTU7",
+            "vtwkAMnjXJW6w14cCiiJTf"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User started the Ferrari 288 GTO model project about three weeks ago on a Sunday afternoon\nUser is building a scale model of a 1980s Ferrari 288 GTO\nUser plans to add opening doors to the Ferrari 288 GTO model\nUser plans to add more complexity to the interior of the Ferrari 288 GTO model\nUser plans to add a cockpit opening door to the Ferrari 288 GTO model\nUser plans to add more complexity to the engine compartment of the Ferrari 288 GTO model\nUser plans to use pigments for weathering the Ferrari 288 GTO model\nUser plans to add pistons to the engine compartment of the Ferrari 288 GTO model\nUser plans to add cylinders to the engine compartment of the Ferrari 288 GTO model\nUser plans to add a pit board to the Ferrari 288 GTO model",
+            "latency": 1658.539
+        }
+    ]
+}

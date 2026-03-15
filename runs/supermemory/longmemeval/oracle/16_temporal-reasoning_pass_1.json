@@ -1,0 +1,21 @@
+{
+    "index": 16,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at NovaTech?",
+    "question_date": "2023/05/22 (Mon) 03:09",
+    "ground_truth_answer": "4 years and 9 months",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_16_temporal-reasoning",
+        "supermemory_document_ids": [
+            "GcrBLU38yKMeuATu3S3Y5T",
+            "4ug9sDjc9HP48QprRPMrqX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has been working at NovaTech for 4 years and 3 months as a backend developer\nUser is working on a project at NovaTech\nUser has been working professionally for 9 years",
+            "latency": 590.173
+        }
+    ]
+}

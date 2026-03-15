@@ -1,0 +1,14 @@
+{
+    "index": 24,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+    "question_date": "2023/05/24 (Wed) 21:38",
+    "ground_truth_answer": "Two weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user attended a meetup and is active in the group, but does not contain any information about the duration of membership (two weeks) before attending the meetup."
+        }
+    ]
+}

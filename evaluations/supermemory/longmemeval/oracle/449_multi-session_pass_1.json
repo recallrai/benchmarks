@@ -1,0 +1,14 @@
+{
+    "index": 449,
+    "question_type": "multi-session",
+    "question": "How much did I spend on car wash and parking ticket?",
+    "question_date": "2023/05/30 (Tue) 04:05",
+    "ground_truth_answer": "$65",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a $15 car wash but contains no information about a parking ticket, which is required to answer the question that asks about both expenses totaling $65."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 313,
+    "question_type": "single-session-user",
+    "question": "How old was I when my grandma gave me the silver necklace?",
+    "question_date": "2023/05/27 (Sat) 13:18",
+    "ground_truth_answer": "18",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the silver necklace or the person's age when they received it from their grandma."
+        }
+    ]
+}

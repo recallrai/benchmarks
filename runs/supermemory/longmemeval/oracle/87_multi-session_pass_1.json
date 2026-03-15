@@ -1,0 +1,21 @@
+{
+    "index": 87,
+    "question_type": "multi-session",
+    "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+    "question_date": "2023/05/25 (Thu) 15:52",
+    "ground_truth_answer": "$270",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_87_multi-session",
+        "supermemory_document_ids": [
+            "Ejzo5VaswgYrZn3REggcgV",
+            "utm1hAS68niTLG3hWNGp9x"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User stayed in a hostel in Tokyo for about $30 per night in January\nUser is staying at a luxurious resort in Maui costing over $300 per night\nUser is interested in affordable transportation options in Tokyo",
+            "latency": 1213.806
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "index": 413,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I go with to the music event last Saturday?",
+    "question_date": "2023/04/22 (Sat) 11:24",
+    "ground_truth_answer": "my parents",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_413_temporal-reasoning",
+        "supermemory_document_ids": [
+            "Dp4B8WuLCXTvUj48mw8KdM",
+            "NYCNohWfcTTG4kSXKLeKHL",
+            "514QCduDwnb9D5DLycr6ne",
+            "XaVn4ruxT84HcTQibFu5hF",
+            "59PtkdVAGeXU9xwpBzgD5H"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended a jazz night at a local bar today\nUser attended a music festival in Brooklyn featuring favorite indie rock bands\nUser should meet new people at Panorama Music Festival\nUser saw Queen live with Adam Lambert at the Prudential Center in Newark, NJ alongside parents\nUser saw Queen live with Adam Lambert at the Prudential Center in Newark, NJ with parents\nUser could attend Panorama Music Festival in New York City, NY on July 24-26 2026\nUser could attend Governors Ball Music Festival in New York City, NY on June 5-7 2026\nUser plans to arrive early at Panorama Music Festival, create a personalized itinerary, and bring a refillable water bottle to stay hydrated\nUser could attend Panorama Music Festival at Randall's Island Park in New York City\nUser could attend Forecastle Festival in Louisville, KY on July 17-19 2026",
+            "latency": 732.589
+        }
+    ]
+}

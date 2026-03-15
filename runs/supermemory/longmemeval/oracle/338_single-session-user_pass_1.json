@@ -1,0 +1,20 @@
+{
+    "index": 338,
+    "question_type": "single-session-user",
+    "question": "How many skeins of worsted weight yarn did I find in my stash?",
+    "question_date": "2023/05/30 (Tue) 19:28",
+    "ground_truth_answer": "17",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_338_single-session-user",
+        "supermemory_document_ids": [
+            "XjpQyJzihGHPRu5guMxTnw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User will make amigurumi toys using the same worsted weight yarn\nUser will make additional fingerless gloves using the same worsted weight yarn and hook size, adjusting stitch count for different hand sizes",
+            "latency": 1262.824
+        }
+    ]
+}

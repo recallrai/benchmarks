@@ -1,0 +1,24 @@
+{
+    "index": 92,
+    "question_type": "multi-session",
+    "question": "How many health-related devices do I use in a day?",
+    "question_date": "2023/05/27 (Sat) 06:53",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_92_multi-session",
+        "supermemory_document_ids": [
+            "6PrmL7Quge4sm1p891qpzQ",
+            "ZqEsrcxdXgS7ukuK4BHEfZ",
+            "rkqFFpZE4FUF6dd9KjZBUR",
+            "MrHzuj1ZfENHe3DPGnnh53",
+            "RFanweBb31h5SzQuA6EDyb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User uses a Fitbit Versa 3 to track activity levels and sleep patterns\nUser wants to increase their daily step count and follow the practical tips shared\nUser intends to create a routine for daily physical activity\nUser likes the activity suggestions provided for staying active throughout the day",
+            "latency": 933.575
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 312,
+    "question_type": "single-session-user",
+    "question": "What is the name of my cat?",
+    "question_date": "2023/05/28 (Sun) 16:07",
+    "ground_truth_answer": "Luna",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_312_single-session-user",
+        "supermemory_document_ids": [
+            "GK6Y99FNoBxjAKmVsYZwH3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's cat is named Luna\nLuna is a sweet cat\nThe user's cat was recommended a probiotic supplement by the veterinarian on January 15\nThe user has a new low-sided litter box for their cat",
+            "latency": 1717.708
+        }
+    ]
+}

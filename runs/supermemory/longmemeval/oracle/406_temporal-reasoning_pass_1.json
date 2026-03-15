@@ -1,0 +1,21 @@
+{
+    "index": 406,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I fixed my mountain bike and the day I decided to upgrade my road bike's pedals?",
+    "question_date": "2023/04/10 (Mon) 18:16",
+    "ground_truth_answer": "4 days. 5 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_406_temporal-reasoning",
+        "supermemory_document_ids": [
+            "hyaBfj1o6P7NwVjoRHXYaq",
+            "AV2HtLcDqScM7PyqtwrezL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 521.921
+        }
+    ]
+}

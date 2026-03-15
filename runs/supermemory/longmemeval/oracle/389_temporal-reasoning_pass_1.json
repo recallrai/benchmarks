@@ -1,0 +1,21 @@
+{
+    "index": 389,
+    "question_type": "temporal-reasoning",
+    "question": "Which mode of transport did I use most recently, a bus or a train?",
+    "question_date": "2023/05/02 (Tue) 14:37",
+    "ground_truth_answer": "train",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_389_temporal-reasoning",
+        "supermemory_document_ids": [
+            "j4kKQhYRPvdVEWRAmMRxyW",
+            "ifAifzAMPAeKmdKiDDWiCe"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user took a train ride to visit family on 2026-03-03.\nThe train journey to visit family was 2 hours long.\nThe user's last trip to Singapore was on 2026-01-20.\nThe user has made seven international trips this year.",
+            "latency": 2212.948
+        }
+    ]
+}

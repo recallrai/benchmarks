@@ -1,0 +1,14 @@
+{
+    "index": 130,
+    "question_type": "knowledge-update",
+    "question": "What day of the week do I take a cocktail-making class?",
+    "question_date": "2023/07/12 (Wed) 04:11",
+    "ground_truth_answer": "Friday",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a cocktail-making class or what day of the week it occurs."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 57,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought my iPad did I attend the Holiday Market?",
+    "question_date": "2023/05/27 (Sat) 17:02",
+    "ground_truth_answer": "The information provided is not enough. You mentioned getting the iPhone 13 Pro and attending the market, but you did not mention buying an iPad.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_57_temporal-reasoning",
+        "supermemory_document_ids": [
+            "H3KWHk85NRXUoeubtrPGjk",
+            "kE68AL4SoTj8Wu1tZz4MzL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user attended the annual Holiday Market at the local mall a week before Black Friday and saw unique handmade jewelry that she might like\nThe user will return to the Holiday Market to look for a piece of jewelry for her sister",
+            "latency": 993.765
+        }
+    ]
+}

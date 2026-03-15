@@ -1,0 +1,14 @@
+{
+    "index": 150,
+    "question_type": "knowledge-update",
+    "question": "How many new postcards have I added to my collection since I started collecting again?",
+    "question_date": "2023/12/20 (Wed) 22:41",
+    "ground_truth_answer": "25",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has added a total of 25 postcards to their collection' which directly matches the gold answer of 25."
+        }
+    ]
+}

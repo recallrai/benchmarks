@@ -1,0 +1,22 @@
+{
+    "index": 117,
+    "question_type": "multi-session",
+    "question": "How many different museums or galleries did I visit in December?",
+    "question_date": "2023/03/03 (Fri) 18:26",
+    "ground_truth_answer": "0. You did not mention visitng any museum in December",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_117_multi-session",
+        "supermemory_document_ids": [
+            "PUZ6joHX4VyzPSmGm2hEmS",
+            "JQkBkycA7SU4nNAhycQc2h",
+            "bG7ZDy69AAZuGzWqob9MV1"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User took niece to the Natural History Museum on February 8 and she loved the dinosaur exhibit\nUser attended the opening night of the \"Disrupting Reality\" exhibition at The Art Cube on 15 February\nUser plans to explore works by Anicka Yi, Carsten H\u00f6ller, Chiharu Shiota, Random International, and Rafael Lozano\u2011Hemmer\nUser is interested in immersive installation art\nUser met curator Rachel Lee at the opening night of The Art Cube gallery",
+            "latency": 1343.018
+        }
+    ]
+}

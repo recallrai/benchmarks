@@ -1,0 +1,21 @@
+{
+    "index": 7,
+    "question_type": "temporal-reasoning",
+    "question": "Which seeds were started first, the tomatoes or the marigolds?",
+    "question_date": "2023/03/10 (Fri) 02:46",
+    "ground_truth_answer": "Tomatoes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_7_temporal-reasoning",
+        "supermemory_document_ids": [
+            "isAm1nmcNs9mAvdUdJPbJP",
+            "fkAxzbYVRzZDmjkMiy9YpM"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Marigold seeds started by User are germinating\nUser started marigold seeds on March 3rd\nMarigolds prefer well-draining soil\nUser is preparing to transplant seedlings, including marigolds, into larger pots\nIndividual stem ties are easier to install and adjust as marigolds grow.\nIdeal soil temperature for planting marigolds is 50-55\u00b0F (10-13\u00b0C)\nNetting trellis provides a supportive structure for marigolds to grow through.\nUser can repurpose a tomato cage by placing it around a marigold plant for support.\nUser is interested in DIY trellises or stakes for marigolds.\nUser is considering a bamboo teepee as a DIY trellis for marigolds.",
+            "latency": 4100.861
+        }
+    ]
+}

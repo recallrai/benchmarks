@@ -1,0 +1,14 @@
+{
+    "index": 336,
+    "question_type": "single-session-user",
+    "question": "What size is my new Samsung TV?",
+    "question_date": "2023/05/24 (Wed) 19:09",
+    "ground_truth_answer": "55-inch",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about a Samsung TV or its size."
+        }
+    ]
+}

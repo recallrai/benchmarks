@@ -1,0 +1,20 @@
+{
+    "index": 225,
+    "question_type": "single-session-preference",
+    "question": "I've got some free time tonight, any documentary recommendations?",
+    "question_date": "2023/05/22 (Mon) 01:48",
+    "ground_truth_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_225_single-session-preference",
+        "supermemory_document_ids": [
+            "qKudUJ4qetudKdn87CSAkv"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 580.946
+        }
+    ]
+}

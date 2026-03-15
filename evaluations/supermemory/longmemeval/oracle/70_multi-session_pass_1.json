@@ -1,0 +1,14 @@
+{
+    "index": 70,
+    "question_type": "multi-session",
+    "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+    "question_date": "2023/05/28 (Sun) 01:01",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions 5 different citrus fruits (lime, lemon, orange, grapefruit, and yuzu) used in cocktail recipes, but the gold answer states 3, creating a mismatch that would lead to an incorrect answer."
+        }
+    ]
+}

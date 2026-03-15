@@ -1,0 +1,21 @@
+{
+    "index": 106,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+    "question_date": "2023/05/25 (Thu) 04:12",
+    "ground_truth_answer": "15 days",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_106_multi-session",
+        "supermemory_document_ids": [
+            "qP7ZaJQL3ZoG9RbjK2G6zn",
+            "WFLPwo5EGGnkvxUHDiEKWn"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's family trip to Hawaii lasted 10 days\nThe user completed a solo five-day trip to New York City\nThe user stayed at a hostel during the New York City trip\nThe user ate at local cafes during the New York City trip\nThe user saved a lot of money on the New York City trip\nUser recently completed an island-hopping trip to Hawaii with family",
+            "latency": 1341.404
+        }
+    ]
+}

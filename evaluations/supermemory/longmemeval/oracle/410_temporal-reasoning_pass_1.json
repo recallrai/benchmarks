@@ -1,0 +1,14 @@
+{
+    "index": 410,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned participating in a sports event two weeks ago. What was the event?",
+    "question_date": "2023/07/01 (Sat) 06:58",
+    "ground_truth_answer": "The company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'the company's annual charity soccer tournament' which exactly matches the gold answer, providing sufficient information to correctly answer what event the user participated in."
+        }
+    ]
+}

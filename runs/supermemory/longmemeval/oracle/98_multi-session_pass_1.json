@@ -1,0 +1,22 @@
+{
+    "index": 98,
+    "question_type": "multi-session",
+    "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+    "question_date": "2023/05/25 (Thu) 21:39",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_98_multi-session",
+        "supermemory_document_ids": [
+            "tgt6rwjRD3XjzMxgaBo3QU",
+            "SEdV3AiFCbp6zyc69VGixh",
+            "q4iwW5AbyuVGHZD1bC3auA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User is working on a Master's thesis in AI and healthcare.\nThe user wants their thesis work to be distinct from their Data Mining course project.\nUser is using Trello to manage their thesis project\nUser has separate Trello boards for Data Mining and Database Systems projects.\nThe user is working on a thesis about AI's impact on healthcare outcomes.",
+            "latency": 1355.108
+        }
+    ]
+}

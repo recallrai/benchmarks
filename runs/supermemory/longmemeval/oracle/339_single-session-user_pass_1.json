@@ -1,0 +1,20 @@
+{
+    "index": 339,
+    "question_type": "single-session-user",
+    "question": "How many hours did I spend watching documentaries on Netflix last month?",
+    "question_date": "2023/05/23 (Tue) 17:55",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_339_single-session-user",
+        "supermemory_document_ids": [
+            "CAYaZuX9i1QBpF8EZKXVEh"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2820.589
+        }
+    ]
+}

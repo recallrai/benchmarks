@@ -1,0 +1,14 @@
+{
+    "index": 274,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+    "question_date": "2023/05/30 (Tue) 04:27",
+    "ground_truth_answer": "Fissionator.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Radiation Amplified zombie or the name 'Fissionator' that would allow someone to answer the question."
+        }
+    ]
+}

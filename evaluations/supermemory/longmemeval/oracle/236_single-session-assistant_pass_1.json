@@ -1,0 +1,14 @@
+{
+    "index": 236,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+    "question_date": "2023/05/30 (Tue) 07:46",
+    "ground_truth_answer": "International Budget Hostel",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and provides no information about any hostel recommendation in Amsterdam, so it cannot be used to answer the question about the International Budget Hostel."
+        }
+    ]
+}

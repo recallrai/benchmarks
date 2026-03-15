@@ -1,0 +1,20 @@
+{
+    "index": 210,
+    "question_type": "single-session-preference",
+    "question": "What should I serve for dinner this weekend with my homegrown ingredients?",
+    "question_date": "2023/05/24 (Wed) 10:29",
+    "ground_truth_answer": "The user would prefer dinner suggestions that incorporate their homegrown cherry tomatoes and herbs like basil and mint, highlighting recipes that showcase their garden produce. They might not prefer suggestions that do not utilize these specific ingredients or do not emphasize the use of homegrown elements.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_210_single-session-preference",
+        "supermemory_document_ids": [
+            "HS8pZFzJqTEzHkQUbQkvht"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 793.22
+        }
+    ]
+}

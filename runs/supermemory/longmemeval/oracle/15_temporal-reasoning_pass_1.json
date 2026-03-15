@@ -1,0 +1,25 @@
+{
+    "index": 15,
+    "question_type": "temporal-reasoning",
+    "question": "How many charity events did I participate in before the 'Run for the Cure' event?",
+    "question_date": "2023/11/29 (Wed) 21:26",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_15_temporal-reasoning",
+        "supermemory_document_ids": [
+            "XXhfq4vLJwXSoZdHKbL6GT",
+            "drojA41GBBG6ocdVMSURPA",
+            "iyJbWmz6JhCQpqVKCxEHLF",
+            "F9QDVghvtzDs3Nf6gi5fSx",
+            "28TM8pgcFmWJQ8N1yqHpnp",
+            "LNhDM4AJKAbJB9ZZxZQSxy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User participated in the \"Run for the Cure\" event on October 15, running 5 kilometers\nOver 5,000 participants attended the \"Run for the Cure\" event\nUser raised $250 for breast cancer research at the \"Run for the Cure\" event\nUser found the Run for the Cure event inspiring with electric energy\nUser participated in the Dance for a Cause event on May 1st\nUser participated in the Bike-a-Thon charity event in November\nUser danced for 6 hours at the Dance for a Cause event on May 1st to raise money for a local arts program\nUser volunteered at the \"Food for Thought\" charity gala on September 25th\nUser is interested in charity fitness events that involve physical activity\nUser attended a charity golf tournament on July 17th.",
+            "latency": 2466.677
+        }
+    ]
+}

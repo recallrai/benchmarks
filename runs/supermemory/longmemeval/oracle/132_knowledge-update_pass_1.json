@@ -1,0 +1,21 @@
+{
+    "index": 132,
+    "question_type": "knowledge-update",
+    "question": "Where do I initially keep my old sneakers?",
+    "question_date": "2023/11/30 (Thu) 14:06",
+    "ground_truth_answer": "under my bed",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_132_knowledge-update",
+        "supermemory_document_ids": [
+            "UwhPiBpeFM3F3Ly8SFuGZz",
+            "EvrmRdmMHTDZp6Dc4E8gcX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User seeks tips to keep sneakers clean and fresh while stored\nThe user stores old sneakers under the bed, leading to odor\nUser will use a shoe rack with individual compartments to store sneakers separately and organized\nUser has a few pairs of shoes hidden in the closet that haven't been worn in ages\nThe user will drop off the old sneakers at a cobbler this weekend for polishing and conditioning\nUser will organize closet this weekend to get rid of old sneakers using a shoe rack\nUser may use storage containers such as bins or baskets to store socks, accessories, or out-of-season shoes\nUser plans to take inventory of their shoe collection\nUser plans to organize closet by type, grouping boots, sneakers, and other shoes together\nThe user plans to donate old dress shoes to a local charity thrift store on Saturday",
+            "latency": 627.679
+        }
+    ]
+}

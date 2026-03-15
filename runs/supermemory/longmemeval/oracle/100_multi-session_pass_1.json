@@ -1,0 +1,22 @@
+{
+    "index": 100,
+    "question_type": "multi-session",
+    "question": "How many bikes did I service or plan to service in March?",
+    "question_date": "2023/03/20 (Mon) 14:45",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_100_multi-session",
+        "supermemory_document_ids": [
+            "8hGASF9ZV6DnLnHVyK6Atk",
+            "BJS4Lqw52BQHCur1fWQEe1",
+            "acDUgxmeyBu6BpMJpjPdcF"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User had road bike serviced at Pedal Power on March 10, 2026, replacing brake pads and cables\nUser cleaned and lubricated bike chain on March 22, 2026\nUser reports improved ride quality after road bike service at Pedal Power on March 10, 2026, where brake pads and cables were replaced\nUser plans to replace the front tire of the hybrid bike this month before April\nUser plans a long ride on Saturday\nUser will check tire pressure, brakes, and gears before the ride.\nUser plans to visit bike shops along Route 1 for assistance if needed.\nUser plans to acquire a bike computer for early morning rides\nUser plans to acquire bike lights for early morning rides",
+            "latency": 3675.161
+        }
+    ]
+}

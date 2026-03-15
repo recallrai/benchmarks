@@ -1,0 +1,14 @@
+{
+    "index": 475,
+    "question_type": "multi-session",
+    "question": "What is the total weight of the new feed I purchased in the past two months?",
+    "question_date": "2023/05/30 (Tue) 12:23",
+    "ground_truth_answer": "70 pounds",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions a 50-pound batch of layer feed and 20 pounds of organic scratch grains, which totals 70 pounds matching the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "index": 347,
+    "question_type": "single-session-user",
+    "question": "What health issue did I initially think was just a cold?",
+    "question_date": "2023/05/25 (Thu) 08:18",
+    "ground_truth_answer": "bronchitis",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_347_single-session-user",
+        "supermemory_document_ids": [
+            "wxnjvihUMD1VKZ37wtHgyc"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user recently had a serious case of bronchitis",
+            "latency": 1262.67
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 463,
+    "question_type": "multi-session",
+    "question": "How much more was the pre-approval amount than the final sale price of the house?",
+    "question_date": "2023/05/29 (Mon) 15:54",
+    "ground_truth_answer": "$25,000",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_463_multi-session",
+        "supermemory_document_ids": [
+            "hDh2sJypiPCr58KdBwQrBH",
+            "7pBiwabab2VSfRm5JAisYN"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's home purchase price was $325,000\nUser's estimated monthly mortgage payment is $1,664.41.\nUser can borrow up to $350,000 for a mortgage.",
+            "latency": 1560.771
+        }
+    ]
+}

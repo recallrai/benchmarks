@@ -1,0 +1,14 @@
+{
+    "index": 203,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest a hotel for my upcoming trip to Miami?",
+    "question_date": "2023/05/29 (Mon) 16:40",
+    "ground_truth_answer": "The user would prefer suggestions of hotels in Miami that offer great views, possibly of the ocean or the city skyline, and have unique features such as a rooftop pool or a hot tub on the balcony. They may not prefer suggestions of basic or budget hotels without these features.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context captures the user's key hotel preferences mentioned in the gold answer - specifically their desire for great views and rooftop pools - which would enable providing appropriate Miami hotel suggestions even though not all details like hot tub or ocean views are explicitly mentioned."
+        }
+    ]
+}

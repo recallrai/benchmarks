@@ -1,0 +1,23 @@
+{
+    "index": 79,
+    "question_type": "multi-session",
+    "question": "How many times did I bake something in the past two weeks?",
+    "question_date": "2023/05/30 (Tue) 20:07",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_79_multi-session",
+        "supermemory_document_ids": [
+            "2p4nfJ4jg6rwmyQvJcFiV9",
+            "h3USgKzm6yxPf6g8A6c8kU",
+            "rKRE1AkL31EWcyU6qAWKze",
+            "LsFJSpGpJSTht9wdQr8dkS"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User used the oven's convection setting for the first time last Thursday to bake a batch of cookies\nUser baked a chocolate cake for their sister's birthday last weekend, enhanced with espresso powder.\nUser has been experimenting with different types of flour recently\nUser has been eating many sweet treats lately, including leftover birthday cake\nUser made a whole wheat baguette last Saturday using whole wheat flour\nUser plans to bake rustic Italian bread this weekend\nUser will bake garlic and herb whole wheat focaccia this weekend\nUser plans to try a whole wheat bread recipe this weekend.\nUser is planning to bake chicken wings for tonight's dinner\nUser attempted to bake Italian bread using a sourdough starter on Tuesday, but the dough rose poorly and the loaf was dense and heavy.",
+            "latency": 1171.913
+        }
+    ]
+}

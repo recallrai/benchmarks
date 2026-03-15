@@ -1,0 +1,14 @@
+{
+    "index": 467,
+    "question_type": "multi-session",
+    "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+    "question_date": "2023/05/27 (Sat) 13:11",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the current MPG is 28 and that a new air filter could increase MPG by 1-2 miles per gallon, suggesting a recent decline of up to 2 MPG which matches the gold answer, though it doesn't explicitly state the historical fuel efficiency from a few months ago."
+        }
+    ]
+}

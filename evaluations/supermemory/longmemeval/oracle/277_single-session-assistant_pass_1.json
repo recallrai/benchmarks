@@ -1,0 +1,14 @@
+{
+    "index": 277,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about music theory. You mentioned some online resources for learning music theory. Can you remind me of the website you recommended for free lessons and exercises?",
+    "question_date": "2023/05/30 (Tue) 06:11",
+    "ground_truth_answer": "MusicTheory.net",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about music theory websites or resources, so it cannot help answer the question about MusicTheory.net."
+        }
+    ]
+}

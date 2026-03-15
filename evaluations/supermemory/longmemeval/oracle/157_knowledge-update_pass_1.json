@@ -1,0 +1,14 @@
+{
+    "index": 157,
+    "question_type": "knowledge-update",
+    "question": "How many Instagram followers do I currently have?",
+    "question_date": "2023/06/08 (Thu) 22:24",
+    "ground_truth_answer": "600",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has 600 Instagram followers' which directly matches the gold answer of 600."
+        }
+    ]
+}

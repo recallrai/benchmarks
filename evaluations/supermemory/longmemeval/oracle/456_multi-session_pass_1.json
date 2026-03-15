@@ -1,0 +1,14 @@
+{
+    "index": 456,
+    "question_type": "multi-session",
+    "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+    "question_date": "2023/05/30 (Tue) 02:24",
+    "ground_truth_answer": "10%",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the renovation cost ($20,000) but contains no information about a countryside property or its price, which is necessary to calculate the percentage relationship asked in the question."
+        }
+    ]
+}

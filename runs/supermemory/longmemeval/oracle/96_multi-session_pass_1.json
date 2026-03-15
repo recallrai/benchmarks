@@ -1,0 +1,22 @@
+{
+    "index": 96,
+    "question_type": "multi-session",
+    "question": "How many pieces of jewelry did I acquire in the last two months?",
+    "question_date": "2023/05/29 (Mon) 17:44",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_96_multi-session",
+        "supermemory_document_ids": [
+            "74kX5X28a3AHRS3LXe7H9J",
+            "qXy9skkjXegBWksG7aie8K",
+            "zhxwVyzodY9qR9J2GR3HuA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User has accumulated many jewelry pieces over the years\nUser acquired a new pair of emerald earrings from a flea market last weekend\nUser plans to take inventory of their jewelry collection\nUser will update the jewelry inventory and documentation whenever new pieces are acquired or changes occur\nUser should regularly review the jewelry inventory to confirm all items are accounted for and properly stored.\nUser will categorize jewelry by type, metal, gemstone, and occasion when organizing the collection\nUser should create an inventory sheet or card for each jewelry piece.\nUser plans to clean the jewelry collection this weekend\nUser should regularly update the jewelry spreadsheet\nUser will include an Occasion/Event column in the jewelry spreadsheet to record where each piece was worn",
+            "latency": 689.142
+        }
+    ]
+}

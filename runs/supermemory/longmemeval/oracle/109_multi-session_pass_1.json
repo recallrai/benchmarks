@@ -1,0 +1,22 @@
+{
+    "index": 109,
+    "question_type": "multi-session",
+    "question": "What is the total amount of money I earned from selling my products at the markets?",
+    "question_date": "2023/06/01 (Thu) 21:36",
+    "ground_truth_answer": "$495",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_109_multi-session",
+        "supermemory_document_ids": [
+            "rhBFSf7ZqUb2utfoWSoz9e",
+            "TPXYHJ91hyo1YL3eREoPYz",
+            "JPatUxnB1RixYBjUpKrhF5"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User earned $150 from selling 20 potted herb plants at the Summer Solstice Market.\nUser sold 20 potted herb plants at the Summer Solstice Market for $7.5 each.\nUser sold 12 bunches of fresh organic herbs on May 15, earning $120.\nUser is considering herbal teas as a product for the Harvest Festival Market.\nUser is considering herb-infused oils as a product for the Harvest Festival Market.\nUser should monitor market trends and seasonal demand when setting prices for herbal teas and infused oils\nUser can set markup between 2 and 5 times production cost for herbal teas and infused oils\nUser can use cost-based pricing by calculating production costs and adding a markup for herbal teas and infused oils\nUser should consider target audience willingness to pay when determining prices for herbal teas and infused oils\nUser can use value-based pricing by setting prices based on perceived value to customers for herbal teas and infused oils",
+            "latency": 3375.691
+        }
+    ]
+}

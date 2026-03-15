@@ -1,0 +1,21 @@
+{
+    "index": 498,
+    "question_type": "multi-session",
+    "question": "How old will Rachel be when I get married?",
+    "question_date": "2023/05/29 (Mon) 01:23",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how old Rachel is right now, nor when will you get married.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_498_multi-session",
+        "supermemory_document_ids": [
+            "NnCQTWfTxUfEsGSjkgwKPf",
+            "4NckGzakaKJZhXWpnUXDNE"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Rachel is getting married next year.\nUser is thinking about life goals because of Rachel's wedding.\nUser is 32 years old.",
+            "latency": 2634.982
+        }
+    ]
+}

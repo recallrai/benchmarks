@@ -1,0 +1,22 @@
+{
+    "index": 68,
+    "question_type": "multi-session",
+    "question": "How many different doctors did I visit?",
+    "question_date": "2023/05/28 (Sun) 06:34",
+    "ground_truth_answer": "I visited three different doctors: a primary care physician, an ENT specialist, and a dermatologist.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_68_multi-session",
+        "supermemory_document_ids": [
+            "JNc2vxg4LNrL4vkycbVJA3",
+            "GJMaiaf9oekKwV92h5E5Ff",
+            "9kVrGoJwbdReYAhpirr4Bw"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user was diagnosed with chronic sinusitis by ENT specialist Dr. Patel.\nThe user was prescribed a nasal spray by Dr. Patel.\nThe user should discuss their sinusitis diagnosis and treatment plan with Dr. Smith.\nThe user will schedule a follow-up appointment with their primary care physician to discuss fatigue and joint pain and rule out other conditions.",
+            "latency": 1139.523
+        }
+    ]
+}

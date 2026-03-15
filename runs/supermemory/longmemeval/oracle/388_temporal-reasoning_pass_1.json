@@ -1,0 +1,21 @@
+{
+    "index": 388,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I finished reading 'The Nightingale' and the day I started reading 'The Hitchhiker's Guide to the Galaxy'?",
+    "question_date": "2022/05/01 (Sun) 21:43",
+    "ground_truth_answer": "1 day. 2 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_388_temporal-reasoning",
+        "supermemory_document_ids": [
+            "hW4QgVFkNih29PHYJdax1a",
+            "1vERYFQ8j7FCkKvtfqbd4w"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User started reading The Hitchhiker's Guide to the Galaxy by Douglas Adams today\nUser enjoys humorous sci\u2011fi books similar to The Hitchhiker's Guide to the Galaxy",
+            "latency": 981.024
+        }
+    ]
+}

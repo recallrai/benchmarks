@@ -1,0 +1,21 @@
+{
+    "index": 192,
+    "question_type": "knowledge-update",
+    "question": "How many Italian restaurants have I tried in my city?",
+    "question_date": "2023/06/24 (Sat) 09:01",
+    "ground_truth_answer": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_192_knowledge-update",
+        "supermemory_document_ids": [
+            "5v4pL2wS1jS2mQqtAnA3f9",
+            "J6XwoXUCk7fpvKkNYjV9U3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 2910.416
+        }
+    ]
+}

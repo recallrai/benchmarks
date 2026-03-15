@@ -1,0 +1,14 @@
+{
+    "index": 430,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'The Nightingale'?",
+    "question_date": "2023/05/25 (Thu) 10:43",
+    "ground_truth_answer": "190",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only states the total page count (440 pages) but does not include any information about current reading progress or pages remaining, which would be necessary to answer how many pages are left to read."
+        }
+    ]
+}

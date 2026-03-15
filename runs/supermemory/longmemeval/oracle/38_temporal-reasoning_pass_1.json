@@ -1,0 +1,21 @@
+{
+    "index": 38,
+    "question_type": "temporal-reasoning",
+    "question": "How long did I use my new binoculars before I saw the American goldfinches returning to the area?",
+    "question_date": "2023/05/26 (Fri) 09:53",
+    "ground_truth_answer": "Two weeks",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_38_temporal-reasoning",
+        "supermemory_document_ids": [
+            "TNocDVWEYhNw1q8477g2wA",
+            "GFgvm6rjVKyueWhoLK5WJ9"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User acquired new binoculars three weeks ago after months of waiting\nUser focuses on bird shapes and silhouettes, noting the new binoculars improve distant observations\nThe user's new binoculars have made a huge difference in birding trips\nUser previously used a heavy, unclear pair of binoculars borrowed from a friend",
+            "latency": 1306.403
+        }
+    ]
+}

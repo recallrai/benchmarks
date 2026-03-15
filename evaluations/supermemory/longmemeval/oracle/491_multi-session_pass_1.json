@@ -1,0 +1,14 @@
+{
+    "index": 491,
+    "question_type": "multi-session",
+    "question": "How much discount will I get on my next purchase at FreshMart?",
+    "question_date": "2023/05/30 (Tue) 10:10",
+    "ground_truth_answer": "$5",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states that the user has 500 points at FreshMart and that 500 points translates to a $5 discount on the next purchase, which directly answers the question and matches the gold answer."
+        }
+    ]
+}

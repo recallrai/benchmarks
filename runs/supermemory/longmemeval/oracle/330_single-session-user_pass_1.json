@@ -1,0 +1,20 @@
+{
+    "index": 330,
+    "question_type": "single-session-user",
+    "question": "How long did I wait for the decision on my asylum application?",
+    "question_date": "2023/05/28 (Sun) 19:47",
+    "ground_truth_answer": "over a year",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_330_single-session-user",
+        "supermemory_document_ids": [
+            "AGWx9vjQHuaAc6FeNmr4Tz"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User's asylum application was approved after more than a year of uncertainty.",
+            "latency": 1417.305
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 425,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+    "question_date": "2023/04/01 (Sat) 23:09",
+    "ground_truth_answer": "I got my own set of sculpting tools.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about sculpting tools or any investment/purchase for a competition."
+        }
+    ]
+}

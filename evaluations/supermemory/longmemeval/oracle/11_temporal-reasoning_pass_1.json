@@ -1,0 +1,14 @@
+{
+    "index": 11,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the purchase of the coffee maker or the malfunction of the stand mixer?",
+    "question_date": "2023/05/22 (Mon) 18:10",
+    "ground_truth_answer": "The malfunction of the stand mixer",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The context states the stand mixer broke down 'last month' (April relative to the May 22 question date) and the coffee maker was purchased 'approximately three weeks ago' (around May 1), confirming the stand mixer malfunction occurred first."
+        }
+    ]
+}

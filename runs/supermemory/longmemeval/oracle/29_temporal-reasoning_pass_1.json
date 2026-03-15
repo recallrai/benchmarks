@@ -1,0 +1,22 @@
+{
+    "index": 29,
+    "question_type": "temporal-reasoning",
+    "question": "Which airline did I fly with the most in March and April?",
+    "question_date": "2023/04/27 (Thu) 13:11",
+    "ground_truth_answer": "United Airlines",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_29_temporal-reasoning",
+        "supermemory_document_ids": [
+            "si8WCk33LwiSoQQGAax84A",
+            "Lr1SVQKvSFWVuKWfiThLfn",
+            "3jDremVzBWm7VgUBP7pJRX"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User took at least 10 Uber rides during a week-long vacation in Hawaii from April 20 to April 27.\nUser is a frequent flyer\nUser is loyal to United Airlines and American Airlines.\nUser flew with American Airlines from hometown to Honolulu and then connected to Maui.\nUser is trying to accumulate airline miles",
+            "latency": 1558.642
+        }
+    ]
+}

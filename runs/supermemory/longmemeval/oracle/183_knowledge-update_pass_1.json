@@ -1,0 +1,21 @@
+{
+    "index": 183,
+    "question_type": "knowledge-update",
+    "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+    "question_date": "2023/10/12 (Thu) 00:50",
+    "ground_truth_answer": "level 100",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_183_knowledge-update",
+        "supermemory_document_ids": [
+            "Aa7MnLvoC3V9F2CAsLZnEo",
+            "FphXE4UeqkWNv9BHdpDvwy"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User aims to reach level 150 in Apex Legends eventually\nUser plans to complete daily and weekly challenges to earn more experience points and level up faster in Apex Legends\nUser is considering playing Apex Legends for fun without worrying about leveling up\nUser will prioritize fun over ranking in this weekend's Apex Legends session\nUser wants to improve aim in Apex Legends\nUser plans to play Apex Legends with friends this weekend\nUser wants tips to improve overall gameplay in Apex Legends\nUser focuses on developing good habits, staying patient, and practicing consistently to improve aim in Apex Legends\nUser is motivated to reach level 150 by completing daily and weekly challenges\nUser wants tips to improve team communication in Apex Legends",
+            "latency": 4037.714
+        }
+    ]
+}

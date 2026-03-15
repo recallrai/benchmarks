@@ -1,0 +1,21 @@
+{
+    "index": 457,
+    "question_type": "multi-session",
+    "question": "What is the total cost of Lola's vet visit and flea medication?",
+    "question_date": "2023/05/27 (Sat) 02:14",
+    "ground_truth_answer": "$75",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_457_multi-session",
+        "supermemory_document_ids": [
+            "iLEYdVYb2WSvrBQ1ByE5WT",
+            "3JhvFELJWeUDCb3sftfoER"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "Lola's owner bought flea and tick prevention medication for $25 for a 3-month supply.\nLola visited the vet last week.\nLola's vet consultation fee was $50.\nLola received a discounted vet consultation fee.\nLola's owner bought a 20-pound bag of cat food for $35.\nLola is a cat.\nLola's pet grooming kit cost $80 when purchased last year.\nLola's owner uses the pet grooming kit regularly.\nLola's owner purchased Arm & Hammer Super Scoop Cat Litter from Petco on Saturday.\nMax's owner is using a pet grooming kit for Lola.",
+            "latency": 925.761
+        }
+    ]
+}

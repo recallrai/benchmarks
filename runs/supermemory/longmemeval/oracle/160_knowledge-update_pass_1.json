@@ -1,0 +1,21 @@
+{
+    "index": 160,
+    "question_type": "knowledge-update",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/04/23 (Sun) 13:41",
+    "ground_truth_answer": "Yes",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_160_knowledge-update",
+        "supermemory_document_ids": [
+            "c2gCdsWhm4uaFVB2WKGYmS",
+            "UEC2Ez3FCTF96sgk6eAVDL"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1290.232
+        }
+    ]
+}

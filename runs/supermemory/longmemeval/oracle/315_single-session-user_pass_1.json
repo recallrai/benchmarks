@@ -1,0 +1,20 @@
+{
+    "index": 315,
+    "question_type": "single-session-user",
+    "question": "How much RAM did I upgrade my laptop to?",
+    "question_date": "2023/05/27 (Sat) 21:08",
+    "ground_truth_answer": "16GB",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_315_single-session-user",
+        "supermemory_document_ids": [
+            "rR9idq6sqbygY4uuRqioLk"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 873.977
+        }
+    ]
+}

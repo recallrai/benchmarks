@@ -1,0 +1,14 @@
+{
+    "index": 472,
+    "question_type": "multi-session",
+    "question": "How many dinner parties have I attended in the past month?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "three",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one dinner party attended (at Alex's place), while the gold answer states three dinner parties were attended in the past month."
+        }
+    ]
+}

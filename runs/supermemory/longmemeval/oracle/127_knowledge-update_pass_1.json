@@ -1,0 +1,21 @@
+{
+    "index": 127,
+    "question_type": "knowledge-update",
+    "question": "Is my mom using the same grocery list method as me?",
+    "question_date": "2023/05/08 (Mon) 03:18",
+    "ground_truth_answer": "Yes.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_127_knowledge-update",
+        "supermemory_document_ids": [
+            "pTQooRpECr72foh3iHciJH",
+            "1roGeZkZWyS9Xqn9aCC2Vj"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user's mom uses the same grocery list app as the user\nThe user shares a grocery list app with their mom\nThe user uses a grocery list app to keep track of all ingredients needed.\nThe user added olive oil to their grocery list\nThe user added bell peppers to their grocery list\nThe user added onions to their grocery list",
+            "latency": 2322.332
+        }
+    ]
+}

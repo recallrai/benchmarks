@@ -1,0 +1,21 @@
+{
+    "index": 141,
+    "question_type": "knowledge-update",
+    "question": "How often do I see my therapist, Dr. Smith?",
+    "question_date": "2023/12/01 (Fri) 13:17",
+    "ground_truth_answer": "every week",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_141_knowledge-update",
+        "supermemory_document_ids": [
+            "sPF79XnhneJnBi8xTbkULm",
+            "8DLdaL6UFN2LgsTpWz6UbA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User sees Dr. Smith weekly for sessions on healthy boundaries\nUser receives help from Dr. Smith to work on healthy boundaries\nUser discussed healthy boundaries with Dr. Smith\nUser has a bi\u2011weekly dinner with friends\nUser will review priorities and commitments on a weekly basis\nUser attends a weekly yoga class",
+            "latency": 574.815
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 385,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+    "question_date": "2023/07/01 (Sat) 13:47",
+    "ground_truth_answer": "I first completed the Spring Sprint Triathlon, then took part in the Midsummer 5K Run, and finally participated in the company's annual charity soccer tournament.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_385_temporal-reasoning",
+        "supermemory_document_ids": [
+            "3jixkVro7NvdCxYCUejMJA",
+            "aLEsKv1pVXfozwcwoZPkbR",
+            "3EohvMohVB8LgqSuFJgjJq"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 1664.036
+        }
+    ]
+}

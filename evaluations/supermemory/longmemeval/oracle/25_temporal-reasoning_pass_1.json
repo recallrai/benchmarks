@@ -1,0 +1,14 @@
+{
+    "index": 25,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+    "question_date": "2023/05/27 (Sat) 08:13",
+    "ground_truth_answer": "2 months",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user attended an open mic night and studies comedians' performances, but does not contain any information about the specific duration (2 months) they had been watching stand-up comedy specials regularly before attending the open mic."
+        }
+    ]
+}

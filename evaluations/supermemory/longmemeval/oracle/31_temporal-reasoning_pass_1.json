@@ -1,0 +1,14 @@
+{
+    "index": 31,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did I take first, the one to Europe with family or the solo trip to Thailand?",
+    "question_date": "2023/05/23 (Tue) 23:37",
+    "ground_truth_answer": "The solo trip to Thailand",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the Thailand trip was 'last year' (2022) and the Europe trip was 'last month' (April 2023), clearly establishing that the Thailand trip came first, which matches the gold answer."
+        }
+    ]
+}

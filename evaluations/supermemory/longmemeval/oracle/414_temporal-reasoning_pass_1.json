@@ -1,0 +1,14 @@
+{
+    "index": 414,
+    "question_type": "temporal-reasoning",
+    "question": "What gardening-related activity did I do two weeks ago?",
+    "question_date": "2023/05/05 (Fri) 03:53",
+    "ground_truth_answer": "planting 12 new tomato saplings",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about planting tomato saplings or any gardening activity."
+        }
+    ]
+}

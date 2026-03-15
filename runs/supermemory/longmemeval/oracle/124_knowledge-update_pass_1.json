@@ -1,0 +1,21 @@
+{
+    "index": 124,
+    "question_type": "knowledge-update",
+    "question": "Where did Rachel move to after her recent relocation?",
+    "question_date": "2023/06/24 (Sat) 08:50",
+    "ground_truth_answer": "the suburbs",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_124_knowledge-update",
+        "supermemory_document_ids": [
+            "upHtGBswfGBAEXRg4bfRjY",
+            "5gayoZ8z7f2rtASJQoxNsH"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 3698.97
+        }
+    ]
+}

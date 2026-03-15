@@ -1,0 +1,21 @@
+{
+    "index": 136,
+    "question_type": "knowledge-update",
+    "question": "How many titles are currently on my to-watch list?",
+    "question_date": "2023/06/20 (Tue) 09:36",
+    "ground_truth_answer": "25",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_136_knowledge-update",
+        "supermemory_document_ids": [
+            "Y22SLmddyC81P1WjW8KduU",
+            "HajtXpTtS1xbXgQxJp36w3"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 479.092
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "index": 225,
+    "question_type": "single-session-preference",
+    "question": "I've got some free time tonight, any documentary recommendations?",
+    "question_date": "2023/05/22 (Mon) 01:48",
+    "ground_truth_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's documentary preferences or their previously enjoyed titles ('Our Planet', 'Free Solo', 'Tiger King'), which are essential to answering the question according to the gold answer."
+        }
+    ]
+}

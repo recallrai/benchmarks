@@ -1,0 +1,21 @@
+{
+    "index": 8,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Hindu festival of Holi and the Sunday mass at St. Mary's Church?",
+    "question_date": "2023/03/26 (Sun) 21:19",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_8_temporal-reasoning",
+        "supermemory_document_ids": [
+            "DuPxWoy2b59rwjSsyt1tYn",
+            "zBPWVQrhbL2NWZVJzYMxRb"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended Sunday mass at St. Mary's Church on March 19th.\nUser attended Holi celebration at local temple on February 26th.\nUser is interested in the origins of Holi.\nUser met cousin Emma at St. Mary's Church last Sunday.\nUser met cousin Emma at St. Mary's Church last Sunday.\nUser's cousin Emma visited and sat next to them at St. Mary's Church.\nHoli marks the arrival of spring.\nUser is learning about the significance of Holi.\nUser is interested in the cultural importance of Holi in India.\nHoli is a time to repair and strengthen relationships.",
+            "latency": 4130.571
+        }
+    ]
+}

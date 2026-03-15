@@ -1,0 +1,21 @@
+{
+    "index": 159,
+    "question_type": "knowledge-update",
+    "question": "How many issues of National Geographic have I finished reading?",
+    "question_date": "2023/07/18 (Tue) 09:43",
+    "ground_truth_answer": "Five",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_159_knowledge-update",
+        "supermemory_document_ids": [
+            "A7WH4HMGzBTUGx4VMh96kt",
+            "bJ5oTW8D2qZRrudBVTGUdg"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user has finished five issues of National Geographic\nThe user reads National Geographic magazine\nThe user is currently reading the fourth issue of National Geographic\nThe user reads about the Amazon rainforest in National Geographic\nThe user is interested in the article \"National Geographic's Yanomami People\"\nThe user added The Atlantic to their reading list\nThe user added Rolling Stone to their reading list",
+            "latency": 1083.316
+        }
+    ]
+}

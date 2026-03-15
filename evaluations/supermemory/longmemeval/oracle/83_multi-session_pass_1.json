@@ -1,0 +1,14 @@
+{
+    "index": 83,
+    "question_type": "multi-session",
+    "question": "How many different types of food delivery services have I used recently?",
+    "question_date": "2023/05/29 (Mon) 14:52",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about food delivery services, so it cannot be used to answer the question about how many different types were used recently."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "index": 453,
+    "question_type": "multi-session",
+    "question": "How many points do I need to earn to redeem a free skincare product at Sephora?",
+    "question_date": "2023/05/30 (Tue) 01:16",
+    "ground_truth_answer": "100",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_453_multi-session",
+        "supermemory_document_ids": [
+            "f7q1dPnbWivbusX2noG3aQ",
+            "G6yNYGSQJ2UCNsHEjVNq7v"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 642.918
+        }
+    ]
+}

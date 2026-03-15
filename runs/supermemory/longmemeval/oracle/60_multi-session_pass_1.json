@@ -1,0 +1,22 @@
+{
+    "index": 60,
+    "question_type": "multi-session",
+    "question": "How many items of clothing do I need to pick up or return from a store?",
+    "question_date": "2023/02/15 (Wed) 19:47",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_60_multi-session",
+        "supermemory_document_ids": [
+            "BkEhUGf1nKjeVqNBW7ZHSx",
+            "Txpr3akiLvdQv8CLY5uHD7",
+            "GtVuY2k92L3wrDFbk87XnD"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User will create separate notes or lists for each store for pickups and returns.\nUser will adopt a one-in-one-out policy for closet items\nUser plans to sort short-sleeve shirts from last summer.\nUser will use a notes app on phone to track pickups and returns\nUser may store winter clothes in a separate area such as a garage or attic until next winter.\nUser plans to store clean workout clothes properly in a well-ventilated area.\nUser checks short-sleeve shirts for stains, tears, fading, and missing buttons.\nUser stores clean workout clothes in a storage bin or bag with breathable mesh panels\nUser plans to store thick grey scarf and gloves in boxes for winter storage\nUser will use dividers or bins to separate items within a clothing category such as work, casual, and formal wear.",
+            "latency": 1844.374
+        }
+    ]
+}

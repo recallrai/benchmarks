@@ -1,0 +1,21 @@
+{
+    "index": 448,
+    "question_type": "multi-session",
+    "question": "What is the total number of goals and assists I have in the recreational indoor soccer league?",
+    "question_date": "2023/05/29 (Mon) 21:24",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_448_multi-session",
+        "supermemory_document_ids": [
+            "ZvZhvW21CexuPptHGGseiB",
+            "SkYawrVPffmWbKP5bkYHiu"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 750.223
+        }
+    ]
+}

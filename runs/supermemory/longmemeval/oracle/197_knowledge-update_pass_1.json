@@ -1,0 +1,21 @@
+{
+    "index": 197,
+    "question_type": "knowledge-update",
+    "question": "How often do I play table tennis with my friends at the local park?",
+    "question_date": "2023/06/19 (Mon) 15:12",
+    "ground_truth_answer": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_197_knowledge-update",
+        "supermemory_document_ids": [
+            "sZYovVFMcgW49jk4LNFMJY",
+            "ZGBDzH4uwTdK3jgf28zBcQ"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "The user will play tennis with friends on 2026-02-01 at the local park\nThe user is trying to improve net game by practicing volleys and overheads\nThe user is a baseline player who focuses on forehand and backhand groundstrokes",
+            "latency": 1549.635
+        }
+    ]
+}

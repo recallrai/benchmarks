@@ -1,0 +1,14 @@
+{
+    "index": 332,
+    "question_type": "single-session-user",
+    "question": "How long was I in Japan for?",
+    "question_date": "2023/05/28 (Sun) 23:29",
+    "ground_truth_answer": "two weeks",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the duration of the Japan trip."
+        }
+    ]
+}

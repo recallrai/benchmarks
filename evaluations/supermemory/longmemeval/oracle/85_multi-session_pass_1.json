@@ -1,0 +1,14 @@
+{
+    "index": 85,
+    "question_type": "multi-session",
+    "question": "Which social media platform did I gain the most followers on over the past month?",
+    "question_date": "2023/05/28 (Sun) 00:07",
+    "ground_truth_answer": "TikTok",
+    "judge_response": [
+        {
+            "tag": "default",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about social media platforms or follower gains that would allow answering the question."
+        }
+    ]
+}

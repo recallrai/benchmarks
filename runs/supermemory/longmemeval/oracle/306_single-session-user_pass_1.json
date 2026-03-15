@@ -1,0 +1,20 @@
+{
+    "index": 306,
+    "question_type": "single-session-user",
+    "question": "What brand are my favorite running shoes?",
+    "question_date": "2023/05/30 (Tue) 20:23",
+    "ground_truth_answer": "Nike",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_306_single-session-user",
+        "supermemory_document_ids": [
+            "EwnANcxKX731J59sbmTaEt"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 876.959
+        }
+    ]
+}

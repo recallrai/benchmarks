@@ -1,0 +1,21 @@
+{
+    "index": 497,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster for my undergrad course research project?",
+    "question_date": "2023/05/28 (Sun) 22:39",
+    "ground_truth_answer": "The information provided is not enough. You did not mention presenting a poster for your undergrad course research project.",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_497_multi-session",
+        "supermemory_document_ids": [
+            "MsYLSmxstj1o4s9veQNWTW",
+            "rdxvT66vGuq3AL5jZPpNXA"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "User attended a research conference at Harvard University\nUser presented research at a conference over the summer.",
+            "latency": 2923.909
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 83,
+    "question_type": "multi-session",
+    "question": "How many different types of food delivery services have I used recently?",
+    "question_date": "2023/05/29 (Mon) 14:52",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "supermemory_container_tag": "longmemeval_oracle_83_multi-session",
+        "supermemory_document_ids": [
+            "6p2E3FDLnvTnHaPBv8pZdH",
+            "B5a38AivW1Kz5LNUNYyLm7",
+            "fJC6yW6c78U5WBS6R225Gr"
+        ]
+    },
+    "retrieval_results": [
+        {
+            "strategy": "default",
+            "context": "",
+            "latency": 409.167
+        }
+    ]
+}

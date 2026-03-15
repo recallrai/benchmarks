@@ -124,7 +124,8 @@ class Mem0Runner(BaseLongMemEvalRunner):
                 continue
 
             await self.log(f"[Example {index}] Retrieving with {strategy} strategy...")
-            raw, latency = await self._with_retry_timed(
+            
+            resp, latency = await self._with_retry_timed(
                 client.search,
                 query=question,
                 filters={"user_id": user_id},
@@ -134,7 +135,7 @@ class Mem0Runner(BaseLongMemEvalRunner):
             )
 
             memories = []
-            for r in raw["results"]:
+            for r in resp["results"]:
                 memories.append(r["memory"])
 
             retrieval_results[strategy] = {

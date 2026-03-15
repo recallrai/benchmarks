@@ -202,7 +202,8 @@ class RecallrRunner(BaseLongMemEvalRunner):
                 continue
 
             await self.log(f"[Example {index}] Retrieving with {strategy} strategy...")
-            ctx, latency = await self._with_retry_timed(
+            
+            resp, latency = await self._with_retry_timed(
                 query_session.get_context,
                 min_top_k=20, max_top_k=20,
                 memories_threshold=0.6,
@@ -211,7 +212,7 @@ class RecallrRunner(BaseLongMemEvalRunner):
 
             retrieval_results[strategy] = {
                 "strategy": strategy,
-                "context": ctx.context,
+                "context": resp.context,
                 "latency": latency,
             }
             await self.log(

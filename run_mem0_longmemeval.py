@@ -132,7 +132,7 @@ class Mem0Runner(BaseLongMemEvalRunner):
             )
 
             memories = []
-            for r in raw["memories"]:
+            for r in raw["results"]:
                 memories.append(r["memory"])
 
             retrieval_results[strategy] = {

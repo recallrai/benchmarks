@@ -1,0 +1,19 @@
+{
+    "index": 408,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I read the March 15th issue of The New Yorker?",
+    "question_date": "2023/04/01 (Sat) 16:41",
+    "ground_truth_answer": "12 days ago. 13 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms the user read the March 15th issue of The New Yorker, it does not provide any temporal information about when they read it, which is necessary to answer 'how many days ago' they read it."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the context confirms the user read a March 15th issue of The New Yorker, it does not specify when they actually read it, which is necessary to calculate how many days ago from April 1st the reading occurred."
+        }
+    ]
+}

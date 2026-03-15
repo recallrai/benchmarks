@@ -1,0 +1,22 @@
+{
+    "index": 212,
+    "question_type": "single-session-preference",
+    "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+    "question_date": "2023/05/26 (Fri) 02:34",
+    "ground_truth_answer": "Considering their mixology class background, the user would prefer cocktail suggestions that build upon their existing skills and interests, such as creative variations of classic cocktails or innovative twists on familiar flavors. They might appreciate recommendations that incorporate their experience with refreshing summer drinks like Pimm's Cup. The user would not prefer overly simplistic or basic cocktail recipes, and may not be interested in suggestions that don't take into account their mixology class background.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_212_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to experiment with new cocktails this weekend, focusing on summer drinks that incorporate Hendrick's gin.\nUser is preparing a Pimm's Cup with a Twist that will include muddled cucumber slices for texture, a grapefruit simple syrup made from Ruby Red Grapefruit to balance sweetness with bitterness, garnishes such as cucumber, grapefruit slices, mint sprigs, edible flowers, and fruit, and will serve the drink in a Collins glass to showcase the layers and visual appeal.\nUser has recently made a classic Pimm's Cup and other classic cocktails during a mixology class.",
+            "latency": 1438.835
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to experiment with new cocktails this weekend, focusing on summer drinks that incorporate Hendrick's gin.\nUser is preparing a Pimm's Cup with a Twist that will include muddled cucumber slices for texture, a grapefruit simple syrup made from Ruby Red Grapefruit to balance sweetness with bitterness, garnishes such as cucumber, grapefruit slices, mint sprigs, edible flowers, and fruit, and will serve the drink in a Collins glass to showcase the layers and visual appeal.\nUser has recently made a classic Pimm's Cup and other classic cocktails during a mixology class.",
+            "latency": 4173.667
+        }
+    ]
+}

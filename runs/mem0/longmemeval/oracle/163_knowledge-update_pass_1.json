@@ -1,0 +1,22 @@
+{
+    "index": 163,
+    "question_type": "knowledge-update",
+    "question": "How many tops have I bought from H&M so far?",
+    "question_date": "2023/10/20 (Fri) 18:28",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_163_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has purchased five tops from H&M and loves their summer collection. They plan to visit the mall this weekend, will check the mall's website first, and intend to buy more tops from H&M during that visit.\nUser is looking for current promotions or sales at H&M and Sephora, is interested in signing up for H&M's loyalty program, and wants to find which stores are near H&M.\nUser wants to find which stores are near H&M.\nUser wants new sci\u2011fi releases or staff recommendations from the bookstore's sci\u2011fi section.\nUser is also seeking recommendations for other thrift stores or vintage shops in their area, and wants suggestions for popular online marketplaces or websites where they can find vintage clothing or second-hand items.\nUser is interested in ASOS promo codes or sales, has recently placed an order, and is considering another purchase if a good deal is available.\nUser is looking for Target sales or promo codes for household essentials.\nUser has visited The Vault thrift store near their workplace, was impressed with its selection, wants to know its business hours and upcoming events, plans to check Google Reviews and Yelp for additional feedback, and is curious about other thrift or vintage shops in the area.\nUser is planning to visit a local bookstore this weekend and wants to know about upcoming events or book clubs.",
+            "latency": 644.643
+        },
+        {
+            "strategy": "graph",
+            "context": "User has purchased five tops from H&M and loves their summer collection. They plan to visit the mall this weekend, will check the mall's website first, and intend to buy more tops from H&M during that visit.\nUser is looking for current promotions or sales at H&M and Sephora, is interested in signing up for H&M's loyalty program, and wants to find which stores are near H&M.\nUser wants to find which stores are near H&M.\nUser wants new sci\u2011fi releases or staff recommendations from the bookstore's sci\u2011fi section.\nUser is also seeking recommendations for other thrift stores or vintage shops in their area, and wants suggestions for popular online marketplaces or websites where they can find vintage clothing or second-hand items.\nUser is interested in ASOS promo codes or sales, has recently placed an order, and is considering another purchase if a good deal is available.\nUser is looking for Target sales or promo codes for household essentials.\nUser has visited The Vault thrift store near their workplace, was impressed with its selection, wants to know its business hours and upcoming events, plans to check Google Reviews and Yelp for additional feedback, and is curious about other thrift or vintage shops in the area.\nUser is planning to visit a local bookstore this weekend and wants to know about upcoming events or book clubs.",
+            "latency": 897.222
+        }
+    ]
+}

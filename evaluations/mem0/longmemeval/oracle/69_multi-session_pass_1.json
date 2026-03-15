@@ -1,0 +1,19 @@
+{
+    "index": 69,
+    "question_type": "multi-session",
+    "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+    "question_date": "2023/05/27 (Sat) 18:41",
+    "ground_truth_answer": "2 AM",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user stayed up until 2 AM last Wednesday, which made Thursday morning a struggle, and also mentions a doctor's appointment at 10 AM on Thursday, confirming the user went to bed at 2 AM the day before their doctor's appointment."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user had a doctor's appointment on Thursday at 10 AM, and that they stayed up until 2 AM last Wednesday (the day before Thursday), which matches the gold answer of 2 AM."
+        }
+    ]
+}

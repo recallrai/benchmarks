@@ -1,0 +1,19 @@
+{
+    "index": 152,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Harajuku?",
+    "question_date": "2023/10/15 (Sun) 12:38",
+    "ground_truth_answer": "3 months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has been living in Harajuku for three months,' which directly matches the gold answer of '3 months.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'has been living in Harajuku for three months,' which directly matches the gold answer of '3 months.'"
+        }
+    ]
+}

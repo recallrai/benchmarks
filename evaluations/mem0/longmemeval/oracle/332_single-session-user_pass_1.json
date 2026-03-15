@@ -1,0 +1,19 @@
+{
+    "index": 332,
+    "question_type": "single-session-user",
+    "question": "How long was I in Japan for?",
+    "question_date": "2023/05/28 (Sun) 23:29",
+    "ground_truth_answer": "two weeks",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'stayed in small hostels and guesthouses' during 'a solo two-week trip', which directly matches the gold answer of 'two weeks'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has already visited Fushimi Inari Shrine during a solo two-week trip', which directly matches the gold answer of 'two weeks'."
+        }
+    ]
+}

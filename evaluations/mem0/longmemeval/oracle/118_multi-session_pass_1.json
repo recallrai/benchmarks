@@ -1,0 +1,19 @@
+{
+    "index": 118,
+    "question_type": "multi-session",
+    "question": "How many fish are there in my 30-gallon tank?",
+    "question_date": "2023/05/28 (Sun) 08:12",
+    "ground_truth_answer": "The information provided is not enough. You did not mention that you have a 30-gallon tank.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions a 10-gallon tank and a 20-gallon tank but contains no information about a 30-gallon tank, which supports the gold answer that the user did not mention having a 30-gallon tank."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The gold answer correctly states there's no information about a 30-gallon tank, and the retrieved context only mentions 10-gallon and 20-gallon tanks, which supports this answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 73,
+    "question_type": "multi-session",
+    "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+    "question_date": "2023/05/24 (Wed) 18:37",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_73_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a 20\u2011gallon freshwater community aquarium named \"Amazonia\" that currently appears to be doing well, and the tank houses neon tetras, harlequin rasboras, and platies.\nUser has a 1\u2011gallon tank for a friend's child with guppies and plants, and wants to know if Amazon Swords and Water Wisteria have the same temperature requirements as in a larger tank.\nUser wants detailed care instructions for Amazon Swords and Water Wisteria in their 20\u2011gallon community tank, including lighting, fertilizer, iron, temperature, and CO2 suitability.\nUser is interested in setting up a trellis for java moss in Amazonia to keep the moss in place and create a nice display, and wants instructions on how to do so.\nUser currently has an anacharis and a java moss in Amazonia and is looking to add more beginner-friendly live plants to increase variety.\nUser wants recommendations for fish food brands that are suitable for a community tank like Amazonia, specifically for neon tetras, harlequin rasboras, and platies.\nUser is planning to acquire driftwood for Amazonia to create hiding places and visual interest, and wants advice on how to prepare and care for that driftwood in a freshwater community tank.\nUser is noticing algae growth on the glass walls of Amazonia and is looking for tips to control that algae.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a 20\u2011gallon freshwater community aquarium named \"Amazonia\" that currently appears to be doing well, and the tank houses neon tetras, harlequin rasboras, and platies.\nUser has a 1\u2011gallon tank for a friend's child with guppies and plants, and wants to know if Amazon Swords and Water Wisteria have the same temperature requirements as in a larger tank.\nUser wants detailed care instructions for Amazon Swords and Water Wisteria in their 20\u2011gallon community tank, including lighting, fertilizer, iron, temperature, and CO2 suitability.\nUser is interested in setting up a trellis for java moss in Amazonia to keep the moss in place and create a nice display, and wants instructions on how to do so.\nUser currently has an anacharis and a java moss in Amazonia and is looking to add more beginner-friendly live plants to increase variety.\nUser wants recommendations for fish food brands that are suitable for a community tank like Amazonia, specifically for neon tetras, harlequin rasboras, and platies.\nUser is planning to acquire driftwood for Amazonia to create hiding places and visual interest, and wants advice on how to prepare and care for that driftwood in a freshwater community tank.\nUser is noticing algae growth on the glass walls of Amazonia and is looking for tips to control that algae.",
+            "latency": 746.239
+        }
+    ]
+}

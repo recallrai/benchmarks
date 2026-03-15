@@ -1,0 +1,22 @@
+{
+    "index": 299,
+    "question_type": "single-session-user",
+    "question": "Where did I attend for my study abroad program?",
+    "question_date": "2023/05/29 (Mon) 14:58",
+    "ground_truth_answer": "University of Melbourne in Australia",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_299_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User previously visited the Great Ocean Road during a study abroad program at the University of Melbourne, enjoyed exploring the coast, hiking, and scenic views, and recommends stopping at the Kennett River Koala Walk to spot koalas in their natural habitat.\nUser has decided to try Todoist for task management, believes it will complement the existing use of Google Calendar, and is planning a trip to the Great Ocean Road.\nUser currently uses Google Calendar to track classes and a part\u2011time job but is uncertain whether it is the best tool for task management; the user is considering Todoist or Trello to help stay organized with assignments and tasks.",
+            "latency": 1111.197
+        },
+        {
+            "strategy": "graph",
+            "context": "User previously visited the Great Ocean Road during a study abroad program at the University of Melbourne, enjoyed exploring the coast, hiking, and scenic views, and recommends stopping at the Kennett River Koala Walk to spot koalas in their natural habitat.\nUser has decided to try Todoist for task management, believes it will complement the existing use of Google Calendar, and is planning a trip to the Great Ocean Road.\nUser currently uses Google Calendar to track classes and a part\u2011time job but is uncertain whether it is the best tool for task management; the user is considering Todoist or Trello to help stay organized with assignments and tasks.",
+            "latency": 2252.391
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 462,
+    "question_type": "multi-session",
+    "question": "How long have I been working in my current role?",
+    "question_date": "2023/05/30 (Tue) 03:15",
+    "ground_truth_answer": "1 year and 5 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_462_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to engage the customer success team in the product launch, given their deep knowledge of customer needs, and wants guidance on how the team can support the launch and what training or enablement they may require.\nUser is interested in leveraging influencer partnerships and user-generated content campaigns for the product launch, and wants guidance on measuring success metrics and determining appropriate budget allocation for these initiatives.\nSenior Marketing Specialist has progressed from Marketing Coordinator to Senior Marketing Specialist after 2 years and 4 months of experience, demonstrating career growth and increasing responsibility within the marketing function.\nUser wants to identify and engage early adopters and advocates among existing customers for the product launch, and is seeking strategies for identification, engagement, and incentive or reward options to encourage their participation.\nUser wants to explore email marketing and account-based marketing for the product launch, seeking budget guidance. They are creating segmented email campaigns using CRM data, marketing automation, and A/B testing to optimize performance.",
+            "latency": 492.103
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to engage the customer success team in the product launch, given their deep knowledge of customer needs, and wants guidance on how the team can support the launch and what training or enablement they may require.\nUser is interested in leveraging influencer partnerships and user-generated content campaigns for the product launch, and wants guidance on measuring success metrics and determining appropriate budget allocation for these initiatives.\nSenior Marketing Specialist has progressed from Marketing Coordinator to Senior Marketing Specialist after 2 years and 4 months of experience, demonstrating career growth and increasing responsibility within the marketing function.\nUser wants to identify and engage early adopters and advocates among existing customers for the product launch, and is seeking strategies for identification, engagement, and incentive or reward options to encourage their participation.\nUser wants to explore email marketing and account-based marketing for the product launch, seeking budget guidance. They are creating segmented email campaigns using CRM data, marketing automation, and A/B testing to optimize performance.",
+            "latency": 745.135
+        }
+    ]
+}

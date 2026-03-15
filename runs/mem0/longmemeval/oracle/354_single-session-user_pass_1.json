@@ -1,0 +1,22 @@
+{
+    "index": 354,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing violin every day?",
+    "question_date": "2023/05/29 (Mon) 04:31",
+    "ground_truth_answer": "You did not mention this information. You mentioned practing guitar everyday, but not violin.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_354_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has been practicing guitar for 30 minutes daily, noting that this routine has been helping them progress nicely.\nThe user is seeking online resources to deepen their knowledge of music theory and fingerpicking techniques for guitar.\nThe user is planning to record jam sessions with their friend Alex using a digital audio workstation and is looking for beginner-friendly DAWs and learning resources.\nThe user is considering purchasing a diatonic harmonica and wants online resources for learning harmonica, as well as beginner-friendly harmonica tabs or songs to start with.\nThe user is thinking of upgrading their guitar setup, wants online resources for learning about guitar amplifiers and effects pedals, is fascinated by the history of the electric guitar, and is evaluating whether to choose a tube amp or a solid-state amp for better sound during jam sessions with Alex.\nThe user is interested in learning jazz music, specifically saxophone, and wants online resources for jazz theory and improvisation.",
+            "latency": 1085.356
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has been practicing guitar for 30 minutes daily, noting that this routine has been helping them progress nicely.\nThe user is seeking online resources to deepen their knowledge of music theory and fingerpicking techniques for guitar.\nThe user is planning to record jam sessions with their friend Alex using a digital audio workstation and is looking for beginner-friendly DAWs and learning resources.\nThe user is considering purchasing a diatonic harmonica and wants online resources for learning harmonica, as well as beginner-friendly harmonica tabs or songs to start with.\nThe user is thinking of upgrading their guitar setup, wants online resources for learning about guitar amplifiers and effects pedals, is fascinated by the history of the electric guitar, and is evaluating whether to choose a tube amp or a solid-state amp for better sound during jam sessions with Alex.\nThe user is interested in learning jazz music, specifically saxophone, and wants online resources for jazz theory and improvisation.",
+            "latency": 2059.133
+        }
+    ]
+}

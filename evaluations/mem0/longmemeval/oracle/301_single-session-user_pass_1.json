@@ -1,0 +1,19 @@
+{
+    "index": 301,
+    "question_type": "single-session-user",
+    "question": "How long did it take me to assemble the IKEA bookshelf?",
+    "question_date": "2023/05/28 (Sun) 03:40",
+    "ground_truth_answer": "4 hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has experience assembling an IKEA bookshelf in 4 hours', which directly matches the gold answer of '4 hours'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user assembled an IKEA bookshelf in 4 hours, which directly matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 16,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at NovaTech?",
+    "question_date": "2023/05/22 (Mon) 03:09",
+    "ground_truth_answer": "4 years and 9 months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user has 9 years total experience and has worked at NovaTech for 4 years and 3 months, which allows calculating that they worked 4 years and 9 months before starting at NovaTech (9 years - 4 years 3 months = 4 years 9 months), matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user has 9 years of experience total and has worked at NovaTech for 4 years and 3 months, which allows calculating the time before NovaTech as 4 years and 9 months (9 years - 4 years 3 months), matching the gold answer."
+        }
+    ]
+}

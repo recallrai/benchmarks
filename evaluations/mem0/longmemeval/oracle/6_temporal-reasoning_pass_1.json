@@ -1,0 +1,19 @@
+{
+    "index": 6,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did it take for me to find a house I loved after starting to work with Rachel?",
+    "question_date": "2022/03/02 (Wed) 11:02",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user started working with Rachel on February 15 and saw a house they loved on March 1, which is 14 days later (or 15 including both dates), matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user started working with Rachel on February 15 and saw a house that meets all their criteria on March 1, which is 14 days later (or 15 including the first day), matching the gold answer."
+        }
+    ]
+}

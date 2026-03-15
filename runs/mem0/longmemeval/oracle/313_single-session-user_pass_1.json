@@ -1,0 +1,22 @@
+{
+    "index": 313,
+    "question_type": "single-session-user",
+    "question": "How old was I when my grandma gave me the silver necklace?",
+    "question_date": "2023/05/27 (Sat) 13:18",
+    "ground_truth_answer": "18",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_313_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user plans to add a silver necklace that was given by their grandmother on their 18th birthday; the necklace was lost at a friend's house during a sleepover about two months ago, and the user is hoping to find it and will ask the friend if they have seen it.\nThe user plans to add a gold chain with a tiny diamond cross pendant that they borrowed from their mom; they need to ask their mom if she has seen a small silver clasp that was used to fix the chain when it broke.\nThe user plans to add pearl earrings that were given by their parents when they graduated from high school; the user wore them on the day of a statistics final three weeks ago, feeling confident, and associates them with good luck and important milestones.\nThe user wants to organize their jewelry collection using a spreadsheet, and plans to include a 'Provenance/Story' column in the 'Acquisition Date' section to record the sentimental background of each piece, such as who gave it and when.",
+            "latency": 974.416
+        },
+        {
+            "strategy": "graph",
+            "context": "The user plans to add a silver necklace that was given by their grandmother on their 18th birthday; the necklace was lost at a friend's house during a sleepover about two months ago, and the user is hoping to find it and will ask the friend if they have seen it.\nThe user plans to add a gold chain with a tiny diamond cross pendant that they borrowed from their mom; they need to ask their mom if she has seen a small silver clasp that was used to fix the chain when it broke.\nThe user plans to add pearl earrings that were given by their parents when they graduated from high school; the user wore them on the day of a statistics final three weeks ago, feeling confident, and associates them with good luck and important milestones.\nThe user wants to organize their jewelry collection using a spreadsheet, and plans to include a 'Provenance/Story' column in the 'Acquisition Date' section to record the sentimental background of each piece, such as who gave it and when.",
+            "latency": 1954.214
+        }
+    ]
+}

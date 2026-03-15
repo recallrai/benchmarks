@@ -1,0 +1,22 @@
+{
+    "index": 418,
+    "question_type": "temporal-reasoning",
+    "question": "What was the the life event of one of my relatives that I participated in a week ago?",
+    "question_date": "2023/06/22 (Thu) 11:12",
+    "ground_truth_answer": "my cousin's wedding",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_418_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has started looking at venues and has a clear idea of what they want, and is excited about creating an intimate and special atmosphere, drawing inspiration from being a bridesmaid at their cousin\u2019s wedding, and plans to incorporate a special song, a reading or poem, a unity candle or sand ceremony, and personal vows to make the ceremony intimate and romantic.\nThe user plans to schedule a consultation with a wedding planner to help decide between the two venues, and is uncertain whether the planner should handle vendor selection or if they should manage it themselves.\nThe user requests examples of vendors the planner has worked with in the countryside (e.g., Green Meadow Farm Catering, Emily May Photography, Petal & Twig) and in the city (e.g., City Bites Catering, Urban Lens Photography, Blooming Beauty).\nThe user is considering hiring a wedding planner to handle logistics and vendor selection, debating whether the planner should source vendors or the user should do it themselves, and wants the planner\u2019s experience with vendors in rural versus urban settings to inform that decision.\nThe user is planning a small, intimate fall wedding next year, inspired by Michael\u2019s rooftop engagement party, and is weighing two venue options\u2014a cozy countryside bed\u2011and\u2011breakfast and a city art museum\u2014seeking advice on how to choose the right venue.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has started looking at venues and has a clear idea of what they want, and is excited about creating an intimate and special atmosphere, drawing inspiration from being a bridesmaid at their cousin\u2019s wedding, and plans to incorporate a special song, a reading or poem, a unity candle or sand ceremony, and personal vows to make the ceremony intimate and romantic.\nThe user plans to schedule a consultation with a wedding planner to help decide between the two venues, and is uncertain whether the planner should handle vendor selection or if they should manage it themselves.\nThe user requests examples of vendors the planner has worked with in the countryside (e.g., Green Meadow Farm Catering, Emily May Photography, Petal & Twig) and in the city (e.g., City Bites Catering, Urban Lens Photography, Blooming Beauty).\nThe user is considering hiring a wedding planner to handle logistics and vendor selection, debating whether the planner should source vendors or the user should do it themselves, and wants the planner\u2019s experience with vendors in rural versus urban settings to inform that decision.\nThe user is planning a small, intimate fall wedding next year, inspired by Michael\u2019s rooftop engagement party, and is weighing two venue options\u2014a cozy countryside bed\u2011and\u2011breakfast and a city art museum\u2014seeking advice on how to choose the right venue.",
+            "latency": 719.501
+        }
+    ]
+}

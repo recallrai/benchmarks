@@ -1,0 +1,22 @@
+{
+    "index": 395,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+    "question_date": "2023/05/01 (Mon) 06:46",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_395_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a bird watching workshop at the local Audubon society, found it informative, was recommended the Merlin Bird ID app by Sarah, and wants to use it to identify warblers\u2014including in wetlands\u2014and to help with bird calls and songs to improve identification skills.\nUser is hoping to add warblers to their life list and is concerned whether the Yellow Warblers seen on a guided bird walk a month and a half ago might still be present or have moved to breeding grounds.\nUser plans to visit a nearby wildlife refuge on the weekend of January 29-30, 2026, located in the southeast region during spring, and intends to explore wetlands and forests to spot waterfowl and songbirds.",
+            "latency": 872.459
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a bird watching workshop at the local Audubon society, found it informative, was recommended the Merlin Bird ID app by Sarah, and wants to use it to identify warblers\u2014including in wetlands\u2014and to help with bird calls and songs to improve identification skills.\nUser is hoping to add warblers to their life list and is concerned whether the Yellow Warblers seen on a guided bird walk a month and a half ago might still be present or have moved to breeding grounds.\nUser plans to visit a nearby wildlife refuge on the weekend of January 29-30, 2026, located in the southeast region during spring, and intends to explore wetlands and forests to spot waterfowl and songbirds.",
+            "latency": 1806.279
+        }
+    ]
+}

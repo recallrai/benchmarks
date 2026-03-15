@@ -1,0 +1,22 @@
+{
+    "index": 134,
+    "question_type": "knowledge-update",
+    "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+    "question_date": "2023/06/28 (Wed) 22:01",
+    "ground_truth_answer": "220",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_134_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is reading Bill Bryson's 'A Short History of Nearly Everything' on page 220, where they learned about the discovery of DNA structure and find it fascinating.\nUser wants online resources or research papers on how AI is being used to improve medical image analysis in medical imaging.\nUser wants resources on AI-powered patient engagement, personalized medicine, and healthcare management beyond diagnosis.\nUser is interested in learning about renewable energy and wants online resources and documentaries to explore the topic.\nUser is interested in learning more about AI-powered medical diagnosis and is seeking online resources or articles to better understand the concept.",
+            "latency": 744.438
+        },
+        {
+            "strategy": "graph",
+            "context": "User is reading Bill Bryson's 'A Short History of Nearly Everything' on page 220, where they learned about the discovery of DNA structure and find it fascinating.\nUser wants online resources or research papers on how AI is being used to improve medical image analysis in medical imaging.\nUser wants resources on AI-powered patient engagement, personalized medicine, and healthcare management beyond diagnosis.\nUser is interested in learning about renewable energy and wants online resources and documentaries to explore the topic.\nUser is interested in learning more about AI-powered medical diagnosis and is seeking online resources or articles to better understand the concept.",
+            "latency": 965.393
+        }
+    ]
+}

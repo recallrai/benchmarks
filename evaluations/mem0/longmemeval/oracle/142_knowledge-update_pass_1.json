@@ -1,0 +1,19 @@
+{
+    "index": 142,
+    "question_type": "knowledge-update",
+    "question": "How many MCU films did I watch in the last 3 months?",
+    "question_date": "2023/06/06 (Tue) 10:43",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has watched 12 films in the last 3 months, including 5 MCU movies,' which directly answers the question and matches the gold answer of 5."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'watched 12 films in the last 3 months, including 5 MCU movies' which directly matches the gold answer of 5."
+        }
+    ]
+}

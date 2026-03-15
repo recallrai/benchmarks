@@ -1,0 +1,22 @@
+{
+    "index": 116,
+    "question_type": "multi-session",
+    "question": "How many times did I bake egg tarts in the past two weeks?",
+    "question_date": "2023/05/29 (Mon) 05:37",
+    "ground_truth_answer": "The information provided is not enough. You did not mention baking egg tarts.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_116_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is experimenting with flour types for a homemade tart crust, having used whole wheat flour to bake a baguette last Saturday, decided to use all\u2011purpose flour for the crust, thanked for advice, and is using a new stand mixer nonstop for a few weeks to aid in making the crust.\nUser recently used their oven's convection setting for the first time last Thursday to bake cookies, which turned out amazing.\nUser is interested in creative ways to arrange strawberries on top of the tart, seeking design ideas.\nUser plans to bake chicken wings tonight and seeks tips for achieving a perfect crispy skin, specifically interested in dry brine and baking powder techniques.\nUser has chosen to make Garlic and Herb Whole Wheat Focaccia, loves the idea of a flavorful bread that complements the savory chicken wings and roasted veggies, and wants tips for achieving a perfect crumb and crust.\nUser has a new stand mixer, has used all\u2011purpose flour for tart crust, and has experience baking with whole wheat flour for a baguette, and seeks to apply these tools and flours to the focaccia.\nUser is planning a fruit tart for the dinner party and wants to choose the fruit based on what is in season; they have expressed a preference for strawberries, describing them as their favorite and wanting the tartness to provide a change of pace from recent sweet treats.\nUser is interested in whole wheat bread recipes that would pair well with the crispy chicken wings and roasted veggies, indicating a preference for using whole wheat flour.\nUser wants roasted vegetable recommendations that pair well with the chicken wings, noting that they have experimented with different flours for baking but have not yet tried roasting veggies with convection.\nUser wants tips for achieving a caramelized crust on roasted sweet potatoes using convection, aiming to complement the crispy chicken wings and roasted veggies.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is experimenting with flour types for a homemade tart crust, having used whole wheat flour to bake a baguette last Saturday, decided to use all\u2011purpose flour for the crust, thanked for advice, and is using a new stand mixer nonstop for a few weeks to aid in making the crust.\nUser recently used their oven's convection setting for the first time last Thursday to bake cookies, which turned out amazing.\nUser is interested in creative ways to arrange strawberries on top of the tart, seeking design ideas.\nUser plans to bake chicken wings tonight and seeks tips for achieving a perfect crispy skin, specifically interested in dry brine and baking powder techniques.\nUser has chosen to make Garlic and Herb Whole Wheat Focaccia, loves the idea of a flavorful bread that complements the savory chicken wings and roasted veggies, and wants tips for achieving a perfect crumb and crust.\nUser has a new stand mixer, has used all\u2011purpose flour for tart crust, and has experience baking with whole wheat flour for a baguette, and seeks to apply these tools and flours to the focaccia.\nUser is interested in whole wheat bread recipes that would pair well with the crispy chicken wings and roasted veggies, indicating a preference for using whole wheat flour.\nUser is planning a fruit tart for the dinner party and wants to choose the fruit based on what is in season; they have expressed a preference for strawberries, describing them as their favorite and wanting the tartness to provide a change of pace from recent sweet treats.\nUser wants roasted vegetable recommendations that pair well with the chicken wings, noting that they have experimented with different flours for baking but have not yet tried roasting veggies with convection.\nUser wants tips for achieving a caramelized crust on roasted sweet potatoes using convection, aiming to complement the crispy chicken wings and roasted veggies.",
+            "latency": 741.985
+        }
+    ]
+}

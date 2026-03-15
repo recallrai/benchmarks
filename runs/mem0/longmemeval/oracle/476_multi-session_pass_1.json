@@ -1,0 +1,22 @@
+{
+    "index": 476,
+    "question_type": "multi-session",
+    "question": "What percentage of leadership positions do women hold in the my company?",
+    "question_date": "2023/05/25 (Thu) 13:59",
+    "ground_truth_answer": "20%",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_476_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is researching external benchmarks for leadership positions across industries, including resources that provide data on diversity and inclusion within leadership, such as demographics and representation of underrepresented groups, and is interested in average percentages of leadership roles held by women in companies of similar size and industry.\nThe user is interested in seeing if the diversity and inclusion report covers the company's strategy for increasing diversity in hiring, including blind hiring practices and diversity-focused recruitment initiatives, and wants data on the diversity of new hires such as the percentage of women or underrepresented groups in recent hiring cohorts. The user has attended a gender equality workshop and noted that women occupy 20 leadership positions in the company, indicating a current gender representation context.\nUser is seeking detailed information about their company's organizational structure, specifically the number of departments and the main responsibilities of each department, and has identified that the company has 100 leadership positions, which they consider significant, and plans to reach out to HR for this information.\nUser is exploring best practices for structuring a large leadership team of 100 positions and wants suggestions on how to increase diversity and inclusion within that leadership team.",
+            "latency": 550.97
+        },
+        {
+            "strategy": "graph",
+            "context": "User is researching external benchmarks for leadership positions across industries, including resources that provide data on diversity and inclusion within leadership, such as demographics and representation of underrepresented groups, and is interested in average percentages of leadership roles held by women in companies of similar size and industry.\nThe user is interested in seeing if the diversity and inclusion report covers the company's strategy for increasing diversity in hiring, including blind hiring practices and diversity-focused recruitment initiatives, and wants data on the diversity of new hires such as the percentage of women or underrepresented groups in recent hiring cohorts. The user has attended a gender equality workshop and noted that women occupy 20 leadership positions in the company, indicating a current gender representation context.\nUser is seeking detailed information about their company's organizational structure, specifically the number of departments and the main responsibilities of each department, and has identified that the company has 100 leadership positions, which they consider significant, and plans to reach out to HR for this information.\nUser is exploring best practices for structuring a large leadership team of 100 positions and wants suggestions on how to increase diversity and inclusion within that leadership team.",
+            "latency": 802.265
+        }
+    ]
+}

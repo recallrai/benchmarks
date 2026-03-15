@@ -1,0 +1,22 @@
+{
+    "index": 96,
+    "question_type": "multi-session",
+    "question": "How many pieces of jewelry did I acquire in the last two months?",
+    "question_date": "2023/05/29 (Mon) 17:44",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_96_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning to take inventory of their jewelry collection, including photographing each piece to keep a record, and is asking for tips on how to capture jewelry details in photos, as part of organizing and documenting the collection.\nUser is missing a pair of diamond earrings given by their grandma, likely left at their cousin's place after a birthday party, and wants tips on tracking jewelry when traveling or lending them to others.\nUser plans to create a jewelry inventory list, photograph each piece, and will contact their cousin to politely request the return of the missing earrings without making a big deal.\nUser wants to use Google Sheets to document their jewelry collection and plans to add columns for storage location, wear count, and maintenance/cleaning schedule.\nUser plans to clean their jewelry collection this weekend, seeking best practices for cleaning gold, silver, pearls, diamonds, and emeralds, and wants recommendations for safe cleaning solutions and products; they recently purchased a new silver necklace with a small pendant on December 15, 2025, and want to ensure proper care.\nUser is considering purchasing a jewelry cleaning kit that includes a solution and a soft cloth, believes it would be a good idea for cleaning emerald earrings, and wants confirmation that such a kit would be suitable.\nUser purchased an engagement ring on December 28, 2025, which is still too loose, and wants guidance on resizing the ring; they plan to contact the jeweler where they bought it to discuss the resizing process.\nUser purchased a stunning pair of emerald earrings at a flea market last weekend, loves them, and seeks advice on cleaning and storing to prevent scratching or damage, and is considering having them appraised or certified to determine their value.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning to take inventory of their jewelry collection, including photographing each piece to keep a record, and is asking for tips on how to capture jewelry details in photos, as part of organizing and documenting the collection.\nUser is missing a pair of diamond earrings given by their grandma, likely left at their cousin's place after a birthday party, and wants tips on tracking jewelry when traveling or lending them to others.\nUser plans to create a jewelry inventory list, photograph each piece, and will contact their cousin to politely request the return of the missing earrings without making a big deal.\nUser wants to use Google Sheets to document their jewelry collection and plans to add columns for storage location, wear count, and maintenance/cleaning schedule.\nUser plans to clean their jewelry collection this weekend, seeking best practices for cleaning gold, silver, pearls, diamonds, and emeralds, and wants recommendations for safe cleaning solutions and products; they recently purchased a new silver necklace with a small pendant on December 15, 2025, and want to ensure proper care.\nUser is considering purchasing a jewelry cleaning kit that includes a solution and a soft cloth, believes it would be a good idea for cleaning emerald earrings, and wants confirmation that such a kit would be suitable.\nUser purchased an engagement ring on December 28, 2025, which is still too loose, and wants guidance on resizing the ring; they plan to contact the jeweler where they bought it to discuss the resizing process.\nUser purchased a stunning pair of emerald earrings at a flea market last weekend, loves them, and seeks advice on cleaning and storing to prevent scratching or damage, and is considering having them appraised or certified to determine their value.",
+            "latency": 705.189
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 57,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought my iPad did I attend the Holiday Market?",
+    "question_date": "2023/05/27 (Sat) 17:02",
+    "ground_truth_answer": "The information provided is not enough. You mentioned getting the iPhone 13 Pro and attending the market, but you did not mention buying an iPad.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_57_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended the annual Holiday Market at the local mall a week before Black Friday, saw unique handmade jewelry, unsure if it's her sister's style.\nUser is considering adding a piece of handmade jewelry from the Holiday Market to accompany the phone case and plans to return to the market to find the perfect piece.\nUser is looking to upgrade phone case and screen protector for their iPhone 13 Pro, which they purchased at a discounted price of $800 from Best Buy on Black Friday, a great deal compared to the regular $1,000 price.\nUser purchased a 4K TV from Amazon on Cyber Monday at 30% off the original $1,200 price, and is looking for other TV models with good picture quality, HDR support, and similar price points.\nUser is considering personalized items for sister, specifically a customized phone case or personalized journal, wants to design it using Canva or Adobe Spark, and plans to add a small message like \"Sis\" or \"Birthday Girl\" to the phone case.\nUser wants waterproof phone cases for their iPhone 13 Pro to protect from water and dust for outdoor use.\nUser is planning to give sister a birthday gift soon, wants something nice but on a budget.\nUser wants a soundbar with good sound quality within a budget of $200-$300 to complement their new TV.\nUser is looking for 4K TV options priced between $800 and $1,200.",
+            "latency": 931.197
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended the annual Holiday Market at the local mall a week before Black Friday, saw unique handmade jewelry, unsure if it's her sister's style.\nUser is considering adding a piece of handmade jewelry from the Holiday Market to accompany the phone case and plans to return to the market to find the perfect piece.\nUser is looking to upgrade phone case and screen protector for their iPhone 13 Pro, which they purchased at a discounted price of $800 from Best Buy on Black Friday, a great deal compared to the regular $1,000 price.\nUser purchased a 4K TV from Amazon on Cyber Monday at 30% off the original $1,200 price, and is looking for other TV models with good picture quality, HDR support, and similar price points.\nUser is considering personalized items for sister, specifically a customized phone case or personalized journal, wants to design it using Canva or Adobe Spark, and plans to add a small message like \"Sis\" or \"Birthday Girl\" to the phone case.\nUser wants waterproof phone cases for their iPhone 13 Pro to protect from water and dust for outdoor use.\nUser is planning to give sister a birthday gift soon, wants something nice but on a budget.\nUser wants a soundbar with good sound quality within a budget of $200-$300 to complement their new TV.\nUser is looking for 4K TV options priced between $800 and $1,200.",
+            "latency": 1545.565
+        }
+    ]
+}

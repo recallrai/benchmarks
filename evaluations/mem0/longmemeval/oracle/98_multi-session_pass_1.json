@@ -1,0 +1,19 @@
+{
+    "index": 98,
+    "question_type": "multi-session",
+    "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+    "question_date": "2023/05/25 (Thu) 21:39",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user is managing three projects (thesis project, Data Mining project, and Database Systems project), which means 2 projects excluding the thesis, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user is managing a thesis project, Data Mining project, and Database Systems project, which means 2 projects excluding the thesis."
+        }
+    ]
+}

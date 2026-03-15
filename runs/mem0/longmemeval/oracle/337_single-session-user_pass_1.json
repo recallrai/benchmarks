@@ -1,0 +1,22 @@
+{
+    "index": 337,
+    "question_type": "single-session-user",
+    "question": "What book am I currently reading?",
+    "question_date": "2023/05/27 (Sat) 20:04",
+    "ground_truth_answer": "The Seven Husbands of Evelyn Hugo",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_337_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is trying to fit more reading time into a daily routine, seeks tips to prioritize reading when life gets busy, and is currently devouring 'The Seven Husbands of Evelyn Hugo', finding it hard to put down.\nUser is seeking recommendations for popular book awards and lists to discover new titles to read.\nUser plans to try Libib, StoryGraph, and BookNerd to track reading speed and comprehension, and has already started a book club with friends; the first meeting next weekend will discuss 'The Last House Guest' by Megan Miranda, which the user has read and enjoyed, with a casual discussion format.\nUser reads before bed every night, averages 20-30 pages per session and sometimes 50-60 pages, uses a habit loop to make reading a nightly routine, and is looking for book tracking apps or websites like Goodreads to stay organized and meet reading goals.\nUser is interested in the Indie Next List to support indie authors and bookstores, and is evaluating whether to join the Book of the Month Club, uncertain about its value.",
+            "latency": 872.219
+        },
+        {
+            "strategy": "graph",
+            "context": "User is trying to fit more reading time into a daily routine, seeks tips to prioritize reading when life gets busy, and is currently devouring 'The Seven Husbands of Evelyn Hugo', finding it hard to put down.\nUser is seeking recommendations for popular book awards and lists to discover new titles to read.\nUser plans to try Libib, StoryGraph, and BookNerd to track reading speed and comprehension, and has already started a book club with friends; the first meeting next weekend will discuss 'The Last House Guest' by Megan Miranda, which the user has read and enjoyed, with a casual discussion format.\nUser reads before bed every night, averages 20-30 pages per session and sometimes 50-60 pages, uses a habit loop to make reading a nightly routine, and is looking for book tracking apps or websites like Goodreads to stay organized and meet reading goals.\nUser is interested in the Indie Next List to support indie authors and bookstores, and is evaluating whether to join the Book of the Month Club, uncertain about its value.",
+            "latency": 1673.845
+        }
+    ]
+}

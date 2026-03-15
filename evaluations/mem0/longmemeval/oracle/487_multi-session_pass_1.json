@@ -1,0 +1,19 @@
+{
+    "index": 487,
+    "question_type": "multi-session",
+    "question": "How many minutes did I exceed my target time by in the marathon?",
+    "question_date": "2023/05/23 (Tue) 02:53",
+    "ground_truth_answer": "12",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user completed the marathon in 4 hours and 22 minutes with a goal of 4 hours and 10 minutes, which is a 12-minute difference matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user completed the marathon in 4 hours and 22 minutes with a goal of 4 hours and 10 minutes, which means they exceeded their target by 12 minutes, matching the gold answer."
+        }
+    ]
+}

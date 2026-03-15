@@ -1,0 +1,22 @@
+{
+    "index": 217,
+    "question_type": "single-session-preference",
+    "question": "I'm getting excited about my visit to the music store this weekend. Any tips on what to look for in a new guitar?",
+    "question_date": "2023/05/28 (Sun) 01:56",
+    "ground_truth_answer": "The user would prefer responses that highlight the differences between Fender Stratocaster and Gibson Les Paul electric guitars, such as the feel of the neck, weight, and sound profile. They might not prefer general tips on buying an electric guitar or suggestions that do not take into account their current guitar and desired upgrade.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_217_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in the most common music genres that people play on a Gibson Les Paul, such as rock, blues, heavy metal, hard rock, classic rock, glam metal, and southern rock.\nUser seeks the best way to achieve a good sound from open D tuning on an electric guitar like a Gibson Les Paul, including recommendations on string choice, setup, amp settings, playing technique, and use of the neck pickup.\nUser is considering upgrading from a Fender Stratocaster to a Gibson Les Paul and wants to know the main differences between the two guitars.\nUser wants to understand the differences between open D tuning (DADF#AD) and standard tuning (EADGBE) on a guitar, focusing on tuning, interval relationships, chord shapes, scales, tone, playability, and suitability for slide guitar.\nUser wonders whether a Gibson Les Paul is suitable for playing acoustic\u2011like fingerpicking patterns, such as the intro to \"Blackbird\", and is concerned about tone, sustain, action, neck width, and string gauge.\nUser is considering trying a Gibson Les Paul equipped with a coil\u2011tap or coil\u2011splitting feature to gain more tonal options and flexibility, especially when playing in open D tuning.",
+            "latency": 1166.618
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in the most common music genres that people play on a Gibson Les Paul, such as rock, blues, heavy metal, hard rock, classic rock, glam metal, and southern rock.\nUser seeks the best way to achieve a good sound from open D tuning on an electric guitar like a Gibson Les Paul, including recommendations on string choice, setup, amp settings, playing technique, and use of the neck pickup.\nUser is considering upgrading from a Fender Stratocaster to a Gibson Les Paul and wants to know the main differences between the two guitars.\nUser wants to understand the differences between open D tuning (DADF#AD) and standard tuning (EADGBE) on a guitar, focusing on tuning, interval relationships, chord shapes, scales, tone, playability, and suitability for slide guitar.\nUser wonders whether a Gibson Les Paul is suitable for playing acoustic\u2011like fingerpicking patterns, such as the intro to \"Blackbird\", and is concerned about tone, sustain, action, neck width, and string gauge.\nUser is considering trying a Gibson Les Paul equipped with a coil\u2011tap or coil\u2011splitting feature to gain more tonal options and flexibility, especially when playing in open D tuning.",
+            "latency": 2006.282
+        }
+    ]
+}

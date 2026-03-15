@@ -1,0 +1,22 @@
+{
+    "index": 288,
+    "question_type": "single-session-user",
+    "question": "Where did I redeem a $5 coupon on coffee creamer?",
+    "question_date": "2023/05/30 (Tue) 01:13",
+    "ground_truth_answer": "Target",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_288_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user redeemed a $5 coupon on coffee creamer last Sunday, surprised because the user did not realize the coupon was in their email inbox.\nThe user is trying to organize coupons and receipts and prefers using a binder with labeled sections; the user has been using the Cartwheel app from Target, which has helped the user save money on household items.\nThe user shops at Target approximately every other week, purchasing household items, toiletries, and kids' clothing, and has saved around $20 on household items over a few weeks using the Cartwheel app.\nThe user finds the Cartwheel app user-friendly and well-organized by category, but wishes it could sort offers by expiration date to prioritize near-expiring deals; additionally, the user feels the notification system is overwhelming and would like customizable notifications that focus on expiring offers or specific categories to reduce overload.",
+            "latency": 1332.684
+        },
+        {
+            "strategy": "graph",
+            "context": "The user redeemed a $5 coupon on coffee creamer last Sunday, surprised because the user did not realize the coupon was in their email inbox.\nThe user is trying to organize coupons and receipts and prefers using a binder with labeled sections; the user has been using the Cartwheel app from Target, which has helped the user save money on household items.\nThe user shops at Target approximately every other week, purchasing household items, toiletries, and kids' clothing, and has saved around $20 on household items over a few weeks using the Cartwheel app.\nThe user finds the Cartwheel app user-friendly and well-organized by category, but wishes it could sort offers by expiration date to prioritize near-expiring deals; additionally, the user feels the notification system is overwhelming and would like customizable notifications that focus on expiring offers or specific categories to reduce overload.",
+            "latency": 2182.228
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 377,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I meet Emma?",
+    "question_date": "2023/04/20 (Thu) 09:29",
+    "ground_truth_answer": "9 days ago. 10 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_377_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user met with Emma, a freelance writer, over lunch today and has identified Emma as a potential collaborator for a project the user is currently working on.\nThe user is also keen to learn how to set up Instagram ad campaigns, motivated by Emma's positive experience with Instagram advertising.\nThe user is specifically interested in learning how to set up and manage Facebook ad campaigns, including tutorials on campaign creation and audience targeting.\nThe user wants to learn how to use Instagram's automatic targeting feature to reach users likely to be interested in sustainable living and eco-friendly products.\nThe user attended a digital marketing workshop last week where speaker Rachel Lee discussed interesting social media advertising strategies, and the user is now seeking online resources or tutorials to deepen their knowledge in this area.\nThe user seeks instructions on targeting Instagram ads toward audiences interested in sustainable living and eco-friendly products, building on Emma's success with interest and behavior targeting.\nThe user wants detailed guidance on using Facebook's Audience Insights tool to gather demographic, interest, and behavioral data about their target audience.",
+            "latency": 878.962
+        },
+        {
+            "strategy": "graph",
+            "context": "The user met with Emma, a freelance writer, over lunch today and has identified Emma as a potential collaborator for a project the user is currently working on.\nThe user is also keen to learn how to set up Instagram ad campaigns, motivated by Emma's positive experience with Instagram advertising.\nThe user is specifically interested in learning how to set up and manage Facebook ad campaigns, including tutorials on campaign creation and audience targeting.\nThe user wants to learn how to use Instagram's automatic targeting feature to reach users likely to be interested in sustainable living and eco-friendly products.\nThe user attended a digital marketing workshop last week where speaker Rachel Lee discussed interesting social media advertising strategies, and the user is now seeking online resources or tutorials to deepen their knowledge in this area.\nThe user seeks instructions on targeting Instagram ads toward audiences interested in sustainable living and eco-friendly products, building on Emma's success with interest and behavior targeting.\nThe user wants detailed guidance on using Facebook's Audience Insights tool to gather demographic, interest, and behavioral data about their target audience.",
+            "latency": 1729.735
+        }
+    ]
+}

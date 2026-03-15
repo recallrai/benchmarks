@@ -1,0 +1,22 @@
+{
+    "index": 496,
+    "question_type": "multi-session",
+    "question": "What is the total cost of my recently purchased headphones and the iPad?",
+    "question_date": "2023/05/27 (Sat) 05:33",
+    "ground_truth_answer": "The information provided is not enough. You mentioned purchasing a headphone, but you did not mention the iPad.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_496_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User purchased a new phone case for their Samsung Galaxy S22 from Case-Mate for $30 and reports it has been working out great.\nUser owns Sony WH-1000XM4 wireless noise\u2011cancelling headphones, finds the noise\u2011cancelling and sound quality excellent, uses them to listen to music and podcasts during daily bus commutes, and is interested in apps that can track commute time and route.\nUser is considering subscribing to Apple TV+ at $4.99 per month, wants to know what content it offers and whether the price is justified.\nUser is considering a Dell XPS 13 laptop, wants to know if it's worth the investment, seeks price ranges and deal advice, needs a laptop for video editing, is concerned about limited ports, and is evaluating a laptop with more ports but less portability, planning to explore USB\u2011C/USB\u2011A mixes.\nUser bought a Samsung Galaxy Watch Active2 on sale for $200, uses it to track daily activities and sleep, finds it motivating, seeks additional features and tips to maximize its use, wants apps to log commute route and time, and appreciates tips on watch customization and health features.\nUser has decided to purchase a 20,000mAh power bank for daily use.",
+            "latency": 496.949
+        },
+        {
+            "strategy": "graph",
+            "context": "User purchased a new phone case for their Samsung Galaxy S22 from Case-Mate for $30 and reports it has been working out great.\nUser owns Sony WH-1000XM4 wireless noise\u2011cancelling headphones, finds the noise\u2011cancelling and sound quality excellent, uses them to listen to music and podcasts during daily bus commutes, and is interested in apps that can track commute time and route.\nUser is considering subscribing to Apple TV+ at $4.99 per month, wants to know what content it offers and whether the price is justified.\nUser is considering a Dell XPS 13 laptop, wants to know if it's worth the investment, seeks price ranges and deal advice, needs a laptop for video editing, is concerned about limited ports, and is evaluating a laptop with more ports but less portability, planning to explore USB\u2011C/USB\u2011A mixes.\nUser bought a Samsung Galaxy Watch Active2 on sale for $200, uses it to track daily activities and sleep, finds it motivating, seeks additional features and tips to maximize its use, wants apps to log commute route and time, and appreciates tips on watch customization and health features.\nUser has decided to purchase a 20,000mAh power bank for daily use.",
+            "latency": 699.028
+        }
+    ]
+}

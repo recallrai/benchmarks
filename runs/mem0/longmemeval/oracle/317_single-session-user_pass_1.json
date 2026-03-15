@@ -1,0 +1,22 @@
+{
+    "index": 317,
+    "question_type": "single-session-user",
+    "question": "Where did I attend my cousin's wedding?",
+    "question_date": "2023/05/22 (Mon) 18:38",
+    "ground_truth_answer": "The Grand Ballroom",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_317_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is planning a gift for their mom's birthday on the 15th of next month, with a budget of around $100. The user's mom loves trying new beauty products, is into skincare, has a classic and elegant style, and her favorite color is lavender. The user wants to give the mom a Lavender Dreams Skincare Set to help maintain her glow, and is looking for where to find it online or in-store, planning to check L'Occitane and Jo Malone London. The user also plans to ask their friend Emily, who is into skincare, for advice, and they attended a wedding expo a few weeks ago where they tried products and talked to vendors.",
+            "latency": 1258.78
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is planning a gift for their mom's birthday on the 15th of next month, with a budget of around $100. The user's mom loves trying new beauty products, is into skincare, has a classic and elegant style, and her favorite color is lavender. The user wants to give the mom a Lavender Dreams Skincare Set to help maintain her glow, and is looking for where to find it online or in-store, planning to check L'Occitane and Jo Malone London. The user also plans to ask their friend Emily, who is into skincare, for advice, and they attended a wedding expo a few weeks ago where they tried products and talked to vendors.",
+            "latency": 2165.193
+        }
+    ]
+}

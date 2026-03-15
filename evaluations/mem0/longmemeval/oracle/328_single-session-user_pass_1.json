@@ -1,0 +1,19 @@
+{
+    "index": 328,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my niece's birthday party?",
+    "question_date": "2023/05/25 (Thu) 18:44",
+    "ground_truth_answer": "a lemon blueberry cake",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user baked a lemon blueberry cake for their niece's birthday, which matches the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User baked a lemon blueberry cake for their niece's birthday,' which directly matches the gold answer."
+        }
+    ]
+}

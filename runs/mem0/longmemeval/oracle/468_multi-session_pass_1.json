@@ -1,0 +1,22 @@
+{
+    "index": 468,
+    "question_type": "multi-session",
+    "question": "What is the total number of online courses I've completed?",
+    "question_date": "2023/05/25 (Thu) 10:41",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_468_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has completed 8 online edX courses in data analysis\nUser has completed 12 Coursera courses, feels confident in their data analysis foundation, and is looking to improve their skills further by taking new online courses that build on that foundation.\nUser seeks online resources to prepare for the program\nUser is interested in DataCamp courses, specifically those focused on data visualization using Python libraries Matplotlib and Seaborn, and wants recommendations for such courses.\nUser is excited to start working on projects and exercises in the course, and wants details about project types, real-world datasets, and alignment with personal interests.\nUser is considering working on personal projects or applying machine learning concepts to their own interests while taking the course\nUser is excited to start the course and wants tips for staying organized and managing time effectively\nUser intends to review Python basics and learn Jupyter Notebooks before diving into the course, and is looking for resources to help with these topics.\nUser feels confident to focus on machine learning concepts in the course\nUser plans to start the DataCamp course 'Data Visualization with Python: Matplotlib and Seaborn' and is seeking tips on how to best utilize the course, including strategies for approaching exercises and projects.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has completed 8 online edX courses in data analysis\nUser has completed 12 Coursera courses, feels confident in their data analysis foundation, and is looking to improve their skills further by taking new online courses that build on that foundation.\nUser seeks online resources to prepare for the program\nUser is interested in DataCamp courses, specifically those focused on data visualization using Python libraries Matplotlib and Seaborn, and wants recommendations for such courses.\nUser is excited to start working on projects and exercises in the course, and wants details about project types, real-world datasets, and alignment with personal interests.\nUser is considering working on personal projects or applying machine learning concepts to their own interests while taking the course\nUser is excited to start the course and wants tips for staying organized and managing time effectively\nUser intends to review Python basics and learn Jupyter Notebooks before diving into the course, and is looking for resources to help with these topics.\nUser feels confident to focus on machine learning concepts in the course\nUser plans to start the DataCamp course 'Data Visualization with Python: Matplotlib and Seaborn' and is seeking tips on how to best utilize the course, including strategies for approaching exercises and projects.",
+            "latency": 724.741
+        }
+    ]
+}

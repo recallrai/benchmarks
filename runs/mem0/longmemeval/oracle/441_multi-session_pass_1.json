@@ -1,0 +1,22 @@
+{
+    "index": 441,
+    "question_type": "multi-session",
+    "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+    "question_date": "2023/05/26 (Fri) 10:38",
+    "ground_truth_answer": "27",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_441_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a true crime enthusiast who listens to podcasts during a 45\u2011minute commute, has finished episode 12 of 'My Favorite Murder', and seeks new true\u2011crime and inspiring\u2011story podcasts, curious about the tone of 'Criminal' compared to 'My Favorite Murder'.\nUser listens to podcasts during a 45\u2011minute daily commute each way, has finished about 15 episodes of \"How I Built This\", enjoys stories of founders' journeys and challenges, and is looking for more entrepreneurial podcasts that focus on company stories similar to \"How I Built This\"\nUser is trying to reduce social media use and replace that time with podcasts, and wants podcast apps or platforms that allow custom playlists, playback speed control, and cross\u2011source playlist support; currently uses Apple Podcasts at 1.5x speed and is open to alternatives beyond Spotify and Apple Podcasts.\nUser is seeking podcast recommendations that focus on personal development or productivity, and also wants book recommendations to improve productivity and personal growth\nUser wants recommendations for news\u2011related podcasts similar to 'The Daily', indicating an interest in staying informed about current events through daily or frequent news podcasts.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a true crime enthusiast who listens to podcasts during a 45\u2011minute commute, has finished episode 12 of 'My Favorite Murder', and seeks new true\u2011crime and inspiring\u2011story podcasts, curious about the tone of 'Criminal' compared to 'My Favorite Murder'.\nUser listens to podcasts during a 45\u2011minute daily commute each way, has finished about 15 episodes of \"How I Built This\", enjoys stories of founders' journeys and challenges, and is looking for more entrepreneurial podcasts that focus on company stories similar to \"How I Built This\"\nUser is trying to reduce social media use and replace that time with podcasts, and wants podcast apps or platforms that allow custom playlists, playback speed control, and cross\u2011source playlist support; currently uses Apple Podcasts at 1.5x speed and is open to alternatives beyond Spotify and Apple Podcasts.\nUser is seeking podcast recommendations that focus on personal development or productivity, and also wants book recommendations to improve productivity and personal growth\nUser wants recommendations for news\u2011related podcasts similar to 'The Daily', indicating an interest in staying informed about current events through daily or frequent news podcasts.",
+            "latency": 722.172
+        }
+    ]
+}

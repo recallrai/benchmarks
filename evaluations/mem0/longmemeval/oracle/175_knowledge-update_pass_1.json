@@ -1,0 +1,19 @@
+{
+    "index": 175,
+    "question_type": "knowledge-update",
+    "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+    "question_date": "2023/06/25 (Sun) 04:48",
+    "ground_truth_answer": "Wednesday",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states multiple times that the user meets with tutor Juan on Wednesday evening, which matches the gold answer of Wednesday."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states multiple times that the user meets with Juan on Wednesday evening, which matches the gold answer of Wednesday."
+        }
+    ]
+}

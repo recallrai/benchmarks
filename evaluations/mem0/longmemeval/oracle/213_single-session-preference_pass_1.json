@@ -1,0 +1,19 @@
+{
+    "index": 213,
+    "question_type": "single-session-preference",
+    "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+    "question_date": "2023/05/21 (Sun) 23:36",
+    "ground_truth_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user seeking advice about organizing a portable power bank for travel, which aligns with the gold answer's reference to the user's previous mention of purchasing a portable power bank."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user's portable power bank in the third paragraph, which aligns with the gold answer's reference to building upon their previous mention of purchasing a portable power bank."
+        }
+    ]
+}

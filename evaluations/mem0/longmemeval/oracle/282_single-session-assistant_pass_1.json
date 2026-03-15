@@ -1,0 +1,19 @@
+{
+    "index": 282,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+    "question_date": "2023/05/27 (Sat) 20:30",
+    "ground_truth_answer": "Patagonia",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'companies like Patagonia that are environmentally responsible' in the context of supply chain practices, which directly matches the gold answer and would enable someone to correctly answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions Patagonia as a company that is environmentally responsible in the context of supply chain practices, which directly answers the question about which company was mentioned for doing a great job with sustainability."
+        }
+    ]
+}

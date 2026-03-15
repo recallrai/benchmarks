@@ -1,0 +1,22 @@
+{
+    "index": 400,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I launch my website when I signed a contract with my first client?",
+    "question_date": "2023/03/25 (Sat) 17:23",
+    "ground_truth_answer": "19 days ago. 20 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_400_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has launched a new website and created a business plan outline, and wants their social media strategy to align with this overall business strategy\nUser will promote a branding project checklist lead magnet via social media and email signature, using existing Facebook, Twitter, LinkedIn following, eye\u2011catching graphics, a link in email signature, and value posts with hashtags; later guest blogging and paid ads; delivery via Mailchimp\nUser is developing a content calendar for their social media channels to consistently post engaging content that attracts potential clients\nUser decided to share a key takeaway with a visual on Facebook, featuring an image that demonstrates the impact of typography on design, and will include hashtags such as #typography, #designprinciples, #graphicdesign, #uxdesign, and #designinspiration\nUser plans to track analytics for their posts, adjust their content strategy based on performance, and engage with audience by responding to comments and direct messages\nUser will create an Instagram post consisting of a visual summary\u2014a series of images illustrating the importance of typography in design\u2014and plans to add additional visuals to make the series more comprehensive\nUser intends to repurpose a blog post about design principles and fundamentals into a Facebook post and an Instagram post, using the same content across channels\nUser plans to focus their educational content theme on design principles and fundamentals, specifically typography, to establish themselves as an expert in graphic design",
+            "latency": 603.749
+        },
+        {
+            "strategy": "graph",
+            "context": "User has launched a new website and created a business plan outline, and wants their social media strategy to align with this overall business strategy\nUser will promote a branding project checklist lead magnet via social media and email signature, using existing Facebook, Twitter, LinkedIn following, eye\u2011catching graphics, a link in email signature, and value posts with hashtags; later guest blogging and paid ads; delivery via Mailchimp\nUser is developing a content calendar for their social media channels to consistently post engaging content that attracts potential clients\nUser decided to share a key takeaway with a visual on Facebook, featuring an image that demonstrates the impact of typography on design, and will include hashtags such as #typography, #designprinciples, #graphicdesign, #uxdesign, and #designinspiration\nUser plans to track analytics for their posts, adjust their content strategy based on performance, and engage with audience by responding to comments and direct messages\nUser will create an Instagram post consisting of a visual summary\u2014a series of images illustrating the importance of typography in design\u2014and plans to add additional visuals to make the series more comprehensive\nUser intends to repurpose a blog post about design principles and fundamentals into a Facebook post and an Instagram post, using the same content across channels\nUser plans to focus their educational content theme on design principles and fundamentals, specifically typography, to establish themselves as an expert in graphic design",
+            "latency": 802.852
+        }
+    ]
+}

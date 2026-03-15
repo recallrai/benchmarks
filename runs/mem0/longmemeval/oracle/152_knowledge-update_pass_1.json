@@ -1,0 +1,22 @@
+{
+    "index": 152,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Harajuku?",
+    "question_date": "2023/10/15 (Sun) 12:38",
+    "ground_truth_answer": "3 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_152_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently settled into a studio apartment in Harajuku, Tokyo, enjoying the independence and a convenient commute to work.\nUser plans to visit Minato Mirai 21 and the Red Brick Warehouse in Yokohama, has heard great harbor views, has been living in Harajuku for three months, and is discovering hidden gems in the neighborhood.\nUser has not yet explored the historical side of Harajuku, intends to visit Meiji Shrine, seeks information about Kawai Shrine, and plans to visit Kawai Shrine.\nUser is enthusiastic about planning a day trip to Yokohama, enjoys fall foliage in Tokyo, explores a new neighborhood every Sunday, and discovered a great coffee shop in Daikanyama.\nUser intends to invite friends who live in Tokyo to join the trip and is looking for convenient public transportation options from Tokyo to Nagano.\nUser plans a trip to the Japanese Alps in November, staying in Matsumoto, and is seeking scenic routes and accommodations in Nagano prefecture, as well as recommendations for onsen, temples, shrines, and castles, and wants advice on prioritizing a visit to Matsumoto Castle over Zenko-ji Temple based on interest in traditional Japanese culture and history.\nUser will dine at Kanemasa for kanimeshi, Tsukiji Itadori Uogashi Nihon-Ichi for namashirasu, wants to try grilled squid at Yokohama Central Market, and seeks information on autumn festivals or events in Yokohama in the next few weeks.\nUser plans to attend Yokohama Oktoberfest and the Autumn Leaves Festival if they occur during the trip, loves trying different beers and enjoying fall foliage, and wants details about autumn illuminations at Minato Mirai 21, including special themes or displays.",
+            "latency": 754.833
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently settled into a studio apartment in Harajuku, Tokyo, enjoying the independence and a convenient commute to work.\nUser plans to visit Minato Mirai 21 and the Red Brick Warehouse in Yokohama, has heard great harbor views, has been living in Harajuku for three months, and is discovering hidden gems in the neighborhood.\nUser has not yet explored the historical side of Harajuku, intends to visit Meiji Shrine, seeks information about Kawai Shrine, and plans to visit Kawai Shrine.\nUser is enthusiastic about planning a day trip to Yokohama, enjoys fall foliage in Tokyo, explores a new neighborhood every Sunday, and discovered a great coffee shop in Daikanyama.\nUser intends to invite friends who live in Tokyo to join the trip and is looking for convenient public transportation options from Tokyo to Nagano.\nUser plans a trip to the Japanese Alps in November, staying in Matsumoto, and is seeking scenic routes and accommodations in Nagano prefecture, as well as recommendations for onsen, temples, shrines, and castles, and wants advice on prioritizing a visit to Matsumoto Castle over Zenko-ji Temple based on interest in traditional Japanese culture and history.\nUser will dine at Kanemasa for kanimeshi, Tsukiji Itadori Uogashi Nihon-Ichi for namashirasu, wants to try grilled squid at Yokohama Central Market, and seeks information on autumn festivals or events in Yokohama in the next few weeks.\nUser plans to attend Yokohama Oktoberfest and the Autumn Leaves Festival if they occur during the trip, loves trying different beers and enjoying fall foliage, and wants details about autumn illuminations at Minato Mirai 21, including special themes or displays.",
+            "latency": 931.82
+        }
+    ]
+}

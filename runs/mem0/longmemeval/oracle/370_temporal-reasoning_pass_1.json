@@ -1,0 +1,22 @@
+{
+    "index": 370,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+    "question_date": "2023/06/01 (Thu) 23:23",
+    "ground_truth_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_370_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to upgrade their backpack because the current one was uncomfortable, has been looking at Osprey backpacks, and is asking if the Osprey Atmos 50L would be suitable for a 3\u2011day trip to the Eastern Sierra in July; they just returned from a day hike to Muir Woods National Monument with their family, which was amazing.\nUser is considering a 3-4 day section hike of the John Muir Trail later this year, suitable for a solo hiker with some experience.\nUser wants to know if a permit is required for overnight camping in the John Muir Wilderness.\nUser seeks recommendations for must\u2011see attractions or scenic viewpoints along the John Muir Trail.\nUser wants day hikes in the Eastern Sierra similar to the Dipsea Trail they hiked at Muir Woods, with great views and some elevation gain.\nUser is planning a summer trip to the Eastern Sierra and wants recommendations for secluded, off\u2011the\u2011beaten\u2011path campsites that are still accessible by car and close to John Muir Trail trailheads.\nUser recently completed a solo camping trip to Yosemite and realized the need to upgrade their camping gear.\nUser intends to bring a bear canister for safety on overnight camping in the John Muir Wilderness, following increased caution after seeing bear tracks near Point Lobos State Natural Reserve and bear digging signs near trailheads during a road trip to Big Sur and Monterey.\nUser is considering getting a lightweight, waterproof tent that can fit one person for their Eastern Sierra trip.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to upgrade their backpack because the current one was uncomfortable, has been looking at Osprey backpacks, and is asking if the Osprey Atmos 50L would be suitable for a 3\u2011day trip to the Eastern Sierra in July; they just returned from a day hike to Muir Woods National Monument with their family, which was amazing.\nUser is considering a 3-4 day section hike of the John Muir Trail later this year, suitable for a solo hiker with some experience.\nUser wants to know if a permit is required for overnight camping in the John Muir Wilderness.\nUser seeks recommendations for must\u2011see attractions or scenic viewpoints along the John Muir Trail.\nUser wants day hikes in the Eastern Sierra similar to the Dipsea Trail they hiked at Muir Woods, with great views and some elevation gain.\nUser is planning a summer trip to the Eastern Sierra and wants recommendations for secluded, off\u2011the\u2011beaten\u2011path campsites that are still accessible by car and close to John Muir Trail trailheads.\nUser recently completed a solo camping trip to Yosemite and realized the need to upgrade their camping gear.\nUser intends to bring a bear canister for safety on overnight camping in the John Muir Wilderness, following increased caution after seeing bear tracks near Point Lobos State Natural Reserve and bear digging signs near trailheads during a road trip to Big Sur and Monterey.\nUser is considering getting a lightweight, waterproof tent that can fit one person for their Eastern Sierra trip.",
+            "latency": 716.322
+        }
+    ]
+}

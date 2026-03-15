@@ -1,0 +1,19 @@
+{
+    "index": 299,
+    "question_type": "single-session-user",
+    "question": "Where did I attend for my study abroad program?",
+    "question_date": "2023/05/29 (Mon) 14:58",
+    "ground_truth_answer": "University of Melbourne in Australia",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had 'a study abroad program at the University of Melbourne,' which directly matches the gold answer of University of Melbourne in Australia."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had 'a study abroad program at the University of Melbourne,' which directly matches the gold answer."
+        }
+    ]
+}

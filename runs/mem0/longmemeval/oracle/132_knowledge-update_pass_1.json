@@ -1,0 +1,22 @@
+{
+    "index": 132,
+    "question_type": "knowledge-update",
+    "question": "Where do I initially keep my old sneakers?",
+    "question_date": "2023/11/30 (Thu) 14:06",
+    "ground_truth_answer": "under my bed",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_132_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has old sneakers stored under their bed, which are starting to smell and need care, and intends to organize their closet this weekend by removing them and storing them in a shoe rack to free up room.\nUser is seeking advice on how to keep sneakers clean and fresh while stored, and plans to use storage tips such as shoe trees, silica gel packets, and ventilation.\nUser is considering organizing their closet by shoe type, grouping boots, sneakers, etc., to improve accessibility and organization, and intends to organize their closet this weekend by removing old sneakers that are currently taking up space and plans to store them in a shoe rack to free up room.\nUser is looking for a reliable cobbler to polish and condition their old sneakers, and plans to use online review platforms and personal contacts to find a suitable cobbler.\nUser intends to donate old dress shoes to a local charity thrift store on Saturday, 2026\u201101\u201129, and is questioning whether slightly worn but still good condition shoes will be accepted; they will call ahead and check the thrift store's website before dropping off.\nUser plans to inventory their shoe collection to identify hidden pairs that haven\u2019t been worn in ages.\nUser is planning to purchase a new pair of sandals with higher quality straps, seeking brand and store recommendations, and has identified Teva and Merrell as preferred brands for durable sandals.\nUser is also seeking recommendations for a new jogging route near their location to change scenery.",
+            "latency": 806.427
+        },
+        {
+            "strategy": "graph",
+            "context": "User has old sneakers stored under their bed, which are starting to smell and need care, and intends to organize their closet this weekend by removing them and storing them in a shoe rack to free up room.\nUser is seeking advice on how to keep sneakers clean and fresh while stored, and plans to use storage tips such as shoe trees, silica gel packets, and ventilation.\nUser is considering organizing their closet by shoe type, grouping boots, sneakers, etc., to improve accessibility and organization, and intends to organize their closet this weekend by removing old sneakers that are currently taking up space and plans to store them in a shoe rack to free up room.\nUser is looking for a reliable cobbler to polish and condition their old sneakers, and plans to use online review platforms and personal contacts to find a suitable cobbler.\nUser intends to donate old dress shoes to a local charity thrift store on Saturday, 2026\u201101\u201129, and is questioning whether slightly worn but still good condition shoes will be accepted; they will call ahead and check the thrift store's website before dropping off.\nUser plans to inventory their shoe collection to identify hidden pairs that haven\u2019t been worn in ages.\nUser is planning to purchase a new pair of sandals with higher quality straps, seeking brand and store recommendations, and has identified Teva and Merrell as preferred brands for durable sandals.\nUser is also seeking recommendations for a new jogging route near their location to change scenery.",
+            "latency": 1229.617
+        }
+    ]
+}

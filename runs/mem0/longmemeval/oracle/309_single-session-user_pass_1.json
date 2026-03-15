@@ -1,0 +1,22 @@
+{
+    "index": 309,
+    "question_type": "single-session-user",
+    "question": "What breed is my dog?",
+    "question_date": "2023/05/23 (Tue) 03:16",
+    "ground_truth_answer": "Golden Retriever",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_309_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user plans to purchase a nylon collar from Yellow Dog Design for Max, a Golden Retriever, and will include an engraved name tag.\nThe user is seeking a reliable dog walker in their area and is evaluating whether the walker can administer Max's flea and tick prevention medication every two weeks.\nThe user intends to give Max a Kong Toy stuffed with peanut butter, as Max loves peanut butter and the Kong provides interactive stimulation while the user is away.",
+            "latency": 927.007
+        },
+        {
+            "strategy": "graph",
+            "context": "The user plans to purchase a nylon collar from Yellow Dog Design for Max, a Golden Retriever, and will include an engraved name tag.\nThe user is seeking a reliable dog walker in their area and is evaluating whether the walker can administer Max's flea and tick prevention medication every two weeks.\nThe user intends to give Max a Kong Toy stuffed with peanut butter, as Max loves peanut butter and the Kong provides interactive stimulation while the user is away.",
+            "latency": 1845.554
+        }
+    ]
+}

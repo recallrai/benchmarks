@@ -1,0 +1,22 @@
+{
+    "index": 108,
+    "question_type": "multi-session",
+    "question": "How many rare items do I have in total?",
+    "question_date": "2023/05/30 (Tue) 02:34",
+    "ground_truth_answer": "99",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_108_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has a small but valuable collection of 5 rare books.\nThe user wants to start a rare book club with friends who share their interest in rare books.\nThe user is looking for secure storage solutions for rare coins, rare figurines, and a collection of 57 rare vinyl records, and wants help finding a secure way to store them, including researching display cases or storage solutions that can protect and showcase their rare vinyl records.\nThe user is seeking professional appraisers and conservation specialists in their area to evaluate 12 rare figurines.\nUser wants to update the inventory list of rare records and is seeking software or apps to help organize and track the collection, while also considering using a spreadsheet for the catalog.\nUser wants to find online resources to estimate the market value of their 57 rare vinyl records, such as Discogs, eBay, MusicStack, and other price\u2011tracking sites.\nThe user is seeking recommendations for specific security consultants or wealth management firms that specialize in securing valuable assets such as rare coins, art, and antiques.\nThe user is planning to organize a meeting for their rare book club and wants suggestions for interesting topics or themes to propose to club members.\nUser has a rare book collection and plans to check directories and resources to find a reputable book appraiser.\nThe user is seeking professional appraisers and conservation specialists in their area to evaluate a friend's antique vase.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has a small but valuable collection of 5 rare books.\nThe user wants to start a rare book club with friends who share their interest in rare books.\nThe user is looking for secure storage solutions for rare coins, rare figurines, and a collection of 57 rare vinyl records, and wants help finding a secure way to store them, including researching display cases or storage solutions that can protect and showcase their rare vinyl records.\nThe user is seeking professional appraisers and conservation specialists in their area to evaluate 12 rare figurines.\nUser wants to update the inventory list of rare records and is seeking software or apps to help organize and track the collection, while also considering using a spreadsheet for the catalog.\nUser wants to find online resources to estimate the market value of their 57 rare vinyl records, such as Discogs, eBay, MusicStack, and other price\u2011tracking sites.\nThe user is seeking recommendations for specific security consultants or wealth management firms that specialize in securing valuable assets such as rare coins, art, and antiques.\nThe user is planning to organize a meeting for their rare book club and wants suggestions for interesting topics or themes to propose to club members.\nUser has a rare book collection and plans to check directories and resources to find a reputable book appraiser.\nThe user is seeking professional appraisers and conservation specialists in their area to evaluate a friend's antique vase.",
+            "latency": 718.837
+        }
+    ]
+}

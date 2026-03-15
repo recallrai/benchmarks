@@ -1,0 +1,19 @@
+{
+    "index": 92,
+    "question_type": "multi-session",
+    "question": "How many health-related devices do I use in a day?",
+    "question_date": "2023/05/27 (Sat) 06:53",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three types of health devices used daily: Fitbit Versa 3 (for activity and sleep tracking), hearing aid(s) with 12-16 hours daily usage, and Accu-Chek Aviva Nano system for blood sugar testing three times daily, which could reasonably total 4 devices if counting bilateral hearing aids or another tracking method."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions multiple health-related devices used by the user: Fitbit Versa 3 (for activity/sleep tracking), hearing aids (with batteries used 12-16 hours daily), and Accu-Chek Aviva Nano system (for blood sugar testing 3 times daily), which aligns with the gold answer of 4 devices when hearing aids are counted as two devices (one per ear)."
+        }
+    ]
+}

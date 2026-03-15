@@ -1,0 +1,22 @@
+{
+    "index": 328,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my niece's birthday party?",
+    "question_date": "2023/05/25 (Thu) 18:44",
+    "ground_truth_answer": "a lemon blueberry cake",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_328_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User baked a lemon blueberry cake for their niece's birthday, was nervous, but it was a huge hit, with tangy lemon and sweet blueberries creating a perfect flavor balance.\nUser plans to make lemon-based desserts for an upcoming dinner party, seeking a lemon curd recipe and tips for using it as a filling for cakes and tarts.\nUser is experimenting with different flour types, evaluating whether bread flour or all-purpose flour is better suited for lemon cakes or tart crusts.\nUser is exploring how to incorporate lemon zest into baking to add depth to desserts and seeks effective usage methods.\nUser recently made lemon curd using granulated sugar and honey, found it successful; honey's rich caramel-like flavor complements lemon brightness, and combining honey with other sweeteners balances flavor and texture.",
+            "latency": 954.803
+        },
+        {
+            "strategy": "graph",
+            "context": "User baked a lemon blueberry cake for their niece's birthday, was nervous, but it was a huge hit, with tangy lemon and sweet blueberries creating a perfect flavor balance.\nUser plans to make lemon-based desserts for an upcoming dinner party, seeking a lemon curd recipe and tips for using it as a filling for cakes and tarts.\nUser is experimenting with different flour types, evaluating whether bread flour or all-purpose flour is better suited for lemon cakes or tart crusts.\nUser is exploring how to incorporate lemon zest into baking to add depth to desserts and seeks effective usage methods.\nUser recently made lemon curd using granulated sugar and honey, found it successful; honey's rich caramel-like flavor complements lemon brightness, and combining honey with other sweeteners balances flavor and texture.",
+            "latency": 1843.468
+        }
+    ]
+}

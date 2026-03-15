@@ -1,0 +1,19 @@
+{
+    "index": 70,
+    "question_type": "multi-session",
+    "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+    "question_date": "2023/05/28 (Sun) 01:01",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three distinct citrus fruits used in cocktail recipes: orange (in orange bitters and Sangria), lime (in various cocktails including Daiquiri and Cucumber Lime Refresher), and lemon (in Sangria), which matches the gold answer of 3."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three different types of citrus fruits used in the user's cocktail recipes: orange (in orange bitters and Sangria), lime (in cocktails with lime juice, Daiquiri, and Cucumber Lime Refresher), and lemon (in Sangria), which matches the gold answer of 3."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 57,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought my iPad did I attend the Holiday Market?",
+    "question_date": "2023/05/27 (Sat) 17:02",
+    "ground_truth_answer": "The information provided is not enough. You mentioned getting the iPhone 13 Pro and attending the market, but you did not mention buying an iPad.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains no information about an iPad purchase, which aligns with the gold answer's statement that no iPad purchase was mentioned - only an iPhone 13 Pro and attendance at the Holiday Market."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the Holiday Market attendance and iPhone 13 Pro purchase but contains no mention of an iPad purchase, which aligns with the gold answer's statement that there is insufficient information because no iPad was mentioned."
+        }
+    ]
+}

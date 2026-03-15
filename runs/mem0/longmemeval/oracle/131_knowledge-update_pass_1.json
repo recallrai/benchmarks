@@ -1,0 +1,22 @@
+{
+    "index": 131,
+    "question_type": "knowledge-update",
+    "question": "Where did I go on my most recent family trip?",
+    "question_date": "2023/06/09 (Fri) 21:26",
+    "ground_truth_answer": "Paris",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_131_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to plan solo excursions during the next family trip, including extra days afterward to explore independently, meet local friends, and try new restaurants.\nUser recently traveled to Hawaii with family, enjoyed snorkeling together, but felt constrained by a packed schedule, wishing for more personal time to explore Waikiki and shop.\nUser recently traveled to Paris with family and is now planning a solo trip to Tokyo, seeking affordable accommodation options within a budget of $30-50 per night, and wants recommendations.\nUser is interested in trying must-try dishes in Japan, especially on a food tour, and wants recommendations for essential Japanese foods.\nUser seeks strategies for connecting with fellow travelers or locals while traveling solo, beyond Bumble BFF and Meetup.\nUser plans to stay in social hostels and participate in food tours or cooking classes, and is interested in popular food tour destinations and cuisine types favored by travelers.",
+            "latency": 837.058
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to plan solo excursions during the next family trip, including extra days afterward to explore independently, meet local friends, and try new restaurants.\nUser recently traveled to Hawaii with family, enjoyed snorkeling together, but felt constrained by a packed schedule, wishing for more personal time to explore Waikiki and shop.\nUser recently traveled to Paris with family and is now planning a solo trip to Tokyo, seeking affordable accommodation options within a budget of $30-50 per night, and wants recommendations.\nUser is interested in trying must-try dishes in Japan, especially on a food tour, and wants recommendations for essential Japanese foods.\nUser seeks strategies for connecting with fellow travelers or locals while traveling solo, beyond Bumble BFF and Meetup.\nUser plans to stay in social hostels and participate in food tours or cooking classes, and is interested in popular food tour destinations and cuisine types favored by travelers.",
+            "latency": 1314.479
+        }
+    ]
+}

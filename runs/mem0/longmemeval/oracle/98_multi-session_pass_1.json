@@ -1,0 +1,22 @@
+{
+    "index": 98,
+    "question_type": "multi-session",
+    "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+    "question_date": "2023/05/25 (Thu) 21:39",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_98_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is using Trello to manage their thesis project, Data Mining project, and Database Systems project, creating separate boards for each and using them to stay organized and prioritize tasks. They plan to create a Trello board for the thesis with separate lists for literature review, methodology, and results, and want to use Trello's labeling system to categorize and prioritize cards.\nUser is a student working on a Master's thesis in AI and healthcare, focusing on AI\u2019s impact on healthcare outcomes, seeking a dataset distinct from the Bike Sharing dataset they are working on in their Data Mining course. They plan to use the UCI Machine Learning Repository and other open\u2011source repositories to find medical imaging or disease diagnosis datasets such as Mammography, Cardiotocography, Diabetic Retinopathy Debrecen, Breast Cancer datasets (e.g., TCIA, BreakHis, DDSM, InBreast), and Lung Cancer.\nUser is motivated to apply deep learning techniques such as convolutional neural networks (CNNs), U\u2011Net architectures, and transfer\u2011learning models like VGG16, ResNet, DenseNet, and Inception to medical imaging data for their thesis, focusing on diabetic retinopathy and breast cancer detection, and is exploring Python libraries like TensorFlow, Keras, and PyTorch for implementation.\nUser is using Mendeley as a reference management tool to keep track of sources and generate citations, and is considering using it to organize search results and annotations.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is using Trello to manage their thesis project, Data Mining project, and Database Systems project, creating separate boards for each and using them to stay organized and prioritize tasks. They plan to create a Trello board for the thesis with separate lists for literature review, methodology, and results, and want to use Trello's labeling system to categorize and prioritize cards.\nUser is a student working on a Master's thesis in AI and healthcare, focusing on AI\u2019s impact on healthcare outcomes, seeking a dataset distinct from the Bike Sharing dataset they are working on in their Data Mining course. They plan to use the UCI Machine Learning Repository and other open\u2011source repositories to find medical imaging or disease diagnosis datasets such as Mammography, Cardiotocography, Diabetic Retinopathy Debrecen, Breast Cancer datasets (e.g., TCIA, BreakHis, DDSM, InBreast), and Lung Cancer.\nUser is motivated to apply deep learning techniques such as convolutional neural networks (CNNs), U\u2011Net architectures, and transfer\u2011learning models like VGG16, ResNet, DenseNet, and Inception to medical imaging data for their thesis, focusing on diabetic retinopathy and breast cancer detection, and is exploring Python libraries like TensorFlow, Keras, and PyTorch for implementation.\nUser is using Mendeley as a reference management tool to keep track of sources and generate citations, and is considering using it to organize search results and annotations.",
+            "latency": 735.4
+        }
+    ]
+}

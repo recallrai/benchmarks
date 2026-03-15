@@ -1,0 +1,19 @@
+{
+    "index": 378,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the six museums I visited from earliest to latest?",
+    "question_date": "2023/03/10 (Fri) 19:11",
+    "ground_truth_answer": "Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, Modern Art Museum, Natural History Museum",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions five of the six museums (Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, and Modern Art Museum), it does not provide any temporal ordering information or dates that would allow someone to determine the chronological sequence of visits, and the Natural History Museum is not mentioned at all."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 5 of the 6 museums (Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, and Modern Art Museum) but completely omits the Natural History Museum, and more importantly, does not provide temporal information or ordering that would allow someone to determine the chronological sequence from earliest to latest."
+        }
+    ]
+}

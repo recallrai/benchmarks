@@ -1,0 +1,19 @@
+{
+    "index": 312,
+    "question_type": "single-session-user",
+    "question": "What is the name of my cat?",
+    "question_date": "2023/05/28 (Sun) 16:07",
+    "ground_truth_answer": "Luna",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context repeatedly mentions the user's cat by name as 'Luna', which matches the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context repeatedly mentions the user's cat by name 'Luna', which matches the gold answer exactly."
+        }
+    ]
+}

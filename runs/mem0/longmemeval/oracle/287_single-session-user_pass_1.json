@@ -1,0 +1,22 @@
+{
+    "index": 287,
+    "question_type": "single-session-user",
+    "question": "How long is my daily commute to work?",
+    "question_date": "2023/05/30 (Tue) 08:00",
+    "ground_truth_answer": "45 minutes each way",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_287_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User listens to audiobooks during a 45\u2011minute commute each way, using the Audible app for playback, bookmarking, and note\u2011taking, and has begun actively taking notes while listening, especially to non\u2011fiction books with valuable insights.\nUser is researching note\u2011taking apps that integrate well with audiobooks, seeking features such as exporting notes or quotes for easy sharing or posting on social media.",
+            "latency": 1669.939
+        },
+        {
+            "strategy": "graph",
+            "context": "User listens to audiobooks during a 45\u2011minute commute each way, using the Audible app for playback, bookmarking, and note\u2011taking, and has begun actively taking notes while listening, especially to non\u2011fiction books with valuable insights.\nUser is researching note\u2011taking apps that integrate well with audiobooks, seeking features such as exporting notes or quotes for easy sharing or posting on social media.",
+            "latency": 2326.632
+        }
+    ]
+}

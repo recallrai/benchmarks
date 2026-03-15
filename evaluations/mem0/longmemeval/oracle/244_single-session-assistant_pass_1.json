@@ -1,0 +1,19 @@
+{
+    "index": 244,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+    "question_date": "2023/05/24 (Wed) 06:33",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses general requirements for a D&D one-shot but does not mention the Lost Temple of the Djinn, mummies, or the specific number 4."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a D&D one-shot request but does not contain any information about the Lost Temple of the Djinn, mummies, or the specific number of mummies (4) that would appear in the temple."
+        }
+    ]
+}

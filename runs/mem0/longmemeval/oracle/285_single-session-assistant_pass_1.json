@@ -1,0 +1,22 @@
+{
+    "index": 285,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+    "question_date": "2023/05/29 (Mon) 23:31",
+    "ground_truth_answer": "Grilled Snapper with Mango Salsa",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_285_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has tried Jerk Chicken and enjoyed it, and is looking for additional Jamaican dishes to try.\nUser loves snapper and is excited about Caribbean dishes featuring snapper.\nUser intends to check Jamaican restaurants in their area and is interested in other Caribbean dishes.\nUser plans to try Escovitch Fish and is looking for a local restaurant that serves it.",
+            "latency": 1487.513
+        },
+        {
+            "strategy": "graph",
+            "context": "User has tried Jerk Chicken and enjoyed it, and is looking for additional Jamaican dishes to try.\nUser loves snapper and is excited about Caribbean dishes featuring snapper.\nUser intends to check Jamaican restaurants in their area and is interested in other Caribbean dishes.\nUser plans to try Escovitch Fish and is looking for a local restaurant that serves it.",
+            "latency": 2357.078
+        }
+    ]
+}

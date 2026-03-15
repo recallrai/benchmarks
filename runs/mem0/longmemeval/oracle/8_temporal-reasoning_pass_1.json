@@ -1,0 +1,22 @@
+{
+    "index": 8,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Hindu festival of Holi and the Sunday mass at St. Mary's Church?",
+    "question_date": "2023/03/26 (Sun) 21:19",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_8_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in learning about other Hindu festivals or traditions beyond Holi.\nUser attended St. Mary's Church on Sunday, March 19th, where Father John's sermon on forgiveness and compassion inspired them to give back to the community.\nUser attended the Holi celebration at their local temple on February 26th, enjoyed throwing colors and learning about its significance, and is now seeking information on the origins and cultural importance of Holi in India.\nUser caught up with cousin Emma at St. Mary's Church on Sunday, March 19th, sat in third pew from front next to her, exchanged numbers, and plans to meet for brunch later that week, and was inspired by Father John's sermon on forgiveness and compassion.\nUser is interested in recipes for traditional Indian sweets such as gujiyas and mathris that are commonly served during Holi.\nUser now understands the deep meanings of Holi colors and is looking for good places to buy colorful powders to have at home for next year's Holi.\nUser learned about the legend of Hiranyakashyap and Prahlad during Holi, enjoyed Gujarati snacks at the local temple, wants recipes for those snacks.\nUser plans to volunteer at a local community event next weekend and is seeking fundraising activity ideas that have been successful in the past.\nUser wants tips on promoting the event on social media to attract participants and donors.",
+            "latency": 815.708
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in learning about other Hindu festivals or traditions beyond Holi.\nUser attended St. Mary's Church on Sunday, March 19th, where Father John's sermon on forgiveness and compassion inspired them to give back to the community.\nUser attended the Holi celebration at their local temple on February 26th, enjoyed throwing colors and learning about its significance, and is now seeking information on the origins and cultural importance of Holi in India.\nUser caught up with cousin Emma at St. Mary's Church on Sunday, March 19th, sat in third pew from front next to her, exchanged numbers, and plans to meet for brunch later that week, and was inspired by Father John's sermon on forgiveness and compassion.\nUser is interested in recipes for traditional Indian sweets such as gujiyas and mathris that are commonly served during Holi.\nUser now understands the deep meanings of Holi colors and is looking for good places to buy colorful powders to have at home for next year's Holi.\nUser learned about the legend of Hiranyakashyap and Prahlad during Holi, enjoyed Gujarati snacks at the local temple, wants recipes for those snacks.\nUser plans to volunteer at a local community event next weekend and is seeking fundraising activity ideas that have been successful in the past.\nUser wants tips on promoting the event on social media to attract participants and donors.",
+            "latency": 1140.64
+        }
+    ]
+}

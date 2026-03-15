@@ -1,0 +1,19 @@
+{
+    "index": 402,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I harvest my first batch of fresh herbs from the herb garden kit?",
+    "question_date": "2023/04/18 (Tue) 10:15",
+    "ground_truth_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions harvesting the first batch of fresh herbs from an herb garden kit 'today', which if timestamped to the appropriate date would correspond to 3 days before the question date and enable answering the question correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions harvesting the first batch of herbs 'today' but lacks any absolute or relative date information that would allow calculating how many days ago this occurred from the question date of 2023/04/18."
+        }
+    ]
+}

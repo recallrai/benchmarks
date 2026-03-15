@@ -1,0 +1,19 @@
+{
+    "index": 291,
+    "question_type": "single-session-user",
+    "question": "What was my last name before I changed it?",
+    "question_date": "2023/05/29 (Mon) 18:26",
+    "ground_truth_answer": "Johnson",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'changed their last name from Johnson to Winters,' which directly answers the question about their previous last name and matches the gold answer of 'Johnson.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has recently changed their last name from Johnson to Winters', which directly confirms that Johnson was the user's last name before the change."
+        }
+    ]
+}

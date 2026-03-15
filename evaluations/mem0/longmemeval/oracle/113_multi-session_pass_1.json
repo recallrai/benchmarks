@@ -1,0 +1,19 @@
+{
+    "index": 113,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+    "question_date": "2021/08/20 (Fri) 19:01",
+    "ground_truth_answer": "10 years",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user attended high school, earned an Associate's degree, and completed a Bachelor's degree from UCLA in 2020, but does not provide specific timeline information (start dates, durations, or gaps) needed to calculate the total of 10 years from high school through Bachelor's completion."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions the user attended high school, earned an Associate's degree from Pasadena City College, and completed a Bachelor's degree from UCLA in 2020, it does not provide specific dates or duration information that would allow calculating the total of 10 years spent in formal education."
+        }
+    ]
+}

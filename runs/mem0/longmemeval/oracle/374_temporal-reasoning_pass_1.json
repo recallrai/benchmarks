@@ -1,0 +1,22 @@
+{
+    "index": 374,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks in total do I spent on reading 'The Nightingale' and listening to 'Sapiens: A Brief History of Humankind' and 'The Power'?",
+    "question_date": "2022/04/30 (Sat) 03:21",
+    "ground_truth_answer": "2 weeks for 'The Nightingale', 4 weeks for 'Sapiens: A Brief History of Humankind', and 2 weeks for 'The Power', so a total of 8 weeks.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_374_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is listening to 'Sapiens: A Brief History of Humankind' and reflecting on how humans have developed certain habits and behaviors over time, connecting the book's themes to personal habit formation.\nUser is exploring non-fiction books on psychology or sociology similar to 'Sapiens: A Brief History of Humankind', seeking popular recommendations in those fields.\nAlice wants to compare the book\u2019s emotional impact to 'The Nightingale'.\nAlice finished reading 'The Nightingale' by Kristin Hannah, was deeply moved by its emotional intensity, and is open to exploring other genres that can deliver a similar emotional impact, including historical fiction.\nUser prefers lighter sci\u2011fi or fantasy titles suitable for audiobook listening.\nUser, a woman, has listened to The Power by Naomi Alderman and seeks books that challenge perspectives, exploring feminist history, intersectionality, gender identity, and reproductive rights, building on interest in identity, culture, and power.\nUser is particularly interested in Charles Duhigg's book 'The Power of Habit', wanting details about the types of habits discussed and Duhigg's suggested methods for changing them.\nUser wants fantasy books featuring strong female protagonists, and is considering reading The Three-Body Problem, The Fifth Season, and The Poppy War.\nAlice wants details on the lyrical and poetic writing style and its effect on pacing.\nAlice wants to learn about the backstory of Werner Pfennig and how he becomes involved in the Nazi war machine.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is listening to 'Sapiens: A Brief History of Humankind' and reflecting on how humans have developed certain habits and behaviors over time, connecting the book's themes to personal habit formation.\nUser is exploring non-fiction books on psychology or sociology similar to 'Sapiens: A Brief History of Humankind', seeking popular recommendations in those fields.\nAlice wants to compare the book\u2019s emotional impact to 'The Nightingale'.\nAlice finished reading 'The Nightingale' by Kristin Hannah, was deeply moved by its emotional intensity, and is open to exploring other genres that can deliver a similar emotional impact, including historical fiction.\nUser prefers lighter sci\u2011fi or fantasy titles suitable for audiobook listening.\nUser, a woman, has listened to The Power by Naomi Alderman and seeks books that challenge perspectives, exploring feminist history, intersectionality, gender identity, and reproductive rights, building on interest in identity, culture, and power.\nUser is particularly interested in Charles Duhigg's book 'The Power of Habit', wanting details about the types of habits discussed and Duhigg's suggested methods for changing them.\nUser wants fantasy books featuring strong female protagonists, and is considering reading The Three-Body Problem, The Fifth Season, and The Poppy War.\nAlice wants details on the lyrical and poetic writing style and its effect on pacing.\nAlice wants to learn about the backstory of Werner Pfennig and how he becomes involved in the Nazi war machine.",
+            "latency": 714.513
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 188,
+    "question_type": "knowledge-update",
+    "question": "How many times have I met up with Alex from Germany?",
+    "question_date": "2023/10/15 (Sun) 07:17",
+    "ground_truth_answer": "We've met up twice.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_188_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a friend named Alex from Germany, met at a music festival, met up twice already, Alex is described as cool, and the user plans to meet Alex again in Berlin, looking for caf\u00e9s or bars in Kreuzberg to grab a drink and chat.\nUser is planning a trip to Germany soon and is seeking recommendations for indie rock music venues in Berlin.\nUser wants to stay up\u2011to\u2011date with the Berlin music scene by following local music blogs or zines.\nUser is considering visiting live music venues in the Kreuzberg neighborhood while in Berlin.\nUser's musical taste leans toward lo\u2011fi and garage rock, and they are looking for record stores in Berlin that carry local bands' music.",
+            "latency": 689.009
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a friend named Alex from Germany, met at a music festival, met up twice already, Alex is described as cool, and the user plans to meet Alex again in Berlin, looking for caf\u00e9s or bars in Kreuzberg to grab a drink and chat.\nUser is planning a trip to Germany soon and is seeking recommendations for indie rock music venues in Berlin.\nUser wants to stay up\u2011to\u2011date with the Berlin music scene by following local music blogs or zines.\nUser is considering visiting live music venues in the Kreuzberg neighborhood while in Berlin.\nUser's musical taste leans toward lo\u2011fi and garage rock, and they are looking for record stores in Berlin that carry local bands' music.",
+            "latency": 845.134
+        }
+    ]
+}

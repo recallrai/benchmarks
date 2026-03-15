@@ -1,0 +1,19 @@
+{
+    "index": 64,
+    "question_type": "multi-session",
+    "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+    "question_date": "2023/05/30 (Tue) 08:15",
+    "ground_truth_answer": "3.5 weeks",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user watched all 22 MCU movies in two weeks and all main Star Wars films in a week and a half (1.5 weeks), which totals 3.5 weeks matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user watched all main Star Wars films in 'a week and a half' (1.5 weeks) and all 22 MCU movies in 'two weeks' (2 weeks), which totals 3.5 weeks matching the gold answer."
+        }
+    ]
+}

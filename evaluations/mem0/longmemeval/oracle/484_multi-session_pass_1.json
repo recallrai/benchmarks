@@ -1,0 +1,19 @@
+{
+    "index": 484,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on the designer handbag and high-end skincare products?",
+    "question_date": "2023/05/28 (Sun) 18:00",
+    "ground_truth_answer": "$1,300",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context states the Coach handbag cost $800 and mentions high-end skincare purchases, but does not provide the cost of the skincare products or the total amount of $1,300."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions the Coach handbag cost $800 but does not specify the amount spent on high-end skincare products, making it impossible to calculate the total of $1,300."
+        }
+    ]
+}

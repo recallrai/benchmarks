@@ -1,0 +1,19 @@
+{
+    "index": 330,
+    "question_type": "single-session-user",
+    "question": "How long did I wait for the decision on my asylum application?",
+    "question_date": "2023/05/28 (Sun) 19:47",
+    "ground_truth_answer": "over a year",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the asylum application was approved 'after more than a year of uncertainty,' which directly matches the gold answer of 'over a year.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the asylum application was approved 'after more than a year of uncertainty,' which directly corresponds to the gold answer of 'over a year' for the waiting period."
+        }
+    ]
+}

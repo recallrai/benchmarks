@@ -1,0 +1,22 @@
+{
+    "index": 266,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+    "question_date": "2023/05/27 (Sat) 09:58",
+    "ground_truth_answer": "Memrise",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_266_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user emphasizes that consistency is key to language learning progress, and has found that using language learning apps and practicing with Japanese co-workers significantly helps the user's progress.\nThe user moved to Japan and initially struggled to understand the cultural context, but overcame this challenge by making local friends and joining language exchange groups, which gradually made it easier over time.",
+            "latency": 1567.97
+        },
+        {
+            "strategy": "graph",
+            "context": "The user emphasizes that consistency is key to language learning progress, and has found that using language learning apps and practicing with Japanese co-workers significantly helps the user's progress.\nThe user moved to Japan and initially struggled to understand the cultural context, but overcame this challenge by making local friends and joining language exchange groups, which gradually made it easier over time.",
+            "latency": 2428.584
+        }
+    ]
+}

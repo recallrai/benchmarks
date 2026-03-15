@@ -1,0 +1,22 @@
+{
+    "index": 202,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+    "question_date": "2023/05/22 (Mon) 14:25",
+    "ground_truth_answer": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for medical image analysis. They would not be interested in general AI topics or those unrelated to healthcare.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_202_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a professional working in deep learning for medical image analysis and is seeking advanced information on recent advancements, datasets for segmentation, explainable AI trends, and research papers on multi-modal fusion, transfer learning, domain adaptation, and visualization techniques.",
+            "latency": 2437.28
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a professional working in deep learning for medical image analysis and is seeking advanced information on recent advancements, datasets for segmentation, explainable AI trends, and research papers on multi-modal fusion, transfer learning, domain adaptation, and visualization techniques.",
+            "latency": 2379.705
+        }
+    ]
+}

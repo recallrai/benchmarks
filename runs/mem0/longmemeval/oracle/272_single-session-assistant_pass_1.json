@@ -1,0 +1,22 @@
+{
+    "index": 272,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+    "question_date": "2023/05/25 (Thu) 14:10",
+    "ground_truth_answer": "Andy was wearing an untidy, stained white shirt.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_272_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "Andy, a man in his 40s, serves as Head of Computing at a rural high school. He has a loud, deep voice, displays more confidence than intelligence, and often attempts to impress his colleague exam invigilator John with elaborate stories, though these attempts frequently fail.\nRoger, a computing teacher in his 50s working under Andy, is an intelligent man with grey hair and a laid-back teaching style. His classes are often out of control while he sits in despair, and he harbors quiet contempt for Andy's headship, believing he is more qualified.\nJohn, a 69-year-old exam invigilator still working past retirement, is known for enjoying making people uncomfortable. He has wispy, grey hair, wears a pinstripe suit, several gold rings, and red-tinted glasses, and frequently makes brazen, inappropriate remarks toward colleagues.\nRuth, a languages teacher in her 40s, is obsessed with German language and culture, regularly speaking to people in German to the point that they do not understand her. She is attracted to women and regularly deters John's advances.",
+            "latency": 1504.891
+        },
+        {
+            "strategy": "graph",
+            "context": "Andy, a man in his 40s, serves as Head of Computing at a rural high school. He has a loud, deep voice, displays more confidence than intelligence, and often attempts to impress his colleague exam invigilator John with elaborate stories, though these attempts frequently fail.\nRoger, a computing teacher in his 50s working under Andy, is an intelligent man with grey hair and a laid-back teaching style. His classes are often out of control while he sits in despair, and he harbors quiet contempt for Andy's headship, believing he is more qualified.\nJohn, a 69-year-old exam invigilator still working past retirement, is known for enjoying making people uncomfortable. He has wispy, grey hair, wears a pinstripe suit, several gold rings, and red-tinted glasses, and frequently makes brazen, inappropriate remarks toward colleagues.\nRuth, a languages teacher in her 40s, is obsessed with German language and culture, regularly speaking to people in German to the point that they do not understand her. She is attracted to women and regularly deters John's advances.",
+            "latency": 2143.032
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 339,
+    "question_type": "single-session-user",
+    "question": "How many hours did I spend watching documentaries on Netflix last month?",
+    "question_date": "2023/05/23 (Tue) 17:55",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_339_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been watching Netflix documentaries, especially the Cosmos series on space exploration and artificial intelligence, totaling about 10 hours last month, and intends to track and reduce this screen time by 30 minutes per day.\nUser has been consuming a lot of educational content and is seeking additional online courses and resources on data science and machine learning.\nUser is interested in using deep learning for natural language processing tasks such as text summarization and sentiment analysis, and is looking for resources and libraries like Hugging Face Transformers and AllenNLP.\nUser is exploring the possibility of using deep learning to automate data visualization, considering generative models and reinforcement learning to create interactive visualizations tailored to their team's needs.",
+            "latency": 977.803
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been watching Netflix documentaries, especially the Cosmos series on space exploration and artificial intelligence, totaling about 10 hours last month, and intends to track and reduce this screen time by 30 minutes per day.\nUser has been consuming a lot of educational content and is seeking additional online courses and resources on data science and machine learning.\nUser is interested in using deep learning for natural language processing tasks such as text summarization and sentiment analysis, and is looking for resources and libraries like Hugging Face Transformers and AllenNLP.\nUser is exploring the possibility of using deep learning to automate data visualization, considering generative models and reinforcement learning to create interactive visualizations tailored to their team's needs.",
+            "latency": 1666.779
+        }
+    ]
+}

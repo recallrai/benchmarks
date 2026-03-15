@@ -1,0 +1,19 @@
+{
+    "index": 42,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+    "question_date": "2023/05/27 (Sat) 02:34",
+    "ground_truth_answer": "Four weeks",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user purchased the amp two weeks ago and has been taking lessons for six weeks total, which means they had been taking lessons for four weeks (6 - 2 = 4) when they bought the amp, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the amp was purchased 2 weeks ago from the question date, and the user has been taking lessons for 6 weeks total as of the question date, which means they had been taking lessons for 4 weeks when they bought the amp."
+        }
+    ]
+}

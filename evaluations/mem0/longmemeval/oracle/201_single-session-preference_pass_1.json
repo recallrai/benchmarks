@@ -1,0 +1,19 @@
+{
+    "index": 201,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some accessories that would complement my current photography setup?",
+    "question_date": "2023/05/30 (Tue) 05:04",
+    "ground_truth_answer": "The user would prefer suggestions of Sony-compatible accessories or high-quality photography gear that can enhance their photography experience. They may not prefer suggestions of other brands' equipment or low-quality gear.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user owns Sony equipment (A7R IV, Sony 24-70mm f/2.8 lens) and prefers high-quality photography gear (Gitzo tripod, Godox V1 flash), which directly supports suggesting Sony-compatible accessories and quality gear as stated in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly shows the user owns Sony equipment (A7R IV camera, Sony 24-70mm lens) and prefers high-quality gear (Gitzo tripod, Godox flash), which directly supports the gold answer about preferring Sony-compatible accessories and high-quality photography gear."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 168,
+    "question_type": "knowledge-update",
+    "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+    "question_date": "2023/06/08 (Thu) 16:35",
+    "ground_truth_answer": "Oahu",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_168_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to spend the rest of their birthday relaxing on a less crowded beach on Oahu.\nUser is planning a birthday trip to Hawaii in October, will stay on Oahu, and has identified Hanauma Bay Nature Preserve and Shark's Cove as preferred snorkeling locations for the trip.\nUser plans to hike Manoa Falls Trail, will eat at Morning Glass Coffee + Cafe before the hike, and wants directions from that cafe to the trailhead.",
+            "latency": 825.02
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to spend the rest of their birthday relaxing on a less crowded beach on Oahu.\nUser is planning a birthday trip to Hawaii in October, will stay on Oahu, and has identified Hanauma Bay Nature Preserve and Shark's Cove as preferred snorkeling locations for the trip.\nUser plans to hike Manoa Falls Trail, will eat at Morning Glass Coffee + Cafe before the hike, and wants directions from that cafe to the trailhead.",
+            "latency": 1105.08
+        }
+    ]
+}

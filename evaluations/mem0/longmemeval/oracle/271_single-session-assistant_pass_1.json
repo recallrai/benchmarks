@@ -1,0 +1,19 @@
+{
+    "index": 271,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about YouTube videos for workplace posture. Can you remind me of the Mayo Clinic video you recommended?",
+    "question_date": "2023/05/27 (Sat) 11:04",
+    "ground_truth_answer": "The video is 'How to Sit Properly at a Desk to Avoid Back Pain' and the link is https://www.youtube.com/watch?v=UfOvNlX9Hh0.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Mayo Clinic video recommendation, so it cannot be used to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Mayo Clinic video, its title, or link that would allow someone to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 375,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I cancelled my FarmFresh subscription and the day I did my online grocery shopping from Instacart?",
+    "question_date": "2023/03/18 (Sat) 07:42",
+    "ground_truth_answer": "54 days. 55 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions both the FarmFresh cancellation and the Instacart order, it provides no dates or time references to calculate the 54-day interval between these events."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the context confirms both the FarmFresh cancellation and Instacart order occurred, it provides no specific dates or temporal information that would allow calculating the 54-day difference between these events."
+        }
+    ]
+}

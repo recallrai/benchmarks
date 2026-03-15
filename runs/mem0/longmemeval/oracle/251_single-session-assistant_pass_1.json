@@ -1,0 +1,22 @@
+{
+    "index": 251,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+    "question_date": "2023/05/29 (Mon) 10:13",
+    "ground_truth_answer": "+49 (0) 62 32 / 14 23 - 0",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_251_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User thanked the assistant for providing the contact details of the tourism board of Speyer.\nUser wants the contact details of the local tourism board of Speyer.\nUser is interested in how to get to Speyer from Frankfurt.\nUser is looking for upcoming sporting events in Speyer that visitors can attend or participate in.",
+            "latency": 2168.225
+        },
+        {
+            "strategy": "graph",
+            "context": "User thanked the assistant for providing the contact details of the tourism board of Speyer.\nUser wants the contact details of the local tourism board of Speyer.\nUser is interested in how to get to Speyer from Frankfurt.\nUser is looking for upcoming sporting events in Speyer that visitors can attend or participate in.",
+            "latency": 2318.19
+        }
+    ]
+}

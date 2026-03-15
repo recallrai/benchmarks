@@ -1,0 +1,22 @@
+{
+    "index": 351,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage films?",
+    "question_date": "2023/05/24 (Wed) 21:54",
+    "ground_truth_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_351_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been collecting vintage cameras for three months, has amassed a pretty impressive collection, and seeks advice on keeping cameras organized and easily accessible for maintenance and cleaning, feeling proud of the progress.\nUser is a vintage camera collector seeking advice on proper storage and maintenance to keep their growing collection in good condition and prevent damage, expressing a desire to preserve the value and longevity of their items.\nUser wants advice on displaying their 17 vintage cameras, including a newly acquired Brownie Hawkeye, currently on a shelf but uncertain if that is the best way to showcase them, and is excited about the recent addition.\nUser is a Funko POP collector with a large collection, including the entire set of Marvel Cinematic Universe figures, and wants advice on how to store and display them nicely, eager to showcase the collection.\nUser is a vinyl record collector who recently scored a rare 1978 pressing of Fleetwood Mac's Rumours and wants advice on storing and displaying their vinyl collection so the rare pressing is prominently showcased, excited about the rarity.\nUser is a poster and art print collector who recently purchased a Mondo poster featuring an illustration of the Hogwarts castle from Harry Potter and wants advice on storing and displaying posters and art prints nicely, eager to highlight the new poster.",
+            "latency": 956.906
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been collecting vintage cameras for three months, has amassed a pretty impressive collection, and seeks advice on keeping cameras organized and easily accessible for maintenance and cleaning, feeling proud of the progress.\nUser is a vintage camera collector seeking advice on proper storage and maintenance to keep their growing collection in good condition and prevent damage, expressing a desire to preserve the value and longevity of their items.\nUser wants advice on displaying their 17 vintage cameras, including a newly acquired Brownie Hawkeye, currently on a shelf but uncertain if that is the best way to showcase them, and is excited about the recent addition.\nUser is a Funko POP collector with a large collection, including the entire set of Marvel Cinematic Universe figures, and wants advice on how to store and display them nicely, eager to showcase the collection.\nUser is a vinyl record collector who recently scored a rare 1978 pressing of Fleetwood Mac's Rumours and wants advice on storing and displaying their vinyl collection so the rare pressing is prominently showcased, excited about the rarity.\nUser is a poster and art print collector who recently purchased a Mondo poster featuring an illustration of the Hogwarts castle from Harry Potter and wants advice on storing and displaying posters and art prints nicely, eager to highlight the new poster.",
+            "latency": 1788.522
+        }
+    ]
+}

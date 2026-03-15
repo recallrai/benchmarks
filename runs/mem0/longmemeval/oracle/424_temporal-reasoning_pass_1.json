@@ -1,0 +1,22 @@
+{
+    "index": 424,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+    "question_date": "2023/03/11 (Sat) 21:26",
+    "ground_truth_answer": "No, you did not visit with a friend.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_424_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been museum-hopping, enjoys learning and fun, seeks more museums or science centers, plans to search directories, and recalls a behind\u2011the\u2011scenes tour of the Science Museum with a chemistry professor friend where they saw a rare mineral collection and did a hands\u2011on experiment, finding the exhibit complexity impressive.\nUser is planning a trip to Jordan to visit Petra, wants to learn about Petra's history and significance, and recently attended a lecture at the History Museum about ancient civilizations this month that provided new insights about Petra.\nUser is excited about the upcoming hadrosaur exhibit at the Natural History Museum, plans to attend, and is interested in interactive or immersive experiences such as virtual reality or augmented reality components.\nUser has been visiting various museums over the past few months, enjoying museum events and exhibits as a way to learn new things and have fun, and plans to search online directories for hidden gems to discover new museums or science centers focused on chemistry or physics.\nThe user is seeking information about upcoming exhibits or events related to chemistry or physics at the Science Museum, hoping to find new opportunities to learn and enjoy.\nUser is interested in online educational content for chemistry and physics, plans to check Chemistry World and the American Chemical Society website, and intends to share these resources with a chemistry professor friend.\nUser wants to learn about Nabataean culture and way of life, including funerary practices, tomb offerings, beliefs about the afterlife, and typical daily routines and leisure activities.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been museum-hopping, enjoys learning and fun, seeks more museums or science centers, plans to search directories, and recalls a behind\u2011the\u2011scenes tour of the Science Museum with a chemistry professor friend where they saw a rare mineral collection and did a hands\u2011on experiment, finding the exhibit complexity impressive.\nUser is planning a trip to Jordan to visit Petra, wants to learn about Petra's history and significance, and recently attended a lecture at the History Museum about ancient civilizations this month that provided new insights about Petra.\nUser is excited about the upcoming hadrosaur exhibit at the Natural History Museum, plans to attend, and is interested in interactive or immersive experiences such as virtual reality or augmented reality components.\nUser has been visiting various museums over the past few months, enjoying museum events and exhibits as a way to learn new things and have fun, and plans to search online directories for hidden gems to discover new museums or science centers focused on chemistry or physics.\nThe user is seeking information about upcoming exhibits or events related to chemistry or physics at the Science Museum, hoping to find new opportunities to learn and enjoy.\nUser is interested in online educational content for chemistry and physics, plans to check Chemistry World and the American Chemical Society website, and intends to share these resources with a chemistry professor friend.\nUser wants to learn about Nabataean culture and way of life, including funerary practices, tomb offerings, beliefs about the afterlife, and typical daily routines and leisure activities.",
+            "latency": 734.521
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 442,
+    "question_type": "multi-session",
+    "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+    "question_date": "2023/05/28 (Sun) 21:42",
+    "ground_truth_answer": "8",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_442_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has 3 cucumber plants in their garden that are producing a large quantity of cucumbers, and they are excited to use these fresh cucumbers for cooking and preservation.\nUser is planning their meals for the week and is specifically looking for recipe suggestions that feature cucumbers as the main ingredient.\nUser is looking for recipe ideas that feature fresh tomatoes as the main ingredient, indicating a strong interest in cooking with homegrown tomatoes.\nUser observed yellowing leaves and wilting on tomato plants, researched overwatering as the cause, reduced watering frequency, and noted improved plant health.\nUser is seeking advice on how to store cucumbers to keep them fresh for a longer period.\nUser has a garden with five tomato plants that are producing abundantly, harvesting almost daily, using the tomatoes in salads, sandwiches, and cooked dishes, and is seeking advice on keeping tomato plants healthy and productive throughout the season.\nUser plans to try Bruschetta and Tomato and Mozzarella Salad recipes first, and is seeking tips on how to store fresh tomatoes to keep them fresh longer.\nUser wants tips on how to make a good homemade pasta sauce from scratch using fresh tomatoes.\nUser wants a simple recipe for dill pickles to preserve their daily cucumber harvest, and is excited to try the recipe.\nUser wants suggestions on how to adjust the dill pickle recipe for smaller batches, such as making a few jars at a time, and is interested in scaling down the ingredients accordingly.",
+            "latency": 521.432
+        },
+        {
+            "strategy": "graph",
+            "context": "User has 3 cucumber plants in their garden that are producing a large quantity of cucumbers, and they are excited to use these fresh cucumbers for cooking and preservation.\nUser is planning their meals for the week and is specifically looking for recipe suggestions that feature cucumbers as the main ingredient.\nUser is looking for recipe ideas that feature fresh tomatoes as the main ingredient, indicating a strong interest in cooking with homegrown tomatoes.\nUser observed yellowing leaves and wilting on tomato plants, researched overwatering as the cause, reduced watering frequency, and noted improved plant health.\nUser is seeking advice on how to store cucumbers to keep them fresh for a longer period.\nUser has a garden with five tomato plants that are producing abundantly, harvesting almost daily, using the tomatoes in salads, sandwiches, and cooked dishes, and is seeking advice on keeping tomato plants healthy and productive throughout the season.\nUser plans to try Bruschetta and Tomato and Mozzarella Salad recipes first, and is seeking tips on how to store fresh tomatoes to keep them fresh longer.\nUser wants tips on how to make a good homemade pasta sauce from scratch using fresh tomatoes.\nUser wants a simple recipe for dill pickles to preserve their daily cucumber harvest, and is excited to try the recipe.\nUser wants suggestions on how to adjust the dill pickle recipe for smaller batches, such as making a few jars at a time, and is interested in scaling down the ingredients accordingly.",
+            "latency": 750.251
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 181,
+    "question_type": "knowledge-update",
+    "question": "How many projects have I completed since starting painting classes?",
+    "question_date": "2023/10/20 (Fri) 12:00",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_181_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is working on a sunset painting for their sister's birthday next month, has completed five projects since starting painting classes, feels confident in their skills, and is seeking tips on properly varnishing and protecting the painting.\nUser wants advice on how to sign and date the painting without detracting from the overall piece.\nUser is planning to create a painting gift for their sister's birthday next month, exploring ideas for paintings that would make good gifts.\nUser follows several artists on Instagram for inspiration and wants advice on how to reach out to them or engage with their content in a meaningful way.\nUser is planning to reach out to @artbylisa, who posted a galaxy effect tutorial using acrylics; they tried the technique last Tuesday evening, it didn't turn out perfectly, but they plan to experiment more and want to share their attempt with her and ask for feedback.\nUser is setting up a small art studio in their spare bedroom, planning to purge and declutter, assess needs, optimize layout, invest in multi-functional furniture, utilize vertical space for storage, create a wet zone, and ensure comfortable seating, expressing gratitude for the advice.",
+            "latency": 799.931
+        },
+        {
+            "strategy": "graph",
+            "context": "User is working on a sunset painting for their sister's birthday next month, has completed five projects since starting painting classes, feels confident in their skills, and is seeking tips on properly varnishing and protecting the painting.\nUser wants advice on how to sign and date the painting without detracting from the overall piece.\nUser is planning to create a painting gift for their sister's birthday next month, exploring ideas for paintings that would make good gifts.\nUser follows several artists on Instagram for inspiration and wants advice on how to reach out to them or engage with their content in a meaningful way.\nUser is planning to reach out to @artbylisa, who posted a galaxy effect tutorial using acrylics; they tried the technique last Tuesday evening, it didn't turn out perfectly, but they plan to experiment more and want to share their attempt with her and ask for feedback.\nUser is setting up a small art studio in their spare bedroom, planning to purge and declutter, assess needs, optimize layout, invest in multi-functional furniture, utilize vertical space for storage, create a wet zone, and ensure comfortable seating, expressing gratitude for the advice.",
+            "latency": 1042.793
+        }
+    ]
+}

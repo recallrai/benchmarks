@@ -1,0 +1,19 @@
+{
+    "index": 482,
+    "question_type": "multi-session",
+    "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+    "question_date": "2023/05/30 (Tue) 02:21",
+    "ground_truth_answer": "33",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the Facebook Live session garnered 12 comments and the most popular video had 21 comments, which totals to 33, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the Facebook Live session had 12 comments and the most popular YouTube video had 21 comments, which totals to 33, matching the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 258,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about atmospheric correction methods, and I wanted to confirm - you mentioned that 6S, MAJA, and Sen2Cor are all algorithms for atmospheric correction of remote sensing images. Can you remind me which one is implemented in the SIAC_GEE tool?",
+    "question_date": "2023/05/26 (Fri) 01:53",
+    "ground_truth_answer": "The 6S algorithm is implemented in the SIAC_GEE tool.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about which atmospheric correction algorithm is implemented in the SIAC_GEE tool, making it impossible to answer the question correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about SIAC_GEE or which algorithm it implements, making it impossible to answer the question."
+        }
+    ]
+}

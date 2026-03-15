@@ -1,0 +1,19 @@
+{
+    "index": 295,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new tennis racket from?",
+    "question_date": "2023/05/23 (Tue) 12:01",
+    "ground_truth_answer": "the sports store downtown",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'recently purchased a new tennis racket from a sports store downtown,' which directly matches the gold answer 'the sports store downtown.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'purchased a new tennis racket from a sports store downtown,' which directly matches the gold answer."
+        }
+    ]
+}

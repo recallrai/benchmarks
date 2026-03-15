@@ -1,0 +1,22 @@
+{
+    "index": 130,
+    "question_type": "knowledge-update",
+    "question": "What day of the week do I take a cocktail-making class?",
+    "question_date": "2023/07/12 (Wed) 04:11",
+    "ground_truth_answer": "Friday",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_130_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a dinner party and is seeking inspiration for a refreshing summer cocktail featuring tequila, excited to experiment during their Friday cocktail-making class\nUser is excited to try the Watermelon Basil Margarita recipe, has a Friday cocktail-making class, and is looking for additional tequila-based cocktail ideas to experiment with\nUser prefers Avion Silver tequila, a favorite used in homemade margaritas, consistently delivering great results\nUser enjoys experimenting with basil in cocktails, specifically interested in a Watermelon Basil Margarita, wants a watermelon puree recipe, plans to roast watermelon to enhance sweetness for cocktails, and seeks a tequila recommendation that pairs well with watermelon and basil flavors\nUser is planning a dinner party menu, wants appetizer ideas that pair with spicy mango margaritas, and has chosen grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers, and plans to serve grilled jerk chicken with mango salsa as the main course",
+            "latency": 648.429
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a dinner party and is seeking inspiration for a refreshing summer cocktail featuring tequila, excited to experiment during their Friday cocktail-making class\nUser is excited to try the Watermelon Basil Margarita recipe, has a Friday cocktail-making class, and is looking for additional tequila-based cocktail ideas to experiment with\nUser prefers Avion Silver tequila, a favorite used in homemade margaritas, consistently delivering great results\nUser enjoys experimenting with basil in cocktails, specifically interested in a Watermelon Basil Margarita, wants a watermelon puree recipe, plans to roast watermelon to enhance sweetness for cocktails, and seeks a tequila recommendation that pairs well with watermelon and basil flavors\nUser is planning a dinner party menu, wants appetizer ideas that pair with spicy mango margaritas, and has chosen grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers, and plans to serve grilled jerk chicken with mango salsa as the main course",
+            "latency": 870.682
+        }
+    ]
+}

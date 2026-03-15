@@ -1,0 +1,22 @@
+{
+    "index": 23,
+    "question_type": "temporal-reasoning",
+    "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+    "question_date": "2023/05/20 (Sat) 11:34",
+    "ground_truth_answer": "'Game of Thrones'",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_23_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for new shows on HBO Max, has started Game of Thrones about a month ago, finished the first four seasons, enjoys it, and wants recommendations for shows similar to Game of Thrones.\nUser finished binge-watching the third season of The Crown on Netflix, completing it in 14 days with 2\u20133 episodes each day, and is now looking for similar shows.\nUser has been subscribed to HBO Max for about six months, has been watching Friends, and wants recommendations for classic sitcoms or comfort TV on HBO Max.\nUser has been watching cooking shows on Netflix, specifically Nailed It! and The Great British Baking Show, finds them entertaining and relaxing, and wants recommendations for cooking shows or food-related content on HBO Max.\nUser recently finished watching The Marvelous Mrs. Maisel on Amazon Prime Video, loves it, and is looking for additional comedy recommendations on Amazon Prime.\nUser has been watching documentaries on Hulu, particularly true crime and science, and is seeking recommendations for documentaries on HBO Max.\nUser discovered Amazon Prime Video has many great original content, has finished The Marvelous Mrs. Maisel, loves it, and wants recommendations for other original content on Amazon Prime.",
+            "latency": 810.716
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for new shows on HBO Max, has started Game of Thrones about a month ago, finished the first four seasons, enjoys it, and wants recommendations for shows similar to Game of Thrones.\nUser finished binge-watching the third season of The Crown on Netflix, completing it in 14 days with 2\u20133 episodes each day, and is now looking for similar shows.\nUser has been watching cooking shows on Netflix, specifically Nailed It! and The Great British Baking Show, finds them entertaining and relaxing, and wants recommendations for cooking shows or food-related content on HBO Max.\nUser has been subscribed to HBO Max for about six months, has been watching Friends, and wants recommendations for classic sitcoms or comfort TV on HBO Max.\nUser recently finished watching The Marvelous Mrs. Maisel on Amazon Prime Video, loves it, and is looking for additional comedy recommendations on Amazon Prime.\nUser has been watching documentaries on Hulu, particularly true crime and science, and is seeking recommendations for documentaries on HBO Max.\nUser discovered Amazon Prime Video has many great original content, has finished The Marvelous Mrs. Maisel, loves it, and wants recommendations for other original content on Amazon Prime.",
+            "latency": 1376.956
+        }
+    ]
+}

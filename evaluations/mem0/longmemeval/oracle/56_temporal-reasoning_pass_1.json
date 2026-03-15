@@ -1,0 +1,19 @@
+{
+    "index": 56,
+    "question_type": "temporal-reasoning",
+    "question": "When did I book the Airbnb in Sacramento?",
+    "question_date": "2023/05/25 (Thu) 14:37",
+    "ground_truth_answer": "The information provided is not enough. You only mentioned booking Airbnb in San Francisco.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions Airbnb bookings in San Francisco (Haight-Ashbury), with no mention of Sacramento, which aligns with the gold answer stating that only San Francisco was mentioned, not Sacramento."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions Airbnb bookings in San Francisco (Haight-Ashbury), with no mention of Sacramento, which correctly supports the gold answer that insufficient information exists about a Sacramento Airbnb booking."
+        }
+    ]
+}

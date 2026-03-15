@@ -1,0 +1,22 @@
+{
+    "index": 126,
+    "question_type": "knowledge-update",
+    "question": "How often do I attend yoga classes to help with my anxiety?",
+    "question_date": "2023/12/25 (Mon) 05:30",
+    "ground_truth_answer": "Three times a week.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_126_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attends yoga classes three times a week, which helps them focus and clear their mind, and feels grounded on anxious days; they also practice meditation, journaling, and therapy to manage stress, and seek stress\u2011reducing apps, meditation techniques, and tips to incorporate more mindfulness into their routine on busy days.\nUser has a therapist and is looking for books or resources to better understand anxiety and depression.\nUser feels overwhelmed with three main projects: a marketing campaign (priority), a report due next Friday (time\u2011sensitive), and website updates; each task estimated to take 2\u20113 days to complete.\nUser uses meditation to set intentions and focus on daily goals, and seeks journaling prompts or reflection exercises to identify triggers and work through childhood trauma.\nUser feels confident with the updated schedule and is optimistic about completing the report on time.",
+            "latency": 629.913
+        },
+        {
+            "strategy": "graph",
+            "context": "User attends yoga classes three times a week, which helps them focus and clear their mind, and feels grounded on anxious days; they also practice meditation, journaling, and therapy to manage stress, and seek stress\u2011reducing apps, meditation techniques, and tips to incorporate more mindfulness into their routine on busy days.\nUser has a therapist and is looking for books or resources to better understand anxiety and depression.\nUser feels overwhelmed with three main projects: a marketing campaign (priority), a report due next Friday (time\u2011sensitive), and website updates; each task estimated to take 2\u20113 days to complete.\nUser uses meditation to set intentions and focus on daily goals, and seeks journaling prompts or reflection exercises to identify triggers and work through childhood trauma.\nUser feels confident with the updated schedule and is optimistic about completing the report on time.",
+            "latency": 815.609
+        }
+    ]
+}

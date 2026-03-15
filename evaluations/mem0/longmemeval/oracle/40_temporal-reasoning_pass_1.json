@@ -1,0 +1,19 @@
+{
+    "index": 40,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been accepted into the exchange program when I started attending the pre-departure orientation sessions?",
+    "question_date": "2023/04/19 (Wed) 15:42",
+    "ground_truth_answer": "one week",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions when the orientation sessions started (March 27, 2026) but does not contain information about when the user was accepted into the exchange program, which is necessary to calculate how many weeks had passed between acceptance and starting the orientation sessions."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions when the user started attending pre-departure orientation sessions (March 27) but does not include any information about when the user was accepted into the exchange program, which is necessary to determine how many weeks passed between acceptance and starting orientation."
+        }
+    ]
+}

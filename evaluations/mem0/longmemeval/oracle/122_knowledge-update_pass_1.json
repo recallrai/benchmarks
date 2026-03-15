@@ -1,0 +1,19 @@
+{
+    "index": 122,
+    "question_type": "knowledge-update",
+    "question": "What was my personal best time in the charity 5K run?",
+    "question_date": "2023/06/01 (Thu) 00:58",
+    "ground_truth_answer": "25 minutes and 50 seconds (or 25:50)",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'aiming to beat a 25:50 personal best,' which directly matches the gold answer of 25 minutes and 50 seconds (25:50)."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'aiming to beat a 25:50 personal best,' which directly provides the answer to the question about their personal best time in the charity 5K run."
+        }
+    ]
+}

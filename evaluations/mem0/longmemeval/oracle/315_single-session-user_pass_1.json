@@ -1,0 +1,19 @@
+{
+    "index": 315,
+    "question_type": "single-session-user",
+    "question": "How much RAM did I upgrade my laptop to?",
+    "question_date": "2023/05/27 (Sat) 21:08",
+    "ground_truth_answer": "16GB",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'upgraded RAM to 16GB' for the user's Dell Inspiron laptop, which matches the gold answer of 16GB."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'upgraded RAM to 16GB' which directly matches the gold answer of 16GB."
+        }
+    ]
+}

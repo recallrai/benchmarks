@@ -1,0 +1,22 @@
+{
+    "index": 320,
+    "question_type": "single-session-user",
+    "question": "What type of cocktail recipe did I try last weekend?",
+    "question_date": "2023/05/26 (Fri) 02:26",
+    "ground_truth_answer": "lavender gin fizz",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_320_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a summer dinner party and wants to create a signature gin\u2011based cocktail that incorporates fresh herbs from the user's garden.\nUser is interested in a Lavender Dream cocktail, tried a lavender gin fizz without simple syrup, improvised with honey and water, plans to make simple syrup this weekend, and seeks gin brand recommendations for the summer dinner party.\nUser plans to make lavender syrup or infusion for Bombay Sapphire and Fever\u2011Tree elderflower tonic, wants tips on making lavender syrup and experimenting with ratios, will start with a 1:1:1 ratio, excited to find balance, and recently made homemade hot sauce with jalapenos and is curious about hot sauce making.",
+            "latency": 859.486
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a summer dinner party and wants to create a signature gin\u2011based cocktail that incorporates fresh herbs from the user's garden.\nUser is interested in a Lavender Dream cocktail, tried a lavender gin fizz without simple syrup, improvised with honey and water, plans to make simple syrup this weekend, and seeks gin brand recommendations for the summer dinner party.\nUser plans to make lavender syrup or infusion for Bombay Sapphire and Fever\u2011Tree elderflower tonic, wants tips on making lavender syrup and experimenting with ratios, will start with a 1:1:1 ratio, excited to find balance, and recently made homemade hot sauce with jalapenos and is curious about hot sauce making.",
+            "latency": 1722.073
+        }
+    ]
+}

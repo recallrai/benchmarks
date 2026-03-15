@@ -1,0 +1,22 @@
+{
+    "index": 218,
+    "question_type": "single-session-preference",
+    "question": "I was thinking of trying a new coffee creamer recipe. Any recommendations?",
+    "question_date": "2023/05/25 (Thu) 15:08",
+    "ground_truth_answer": "The user would prefer responses that suggest variations on their existing almond milk, vanilla extract, and honey creamer recipe or new ideas that align with their goals of reducing sugar intake and saving money. They might not prefer responses that recommend commercial creamer products or recipes that are high in sugar or expensive.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_218_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is reducing sugar intake and saving money by making homemade flavored creamer with almond milk, vanilla extract, and honey, and is seeking healthier tips.\nUser has made a large batch of homemade granola using rolled oats, almonds, and honey, enjoys it throughout the day, and wants tips to customize granola recipes to fit taste preferences.\nUser seeks healthy on-the-go snack options for afternoon cravings to provide a quick energy boost.\nUser wants healthy breakfast ideas to start the day right, as they have been skipping breakfast more frequently.\nUser wants snack options that can be prepared on Sunday for the entire week.\nUser is experiencing increased sweet cravings in the afternoon (3-4 pm) and wants tips to curb cravings and make healthier choices.",
+            "latency": 3918.069
+        },
+        {
+            "strategy": "graph",
+            "context": "User is reducing sugar intake and saving money by making homemade flavored creamer with almond milk, vanilla extract, and honey, and is seeking healthier tips.\nUser has made a large batch of homemade granola using rolled oats, almonds, and honey, enjoys it throughout the day, and wants tips to customize granola recipes to fit taste preferences.\nUser seeks healthy on-the-go snack options for afternoon cravings to provide a quick energy boost.\nUser wants healthy breakfast ideas to start the day right, as they have been skipping breakfast more frequently.\nUser wants snack options that can be prepared on Sunday for the entire week.\nUser is experiencing increased sweet cravings in the afternoon (3-4 pm) and wants tips to curb cravings and make healthier choices.",
+            "latency": 2514.103
+        }
+    ]
+}

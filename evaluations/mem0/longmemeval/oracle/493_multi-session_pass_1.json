@@ -1,0 +1,19 @@
+{
+    "index": 493,
+    "question_type": "multi-session",
+    "question": "How many fun runs did I miss in March due to work commitments?",
+    "question_date": "2023/04/26 (Wed) 20:52",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user missed two runs (March 5 and March 26) due to work commitments, which directly matches the gold answer of 2."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has missed two runs: March 5 and March 26 due to work commitments', which directly answers the question about how many fun runs were missed in March due to work commitments."
+        }
+    ]
+}

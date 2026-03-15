@@ -1,0 +1,22 @@
+{
+    "index": 167,
+    "question_type": "knowledge-update",
+    "question": "How many Crash Course videos have I watched in the past few weeks?",
+    "question_date": "2023/10/05 (Thu) 21:04",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_167_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has completed 12 Crash Course videos on computer science, having watched 10 in the past few weeks, and feels motivated by the engaging content.\nAdditionally, User enjoys listening to the 'How I Built This' podcast and is looking for similar entrepreneurship podcasts to broaden inspiration.\nUser took a Python programming course on edX and now wants to deepen machine learning skills with Python, including advanced topics such as reinforcement learning and generative models.\nUser actively engages with online communities such as Kaggle and Reddit to learn from experts and practitioners in NLP and machine learning, seeks feedback on projects, stays updated on the latest developments, and connects with like-minded individuals and potential collaborators, finding these interactions highly valuable for their learning journey.\nUser is planning an AWS project soon and is seeking a study plan for the AWS Certified Cloud Practitioner exam to improve cloud skills.",
+            "latency": 833.423
+        },
+        {
+            "strategy": "graph",
+            "context": "User has completed 12 Crash Course videos on computer science, having watched 10 in the past few weeks, and feels motivated by the engaging content.\nAdditionally, User enjoys listening to the 'How I Built This' podcast and is looking for similar entrepreneurship podcasts to broaden inspiration.\nUser took a Python programming course on edX and now wants to deepen machine learning skills with Python, including advanced topics such as reinforcement learning and generative models.\nUser actively engages with online communities such as Kaggle and Reddit to learn from experts and practitioners in NLP and machine learning, seeks feedback on projects, stays updated on the latest developments, and connects with like-minded individuals and potential collaborators, finding these interactions highly valuable for their learning journey.\nUser is planning an AWS project soon and is seeking a study plan for the AWS Certified Cloud Practitioner exam to improve cloud skills.",
+            "latency": 1046.181
+        }
+    ]
+}

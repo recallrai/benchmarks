@@ -1,0 +1,22 @@
+{
+    "index": 118,
+    "question_type": "multi-session",
+    "question": "How many fish are there in my 30-gallon tank?",
+    "question_date": "2023/05/28 (Sun) 08:12",
+    "ground_truth_answer": "The information provided is not enough. You did not mention that you have a 30-gallon tank.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_118_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a betta fish named Bubbles in a 10-gallon tank that was recently upgraded, and is wondering whether Bubbles would be interested in eating frozen bloodworms.\nUser is considering adding schooling fish to the 20\u2011gallon tank, specifically lemon tetras or zebra danios, and wants to know if they would coexist peacefully with the neon tetras, golden honey gouramis, and pleco catfish already present.\nUser has a 20\u2011gallon tank that contains 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, observes aggression between the gouramis during feeding times, and is considering adding schooling fish such as lemon tetras or zebra danios in a group to distract the gouramis and reduce aggression, while also planning to provide plenty of hiding places and live plants such as Java\u202fMoss and Anacharis.\nUser is planning to add live aquatic plants such as Java\u202fMoss and Anacharis to their 20\u2011gallon freshwater tank, which was upgraded from a 10\u2011gallon tank, and currently contains 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish.\nUser is specifically interested in Java\u202fMoss and Anacharis, requesting detailed care instructions and information on how these plants will interact with the existing fish species in the tank.\nUser plans to upgrade tank decorations by adding artificial coral and rocks to create more hiding places for their fish.\nUser wants to enhance the tank's hiding spots by adding decorations that complement the existing community of fish, and is seeking suggestions for suitable decorations.\nUser has decided to add a treasure chest decoration near the artificial coral and rocks to create a 'city' area for the fish, and is asking for confirmation that this arrangement will provide appropriate hiding places for neon tetras and other fish.\nUser wants advice on how to anchor live aquatic plants in the substrate to prevent them from floating away.",
+            "latency": 632.074
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a betta fish named Bubbles in a 10-gallon tank that was recently upgraded, and is wondering whether Bubbles would be interested in eating frozen bloodworms.\nUser is considering adding schooling fish to the 20\u2011gallon tank, specifically lemon tetras or zebra danios, and wants to know if they would coexist peacefully with the neon tetras, golden honey gouramis, and pleco catfish already present.\nUser has a 20\u2011gallon tank that contains 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, observes aggression between the gouramis during feeding times, and is considering adding schooling fish such as lemon tetras or zebra danios in a group to distract the gouramis and reduce aggression, while also planning to provide plenty of hiding places and live plants such as Java\u202fMoss and Anacharis.\nUser is planning to add live aquatic plants such as Java\u202fMoss and Anacharis to their 20\u2011gallon freshwater tank, which was upgraded from a 10\u2011gallon tank, and currently contains 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish.\nUser is specifically interested in Java\u202fMoss and Anacharis, requesting detailed care instructions and information on how these plants will interact with the existing fish species in the tank.\nUser plans to upgrade tank decorations by adding artificial coral and rocks to create more hiding places for their fish.\nUser wants to enhance the tank's hiding spots by adding decorations that complement the existing community of fish, and is seeking suggestions for suitable decorations.\nUser has decided to add a treasure chest decoration near the artificial coral and rocks to create a 'city' area for the fish, and is asking for confirmation that this arrangement will provide appropriate hiding places for neon tetras and other fish.\nUser wants advice on how to anchor live aquatic plants in the substrate to prevent them from floating away.",
+            "latency": 804.727
+        }
+    ]
+}

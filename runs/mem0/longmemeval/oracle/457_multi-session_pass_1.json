@@ -1,0 +1,22 @@
+{
+    "index": 457,
+    "question_type": "multi-session",
+    "question": "What is the total cost of Lola's vet visit and flea medication?",
+    "question_date": "2023/05/27 (Sat) 02:14",
+    "ground_truth_answer": "$75",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_457_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User bought flea and tick prevention medication for Lola costing $25 for a 3\u2011month supply.\nUser recently took cat Lola to the vet last week, received a $50 discounted consultation as a regular customer.\nUser purchased a 20\u2011pound bag of cat food from Petco for $35, noting that Lola is doing well with this food.\nUser plans to visit the pet store this weekend to compare dog bed options and check prices of dog beds and pet grooming kits at Petco, hoping to find good deals, and is also looking for advice on encouraging Max to consume more vegetables.\nUser has a pet grooming kit for Lola that cost $80 when purchased last year and has proven to be a good investment; the kit was borrowed by friend Rachel, so the user needs to groom Lola soon, hopes Rachel returns it, and may need to purchase a new grooming kit for Max if it is not returned.\nUser is considering buying a new dog bed for Max, has seen a suitable orthopedic or memory foam option at a local pet store for $40, and is seeking recommendations that meet their preferences.\nUser has decided to use the Arm & Hammer Super Scoop Cat Litter, a brand they are familiar with.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User bought flea and tick prevention medication for Lola costing $25 for a 3\u2011month supply.\nUser recently took cat Lola to the vet last week, received a $50 discounted consultation as a regular customer.\nUser purchased a 20\u2011pound bag of cat food from Petco for $35, noting that Lola is doing well with this food.\nUser plans to visit the pet store this weekend to compare dog bed options and check prices of dog beds and pet grooming kits at Petco, hoping to find good deals, and is also looking for advice on encouraging Max to consume more vegetables.\nUser has a pet grooming kit for Lola that cost $80 when purchased last year and has proven to be a good investment; the kit was borrowed by friend Rachel, so the user needs to groom Lola soon, hopes Rachel returns it, and may need to purchase a new grooming kit for Max if it is not returned.\nUser is considering buying a new dog bed for Max, has seen a suitable orthopedic or memory foam option at a local pet store for $40, and is seeking recommendations that meet their preferences.\nUser has decided to use the Arm & Hammer Super Scoop Cat Litter, a brand they are familiar with.",
+            "latency": 757.392
+        }
+    ]
+}

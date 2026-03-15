@@ -1,0 +1,19 @@
+{
+    "index": 387,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+    "question_date": "2023/04/22 (Sat) 02:00",
+    "ground_truth_answer": "The order of the concerts I attended is: 1. Billie Eilish concert at the Wells Fargo Center in Philly, 2. Free outdoor concert series in the park, 3. Music festival in Brooklyn, 4. Jazz night at a local bar, 5. Queen + Adam Lambert concert at the Prudential Center in Newark, NJ.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions some of the concerts (Billie Eilish, Queen + Adam Lambert, music festival in Brooklyn), it does not provide clear temporal information to establish the chronological order of events, and some events (free outdoor concert series, jazz night) are described as future interests rather than past attended events."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions some of the concerts (Billie Eilish, Queen + Adam Lambert, Brooklyn music festival), it does not provide sufficient information to determine the chronological order of these events, and for two events (free outdoor concert series and jazz night) it only mentions interest in attending rather than confirmed attendance."
+        }
+    ]
+}

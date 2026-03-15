@@ -1,0 +1,22 @@
+{
+    "index": 0,
+    "question_type": "temporal-reasoning",
+    "question": "What was the first issue I had with my new car after its first service?",
+    "question_date": "2023/04/10 (Mon) 23:07",
+    "ground_truth_answer": "GPS system not functioning correctly",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_0_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User had a GPS system issue on March\u202f22, had the entire system replaced at the dealership, and now the GPS works flawlessly. They want to use lane departure warning and blind\u2011spot detection features, maximize GPS usage for navigation, and are concerned about fuel efficiency on long drives.\nUser helped friend Emily move to a new apartment, used their car to transport furniture, and wants tips on protecting the car's interior from wear and tear when transporting large or heavy items.\nUser is planning to get their car detailed soon, had a positive service experience on March\u202f15, has found a local detailer with great reviews but is also considering other options, and wants tips on choosing a detailer and specific wax products suitable for advanced paint finishes such as a silver Honda Civic.\nUser refuels at a Shell station near their office, earning rewards points, is evaluating filling during the trip. They plan to balance Shell loyalty with cost savings using gas\u2011price comparison apps, and redeemed 50,000 points for a $500 gift card to a car\u2011accessories store, car cover, floor mats, steering wheel cover.\nUser paid their car insurance premium online using their bank's mobile app, received a $20 per month discount due to a safe driving record, and wants information on insurance companies that offer safe driver discounts.\nUser owns a silver Honda Civic purchased on February 10.\nUser owns a silver Honda Civic bought Feb\u202f10, plans a 5\u2011day scenic road trip to Yellowstone, wants lane departure and blind\u2011spot alerts, maximizes GPS use, and seeks tips to improve highway mileage while tracking 32\u202fmpg city fuel efficiency.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User had a GPS system issue on March\u202f22, had the entire system replaced at the dealership, and now the GPS works flawlessly. They want to use lane departure warning and blind\u2011spot detection features, maximize GPS usage for navigation, and are concerned about fuel efficiency on long drives.\nUser helped friend Emily move to a new apartment, used their car to transport furniture, and wants tips on protecting the car's interior from wear and tear when transporting large or heavy items.\nUser is planning to get their car detailed soon, had a positive service experience on March\u202f15, has found a local detailer with great reviews but is also considering other options, and wants tips on choosing a detailer and specific wax products suitable for advanced paint finishes such as a silver Honda Civic.\nUser refuels at a Shell station near their office, earning rewards points, is evaluating filling during the trip. They plan to balance Shell loyalty with cost savings using gas\u2011price comparison apps, and redeemed 50,000 points for a $500 gift card to a car\u2011accessories store, car cover, floor mats, steering wheel cover.\nUser paid their car insurance premium online using their bank's mobile app, received a $20 per month discount due to a safe driving record, and wants information on insurance companies that offer safe driver discounts.\nUser owns a silver Honda Civic purchased on February 10.\nUser owns a silver Honda Civic bought Feb\u202f10, plans a 5\u2011day scenic road trip to Yellowstone, wants lane departure and blind\u2011spot alerts, maximizes GPS use, and seeks tips to improve highway mileage while tracking 32\u202fmpg city fuel efficiency.",
+            "latency": 726.21
+        }
+    ]
+}

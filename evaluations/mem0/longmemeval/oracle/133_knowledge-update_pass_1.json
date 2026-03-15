@@ -1,0 +1,19 @@
+{
+    "index": 133,
+    "question_type": "knowledge-update",
+    "question": "How many short stories have I written since I started writing regularly?",
+    "question_date": "2023/06/14 (Wed) 08:23",
+    "ground_truth_answer": "seven",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Over three months, they have completed seven short stories' which directly matches the gold answer of 'seven' and allows the question to be correctly answered."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Over three months, they have completed seven short stories,' which directly matches the gold answer of 'seven' and provides the information needed to answer the question about short stories written since starting regular writing."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 339,
+    "question_type": "single-session-user",
+    "question": "How many hours did I spend watching documentaries on Netflix last month?",
+    "question_date": "2023/05/23 (Tue) 17:55",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user watched Netflix documentaries 'totaling about 10 hours last month', which directly matches the gold answer of 10 hours."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user spent 'about 10 hours last month' watching Netflix documentaries, which directly matches the gold answer of 10 hours."
+        }
+    ]
+}

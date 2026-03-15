@@ -1,0 +1,22 @@
+{
+    "index": 79,
+    "question_type": "multi-session",
+    "question": "How many times did I bake something in the past two weeks?",
+    "question_date": "2023/05/30 (Tue) 20:07",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_79_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User used the oven's convection setting last Thursday to bake cookies, which turned out amazing with a crispy exterior and chewy interior, and is contemplating whether to employ a slower rise or delayed fermentation for the Italian bread.\nUser used whole wheat flour to make a whole wheat baguette last Saturday and plans to bake a rustic Italian bread this weekend using the same flour, aiming for a crispy crust.\nUser has a new stand mixer that they've been using nonstop for a few weeks, and they plan to use it for making the tart crust.\nUser recently baked a chocolate cake for their sister's birthday last weekend, and the espresso powder used in the cake significantly enhanced its flavor.\nUser, a home baker who maintains a month\u2011old sourdough starter fed daily with a 1:1:1 flour\u2011water\u2011starter ratio using all\u2011purpose flour, plans to bake chicken wings tonight, wants the skin to be perfectly crispy, and will employ a dry brine and baking powder trick.\nUser plans to bake a Garlic and Herb Whole Wheat Focaccia to accompany the chicken wings and roasted vegetables, has a new stand mixer that will be used for the dough, and is seeking guidance on achieving a perfect crumb and crust.\nThe user baked a chocolate cake for their sister's birthday last weekend using a new recipe found online; the cake turned out amazing, and the espresso powder used significantly enhanced its flavor, delighting everyone.\nThe user is seeking advice on how to make the user's sourdough starter more active and produce better bread results.\nThe user is planning a slower rise for the Italian bread and asks whether they should adjust the yeast amount or salt content to compensate for the longer fermentation time.\nThe user is considering using higher protein flour for the Italian bread recipe and is curious whether the convection setting on their oven will aid in browning and crisping the crust.",
+            "latency": 506.504
+        },
+        {
+            "strategy": "graph",
+            "context": "User used the oven's convection setting last Thursday to bake cookies, which turned out amazing with a crispy exterior and chewy interior, and is contemplating whether to employ a slower rise or delayed fermentation for the Italian bread.\nUser used whole wheat flour to make a whole wheat baguette last Saturday and plans to bake a rustic Italian bread this weekend using the same flour, aiming for a crispy crust.\nUser has a new stand mixer that they've been using nonstop for a few weeks, and they plan to use it for making the tart crust.\nUser recently baked a chocolate cake for their sister's birthday last weekend, and the espresso powder used in the cake significantly enhanced its flavor.\nUser, a home baker who maintains a month\u2011old sourdough starter fed daily with a 1:1:1 flour\u2011water\u2011starter ratio using all\u2011purpose flour, plans to bake chicken wings tonight, wants the skin to be perfectly crispy, and will employ a dry brine and baking powder trick.\nUser plans to bake a Garlic and Herb Whole Wheat Focaccia to accompany the chicken wings and roasted vegetables, has a new stand mixer that will be used for the dough, and is seeking guidance on achieving a perfect crumb and crust.\nThe user baked a chocolate cake for their sister's birthday last weekend using a new recipe found online; the cake turned out amazing, and the espresso powder used significantly enhanced its flavor, delighting everyone.\nThe user is seeking advice on how to make the user's sourdough starter more active and produce better bread results.\nThe user is planning a slower rise for the Italian bread and asks whether they should adjust the yeast amount or salt content to compensate for the longer fermentation time.\nThe user is considering using higher protein flour for the Italian bread recipe and is curious whether the convection setting on their oven will aid in browning and crisping the crust.",
+            "latency": 697.0
+        }
+    ]
+}

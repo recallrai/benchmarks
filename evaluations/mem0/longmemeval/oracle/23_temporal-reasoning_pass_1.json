@@ -1,0 +1,19 @@
+{
+    "index": 23,
+    "question_type": "temporal-reasoning",
+    "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+    "question_date": "2023/05/20 (Sat) 11:34",
+    "ground_truth_answer": "'Game of Thrones'",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Game of Thrones was started 'about a month ago' and The Crown's third season was finished in 14 days, but doesn't provide enough comparative timeline information to determine which show was started first overall."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions starting Game of Thrones about a month ago and finishing The Crown's third season, but doesn't provide enough information to determine which show was started first overall since we don't know when The Crown (season 1) was initially started."
+        }
+    ]
+}

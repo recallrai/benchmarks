@@ -1,0 +1,19 @@
+{
+    "index": 446,
+    "question_type": "multi-session",
+    "question": "How many Marvel movies did I re-watch?",
+    "question_date": "2023/05/26 (Fri) 23:52",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context only explicitly mentions re-watching one Marvel movie (Avengers: Endgame), while the gold answer states 2 Marvel movies were re-watched, so the context does not provide sufficient information to answer the question correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly mentions the user re-watched Avengers: Endgame but does not provide evidence of re-watching a second Marvel movie, falling short of the gold answer of 2."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 250,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+    "question_date": "2023/05/25 (Thu) 02:24",
+    "ground_truth_answer": "Mod Podge or another sealant",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_250_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in DIY home decor projects using recycled materials, specifically wine cork bulletin board and bottle cap coasters, and has those materials ready to use.\nUser loves incorporating sustainable and eco-friendly elements into home decor and is seeking additional suggestions.\nUser is looking for recommendations on where to find eco-friendly furniture.",
+            "latency": 1571.45
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in DIY home decor projects using recycled materials, specifically wine cork bulletin board and bottle cap coasters, and has those materials ready to use.\nUser loves incorporating sustainable and eco-friendly elements into home decor and is seeking additional suggestions.\nUser is looking for recommendations on where to find eco-friendly furniture.",
+            "latency": 2400.534
+        }
+    ]
+}

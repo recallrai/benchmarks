@@ -1,0 +1,19 @@
+{
+    "index": 141,
+    "question_type": "knowledge-update",
+    "question": "How often do I see my therapist, Dr. Smith?",
+    "question_date": "2023/12/01 (Fri) 13:17",
+    "ground_truth_answer": "every week",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states 'biweekly therapy session with Dr. Smith' which typically means every two weeks, while the gold answer states 'every week' (once per week), which are different frequencies."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user has a 'biweekly therapy session with Dr. Smith' which means every two weeks, but the gold answer indicates 'every week' - these are different frequencies."
+        }
+    ]
+}

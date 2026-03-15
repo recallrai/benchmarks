@@ -1,0 +1,22 @@
+{
+    "index": 143,
+    "question_type": "knowledge-update",
+    "question": "How many of Emma's recipes have I tried out?",
+    "question_date": "2023/06/09 (Fri) 10:52",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_143_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user experimented with vegan desserts over the weekend, choosing chocolate chia pudding after trying vegan cheesecake, and has tried three of Emma's recipes on her channel, finding them all amazing.\nThe user intends to use taxi or ride-hailing service when carrying many ingredients and equipment, and wants recommendations for must-try vegan dishes in Barcelona and Rome.\nThe user wants recommendations for vegan cooking classes or workshops in Spain and Italy.\nThe user is exploring YouTube channels beyond tech reviews and cooking, discovering history, travel, and ASMR channels, and enjoys them in free time.\nThe user wants recommendations for vegan restaurants in Spain or Italy.\nThe user plans to spend 5-7 days in Barcelona and Rome, and wants tips on getting around these cities while carrying cooking class ingredients and equipment.\nThe user is interested in vlogging, seeks camera suggestions, is considering the Google Pixel 6 after watching Unbox Therapy's review, and watches tech review channels Unbox Therapy, JerryRigEverything, and Marques Brownlee to make informed tech purchases.\nThe user intends to look into cooking classes in Barcelona and Rome, and wants tips on finding affordable accommodations near those areas, preferring central locations for easy access to cooking classes and city exploration.",
+            "latency": 651.462
+        },
+        {
+            "strategy": "graph",
+            "context": "The user experimented with vegan desserts over the weekend, choosing chocolate chia pudding after trying vegan cheesecake, and has tried three of Emma's recipes on her channel, finding them all amazing.\nThe user intends to use taxi or ride-hailing service when carrying many ingredients and equipment, and wants recommendations for must-try vegan dishes in Barcelona and Rome.\nThe user wants recommendations for vegan cooking classes or workshops in Spain and Italy.\nThe user is exploring YouTube channels beyond tech reviews and cooking, discovering history, travel, and ASMR channels, and enjoys them in free time.\nThe user wants recommendations for vegan restaurants in Spain or Italy.\nThe user plans to spend 5-7 days in Barcelona and Rome, and wants tips on getting around these cities while carrying cooking class ingredients and equipment.\nThe user is interested in vlogging, seeks camera suggestions, is considering the Google Pixel 6 after watching Unbox Therapy's review, and watches tech review channels Unbox Therapy, JerryRigEverything, and Marques Brownlee to make informed tech purchases.\nThe user intends to look into cooking classes in Barcelona and Rome, and wants tips on finding affordable accommodations near those areas, preferring central locations for easy access to cooking classes and city exploration.",
+            "latency": 871.422
+        }
+    ]
+}

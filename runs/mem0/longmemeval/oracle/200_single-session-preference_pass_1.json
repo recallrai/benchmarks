@@ -1,0 +1,22 @@
+{
+    "index": 200,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some resources where I can learn more about video editing?",
+    "question_date": "2023/05/24 (Wed) 22:03",
+    "ground_truth_answer": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_200_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 1398.628
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 7251.554
+        }
+    ]
+}

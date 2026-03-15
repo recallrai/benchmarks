@@ -1,0 +1,19 @@
+{
+    "index": 464,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the car cover and detailing spray I purchased?",
+    "question_date": "2023/05/24 (Wed) 22:16",
+    "ground_truth_answer": "$140",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the car cover cost $120 and the detailing spray cost $20, which totals to $140, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the car cover cost $120 and the detailing spray cost $20, which totals to $140, matching the gold answer exactly."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 31,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did I take first, the one to Europe with family or the solo trip to Thailand?",
+    "question_date": "2023/05/23 (Tue) 23:37",
+    "ground_truth_answer": "The solo trip to Thailand",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions both the Europe family trip and the Thailand solo trip from 'last year,' but does not provide clear chronological ordering between these two trips to determine which came first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context clearly states the Thailand trip was 'last year' (relative to the conversation) while the Europe trip with family is discussed as a recent experience being compared to when planning future travel, indicating Thailand came first."
+        }
+    ]
+}

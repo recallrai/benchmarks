@@ -1,0 +1,19 @@
+{
+    "index": 342,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing guitar every day?",
+    "question_date": "2023/05/30 (Tue) 08:58",
+    "ground_truth_answer": "30 minutes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User is a guitarist who practices 30 minutes daily', which directly matches the gold answer of '30 minutes'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User is a guitarist who practices 30 minutes daily, finding it helps progress,' which directly matches the gold answer of 30 minutes."
+        }
+    ]
+}

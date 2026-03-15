@@ -1,0 +1,19 @@
+{
+    "index": 124,
+    "question_type": "knowledge-update",
+    "question": "Where did Rachel move to after her recent relocation?",
+    "question_date": "2023/06/24 (Sat) 08:50",
+    "ground_truth_answer": "the suburbs",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User's friend Rachel has recently moved back to the suburbs (from Chicago)', which directly matches the gold answer 'the suburbs'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User's friend Rachel has recently moved back to the suburbs (from Chicago)', which directly matches the gold answer 'the suburbs'."
+        }
+    ]
+}

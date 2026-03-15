@@ -1,0 +1,22 @@
+{
+    "index": 399,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I watch the Super Bowl?",
+    "question_date": "2023/03/01 (Wed) 00:28",
+    "ground_truth_answer": "17 days ago. 18 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_399_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User won $20 from a colleague after the Super Bowl and plans to use that money to purchase prizes for the draft party, looking for creative and fun prize ideas that fit the occasion.\nUser intends to hold the draft party on a Sunday to allow friends to watch NFL games before the draft, and requests suggestions for sports bars in the area that broadcast NFL games for those who want to catch a game beforehand.\nUser plans to serve pizza and wings at a fantasy football draft party, inspired by a recent Super Bowl gathering, and seeks recommendations for wing sauces and pizza toppings that would be popular with friends, expressing enthusiasm with a shout of 'Go Chiefs!'\nUser wants to set up TVs to display football highlights or analysis before the draft, and asks for recommendations of sports shows or channels that would energize the group for the draft.\nUser seeks ideas for simple yet effective sports-themed decorations to create a festive atmosphere for the draft party.\nUser decides to acquire a mix of football-themed items and humorous awards for prizes, specifically NFL team-branded hats, football-shaped snacks, and a 'Worst Draft Pick' trophy, aiming to provide laughter and excitement for attendees.",
+            "latency": 883.783
+        },
+        {
+            "strategy": "graph",
+            "context": "User won $20 from a colleague after the Super Bowl and plans to use that money to purchase prizes for the draft party, looking for creative and fun prize ideas that fit the occasion.\nUser intends to hold the draft party on a Sunday to allow friends to watch NFL games before the draft, and requests suggestions for sports bars in the area that broadcast NFL games for those who want to catch a game beforehand.\nUser plans to serve pizza and wings at a fantasy football draft party, inspired by a recent Super Bowl gathering, and seeks recommendations for wing sauces and pizza toppings that would be popular with friends, expressing enthusiasm with a shout of 'Go Chiefs!'\nUser wants to set up TVs to display football highlights or analysis before the draft, and asks for recommendations of sports shows or channels that would energize the group for the draft.\nUser seeks ideas for simple yet effective sports-themed decorations to create a festive atmosphere for the draft party.\nUser decides to acquire a mix of football-themed items and humorous awards for prizes, specifically NFL team-branded hats, football-shaped snacks, and a 'Worst Draft Pick' trophy, aiming to provide laughter and excitement for attendees.",
+            "latency": 1677.373
+        }
+    ]
+}

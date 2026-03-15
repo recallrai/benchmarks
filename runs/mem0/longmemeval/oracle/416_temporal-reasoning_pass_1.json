@@ -1,0 +1,22 @@
+{
+    "index": 416,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+    "question_date": "2023/02/01 (Wed) 21:37",
+    "ground_truth_answer": "The Metropolitan Museum of Art.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_416_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art today, was fascinated by the breadth of ancient cultures, and is looking for recommendations of other New York City museums or exhibits that cater to ancient culture enthusiasts.\nThe user, after returning from a guided tour at the Museum of Modern Art focused on 20th-century modern art movements, is now seeking information about key artists associated with Cubism.\nUser is deeply interested in ancient cultures and is specifically seeking information about the significance of mummification in ancient Egyptian culture; they were surprised to learn that Egyptians believed the heart was the seat of the soul and are fascinated by the sarcophagi displayed at an exhibit, wanting more detail on their significance and symbolism.\nThe user wants to explore Frida Kahlo's cultural heritage, especially her connection to Mexican folk art and its influence on her style.\nUser is interested in visiting the American Museum of Natural History and the Brooklyn Museum, and wants to know whether these museums offer guided tours or special adult programs.\nThe user wants to learn about Frida Kahlo's views on feminism and her experience as a female artist in a male-dominated field.\nUser is curious about other ancient civilizations that practiced mummification or similar body preservation, beyond Egypt.\nThe user is curious about Frida Kahlo's artistic style and inspirations, having learned about her during a recent MoMA tour.\nThe user wants to learn about Fauvism and its key artists, after taking a break from Frida Kahlo.\nThe user wants to learn about Frida Kahlo's relationship with Diego Rivera, including how they met and the nature of their marriage.",
+            "latency": 615.349
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art today, was fascinated by the breadth of ancient cultures, and is looking for recommendations of other New York City museums or exhibits that cater to ancient culture enthusiasts.\nThe user, after returning from a guided tour at the Museum of Modern Art focused on 20th-century modern art movements, is now seeking information about key artists associated with Cubism.\nUser is deeply interested in ancient cultures and is specifically seeking information about the significance of mummification in ancient Egyptian culture; they were surprised to learn that Egyptians believed the heart was the seat of the soul and are fascinated by the sarcophagi displayed at an exhibit, wanting more detail on their significance and symbolism.\nThe user wants to explore Frida Kahlo's cultural heritage, especially her connection to Mexican folk art and its influence on her style.\nUser is interested in visiting the American Museum of Natural History and the Brooklyn Museum, and wants to know whether these museums offer guided tours or special adult programs.\nThe user wants to learn about Frida Kahlo's views on feminism and her experience as a female artist in a male-dominated field.\nUser is curious about other ancient civilizations that practiced mummification or similar body preservation, beyond Egypt.\nThe user is curious about Frida Kahlo's artistic style and inspirations, having learned about her during a recent MoMA tour.\nThe user wants to learn about Fauvism and its key artists, after taking a break from Frida Kahlo.\nThe user wants to learn about Frida Kahlo's relationship with Diego Rivera, including how they met and the nature of their marriage.",
+            "latency": 834.794
+        }
+    ]
+}

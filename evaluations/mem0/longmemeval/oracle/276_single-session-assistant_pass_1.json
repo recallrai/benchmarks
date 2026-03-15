@@ -1,0 +1,19 @@
+{
+    "index": 276,
+    "question_type": "single-session-assistant",
+    "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+    "question_date": "2023/05/30 (Tue) 04:21",
+    "ground_truth_answer": "The designation on your jumpsuit was 'LIV'.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the jumpsuit designation was 'LIV', which matches the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the jumpsuit designation was 'LIV' and explains how it helped find the file number, which directly matches the gold answer."
+        }
+    ]
+}

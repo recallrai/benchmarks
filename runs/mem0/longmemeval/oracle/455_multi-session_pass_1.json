@@ -1,0 +1,22 @@
+{
+    "index": 455,
+    "question_type": "multi-session",
+    "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+    "question_date": "2023/05/26 (Fri) 13:56",
+    "ground_truth_answer": "$5,150",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_455_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User inherited a vintage diamond necklace from grandmother, had it appraised last week, it is worth $5,000, is considering insuring it and storing it in a safe at home, and also planning to sell it online or through local jewelers after doing further research and obtaining an appraisal.\nUser is selling an antique vanity online, has restored it, expects at least $150, will include a note about purchase price and restoration, showcase history and provenance, take high\u2011quality photos, write detailed description, emphasize it's a great piece for antique furniture lovers, well\u2011cared for, good condition, offers great value.\nUser decluttered apartment and discovered an antique music box, a vintage typewriter, and a set of depression-era glassware; they are looking to sell these items online, are seeking pricing guides and resources to determine fair market value, and are also considering selling them through local antique stores or marketplaces.\nUser wants to have their antique music box restored and is seeking reputable restorers or resources to find a qualified repair professional.",
+            "latency": 495.092
+        },
+        {
+            "strategy": "graph",
+            "context": "User inherited a vintage diamond necklace from grandmother, had it appraised last week, it is worth $5,000, is considering insuring it and storing it in a safe at home, and also planning to sell it online or through local jewelers after doing further research and obtaining an appraisal.\nUser is selling an antique vanity online, has restored it, expects at least $150, will include a note about purchase price and restoration, showcase history and provenance, take high\u2011quality photos, write detailed description, emphasize it's a great piece for antique furniture lovers, well\u2011cared for, good condition, offers great value.\nUser decluttered apartment and discovered an antique music box, a vintage typewriter, and a set of depression-era glassware; they are looking to sell these items online, are seeking pricing guides and resources to determine fair market value, and are also considering selling them through local antique stores or marketplaces.\nUser wants to have their antique music box restored and is seeking reputable restorers or resources to find a qualified repair professional.",
+            "latency": 745.501
+        }
+    ]
+}

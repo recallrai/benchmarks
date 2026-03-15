@@ -1,0 +1,22 @@
+{
+    "index": 387,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+    "question_date": "2023/04/22 (Sat) 02:00",
+    "ground_truth_answer": "The order of the concerts I attended is: 1. Billie Eilish concert at the Wells Fargo Center in Philly, 2. Free outdoor concert series in the park, 3. Music festival in Brooklyn, 4. Jazz night at a local bar, 5. Queen + Adam Lambert concert at the Prudential Center in Newark, NJ.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_387_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in the Panorama Music Festival in NYC, wants details about the festival's atmosphere, what to expect, and tips to make the most of the experience\nUser is interested in attending local music events such as free outdoor concert series in the park or jazz nights at local bars, and seeks tips on discovering new artists and enjoying low\u2011key live settings.\nUser plans to combine the ticket stub with a photo of them and their sister from the concert in the same frame, and wants guidance on choosing a photo that captures excitement and the concert atmosphere.\nUser attended a Billie Eilish concert at the Wells Fargo Center in Philadelphia with their sister on the current day, feeling exhilarated and still on a high from the experience.\nUser attended a Queen concert featuring Adam Lambert at the Prudential Center in Newark, NJ with their parents, and is excited about the classic rock experience\nUser attended a music festival in Brooklyn with friends, enjoyed a lineup of favorite indie bands, and is now seeking new song recommendations to expand their indie music collection.\nUser intends to frame the ticket stub from the concert and is seeking advice on preserving the stub and selecting a suitable frame to showcase it beautifully.\nUser is looking for new artist or album recommendations.\nUser is seeking rock music playlists on streaming services, especially for Queen, and wants recommendations\nUser has chosen a selfie of them and their sister taken in front of the Wells Fargo Center before the concert as the photo to print, and is looking for recommendations on online services or local stores that offer high-quality printing.",
+            "latency": 499.423
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in the Panorama Music Festival in NYC, wants details about the festival's atmosphere, what to expect, and tips to make the most of the experience\nUser is interested in attending local music events such as free outdoor concert series in the park or jazz nights at local bars, and seeks tips on discovering new artists and enjoying low\u2011key live settings.\nUser plans to combine the ticket stub with a photo of them and their sister from the concert in the same frame, and wants guidance on choosing a photo that captures excitement and the concert atmosphere.\nUser attended a Billie Eilish concert at the Wells Fargo Center in Philadelphia with their sister on the current day, feeling exhilarated and still on a high from the experience.\nUser attended a Queen concert featuring Adam Lambert at the Prudential Center in Newark, NJ with their parents, and is excited about the classic rock experience\nUser attended a music festival in Brooklyn with friends, enjoyed a lineup of favorite indie bands, and is now seeking new song recommendations to expand their indie music collection.\nUser intends to frame the ticket stub from the concert and is seeking advice on preserving the stub and selecting a suitable frame to showcase it beautifully.\nUser is looking for new artist or album recommendations.\nUser is seeking rock music playlists on streaming services, especially for Queen, and wants recommendations\nUser has chosen a selfie of them and their sister taken in front of the Wells Fargo Center before the concert as the photo to print, and is looking for recommendations on online services or local stores that offer high-quality printing.",
+            "latency": 702.909
+        }
+    ]
+}

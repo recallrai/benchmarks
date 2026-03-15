@@ -1,0 +1,19 @@
+{
+    "index": 420,
+    "question_type": "temporal-reasoning",
+    "question": "What is the artist that I started to listen to last Friday?",
+    "question_date": "2023/04/05 (Wed) 15:05",
+    "ground_truth_answer": "a bluegrass band that features a banjo player",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'User discovered a bluegrass band featuring a banjo player,' which matches the gold answer exactly, allowing the question to be answered correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User discovered a bluegrass band featuring a banjo player,' which directly matches the gold answer and enables correctly answering what artist the user started listening to."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 315,
+    "question_type": "single-session-user",
+    "question": "How much RAM did I upgrade my laptop to?",
+    "question_date": "2023/05/27 (Sat) 21:08",
+    "ground_truth_answer": "16GB",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_315_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User upgraded desktop monitor to a 24-inch 4K LG, enjoys improvement over old 1080p monitor, and seeks tips to get the most out of the new monitor.\nUser has a Dell Inspiron 15 5000 series laptop from 2018, uses it as primary work laptop, upgraded RAM to 16GB, now experiencing battery life drop from 6-7 to 4-5 hours, and plans to calibrate the battery.\nUser is considering upgrading desktop graphics card, researching affordable alternatives to NVIDIA GeForce RTX 3070 (~$500), and wants recommendations.\nUser owns a 1TB Western Digital portable external hard drive purchased from Best Buy for approximately $50, uses it regularly for backups, and feels peace of mind knowing files are safe.",
+            "latency": 889.428
+        },
+        {
+            "strategy": "graph",
+            "context": "User upgraded desktop monitor to a 24-inch 4K LG, enjoys improvement over old 1080p monitor, and seeks tips to get the most out of the new monitor.\nUser has a Dell Inspiron 15 5000 series laptop from 2018, uses it as primary work laptop, upgraded RAM to 16GB, now experiencing battery life drop from 6-7 to 4-5 hours, and plans to calibrate the battery.\nUser is considering upgrading desktop graphics card, researching affordable alternatives to NVIDIA GeForce RTX 3070 (~$500), and wants recommendations.\nUser owns a 1TB Western Digital portable external hard drive purchased from Best Buy for approximately $50, uses it regularly for backups, and feels peace of mind knowing files are safe.",
+            "latency": 1756.051
+        }
+    ]
+}

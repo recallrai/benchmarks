@@ -1,0 +1,19 @@
+{
+    "index": 409,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish a week ago?",
+    "question_date": "2023/02/07 (Tue) 10:44",
+    "ground_truth_answer": "'The Nightingale' by Kristin Hannah",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'finished reading the historical fiction novel The Nightingale by Kristin Hannah today', which matches the gold answer exactly, and would enable correctly answering the question about which book was finished a week ago."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user finished 'The Nightingale' by Kristin Hannah, which matches the gold answer and would enable correctly answering the question about which book was finished a week ago."
+        }
+    ]
+}

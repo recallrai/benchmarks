@@ -1,0 +1,19 @@
+{
+    "index": 410,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned participating in a sports event two weeks ago. What was the event?",
+    "question_date": "2023/07/01 (Sat) 06:58",
+    "ground_truth_answer": "The company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'the company's annual charity soccer tournament' with the user preparing to participate in it, which matches the gold answer and would enable someone to correctly answer the question about the sports event."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'the company's annual charity soccer tournament' which matches the gold answer, even though the temporal reference in the context uses 'today' rather than specifying it was two weeks before the question date."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 250,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+    "question_date": "2023/05/25 (Thu) 02:24",
+    "ground_truth_answer": "Mod Podge or another sealant",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions DIY home decor projects with recycled materials but does not contain any information about a newspaper flower vase or sealant recommendations like Mod Podge."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions DIY home decor projects with recycled materials but does not contain any information about a newspaper flower vase or any sealant recommendation like Mod Podge."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 336,
+    "question_type": "single-session-user",
+    "question": "What size is my new Samsung TV?",
+    "question_date": "2023/05/24 (Wed) 19:09",
+    "ground_truth_answer": "55-inch",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_336_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has set up a new Samsung 55\u2011inch 4K smart TV on Saturday, hid cables behind the TV using cable ties and cable clips, and now has a clean and neat look.\nUser is concerned about visible cables when mounting a TV on the wall and wants suggestions on how to hide them.\nUser is considering upgrading an old laptop and is asking for the key differences between a MacBook Air and a Lenovo ThinkPad.\nUser is a big fan of sci\u2011fi and fantasy shows, wants streaming services beyond Netflix and Amazon Prime Video, has chosen Disney+ and Amazon Prime Video for sci\u2011fi/fantasy content, mentions The Mandalorian and The Expanse, and is looking for book recommendations in those genres.",
+            "latency": 929.974
+        },
+        {
+            "strategy": "graph",
+            "context": "User has set up a new Samsung 55\u2011inch 4K smart TV on Saturday, hid cables behind the TV using cable ties and cable clips, and now has a clean and neat look.\nUser is concerned about visible cables when mounting a TV on the wall and wants suggestions on how to hide them.\nUser is considering upgrading an old laptop and is asking for the key differences between a MacBook Air and a Lenovo ThinkPad.\nUser is a big fan of sci\u2011fi and fantasy shows, wants streaming services beyond Netflix and Amazon Prime Video, has chosen Disney+ and Amazon Prime Video for sci\u2011fi/fantasy content, mentions The Mandalorian and The Expanse, and is looking for book recommendations in those genres.",
+            "latency": 1718.229
+        }
+    ]
+}

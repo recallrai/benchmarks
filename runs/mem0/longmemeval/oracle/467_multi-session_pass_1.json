@@ -1,0 +1,22 @@
+{
+    "index": 467,
+    "question_type": "multi-session",
+    "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+    "question_date": "2023/05/27 (Sat) 13:11",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_467_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to self\u2011install the Wix\u202f51348 air filter after consulting the owner\u2019s manual, will check the spark plugs, tire pressure, and get an overdue oil change (about 1000\u202fmi late), questioning whether the oil change could be contributing to the recent drop in fuel efficiency\nUser is planning a tune\u2011up to restore city fuel efficiency to 30\u202fmpg, will inspect the air filter, spark plugs, tire pressure, and overdue oil change, and is considering installing a Wix\u202f51348 air filter in their 2018\u202fHonda\u202fCivic to potentially improve city mileage from 28\u202fmpg\nUser plans to purchase a $150 dash cam with collision detection and parking mode, wants confirmation that it\u2019s a good investment, and seeks guidance on key features such as video quality, field of view, night vision, GPS, and mounting options, and also plans to acquire a car phone mount for convenience while driving\nUser intends to maintain the car\u2019s exterior and clean the center console, which has been accumulating dust and dirt",
+            "latency": 570.995
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to self\u2011install the Wix\u202f51348 air filter after consulting the owner\u2019s manual, will check the spark plugs, tire pressure, and get an overdue oil change (about 1000\u202fmi late), questioning whether the oil change could be contributing to the recent drop in fuel efficiency\nUser is planning a tune\u2011up to restore city fuel efficiency to 30\u202fmpg, will inspect the air filter, spark plugs, tire pressure, and overdue oil change, and is considering installing a Wix\u202f51348 air filter in their 2018\u202fHonda\u202fCivic to potentially improve city mileage from 28\u202fmpg\nUser plans to purchase a $150 dash cam with collision detection and parking mode, wants confirmation that it\u2019s a good investment, and seeks guidance on key features such as video quality, field of view, night vision, GPS, and mounting options, and also plans to acquire a car phone mount for convenience while driving\nUser intends to maintain the car\u2019s exterior and clean the center console, which has been accumulating dust and dirt",
+            "latency": 804.364
+        }
+    ]
+}

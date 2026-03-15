@@ -1,0 +1,19 @@
+{
+    "index": 95,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 20:00",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the laptop backpack was purchased on January 20, 2026, but does not include any information about when it arrived or how long the delivery took, making it impossible to determine that it took 5-6 days to arrive."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions purchasing a laptop backpack on January 20, 2026 (which is after the question date of 2023/01/24), but does not mention when the backpack arrived, making it impossible to calculate the number of days for delivery."
+        }
+    ]
+}

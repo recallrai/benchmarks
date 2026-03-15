@@ -1,0 +1,19 @@
+{
+    "index": 259,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+    "question_date": "2023/05/30 (Tue) 13:07",
+    "ground_truth_answer": "2-3 eggs",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the French omelette conversation but does not include any information about the number of eggs needed for the recipe."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user's interest in making a French omelette and seeking tips, but does not contain any information about the number of eggs needed for the recipe."
+        }
+    ]
+}

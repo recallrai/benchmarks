@@ -1,0 +1,19 @@
+{
+    "index": 371,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I attend the Seattle International Film Festival?",
+    "question_date": "2021/10/02 (Sat) 09:44",
+    "ground_truth_answer": "4 months ago",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user attended SIFF but contains no temporal information (dates or relative time references) that would allow determining when the attendance occurred or how many months ago it was."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context confirms the user attended SIFF, it contains no temporal information (dates, months, or relative time references) that would allow someone to determine the attendance was 4 months before the question date."
+        }
+    ]
+}

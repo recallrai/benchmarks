@@ -1,0 +1,22 @@
+{
+    "index": 357,
+    "question_type": "temporal-reasoning",
+    "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a customized phone case for my friend's birthday?",
+    "question_date": "2023/03/22 (Wed) 18:48",
+    "ground_truth_answer": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_357_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User helped a cousin pick diapers, wipes, and a baby monitor at Target for her baby shower.\nUser recently ordered a customized phone case for a friend's birthday, and the friend expressed that she loves it.\nUser decided to include a set of baby washcloths in the gift basket, as a universal item appreciated by new parents.\nUser is planning to buy a gift for a coworker who is expecting a baby, has helped set up a nursery, spent a Sunday at Buy Buy Baby, and is looking for baby stores and online marketplaces.\nUser is seeking gift ideas for siblings, noting that the sister enjoys fashion and the brother enjoys playing video games.\nUser wants to purchase a trendy handbag for the sister, with a budget range of $100 to $200.\nUser is specifically interested in a personalized baby blanket, wants customization options, is considering practical gifts like diapers or toys, has decided on a baby gym, and seeks high\u2011quality safe brands.\nUser chose to include a heartfelt card message: \"Congratulations on the new addition to your family! Wishing you all the best.\".\nUser is specifically interested in the Zara City Bag and wants more information about its features and details.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User helped a cousin pick diapers, wipes, and a baby monitor at Target for her baby shower.\nUser recently ordered a customized phone case for a friend's birthday, and the friend expressed that she loves it.\nUser decided to include a set of baby washcloths in the gift basket, as a universal item appreciated by new parents.\nUser is planning to buy a gift for a coworker who is expecting a baby, has helped set up a nursery, spent a Sunday at Buy Buy Baby, and is looking for baby stores and online marketplaces.\nUser is seeking gift ideas for siblings, noting that the sister enjoys fashion and the brother enjoys playing video games.\nUser wants to purchase a trendy handbag for the sister, with a budget range of $100 to $200.\nUser is specifically interested in a personalized baby blanket, wants customization options, is considering practical gifts like diapers or toys, has decided on a baby gym, and seeks high\u2011quality safe brands.\nUser chose to include a heartfelt card message: \"Congratulations on the new addition to your family! Wishing you all the best.\".\nUser is specifically interested in the Zara City Bag and wants more information about its features and details.",
+            "latency": 717.543
+        }
+    ]
+}

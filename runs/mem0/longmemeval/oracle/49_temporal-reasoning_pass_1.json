@@ -1,0 +1,22 @@
+{
+    "index": 49,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+    "question_date": "2023/05/20 (Sat) 05:18",
+    "ground_truth_answer": "volleyball league",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_49_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been improving fitness since joining the volleyball league 2 months ago, cardio and strength, endurance gains, feels confident on court, completed a charity 5K run for a local children's hospital, describing it as an experience that helped build endurance, seeks advice on incorporating strength training into volleyball practice.\nUser is looking for tips on how to find more charity events similar to the 5K run they participated in, to stay active and give back to the community.\nUser has been playing volleyball in a recreational league with friends from work for about 2 months, playing every Thursday evening at a local community center, has achieved a few aces, and is seeking tips for practicing serves solo without a partner or court.\nUser is planning to incorporate agility ladder drills into training to improve speed and quickness on the volleyball court.\nUser plans to join a tennis league in spring, has a high school tennis background, is missing the sport, is researching local options, looking for a partner, intends to dust off old racket and resume practice, but has not yet made a final decision.\nUser is considering incorporating strength training exercises targeting legs and glutes to enhance cycling performance, and wants guidance on how to stay motivated and set realistic goals for the upcoming cycling event.\nUser is preparing for a 20-mile cycling event scheduled for next month and is seeking specific tips to improve cycling endurance.",
+            "latency": 830.789
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been improving fitness since joining the volleyball league 2 months ago, cardio and strength, endurance gains, feels confident on court, completed a charity 5K run for a local children's hospital, describing it as an experience that helped build endurance, seeks advice on incorporating strength training into volleyball practice.\nUser is looking for tips on how to find more charity events similar to the 5K run they participated in, to stay active and give back to the community.\nUser has been playing volleyball in a recreational league with friends from work for about 2 months, playing every Thursday evening at a local community center, has achieved a few aces, and is seeking tips for practicing serves solo without a partner or court.\nUser is planning to incorporate agility ladder drills into training to improve speed and quickness on the volleyball court.\nUser plans to join a tennis league in spring, has a high school tennis background, is missing the sport, is researching local options, looking for a partner, intends to dust off old racket and resume practice, but has not yet made a final decision.\nUser is considering incorporating strength training exercises targeting legs and glutes to enhance cycling performance, and wants guidance on how to stay motivated and set realistic goals for the upcoming cycling event.\nUser is preparing for a 20-mile cycling event scheduled for next month and is seeking specific tips to improve cycling endurance.",
+            "latency": 1132.427
+        }
+    ]
+}

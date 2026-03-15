@@ -1,0 +1,19 @@
+{
+    "index": 242,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about front-end and back-end development. Can you remind me of the specific back-end programming languages you recommended I learn?",
+    "question_date": "2023/05/30 (Tue) 07:25",
+    "ground_truth_answer": "I recommended learning Ruby, Python, or PHP as a back-end programming language.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the recommended back-end programming languages (Ruby, Python, or PHP), so it would not allow someone to correctly answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about back-end programming languages (Ruby, Python, or PHP) that would allow answering the question."
+        }
+    ]
+}

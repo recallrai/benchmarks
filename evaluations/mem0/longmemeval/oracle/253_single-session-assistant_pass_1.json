@@ -1,0 +1,19 @@
+{
+    "index": 253,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about the impact of the political climate in Catalonia on its literature and music. Can you remind me of the example you gave of a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain?",
+    "question_date": "2023/05/30 (Tue) 10:41",
+    "ground_truth_answer": "Manolo Garc\u00eda",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any Spanish-Catalan singer-songwriter or Manolo Garc\u00eda, making it impossible to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about any Spanish-Catalan singer-songwriter or Manolo Garc\u00eda, making it impossible to answer the question."
+        }
+    ]
+}

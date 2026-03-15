@@ -1,0 +1,22 @@
+{
+    "index": 448,
+    "question_type": "multi-session",
+    "question": "What is the total number of goals and assists I have in the recreational indoor soccer league?",
+    "question_date": "2023/05/29 (Mon) 21:24",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_448_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User participates in a recreational indoor soccer league, has scored 3 goals, has recently improved their passing game over the past weeks, and is looking for nutrition and endurance tips specifically tailored to soccer players to maintain energy levels during games.\nUser is also looking for sports bars that are high in protein, low in sugar, and tasty to use as convenient snacks during soccer and tennis games.\nUser plans to incorporate stretches after soccer games to care for muscles and prevent injuries.\nUser is considering new sports drinks to improve hydration and electrolyte balance during soccer and tennis games, and wants recommendations for popular, effective, and tasty options.\nUser plays tennis with a neighbor every Sunday morning, focusing on improving their backhand, and seeks nutrition guidance to enhance tennis performance and recovery.\nUser completed a 5K charity run on February 20, 2025, carb-loaded with spaghetti the day before, which helped performance, and is now seeking additional foods to boost energy and aid recovery for future sports activities.\nUser is seeking recommendations for tracking fitness progress and staying motivated, currently using a fitness app but looking for new methods.",
+            "latency": 554.958
+        },
+        {
+            "strategy": "graph",
+            "context": "User participates in a recreational indoor soccer league, has scored 3 goals, has recently improved their passing game over the past weeks, and is looking for nutrition and endurance tips specifically tailored to soccer players to maintain energy levels during games.\nUser is also looking for sports bars that are high in protein, low in sugar, and tasty to use as convenient snacks during soccer and tennis games.\nUser plans to incorporate stretches after soccer games to care for muscles and prevent injuries.\nUser is considering new sports drinks to improve hydration and electrolyte balance during soccer and tennis games, and wants recommendations for popular, effective, and tasty options.\nUser plays tennis with a neighbor every Sunday morning, focusing on improving their backhand, and seeks nutrition guidance to enhance tennis performance and recovery.\nUser completed a 5K charity run on February 20, 2025, carb-loaded with spaghetti the day before, which helped performance, and is now seeking additional foods to boost energy and aid recovery for future sports activities.\nUser is seeking recommendations for tracking fitness progress and staying motivated, currently using a fitness app but looking for new methods.",
+            "latency": 794.966
+        }
+    ]
+}

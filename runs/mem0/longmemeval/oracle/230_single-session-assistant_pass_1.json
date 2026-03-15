@@ -1,0 +1,22 @@
+{
+    "index": 230,
+    "question_type": "single-session-assistant",
+    "question": "I'm checking our previous chat about the shift rotation sheet for GM social media agents. Can you remind me what was the rotation for Admon on a Sunday?",
+    "question_date": "2023/05/26 (Fri) 02:28",
+    "ground_truth_answer": "Admon was assigned to the 8 am - 4 pm (Day Shift) on Sundays.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_230_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user wants a shift rotation sheet for GM social media agents, specifying 7 agents named Admon, Magdy, Ehab, Sara, Mostafa, Nemr, and Adam, covering 4 shifts (8\u202fam\u20134\u202fpm, 12\u202fpm\u20138\u202fpm, 4\u202fpm\u201312\u202fam, 12\u202fam\u20138\u202fam), with each agent having 2 days off, for a single week starting on Sunday and ending on Saturday.",
+            "latency": 1700.999
+        },
+        {
+            "strategy": "graph",
+            "context": "The user wants a shift rotation sheet for GM social media agents, specifying 7 agents named Admon, Magdy, Ehab, Sara, Mostafa, Nemr, and Adam, covering 4 shifts (8\u202fam\u20134\u202fpm, 12\u202fpm\u20138\u202fpm, 4\u202fpm\u201312\u202fam, 12\u202fam\u20138\u202fam), with each agent having 2 days off, for a single week starting on Sunday and ending on Saturday.",
+            "latency": 2425.965
+        }
+    ]
+}

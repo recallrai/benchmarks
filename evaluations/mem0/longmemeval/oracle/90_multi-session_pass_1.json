@@ -1,0 +1,19 @@
+{
+    "index": 90,
+    "question_type": "multi-session",
+    "question": "How many doctor's appointments did I go to in March?",
+    "question_date": "2023/03/27 (Mon) 15:58",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only explicitly mentions one doctor's appointment in March (March 20 with Dr. Thompson), not two as stated in the gold answer, and other medical events mentioned either lack specific dates or are scheduled for April."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about March 2023 (question date: 2023/03/27), but all the specific doctor's appointments in the retrieved context are dated in March 2026 (e.g., 'March 20, 2026'), which is three years after the question was asked and therefore cannot answer the question about March 2023."
+        }
+    ]
+}

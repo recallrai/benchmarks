@@ -1,0 +1,22 @@
+{
+    "index": 486,
+    "question_type": "multi-session",
+    "question": "What is the average GPA of my undergraduate and graduate studies?",
+    "question_date": "2023/05/30 (Tue) 10:38",
+    "ground_truth_answer": "3.83",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_486_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User earned a First-Class distinction in Computer Science from the University of Mumbai, achieving an overall percentage of 83% (equivalent to a GPA of 3.86 out of 4.0), and this strong computer science foundation has enabled the user to grasp the technical aspects of data science and machine learning.\nUser has recently completed a Master's degree in Data Science from the University of Illinois at Urbana-Champaign with a GPA of 3.8 out of 4.0 and is looking to transition into a data science role, seeking resources on job search strategies and interview preparation.\nUser wants details on specific programming languages and technical tools commonly used in the Quantitative Analyst role at Goldman Sachs.\nUser is interested in the Quantitative Analyst role at Goldman Sachs and wants details on day-to-day responsibilities and required skills for that position.\nUser is interested in learning about the current job market for data science roles, specifically the most in-demand skills and industries actively hiring data scientists.\nUser is particularly interested in the finance and banking sector and wants more information on specific roles and companies hiring data scientists in that industry.\nUser wants details on specific financial markets and instruments that a Quantitative Analyst at Goldman Sachs should be familiar with.",
+            "latency": 532.917
+        },
+        {
+            "strategy": "graph",
+            "context": "User earned a First-Class distinction in Computer Science from the University of Mumbai, achieving an overall percentage of 83% (equivalent to a GPA of 3.86 out of 4.0), and this strong computer science foundation has enabled the user to grasp the technical aspects of data science and machine learning.\nUser has recently completed a Master's degree in Data Science from the University of Illinois at Urbana-Champaign with a GPA of 3.8 out of 4.0 and is looking to transition into a data science role, seeking resources on job search strategies and interview preparation.\nUser wants details on specific programming languages and technical tools commonly used in the Quantitative Analyst role at Goldman Sachs.\nUser is interested in the Quantitative Analyst role at Goldman Sachs and wants details on day-to-day responsibilities and required skills for that position.\nUser is interested in learning about the current job market for data science roles, specifically the most in-demand skills and industries actively hiring data scientists.\nUser is particularly interested in the finance and banking sector and wants more information on specific roles and companies hiring data scientists in that industry.\nUser wants details on specific financial markets and instruments that a Quantitative Analyst at Goldman Sachs should be familiar with.",
+            "latency": 726.8
+        }
+    ]
+}

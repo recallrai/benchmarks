@@ -1,0 +1,22 @@
+{
+    "index": 471,
+    "question_type": "multi-session",
+    "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+    "question_date": "2023/10/01 (Sun) 22:42",
+    "ground_truth_answer": "10 minutes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_471_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is training for a 5K run, has a new baseline 5K time of 35 minutes from a recent run, plans a base building phase with a target pace of about 16 minutes per mile, and remains committed to consistency, listening to their body, tracking progress, and staying motivated.\nUser drafted a concise Facebook event page post that references their recent 5K run as inspiration for organizing the bake sale.",
+            "latency": 613.887
+        },
+        {
+            "strategy": "graph",
+            "context": "User is training for a 5K run, has a new baseline 5K time of 35 minutes from a recent run, plans a base building phase with a target pace of about 16 minutes per mile, and remains committed to consistency, listening to their body, tracking progress, and staying motivated.\nUser drafted a concise Facebook event page post that references their recent 5K run as inspiration for organizing the bake sale.",
+            "latency": 817.567
+        }
+    ]
+}

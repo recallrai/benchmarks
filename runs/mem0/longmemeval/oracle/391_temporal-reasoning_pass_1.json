@@ -1,0 +1,22 @@
+{
+    "index": 391,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a networking event?",
+    "question_date": "2022/04/04 (Mon) 01:38",
+    "ground_truth_answer": "26 days. 27 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_391_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a schedule for the upcoming week, wants to avoid overbooking, and is feeling drained after a networking event that ran from 6\u202fPM to 8\u202fPM today. They have a meeting at 2\u202fPM on Tuesday and a project that is due by the end of the week; they find exercising and meal\u2011prepping energizing. The user wants to incorporate downtime this weekend to recharge before the next busy week, planning to watch TV shows and catch up on laundry. Additionally, they need a reminder to deposit a check at the bank sometime during the week.",
+            "latency": 960.236
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a schedule for the upcoming week, wants to avoid overbooking, and is feeling drained after a networking event that ran from 6\u202fPM to 8\u202fPM today. They have a meeting at 2\u202fPM on Tuesday and a project that is due by the end of the week; they find exercising and meal\u2011prepping energizing. The user wants to incorporate downtime this weekend to recharge before the next busy week, planning to watch TV shows and catch up on laundry. Additionally, they need a reminder to deposit a check at the bank sometime during the week.",
+            "latency": 2070.067
+        }
+    ]
+}

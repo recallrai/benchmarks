@@ -1,0 +1,22 @@
+{
+    "index": 236,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+    "question_date": "2023/05/30 (Tue) 07:46",
+    "ground_truth_answer": "International Budget Hostel",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_236_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for a budget-friendly hostel in Amsterdam.\nUser is interested in personal recommendations or favorites among the suggested hostels.\nUser wants suggestions for fun activities to do in Amsterdam.",
+            "latency": 1501.781
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for a budget-friendly hostel in Amsterdam.\nUser is interested in personal recommendations or favorites among the suggested hostels.\nUser wants suggestions for fun activities to do in Amsterdam.",
+            "latency": 3151.958
+        }
+    ]
+}

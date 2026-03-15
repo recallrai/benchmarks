@@ -1,0 +1,19 @@
+{
+    "index": 110,
+    "question_type": "multi-session",
+    "question": "How many magazine subscriptions do I currently have?",
+    "question_date": "2023/04/01 (Sat) 21:12",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions The New Yorker subscription (active since early February) and Forbes (canceled in early March), which gives only 1 current subscription as of April 1, 2023, not 2 as stated in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context shows Forbes was canceled in early March and The New Yorker was subscribed in February (still active), giving only 1 confirmed magazine subscription as of April 1, 2023, while the gold answer states 2."
+        }
+    ]
+}

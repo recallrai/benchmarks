@@ -1,0 +1,22 @@
+{
+    "index": 326,
+    "question_type": "single-session-user",
+    "question": "How long have I been collecting vintage cameras?",
+    "question_date": "2023/05/25 (Thu) 17:36",
+    "ground_truth_answer": "three months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_326_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has a growing vintage camera collection of 17 cameras, including a newly acquired Brownie Hawkeye, has been collecting for three months, and seeks comprehensive advice on storage, maintenance, display, and organization to keep the cameras in good condition, prevent damage, and ensure easy accessibility for maintenance and cleaning.\nThe user has a vinyl record collection and recently acquired a rare 1978 pressing of Fleetwood Mac's Rumours; they want advice on how to store and display their records prominently while preserving the rarity.\nThe user owns a large Funko POP! collection, including the complete set of Marvel Cinematic Universe figures, and is looking for guidance on how to store and display these figures so they are showcased nicely and protected.\nThe user has a poster and art print collection and recently purchased a Mondo poster featuring an illustration of the Hogwarts castle from Harry Potter; they seek advice on how to store and display the poster and other prints to showcase them nicely.",
+            "latency": 1201.774
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has a growing vintage camera collection of 17 cameras, including a newly acquired Brownie Hawkeye, has been collecting for three months, and seeks comprehensive advice on storage, maintenance, display, and organization to keep the cameras in good condition, prevent damage, and ensure easy accessibility for maintenance and cleaning.\nThe user has a vinyl record collection and recently acquired a rare 1978 pressing of Fleetwood Mac's Rumours; they want advice on how to store and display their records prominently while preserving the rarity.\nThe user owns a large Funko POP! collection, including the complete set of Marvel Cinematic Universe figures, and is looking for guidance on how to store and display these figures so they are showcased nicely and protected.\nThe user has a poster and art print collection and recently purchased a Mondo poster featuring an illustration of the Hogwarts castle from Harry Potter; they seek advice on how to store and display the poster and other prints to showcase them nicely.",
+            "latency": 2212.05
+        }
+    ]
+}

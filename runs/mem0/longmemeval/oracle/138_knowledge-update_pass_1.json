@@ -1,0 +1,22 @@
+{
+    "index": 138,
+    "question_type": "knowledge-update",
+    "question": "How long have I been using my Fitbit Charge 3?",
+    "question_date": "2023/09/03 (Sun) 20:23",
+    "ground_truth_answer": "9 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_138_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been wearing a Fitbit Charge 3 for 9 months, tracking daily steps and health metrics, and is motivated to hit step goals on lazy Sundays.\nUser is trying to get more into yoga and is looking for yoga apps beyond YouTube, currently follows Adriene's videos but wants more variety.\nUser read a book about intermittent fasting, which inspired them to try it and observe its effects on energy levels and overall health.\nUser uses a portable massage roller for muscle recovery after workouts and stress relief.\nUser has read Dan Harris's book '10% Happier' and finds it relatable and accessible for meditation and mindfulness.\nUser enjoys reading non-fiction health and wellness books to relax before bed and gain new ideas for daily life.\nUser has decided to purchase Hugger Mugger ParaMat due to knee issues, evaluating it against Manduka eKO SuperLite, and is considering a yoga strap to support flexibility and reduce strain.\nUser plans to replace TV watching before bed with reading a book to wind down.\nUser will use the massage roller before reading to relax neck and shoulders before bed, due to tension from screen use all day.\nUser is seeking recommendations for healthy, portable snack options that are easy to prepare and take on-the-go.",
+            "latency": 619.838
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been wearing a Fitbit Charge 3 for 9 months, tracking daily steps and health metrics, and is motivated to hit step goals on lazy Sundays.\nUser is trying to get more into yoga and is looking for yoga apps beyond YouTube, currently follows Adriene's videos but wants more variety.\nUser read a book about intermittent fasting, which inspired them to try it and observe its effects on energy levels and overall health.\nUser uses a portable massage roller for muscle recovery after workouts and stress relief.\nUser has read Dan Harris's book '10% Happier' and finds it relatable and accessible for meditation and mindfulness.\nUser enjoys reading non-fiction health and wellness books to relax before bed and gain new ideas for daily life.\nUser has decided to purchase Hugger Mugger ParaMat due to knee issues, evaluating it against Manduka eKO SuperLite, and is considering a yoga strap to support flexibility and reduce strain.\nUser plans to replace TV watching before bed with reading a book to wind down.\nUser will use the massage roller before reading to relax neck and shoulders before bed, due to tension from screen use all day.\nUser is seeking recommendations for healthy, portable snack options that are easy to prepare and take on-the-go.",
+            "latency": 816.627
+        }
+    ]
+}

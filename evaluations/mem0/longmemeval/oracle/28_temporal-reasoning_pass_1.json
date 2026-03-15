@@ -1,0 +1,19 @@
+{
+    "index": 28,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+    "question_date": "2023/05/30 (Tue) 12:34",
+    "ground_truth_answer": "The arrival of the new prime lens",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user 'acquired a 50mm f/1.8 prime lens' and then 'applied the lens on a trip' with coastal elements (cliff, waves), indicating the lens arrived before the coastal trip, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user 'acquired a 50mm f/1.8 prime lens' and then 'has applied the lens on a trip' where coastal photos were captured, indicating the lens arrived before the coastal trip, which matches the gold answer."
+        }
+    ]
+}

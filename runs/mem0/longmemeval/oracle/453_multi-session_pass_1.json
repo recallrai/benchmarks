@@ -1,0 +1,22 @@
+{
+    "index": 453,
+    "question_type": "multi-session",
+    "question": "How many points do I need to earn to redeem a free skincare product at Sephora?",
+    "question_date": "2023/05/30 (Tue) 01:16",
+    "ground_truth_answer": "100",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_453_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has 200 Beauty Insider points after earning 50 from an eyeshadow palette, is close to 300 points for a free skincare reward, and is asking about current promotions or discounts on the La Roche\u2011Posay Toleriane Ultra Fluid Face Moisturizer SPF\u202f50 and other products to reach the goal.\nUser has 200 Beauty Insider points after earning 50 from an eyeshadow palette, is close to 300 points for a free reward, and plans to buy the La Roche\u2011Posay Toleriane Ultra Fluid Face Moisturizer SPF\u202f50, a lightweight, non\u2011greasy, SPF product for combination skin dehydration.\nUser is exploring bundle deals or sets that include the La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50, such as combinations with a cleanser or toner, to create a complete skincare routine.\nUser wants to explore Laneige's anti\u2011aging products targeting fine lines and wrinkles, and is interested in expanding their skincare range beyond moisturizers.\nUser is interested in the Laneige Water Bank Moisturizing Cream, wants details on its ingredients and how it compares to other moisturizers in the same price range.\nUser is considering purchasing the Laneige Time Freeze Essence and wants guidance on its use, layering, expected results, packaging, and longevity.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has 200 Beauty Insider points after earning 50 from an eyeshadow palette, is close to 300 points for a free skincare reward, and is asking about current promotions or discounts on the La Roche\u2011Posay Toleriane Ultra Fluid Face Moisturizer SPF\u202f50 and other products to reach the goal.\nUser has 200 Beauty Insider points after earning 50 from an eyeshadow palette, is close to 300 points for a free reward, and plans to buy the La Roche\u2011Posay Toleriane Ultra Fluid Face Moisturizer SPF\u202f50, a lightweight, non\u2011greasy, SPF product for combination skin dehydration.\nUser is exploring bundle deals or sets that include the La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50, such as combinations with a cleanser or toner, to create a complete skincare routine.\nUser wants to explore Laneige's anti\u2011aging products targeting fine lines and wrinkles, and is interested in expanding their skincare range beyond moisturizers.\nUser is interested in the Laneige Water Bank Moisturizing Cream, wants details on its ingredients and how it compares to other moisturizers in the same price range.\nUser is considering purchasing the Laneige Time Freeze Essence and wants guidance on its use, layering, expected results, packaging, and longevity.",
+            "latency": 712.99
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 29,
+    "question_type": "temporal-reasoning",
+    "question": "Which airline did I fly with the most in March and April?",
+    "question_date": "2023/04/27 (Thu) 13:11",
+    "ground_truth_answer": "United Airlines",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_29_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User flew a business trip to Chicago with United Airlines in March, departing from their hometown on March 10th and returning on March 12th with two flights each way, and was impressed by United's in-flight entertainment system.\nUser previously flew a direct Southwest flight from their hometown to Las Vegas for a conference in March, departing on the 15th and returning on the 18th, and found the flight very convenient.\nUser had a week\u2011long vacation to Hawaii in April 2024 (20th\u201127th), flew with American Airlines from their hometown to Honolulu, then took a connecting flight to Maui, and during that trip they took at least 10 Uber rides with their family.\nUser is planning a future trip and is deciding between United Airlines and American Airlines, favoring United because they have accumulated more miles with United.\nUser is planning a beach trip soon, will fly to a small airport, and wants to know how to check which transportation services are available at that airport; they will need a ride from the airport to the beach.\nUser is considering flying to Las Vegas soon with United Airlines and wants to know if United offers any discounts or promotions for frequent flyers, noting their 20,000 miles.\nUser is considering a trip that requires a layover and wants instructions on how to book a connecting flight and what considerations to keep in mind.\nUser is asking whether they can earn miles on a Southwest flight, given their existing loyalty to United Airlines and American Airlines.\nUser has accumulated approximately 20,000 United MileagePlus miles over the past three months and also has a decent amount of miles on American Airlines.\nUser wants more information about United's Economy Plus seating, specifically how it compares to regular economy seats and whether the extra cost is worth it.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User flew a business trip to Chicago with United Airlines in March, departing from their hometown on March 10th and returning on March 12th with two flights each way, and was impressed by United's in-flight entertainment system.\nUser previously flew a direct Southwest flight from their hometown to Las Vegas for a conference in March, departing on the 15th and returning on the 18th, and found the flight very convenient.\nUser had a week\u2011long vacation to Hawaii in April 2024 (20th\u201127th), flew with American Airlines from their hometown to Honolulu, then took a connecting flight to Maui, and during that trip they took at least 10 Uber rides with their family.\nUser is planning a future trip and is deciding between United Airlines and American Airlines, favoring United because they have accumulated more miles with United.\nUser is planning a beach trip soon, will fly to a small airport, and wants to know how to check which transportation services are available at that airport; they will need a ride from the airport to the beach.\nUser is considering flying to Las Vegas soon with United Airlines and wants to know if United offers any discounts or promotions for frequent flyers, noting their 20,000 miles.\nUser is considering a trip that requires a layover and wants instructions on how to book a connecting flight and what considerations to keep in mind.\nUser is asking whether they can earn miles on a Southwest flight, given their existing loyalty to United Airlines and American Airlines.\nUser has accumulated approximately 20,000 United MileagePlus miles over the past three months and also has a decent amount of miles on American Airlines.\nUser wants more information about United's Economy Plus seating, specifically how it compares to regular economy seats and whether the extra cost is worth it.",
+            "latency": 720.858
+        }
+    ]
+}

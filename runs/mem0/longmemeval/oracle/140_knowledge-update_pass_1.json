@@ -1,0 +1,22 @@
+{
+    "index": 140,
+    "question_type": "knowledge-update",
+    "question": "What type of camera lens did I purchase most recently?",
+    "question_date": "2023/09/08 (Fri) 04:23",
+    "ground_truth_answer": "a 70-200mm zoom lens",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_140_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has decided to purchase the Think Tank Urban Disguise 40L for its sleek design and versatility, suitable for street and travel photography, while using a Nikon D5600, 50mm prime, and 70\u2011200mm zoom for portrait and low\u2011light work, and has experienced manual\u2011focus issues with the kit lens.\nUser wants to replace a worn Manfrotto BeFree tripod with a tripod for a Nikon D5600, 50mm prime, considering Gitzo, Really Right Stuff, and the Manfrotto MT057CXPRO4, researching how tripod weight affects stability and features of tripod heads, and plans to upgrade to a Nikon Z6 camera in the future.\nUser is interested in purchasing a neutral density filter to enhance creative effects in photography.\nUser is interested in acquiring a remote shutter release for a Nikon D5600, exploring both wired and wireless options, and has been using remote flash triggers from a workshop for portrait photography.",
+            "latency": 744.454
+        },
+        {
+            "strategy": "graph",
+            "context": "User has decided to purchase the Think Tank Urban Disguise 40L for its sleek design and versatility, suitable for street and travel photography, while using a Nikon D5600, 50mm prime, and 70\u2011200mm zoom for portrait and low\u2011light work, and has experienced manual\u2011focus issues with the kit lens.\nUser wants to replace a worn Manfrotto BeFree tripod with a tripod for a Nikon D5600, 50mm prime, considering Gitzo, Really Right Stuff, and the Manfrotto MT057CXPRO4, researching how tripod weight affects stability and features of tripod heads, and plans to upgrade to a Nikon Z6 camera in the future.\nUser is interested in purchasing a neutral density filter to enhance creative effects in photography.\nUser is interested in acquiring a remote shutter release for a Nikon D5600, exploring both wired and wireless options, and has been using remote flash triggers from a workshop for portrait photography.",
+            "latency": 885.782
+        }
+    ]
+}

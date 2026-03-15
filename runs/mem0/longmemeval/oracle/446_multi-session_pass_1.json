@@ -1,0 +1,22 @@
+{
+    "index": 446,
+    "question_type": "multi-session",
+    "question": "How many Marvel movies did I re-watch?",
+    "question_date": "2023/05/26 (Fri) 23:52",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_446_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently watched Marvel movies, including Spider-Man: No Way Home, and is looking for superhero films outside the Marvel Cinematic Universe.\nThe user re\u2011watched Avengers: Endgame yesterday and is now seeking non\u2011Marvel sci\u2011fi and action movies that offer a similar sense of scale, grandeur, and epic battles, having already seen Doctor Strange, Pacific Rim: Uprising, and Edge of Tomorrow, and having watched four Marvel movies recently\nUser has seen The Dark Knight, considers it a favorite, and is interested in newer non-Marvel superhero releases from the past few years.\nUser is looking for superhero films outside the Marvel Cinematic Universe.\nUser is interested in complex villains such as the Joker from The Dark Knight and wants to see how different actors portray such characters.\nUser has seen Tangled with family, enjoyed it, and wants to pay attention to Zachary Levi's voice acting as Flynn Rider.\nUser has watched Shazam! and wants more information about its cast, particularly Zachary Levi's role, the villain Doctor Sivana, and the film's themes of family and identity.",
+            "latency": 524.382
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently watched Marvel movies, including Spider-Man: No Way Home, and is looking for superhero films outside the Marvel Cinematic Universe.\nThe user re\u2011watched Avengers: Endgame yesterday and is now seeking non\u2011Marvel sci\u2011fi and action movies that offer a similar sense of scale, grandeur, and epic battles, having already seen Doctor Strange, Pacific Rim: Uprising, and Edge of Tomorrow, and having watched four Marvel movies recently\nUser has seen The Dark Knight, considers it a favorite, and is interested in newer non-Marvel superhero releases from the past few years.\nUser is looking for superhero films outside the Marvel Cinematic Universe.\nUser is interested in complex villains such as the Joker from The Dark Knight and wants to see how different actors portray such characters.\nUser has seen Tangled with family, enjoyed it, and wants to pay attention to Zachary Levi's voice acting as Flynn Rider.\nUser has watched Shazam! and wants more information about its cast, particularly Zachary Levi's role, the villain Doctor Sivana, and the film's themes of family and identity.",
+            "latency": 820.862
+        }
+    ]
+}

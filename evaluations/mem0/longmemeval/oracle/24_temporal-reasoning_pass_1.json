@@ -1,0 +1,19 @@
+{
+    "index": 24,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+    "question_date": "2023/05/24 (Wed) 21:38",
+    "ground_truth_answer": "Two weeks",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user has been a member for three weeks and attended a meetup last week, but does not provide sufficient information to determine they had been a member specifically for two weeks at the time of attending the meetup."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user has been a member for three weeks and attended a meetup last week, which implies they had been a member for approximately two weeks at the time of the meetup."
+        }
+    ]
+}

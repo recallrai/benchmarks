@@ -1,0 +1,22 @@
+{
+    "index": 42,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+    "question_date": "2023/05/27 (Sat) 02:34",
+    "ground_truth_answer": "Four weeks",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_42_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently purchased a new guitar amp two weeks ago, which has noticeably enhanced sound quality, boosted confidence, and the user is looking for advice on choosing the right guitar strings to make the most of it.\nUser has been taking weekly guitar lessons with instructor Alex for six weeks, practicing at least 30 minutes daily, noticing significant improvement in fingerpicking and chord changes, and has begun learning basic music theory to better understand notes and rhythm.\nUser recently bought a used soprano ukulele with a warm sunburst finish, loves its bright and cheerful sound, has been experimenting with tunings, capo positions, fingerpicking, and a ukulele slide, and has been having a blast playing it since buying it about a month ago.\nand has recently attended a blues guitar workshop where User jammed for a few hours with other musicians, playing classic blues songs such as Sweet Home Chicago and Pride and Joy, and received tips on string bending and expressive playing from a professional blues guitarist instructor.\nUser is thinking about starting a YouTube channel or Instagram account to share her ukulele music and connect with other enthusiasts, and she asks for tips on getting started.\nUser expresses excitement and pride in their progress, maintains a supportive relationship with instructor Alex, and is eager to weave chord progressions into their daily practice routine, seeking structured practice plans that include warm\u2011ups, focused chord\u2011progression drills, metronome work, and creative application to deepen musical understanding and expressive skill.\nUser is incorporating polyrhythmic and subdivision practice into daily routine to improve timing and rhythm in blues playing, using a metronome to refine timing and exploring advanced techniques to sharpen rhythm.",
+            "latency": 654.367
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently purchased a new guitar amp two weeks ago, which has noticeably enhanced sound quality, boosted confidence, and the user is looking for advice on choosing the right guitar strings to make the most of it.\nUser has been taking weekly guitar lessons with instructor Alex for six weeks, practicing at least 30 minutes daily, noticing significant improvement in fingerpicking and chord changes, and has begun learning basic music theory to better understand notes and rhythm.\nUser recently bought a used soprano ukulele with a warm sunburst finish, loves its bright and cheerful sound, has been experimenting with tunings, capo positions, fingerpicking, and a ukulele slide, and has been having a blast playing it since buying it about a month ago.\nand has recently attended a blues guitar workshop where User jammed for a few hours with other musicians, playing classic blues songs such as Sweet Home Chicago and Pride and Joy, and received tips on string bending and expressive playing from a professional blues guitarist instructor.\nUser is thinking about starting a YouTube channel or Instagram account to share her ukulele music and connect with other enthusiasts, and she asks for tips on getting started.\nUser expresses excitement and pride in their progress, maintains a supportive relationship with instructor Alex, and is eager to weave chord progressions into their daily practice routine, seeking structured practice plans that include warm\u2011ups, focused chord\u2011progression drills, metronome work, and creative application to deepen musical understanding and expressive skill.\nUser is incorporating polyrhythmic and subdivision practice into daily routine to improve timing and rhythm in blues playing, using a metronome to refine timing and exploring advanced techniques to sharpen rhythm.",
+            "latency": 812.41
+        }
+    ]
+}

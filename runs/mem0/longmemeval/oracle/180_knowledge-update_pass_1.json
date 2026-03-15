@@ -1,0 +1,22 @@
+{
+    "index": 180,
+    "question_type": "knowledge-update",
+    "question": "What is my current record in the recreational volleyball league?",
+    "question_date": "2023/07/17 (Mon) 02:55",
+    "ground_truth_answer": "5-2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_180_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User maintains cardio and routine at the gym, plays volleyball and soccer, swims laps slowly, ran a 5K in 32:15, aims to improve swimming, biking, and running, work on transitions, and enhance flexibility and mobility, has a 5-2 volleyball record, feels confident about triathlon goal, and balances training with work activities.\nUser is planning to host a mini tournament to wrap up the basketball season, inviting friends from the volleyball league, and is debating whether to mix teams or keep them separate.\nUser plans to offer group clinics and online resources for the basketball league, and is considering prizes or recognition for the winning team or MVPs.\nUser is planning to start a recreational basketball league at their office, seeks tips on how to get it started and make it successful, intends to scale back responsibilities by finding a co-organizer, schedule games around triathlon training, and preserve social and work activities.\nUser plans to sign up for a sprint triathlon in the fall, wants to assess fitness, track progress, and receive training plans, feels confident about athletic abilities, and balances training with social and work activities.\nUser is considering a bike fitting to ensure proper fit for their bike and requests recommendations for local bike shops offering fittings.",
+            "latency": 491.57
+        },
+        {
+            "strategy": "graph",
+            "context": "User maintains cardio and routine at the gym, plays volleyball and soccer, swims laps slowly, ran a 5K in 32:15, aims to improve swimming, biking, and running, work on transitions, and enhance flexibility and mobility, has a 5-2 volleyball record, feels confident about triathlon goal, and balances training with work activities.\nUser is planning to host a mini tournament to wrap up the basketball season, inviting friends from the volleyball league, and is debating whether to mix teams or keep them separate.\nUser plans to offer group clinics and online resources for the basketball league, and is considering prizes or recognition for the winning team or MVPs.\nUser is planning to start a recreational basketball league at their office, seeks tips on how to get it started and make it successful, intends to scale back responsibilities by finding a co-organizer, schedule games around triathlon training, and preserve social and work activities.\nUser plans to sign up for a sprint triathlon in the fall, wants to assess fitness, track progress, and receive training plans, feels confident about athletic abilities, and balances training with social and work activities.\nUser is considering a bike fitting to ensure proper fit for their bike and requests recommendations for local bike shops offering fittings.",
+            "latency": 700.186
+        }
+    ]
+}

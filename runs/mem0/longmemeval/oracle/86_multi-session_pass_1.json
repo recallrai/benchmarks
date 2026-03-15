@@ -1,0 +1,22 @@
+{
+    "index": 86,
+    "question_type": "multi-session",
+    "question": "Which grocery store did I spend the most money at in the past month?",
+    "question_date": "2023/05/30 (Tue) 20:10",
+    "ground_truth_answer": "Thrive Market",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_86_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to shop at Publix this week and aims to maximize cashback earnings through the Ibotta app, asking for guidance on which items to purchase for higher cashback.\nUser aims to keep total grocery spending, including the $10 delivery fee, around $80-$90.\nUser wants to use pantry staples already at home to further reduce grocery costs.\nUser has been relying heavily on Instacart for grocery shopping, and plans to use it again this week.\nUser bought chicken breast and ground beef at Walmart last week, spent about $120, used a 10% off coupon on dairy products to secure good deals, and plans to cook Chicken Fajitas and Spaghetti Bolognese this week using those ingredients, and wants a grocery list for those recipes.\nUser is reducing household waste by buying nuts, granola, and dried fruits in bulk, which helps avoid single-use plastics and save money.\nUser placed an online order with Thrive Market last month, spent about $150 on organic and sustainable products including produce, meat, dairy, and pantry staples such as quinoa and olive oil, received great deals, and is considering using the service again soon.\nUser and their sister visited Trader Joe's the week before last, spent approximately $80 together on pre-packaged meals and snacks, and bought a few packs of cauliflower gnocchi.\nUser frequently uses reusable containers and bags, especially when buying bulk items, and plans to order more from Thrive Market to reduce waste; they already use containers purchased from Thrive Market in a prior order and seek tips to store them to avoid clutter.\nUser intends to try the Chicken and Beef Tacos recipe, appreciating the combination of ground beef and chicken breast and the ability to customize with favorite toppings.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to shop at Publix this week and aims to maximize cashback earnings through the Ibotta app, asking for guidance on which items to purchase for higher cashback.\nUser aims to keep total grocery spending, including the $10 delivery fee, around $80-$90.\nUser wants to use pantry staples already at home to further reduce grocery costs.\nUser has been relying heavily on Instacart for grocery shopping, and plans to use it again this week.\nUser bought chicken breast and ground beef at Walmart last week, spent about $120, used a 10% off coupon on dairy products to secure good deals, and plans to cook Chicken Fajitas and Spaghetti Bolognese this week using those ingredients, and wants a grocery list for those recipes.\nUser is reducing household waste by buying nuts, granola, and dried fruits in bulk, which helps avoid single-use plastics and save money.\nUser placed an online order with Thrive Market last month, spent about $150 on organic and sustainable products including produce, meat, dairy, and pantry staples such as quinoa and olive oil, received great deals, and is considering using the service again soon.\nUser and their sister visited Trader Joe's the week before last, spent approximately $80 together on pre-packaged meals and snacks, and bought a few packs of cauliflower gnocchi.\nUser frequently uses reusable containers and bags, especially when buying bulk items, and plans to order more from Thrive Market to reduce waste; they already use containers purchased from Thrive Market in a prior order and seek tips to store them to avoid clutter.\nUser intends to try the Chicken and Beef Tacos recipe, appreciating the combination of ground beef and chicken breast and the ability to customize with favorite toppings.",
+            "latency": 707.08
+        }
+    ]
+}

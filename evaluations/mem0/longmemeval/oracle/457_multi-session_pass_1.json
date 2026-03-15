@@ -1,0 +1,19 @@
+{
+    "index": 457,
+    "question_type": "multi-session",
+    "question": "What is the total cost of Lola's vet visit and flea medication?",
+    "question_date": "2023/05/27 (Sat) 02:14",
+    "ground_truth_answer": "$75",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both the vet visit cost ($50 discounted consultation) and flea medication cost ($25 for 3-month supply), which totals to $75 matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the flea medication cost $25 and the vet visit was a $50 discounted consultation, which totals to $75, matching the gold answer."
+        }
+    ]
+}

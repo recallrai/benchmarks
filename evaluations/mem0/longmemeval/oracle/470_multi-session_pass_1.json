@@ -1,0 +1,19 @@
+{
+    "index": 470,
+    "question_type": "multi-session",
+    "question": "How many years will I be when my friend Rachel gets married?",
+    "question_date": "2022/09/01 (Thu) 21:32",
+    "ground_truth_answer": "33",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Rachel's upcoming wedding but contains no information about the user's age or how old they will be (33) when Rachel gets married."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Rachel's upcoming wedding but does not contain any information about the user's age (current or at the time of the wedding) that would enable answering how old they will be (33) when Rachel gets married."
+        }
+    ]
+}

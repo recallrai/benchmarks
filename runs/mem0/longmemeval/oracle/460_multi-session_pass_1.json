@@ -1,0 +1,22 @@
+{
+    "index": 460,
+    "question_type": "multi-session",
+    "question": "How much did I spend on each coffee mug for my coworkers?",
+    "question_date": "2023/05/27 (Sat) 22:10",
+    "ground_truth_answer": "$12",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_460_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to give each of their five coworkers a birthday gift soon, seeking something nice but affordable, and has already given each coworker a holiday\u2011season coffee mug with funny professional quotes.\nUser wants to estimate annual gift-giving expenses based on past spending habits; they provided past 3 months spending: $50 for a best friend's birthday, $60 for a brother's anniversary, $60 for coffee mugs for coworkers, $32 for a mom's birthday, $75 for a cousin's baby shower, $20 for a group gift for the cousin's baby shower, totaling $297.\nUser wants to allocate $718 for regular gifts into specific occasions such as birthdays and holidays, and wants to adjust the allocation to include coworker gifts.\nUser wants to ensure customized desk accessories arrive on time for coworkers' birthdays, so is researching production and shipping times for various websites.\nUser is exploring customized desk accessories as birthday gifts, looking for websites or stores to purchase them, and intends to order one per coworker, considering bulk\u2011order discounts.\nUser spends $200-300 on Christmas gifts.\nUser prefers a simple, elegant design with a subtle message for the desk accessory, and is considering a glass or crystal paperweight with a brief message like \"Happy Birthday\" or \"Wishing you a great year ahead\".\nUser is concerned about gift-giving expenses and wants a budgeting plan to avoid overspending.",
+            "latency": 516.597
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to give each of their five coworkers a birthday gift soon, seeking something nice but affordable, and has already given each coworker a holiday\u2011season coffee mug with funny professional quotes.\nUser wants to estimate annual gift-giving expenses based on past spending habits; they provided past 3 months spending: $50 for a best friend's birthday, $60 for a brother's anniversary, $60 for coffee mugs for coworkers, $32 for a mom's birthday, $75 for a cousin's baby shower, $20 for a group gift for the cousin's baby shower, totaling $297.\nUser wants to allocate $718 for regular gifts into specific occasions such as birthdays and holidays, and wants to adjust the allocation to include coworker gifts.\nUser wants to ensure customized desk accessories arrive on time for coworkers' birthdays, so is researching production and shipping times for various websites.\nUser is exploring customized desk accessories as birthday gifts, looking for websites or stores to purchase them, and intends to order one per coworker, considering bulk\u2011order discounts.\nUser spends $200-300 on Christmas gifts.\nUser prefers a simple, elegant design with a subtle message for the desk accessory, and is considering a glass or crystal paperweight with a brief message like \"Happy Birthday\" or \"Wishing you a great year ahead\".\nUser is concerned about gift-giving expenses and wants a budgeting plan to avoid overspending.",
+            "latency": 711.488
+        }
+    ]
+}

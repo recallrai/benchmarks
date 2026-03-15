@@ -1,0 +1,22 @@
+{
+    "index": 186,
+    "question_type": "knowledge-update",
+    "question": "How many women are on the team led by my former manager Rachel?",
+    "question_date": "2023/08/09 (Wed) 07:46",
+    "ground_truth_answer": "6",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_186_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's former manager Rachel leads a team of 10 people, of which 6 are women, and the user is evaluating whether this 60% female representation is a good reflection of women in leadership positions in their industry, based on seminar information that women hold only 25% of executive positions.\nUser is looking for examples or resources of companies that are doing a good job of promoting gender diversity in the workplace.",
+            "latency": 854.099
+        },
+        {
+            "strategy": "graph",
+            "context": "User's former manager Rachel leads a team of 10 people, of which 6 are women, and the user is evaluating whether this 60% female representation is a good reflection of women in leadership positions in their industry, based on seminar information that women hold only 25% of executive positions.\nUser is looking for examples or resources of companies that are doing a good job of promoting gender diversity in the workplace.",
+            "latency": 1369.675
+        }
+    ]
+}

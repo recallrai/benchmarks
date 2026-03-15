@@ -1,0 +1,22 @@
+{
+    "index": 87,
+    "question_type": "multi-session",
+    "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+    "question_date": "2023/05/25 (Thu) 15:52",
+    "ground_truth_answer": "$270",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_87_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip to Japan, has previously stayed in a Tokyo hostel at approximately $30 per night solo in January, and is researching affordable accommodation options, specifically hostels, while also seeking affordable transportation options to visit Shibuya Crossing and Tokyo Tower.\nThe user is planning a trip to Maui, staying at a luxurious resort that costs over $300 per night, and is seeking free or affordable outdoor activities and dining options to balance the cost.\nUser plans to visit Tsukiji Fish Market, wants tips for navigating the crowded market, seeks information on other fish markets in Tokyo, and is excited to try more street food stalls and restaurants, especially after being encouraged to check out those stalls.\nUser intends to visit Meiji Shrine, a peaceful forested Shinto shrine, and then proceed to Takeshita-dori Street in Harajuku, expecting a lively shopping street, and is seeking more details about both sites.\nThe user is interested in local Maui cuisine, including poke and loco moco, plans to dine at Mama's Fish House or The Fish Hopper for dinner, and is looking for affordable breakfast and brunch spots like Kihei Caffe, Cafe O'Lei at the Dunes, Da Kitchen, and Ono Gelato.",
+            "latency": 878.863
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip to Japan, has previously stayed in a Tokyo hostel at approximately $30 per night solo in January, and is researching affordable accommodation options, specifically hostels, while also seeking affordable transportation options to visit Shibuya Crossing and Tokyo Tower.\nThe user is planning a trip to Maui, staying at a luxurious resort that costs over $300 per night, and is seeking free or affordable outdoor activities and dining options to balance the cost.\nUser plans to visit Tsukiji Fish Market, wants tips for navigating the crowded market, seeks information on other fish markets in Tokyo, and is excited to try more street food stalls and restaurants, especially after being encouraged to check out those stalls.\nUser intends to visit Meiji Shrine, a peaceful forested Shinto shrine, and then proceed to Takeshita-dori Street in Harajuku, expecting a lively shopping street, and is seeking more details about both sites.\nThe user is interested in local Maui cuisine, including poke and loco moco, plans to dine at Mama's Fish House or The Fish Hopper for dinner, and is looking for affordable breakfast and brunch spots like Kihei Caffe, Cafe O'Lei at the Dunes, Da Kitchen, and Ono Gelato.",
+            "latency": 1558.486
+        }
+    ]
+}

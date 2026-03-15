@@ -1,0 +1,22 @@
+{
+    "index": 284,
+    "question_type": "single-session-assistant",
+    "question": "I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+    "question_date": "2023/05/24 (Wed) 08:42",
+    "ground_truth_answer": "The recommended ratio is 1:10, meaning one part tea tree oil to ten parts carrier oil.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_284_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is inquiring about the potential uses of tea tree oil for acne, scars, dark spots, scalp conditions such as dandruff, itchiness, flakiness, fungal infections on feet, and as a natural insect repellent, and wants to know proper application methods and safety considerations",
+            "latency": 5972.705
+        },
+        {
+            "strategy": "graph",
+            "context": "User is inquiring about the potential uses of tea tree oil for acne, scars, dark spots, scalp conditions such as dandruff, itchiness, flakiness, fungal infections on feet, and as a natural insect repellent, and wants to know proper application methods and safety considerations",
+            "latency": 2404.291
+        }
+    ]
+}

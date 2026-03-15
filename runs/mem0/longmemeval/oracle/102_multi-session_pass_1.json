@@ -1,0 +1,22 @@
+{
+    "index": 102,
+    "question_type": "multi-session",
+    "question": "How many days did I spend participating in faith-related activities in December?",
+    "question_date": "2024/01/10 (Wed) 21:47",
+    "ground_truth_answer": "3 days.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_102_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a midnight mass at St. Mary's Church on December 24th with their family, describing the service as lovely and memorable.\nUser wants detailed information about summer programs, including the activities and services typically offered and how these programs support children during the summer months.\nUser wants detailed information about backpack programs, including how they typically operate and the kinds of items usually included in the backpacks.\nUser wants to volunteer at a local soup kitchen or food bank this year, following their recent holiday food drive on December 10 where they sorted donations and packed boxes for families, describing the experience as rewarding, and seeks suggestions for organizations or resources to find opportunities.\nUser expressed interest in attending a Lessons and Carols service during the upcoming holiday season, wanting to experience the contemplative, musical worship.\nUser wants detailed information about mentorship and counseling services offered in summer programs, including the types of support provided and how these services help children develop emotionally and socially.\nUser is specifically interested in volunteering at food banks or pantries and wants detailed information about the sorting and packing donation process and the typical training or orientation provided for volunteers.\nUser is planning a family outing for next year\u2019s holiday season and is looking for low\u2011key, intimate religious services similar to the midnight mass at St. Mary's Church, hoping to recreate that festive atmosphere.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a midnight mass at St. Mary's Church on December 24th with their family, describing the service as lovely and memorable.\nUser wants detailed information about summer programs, including the activities and services typically offered and how these programs support children during the summer months.\nUser wants detailed information about backpack programs, including how they typically operate and the kinds of items usually included in the backpacks.\nUser wants to volunteer at a local soup kitchen or food bank this year, following their recent holiday food drive on December 10 where they sorted donations and packed boxes for families, describing the experience as rewarding, and seeks suggestions for organizations or resources to find opportunities.\nUser expressed interest in attending a Lessons and Carols service during the upcoming holiday season, wanting to experience the contemplative, musical worship.\nUser wants detailed information about mentorship and counseling services offered in summer programs, including the types of support provided and how these services help children develop emotionally and socially.\nUser is specifically interested in volunteering at food banks or pantries and wants detailed information about the sorting and packing donation process and the typical training or orientation provided for volunteers.\nUser is planning a family outing for next year\u2019s holiday season and is looking for low\u2011key, intimate religious services similar to the midnight mass at St. Mary's Church, hoping to recreate that festive atmosphere.",
+            "latency": 721.824
+        }
+    ]
+}

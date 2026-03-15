@@ -1,0 +1,22 @@
+{
+    "index": 6,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did it take for me to find a house I loved after starting to work with Rachel?",
+    "question_date": "2022/03/02 (Wed) 11:02",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_6_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been working with real estate agent Rachel since February 15, and plans to ask her about new construction listings, current market trends, the mix of new construction versus resale properties, and upcoming developments that could affect local market and property values.\nUser feels confident about the offer, believes $320,000 is fair given the market value, is prepared to negotiate, and will submit the offer today with Rachel presenting it to the seller, ensuring all necessary documents are included.\nUser is a prospective homebuyer in Irvine, California, seeking family-friendly neighborhoods within a 30\u2011minute drive that have good schools and parks, has a pre\u2011approved mortgage of $350,000 (approved on February 10, 2026), and has been working with real\u2011estate agent Rachel since February 15, 2026.\nUser saw a house on March 1, 2026 that meets all their criteria and is considering making a strong offer of $320,000, $15,000 below the asking price of $335,000, with an inspection contingency and pre\u2011approval letter attached.",
+            "latency": 918.131
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been working with real estate agent Rachel since February 15, and plans to ask her about new construction listings, current market trends, the mix of new construction versus resale properties, and upcoming developments that could affect local market and property values.\nUser feels confident about the offer, believes $320,000 is fair given the market value, is prepared to negotiate, and will submit the offer today with Rachel presenting it to the seller, ensuring all necessary documents are included.\nUser is a prospective homebuyer in Irvine, California, seeking family-friendly neighborhoods within a 30\u2011minute drive that have good schools and parks, has a pre\u2011approved mortgage of $350,000 (approved on February 10, 2026), and has been working with real\u2011estate agent Rachel since February 15, 2026.\nUser saw a house on March 1, 2026 that meets all their criteria and is considering making a strong offer of $320,000, $15,000 below the asking price of $335,000, with an inspection contingency and pre\u2011approval letter attached.",
+            "latency": 1359.082
+        }
+    ]
+}

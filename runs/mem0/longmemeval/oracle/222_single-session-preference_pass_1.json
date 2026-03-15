@@ -1,0 +1,22 @@
+{
+    "index": 222,
+    "question_type": "single-session-preference",
+    "question": "I am planning another theme park weekend; do you have any suggestions?",
+    "question_date": "2023/08/15 (Tue) 16:25",
+    "ground_truth_answer": "The user would prefer theme park suggestions that cater to their interest in both thrill rides and special events, utilizing their previous experiences at Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood as a reference point. They would also appreciate recommendations that highlight unique food experiences and nighttime shows. The user might not prefer suggestions that focus solely on one aspect of theme parks, such as only thrill rides or only family-friendly attractions, and may not be interested in parks that lack special events or unique dining options.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_222_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for recommendations on upcoming theme park events, having recently visited Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood, and is interested in thrill rides, unique food experiences, and nighttime shows.\nUser is looking for unique food experiences and exclusive dining options with special Halloween-themed menus at theme parks.\nUser is particularly interested in Halloween-themed events at theme parks and wants information on must-try food items during these events.\nUser is interested in the Universal Studios Hollywood VIP Experience's Gourmet Buffet and Behind-the-Scenes Tour at Halloween Horror Nights, wants details on cost, perks, tour expectations, and booking method (online or phone).",
+            "latency": 1452.128
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for recommendations on upcoming theme park events, having recently visited Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood, and is interested in thrill rides, unique food experiences, and nighttime shows.\nUser is looking for unique food experiences and exclusive dining options with special Halloween-themed menus at theme parks.\nUser is particularly interested in Halloween-themed events at theme parks and wants information on must-try food items during these events.\nUser is interested in the Universal Studios Hollywood VIP Experience's Gourmet Buffet and Behind-the-Scenes Tour at Halloween Horror Nights, wants details on cost, perks, tour expectations, and booking method (online or phone).",
+            "latency": 2532.655
+        }
+    ]
+}

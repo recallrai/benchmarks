@@ -1,0 +1,22 @@
+{
+    "index": 380,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+    "question_date": "2023/06/01 (Thu) 19:32",
+    "ground_truth_answer": "38 days. 39 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_380_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User received feedback that the car's suspension was too soft, hurting fast\u2011corner handling, and plans to test the new setup at VIR tomorrow, starting with a baseline, making incremental changes, focusing on one axis, and taking detailed notes.\nUser plans to participate in the 'Track Day Frenzy' event at VIR on May 15th and wants to ensure the suspension setup is dialed in for that event.\nUser, owner of a 2018 Honda Civic Si, plans to install new coilovers next weekend and requests specific tools and precautions to ensure a smooth installation process.\nUser seeks advice on adjusting suspension settings to improve handling in fast corners at VIR, including recommendations on camber, toe, ride height, spring rate, and damping, and also wants tips for improving braking technique in heavy braking zones such as Turn 1 and Turn 14.\nUser plans to record laps with a dash cam to analyze driving technique and is researching software or apps for lap data analysis.\nUser is considering using her phone's GPS for lap data, may upgrade to a basic GPS device later, and wants to know if a high\u2011end GPS device is worth investing in.",
+            "latency": 567.493
+        },
+        {
+            "strategy": "graph",
+            "context": "User received feedback that the car's suspension was too soft, hurting fast\u2011corner handling, and plans to test the new setup at VIR tomorrow, starting with a baseline, making incremental changes, focusing on one axis, and taking detailed notes.\nUser plans to participate in the 'Track Day Frenzy' event at VIR on May 15th and wants to ensure the suspension setup is dialed in for that event.\nUser, owner of a 2018 Honda Civic Si, plans to install new coilovers next weekend and requests specific tools and precautions to ensure a smooth installation process.\nUser seeks advice on adjusting suspension settings to improve handling in fast corners at VIR, including recommendations on camber, toe, ride height, spring rate, and damping, and also wants tips for improving braking technique in heavy braking zones such as Turn 1 and Turn 14.\nUser plans to record laps with a dash cam to analyze driving technique and is researching software or apps for lap data analysis.\nUser is considering using her phone's GPS for lap data, may upgrade to a basic GPS device later, and wants to know if a high\u2011end GPS device is worth investing in.",
+            "latency": 767.24
+        }
+    ]
+}

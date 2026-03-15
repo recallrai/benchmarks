@@ -1,0 +1,19 @@
+{
+    "index": 193,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+    "question_date": "2023/06/03 (Sat) 02:36",
+    "ground_truth_answer": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'Senior Software Engineer' leading five engineers but does not mention 'Software Engineer Manager,' which aligns with the gold answer's explanation that the information about Software Engineer Manager role is not provided."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'Senior Software Engineer' leading five engineers, which allows someone to recognize that information about 'Software Engineer Manager' (a different role) is not provided, matching the gold answer's conclusion."
+        }
+    ]
+}

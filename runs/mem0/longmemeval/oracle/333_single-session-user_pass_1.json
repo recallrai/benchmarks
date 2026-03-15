@@ -1,0 +1,22 @@
+{
+    "index": 333,
+    "question_type": "single-session-user",
+    "question": "Where did I attend the Imagine Dragons concert?",
+    "question_date": "2023/05/30 (Tue) 11:08",
+    "ground_truth_answer": "Xfinity Center",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_333_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has tickets to the Jonas Brothers at TD Garden on July 17, tickets to The Lumineers at House of Blues on August 20, a potential music festival in Rhode Island (TBD), and attended an Imagine Dragons concert at Xfinity Center on June 15, enjoying hits like Radioactive and Demons and praising the lead singer's infectious energy.\nUser has experience volunteering at the Harvard Athletic Complex last month and is now looking for similar volunteer opportunities at music festivals within a few hours of Boston, without a specific preference for festival type.\nUser has requested more detailed information on volunteer application processes, roles, perks, atmosphere, lineup, and activities for three festivals: XPoNential Music Festival, Green River Festival, and Levitate Music and Arts Festival.\nXPoNential Music Festival: online application with questionnaire, must be 18+, roles include stagehands, artist hospitality, merchandise, ticketing; perks: free 3\u2011day pass, meals, volunteer t\u2011shirt; atmosphere: relaxed, family\u2011friendly; lineup: indie, rock, folk; activities: food trucks, craft beer garden, art installations.\nGreen River Festival: online application with questionnaire, must be 16+ (under 18 requires parental consent); roles include ticketing, concessions, stage support; perks: free 3\u2011day pass.",
+            "latency": 930.854
+        },
+        {
+            "strategy": "graph",
+            "context": "User has tickets to the Jonas Brothers at TD Garden on July 17, tickets to The Lumineers at House of Blues on August 20, a potential music festival in Rhode Island (TBD), and attended an Imagine Dragons concert at Xfinity Center on June 15, enjoying hits like Radioactive and Demons and praising the lead singer's infectious energy.\nUser has experience volunteering at the Harvard Athletic Complex last month and is now looking for similar volunteer opportunities at music festivals within a few hours of Boston, without a specific preference for festival type.\nUser has requested more detailed information on volunteer application processes, roles, perks, atmosphere, lineup, and activities for three festivals: XPoNential Music Festival, Green River Festival, and Levitate Music and Arts Festival.\nXPoNential Music Festival: online application with questionnaire, must be 18+, roles include stagehands, artist hospitality, merchandise, ticketing; perks: free 3\u2011day pass, meals, volunteer t\u2011shirt; atmosphere: relaxed, family\u2011friendly; lineup: indie, rock, folk; activities: food trucks, craft beer garden, art installations.\nGreen River Festival: online application with questionnaire, must be 16+ (under 18 requires parental consent); roles include ticketing, concessions, stage support; perks: free 3\u2011day pass.",
+            "latency": 1755.446
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 136,
+    "question_type": "knowledge-update",
+    "question": "How many titles are currently on my to-watch list?",
+    "question_date": "2023/06/20 (Tue) 09:36",
+    "ground_truth_answer": "25",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_136_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently finished binge\u2011watching 'The Crown', loves it, is actively seeking new historical drama recommendations that match the feel of 'The Crown', and wants help organizing their to\u2011watch list of 25 titles.\nUser wants more information about The Haunting of Hill House, specifically whether it focuses more on jump scares or a deeper storyline, and whether it can be finished in one to two weeks, noting they have a long to\u2011watch list of 20 titles.\nUser plans to add the films 'Amistad' and 'Hotel Rwanda' to their to\u2011watch list, citing that they have heard great things about them and find them powerful and important.\nUser plans to start watching Victoria and The Last Kingdom, adding other historical dramas to their watchlist later.\nUser is seeking Netflix TV show recommendations similar to Stranger Things and The Crown, indicating interest in supernatural/horror and historical drama genres.\nUser plans to watch The Haunting of Hill House, preferring horror series with storytelling over jump scares, and intends to watch 1\u20132 episodes per week.\nUser is interested in documentaries about social justice and human rights, wanting to learn more about these topics and stay informed about current issues.\nUser asks if The OA is similar to Stranger Things in sci\u2011fi elements.\nUser prefers complex atmospheric shows that balance character development and plot progression, and will consider this preference when watching The OA.",
+            "latency": 705.487
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently finished binge\u2011watching 'The Crown', loves it, is actively seeking new historical drama recommendations that match the feel of 'The Crown', and wants help organizing their to\u2011watch list of 25 titles.\nUser wants more information about The Haunting of Hill House, specifically whether it focuses more on jump scares or a deeper storyline, and whether it can be finished in one to two weeks, noting they have a long to\u2011watch list of 20 titles.\nUser plans to add the films 'Amistad' and 'Hotel Rwanda' to their to\u2011watch list, citing that they have heard great things about them and find them powerful and important.\nUser plans to start watching Victoria and The Last Kingdom, adding other historical dramas to their watchlist later.\nUser is seeking Netflix TV show recommendations similar to Stranger Things and The Crown, indicating interest in supernatural/horror and historical drama genres.\nUser plans to watch The Haunting of Hill House, preferring horror series with storytelling over jump scares, and intends to watch 1\u20132 episodes per week.\nUser is interested in documentaries about social justice and human rights, wanting to learn more about these topics and stay informed about current issues.\nUser asks if The OA is similar to Stranger Things in sci\u2011fi elements.\nUser prefers complex atmospheric shows that balance character development and plot progression, and will consider this preference when watching The OA.",
+            "latency": 843.01
+        }
+    ]
+}

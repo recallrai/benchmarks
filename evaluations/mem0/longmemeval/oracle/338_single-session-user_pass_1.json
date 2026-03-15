@@ -1,0 +1,19 @@
+{
+    "index": 338,
+    "question_type": "single-session-user",
+    "question": "How many skeins of worsted weight yarn did I find in my stash?",
+    "question_date": "2023/05/30 (Tue) 19:28",
+    "ground_truth_answer": "17",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions '17 skeins of worsted yarn' which matches the gold answer of 17 and would allow someone to correctly answer the question about how many skeins were found in the stash."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'using 17 skeins of worsted yarn,' which directly matches the gold answer of 17 skeins of worsted weight yarn."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 189,
+    "question_type": "knowledge-update",
+    "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+    "question_date": "2023/06/26 (Mon) 00:11",
+    "ground_truth_answer": "You increased the limit (from one cup to two cups)",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_189_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has switched to a darker roast, now drinks two cups in the morning, and is evaluating a new coffee maker while remaining open to other brewing methods; they also want a stronger French press cup to enhance flavor intensity.\nUser is working to make morning routine more intentional, replacing phone scrolling with reading, emails, or outdoors; had a 20\u2011minute YouTube rabbit hole during a recent break, noting slip but staying committed.\nUser wants to use the French press to produce a concentrated coffee brew that can be used as a base for lattes, indicating an interest in making stronger coffee concentrates for latte preparation.\nUser seeks coffee sweeteners that dissolve well and avoid stevia aftertaste, now also considering stevia and honey, with recommendations for sweeteners that dissolve well in coffee.\nUser is interested in trying a new herbal tea to aid sleep, seeking calming tea recommendations suitable for unwinding before bedtime.\nUser wants an easy-to-use, clean milk frother to improve latte foam but struggles with current setup.",
+            "latency": 648.044
+        },
+        {
+            "strategy": "graph",
+            "context": "User has switched to a darker roast, now drinks two cups in the morning, and is evaluating a new coffee maker while remaining open to other brewing methods; they also want a stronger French press cup to enhance flavor intensity.\nUser is working to make morning routine more intentional, replacing phone scrolling with reading, emails, or outdoors; had a 20\u2011minute YouTube rabbit hole during a recent break, noting slip but staying committed.\nUser wants to use the French press to produce a concentrated coffee brew that can be used as a base for lattes, indicating an interest in making stronger coffee concentrates for latte preparation.\nUser seeks coffee sweeteners that dissolve well and avoid stevia aftertaste, now also considering stevia and honey, with recommendations for sweeteners that dissolve well in coffee.\nUser is interested in trying a new herbal tea to aid sleep, seeking calming tea recommendations suitable for unwinding before bedtime.\nUser wants an easy-to-use, clean milk frother to improve latte foam but struggles with current setup.",
+            "latency": 910.284
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 295,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new tennis racket from?",
+    "question_date": "2023/05/23 (Tue) 12:01",
+    "ground_truth_answer": "the sports store downtown",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_295_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently purchased a new tennis racket from a sports store downtown, feels it has improved their game, and is looking for tips on how to maintain and clean the racket.\nUser intends to buy new tennis balls this weekend, wants recommendations for brands or types suitable for recreational players, and is considering a tennis ball machine but for now is focusing on improving their game with the new racket and practicing with friends.\nUser plans to play tennis with friends at the local park on Sunday, 2026-01-31, and is seeking the weather forecast for that weekend.\nUser is interested in exercises to warm up before playing tennis and to strengthen core and legs for tennis, indicating a proactive approach to injury prevention and performance.",
+            "latency": 4261.161
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently purchased a new tennis racket from a sports store downtown, feels it has improved their game, and is looking for tips on how to maintain and clean the racket.\nUser intends to buy new tennis balls this weekend, wants recommendations for brands or types suitable for recreational players, and is considering a tennis ball machine but for now is focusing on improving their game with the new racket and practicing with friends.\nUser plans to play tennis with friends at the local park on Sunday, 2026-01-31, and is seeking the weather forecast for that weekend.\nUser is interested in exercises to warm up before playing tennis and to strengthen core and legs for tennis, indicating a proactive approach to injury prevention and performance.",
+            "latency": 2433.462
+        }
+    ]
+}

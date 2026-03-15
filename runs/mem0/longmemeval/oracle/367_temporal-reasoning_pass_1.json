@@ -1,0 +1,22 @@
+{
+    "index": 367,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "question_date": "2023/05/06 (Sat) 05:25",
+    "ground_truth_answer": "3 weeks ago",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_367_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is considering using Thrive Market to incorporate more organic and natural products into their diet and wants to know if Ibotta offers cashback on Thrive Market purchases.\nUser is planning a grocery trip and wants a list of essential items to maximize cashback using the Ibotta app, which offers rebates on certain grocery items. The user has no dietary restrictions or preferences, lives alone, purchases a mix of fresh produce, meat, dairy, canned goods, and snacks, shops at stores offering Ibotta cashback, and intends to prioritize eggs due to a current rebate.\nUser is interested in reducing plastic usage and wants reusable bags or containers suitable for grocery shopping. The user has adopted reusable bags as a habit, feels positive about not contributing to plastic waste, and is considering using these bags for bulk shopping at Costco.\nUser is exploring new grocery delivery services similar to FreshToDoor and seeks promotions or discounts for first-time users.",
+            "latency": 897.535
+        },
+        {
+            "strategy": "graph",
+            "context": "User is considering using Thrive Market to incorporate more organic and natural products into their diet and wants to know if Ibotta offers cashback on Thrive Market purchases.\nUser is planning a grocery trip and wants a list of essential items to maximize cashback using the Ibotta app, which offers rebates on certain grocery items. The user has no dietary restrictions or preferences, lives alone, purchases a mix of fresh produce, meat, dairy, canned goods, and snacks, shops at stores offering Ibotta cashback, and intends to prioritize eggs due to a current rebate.\nUser is interested in reducing plastic usage and wants reusable bags or containers suitable for grocery shopping. The user has adopted reusable bags as a habit, feels positive about not contributing to plastic waste, and is considering using these bags for bulk shopping at Costco.\nUser is exploring new grocery delivery services similar to FreshToDoor and seeks promotions or discounts for first-time users.",
+            "latency": 1955.001
+        }
+    ]
+}

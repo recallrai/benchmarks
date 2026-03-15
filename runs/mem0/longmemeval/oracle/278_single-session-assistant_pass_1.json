@@ -1,0 +1,22 @@
+{
+    "index": 278,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Seco de Cordero recipe from Ancash. You mentioned using a light or medium-bodied beer, but I was wondering if you could remind me what type of beer you specifically recommended?",
+    "question_date": "2023/05/23 (Tue) 07:05",
+    "ground_truth_answer": "I recommended using a Pilsner or Lager for the recipe.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_278_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in cooking a classic dish from Ancash.\nUser has never tried lamb stew before, plans to use a Pilsner in the recipe, and wants additional cooking tips.\nUser wants additional classic Peruvian recipes beyond the lamb stew and dessert.\nUser is excited to cook the lamb stew this weekend and wants dessert suggestions that pair well with it.",
+            "latency": 1637.264
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in cooking a classic dish from Ancash.\nUser has never tried lamb stew before, plans to use a Pilsner in the recipe, and wants additional cooking tips.\nUser wants additional classic Peruvian recipes beyond the lamb stew and dessert.\nUser is excited to cook the lamb stew this weekend and wants dessert suggestions that pair well with it.",
+            "latency": 2163.861
+        }
+    ]
+}

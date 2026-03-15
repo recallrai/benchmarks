@@ -1,0 +1,19 @@
+{
+    "index": 212,
+    "question_type": "single-session-preference",
+    "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+    "question_date": "2023/05/26 (Fri) 02:34",
+    "ground_truth_answer": "Considering their mixology class background, the user would prefer cocktail suggestions that build upon their existing skills and interests, such as creative variations of classic cocktails or innovative twists on familiar flavors. They might appreciate recommendations that incorporate their experience with refreshing summer drinks like Pimm's Cup. The user would not prefer overly simplistic or basic cocktail recipes, and may not be interested in suggestions that don't take into account their mixology class background.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly establishes the user's mixology class background, experience with classic cocktails and Pimm's Cup, and their tendency to create complex cocktail variations, which directly supports the gold answer's recommendation for creative, skill-appropriate cocktail suggestions."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's mixology class experience, their work with classic cocktails and creative variations (Pimm's Cup with a Twist), and their interest in summer drinks, which directly supports the personalized recommendation approach described in the gold answer."
+        }
+    ]
+}

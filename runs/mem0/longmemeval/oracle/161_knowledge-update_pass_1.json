@@ -1,0 +1,22 @@
+{
+    "index": 161,
+    "question_type": "knowledge-update",
+    "question": "Where did I get my guitar serviced?",
+    "question_date": "2023/06/12 (Mon) 07:37",
+    "ground_truth_answer": "The music shop on Main St.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_161_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User corrected location to city center, provided zip code 12345 (though invalid), and indicated desire to have acoustic guitar serviced at trusted music shop on Main St, previously used for guitar maintenance, seeking advice on preparing guitar for servicing before festival.\nUser is actively pursuing violin lessons and is seeking local music schools or teachers in the city, building on earlier interest in buying a violin.\nUser intends to list the old electronic keyboard on Craigslist for $250, having previously sold a similar keyboard for $200, seeking confirmation that this price is appropriate.\nUser plans to list the old saxophone case on Craigslist at $120, lower than perceived value, highlighting its good condition and including clear photos, seeking validation of pricing strategy.",
+            "latency": 851.25
+        },
+        {
+            "strategy": "graph",
+            "context": "User corrected location to city center, provided zip code 12345 (though invalid), and indicated desire to have acoustic guitar serviced at trusted music shop on Main St, previously used for guitar maintenance, seeking advice on preparing guitar for servicing before festival.\nUser is actively pursuing violin lessons and is seeking local music schools or teachers in the city, building on earlier interest in buying a violin.\nUser intends to list the old electronic keyboard on Craigslist for $250, having previously sold a similar keyboard for $200, seeking confirmation that this price is appropriate.\nUser plans to list the old saxophone case on Craigslist at $120, lower than perceived value, highlighting its good condition and including clear photos, seeking validation of pricing strategy.",
+            "latency": 1151.818
+        }
+    ]
+}

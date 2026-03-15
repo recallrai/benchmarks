@@ -1,0 +1,22 @@
+{
+    "index": 159,
+    "question_type": "knowledge-update",
+    "question": "How many issues of National Geographic have I finished reading?",
+    "question_date": "2023/07/18 (Tue) 09:43",
+    "ground_truth_answer": "Five",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_159_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to create a simple spreadsheet to track reading progress and specifically wants to fill in the National Geographic section, noting they finished three issues and are currently on the fourth.\nUser reads news, science, and entertainment magazines; regularly reads The New York Times and The Daily News; enjoys The New Yorker for fiction; reads National Geographic for science and nature, having finished three issues and currently reading the fourth, and has been reading about the Yanomami people and their struggles.\nUser is trying to get more organized with their reading list and wants help creating a list of magazines and newspapers they have been reading lately.\nUser is interested in learning more about the Yanomami people and their culture and way of life, specifically requesting recommendations for documentaries or films that focus on their daily lives and struggles.\nUser also reads Rolling Stone magazine, especially its online content.\nUser regularly reads The Atlantic and Medium online publications.",
+            "latency": 876.776
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to create a simple spreadsheet to track reading progress and specifically wants to fill in the National Geographic section, noting they finished three issues and are currently on the fourth.\nUser reads news, science, and entertainment magazines; regularly reads The New York Times and The Daily News; enjoys The New Yorker for fiction; reads National Geographic for science and nature, having finished three issues and currently reading the fourth, and has been reading about the Yanomami people and their struggles.\nUser is trying to get more organized with their reading list and wants help creating a list of magazines and newspapers they have been reading lately.\nUser is interested in learning more about the Yanomami people and their culture and way of life, specifically requesting recommendations for documentaries or films that focus on their daily lives and struggles.\nUser also reads Rolling Stone magazine, especially its online content.\nUser regularly reads The Atlantic and Medium online publications.",
+            "latency": 1443.953
+        }
+    ]
+}

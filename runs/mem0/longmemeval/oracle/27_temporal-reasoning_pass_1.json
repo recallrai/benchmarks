@@ -1,0 +1,22 @@
+{
+    "index": 27,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+    "question_date": "2023/02/03 (Fri) 23:24",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_27_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's old Converse sneakers had a broken shoelace on January 24th, requiring replacement.\nUser bought a new pair of Adidas running shoes on January 10th at an outlet mall with their sister, paid $80, and wants to learn shoe care tips to properly maintain the sneakers and boots.\nUser has a pair of Vans that were lent to their brother, who returned them on February 10th; the shoes are tighter than before, and the user plans to use shoe trees and paper stuffing, and may take them to a cobbler for restoration.\nUser wants to clean sneakers worn during a basketball game with friends on February 1st, and is considering whether to clean them at home or take them to a professional shoe cleaning service.\nUser plans to ask colleague Rachel about a new shoe brand discussed at the office party on February 5th, specifically black stilettos that Rachel mentioned.\nUser wants to check online reviews or ratings for the new shoe brand that colleague Rachel mentioned, after seeing her black stilettos at the February 5th office party.\nUser wants to know if the nearby shoe cleaning place can clean and polish their scuffed brown leather boots from the February 5th office party.\nUser is considering buying a new pair of Tevas sandals for summer, priced at $120, and is uncertain about the investment.\nUser needs a cobbler to repair scuffed brown leather boots worn at an office party on February 5th and also wants recommendations for leather conditioning and waterproofing products or methods for those boots.",
+            "latency": 823.878
+        },
+        {
+            "strategy": "graph",
+            "context": "User's old Converse sneakers had a broken shoelace on January 24th, requiring replacement.\nUser bought a new pair of Adidas running shoes on January 10th at an outlet mall with their sister, paid $80, and wants to learn shoe care tips to properly maintain the sneakers and boots.\nUser has a pair of Vans that were lent to their brother, who returned them on February 10th; the shoes are tighter than before, and the user plans to use shoe trees and paper stuffing, and may take them to a cobbler for restoration.\nUser wants to clean sneakers worn during a basketball game with friends on February 1st, and is considering whether to clean them at home or take them to a professional shoe cleaning service.\nUser plans to ask colleague Rachel about a new shoe brand discussed at the office party on February 5th, specifically black stilettos that Rachel mentioned.\nUser wants to check online reviews or ratings for the new shoe brand that colleague Rachel mentioned, after seeing her black stilettos at the February 5th office party.\nUser wants to know if the nearby shoe cleaning place can clean and polish their scuffed brown leather boots from the February 5th office party.\nUser is considering buying a new pair of Tevas sandals for summer, priced at $120, and is uncertain about the investment.\nUser needs a cobbler to repair scuffed brown leather boots worn at an office party on February 5th and also wants recommendations for leather conditioning and waterproofing products or methods for those boots.",
+            "latency": 1290.327
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 228,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities I can do during my commute to work?",
+    "question_date": "2023/05/28 (Sun) 21:56",
+    "ground_truth_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_228_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to organize a listening schedule for history podcasts, taking into account a 40\u2011minute commute each way, and enjoys listening during commute.\nUser currently listens to true crime and self\u2011improvement podcasts during their commute and wants to branch out into other podcast genres.\nUser wants recommendations on history books or documentaries related to the topics they are interested in.\nUser is interested in history and science podcasts and wants episode recommendations to start with.",
+            "latency": 1691.085
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to organize a listening schedule for history podcasts, taking into account a 40\u2011minute commute each way, and enjoys listening during commute.\nUser currently listens to true crime and self\u2011improvement podcasts during their commute and wants to branch out into other podcast genres.\nUser wants recommendations on history books or documentaries related to the topics they are interested in.\nUser is interested in history and science podcasts and wants episode recommendations to start with.",
+            "latency": 2507.563
+        }
+    ]
+}

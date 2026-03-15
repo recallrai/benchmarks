@@ -1,0 +1,19 @@
+{
+    "index": 272,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+    "question_date": "2023/05/25 (Thu) 14:10",
+    "ground_truth_answer": "Andy was wearing an untidy, stained white shirt.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context describes Andy's character traits and role but does not mention his clothing or specifically that he was wearing an untidy, stained white shirt."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context describes Andy's character and role but does not mention what he was wearing or any reference to an untidy, stained white shirt."
+        }
+    ]
+}

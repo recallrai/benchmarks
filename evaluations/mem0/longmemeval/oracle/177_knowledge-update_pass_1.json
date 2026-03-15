@@ -1,0 +1,19 @@
+{
+    "index": 177,
+    "question_type": "knowledge-update",
+    "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+    "question_date": "2023/06/23 (Fri) 07:47",
+    "ground_truth_answer": "Two",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has accumulated enough Hilton Honors points for two free nights at any Hilton property,' which directly matches the gold answer of 'Two.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has accumulated enough Hilton Honors points for two free nights at any Hilton property,' which directly matches the gold answer of 'Two.'"
+        }
+    ]
+}

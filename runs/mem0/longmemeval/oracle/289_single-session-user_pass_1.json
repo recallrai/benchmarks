@@ -1,0 +1,22 @@
+{
+    "index": 289,
+    "question_type": "single-session-user",
+    "question": "What play did I attend at the local community theater?",
+    "question_date": "2023/05/30 (Tue) 03:57",
+    "ground_truth_answer": "The Glass Menagerie",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_289_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a play at the local community theater, was impressed by the lead actress's performance, which reminded the user of friend Emily, an aspiring actress.\nUser intends to encourage friend Emily to audition for a role, and the play they attended was a production of The Glass Menagerie.\nUser recently auditioned for a role in The Crucible, did not go well, and is motivated to improve acting skills by taking adult acting classes that focus on scene study and character development to create more authentic performances.\nUser is seeking recommendations for local Italian restaurants, having recently tried a new downtown place that was pretty good, and wants to explore other options.",
+            "latency": 1674.386
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a play at the local community theater, was impressed by the lead actress's performance, which reminded the user of friend Emily, an aspiring actress.\nUser intends to encourage friend Emily to audition for a role, and the play they attended was a production of The Glass Menagerie.\nUser recently auditioned for a role in The Crucible, did not go well, and is motivated to improve acting skills by taking adult acting classes that focus on scene study and character development to create more authentic performances.\nUser is seeking recommendations for local Italian restaurants, having recently tried a new downtown place that was pretty good, and wants to explore other options.",
+            "latency": 2255.154
+        }
+    ]
+}

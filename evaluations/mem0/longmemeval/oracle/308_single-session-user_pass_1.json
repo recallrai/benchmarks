@@ -1,0 +1,19 @@
+{
+    "index": 308,
+    "question_type": "single-session-user",
+    "question": "How many bikes do I own?",
+    "question_date": "2023/05/21 (Sun) 04:11",
+    "ground_truth_answer": "three",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User owns three bikes\u2014a road bike, a mountain bike, and a commuter bike' which directly matches the gold answer of 'three'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User owns three bikes\u2014a road bike, a mountain bike, and a commuter bike' which directly matches the gold answer of 'three'."
+        }
+    ]
+}

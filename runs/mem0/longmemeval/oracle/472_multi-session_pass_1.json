@@ -1,0 +1,22 @@
+{
+    "index": 472,
+    "question_type": "multi-session",
+    "question": "How many dinner parties have I attended in the past month?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "three",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_472_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants coffee or espresso recommendations to serve after dinner, noting that they have developed a taste for good coffee through morning jogs with friend Rachel.\nUser is planning an Italian-themed dinner party soon, inspired by a recent Italian feast at Sarah's place last week (2026-01-21), and wants beginner-friendly recipe ideas.\nUser intends to serve Spaghetti Aglio e Olio and Chicken Parmesan at the dinner party, expressing a particular love for the combination of garlic and olive oil.\nUser wants wine pairing recommendations for the Italian feast, aiming to provide a good selection for guests.\nUser had a board game night at Sarah's place after the Italian feast last week (2026-01-21), playing until late into the night, and is looking for board game recommendations suitable for a dinner party, specifically mentioning a preference for What Do You Meme and Taboo.\nUser is interested in a biscotti recipe and tips on how to pair biscotti with coffee.\nUser is interested in a fruit tart recipe and tips on how to pair fruit tart with coffee.",
+            "latency": 529.518
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants coffee or espresso recommendations to serve after dinner, noting that they have developed a taste for good coffee through morning jogs with friend Rachel.\nUser is planning an Italian-themed dinner party soon, inspired by a recent Italian feast at Sarah's place last week (2026-01-21), and wants beginner-friendly recipe ideas.\nUser intends to serve Spaghetti Aglio e Olio and Chicken Parmesan at the dinner party, expressing a particular love for the combination of garlic and olive oil.\nUser wants wine pairing recommendations for the Italian feast, aiming to provide a good selection for guests.\nUser had a board game night at Sarah's place after the Italian feast last week (2026-01-21), playing until late into the night, and is looking for board game recommendations suitable for a dinner party, specifically mentioning a preference for What Do You Meme and Taboo.\nUser is interested in a biscotti recipe and tips on how to pair biscotti with coffee.\nUser is interested in a fruit tart recipe and tips on how to pair fruit tart with coffee.",
+            "latency": 779.229
+        }
+    ]
+}

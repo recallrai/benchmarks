@@ -1,0 +1,22 @@
+{
+    "index": 199,
+    "question_type": "knowledge-update",
+    "question": "Where do I currently keep my old sneakers?",
+    "question_date": "2023/06/07 (Wed) 04:15",
+    "ground_truth_answer": "in a shoe rack in my closet",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_199_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants advice on keeping sneakers clean and fresh while stored, planning to store them in breathable bags, use shoe trees or paper, and keep them away from direct sunlight.\nUser intends to inventory their shoe collection to identify unused pairs hidden in the closet and wants to organize the closet by shoe type, grouping boots, sneakers, etc., and plans to move old sneakers into a shoe rack this weekend to free up space.\nUser has old sneakers stored under the bed that are beginning to emit odor and intends to take them to a cobbler this weekend for polishing and conditioning.\nUser plans to donate a pair of old dress shoes to a local charity thrift store on Saturday, concerned about acceptance if the shoes are slightly worn but still in good condition, and will call ahead and check the thrift store's website before dropping them off.\nUser is planning to purchase a new pair of durable sandals with better quality straps, researching brands such as Teva and Merrell.",
+            "latency": 653.467
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants advice on keeping sneakers clean and fresh while stored, planning to store them in breathable bags, use shoe trees or paper, and keep them away from direct sunlight.\nUser intends to inventory their shoe collection to identify unused pairs hidden in the closet and wants to organize the closet by shoe type, grouping boots, sneakers, etc., and plans to move old sneakers into a shoe rack this weekend to free up space.\nUser has old sneakers stored under the bed that are beginning to emit odor and intends to take them to a cobbler this weekend for polishing and conditioning.\nUser plans to donate a pair of old dress shoes to a local charity thrift store on Saturday, concerned about acceptance if the shoes are slightly worn but still in good condition, and will call ahead and check the thrift store's website before dropping them off.\nUser is planning to purchase a new pair of durable sandals with better quality straps, researching brands such as Teva and Merrell.",
+            "latency": 869.308
+        }
+    ]
+}

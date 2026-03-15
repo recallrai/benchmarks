@@ -1,0 +1,19 @@
+{
+    "index": 12,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+    "question_date": "2023/03/14 (Tue) 15:20",
+    "ground_truth_answer": "14 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context provides both event dates (Walk for Hunger on February 21 and Coastal Cleanup on March 7th), which allows calculation of the days between them (14 days), matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains both event dates (Walk for Hunger on February 21 and Coastal Cleanup on March 7th), which allows calculating that 14 days passed between them, matching the gold answer."
+        }
+    ]
+}

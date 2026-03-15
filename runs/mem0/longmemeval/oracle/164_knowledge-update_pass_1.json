@@ -1,0 +1,22 @@
+{
+    "index": 164,
+    "question_type": "knowledge-update",
+    "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+    "question_date": "2023/10/02 (Mon) 04:40",
+    "ground_truth_answer": "$420",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_164_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is a small business owner who is tracking sales and expenses for the year and has earned $220 at the Downtown Farmers Market on March 18th, $85 at the Arts and Crafts Fair on March 25th, $25 at the Earth Day Market on April 1st, $350 at the Downtown Farmers Market on May 6th, $200 at the Mother's Day Market on May 13th, and $400 at the Foodie Festival on May 20th, totaling $1,280 in gross earnings so far this year.\nThe small\u2011business soap maker is planning to launch a points\u2011based loyalty program with tiered rewards to incentivize repeat customers, having recently earned $420 at the Downtown Farmers Market, and is contemplating offering a sign\u2011up bonus to encourage enrollment.\nThe user is considering expanding their product line to include gift baskets, specifically a \"Downtown Farmers Market\" themed gift basket featuring their best-selling soaps and candles from that event.\nThe small\u2011business soap maker is evaluating an expansion of the product line to include more artisanal soaps, weighing recent sales figures and customer feedback, and considering the opportunity to increase average order value and attract new customers.\nThe small\u2011business soap maker is almost sold out of candle supplies and is considering prioritizing a restock of strawberry jam, which is identified as one of the best\u2011selling flavors, to meet anticipated demand from recent sales.\nThe small\u2011business soap maker is preparing for upcoming events with several large orders in the pipeline and is actively seeking inventory management advice to ensure sufficient stock, having recently cleared old inventory at the Foodie Festival, which was a positive outcome.\nThe user decided to order 100 business cards as a starting quantity for their small business marketing needs.",
+            "latency": 811.428
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is a small business owner who is tracking sales and expenses for the year and has earned $220 at the Downtown Farmers Market on March 18th, $85 at the Arts and Crafts Fair on March 25th, $25 at the Earth Day Market on April 1st, $350 at the Downtown Farmers Market on May 6th, $200 at the Mother's Day Market on May 13th, and $400 at the Foodie Festival on May 20th, totaling $1,280 in gross earnings so far this year.\nThe small\u2011business soap maker is planning to launch a points\u2011based loyalty program with tiered rewards to incentivize repeat customers, having recently earned $420 at the Downtown Farmers Market, and is contemplating offering a sign\u2011up bonus to encourage enrollment.\nThe user is considering expanding their product line to include gift baskets, specifically a \"Downtown Farmers Market\" themed gift basket featuring their best-selling soaps and candles from that event.\nThe small\u2011business soap maker is evaluating an expansion of the product line to include more artisanal soaps, weighing recent sales figures and customer feedback, and considering the opportunity to increase average order value and attract new customers.\nThe small\u2011business soap maker is almost sold out of candle supplies and is considering prioritizing a restock of strawberry jam, which is identified as one of the best\u2011selling flavors, to meet anticipated demand from recent sales.\nThe small\u2011business soap maker is preparing for upcoming events with several large orders in the pipeline and is actively seeking inventory management advice to ensure sufficient stock, having recently cleared old inventory at the Foodie Festival, which was a positive outcome.\nThe user decided to order 100 business cards as a starting quantity for their small business marketing needs.",
+            "latency": 1178.325
+        }
+    ]
+}

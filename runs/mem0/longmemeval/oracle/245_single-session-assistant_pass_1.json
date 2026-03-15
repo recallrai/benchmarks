@@ -1,0 +1,22 @@
+{
+    "index": 245,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to go back to the Natural Park of Moncayo mountain in Arag\u00f3n and I was wondering, what was the name of that hiking trail you recommended that takes you through the park's most stunning landscapes and offers panoramic views of the surrounding mountainside?",
+    "question_date": "2023/05/29 (Mon) 19:48",
+    "ground_truth_answer": "The GR-90 trail.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_245_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in learning about activities or attractions available in the Natural Park of the Moncayo mountain in Arag\u00f3n.\nUser is excited about the activities in the park and is specifically looking for the best hiking trail with amazing views.\nUser wants to know the best time of year to visit the park for hiking.\nUser plans to visit the park in autumn and is looking to rent a rural cottage, seeking specific recommendations.\nUser is excited to plan the visit and appreciates the recommendations given.",
+            "latency": 1609.927
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in learning about activities or attractions available in the Natural Park of the Moncayo mountain in Arag\u00f3n.\nUser is excited about the activities in the park and is specifically looking for the best hiking trail with amazing views.\nUser wants to know the best time of year to visit the park for hiking.\nUser plans to visit the park in autumn and is looking to rent a rural cottage, seeking specific recommendations.\nUser is excited to plan the visit and appreciates the recommendations given.",
+            "latency": 2221.041
+        }
+    ]
+}

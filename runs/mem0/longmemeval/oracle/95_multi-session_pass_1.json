@@ -1,0 +1,22 @@
+{
+    "index": 95,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 20:00",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_95_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User purchased a new laptop backpack from Amazon on January 20, 2026, and it has been a lifesaver for carrying their work laptop back and forth, describing it as comfortable and spacious, and they prefer a rechargeable battery to reduce waste.\nUser installed a high\u2011end NVIDIA graphics card in December 2025, finally installed it on February 10, 2026, and has experienced a huge improvement in gaming performance.\nUser experienced Wi\u2011Fi connectivity issues that were resolved by a system update on January 28, and they are looking for general troubleshooting and optimization tips for their laptop's Wi\u2011Fi performance.\nUser downloaded a password manager app on February 12 and has not yet checked for updates; they want advice on keeping the app up to date and secure.\nUser is considering purchasing a new mid\u2011range wireless mouse, specifically interested in the Logitech MX Anywhere 2S battery life and sensor accuracy compared to other mid\u2011range mice.\nUser organized their digital life on February 5 by creating a new folder structure, moving all work documents to the cloud to free hard drive space, and unsubscribing from numerous newsletters and promotional emails; they are seeking ongoing tips to maintain file and email organization.\nThe new card has higher frame rates and overall snappier system responsiveness due to the GPU offloading graphical tasks from the CPU, especially in FPS titles like Call of Duty and Halo.\nUser cleaned their desktop computer on February 1, 2026, removing dust from fans and vents, which improved performance.",
+            "latency": 836.948
+        },
+        {
+            "strategy": "graph",
+            "context": "User purchased a new laptop backpack from Amazon on January 20, 2026, and it has been a lifesaver for carrying their work laptop back and forth, describing it as comfortable and spacious, and they prefer a rechargeable battery to reduce waste.\nUser installed a high\u2011end NVIDIA graphics card in December 2025, finally installed it on February 10, 2026, and has experienced a huge improvement in gaming performance.\nUser experienced Wi\u2011Fi connectivity issues that were resolved by a system update on January 28, and they are looking for general troubleshooting and optimization tips for their laptop's Wi\u2011Fi performance.\nUser downloaded a password manager app on February 12 and has not yet checked for updates; they want advice on keeping the app up to date and secure.\nUser is considering purchasing a new mid\u2011range wireless mouse, specifically interested in the Logitech MX Anywhere 2S battery life and sensor accuracy compared to other mid\u2011range mice.\nUser organized their digital life on February 5 by creating a new folder structure, moving all work documents to the cloud to free hard drive space, and unsubscribing from numerous newsletters and promotional emails; they are seeking ongoing tips to maintain file and email organization.\nThe new card has higher frame rates and overall snappier system responsiveness due to the GPU offloading graphical tasks from the CPU, especially in FPS titles like Call of Duty and Halo.\nUser cleaned their desktop computer on February 1, 2026, removing dust from fans and vents, which improved performance.",
+            "latency": 1164.811
+        }
+    ]
+}

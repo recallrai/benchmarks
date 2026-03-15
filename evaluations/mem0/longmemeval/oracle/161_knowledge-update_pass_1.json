@@ -1,0 +1,19 @@
+{
+    "index": 161,
+    "question_type": "knowledge-update",
+    "question": "Where did I get my guitar serviced?",
+    "question_date": "2023/06/12 (Mon) 07:37",
+    "ground_truth_answer": "The music shop on Main St.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'trusted music shop on Main St, previously used for guitar maintenance,' which directly indicates the location where the guitar was serviced and matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user 'previously used' the 'trusted music shop on Main St' for 'guitar maintenance', which aligns with the gold answer about where the guitar was serviced."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 402,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I harvest my first batch of fresh herbs from the herb garden kit?",
+    "question_date": "2023/04/18 (Tue) 10:15",
+    "ground_truth_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_402_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is planning to make a salad for dinner tonight, wants recipe suggestions featuring fresh herbs such as basil or thyme, and has just harvested the first batch of fresh herbs from an herb garden kit today, intending to use them up.\nThe user has harvested a lot of thyme from their garden and is looking for suggestions on using thyme in soups or stews before it goes bad.\nThe user wants tips on how to store fresh basil to keep it fresh for a longer period.\nThe user wants to create a compost bin in their backyard to recycle kitchen scraps and produce nutrient-rich soil for their garden.\nThe user usually selects whatever looks good at the store when buying peaches, but is now interested in making a Basil and Peach Salad, wants tips on selecting the right peaches for the recipe, and is curious about substituting goat cheese with feta or ricotta.\nThe user acknowledges that they have never considered the differences in texture and flavor between cheeses, but will keep that in mind when experimenting with the recipe.",
+            "latency": 928.663
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is planning to make a salad for dinner tonight, wants recipe suggestions featuring fresh herbs such as basil or thyme, and has just harvested the first batch of fresh herbs from an herb garden kit today, intending to use them up.\nThe user has harvested a lot of thyme from their garden and is looking for suggestions on using thyme in soups or stews before it goes bad.\nThe user wants tips on how to store fresh basil to keep it fresh for a longer period.\nThe user wants to create a compost bin in their backyard to recycle kitchen scraps and produce nutrient-rich soil for their garden.\nThe user usually selects whatever looks good at the store when buying peaches, but is now interested in making a Basil and Peach Salad, wants tips on selecting the right peaches for the recipe, and is curious about substituting goat cheese with feta or ricotta.\nThe user acknowledges that they have never considered the differences in texture and flavor between cheeses, but will keep that in mind when experimenting with the recipe.",
+            "latency": 1547.834
+        }
+    ]
+}

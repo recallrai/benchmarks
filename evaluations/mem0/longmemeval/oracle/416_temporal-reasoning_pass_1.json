@@ -1,0 +1,19 @@
+{
+    "index": 416,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+    "question_date": "2023/02/01 (Wed) 21:37",
+    "ground_truth_answer": "The Metropolitan Museum of Art.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art, which matches the gold answer location and describes an art-related event that could correspond to two weeks before the question date."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art, which matches the gold answer and would allow someone to correctly identify where the art-related event was held."
+        }
+    ]
+}

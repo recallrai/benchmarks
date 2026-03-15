@@ -1,0 +1,22 @@
+{
+    "index": 170,
+    "question_type": "knowledge-update",
+    "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+    "question_date": "2023/06/19 (Mon) 14:41",
+    "ground_truth_answer": "Premier Silver",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_170_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to know their current United Airlines frequent flyer status and how many miles are needed for a flight to Los Angeles.\nUser wants to know how long it typically takes to earn enough miles to upgrade to United Premier Platinum status.\nUser has just reached 20,000 miles on United Airlines, earning Premier Silver status, and wants to know how many miles are needed for a one-way economy ticket from Washington, D.C. to Los Angeles.\nUser wants to know which loyalty programs allow transfers to United MileagePlus and the transfer ratios.\nUser is planning a round\u2011trip trip to San Francisco from Washington D.C. in a few weeks, is flexible with travel dates, wants economy tickets, has a budget of around $400, and has recently achieved United Airlines Premier Gold status.\nUser wants a step-by-step guide to transfer Chase Ultimate Rewards points to United MileagePlus.\nUser is booking a one-way economy ticket from Washington, D.C. to Los Angeles using United miles and wants an estimate of taxes and fees for the award ticket.\nUser wants to know how many miles would be earned on the IAD to SFO flight.\nUser is planning a trip to Los Angeles and wants to know the best ways to get from downtown Los Angeles to LAX, and is interested in using United miles to book a flight to Los Angeles.\nUser wants to check for error fares or sales that could lower the price for the IAD to SFO non\u2011stop flights.",
+            "latency": 705.439
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to know their current United Airlines frequent flyer status and how many miles are needed for a flight to Los Angeles.\nUser wants to know how long it typically takes to earn enough miles to upgrade to United Premier Platinum status.\nUser has just reached 20,000 miles on United Airlines, earning Premier Silver status, and wants to know how many miles are needed for a one-way economy ticket from Washington, D.C. to Los Angeles.\nUser wants to know which loyalty programs allow transfers to United MileagePlus and the transfer ratios.\nUser is planning a round\u2011trip trip to San Francisco from Washington D.C. in a few weeks, is flexible with travel dates, wants economy tickets, has a budget of around $400, and has recently achieved United Airlines Premier Gold status.\nUser wants a step-by-step guide to transfer Chase Ultimate Rewards points to United MileagePlus.\nUser is booking a one-way economy ticket from Washington, D.C. to Los Angeles using United miles and wants an estimate of taxes and fees for the award ticket.\nUser wants to know how many miles would be earned on the IAD to SFO flight.\nUser is planning a trip to Los Angeles and wants to know the best ways to get from downtown Los Angeles to LAX, and is interested in using United miles to book a flight to Los Angeles.\nUser wants to check for error fares or sales that could lower the price for the IAD to SFO non\u2011stop flights.",
+            "latency": 907.968
+        }
+    ]
+}

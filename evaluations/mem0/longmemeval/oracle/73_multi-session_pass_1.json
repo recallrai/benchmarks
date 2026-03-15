@@ -1,0 +1,19 @@
+{
+    "index": 73,
+    "question_type": "multi-session",
+    "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+    "question_date": "2023/05/24 (Wed) 18:37",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 tanks (the 20-gallon 'Amazonia' tank and the 1-gallon tank for a friend's child), but the gold answer states the user has 3 tanks total."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 tanks (the 20-gallon 'Amazonia' tank and the 1-gallon tank for a friend's child), but the gold answer indicates the user has 3 tanks total."
+        }
+    ]
+}

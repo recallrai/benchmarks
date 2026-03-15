@@ -1,0 +1,22 @@
+{
+    "index": 149,
+    "question_type": "knowledge-update",
+    "question": "Do I go to the gym more frequently than I did previously?",
+    "question_date": "2023/08/18 (Fri) 04:17",
+    "ground_truth_answer": "Yes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_149_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a consistent gym routine of four sessions per week and plans to reward themselves with a post-workout smoothie on Saturday as a treat for their dedication.\nUser plans a weekly schedule with meal prep Sunday, admin tasks, reading, meditation, workouts, and social commitments like dinner with Rachel Friday and family dinner Saturday, and uses a habit tracker app to monitor tasks, designating Fridays for admin and Sundays for meal prep to stay consistent.\nUser prefers healthy meal prep with lean proteins and veggies, has been doing quinoa salad, has no dietary restrictions, and has decided to try the Grilled Chicken and Veggie Containers recipe, appreciating the variety of veggies and lean protein in one container.\nUser plans to meal prep healthy dinners on Sunday using the Quinoa and Roasted Vegetable Bowls recipe, customized with grilled chicken and black beans to increase protein content.\nUser seeks suggestions on prioritizing tasks and staying organized, expressing a desire to feel in control, enjoy healthy meals, and maintain meaningful social time while planning their week ahead.",
+            "latency": 819.157
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a consistent gym routine of four sessions per week and plans to reward themselves with a post-workout smoothie on Saturday as a treat for their dedication.\nUser plans a weekly schedule with meal prep Sunday, admin tasks, reading, meditation, workouts, and social commitments like dinner with Rachel Friday and family dinner Saturday, and uses a habit tracker app to monitor tasks, designating Fridays for admin and Sundays for meal prep to stay consistent.\nUser prefers healthy meal prep with lean proteins and veggies, has been doing quinoa salad, has no dietary restrictions, and has decided to try the Grilled Chicken and Veggie Containers recipe, appreciating the variety of veggies and lean protein in one container.\nUser plans to meal prep healthy dinners on Sunday using the Quinoa and Roasted Vegetable Bowls recipe, customized with grilled chicken and black beans to increase protein content.\nUser seeks suggestions on prioritizing tasks and staying organized, expressing a desire to feel in control, enjoy healthy meals, and maintain meaningful social time while planning their week ahead.",
+            "latency": 1101.722
+        }
+    ]
+}

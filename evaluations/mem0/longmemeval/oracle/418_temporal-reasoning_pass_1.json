@@ -1,0 +1,19 @@
+{
+    "index": 418,
+    "question_type": "temporal-reasoning",
+    "question": "What was the the life event of one of my relatives that I participated in a week ago?",
+    "question_date": "2023/06/22 (Thu) 11:12",
+    "ground_truth_answer": "my cousin's wedding",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user being a bridesmaid at their cousin's wedding, which matches the gold answer of 'my cousin's wedding' as a life event of a relative that the user participated in."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the user was a bridesmaid at their cousin's wedding, which matches the gold answer of 'my cousin's wedding' and indicates participation in this life event of a relative."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 499,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/28 (Sun) 06:58",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how much will the bus take.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_499_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to ask the hotel for transportation recommendations from the airport.\nUser is considering a taxi due to having a lot of luggage, but a friend says taxis are expensive, and was told a taxi would cost around $60, which User finds a bit pricey.\nUser is planning a trip to Japan, flying into Narita Airport, staying in Shinjuku, arriving Friday afternoon. They are uncertain about the best way to reach the hotel, a friend says other options exist, believe a $10 fare may be a deal, and plan to ask the hotel for transport recommendations.",
+            "latency": 489.34
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to ask the hotel for transportation recommendations from the airport.\nUser is considering a taxi due to having a lot of luggage, but a friend says taxis are expensive, and was told a taxi would cost around $60, which User finds a bit pricey.\nUser is planning a trip to Japan, flying into Narita Airport, staying in Shinjuku, arriving Friday afternoon. They are uncertain about the best way to reach the hotel, a friend says other options exist, believe a $10 fare may be a deal, and plan to ask the hotel for transport recommendations.",
+            "latency": 719.399
+        }
+    ]
+}

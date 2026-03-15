@@ -1,0 +1,19 @@
+{
+    "index": 273,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+    "question_date": "2023/05/27 (Sat) 04:28",
+    "ground_truth_answer": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Chiefs playing the Jaguars at Arrowhead Stadium, so it cannot be used to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the Chiefs playing the Jaguars at Arrowhead Stadium, so it cannot support answering the question."
+        }
+    ]
+}

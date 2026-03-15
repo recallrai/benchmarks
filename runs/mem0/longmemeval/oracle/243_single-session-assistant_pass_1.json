@@ -1,0 +1,22 @@
+{
+    "index": 243,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Native American powwows and I was wondering, which traditional game did you say was often performed by skilled dancers at powwows?",
+    "question_date": "2023/05/29 (Mon) 16:06",
+    "ground_truth_answer": "Hoop Dance",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_243_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User expresses surprise at the many traditional games played during powwows.\nUser has a longstanding interest in Native American culture and intends to attend a powwow soon.\nUser seeks recommendations for the best powwows to attend and tips for what to wear or bring to a powwow.",
+            "latency": 1383.713
+        },
+        {
+            "strategy": "graph",
+            "context": "User expresses surprise at the many traditional games played during powwows.\nUser has a longstanding interest in Native American culture and intends to attend a powwow soon.\nUser seeks recommendations for the best powwows to attend and tips for what to wear or bring to a powwow.",
+            "latency": 6615.023
+        }
+    ]
+}

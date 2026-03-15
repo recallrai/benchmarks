@@ -1,0 +1,19 @@
+{
+    "index": 362,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the friends and family sale at Nordstrom?",
+    "question_date": "2022/12/01 (Thu) 11:48",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the context confirms the user shopped at Nordstrom's friends and family sale 'recently,' it does not provide specific temporal information to determine it was exactly 2 weeks ago from the question date."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user 'recently shopped at Nordstrom's friends and family sale' but does not provide any specific temporal information (like a date or number of weeks ago) that would allow someone to determine it was specifically 2 weeks ago."
+        }
+    ]
+}

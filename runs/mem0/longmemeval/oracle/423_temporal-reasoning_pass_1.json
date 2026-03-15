@@ -1,0 +1,22 @@
+{
+    "index": 423,
+    "question_type": "temporal-reasoning",
+    "question": "What did I do with Rachel on the Wednesday two months ago?",
+    "question_date": "2023/04/01 (Sat) 20:22",
+    "ground_truth_answer": "I started taking ukulele lessons with Rachel.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_423_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has started ukulele lessons with friend Rachel, enjoys them, is making progress, but struggles with fingerpicking due to tangled fingers and wants tips on effective practice, improving chord changes, and fingerpicking technique.\nUser had their Taylor GS Mini serviced by guitar tech Joe at Guitar Central, resulting in a perfectly adjusted action that alleviates left\u2011hand discomfort and improves playability.",
+            "latency": 570.629
+        },
+        {
+            "strategy": "graph",
+            "context": "User has started ukulele lessons with friend Rachel, enjoys them, is making progress, but struggles with fingerpicking due to tangled fingers and wants tips on effective practice, improving chord changes, and fingerpicking technique.\nUser had their Taylor GS Mini serviced by guitar tech Joe at Guitar Central, resulting in a perfectly adjusted action that alleviates left\u2011hand discomfort and improves playability.",
+            "latency": 840.392
+        }
+    ]
+}

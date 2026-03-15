@@ -1,0 +1,22 @@
+{
+    "index": 443,
+    "question_type": "multi-session",
+    "question": "How many hours do I work in a typical week during peak campaign seasons?",
+    "question_date": "2023/05/27 (Sat) 22:54",
+    "ground_truth_answer": "50",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_443_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has experience managing social media presence, creating and scheduling posts, analyzing engagement metrics, and during peak campaign seasons increases work hours by up to 5 hours weekly to accommodate additional workload, emphasizing ability to adapt to changing workloads and prioritize tasks effectively.\nUser plans to take a few days off soon and wants to manage work tasks before leaving; typically works 40 hours per week, with occasional weeks up to 45 hours.\nThe user will also emphasize their ability to work effectively in fast\u2011paced environments and strong time\u2011management skills, which they consider valuable for a senior role such as Content Marketing Strategist or Digital Marketing Consultant.\nThe user intends to highlight their certification in Google Analytics and HubSpot Inbound Marketing in their application materials to demonstrate expertise in data\u2011driven marketing strategies.\nUser is planning to start looking for a new job in the next few months, aiming to transition into a senior role such as Content Marketing Strategist or Digital Marketing Consultant, and seeks advice on how to prepare for that transition, including updating resume and LinkedIn.\nThe user plans to adopt a hybrid approach to resume and LinkedIn: creating a core version that highlights overall skills and achievements, and then tailoring each version to specific job descriptions by using keywords, emphasizing relevant skills, and adjusting summary or objective statements.\nUser wants to incorporate buffer time into their schedule to accommodate tasks that may take longer than expected, aiming to avoid feeling rushed or overwhelmed.\nUser intends to group similar tasks into larger blocks and identify tasks that can be swapped or adjusted.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has experience managing social media presence, creating and scheduling posts, analyzing engagement metrics, and during peak campaign seasons increases work hours by up to 5 hours weekly to accommodate additional workload, emphasizing ability to adapt to changing workloads and prioritize tasks effectively.\nUser plans to take a few days off soon and wants to manage work tasks before leaving; typically works 40 hours per week, with occasional weeks up to 45 hours.\nThe user will also emphasize their ability to work effectively in fast\u2011paced environments and strong time\u2011management skills, which they consider valuable for a senior role such as Content Marketing Strategist or Digital Marketing Consultant.\nThe user intends to highlight their certification in Google Analytics and HubSpot Inbound Marketing in their application materials to demonstrate expertise in data\u2011driven marketing strategies.\nUser is planning to start looking for a new job in the next few months, aiming to transition into a senior role such as Content Marketing Strategist or Digital Marketing Consultant, and seeks advice on how to prepare for that transition, including updating resume and LinkedIn.\nThe user plans to adopt a hybrid approach to resume and LinkedIn: creating a core version that highlights overall skills and achievements, and then tailoring each version to specific job descriptions by using keywords, emphasizing relevant skills, and adjusting summary or objective statements.\nUser wants to incorporate buffer time into their schedule to accommodate tasks that may take longer than expected, aiming to avoid feeling rushed or overwhelmed.\nUser intends to group similar tasks into larger blocks and identify tasks that can be swapped or adjusted.",
+            "latency": 737.073
+        }
+    ]
+}

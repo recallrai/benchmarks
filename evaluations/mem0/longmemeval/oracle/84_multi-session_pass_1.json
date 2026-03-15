@@ -1,0 +1,19 @@
+{
+    "index": 84,
+    "question_type": "multi-session",
+    "question": "How many hours of jogging and yoga did I do last week?",
+    "question_date": "2023/05/30 (Tue) 11:44",
+    "ground_truth_answer": "0.5 hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user completed a 30-minute jog around the neighborhood on Saturday, which equals 0.5 hours and matches the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user completed a 30-minute jog on Saturday, which equals 0.5 hours and matches the gold answer, with no yoga sessions mentioned as completed during that timeframe."
+        }
+    ]
+}

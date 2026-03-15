@@ -1,0 +1,19 @@
+{
+    "index": 384,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/05/01 (Mon) 03:56",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user 'has recently started reading The Nightingale' but contains no information about when they finished it or how many days it took to complete, which is what the question asks."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user 'recently started reading The Nightingale' but provides no information about when they finished it or how many days it took, which is necessary to answer the question."
+        }
+    ]
+}

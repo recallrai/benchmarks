@@ -1,0 +1,22 @@
+{
+    "index": 12,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+    "question_date": "2023/03/14 (Tue) 15:20",
+    "ground_truth_answer": "14 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_12_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User participated in the Walk for Hunger 5K walk on February 21 and enjoyed it.\nUser wants to know what actions are being taken to protect coral reefs and how they can get involved, feeling more motivated after volunteering at the Coastal Cleanup event on March 7th.\nUser volunteered at a Coastal Cleanup event on March 7th and felt the impact of their contribution to keeping beaches clean, describing it as amazing.\nUser wants detailed information about the Pancreatic Cancer Action Network\u2019s PurpleStride event, including its history and how the funds raised are used.\nUser wants detailed information about the American Lung Association\u2019s Fight For Air Climb event, including its history and how the funds raised are used.\nUser seeks recommendations for projects that focus on marine debris and its impact on coral reefs, specifically looking for California-based projects or projects with California chapters, motivated by their recent Coastal Cleanup volunteer experience.\nUser wants detailed information about the American Cancer Society\u2019s Making Strides Against Breast Cancer event, including its history and how the funds raised are used.\nUser is looking for new charity walking or running events that support cancer research or awareness, especially those that occur during the summer months (July or August).\nUser is interested in participating in citizen science projects for coral reef conservation, seeking details on how to participate and what projects are available.\nUser is planning a beach trip to Santa Monica soon and is seeking recommendations for eco-friendly sunscreen brands.",
+            "latency": 868.2
+        },
+        {
+            "strategy": "graph",
+            "context": "User participated in the Walk for Hunger 5K walk on February 21 and enjoyed it.\nUser wants to know what actions are being taken to protect coral reefs and how they can get involved, feeling more motivated after volunteering at the Coastal Cleanup event on March 7th.\nUser volunteered at a Coastal Cleanup event on March 7th and felt the impact of their contribution to keeping beaches clean, describing it as amazing.\nUser wants detailed information about the Pancreatic Cancer Action Network\u2019s PurpleStride event, including its history and how the funds raised are used.\nUser wants detailed information about the American Lung Association\u2019s Fight For Air Climb event, including its history and how the funds raised are used.\nUser seeks recommendations for projects that focus on marine debris and its impact on coral reefs, specifically looking for California-based projects or projects with California chapters, motivated by their recent Coastal Cleanup volunteer experience.\nUser wants detailed information about the American Cancer Society\u2019s Making Strides Against Breast Cancer event, including its history and how the funds raised are used.\nUser is looking for new charity walking or running events that support cancer research or awareness, especially those that occur during the summer months (July or August).\nUser is interested in participating in citizen science projects for coral reef conservation, seeking details on how to participate and what projects are available.\nUser is planning a beach trip to Santa Monica soon and is seeking recommendations for eco-friendly sunscreen brands.",
+            "latency": 1347.033
+        }
+    ]
+}

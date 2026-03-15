@@ -1,0 +1,22 @@
+{
+    "index": 439,
+    "question_type": "multi-session",
+    "question": "What percentage discount did I get on the book from my favorite author?",
+    "question_date": "2023/05/24 (Wed) 05:52",
+    "ground_truth_answer": "20%",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_439_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User prefers in-store shopping for personal gifts and has been curbing impulse purchases, but recently bought a new release from their favorite author at a bookstore sale last week, paying $24 after a discount, showing excitement to dive into the story despite the temptation.\nUser plans to visit a downtown jewelry store where they bought a piece for their sister, hoping the store can create a custom piece with a personalized message or birthstone, provide a gift receipt for exchange, include a personalized note or card, and ask the jeweler for wording suggestions.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User prefers in-store shopping for personal gifts and has been curbing impulse purchases, but recently bought a new release from their favorite author at a bookstore sale last week, paying $24 after a discount, showing excitement to dive into the story despite the temptation.\nUser plans to visit a downtown jewelry store where they bought a piece for their sister, hoping the store can create a custom piece with a personalized message or birthstone, provide a gift receipt for exchange, include a personalized note or card, and ask the jeweler for wording suggestions.",
+            "latency": 725.404
+        }
+    ]
+}

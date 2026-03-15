@@ -1,0 +1,22 @@
+{
+    "index": 445,
+    "question_type": "multi-session",
+    "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+    "question_date": "2023/05/30 (Tue) 20:55",
+    "ground_truth_answer": "12,000",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_445_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user\u2019s previous Facebook ad campaign reached approximately 2,000 people and generated 50 clicks to their website, yielding a 2.5% click\u2011through rate.\nThe user plans to run another Facebook ad campaign using custom audiences to effectively target people who have shown interest in similar products and maximize ad spend, building on their previous campaign.\nThe user\u2019s product is handmade home decor, targeting females aged 25\u201145 who value eco\u2011friendly products, and recently collaborated with an influencer who promoted their product to 10,000 followers, achieving great success.\nThe user is trying to improve Instagram engagement by seeking popular hashtags in their niche.\nThe user has been using Instagram stories to give followers a sneak peek into the production process and to solicit feedback on new products, including a poll last week that received around 50 votes, indicating strong engagement.\nThe user wants ideas for Instagram story content that will engage followers and showcase their brand.",
+            "latency": 491.117
+        },
+        {
+            "strategy": "graph",
+            "context": "The user\u2019s previous Facebook ad campaign reached approximately 2,000 people and generated 50 clicks to their website, yielding a 2.5% click\u2011through rate.\nThe user plans to run another Facebook ad campaign using custom audiences to effectively target people who have shown interest in similar products and maximize ad spend, building on their previous campaign.\nThe user\u2019s product is handmade home decor, targeting females aged 25\u201145 who value eco\u2011friendly products, and recently collaborated with an influencer who promoted their product to 10,000 followers, achieving great success.\nThe user is trying to improve Instagram engagement by seeking popular hashtags in their niche.\nThe user has been using Instagram stories to give followers a sneak peek into the production process and to solicit feedback on new products, including a poll last week that received around 50 votes, indicating strong engagement.\nThe user wants ideas for Instagram story content that will engage followers and showcase their brand.",
+            "latency": 726.036
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 179,
+    "question_type": "knowledge-update",
+    "question": "How many followers do I have on Instagram now?",
+    "question_date": "2023/06/03 (Sat) 09:01",
+    "ground_truth_answer": "1300",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_179_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The Instagram content creator has approximately 1300 followers, consistently posts regularly, maintains a consistent aesthetic, and is actively building an Instagram presence while seeking practical ways to boost engagement and audience growth.\nThe Instagram content creator is looking to optimize their Instagram content strategy to increase engagement and grow their audience, requesting actionable tips.\nUser intends to reach out to micro\u2011influencer Ashley Gaida with a collaboration proposal, including a personalized outreach message: 'Hi Ashley, I've followed your content on content creation and digital marketing. I think our audiences would benefit from a post on my blog about creating Instagram content. Interested?'\nThe Instagram content creator is requesting tips for creating engaging captions for their posts.\nThe Instagram content creator plans to use Instagram Live more frequently, specifically a Q&A session on their next live stream, and seeks strategies to make the live streams engaging, interactive, and to encourage viewers to ask questions.\nUser plans to create a new Instagram post about a recent industry event attended, targeting an audience primarily from the US, UK, and Australia, and wants a catchy caption that encourages engagement.\nUser is seeking suggestions for relevant influencers or content creators in the content creation and digital marketing niche to collaborate with, given recent growth and engagement.\nUser plans to start collaborations with micro\u2011influencers and requests potential collaboration ideas.\nUser wants to replace general event hashtags with niche\u2011specific hashtags such as #contentcreation, #digitalmarketing, and #socialmediastrategy to better target their content.",
+            "latency": 718.412
+        },
+        {
+            "strategy": "graph",
+            "context": "The Instagram content creator has approximately 1300 followers, consistently posts regularly, maintains a consistent aesthetic, and is actively building an Instagram presence while seeking practical ways to boost engagement and audience growth.\nThe Instagram content creator is looking to optimize their Instagram content strategy to increase engagement and grow their audience, requesting actionable tips.\nUser intends to reach out to micro\u2011influencer Ashley Gaida with a collaboration proposal, including a personalized outreach message: 'Hi Ashley, I've followed your content on content creation and digital marketing. I think our audiences would benefit from a post on my blog about creating Instagram content. Interested?'\nThe Instagram content creator is requesting tips for creating engaging captions for their posts.\nThe Instagram content creator plans to use Instagram Live more frequently, specifically a Q&A session on their next live stream, and seeks strategies to make the live streams engaging, interactive, and to encourage viewers to ask questions.\nUser plans to create a new Instagram post about a recent industry event attended, targeting an audience primarily from the US, UK, and Australia, and wants a catchy caption that encourages engagement.\nUser is seeking suggestions for relevant influencers or content creators in the content creation and digital marketing niche to collaborate with, given recent growth and engagement.\nUser plans to start collaborations with micro\u2011influencers and requests potential collaboration ideas.\nUser wants to replace general event hashtags with niche\u2011specific hashtags such as #contentcreation, #digitalmarketing, and #socialmediastrategy to better target their content.",
+            "latency": 957.74
+        }
+    ]
+}

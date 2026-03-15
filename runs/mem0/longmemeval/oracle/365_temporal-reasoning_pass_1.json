@@ -1,0 +1,22 @@
+{
+    "index": 365,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a baking class at a local culinary school when I made my friend's birthday cake?",
+    "question_date": "2022/04/15 (Fri) 14:21",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_365_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been really into baking lately.\nUser attended an amazing baking class at a local culinary school yesterday, which sparked a strong obsession with strawberries and inspired User to plan a strawberry shortcake using fresh strawberries from the farmer's market, and User is seeking tips for whipping cream that is light, fluffy, and holds its shape\nUser just baked a chocolate cake for a friend's birthday party today that turned out amazing, using a new recipe found online that used espresso powder to intensify chocolate flavor.\nUser is also thinking of making lemon bars for the dinner party, wants tips for making a shortbread crust, and recently made a batch with a shortbread crust and lemon curd made with fresh lemons and eggs, which turned out tangy and sweet.\nUser is hosting a dinner party next weekend and is looking for new recipe ideas for a unique dessert.\nUser is excited to try making croissants again, and also wants to make banana bread for the dinner party; recently made a batch with walnuts that turned out amazing.\nUser loves matcha tiramisu and salted caramel chocolate tart, and has experimented with strawberries, making a strawberry rhubarb crisp a few weeks ago that was incredible.\nUser is experimenting with sourdough starter to make a sourdough shortcake, has decided to use bread flour first after having good results with it in cookies, and plans to monitor proofing time and adjust liquid content accordingly\nUser wants a savory dish to complement the sweet treats.\nUser wants tips for making moist and flavorful banana bread.",
+            "latency": 509.349
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been really into baking lately.\nUser attended an amazing baking class at a local culinary school yesterday, which sparked a strong obsession with strawberries and inspired User to plan a strawberry shortcake using fresh strawberries from the farmer's market, and User is seeking tips for whipping cream that is light, fluffy, and holds its shape\nUser just baked a chocolate cake for a friend's birthday party today that turned out amazing, using a new recipe found online that used espresso powder to intensify chocolate flavor.\nUser is also thinking of making lemon bars for the dinner party, wants tips for making a shortbread crust, and recently made a batch with a shortbread crust and lemon curd made with fresh lemons and eggs, which turned out tangy and sweet.\nUser is hosting a dinner party next weekend and is looking for new recipe ideas for a unique dessert.\nUser is excited to try making croissants again, and also wants to make banana bread for the dinner party; recently made a batch with walnuts that turned out amazing.\nUser loves matcha tiramisu and salted caramel chocolate tart, and has experimented with strawberries, making a strawberry rhubarb crisp a few weeks ago that was incredible.\nUser is experimenting with sourdough starter to make a sourdough shortcake, has decided to use bread flour first after having good results with it in cookies, and plans to monitor proofing time and adjust liquid content accordingly\nUser wants a savory dish to complement the sweet treats.\nUser wants tips for making moist and flavorful banana bread.",
+            "latency": 785.436
+        }
+    ]
+}

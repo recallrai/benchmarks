@@ -1,0 +1,19 @@
+{
+    "index": 284,
+    "question_type": "single-session-assistant",
+    "question": "I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+    "question_date": "2023/05/24 (Wed) 08:42",
+    "ground_truth_answer": "The recommended ratio is 1:10, meaning one part tea tree oil to ten parts carrier oil.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user's interest in tea tree oil application methods and safety considerations, but does not contain the specific dilution ratio of 1:10 needed to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions tea tree oil uses and safety considerations but does not contain the specific 1:10 dilution ratio that the question asks for."
+        }
+    ]
+}

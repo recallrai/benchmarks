@@ -1,0 +1,22 @@
+{
+    "index": 303,
+    "question_type": "single-session-user",
+    "question": "What speed is my new internet plan?",
+    "question_date": "2023/05/30 (Tue) 05:53",
+    "ground_truth_answer": "500 Mbps",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_303_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User upgraded their internet connection to 500\u202fMbps around December\u202f28,\u202f2025, and reports that this upgrade has significantly improved their Netflix streaming experience.\nUser owns a Western Digital 2\u202fTB external hard drive, has been using it to back up all important files, photos, and videos, feels a great sense of peace of mind from this backup, and is also thinking about organizing computer files and ensuring proper backup practices.\nUser is experiencing laptop battery life issues, has tried various tips to extend battery life, is seeking the best way to check if the battery is still in good condition, is considering replacing the battery due to age, and wants advice on how to properly dispose of the old battery.",
+            "latency": 1245.974
+        },
+        {
+            "strategy": "graph",
+            "context": "User upgraded their internet connection to 500\u202fMbps around December\u202f28,\u202f2025, and reports that this upgrade has significantly improved their Netflix streaming experience.\nUser owns a Western Digital 2\u202fTB external hard drive, has been using it to back up all important files, photos, and videos, feels a great sense of peace of mind from this backup, and is also thinking about organizing computer files and ensuring proper backup practices.\nUser is experiencing laptop battery life issues, has tried various tips to extend battery life, is seeking the best way to check if the battery is still in good condition, is considering replacing the battery due to age, and wants advice on how to properly dispose of the old battery.",
+            "latency": 2089.485
+        }
+    ]
+}

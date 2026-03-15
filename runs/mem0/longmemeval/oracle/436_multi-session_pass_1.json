@@ -1,0 +1,22 @@
+{
+    "index": 436,
+    "question_type": "multi-session",
+    "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+    "question_date": "2023/05/27 (Sat) 03:27",
+    "ground_truth_answer": "$750",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_436_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to find a pair of black ankle boots with a heel that match the sleek design, high-quality leather, and confidence-boosting feel of a luxury pair they bought for $800, but is specifically looking for alternatives priced between $50 and $100.\nUser is actively seeking budget-friendly fashion advice to cut back on luxury shopping while still looking great, and has recently spent $800 on a luxury pair of boots, which served as a tough lesson in overspending and prompted a desire to avoid impulse purchases.\nUser is looking for budget-friendly fashion bloggers or influencers who share affordable style tips and tricks, hoping to draw inspiration from creators who align with their budget-conscious mindset.\nUser wants recommendations for clothing rental services or websites to rent clothes for special occasions, indicating openness to alternative ways to access fashionable items without purchasing.",
+            "latency": 670.676
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to find a pair of black ankle boots with a heel that match the sleek design, high-quality leather, and confidence-boosting feel of a luxury pair they bought for $800, but is specifically looking for alternatives priced between $50 and $100.\nUser is actively seeking budget-friendly fashion advice to cut back on luxury shopping while still looking great, and has recently spent $800 on a luxury pair of boots, which served as a tough lesson in overspending and prompted a desire to avoid impulse purchases.\nUser is looking for budget-friendly fashion bloggers or influencers who share affordable style tips and tricks, hoping to draw inspiration from creators who align with their budget-conscious mindset.\nUser wants recommendations for clothing rental services or websites to rent clothes for special occasions, indicating openness to alternative ways to access fashionable items without purchasing.",
+            "latency": 856.806
+        }
+    ]
+}

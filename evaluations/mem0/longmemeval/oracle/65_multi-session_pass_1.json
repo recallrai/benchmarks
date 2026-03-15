@@ -1,0 +1,19 @@
+{
+    "index": 65,
+    "question_type": "multi-session",
+    "question": "How many plants did I acquire in the last month?",
+    "question_date": "2023/05/28 (Sun) 09:22",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only explicitly mentions one plant being acquired in the last month (snake plant from sister), while the gold answer states 3 plants were acquired."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one plant acquisition (snake plant from sister 'last month'), but doesn't provide sufficient information to determine that 3 plants were acquired in the month prior to May 28, 2023."
+        }
+    ]
+}

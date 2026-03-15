@@ -1,0 +1,19 @@
+{
+    "index": 391,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend a networking event?",
+    "question_date": "2022/04/04 (Mon) 01:38",
+    "ground_truth_answer": "26 days. 27 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions a networking event happening 'today' but does not provide the absolute date of when that conversation occurred, making it impossible to calculate that it was 26-27 days before the question date of 2022/04/04."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions a networking event happened 'today' but does not provide the actual date of when that conversation occurred, making it impossible to calculate that it was 26-27 days before the question date of April 4, 2022."
+        }
+    ]
+}

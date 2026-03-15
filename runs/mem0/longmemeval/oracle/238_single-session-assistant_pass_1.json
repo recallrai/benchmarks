@@ -1,0 +1,22 @@
+{
+    "index": 238,
+    "question_type": "single-session-assistant",
+    "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+    "question_date": "2023/05/30 (Tue) 00:36",
+    "ground_truth_answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_238_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 4278.725
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 2452.074
+        }
+    ]
+}

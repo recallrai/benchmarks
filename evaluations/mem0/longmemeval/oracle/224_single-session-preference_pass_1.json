@@ -1,0 +1,19 @@
+{
+    "index": 224,
+    "question_type": "single-session-preference",
+    "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+    "question_date": "2023/05/26 (Fri) 02:11",
+    "ground_truth_answer": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly contains information about the user's previous Denver experience including meeting Brandon Flowers at a Killers concert, their strong affection for Denver's music scene, and their interest in music venues and festivals, which aligns with the gold answer's emphasis on music-related suggestions over general tourist recommendations."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly contains information about the user's previous Denver experience, including their interest in live music, attending The Killers concert at Red Rocks, meeting Brandon Flowers, and seeking music venue recommendations, which aligns with the gold answer's description of what type of suggestions would be appropriate."
+        }
+    ]
+}

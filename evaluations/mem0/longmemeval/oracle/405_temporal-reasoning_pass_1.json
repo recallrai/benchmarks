@@ -1,0 +1,19 @@
+{
+    "index": 405,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+    "question_date": "2023/04/12 (Wed) 20:28",
+    "ground_truth_answer": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions both the vegan chili recipe post and the #PlankChallenge participation, it does not provide clear temporal ordering information to determine which event happened first."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions both the vegan chili recipe post and the #PlankChallenge participation but does not provide information about which event occurred first, which is what the question asks."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 384,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/05/01 (Mon) 03:56",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_384_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is currently reading The Song of Achilles, enjoying it, reading in short bursts before bed, about halfway through, and plans to finish by end of January 2026. They were surprised by a recommendation and want audiobooks similar to The Power by Naomi Alderman, focusing on feminist themes and dystopia.\nUser is interested in historical fiction with strong female leads, has recently started reading \"The Nightingale\" by Kristin Hannah, has read \"The Poppy War\", and is looking for historical fiction audiobooks similar to \"The Nightingale\", including those with non-Western mythologies.",
+            "latency": 649.098
+        },
+        {
+            "strategy": "graph",
+            "context": "User is currently reading The Song of Achilles, enjoying it, reading in short bursts before bed, about halfway through, and plans to finish by end of January 2026. They were surprised by a recommendation and want audiobooks similar to The Power by Naomi Alderman, focusing on feminist themes and dystopia.\nUser is interested in historical fiction with strong female leads, has recently started reading \"The Nightingale\" by Kristin Hannah, has read \"The Poppy War\", and is looking for historical fiction audiobooks similar to \"The Nightingale\", including those with non-Western mythologies.",
+            "latency": 851.284
+        }
+    ]
+}

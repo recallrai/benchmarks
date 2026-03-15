@@ -1,0 +1,22 @@
+{
+    "index": 454,
+    "question_type": "multi-session",
+    "question": "What is the total number of days I spent in Japan and Chicago?",
+    "question_date": "2023/05/28 (Sun) 22:56",
+    "ground_truth_answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_454_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip to Asia and wants must\u2011visit places in Tokyo; they previously visited Japan from April\u202f15 to\u202f22, 2025, and fell in love with the city.\nUser is planning a trip to Chicago, has visited before and loved the city, and is specifically looking for good Italian restaurants based on a recent 4\u2011day trip where the user enjoyed Italian food.\nUser has decided to dine at Carmine's in Chicago and is seeking hotel recommendations near that restaurant.\nUser is interested in visiting other Asian cities within a 5\u2011hour flight radius from Tokyo and wants recommendations for popular destinations, and wants to know which airlines operate direct flights to those destinations.\nUser plans to travel from O'Hare International Airport to The Wit Hotel by Uber or Lyft, citing convenience and recent frequent use, and intends to visit Millennium Park and the lakefront path during the trip, having previously spent most of the trip in the city center.\nUser has achieved silver status with their preferred airline, has accumulated enough miles, and wants to find out if that airline operates direct flights from Tokyo to any of the destinations they are considering.\nUser has chosen The Wit Hotel for accommodation, appreciates its rooftop bar, and recalls a pleasant March visit where the user walked along the Lake Michigan shoreline.",
+            "latency": 579.827
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip to Asia and wants must\u2011visit places in Tokyo; they previously visited Japan from April\u202f15 to\u202f22, 2025, and fell in love with the city.\nUser is planning a trip to Chicago, has visited before and loved the city, and is specifically looking for good Italian restaurants based on a recent 4\u2011day trip where the user enjoyed Italian food.\nUser has decided to dine at Carmine's in Chicago and is seeking hotel recommendations near that restaurant.\nUser is interested in visiting other Asian cities within a 5\u2011hour flight radius from Tokyo and wants recommendations for popular destinations, and wants to know which airlines operate direct flights to those destinations.\nUser plans to travel from O'Hare International Airport to The Wit Hotel by Uber or Lyft, citing convenience and recent frequent use, and intends to visit Millennium Park and the lakefront path during the trip, having previously spent most of the trip in the city center.\nUser has achieved silver status with their preferred airline, has accumulated enough miles, and wants to find out if that airline operates direct flights from Tokyo to any of the destinations they are considering.\nUser has chosen The Wit Hotel for accommodation, appreciates its rooftop bar, and recalls a pleasant March visit where the user walked along the Lake Michigan shoreline.",
+            "latency": 802.691
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 116,
+    "question_type": "multi-session",
+    "question": "How many times did I bake egg tarts in the past two weeks?",
+    "question_date": "2023/05/29 (Mon) 05:37",
+    "ground_truth_answer": "The information provided is not enough. You did not mention baking egg tarts.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions fruit tarts with strawberries and various other baked goods, but contains no mention of egg tarts specifically, which aligns with the gold answer stating that egg tarts were not mentioned."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The gold answer states that egg tarts were not mentioned, and the retrieved context only mentions fruit tart and tart crust but no egg tarts specifically, which aligns with and supports the gold answer."
+        }
+    ]
+}

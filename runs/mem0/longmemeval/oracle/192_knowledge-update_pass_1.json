@@ -1,0 +1,22 @@
+{
+    "index": 192,
+    "question_type": "knowledge-update",
+    "question": "How many Italian restaurants have I tried in my city?",
+    "question_date": "2023/06/24 (Sat) 09:01",
+    "ground_truth_answer": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_192_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has visited three Korean restaurants recently, each offering unique flavor and style: the first served an amazing bibimbap, the second served a spicy kimchi stew, and the third served a unique Japchae with sweet potato noodle.\nUser is planning a dinner party and is looking for popular Korean BBQ dishes that are easy to prepare in large quantities, and intends to pair them with Indian and Middle Eastern dishes, specifically seeking Indian dishes that are easy to make in large quantities.\nUser is experimenting with noodles and seeks recommendations for popular Korean noodle dishes suitable for home cooking.\nUser plans to make falafel for the dinner party and wants tips to achieve a crispy exterior and fluffy interior.",
+            "latency": 811.256
+        },
+        {
+            "strategy": "graph",
+            "context": "User has visited three Korean restaurants recently, each offering unique flavor and style: the first served an amazing bibimbap, the second served a spicy kimchi stew, and the third served a unique Japchae with sweet potato noodle.\nUser is planning a dinner party and is looking for popular Korean BBQ dishes that are easy to prepare in large quantities, and intends to pair them with Indian and Middle Eastern dishes, specifically seeking Indian dishes that are easy to make in large quantities.\nUser is experimenting with noodles and seeks recommendations for popular Korean noodle dishes suitable for home cooking.\nUser plans to make falafel for the dinner party and wants tips to achieve a crispy exterior and fluffy interior.",
+            "latency": 1248.41
+        }
+    ]
+}

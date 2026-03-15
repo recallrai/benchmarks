@@ -1,0 +1,22 @@
+{
+    "index": 204,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+    "question_date": "2023/05/24 (Wed) 18:12",
+    "ground_truth_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_204_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to attend cultural events or festivals in their area that celebrate language diversity and cultural exchange, similar to a festival they volunteered at last month, indicating a desire to participate in community language celebrations.\nUser wants to find websites or apps that can help them locate language exchange partners or events in their area, specifically for conversational practice in French and Spanish.\nUser is requesting tips for effective language exchange and conversation practice when meeting with a language partner or attending a language exchange event, seeking guidance on preparation, engagement, and follow-up.\nUser is seeking language learning apps or websites that focus on idiomatic expressions and colloquialisms in French and Spanish to improve conversational skills and learn informal language.\nUser is looking for podcasts in French and Spanish that focus on conversational skills, everyday language usage, and listening improvement, seeking engaging, informative, and fun content.",
+            "latency": 2883.058
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to attend cultural events or festivals in their area that celebrate language diversity and cultural exchange, similar to a festival they volunteered at last month, indicating a desire to participate in community language celebrations.\nUser wants to find websites or apps that can help them locate language exchange partners or events in their area, specifically for conversational practice in French and Spanish.\nUser is requesting tips for effective language exchange and conversation practice when meeting with a language partner or attending a language exchange event, seeking guidance on preparation, engagement, and follow-up.\nUser is seeking language learning apps or websites that focus on idiomatic expressions and colloquialisms in French and Spanish to improve conversational skills and learn informal language.\nUser is looking for podcasts in French and Spanish that focus on conversational skills, everyday language usage, and listening improvement, seeking engaging, informative, and fun content.",
+            "latency": 2275.817
+        }
+    ]
+}

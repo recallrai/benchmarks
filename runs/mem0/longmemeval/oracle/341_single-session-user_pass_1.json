@@ -1,0 +1,22 @@
+{
+    "index": 341,
+    "question_type": "single-session-user",
+    "question": "What is my ethnicity?",
+    "question_date": "2023/05/29 (Mon) 05:51",
+    "ground_truth_answer": "A mix of Irish and Italian",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_341_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User, who has a mixed Irish and Italian heritage, is considering applying for an Italian passport because it would allow them to live and work in any EU country, which they find appealing.\nUser is actively exploring their Irish heritage, particularly traditional music and dance, and is looking for resources such as online tutorials or local classes to learn these arts.\nUser is interested in attending Irish cultural events or festivals, either organized by the cultural center or found separately, to deepen their understanding of Irish music, dance, and cultural evolution.\nUser intends to locate an Irish cultural center in their area to enroll in beginner-level classes or workshops on traditional Irish music and dance, and wants to confirm that prior experience is not required.\nUser expects that classes at the Irish cultural center will cover not only the technical skills of instruments and dance steps but also the historical and cultural context of Irish music and dance, and wants to know if such content is included.",
+            "latency": 927.373
+        },
+        {
+            "strategy": "graph",
+            "context": "User, who has a mixed Irish and Italian heritage, is considering applying for an Italian passport because it would allow them to live and work in any EU country, which they find appealing.\nUser is actively exploring their Irish heritage, particularly traditional music and dance, and is looking for resources such as online tutorials or local classes to learn these arts.\nUser is interested in attending Irish cultural events or festivals, either organized by the cultural center or found separately, to deepen their understanding of Irish music, dance, and cultural evolution.\nUser intends to locate an Irish cultural center in their area to enroll in beginner-level classes or workshops on traditional Irish music and dance, and wants to confirm that prior experience is not required.\nUser expects that classes at the Irish cultural center will cover not only the technical skills of instruments and dance steps but also the historical and cultural context of Irish music and dance, and wants to know if such content is included.",
+            "latency": 2064.165
+        }
+    ]
+}

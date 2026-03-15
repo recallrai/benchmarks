@@ -1,0 +1,19 @@
+{
+    "index": 415,
+    "question_type": "temporal-reasoning",
+    "question": "What was the airline that I flied with on Valentine's day?",
+    "question_date": "2023/03/02 (Thu) 21:56",
+    "ground_truth_answer": "American Airlines",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about a flight on Valentine's Day (February 14), but the retrieved context only mentions an American Airlines flight on February 10, which is a different date."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions an American Airlines flight on February 10, but the question asks about Valentine's Day (February 14), and the context does not mention any flight on that specific date."
+        }
+    ]
+}

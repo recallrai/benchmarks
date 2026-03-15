@@ -1,0 +1,19 @@
+{
+    "index": 163,
+    "question_type": "knowledge-update",
+    "question": "How many tops have I bought from H&M so far?",
+    "question_date": "2023/10/20 (Fri) 18:28",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has purchased five tops from H&M' which directly matches the gold answer of 'five'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has purchased five tops from H&M' which directly matches the gold answer of 'five'."
+        }
+    ]
+}

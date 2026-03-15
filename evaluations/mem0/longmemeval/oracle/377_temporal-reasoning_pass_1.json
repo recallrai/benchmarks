@@ -1,0 +1,19 @@
+{
+    "index": 377,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I meet Emma?",
+    "question_date": "2023/04/20 (Thu) 09:29",
+    "ground_truth_answer": "9 days ago. 10 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user met Emma 'today' but does not provide an absolute date or enough temporal information to determine if this 'today' corresponds to 9 days before the question date (2023/04/20), making it impossible to verify the specific timeframe asked about in the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user met Emma 'today' but without a date stamp on when the context was recorded, we cannot determine if this 'today' corresponds to 9 days before the question date (April 11, 2023)."
+        }
+    ]
+}

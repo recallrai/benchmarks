@@ -1,0 +1,22 @@
+{
+    "index": 94,
+    "question_type": "multi-session",
+    "question": "How many fitness classes do I attend in a typical week?",
+    "question_date": "2023/05/28 (Sun) 03:47",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_94_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User mixes workout classes (Zumba, Hip Hop Abs, yoga, BodyPump), sets specific cardio endurance and strength goals, has a workout buddy named Emily, and finds progress motivating.\nUser seeks recommendations on how to incorporate protein shakes into their routine, especially on days when they have BodyPump classes.\nUser is exploring new fitness routines, specifically looking for home-based strength training exercises that can be performed on days other than Sunday because they have a yoga class at 6:00\u202fPM on Sundays.\nUser attends Zumba classes on Tuesdays and Thursdays, arrives 15 minutes early to warm up, and wants suggestions for warm\u2011up exercises to prepare for the high\u2011energy class.\nUser is looking for workout playlist recommendations to motivate them during weightlifting classes, specifically BodyPump on Mondays at 6:30 PM.\nUser is looking for upbeat workout playlists for Zumba classes on Tuesdays and Thursdays at 7:00\u202fPM and strength training playlists for BodyPump class on Mondays.\nUser meal\u2011preps on Sundays, brings healthy snacks to work to reduce junk food and stay motivated, and is considering adding protein\u2011rich snacks such as Greek yogurt or hard\u2011boiled eggs to support BodyPump classes on Mondays; they seek tips for keeping these snacks fresh and convenient at work.\nUser is looking for beginner\u2011friendly protein powders, particularly whey protein options that are easy to digest and taste good, and is unsure if whey is the right choice for them to support weightlifting classes on Mondays.\nUser is interested in bodyweight squats and lunges and requests detailed guidance on proper form and technique for these exercises.\nUser plans to create a chill hip\u2011hop or R&B playlist for their Sunday yoga class at 6:00\u202fPM to help them unwind and relax during the session.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User mixes workout classes (Zumba, Hip Hop Abs, yoga, BodyPump), sets specific cardio endurance and strength goals, has a workout buddy named Emily, and finds progress motivating.\nUser seeks recommendations on how to incorporate protein shakes into their routine, especially on days when they have BodyPump classes.\nUser is exploring new fitness routines, specifically looking for home-based strength training exercises that can be performed on days other than Sunday because they have a yoga class at 6:00\u202fPM on Sundays.\nUser attends Zumba classes on Tuesdays and Thursdays, arrives 15 minutes early to warm up, and wants suggestions for warm\u2011up exercises to prepare for the high\u2011energy class.\nUser is looking for workout playlist recommendations to motivate them during weightlifting classes, specifically BodyPump on Mondays at 6:30 PM.\nUser is looking for upbeat workout playlists for Zumba classes on Tuesdays and Thursdays at 7:00\u202fPM and strength training playlists for BodyPump class on Mondays.\nUser meal\u2011preps on Sundays, brings healthy snacks to work to reduce junk food and stay motivated, and is considering adding protein\u2011rich snacks such as Greek yogurt or hard\u2011boiled eggs to support BodyPump classes on Mondays; they seek tips for keeping these snacks fresh and convenient at work.\nUser is looking for beginner\u2011friendly protein powders, particularly whey protein options that are easy to digest and taste good, and is unsure if whey is the right choice for them to support weightlifting classes on Mondays.\nUser is interested in bodyweight squats and lunges and requests detailed guidance on proper form and technique for these exercises.\nUser plans to create a chill hip\u2011hop or R&B playlist for their Sunday yoga class at 6:00\u202fPM to help them unwind and relax during the session.",
+            "latency": 715.067
+        }
+    ]
+}

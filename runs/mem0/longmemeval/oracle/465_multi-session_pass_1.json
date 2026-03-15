@@ -1,0 +1,22 @@
+{
+    "index": 465,
+    "question_type": "multi-session",
+    "question": "What is the total distance I covered in my four road trips?",
+    "question_date": "2023/05/26 (Fri) 11:56",
+    "ground_truth_answer": "3,000 miles",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_465_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has recently completed 1,800 miles across three road trips\u2014a solo trip to Durango, a weekend trip to Breckenridge, and a family trip to Santa\u202fFe\u2014demonstrating comfort with long drives and a preference for scenic spots\nThe user is planning a road trip from Denver to Mount Rushmore and wants to know the best route.\nThe user is planning a road trip from Denver to Aspen, Colorado, seeking the best route and scenic stops such as Loveland Pass and Copper Mountain, reflecting a preference for scenic driving experiences\nThe user is considering camping near Mount Rushmore instead of staying in a hotel.\nThe user is interested in food options near Mount Rushmore and wants recommendations for restaurants or cafes in the area.\nThe user is interested in the Mount Rushmore National Memorial KOA and wants detailed information about its amenities, activities, and RV rental options.\nThe user had an amazing 4\u2011day Yellowstone National Park trip with family last month, covering 1,200 miles, including a 300\u2011mile first\u2011day drive to Jackson, Wyoming, which was long but scenic views were totally worth it.\nThe user intends to take a scenic route that includes stops at Loveland Pass and Copper Mountain, and is concerned about the condition of CO\u201182\u202fE during the current time of year, showing proactive safety planning\nThe user plans to visit Maroon Lake from Aspen, expects a 20\u201130 minute drive, wonders if the detour is worth it, and seeks parking availability and shuttle bus options to optimize the visit\nThe user seeks tips for taking good photos at Maroon Lake, indicating an interest in capturing scenic moments and a desire to improve photography skills",
+            "latency": 582.103
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has recently completed 1,800 miles across three road trips\u2014a solo trip to Durango, a weekend trip to Breckenridge, and a family trip to Santa\u202fFe\u2014demonstrating comfort with long drives and a preference for scenic spots\nThe user is planning a road trip from Denver to Mount Rushmore and wants to know the best route.\nThe user is planning a road trip from Denver to Aspen, Colorado, seeking the best route and scenic stops such as Loveland Pass and Copper Mountain, reflecting a preference for scenic driving experiences\nThe user is considering camping near Mount Rushmore instead of staying in a hotel.\nThe user is interested in food options near Mount Rushmore and wants recommendations for restaurants or cafes in the area.\nThe user is interested in the Mount Rushmore National Memorial KOA and wants detailed information about its amenities, activities, and RV rental options.\nThe user had an amazing 4\u2011day Yellowstone National Park trip with family last month, covering 1,200 miles, including a 300\u2011mile first\u2011day drive to Jackson, Wyoming, which was long but scenic views were totally worth it.\nThe user intends to take a scenic route that includes stops at Loveland Pass and Copper Mountain, and is concerned about the condition of CO\u201182\u202fE during the current time of year, showing proactive safety planning\nThe user plans to visit Maroon Lake from Aspen, expects a 20\u201130 minute drive, wonders if the detour is worth it, and seeks parking availability and shuttle bus options to optimize the visit\nThe user seeks tips for taking good photos at Maroon Lake, indicating an interest in capturing scenic moments and a desire to improve photography skills",
+            "latency": 831.131
+        }
+    ]
+}

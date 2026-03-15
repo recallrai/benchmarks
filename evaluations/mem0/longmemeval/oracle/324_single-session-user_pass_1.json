@@ -1,0 +1,19 @@
+{
+    "index": 324,
+    "question_type": "single-session-user",
+    "question": "What time do I stop checking work emails and messages?",
+    "question_date": "2023/05/30 (Tue) 12:46",
+    "ground_truth_answer": "7 pm",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user stops work emails and messages by 7pm, which matches the gold answer of 7 pm."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user stops work emails and messages by 7pm, which directly matches the gold answer of 7 pm."
+        }
+    ]
+}

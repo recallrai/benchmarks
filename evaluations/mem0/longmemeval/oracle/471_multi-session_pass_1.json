@@ -1,0 +1,19 @@
+{
+    "index": 471,
+    "question_type": "multi-session",
+    "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+    "question_date": "2023/10/01 (Sun) 22:42",
+    "ground_truth_answer": "10 minutes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a current 5K time of 35 minutes but does not provide any information about the previous year's time or the 10-minute improvement mentioned in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions a recent 5K time of 35 minutes but does not include any information about a previous year's time or a 10-minute improvement, which is necessary to answer the comparative question."
+        }
+    ]
+}

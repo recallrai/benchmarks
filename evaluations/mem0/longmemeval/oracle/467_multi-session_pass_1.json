@@ -1,0 +1,19 @@
+{
+    "index": 467,
+    "question_type": "multi-session",
+    "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+    "question_date": "2023/05/27 (Sat) 13:11",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the user is trying to restore city fuel efficiency to 30 mpg and improve from the current 28 mpg, which represents a 2 mpg difference matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user is planning to restore city fuel efficiency to 30 mpg and improve from the current 28 mpg, which gives a difference of 2 mpg matching the gold answer."
+        }
+    ]
+}

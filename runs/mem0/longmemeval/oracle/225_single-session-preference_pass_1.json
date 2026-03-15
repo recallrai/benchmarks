@@ -1,0 +1,22 @@
+{
+    "index": 225,
+    "question_type": "single-session-preference",
+    "question": "I've got some free time tonight, any documentary recommendations?",
+    "question_date": "2023/05/22 (Mon) 01:48",
+    "ground_truth_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_225_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been watching many documentaries on Netflix recently, especially enjoying 'Our Planet', 'Free Solo', and 'Tiger King', and is looking for similar documentary series; additionally, the user wants more information about 'Dynasties' and 'Chasing Coral', and wants to know how these two differ from 'Our Planet' and 'Planet Earth'.\nUser wants recommendations for eco-tourism destinations that focus on coral reef conservation, and has chosen Belize as a destination and wants more details about eco-tourism opportunities in Belize.\nUser wants to learn ways to help protect coral reefs.\nUser wants to understand why coral reefs are crucial to the ocean's ecosystem.",
+            "latency": 4038.849
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been watching many documentaries on Netflix recently, especially enjoying 'Our Planet', 'Free Solo', and 'Tiger King', and is looking for similar documentary series; additionally, the user wants more information about 'Dynasties' and 'Chasing Coral', and wants to know how these two differ from 'Our Planet' and 'Planet Earth'.\nUser wants recommendations for eco-tourism destinations that focus on coral reef conservation, and has chosen Belize as a destination and wants more details about eco-tourism opportunities in Belize.\nUser wants to learn ways to help protect coral reefs.\nUser wants to understand why coral reefs are crucial to the ocean's ecosystem.",
+            "latency": 2361.537
+        }
+    ]
+}

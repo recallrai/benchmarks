@@ -1,0 +1,19 @@
+{
+    "index": 488,
+    "question_type": "multi-session",
+    "question": "What was the page count of the two novels I finished in January and March?",
+    "question_date": "2023/05/29 (Mon) 23:44",
+    "ground_truth_answer": "856",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions page counts for various novels (416, 341, 311, 512) but does not specify which books were finished in January and March, nor do any clear combinations of the mentioned page counts add up to 856."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions various books and page counts (416 pages, 341 pages, 311 pages, 512 pages) but does not specify which two novels were finished specifically in January and March 2023, nor do any combinations of the mentioned page counts add up to 856."
+        }
+    ]
+}

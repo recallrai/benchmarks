@@ -1,0 +1,22 @@
+{
+    "index": 291,
+    "question_type": "single-session-user",
+    "question": "What was my last name before I changed it?",
+    "question_date": "2023/05/29 (Mon) 18:26",
+    "ground_truth_answer": "Johnson",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_291_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently changed their last name from Johnson to Winters and is still getting used to the new name, finding the change amusing.\nUser is considering whether they need to notify the DMV about their name change.\nUser wants to update their credit reports with the three major credit bureaus (Experian, TransUnion, and Equifax) to reflect their name change and is seeking guidance on how to do so.\nUser wants to update their social media profiles, especially Facebook, to reflect their new name while ensuring they do not lose friends or memories.\nUser wants to update their credit card information with their new name, is deciding whether to call the credit card company or update online, and wants to know any precautions to take during the update.\nUser intends to update their address with their health insurance provider, prefers to call them for a quicker resolution, and wants to know the typical processing time for such updates.",
+            "latency": 1679.674
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently changed their last name from Johnson to Winters and is still getting used to the new name, finding the change amusing.\nUser is considering whether they need to notify the DMV about their name change.\nUser wants to update their credit reports with the three major credit bureaus (Experian, TransUnion, and Equifax) to reflect their name change and is seeking guidance on how to do so.\nUser wants to update their social media profiles, especially Facebook, to reflect their new name while ensuring they do not lose friends or memories.\nUser wants to update their credit card information with their new name, is deciding whether to call the credit card company or update online, and wants to know any precautions to take during the update.\nUser intends to update their address with their health insurance provider, prefers to call them for a quicker resolution, and wants to know the typical processing time for such updates.",
+            "latency": 2087.449
+        }
+    ]
+}

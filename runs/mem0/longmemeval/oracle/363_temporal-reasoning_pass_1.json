@@ -1,0 +1,22 @@
+{
+    "index": 363,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+    "question_date": "2023/10/01 (Sun) 03:53",
+    "ground_truth_answer": "Michael's engagement party",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_363_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a small, intimate wedding ceremony next year, inspired by Michael's rooftop engagement party, has started looking at venues, is excited yet uncertain, and seeks tips on choosing the right venue.\nUser is considering two wedding venue options\u2014a cozy bed and breakfast in the countryside and a beautiful art museum in the city\u2014for a small, intimate fall wedding in 2026, feels excited yet uncertain, and wants advice on making the final decision.\nUser is planning a small, intimate fall wedding in 2026, has started looking at venues, feels excited yet uncertain, and is considering hiring a wedding planner for logistics and vendor selection, seeking advice on choosing the right planner.\nUser is still deciding between the two venues, plans to schedule a consultation with a wedding planner to discuss logistics and vendor selection, wants the planner's input on the vendor selection process for countryside versus city venues, and requests examples of specific caterers, photographers, and florists the planner has worked with in these areas.",
+            "latency": 627.613
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a small, intimate wedding ceremony next year, inspired by Michael's rooftop engagement party, has started looking at venues, is excited yet uncertain, and seeks tips on choosing the right venue.\nUser is considering two wedding venue options\u2014a cozy bed and breakfast in the countryside and a beautiful art museum in the city\u2014for a small, intimate fall wedding in 2026, feels excited yet uncertain, and wants advice on making the final decision.\nUser is planning a small, intimate fall wedding in 2026, has started looking at venues, feels excited yet uncertain, and is considering hiring a wedding planner for logistics and vendor selection, seeking advice on choosing the right planner.\nUser is still deciding between the two venues, plans to schedule a consultation with a wedding planner to discuss logistics and vendor selection, wants the planner's input on the vendor selection process for countryside versus city venues, and requests examples of specific caterers, photographers, and florists the planner has worked with in these areas.",
+            "latency": 863.866
+        }
+    ]
+}

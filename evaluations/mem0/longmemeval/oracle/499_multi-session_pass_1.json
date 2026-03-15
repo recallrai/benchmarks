@@ -1,0 +1,19 @@
+{
+    "index": 499,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/28 (Sun) 06:58",
+    "ground_truth_answer": "The information provided is not enough. You did not mention how much will the bus take.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions a taxi costs around $60 and a vague reference to 'a $10 fare may be a deal' but does not definitively state the bus fare, which aligns with the gold answer that there is not enough information to calculate the savings."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions a taxi costing $60 and a vague reference to 'a $10 fare may be a deal' but does not explicitly state the bus fare, matching the gold answer's conclusion that insufficient information was provided about the bus cost."
+        }
+    ]
+}

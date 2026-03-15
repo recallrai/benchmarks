@@ -1,0 +1,22 @@
+{
+    "index": 298,
+    "question_type": "single-session-user",
+    "question": "How many playlists do I have on Spotify?",
+    "question_date": "2023/05/24 (Wed) 23:54",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_298_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been listening to a mix of Lo\u2011Fi hip\u2011hop beats and Tameca Jones' album on repeat, wants to create a new relaxing playlist with mellow artists or songs, and has 20 Spotify playlists with a desire for categorization tips\nUser is seeking music recommendations similar to Tameca Jones, asking for artists or playlists that match the user's taste\nUser plans to organize playlists by mood, already having \"Morning Boost\" for upbeat tracks and \"Focus Flow\" for instrumental music to aid concentration, and intends to use emojis or keywords in playlist names to make moods easier to identify\nUser has recently started vinyl record collecting, purchased a reissue of Fleetwood Mac's \"Rumours\" as the first record, enjoys listening on a new turntable, and is requesting tips for a beginner vinyl collector\nUser is looking for additional music discovery platforms or websites beyond Spotify's Discover Weekly and Release Radar, open to exploring music blogs, online radio stations, and other resources\nUser is excited to see Tameca Jones live next month and wants recommendations for good live music venues in the user's city",
+            "latency": 1545.776
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been listening to a mix of Lo\u2011Fi hip\u2011hop beats and Tameca Jones' album on repeat, wants to create a new relaxing playlist with mellow artists or songs, and has 20 Spotify playlists with a desire for categorization tips\nUser is seeking music recommendations similar to Tameca Jones, asking for artists or playlists that match the user's taste\nUser plans to organize playlists by mood, already having \"Morning Boost\" for upbeat tracks and \"Focus Flow\" for instrumental music to aid concentration, and intends to use emojis or keywords in playlist names to make moods easier to identify\nUser has recently started vinyl record collecting, purchased a reissue of Fleetwood Mac's \"Rumours\" as the first record, enjoys listening on a new turntable, and is requesting tips for a beginner vinyl collector\nUser is looking for additional music discovery platforms or websites beyond Spotify's Discover Weekly and Release Radar, open to exploring music blogs, online radio stations, and other resources\nUser is excited to see Tameca Jones live next month and wants recommendations for good live music venues in the user's city",
+            "latency": 2153.083
+        }
+    ]
+}

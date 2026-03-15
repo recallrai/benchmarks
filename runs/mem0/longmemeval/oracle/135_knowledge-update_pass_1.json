@@ -1,0 +1,22 @@
+{
+    "index": 135,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+    "question_date": "2023/10/31 (Tue) 06:56",
+    "ground_truth_answer": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_135_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a team outing for 5 people (4 engineers + manager Rachel) as a Senior Software Engineer.",
+            "latency": 816.707
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a team outing for 5 people (4 engineers + manager Rachel) as a Senior Software Engineer.",
+            "latency": 1185.231
+        }
+    ]
+}

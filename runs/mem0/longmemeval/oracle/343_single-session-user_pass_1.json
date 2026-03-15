@@ -1,0 +1,22 @@
+{
+    "index": 343,
+    "question_type": "single-session-user",
+    "question": "Where does my sister Emily live?",
+    "question_date": "2023/05/22 (Mon) 18:58",
+    "ground_truth_answer": "Denver",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_343_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a sister named Emily in Denver and is planning to visit her soon, looking for kid-friendly attractions in Denver.\nUser wants information about the McNichols Civic Center Building where the Musical Storytime concert will be held, including its accessibility by public transportation or car and any kid-friendly amenities.\nUser has a niece named Emma who takes piano lessons and wants to attend a kid-friendly concert or show in Denver that might inspire her love for music.\nUser is interested in the Denver Philharmonic Orchestra's Family Concerts series, specifically the Musical Storytime concert featuring piano, and is excited about attending it with Emma.\nUser is planning a family road trip and is seeking recommendations for kid-friendly attractions in various cities.",
+            "latency": 897.696
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a sister named Emily in Denver and is planning to visit her soon, looking for kid-friendly attractions in Denver.\nUser wants information about the McNichols Civic Center Building where the Musical Storytime concert will be held, including its accessibility by public transportation or car and any kid-friendly amenities.\nUser has a niece named Emma who takes piano lessons and wants to attend a kid-friendly concert or show in Denver that might inspire her love for music.\nUser is interested in the Denver Philharmonic Orchestra's Family Concerts series, specifically the Musical Storytime concert featuring piano, and is excited about attending it with Emma.\nUser is planning a family road trip and is seeking recommendations for kid-friendly attractions in various cities.",
+            "latency": 1770.037
+        }
+    ]
+}

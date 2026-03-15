@@ -1,0 +1,19 @@
+{
+    "index": 205,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend a show or movie for me to watch tonight?",
+    "question_date": "2023/05/27 (Sat) 18:09",
+    "ground_truth_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user wants recommendations for Netflix stand-up specials that feature strong storytelling, which directly matches the gold answer's preference for stand-up comedy specials on Netflix known for their storytelling."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user wants recommendations for Netflix stand-up specials that feature strong storytelling, which directly matches the gold answer's preference for stand-up comedy specials on Netflix known for their storytelling."
+        }
+    ]
+}

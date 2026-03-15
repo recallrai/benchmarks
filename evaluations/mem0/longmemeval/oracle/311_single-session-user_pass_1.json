@@ -1,0 +1,19 @@
+{
+    "index": 311,
+    "question_type": "single-session-user",
+    "question": "How many amateur comedians did I watch perform at the open mic night?",
+    "question_date": "2023/05/30 (Tue) 03:13",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'saw 10 amateur comedians perform' at an open mic night, which directly matches the gold answer of 10."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'saw 10 amateur comedians perform' at an open mic night, which directly matches the gold answer of 10."
+        }
+    ]
+}

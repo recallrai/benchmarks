@@ -1,0 +1,22 @@
+{
+    "index": 282,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+    "question_date": "2023/05/27 (Sat) 20:30",
+    "ground_truth_answer": "Patagonia",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_282_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User requests an example of a company that has successfully implemented environmentally responsible practices in its supply chain.\nUser is asking how a company ensures its supply chain is environmentally responsible.\nUser expresses admiration for companies like Patagonia that are environmentally responsible and hopes more companies will prioritize sustainability in their supply chain practices.",
+            "latency": 3929.672
+        },
+        {
+            "strategy": "graph",
+            "context": "User requests an example of a company that has successfully implemented environmentally responsible practices in its supply chain.\nUser is asking how a company ensures its supply chain is environmentally responsible.\nUser expresses admiration for companies like Patagonia that are environmentally responsible and hopes more companies will prioritize sustainability in their supply chain practices.",
+            "latency": 2480.706
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 458,
+    "question_type": "multi-session",
+    "question": "How much more did I have to pay for the trip after the initial quote?",
+    "question_date": "2023/05/24 (Wed) 02:59",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions a corrected trip price of $2,800 but does not specify the initial quote amount or the $300 difference that had to be paid additionally."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions the trip price was 'corrected to $2,800' but does not provide the initial quote amount or explicitly state the $300 additional payment needed to answer the question."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 52,
+    "question_type": "temporal-reasoning",
+    "question": "Who became a parent first, Rachel or Alex?",
+    "question_date": "2023/03/17 (Fri) 01:23",
+    "ground_truth_answer": "Alex",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states Alex adopted a baby girl from China in January, while Rachel's twins were born on February 12, 2025, indicating Alex became a parent first, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states Alex adopted a baby in January (before the March 2023 question date) while Rachel's twins were born on February 12, 2025 (nearly 2 years after the question date), supporting that Alex became a parent first."
+        }
+    ]
+}

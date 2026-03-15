@@ -1,0 +1,19 @@
+{
+    "index": 2,
+    "question_type": "temporal-reasoning",
+    "question": "Which vehicle did I take care of first in February, the bike or the car?",
+    "question_date": "2023/03/10 (Fri) 23:15",
+    "ground_truth_answer": "bike",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context shows the bike was repaired in mid-February while the car was washed on February 27th, supporting that the bike was taken care of first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context shows the bike was repaired in mid-February while the car was washed on February 27th, indicating the bike was taken care of first, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 489,
+    "question_type": "multi-session",
+    "question": "What is the total number of siblings I have?",
+    "question_date": "2023/05/28 (Sun) 09:39",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user has a brother (1 sibling), but does not provide information indicating the user has 4 siblings total."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user has a brother (1 sibling), but does not provide information about the total number of siblings being 4."
+        }
+    ]
+}

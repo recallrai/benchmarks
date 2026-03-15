@@ -1,0 +1,19 @@
+{
+    "index": 428,
+    "question_type": "temporal-reasoning",
+    "question": "What was the social media activity I participated 5 days ago?",
+    "question_date": "2023/03/20 (Mon) 05:50",
+    "ground_truth_answer": "You participated in a social media challenge called #PlankChallenge.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions #FoodieAdventures for recipe sharing but does not contain any information about the #PlankChallenge that the user participated in 5 days ago."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Instagram activity related to food (#FoodieAdventures) but does not contain any information about the #PlankChallenge or any social media activity that occurred 5 days before the question date (March 15, 2023)."
+        }
+    ]
+}

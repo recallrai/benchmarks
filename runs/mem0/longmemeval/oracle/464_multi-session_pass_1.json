@@ -1,0 +1,22 @@
+{
+    "index": 464,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the car cover and detailing spray I purchased?",
+    "question_date": "2023/05/24 (Wed) 22:16",
+    "ground_truth_answer": "$140",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_464_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a waterproof car cover that cost $120, protects the car's paint from the elements, has been effective, and is considering whether the cost can be claimed under their car insurance.\nUser wants a detailing spray for exterior cleaning and has had good experience with a $20 Amazon product that removed tar and bug stains from paint.\nUser is purchasing the Meguiar's Gold Class Car Care Kit (price $60-$70) for general cleaning and maintenance, interior detailing, and to gently care for the car's sensitive paint.\nUser plans to clean the center console, which has accumulated dust and dirt, and seeks detailed cleaning tips, interior product recommendations, and advice on using a slightly abrasive microfiber cloth to remove stubborn stains.\nUser maintains a detailed log of all maintenance work, including oil changes, tire rotations, and brake pad replacements, to track schedules and enhance resale value.\nUser intends to buy a dash cam costing approximately $150, featuring collision detection and parking mode, after researching models and reading reviews.\nUser's oil change is overdue by ~1000 miles and seeks recommendations for oil change interval tracking tools or apps.\nUser tracks fuel efficiency, noting a drop from 30 mpg to 28 mpg in city driving, and is looking for tips to improve fuel efficiency.",
+            "latency": 541.339
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a waterproof car cover that cost $120, protects the car's paint from the elements, has been effective, and is considering whether the cost can be claimed under their car insurance.\nUser wants a detailing spray for exterior cleaning and has had good experience with a $20 Amazon product that removed tar and bug stains from paint.\nUser is purchasing the Meguiar's Gold Class Car Care Kit (price $60-$70) for general cleaning and maintenance, interior detailing, and to gently care for the car's sensitive paint.\nUser plans to clean the center console, which has accumulated dust and dirt, and seeks detailed cleaning tips, interior product recommendations, and advice on using a slightly abrasive microfiber cloth to remove stubborn stains.\nUser maintains a detailed log of all maintenance work, including oil changes, tire rotations, and brake pad replacements, to track schedules and enhance resale value.\nUser intends to buy a dash cam costing approximately $150, featuring collision detection and parking mode, after researching models and reading reviews.\nUser's oil change is overdue by ~1000 miles and seeks recommendations for oil change interval tracking tools or apps.\nUser tracks fuel efficiency, noting a drop from 30 mpg to 28 mpg in city driving, and is looking for tips to improve fuel efficiency.",
+            "latency": 758.92
+        }
+    ]
+}

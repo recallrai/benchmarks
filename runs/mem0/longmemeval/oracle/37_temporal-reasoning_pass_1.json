@@ -1,0 +1,22 @@
+{
+    "index": 37,
+    "question_type": "temporal-reasoning",
+    "question": "Which trip did the narrator take first, the solo trip to Europe or the family road trip across the American Southwest?",
+    "question_date": "2023/05/23 (Tue) 02:09",
+    "ground_truth_answer": "The family road trip across the American Southwest",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_37_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User backpacked Europe for two weeks last summer, traveling through Italy, Switzerland, and Germany, visited Germany last summer, had an amazing experience, and was glad to visit Munich during that trip.\nUser is planning a 3-4 night trip to Munich in late September, wants hostel accommodations, plans to attend Oktoberfest and learn about the festival grounds.\nUser wants travel information from the city center to Dachau Concentration Camp Memorial Site and wants recommended guided tours.\nUser plans to visit the Deutsches Museum, intends to spend at least half a day there, and wants must-see exhibits.",
+            "latency": 867.052
+        },
+        {
+            "strategy": "graph",
+            "context": "User backpacked Europe for two weeks last summer, traveling through Italy, Switzerland, and Germany, visited Germany last summer, had an amazing experience, and was glad to visit Munich during that trip.\nUser is planning a 3-4 night trip to Munich in late September, wants hostel accommodations, plans to attend Oktoberfest and learn about the festival grounds.\nUser wants travel information from the city center to Dachau Concentration Camp Memorial Site and wants recommended guided tours.\nUser plans to visit the Deutsches Museum, intends to spend at least half a day there, and wants must-see exhibits.",
+            "latency": 1210.434
+        }
+    ]
+}

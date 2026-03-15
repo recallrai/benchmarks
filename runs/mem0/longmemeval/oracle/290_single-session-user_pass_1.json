@@ -1,0 +1,22 @@
+{
+    "index": 290,
+    "question_type": "single-session-user",
+    "question": "What is the name of the playlist I created on Spotify?",
+    "question_date": "2023/05/29 (Mon) 04:35",
+    "ground_truth_answer": "Summer Vibes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_290_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants a music streaming service that helps discover new music and artists in ambient and lo-fi genres, and has created a Spotify playlist called Summer Vibes containing chill tracks suitable for relaxing or working out.\nUser is interested in entrepreneurial and business podcasts and is looking for recommendations for inspiring entrepreneurial stories or business-related podcasts.\nUser is looking for upcoming music festivals or concerts in their area.\nUser attended a music festival last month with friends, saw The Lumineers and The 1975, and had an amazing experience.\nUser is trying to get back into playing guitar and is seeking online resources beyond Fender Play, including YouTube channels, to improve skills.",
+            "latency": 4973.149
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants a music streaming service that helps discover new music and artists in ambient and lo-fi genres, and has created a Spotify playlist called Summer Vibes containing chill tracks suitable for relaxing or working out.\nUser is interested in entrepreneurial and business podcasts and is looking for recommendations for inspiring entrepreneurial stories or business-related podcasts.\nUser is looking for upcoming music festivals or concerts in their area.\nUser attended a music festival last month with friends, saw The Lumineers and The 1975, and had an amazing experience.\nUser is trying to get back into playing guitar and is seeking online resources beyond Fender Play, including YouTube channels, to improve skills.",
+            "latency": 2334.262
+        }
+    ]
+}

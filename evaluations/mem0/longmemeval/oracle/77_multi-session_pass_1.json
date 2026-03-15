@@ -1,0 +1,19 @@
+{
+    "index": 77,
+    "question_type": "multi-session",
+    "question": "How many babies were born to friends and family members in the last few months?",
+    "question_date": "2023/05/13 (Sat) 20:23",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 5 babies born in the last few months before May 2023: twins Ava and Lily (April), Max (March), Charlotte (around March), and Jasper (a few weeks ago), which matches the gold answer of 5."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 5 babies born in the last few months from the question date (May 2023): twins Ava and Lily (April), Max (March), Charlotte (around March), and Jasper (a few weeks ago), which matches the gold answer of 5."
+        }
+    ]
+}

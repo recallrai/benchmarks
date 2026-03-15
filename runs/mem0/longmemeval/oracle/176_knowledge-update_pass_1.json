@@ -1,0 +1,22 @@
+{
+    "index": 176,
+    "question_type": "knowledge-update",
+    "question": "How many pre-1920 American coins do I have in my collection?",
+    "question_date": "2023/05/28 (Sun) 13:18",
+    "ground_truth_answer": "38",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_176_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a pre-1920 American coin collection of 37 coins, including a 1915\u2011S Barber quarter, plans to organize them by denomination and mint mark, seeks tips on proper storage and display, and wants recommendations for coin display cases or albums that can hold all the coins.\nUser is seeking information on notable misprinted date error coins and how to identify them.\nUser has decided to use Coin Collector's Assistant for coins and Discogs for records, and has explored camera inventory software options like CameraDB, GearTracker, PhotoKit, and Camera Inventory Pro to manage their vintage camera collection.\nUser has added a 1940s-era Leica IIIa and a 1960s-era Nikon F to their collection, and wants guidance on researching authenticity and determining their value.\nUser is looking to organize their collections of coins, records, cameras, and books, and wants recommendations for apps or software to catalog and track these items.\nUser is researching upcoming coin shows or conventions in their local area to attend for authentication and networking, and is also interested in finding deals on vintage cameras at these events to expand their camera collection.\nUser intends to have a 1972 doubled die cent authenticated, evaluating PCGS versus NGC for error coin authentication, and plans to submit the coin to a grading service.\nUser is expanding their camera collection to include vintage rangefinders, and is researching notable models and brands such as Leica, Nikon, Canon, Olympus, Contax, and Yashica to acquire.\nUser wants to get a 1913 Liberty Head nickel appraised and seeks recommendations for reputable coin appraisal services or experts.",
+            "latency": 635.385
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a pre-1920 American coin collection of 37 coins, including a 1915\u2011S Barber quarter, plans to organize them by denomination and mint mark, seeks tips on proper storage and display, and wants recommendations for coin display cases or albums that can hold all the coins.\nUser is seeking information on notable misprinted date error coins and how to identify them.\nUser has decided to use Coin Collector's Assistant for coins and Discogs for records, and has explored camera inventory software options like CameraDB, GearTracker, PhotoKit, and Camera Inventory Pro to manage their vintage camera collection.\nUser has added a 1940s-era Leica IIIa and a 1960s-era Nikon F to their collection, and wants guidance on researching authenticity and determining their value.\nUser is looking to organize their collections of coins, records, cameras, and books, and wants recommendations for apps or software to catalog and track these items.\nUser is researching upcoming coin shows or conventions in their local area to attend for authentication and networking, and is also interested in finding deals on vintage cameras at these events to expand their camera collection.\nUser intends to have a 1972 doubled die cent authenticated, evaluating PCGS versus NGC for error coin authentication, and plans to submit the coin to a grading service.\nUser is expanding their camera collection to include vintage rangefinders, and is researching notable models and brands such as Leica, Nikon, Canon, Olympus, Contax, and Yashica to acquire.\nUser wants to get a 1913 Liberty Head nickel appraised and seeks recommendations for reputable coin appraisal services or experts.",
+            "latency": 857.91
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 149,
+    "question_type": "knowledge-update",
+    "question": "Do I go to the gym more frequently than I did previously?",
+    "question_date": "2023/08/18 (Fri) 04:17",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context describes the user's current gym routine (four sessions per week) but contains no information about their previous gym frequency or any comparison indicating an increase, which is necessary to answer whether they go more frequently than before."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the current gym routine of four sessions per week but contains no information about a previous gym routine or any comparison indicating increased frequency, which is necessary to answer whether the user goes more frequently than before."
+        }
+    ]
+}

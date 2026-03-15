@@ -1,0 +1,22 @@
+{
+    "index": 45,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+    "question_date": "2023/05/29 (Mon) 09:14",
+    "ground_truth_answer": "Receiving the new phone case",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_45_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to buy a new phone charger after losing the old one at the gym two weeks ago, indicating a need for a compatible charger to maintain phone power.\nUser has a new phone case purchased about a month ago and is satisfied with its protective performance, especially after taking many photos during a recent beach trip.\nUser is looking to organize their phone apps due to having many apps and difficulty finding needed ones, seeking tips for categorizing and tidying the home screen to improve usability.\nUser is considering purchasing a portable power bank because their phone's battery life has been poor lately, indicating a need for reliable on-the-go charging solutions.\nUser feels they now have a clear idea of what they need and plans to review the recommended options to determine which best fits their needs, expressing gratitude for the recommendations.\nUser is preparing to back up phone data, requesting a step\u2011by\u2011step guide and detailed pros/cons of backup options, especially storage limits and security, and has chosen the Google Drive 200GB plan to store photos and videos from a recent beach trip.",
+            "latency": 924.718
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to buy a new phone charger after losing the old one at the gym two weeks ago, indicating a need for a compatible charger to maintain phone power.\nUser has a new phone case purchased about a month ago and is satisfied with its protective performance, especially after taking many photos during a recent beach trip.\nUser is looking to organize their phone apps due to having many apps and difficulty finding needed ones, seeking tips for categorizing and tidying the home screen to improve usability.\nUser is considering purchasing a portable power bank because their phone's battery life has been poor lately, indicating a need for reliable on-the-go charging solutions.\nUser feels they now have a clear idea of what they need and plans to review the recommended options to determine which best fits their needs, expressing gratitude for the recommendations.\nUser is preparing to back up phone data, requesting a step\u2011by\u2011step guide and detailed pros/cons of backup options, especially storage limits and security, and has chosen the Google Drive 200GB plan to store photos and videos from a recent beach trip.",
+            "latency": 1505.862
+        }
+    ]
+}

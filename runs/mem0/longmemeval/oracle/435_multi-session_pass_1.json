@@ -1,0 +1,22 @@
+{
+    "index": 435,
+    "question_type": "multi-session",
+    "question": "How much cashback did I earn at SaveMart last Thursday?",
+    "question_date": "2023/05/29 (Mon) 13:21",
+    "ground_truth_answer": "$0.75",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_435_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to track grocery expenses for the month, and has recorded $75 spent at SaveMart last Thursday.\nUser is interested in how much cashback would be earned at each stage of the shopping list.\nUser is planning a grocery shopping trip at SaveMart for the week, aiming to buy basic items such as milk, eggs, bread, and snacks within a $50 budget, has a SaveMart membership that earns 1% cashback on all purchases, no dietary restrictions, shopping for themselves.\nUser spent $50 at Sephora last week on skincare products.\nUser spent $100 at Gap last weekend on a new pair of jeans and a sweater.\nUser spent $50 at Office Depot last month for printer ink and paper.\nUser spent $15 on coffee and snacks and $12.99 on a sandwich and salad at The Daily Grind last week, totaling $27.99 in coffee/non-grocery expenses.\nUser explores buying 3 pounds of ground beef at $9.99, saving $1.98 compared to three 1-pound packs, new total $60.39.\nUser considers adding a 1-pound pack of ground beef at $3.99, raising total to $54.39, further over budget.\nUser finds a Buy One Get One 50% Off promotion on ground beef, reducing 3-pound pack to $4.99, saving $5.00, lowering total to $55.39.",
+            "latency": 497.089
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to track grocery expenses for the month, and has recorded $75 spent at SaveMart last Thursday.\nUser is interested in how much cashback would be earned at each stage of the shopping list.\nUser is planning a grocery shopping trip at SaveMart for the week, aiming to buy basic items such as milk, eggs, bread, and snacks within a $50 budget, has a SaveMart membership that earns 1% cashback on all purchases, no dietary restrictions, shopping for themselves.\nUser spent $50 at Sephora last week on skincare products.\nUser spent $100 at Gap last weekend on a new pair of jeans and a sweater.\nUser spent $50 at Office Depot last month for printer ink and paper.\nUser spent $15 on coffee and snacks and $12.99 on a sandwich and salad at The Daily Grind last week, totaling $27.99 in coffee/non-grocery expenses.\nUser explores buying 3 pounds of ground beef at $9.99, saving $1.98 compared to three 1-pound packs, new total $60.39.\nUser considers adding a 1-pound pack of ground beef at $3.99, raising total to $54.39, further over budget.\nUser finds a Buy One Get One 50% Off promotion on ground beef, reducing 3-pound pack to $4.99, saving $5.00, lowering total to $55.39.",
+            "latency": 717.485
+        }
+    ]
+}

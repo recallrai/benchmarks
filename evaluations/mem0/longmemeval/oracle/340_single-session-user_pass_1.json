@@ -1,0 +1,19 @@
+{
+    "index": 340,
+    "question_type": "single-session-user",
+    "question": "What time do I usually get home from work on weeknights?",
+    "question_date": "2023/05/29 (Mon) 16:15",
+    "ground_truth_answer": "6:30 pm",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user arrives home at 6:30 pm on weekdays, which directly matches the gold answer of 6:30 pm for weeknights."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'arriving home at 6:30 pm on weekdays,' which directly matches the gold answer of 6:30 pm for weeknights."
+        }
+    ]
+}

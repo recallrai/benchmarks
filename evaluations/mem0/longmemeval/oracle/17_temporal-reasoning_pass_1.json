@@ -1,0 +1,19 @@
+{
+    "index": 17,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+    "question_date": "2023/05/22 (Mon) 00:25",
+    "ground_truth_answer": "'The Hate U Give'",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states 'The Hate U Give' was finished 'two weeks ago' for a book club meeting, while 'The Nightingale' was 'recently finished' as one of three novels, suggesting The Hate U Give was completed first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states 'The Hate U Give' was finished 'two weeks ago' for a book club meeting, while 'The Nightingale' is mentioned among books 'recently finished', suggesting 'The Hate U Give' was completed first, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 137,
+    "question_type": "knowledge-update",
+    "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+    "question_date": "2023/08/01 (Tue) 14:49",
+    "ground_truth_answer": "120",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_137_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User uses the Starbucks Rewards app, seeks tips to earn stars faster, and is aiming to reach Gold level, believing it requires 120 stars within a 12-month period, but has received conflicting information (300, 400, 125, 120) and wants clarification.\nUser wants to know that 3,000 points are needed to redeem a $10 gift card in the Fetch Rewards program.\nUser wants to know that 250 points are needed to redeem a $10 gift card in the My Best Buy loyalty program.\nUser wants better ways to organize loyalty cards and rewards points beyond a spreadsheet, considering loyalty card apps, digital wallets, browser extensions, physical card holders, and reward tracking websites.\nUser is interested in finding good deals on coffee beans or coffee makers this week, as they are planning to stock up on coffee for their daily routine.\nUser wants product suggestions at Sephora for their weekend shopping trip.",
+            "latency": 732.694
+        },
+        {
+            "strategy": "graph",
+            "context": "User uses the Starbucks Rewards app, seeks tips to earn stars faster, and is aiming to reach Gold level, believing it requires 120 stars within a 12-month period, but has received conflicting information (300, 400, 125, 120) and wants clarification.\nUser wants to know that 3,000 points are needed to redeem a $10 gift card in the Fetch Rewards program.\nUser wants to know that 250 points are needed to redeem a $10 gift card in the My Best Buy loyalty program.\nUser wants better ways to organize loyalty cards and rewards points beyond a spreadsheet, considering loyalty card apps, digital wallets, browser extensions, physical card holders, and reward tracking websites.\nUser is interested in finding good deals on coffee beans or coffee makers this week, as they are planning to stock up on coffee for their daily routine.\nUser wants product suggestions at Sephora for their weekend shopping trip.",
+            "latency": 910.224
+        }
+    ]
+}

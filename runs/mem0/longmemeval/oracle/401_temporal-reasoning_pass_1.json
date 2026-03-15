@@ -1,0 +1,22 @@
+{
+    "index": 401,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+    "question_date": "2023/06/20 (Tue) 12:29",
+    "ground_truth_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_401_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently returned from a whitewater rafting trip in the Oregon mountains with a group of coworkers, wishing they had a waterproof camera to capture the thrilling moments on the river.\nUser wants an estimate of the GoPro Hero8 Black battery life during a full day of whitewater rafting and camping, anticipating use of both video and photo capture.\nUser is evaluating the GoPro Hero8 Black for their next outdoor adventure, specifically interested in its HyperSmooth 2.0 stabilization performance in high-shake scenarios like whitewater rafting, and whether the camera can capture high-quality photos during the rafting activity.\nUser plans to bring a 10,000mAh portable power bank to keep devices charged during the camping portion of the trip, asking if it will be sufficient to charge the GoPro Hero8 Black a few times.\nUser plans to bring a 7W solar charger to keep the 10,000mAh power bank charged during camping, asking if it will be sufficient to charge the power bank in a reasonable amount of time.",
+            "latency": 938.547
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently returned from a whitewater rafting trip in the Oregon mountains with a group of coworkers, wishing they had a waterproof camera to capture the thrilling moments on the river.\nUser wants an estimate of the GoPro Hero8 Black battery life during a full day of whitewater rafting and camping, anticipating use of both video and photo capture.\nUser is evaluating the GoPro Hero8 Black for their next outdoor adventure, specifically interested in its HyperSmooth 2.0 stabilization performance in high-shake scenarios like whitewater rafting, and whether the camera can capture high-quality photos during the rafting activity.\nUser plans to bring a 10,000mAh portable power bank to keep devices charged during the camping portion of the trip, asking if it will be sufficient to charge the GoPro Hero8 Black a few times.\nUser plans to bring a 7W solar charger to keep the 10,000mAh power bank charged during camping, asking if it will be sufficient to charge the power bank in a reasonable amount of time.",
+            "latency": 1528.741
+        }
+    ]
+}

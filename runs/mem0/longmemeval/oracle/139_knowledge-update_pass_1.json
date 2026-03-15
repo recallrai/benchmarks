@@ -1,0 +1,22 @@
+{
+    "index": 139,
+    "question_type": "knowledge-update",
+    "question": "How many sessions of the bereavement support group did I attend?",
+    "question_date": "2023/11/14 (Tue) 04:58",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_139_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a bereavement support group during a difficult period, and has participated in three sessions of the group, which helped them process emotions.\nUser is carrying forward lessons from the bereavement support group by planning to seek a therapist or counselor, join online grief communities, start a therapeutic journal, and reach out to friends and family who have experienced similar losses, expressing gratitude for past support and hope for continued healing\nUser is attempting to reconstruct the past year's calendar, specifically looking to recall the dates of family gatherings and funerals they attended, and is seeking assistance to retrieve those dates.\nUser plans to create a memory box for their grandmother, already possessing her locket and handwritten recipe book, and is looking for suggestions on how to organize the items and what additional types of items to include.\nUser is seeking guidance on how to create a memorial or ritual to honor loved ones, feeling uncertain about where to start and what would be meaningful.\nUser intends to gather all items that remind them of their grandmother, organize them personally, add photos and mementos from other family members to make the effort collaborative, and is seeking advice on caring for the memory box to keep it special and meaningful.",
+            "latency": 851.277
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a bereavement support group during a difficult period, and has participated in three sessions of the group, which helped them process emotions.\nUser is carrying forward lessons from the bereavement support group by planning to seek a therapist or counselor, join online grief communities, start a therapeutic journal, and reach out to friends and family who have experienced similar losses, expressing gratitude for past support and hope for continued healing\nUser is attempting to reconstruct the past year's calendar, specifically looking to recall the dates of family gatherings and funerals they attended, and is seeking assistance to retrieve those dates.\nUser plans to create a memory box for their grandmother, already possessing her locket and handwritten recipe book, and is looking for suggestions on how to organize the items and what additional types of items to include.\nUser is seeking guidance on how to create a memorial or ritual to honor loved ones, feeling uncertain about where to start and what would be meaningful.\nUser intends to gather all items that remind them of their grandmother, organize them personally, add photos and mementos from other family members to make the effort collaborative, and is seeking advice on caring for the memory box to keep it special and meaningful.",
+            "latency": 1192.912
+        }
+    ]
+}

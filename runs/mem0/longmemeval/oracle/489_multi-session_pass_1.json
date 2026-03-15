@@ -1,0 +1,22 @@
+{
+    "index": 489,
+    "question_type": "multi-session",
+    "question": "What is the total number of siblings I have?",
+    "question_date": "2023/05/28 (Sun) 09:39",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_489_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has a brother, which may influence the social dynamics of the user's weekly book club.\nThe user attends a weekly book club that currently includes 10 females, 4 males, and 1 non-binary person, and is curious about the average gender ratio of book clubs.\nThe user is curious about how the genre of books being read can affect the demographics of a book club.\nThe user is curious about how book club demographics change over time, particularly regarding age groups that are more or less likely to participate.\nThe user wants to explore how book club demographics and book selection vary across different regions or countries.",
+            "latency": 604.385
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has a brother, which may influence the social dynamics of the user's weekly book club.\nThe user attends a weekly book club that currently includes 10 females, 4 males, and 1 non-binary person, and is curious about the average gender ratio of book clubs.\nThe user is curious about how the genre of books being read can affect the demographics of a book club.\nThe user is curious about how book club demographics change over time, particularly regarding age groups that are more or less likely to participate.\nThe user wants to explore how book club demographics and book selection vary across different regions or countries.",
+            "latency": 825.547
+        }
+    ]
+}

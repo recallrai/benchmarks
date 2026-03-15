@@ -1,0 +1,22 @@
+{
+    "index": 473,
+    "question_type": "multi-session",
+    "question": "How much did I spend on gifts for my sister?",
+    "question_date": "2023/05/27 (Sat) 18:44",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_473_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a birthday gift for their sister next year.\nUser previously gave sister a $100 gift card to her favorite spa, which she loved.\nUser previously gave their sister a silver necklace with a small pendant from Tiffany's costing around $200, and the sister loved it\nUser is considering a spa day package around $100 for sister's birthday.\nSister loves relaxation and pampering and enjoys trying new scents.\nUser is planning a $200 gift for their niece's birthday soon, considering a customized necklace with the niece's name or initials from Alex and Ani, with gift wrapping and a personalized message, and wants to check production and shipping times\nUser plans to include a personalized note referencing the previous spa gift card in the gift.\nUser is considering a small complementary gift around $20-$50, such as an essential oil diffuser gift set with multiple oils.",
+            "latency": 554.835
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a birthday gift for their sister next year.\nUser previously gave sister a $100 gift card to her favorite spa, which she loved.\nUser previously gave their sister a silver necklace with a small pendant from Tiffany's costing around $200, and the sister loved it\nUser is considering a spa day package around $100 for sister's birthday.\nSister loves relaxation and pampering and enjoys trying new scents.\nUser is planning a $200 gift for their niece's birthday soon, considering a customized necklace with the niece's name or initials from Alex and Ani, with gift wrapping and a personalized message, and wants to check production and shipping times\nUser plans to include a personalized note referencing the previous spa gift card in the gift.\nUser is considering a small complementary gift around $20-$50, such as an essential oil diffuser gift set with multiple oils.",
+            "latency": 770.143
+        }
+    ]
+}

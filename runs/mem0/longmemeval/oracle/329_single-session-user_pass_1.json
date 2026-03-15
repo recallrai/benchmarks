@@ -1,0 +1,22 @@
+{
+    "index": 329,
+    "question_type": "single-session-user",
+    "question": "What is the name of the music streaming service have I been using lately?",
+    "question_date": "2023/05/27 (Sat) 06:16",
+    "ground_truth_answer": "Spotify",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_329_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently gotten back into playing guitar and is looking to upgrade their setup, requesting recommendations for music gear such as turntables and guitar equipment.\nUser loves The 1975 and seeks indie/alternative rock concert recommendations, especially Arctic Monkeys and The Neighbourhood, and values high\u2011energy shows with lead\u2011singer crowd interaction and a mix of old/new songs. They prefer intimate local venues and are open to local acts and small\u2011stage festivals.",
+            "latency": 987.12
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently gotten back into playing guitar and is looking to upgrade their setup, requesting recommendations for music gear such as turntables and guitar equipment.\nUser loves The 1975 and seeks indie/alternative rock concert recommendations, especially Arctic Monkeys and The Neighbourhood, and values high\u2011energy shows with lead\u2011singer crowd interaction and a mix of old/new songs. They prefer intimate local venues and are open to local acts and small\u2011stage festivals.",
+            "latency": 2054.411
+        }
+    ]
+}

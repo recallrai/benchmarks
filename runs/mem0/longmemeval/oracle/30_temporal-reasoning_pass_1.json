@@ -1,0 +1,22 @@
+{
+    "index": 30,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been bird watching when I attended the bird watching workshop?",
+    "question_date": "2023/05/25 (Thu) 19:42",
+    "ground_truth_answer": "Two months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_30_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recorded 35 species on a life list and is curious about which birds are difficult to spot. User is a novice bird watcher, has been pursuing the hobby for about three months, recently attended a local Audubon workshop, and is learning tips on attracting birds.\nUser is planning to set up a backyard bird feeder, wants seed types that attract a variety of birds, and is considering a feeder that can hold suet because has seen woodpeckers in the area. User recently attended a local Audubon workshop and is learning tips on attracting birds.\nUser is planning to attend a birder\u2019s meetup next weekend for a guided walk at a local nature preserve, looking forward to learning about local bird species and hoping to spot new species.\nUser is learning bird calls by listening to phone recordings and wants tips to improve their skills in identifying birds by ear.\nUser has seen Downy Woodpeckers in the area, plans to offer suet to attract more of them, and is learning bird calls by listening to recordings on the phone to identify birds by ear, focusing on the Downy Woodpecker's call described as a distinctive 'pik' sound, and asks if that is a good starting point for learning bird calls.\nUser wants a beginner\u2011friendly field guide to learn more about different bird species and their habits.\nUser is trying to spot a Red-headed Woodpecker but has had no luck so far, and wonders if offering suet would increase chances of attracting this species to the yard.\nUser is also planning to add a birdbath to complement the feeder, seeking a model that is easy to clean and maintain.",
+            "latency": 851.505
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recorded 35 species on a life list and is curious about which birds are difficult to spot. User is a novice bird watcher, has been pursuing the hobby for about three months, recently attended a local Audubon workshop, and is learning tips on attracting birds.\nUser is planning to set up a backyard bird feeder, wants seed types that attract a variety of birds, and is considering a feeder that can hold suet because has seen woodpeckers in the area. User recently attended a local Audubon workshop and is learning tips on attracting birds.\nUser is planning to attend a birder\u2019s meetup next weekend for a guided walk at a local nature preserve, looking forward to learning about local bird species and hoping to spot new species.\nUser is learning bird calls by listening to phone recordings and wants tips to improve their skills in identifying birds by ear.\nUser has seen Downy Woodpeckers in the area, plans to offer suet to attract more of them, and is learning bird calls by listening to recordings on the phone to identify birds by ear, focusing on the Downy Woodpecker's call described as a distinctive 'pik' sound, and asks if that is a good starting point for learning bird calls.\nUser wants a beginner\u2011friendly field guide to learn more about different bird species and their habits.\nUser is trying to spot a Red-headed Woodpecker but has had no luck so far, and wonders if offering suet would increase chances of attracting this species to the yard.\nUser is also planning to add a birdbath to complement the feeder, seeking a model that is easy to clean and maintain.",
+            "latency": 1263.54
+        }
+    ]
+}

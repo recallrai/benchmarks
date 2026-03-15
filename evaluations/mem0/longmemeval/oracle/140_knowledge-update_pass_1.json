@@ -1,0 +1,19 @@
+{
+    "index": 140,
+    "question_type": "knowledge-update",
+    "question": "What type of camera lens did I purchase most recently?",
+    "question_date": "2023/09/08 (Fri) 04:23",
+    "ground_truth_answer": "a 70-200mm zoom lens",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions the user has a 70-200mm zoom lens, it does not indicate when it was purchased or that it was the most recent lens purchase compared to the 50mm prime also mentioned."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions the user uses a 70-200mm zoom lens, it does not contain information indicating this was their most recent lens purchase or provide any timeline of lens purchases."
+        }
+    ]
+}

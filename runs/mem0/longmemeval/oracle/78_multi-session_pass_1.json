@@ -1,0 +1,22 @@
+{
+    "index": 78,
+    "question_type": "multi-session",
+    "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+    "question_date": "2023/05/30 (Tue) 18:48",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_78_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently fixed a wobbly leg on their kitchen table last weekend by tightening a screw with a screwdriver, after months of frustration.\nUser is planning to reorganize kitchen cabinets to improve flow and maximize storage for cooking utensils and gadgets, and is seeking tips on how to optimize kitchen storage.\nUser is looking for throw pillows to tie together a modern living room after acquiring a new wooden coffee table with metal legs and rearranging furniture, wants pillows that complement the neutral beige, gray, and white color scheme while adding a pop of color.\nUser desires a modern table lamp with metallic accents that matches the metal legs of their new coffee table and is looking for brand recommendations.\nUser has a preference for velvet throw pillows in rich hues such as mustard or teal, and is considering whether to purchase two pillows in the same color or mix and match, planning to start with one pillow and order swatches or samples to test color in the space.\nUser has a wooden coffee table with metal legs from West Elm a 3\u2011seater couch; wants 20\u2033\u00d720\u2033 throw pillows (two) to match couch fabric, wall color, and table\u2019s metal legs; plans to browse West Elm and other stores for patterns with wooden or metal accents, aiming for an industrial vibe.\nUser is exploring bedside table options with metal or glass accents that would complement their new Casper mattress and modern bedroom aesthetic.\nLikes the Navy Grid Velvet Pillow Cover from West Elm, wants navy accents in the living room, plans to test a navy throw blanket to test the color before committing to a rug. Considering whether navy accents clash with the wooden coffee table match pillow design the table's metal legs.",
+            "latency": 509.514
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently fixed a wobbly leg on their kitchen table last weekend by tightening a screw with a screwdriver, after months of frustration.\nUser is planning to reorganize kitchen cabinets to improve flow and maximize storage for cooking utensils and gadgets, and is seeking tips on how to optimize kitchen storage.\nUser is looking for throw pillows to tie together a modern living room after acquiring a new wooden coffee table with metal legs and rearranging furniture, wants pillows that complement the neutral beige, gray, and white color scheme while adding a pop of color.\nUser desires a modern table lamp with metallic accents that matches the metal legs of their new coffee table and is looking for brand recommendations.\nUser has a preference for velvet throw pillows in rich hues such as mustard or teal, and is considering whether to purchase two pillows in the same color or mix and match, planning to start with one pillow and order swatches or samples to test color in the space.\nUser has a wooden coffee table with metal legs from West Elm a 3\u2011seater couch; wants 20\u2033\u00d720\u2033 throw pillows (two) to match couch fabric, wall color, and table\u2019s metal legs; plans to browse West Elm and other stores for patterns with wooden or metal accents, aiming for an industrial vibe.\nUser is exploring bedside table options with metal or glass accents that would complement their new Casper mattress and modern bedroom aesthetic.\nLikes the Navy Grid Velvet Pillow Cover from West Elm, wants navy accents in the living room, plans to test a navy throw blanket to test the color before committing to a rug. Considering whether navy accents clash with the wooden coffee table match pillow design the table's metal legs.",
+            "latency": 727.067
+        }
+    ]
+}

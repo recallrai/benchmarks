@@ -1,0 +1,22 @@
+{
+    "index": 227,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some useful accessories for my phone?",
+    "question_date": "2023/05/28 (Sun) 00:20",
+    "ground_truth_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_227_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for a phone wallet case for their iPhone 13 Pro, considering the OtterBox wallet case and wants to know if it's a good fit.\nUser has a cracked screen protector on their iPhone 13 Pro and is looking for a high-quality replacement.\nUser already owns a portable power bank from Best Buy that works well, and is considering a new wireless charging power bank for their iPhone 13 Pro, wanting to know pros and cons, cost-benefit, and specific features or certifications to look for.",
+            "latency": 2717.947
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for a phone wallet case for their iPhone 13 Pro, considering the OtterBox wallet case and wants to know if it's a good fit.\nUser has a cracked screen protector on their iPhone 13 Pro and is looking for a high-quality replacement.\nUser already owns a portable power bank from Best Buy that works well, and is considering a new wireless charging power bank for their iPhone 13 Pro, wanting to know pros and cons, cost-benefit, and specific features or certifications to look for.",
+            "latency": 2473.417
+        }
+    ]
+}

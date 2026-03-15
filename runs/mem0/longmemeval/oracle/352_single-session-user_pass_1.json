@@ -1,0 +1,22 @@
+{
+    "index": 352,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my uncle's birthday party?",
+    "question_date": "2023/05/30 (Tue) 06:23",
+    "ground_truth_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_352_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently baked a lemon blueberry cake for their niece's birthday, which was a huge hit; they were nervous about the outcome but the combination of tangy lemon and sweet blueberries worked well, and they are looking for tips on achieving the perfect balance of flavors in lemon desserts.\nUser is planning to make lemon-based desserts for an upcoming dinner party and is seeking a lemon curd recipe and tips for using it as a filling for cakes and tarts.\nUser is experimenting with different types of flour and is curious whether bread flour or all-purpose flour is better suited for lemon-based desserts such as lemon cakes or tart crusts.\nUser is looking for effective ways to incorporate lemon zest into baking to add depth to desserts and wants guidance on how to use it effectively.\nUser recently made lemon curd using a combination of granulated sugar and honey, which turned out well, and has had significant success with honey in lemon desserts, noting that honey's rich caramel-like flavor complements lemon brightness and that combining honey with other sweeteners such as granulated sugar balances flavor and texture; they are seeking thoughts on using honey in lemon desserts.",
+            "latency": 1050.267
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently baked a lemon blueberry cake for their niece's birthday, which was a huge hit; they were nervous about the outcome but the combination of tangy lemon and sweet blueberries worked well, and they are looking for tips on achieving the perfect balance of flavors in lemon desserts.\nUser is planning to make lemon-based desserts for an upcoming dinner party and is seeking a lemon curd recipe and tips for using it as a filling for cakes and tarts.\nUser is experimenting with different types of flour and is curious whether bread flour or all-purpose flour is better suited for lemon-based desserts such as lemon cakes or tart crusts.\nUser is looking for effective ways to incorporate lemon zest into baking to add depth to desserts and wants guidance on how to use it effectively.\nUser recently made lemon curd using a combination of granulated sugar and honey, which turned out well, and has had significant success with honey in lemon desserts, noting that honey's rich caramel-like flavor complements lemon brightness and that combining honey with other sweeteners such as granulated sugar balances flavor and texture; they are seeking thoughts on using honey in lemon desserts.",
+            "latency": 2003.816
+        }
+    ]
+}

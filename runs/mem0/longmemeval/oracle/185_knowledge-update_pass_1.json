@@ -1,0 +1,22 @@
+{
+    "index": 185,
+    "question_type": "knowledge-update",
+    "question": "What time do I wake up on Saturday mornings?",
+    "question_date": "2023/06/15 (Thu) 00:49",
+    "ground_truth_answer": "7:30 am",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_185_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is establishing a consistent weekend morning routine, prefers not to wake up too early, and wants exercise ideas for Sunday that fit a later wake\u2011up.\nUser wakes at 7:30\u202fam Saturday, plans a 30\u2011minute jog starting 8:15\u20118:30 after coffee, seeks flat shaded downtown route via online tools, may bring water bottle or use fountains, leaves earbuds to stay aware, and cools down with stretching or light exercises.\nUser wants to check the weather forecast for the weekend to plan the jog.\nThe User intends to prioritize yoga or stretching to build consistency, and envisions a Sunday schedule that includes the yoga/stretching, a quick breakfast, and meal prep for the week.\nUser wants to read more before bed each night, has selected 'The Lean Startup' by Eric Ries as the starting book, plans to read 30 minutes nightly before bed.\nUser seeks tips to stay focused and retain information while tired, with the goal of applying the book\u2019s framework to own projects.",
+            "latency": 703.604
+        },
+        {
+            "strategy": "graph",
+            "context": "User is establishing a consistent weekend morning routine, prefers not to wake up too early, and wants exercise ideas for Sunday that fit a later wake\u2011up.\nUser wakes at 7:30\u202fam Saturday, plans a 30\u2011minute jog starting 8:15\u20118:30 after coffee, seeks flat shaded downtown route via online tools, may bring water bottle or use fountains, leaves earbuds to stay aware, and cools down with stretching or light exercises.\nUser wants to check the weather forecast for the weekend to plan the jog.\nThe User intends to prioritize yoga or stretching to build consistency, and envisions a Sunday schedule that includes the yoga/stretching, a quick breakfast, and meal prep for the week.\nUser wants to read more before bed each night, has selected 'The Lean Startup' by Eric Ries as the starting book, plans to read 30 minutes nightly before bed.\nUser seeks tips to stay focused and retain information while tired, with the goal of applying the book\u2019s framework to own projects.",
+            "latency": 886.127
+        }
+    ]
+}

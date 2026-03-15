@@ -1,0 +1,22 @@
+{
+    "index": 235,
+    "question_type": "single-session-assistant",
+    "question": "I remember you told me about the refining processes at CITGO's three refineries earlier. Can you remind me what kind of processes are used at the Lake Charles Refinery?",
+    "question_date": "2023/05/26 (Fri) 20:26",
+    "ground_truth_answer": "Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_235_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is requesting a detailed overview of the refining processes that occur at the three CITGO refineries in the United States.\nUser is requesting recommendations to increase refinery yield.\nUser is requesting six additional recommendations beyond the initial list of yield improvement strategies.\nUser is specifically asking for ways to improve yield for a catalytic cracking unit.",
+            "latency": 1648.601
+        },
+        {
+            "strategy": "graph",
+            "context": "User is requesting a detailed overview of the refining processes that occur at the three CITGO refineries in the United States.\nUser is requesting recommendations to increase refinery yield.\nUser is requesting six additional recommendations beyond the initial list of yield improvement strategies.\nUser is specifically asking for ways to improve yield for a catalytic cracking unit.",
+            "latency": 2498.647
+        }
+    ]
+}

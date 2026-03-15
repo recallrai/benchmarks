@@ -1,0 +1,19 @@
+{
+    "index": 361,
+    "question_type": "temporal-reasoning",
+    "question": "How many months have passed since I last visited a museum with a friend?",
+    "question_date": "2023/03/25 (Sat) 08:30",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user visited museums with a friend 'recently', 'today', and 'this month' (around March 2023), which would be 0 months ago, not 5 months ago as stated in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions museum visits with a friend described as 'recently' and 'today' but provides no specific dates or time markers that would allow someone to calculate that 5 months have passed since the last visit."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 53,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the day I bought a gift for my brother's graduation ceremony and the day I bought a birthday gift for my best friend?",
+    "question_date": "2023/03/29 (Wed) 11:57",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_53_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently purchased a silver necklace with a tiny pendant for their best friend's 30th birthday on March 15th, the gift was well received, and the user is interested in fashion-inspired gifts for a friend into fashion, seeking similar gift suggestions.\nUser gave a wireless headphone to their brother as a graduation gift on March\u202f8, and the brother received it enthusiastically, describing it as a big hit.\nUser is seeking gift ideas for a neighbor who helped with dog-sitting while user away on trip in December 2025, has already given a $10 coffee shop gift card as token.\nUser has been consciously adopting a thoughtful and intentional approach to gift purchasing, finding it fun and rewarding.\nUser is looking for gift recommendations for a friend who loves music, considering a portable speaker or a music subscription as great options.\nUser is looking for minimalist chic earrings similar to the silver necklace, wants options around $80, and wants online stores offering such earrings.",
+            "latency": 893.58
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently purchased a silver necklace with a tiny pendant for their best friend's 30th birthday on March 15th, the gift was well received, and the user is interested in fashion-inspired gifts for a friend into fashion, seeking similar gift suggestions.\nUser gave a wireless headphone to their brother as a graduation gift on March\u202f8, and the brother received it enthusiastically, describing it as a big hit.\nUser is seeking gift ideas for a neighbor who helped with dog-sitting while user away on trip in December 2025, has already given a $10 coffee shop gift card as token.\nUser has been consciously adopting a thoughtful and intentional approach to gift purchasing, finding it fun and rewarding.\nUser is looking for gift recommendations for a friend who loves music, considering a portable speaker or a music subscription as great options.\nUser is looking for minimalist chic earrings similar to the silver necklace, wants options around $80, and wants online stores offering such earrings.",
+            "latency": 1463.65
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 432,
+    "question_type": "multi-session",
+    "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "100",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_432_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User started the year with 250 Instagram followers and has since grown their Instagram following to 350 followers in two weeks, indicating a successful growth strategy.\nUser, a social\u2011media creator, has increased their Instagram following from 250 to 350 followers in two weeks and is analyzing performance data to identify which content types perform best on Instagram.\nUser wants to learn what Twitter chats are and how participating in them can help increase their Twitter follower count.\nUser is actively working to increase engagement on Instagram through regular posting and interaction, and is looking for specific tactics to further boost engagement rates beyond current efforts.\nUser is interested in leveraging the 'swipe\u2011up' feature in Instagram Stories to drive traffic and wants detailed guidance on effective usage, including best practices and potential benefits.\nUser is attempting to grow their Twitter following by engaging with influencers and industry leaders in their niche, but has not seen significant growth, and is seeking additional strategies.\nUser is considering running a contest or giveaway to enhance engagement, and is evaluating whether requiring followers to tag a friend or share a post as an entry condition would be effective or perceived as spammy.\nUser plans to experiment with Instagram Live and seeks advice on preparation, planning, and promotion strategies to ensure a successful live stream.\nUser has been experimenting with Instagram Stories and Reels, has observed good engagement rates, and is seeking detailed guidance on selecting effective hashtags and determining optimal hashtag counts per post, especially for Stories.",
+            "latency": 573.517
+        },
+        {
+            "strategy": "graph",
+            "context": "User started the year with 250 Instagram followers and has since grown their Instagram following to 350 followers in two weeks, indicating a successful growth strategy.\nUser, a social\u2011media creator, has increased their Instagram following from 250 to 350 followers in two weeks and is analyzing performance data to identify which content types perform best on Instagram.\nUser wants to learn what Twitter chats are and how participating in them can help increase their Twitter follower count.\nUser is actively working to increase engagement on Instagram through regular posting and interaction, and is looking for specific tactics to further boost engagement rates beyond current efforts.\nUser is interested in leveraging the 'swipe\u2011up' feature in Instagram Stories to drive traffic and wants detailed guidance on effective usage, including best practices and potential benefits.\nUser is considering running a contest or giveaway to enhance engagement, and is evaluating whether requiring followers to tag a friend or share a post as an entry condition would be effective or perceived as spammy.\nUser is attempting to grow their Twitter following by engaging with influencers and industry leaders in their niche, but has not seen significant growth, and is seeking additional strategies.\nUser plans to experiment with Instagram Live and seeks advice on preparation, planning, and promotion strategies to ensure a successful live stream.\nUser has been experimenting with Instagram Stories and Reels, has observed good engagement rates, and is seeking detailed guidance on selecting effective hashtags and determining optimal hashtag counts per post, especially for Stories.",
+            "latency": 742.537
+        }
+    ]
+}

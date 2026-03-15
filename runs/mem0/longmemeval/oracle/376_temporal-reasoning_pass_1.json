@@ -1,0 +1,22 @@
+{
+    "index": 376,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks passed between the day I bought my new tennis racket and the day I received it?",
+    "question_date": "2023/04/15 (Sat) 10:34",
+    "ground_truth_answer": "1 week",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_376_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is enthusiastic about trying a new on\u2011court strategy that involves coming to the net more often and using volleys to take advantage of opponents' weaker returns, and plans to apply this strategy with their new tennis racket during upcoming Saturday lessons.\nUser is excited to cycle more frequently, currently rides solo on Friday evenings along the river, plans to join a local cycling group, has purchased a new tennis racket for Saturday lessons, and is seeking safety tips for group cycling, especially at intersections and roundabouts.\nUser is looking to improve overall fitness, specifically targeting reaction time, hand-eye coordination, and cardiovascular endurance for 30\u2011minute runs, and is seeking exercise recommendations to achieve these goals.",
+            "latency": 694.698
+        },
+        {
+            "strategy": "graph",
+            "context": "User is enthusiastic about trying a new on\u2011court strategy that involves coming to the net more often and using volleys to take advantage of opponents' weaker returns, and plans to apply this strategy with their new tennis racket during upcoming Saturday lessons.\nUser is excited to cycle more frequently, currently rides solo on Friday evenings along the river, plans to join a local cycling group, has purchased a new tennis racket for Saturday lessons, and is seeking safety tips for group cycling, especially at intersections and roundabouts.\nUser is looking to improve overall fitness, specifically targeting reaction time, hand-eye coordination, and cardiovascular endurance for 30\u2011minute runs, and is seeking exercise recommendations to achieve these goals.",
+            "latency": 866.273
+        }
+    ]
+}

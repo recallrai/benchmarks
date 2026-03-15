@@ -1,0 +1,22 @@
+{
+    "index": 84,
+    "question_type": "multi-session",
+    "question": "How many hours of jogging and yoga did I do last week?",
+    "question_date": "2023/05/30 (Tue) 11:44",
+    "ground_truth_answer": "0.5 hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_84_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User used to practice yoga three times a week for two hours each session but has been slacking off for the past month and is attempting to get back into it.\nUser is looking for healthy, quick-to-prepare lunch ideas that fit into a short lunch break, wants to use the lunch time to squeeze in a workout, and plans to resume yoga this week with one or two sessions.\nUser wants suggestions for appropriate attire to wear to yoga class and items to bring along, such as comfortable clothing, a water bottle, and a towel.\nUser wants to track workouts and has already completed a 30\u2011minute jog around the neighborhood on Saturday, expressing a desire to keep a record of that session.\nUser has scheduled their yoga practice for Monday, Wednesday, and Friday mornings at 7:00am and wants to know if setting reminders is a good idea, and how to set them on their phone and calendar.\nUser is interested in incorporating strength training into their routine and wants help creating a schedule that fits it into their existing routine, indicating a desire to expand their fitness regimen beyond cardio and yoga.\nUser is seeking beginner\u2011friendly yoga studio or class recommendations in their local area.\nUser is looking for guidance on how to make the most out of yoga classes, particularly as a new or returning practitioner who hasn't practiced in a while, and wants recommendations for beginner yoga classes or routines to help restart their practice.\nUser is seeking tips on caring for their yoga mat and props, including recommended cleaning products and cleaning methods.\nUser plans to try Todoist for task management and Down Dog for yoga, and is seeking advice on how to prioritize tasks to focus on the most important ones first.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User used to practice yoga three times a week for two hours each session but has been slacking off for the past month and is attempting to get back into it.\nUser is looking for healthy, quick-to-prepare lunch ideas that fit into a short lunch break, wants to use the lunch time to squeeze in a workout, and plans to resume yoga this week with one or two sessions.\nUser wants suggestions for appropriate attire to wear to yoga class and items to bring along, such as comfortable clothing, a water bottle, and a towel.\nUser wants to track workouts and has already completed a 30\u2011minute jog around the neighborhood on Saturday, expressing a desire to keep a record of that session.\nUser has scheduled their yoga practice for Monday, Wednesday, and Friday mornings at 7:00am and wants to know if setting reminders is a good idea, and how to set them on their phone and calendar.\nUser is interested in incorporating strength training into their routine and wants help creating a schedule that fits it into their existing routine, indicating a desire to expand their fitness regimen beyond cardio and yoga.\nUser is seeking beginner\u2011friendly yoga studio or class recommendations in their local area.\nUser is looking for guidance on how to make the most out of yoga classes, particularly as a new or returning practitioner who hasn't practiced in a while, and wants recommendations for beginner yoga classes or routines to help restart their practice.\nUser is seeking tips on caring for their yoga mat and props, including recommended cleaning products and cleaning methods.\nUser plans to try Todoist for task management and Down Dog for yoga, and is seeking advice on how to prioritize tasks to focus on the most important ones first.",
+            "latency": 703.797
+        }
+    ]
+}

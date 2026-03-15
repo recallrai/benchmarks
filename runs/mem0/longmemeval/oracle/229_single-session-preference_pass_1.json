@@ -1,0 +1,22 @@
+{
+    "index": 229,
+    "question_type": "single-session-preference",
+    "question": "I\u2019m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+    "question_date": "2023/05/27 (Sat) 16:05",
+    "ground_truth_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_229_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning to visit Tokyo Tower and wants information about what can be seen and done there.\nUser is heading to Tokyo soon and is seeking recommendations for good restaurants within walking distance of the Park Hyatt Tokyo hotel.\nUser plans to prepare for a guided tour to Nikko National Park, seeks a preparation checklist, instructions on how to reach the meeting point with a Suica card, and notes that they have downloaded the TripIt app but remain nervous about the trip.\nUser is planning to shop in Tokyo and wants recommendations for popular shopping districts or malls close to the Park Hyatt Tokyo hotel.\nUser is staying at the Park Hyatt Tokyo hotel and wants detailed information about its amenities and services.\nUser plans to visit Tsukiji Fish Market, wants directions from Shinjuku using a Suica card, and wants details about the market and what to expect when visiting.\nUser is looking for convenient places to exchange money for yen in the vicinity of the Park Hyatt Tokyo hotel.\nUser wants instructions on how to travel from Narita Airport to Shinjuku Station, including the expected travel time and approximate cost.",
+            "latency": 3261.853
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning to visit Tokyo Tower and wants information about what can be seen and done there.\nUser is heading to Tokyo soon and is seeking recommendations for good restaurants within walking distance of the Park Hyatt Tokyo hotel.\nUser plans to prepare for a guided tour to Nikko National Park, seeks a preparation checklist, instructions on how to reach the meeting point with a Suica card, and notes that they have downloaded the TripIt app but remain nervous about the trip.\nUser is planning to shop in Tokyo and wants recommendations for popular shopping districts or malls close to the Park Hyatt Tokyo hotel.\nUser is staying at the Park Hyatt Tokyo hotel and wants detailed information about its amenities and services.\nUser plans to visit Tsukiji Fish Market, wants directions from Shinjuku using a Suica card, and wants details about the market and what to expect when visiting.\nUser is looking for convenient places to exchange money for yen in the vicinity of the Park Hyatt Tokyo hotel.\nUser wants instructions on how to travel from Narita Airport to Shinjuku Station, including the expected travel time and approximate cost.",
+            "latency": 2514.798
+        }
+    ]
+}

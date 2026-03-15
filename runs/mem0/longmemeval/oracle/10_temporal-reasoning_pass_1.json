@@ -1,0 +1,22 @@
+{
+    "index": 10,
+    "question_type": "temporal-reasoning",
+    "question": "Which pair of shoes did I clean last month?",
+    "question_date": "2023/05/30 (Tue) 01:50",
+    "ground_truth_answer": "white Adidas sneakers",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_10_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user bought a new pair of black and white Vans Old Skool sneakers last weekend and has been wearing them almost every day.\nThe user has a spare pair of running shoes that were lent to their sister a few weeks ago and needs to remind her to return them soon, and is also seeking tips on how to keep running shoes in good condition.\nUser plans to take his brown leather dress shoes to a cobbler for polishing and conditioning this Saturday to keep them in good condition for upcoming events.\nUser has a trusty old Converse Chuck Taylor All Star sneakers worn at a music festival last month, which were perfect for the event, but experienced water seepage into the sneakers, especially on the heels where the soles are wearing down.\nUser cleaned white Adidas sneakers last month after attending an outdoor music festival, using soap and water, air-drying them on a balcony, and felt satisfied with the fresh look.\nUser is proactive about maintaining all footwear, including waterproofing tips for backpacks, clothes, boots, and polishing/conditioning brown leather dress shoes worn to a cousin's wedding, reflecting excitement about new gear, concern for durability, and a desire to keep all footwear in good condition for upcoming adventures and formal events.\nUser is preparing for a mountain trip in a few weeks and wants detailed information about insulation, warmth, weight, bulk, traction, breathability, and waterproofing of the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP to inform the decision between the two boots.\nUser wants advice on the best way to break in new hiking boots.\nUser wants detailed information on weight and fit differences between the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP hiking boots.\nUser wants to know the return and exchange policies for the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP hiking boots.",
+            "latency": 492.974
+        },
+        {
+            "strategy": "graph",
+            "context": "The user bought a new pair of black and white Vans Old Skool sneakers last weekend and has been wearing them almost every day.\nThe user has a spare pair of running shoes that were lent to their sister a few weeks ago and needs to remind her to return them soon, and is also seeking tips on how to keep running shoes in good condition.\nUser plans to take his brown leather dress shoes to a cobbler for polishing and conditioning this Saturday to keep them in good condition for upcoming events.\nUser has a trusty old Converse Chuck Taylor All Star sneakers worn at a music festival last month, which were perfect for the event, but experienced water seepage into the sneakers, especially on the heels where the soles are wearing down.\nUser cleaned white Adidas sneakers last month after attending an outdoor music festival, using soap and water, air-drying them on a balcony, and felt satisfied with the fresh look.\nUser is proactive about maintaining all footwear, including waterproofing tips for backpacks, clothes, boots, and polishing/conditioning brown leather dress shoes worn to a cousin's wedding, reflecting excitement about new gear, concern for durability, and a desire to keep all footwear in good condition for upcoming adventures and formal events.\nUser is preparing for a mountain trip in a few weeks and wants detailed information about insulation, warmth, weight, bulk, traction, breathability, and waterproofing of the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP to inform the decision between the two boots.\nUser wants advice on the best way to break in new hiking boots.\nUser wants detailed information on weight and fit differences between the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP hiking boots.\nUser wants to know the return and exchange policies for the Merrell Moab 2 Mid Waterproof and Keen Targhee II Mid WP hiking boots.",
+            "latency": 718.391
+        }
+    ]
+}

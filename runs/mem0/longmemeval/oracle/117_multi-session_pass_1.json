@@ -1,0 +1,22 @@
+{
+    "index": 117,
+    "question_type": "multi-session",
+    "question": "How many different museums or galleries did I visit in December?",
+    "question_date": "2023/03/03 (Fri) 18:26",
+    "ground_truth_answer": "0. You did not mention visitng any museum in December",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_117_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to find galleries or museums that feature abstract art or printmaking exhibitions\nUser seeks information on upcoming art events or exhibitions in their local area\nUser is interested in art pieces or exhibitions that focus on dinosaurs or natural history\nUser is searching for art supply stores in their city that specialize in printmaking or abstract art\nUser recently returned to art after a guided workshop at the Modern Art Museum in January, seeking resources local museums or galleries offering workshops or classes, and is interested in online platforms focusing on contemporary art and street art, as online communities to connect with other art enthusiasts\nUser wants recommendations of art websites or blogs to follow\nUser is interested in art pieces or exhibitions that combine art and science\nUser is interested in online resources or tutorials to learn about abstract art and printmaking\nUser met curator Rachel Lee at the opening night of The Art Cube on 15 February, attended the 'Disrupting Reality' exhibition, purchased a limited edition print from a featured artist (the artist's name might be incorrect), and plans to attend another event at The Art Cube in the near future\nUser is interested in taking art classes to improve their skills and is looking for online platforms that offer classes on abstract expressionism.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to find galleries or museums that feature abstract art or printmaking exhibitions\nUser seeks information on upcoming art events or exhibitions in their local area\nUser is interested in art pieces or exhibitions that focus on dinosaurs or natural history\nUser is searching for art supply stores in their city that specialize in printmaking or abstract art\nUser recently returned to art after a guided workshop at the Modern Art Museum in January, seeking resources local museums or galleries offering workshops or classes, and is interested in online platforms focusing on contemporary art and street art, as online communities to connect with other art enthusiasts\nUser wants recommendations of art websites or blogs to follow\nUser is interested in art pieces or exhibitions that combine art and science\nUser is interested in online resources or tutorials to learn about abstract art and printmaking\nUser met curator Rachel Lee at the opening night of The Art Cube on 15 February, attended the 'Disrupting Reality' exhibition, purchased a limited edition print from a featured artist (the artist's name might be incorrect), and plans to attend another event at The Art Cube in the near future\nUser is interested in taking art classes to improve their skills and is looking for online platforms that offer classes on abstract expressionism.",
+            "latency": 707.937
+        }
+    ]
+}

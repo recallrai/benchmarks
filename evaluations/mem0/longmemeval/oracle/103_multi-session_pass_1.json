@@ -1,0 +1,19 @@
+{
+    "index": 103,
+    "question_type": "multi-session",
+    "question": "How many kitchen items did I replace or fix?",
+    "question_date": "2023/05/29 (Mon) 20:45",
+    "ground_truth_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 4 items (faucet, mat, toaster/toaster oven, and shelves) while the gold answer lists 5 items including a coffee maker, which is not mentioned in the context at all."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions 4 items (faucet, mat, toaster/toaster oven, shelves) but does not mention the coffee maker, which is one of the five items listed in the gold answer, making it impossible to arrive at the correct count of five items."
+        }
+    ]
+}

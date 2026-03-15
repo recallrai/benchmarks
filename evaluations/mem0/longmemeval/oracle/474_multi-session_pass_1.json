@@ -1,0 +1,19 @@
+{
+    "index": 474,
+    "question_type": "multi-session",
+    "question": "What time did I reach the clinic on Monday?",
+    "question_date": "2023/05/29 (Mon) 00:19",
+    "ground_truth_answer": "9:00 AM",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a Monday doctor's appointment and returning to work at 1 p.m., but does not specify the time the user reached the clinic (9:00 AM)."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a Monday doctor's appointment and returning to work at 1 p.m., but does not specify the arrival time at the clinic (9:00 AM) that the question asks for."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 141,
+    "question_type": "knowledge-update",
+    "question": "How often do I see my therapist, Dr. Smith?",
+    "question_date": "2023/12/01 (Fri) 13:17",
+    "ground_truth_answer": "every week",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_141_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User feels more confident about setting healthy boundaries after a helpful session with Dr. Smith this week, is going to meditate and journal, and expresses gratitude to the assistant.\nUser has been prioritizing self-care activities such as yoga and meditation, which have helped reduce their anxiety; they wonder if these practices can also improve sleep quality; additionally, they have a biweekly therapy session with Dr. Smith and are looking forward to discussing their progress with her.\nUser is considering setting boundaries with their partner regarding social commitments, as the partner often invites them to many events while the user sometimes prefers to stay home and relax; they are asking whether it is acceptable to set such boundaries and how to bring it up with their partner.\nUser is experiencing difficulty falling asleep on some nights despite maintaining a consistent sleep schedule and journaling; they are seeking additional strategies to improve sleep quality.",
+            "latency": 785.182
+        },
+        {
+            "strategy": "graph",
+            "context": "User feels more confident about setting healthy boundaries after a helpful session with Dr. Smith this week, is going to meditate and journal, and expresses gratitude to the assistant.\nUser has been prioritizing self-care activities such as yoga and meditation, which have helped reduce their anxiety; they wonder if these practices can also improve sleep quality; additionally, they have a biweekly therapy session with Dr. Smith and are looking forward to discussing their progress with her.\nUser is considering setting boundaries with their partner regarding social commitments, as the partner often invites them to many events while the user sometimes prefers to stay home and relax; they are asking whether it is acceptable to set such boundaries and how to bring it up with their partner.\nUser is experiencing difficulty falling asleep on some nights despite maintaining a consistent sleep schedule and journaling; they are seeking additional strategies to improve sleep quality.",
+            "latency": 954.28
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 108,
+    "question_type": "multi-session",
+    "question": "How many rare items do I have in total?",
+    "question_date": "2023/05/30 (Tue) 02:34",
+    "ground_truth_answer": "99",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions 5 rare books, 57 rare vinyl records, and 12 rare figurines (totaling 74), plus rare coins with no specific number given, which is insufficient to determine the total of 99 rare items."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions 5 rare books, 57 rare vinyl records, and 12 rare figurines (totaling 74), plus rare coins with no quantity specified, which is insufficient to determine the total of 99 rare items."
+        }
+    ]
+}

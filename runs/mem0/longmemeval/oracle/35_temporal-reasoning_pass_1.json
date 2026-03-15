@@ -1,0 +1,22 @@
+{
+    "index": 35,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+    "question_date": "2023/05/30 (Tue) 03:49",
+    "ground_truth_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_35_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a new area rug in the living room that was purchased a month ago and has unified the room's aesthetic.\nUser is planning to update the living room with new decorative items such as vases or sculptures, specifically to complement a furniture rearrangement that occurred three weeks ago. The living room has a relaxed, cozy vibe described as a mix of modern and traditional styles, with dominant neutral colors beige, cream, and wood tones. The user has created a reading nook with a coffee table in the corner and wants decorative items around that area to enhance coziness.\nUser has chosen deep coral throw pillows to add a pop of color and complement the new area rug, and plans to browse West Elm, Anthropologie, and Etsy for Moroccan-inspired options.\nUser has a fern, snake plant, and spider plant in the living room and has been watering them every Sunday morning, unsure if that frequency is sufficient.\nUser wants throw pillows in complementary colors to complete the look of the new area rug, seeking colors that work with a Moroccan-inspired design in a neutral color palette.\nUser plans to start checking the soil daily for the fern to better gauge watering needs.\nUser has chosen to add new plants to the reading nook, currently owning a fern, snake plant, and spider plant, and has selected pothos and peperomia as additions. The user is deciding on planters, ultimately choosing contrasting rustic or vintage planters in earthy tones like terracotta or ceramic, planning a mix\u2011and\u2011match approach with a common thread of earthy tones or distressed look, varying scale, balancing textures and styles, and limiting to 3\u20114 planters.\nUser is planning to repaint bedroom walls with a softer, muted gray and wants paint color suggestions that would complement a peace lily or orchid.",
+            "latency": 916.064
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a new area rug in the living room that was purchased a month ago and has unified the room's aesthetic.\nUser is planning to update the living room with new decorative items such as vases or sculptures, specifically to complement a furniture rearrangement that occurred three weeks ago. The living room has a relaxed, cozy vibe described as a mix of modern and traditional styles, with dominant neutral colors beige, cream, and wood tones. The user has created a reading nook with a coffee table in the corner and wants decorative items around that area to enhance coziness.\nUser has chosen deep coral throw pillows to add a pop of color and complement the new area rug, and plans to browse West Elm, Anthropologie, and Etsy for Moroccan-inspired options.\nUser has a fern, snake plant, and spider plant in the living room and has been watering them every Sunday morning, unsure if that frequency is sufficient.\nUser wants throw pillows in complementary colors to complete the look of the new area rug, seeking colors that work with a Moroccan-inspired design in a neutral color palette.\nUser plans to start checking the soil daily for the fern to better gauge watering needs.\nUser has chosen to add new plants to the reading nook, currently owning a fern, snake plant, and spider plant, and has selected pothos and peperomia as additions. The user is deciding on planters, ultimately choosing contrasting rustic or vintage planters in earthy tones like terracotta or ceramic, planning a mix\u2011and\u2011match approach with a common thread of earthy tones or distressed look, varying scale, balancing textures and styles, and limiting to 3\u20114 planters.\nUser is planning to repaint bedroom walls with a softer, muted gray and wants paint color suggestions that would complement a peace lily or orchid.",
+            "latency": 1457.598
+        }
+    ]
+}

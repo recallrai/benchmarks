@@ -1,0 +1,22 @@
+{
+    "index": 46,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+    "question_date": "2023/05/28 (Sun) 15:31",
+    "ground_truth_answer": "the woman selling jam at the farmer's market",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_46_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User had a conversation with a jam maker at a farmer's market two weeks ago on a Saturday morning, was inspired to try new dishes, and wants suggestions on pairing different types of jam with cheeses and crackers.\nUser helped a tourist from Australia navigate the Sydney subway map last Thursday, chatted about jobs and hobbies, and received a photo of the Sydney Opera House the next day.\nUser has been intentionally striking up conversations with strangers, finding it rewarding and learning from the people they meet.\nUser intends to visit local coffee shops in Sydney; met a barista at a nearby shop, discussed shared passion for coffee and brewing methods, and received several shop recommendations.\nUser is planning an upcoming trip to Australia, specifically looking for travel recommendations and activities in Sydney.\nUser met a woman at a professional networking event last month, exchanged business cards, and has been in touch via email; she provides valuable insights and resources that help User in their job. Wants advice on expressing gratitude and showing appreciation to someone who has helped them, being specific, sincere, and genuine in their approach.\nUser met a personal trainer at the gym a few days ago, signed up for sessions after discussing fitness goals and exercises, and the trainer now checks in daily to monitor progress. Wants advice on staying in touch with new acquaintances and building meaningful relationships.\nUser plans to host a dinner party soon and seeks advice on planning a successful dinner party, including creating a guest list, planning the menu, and setting the atmosphere, while also excited to experiment with jam and cheese pairings.\nUser is looking for new recipe ideas that incorporate fresh berries.",
+            "latency": 597.101
+        },
+        {
+            "strategy": "graph",
+            "context": "User had a conversation with a jam maker at a farmer's market two weeks ago on a Saturday morning, was inspired to try new dishes, and wants suggestions on pairing different types of jam with cheeses and crackers.\nUser helped a tourist from Australia navigate the Sydney subway map last Thursday, chatted about jobs and hobbies, and received a photo of the Sydney Opera House the next day.\nUser has been intentionally striking up conversations with strangers, finding it rewarding and learning from the people they meet.\nUser intends to visit local coffee shops in Sydney; met a barista at a nearby shop, discussed shared passion for coffee and brewing methods, and received several shop recommendations.\nUser is planning an upcoming trip to Australia, specifically looking for travel recommendations and activities in Sydney.\nUser met a woman at a professional networking event last month, exchanged business cards, and has been in touch via email; she provides valuable insights and resources that help User in their job. Wants advice on expressing gratitude and showing appreciation to someone who has helped them, being specific, sincere, and genuine in their approach.\nUser met a personal trainer at the gym a few days ago, signed up for sessions after discussing fitness goals and exercises, and the trainer now checks in daily to monitor progress. Wants advice on staying in touch with new acquaintances and building meaningful relationships.\nUser plans to host a dinner party soon and seeks advice on planning a successful dinner party, including creating a guest list, planning the menu, and setting the atmosphere, while also excited to experiment with jam and cheese pairings.\nUser is looking for new recipe ideas that incorporate fresh berries.",
+            "latency": 712.666
+        }
+    ]
+}

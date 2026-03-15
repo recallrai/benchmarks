@@ -1,0 +1,19 @@
+{
+    "index": 257,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+    "question_date": "2023/05/26 (Fri) 15:32",
+    "ground_truth_answer": "28. Kg3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions '28. Kg3' which matches the gold answer exactly, confirming this move was made in the chess game."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the position 'after 28. Kg3 Be6', which confirms that move 28 was Kg3, matching the gold answer for what came after move 27."
+        }
+    ]
+}

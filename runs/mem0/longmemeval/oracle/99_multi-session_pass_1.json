@@ -1,0 +1,22 @@
+{
+    "index": 99,
+    "question_type": "multi-session",
+    "question": "How many musical instruments do I currently own?",
+    "question_date": "2023/05/26 (Fri) 20:36",
+    "ground_truth_answer": "I currently own 4 musical instruments. I've had the Fender Stratocaster electric guitar for 5 years, the Yamaha FG800 acoustic guitar for 8 years, the 5-piece Pearl Export drum set for an unspecified amount of time, and the Korg B1 piano for 3 years.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_99_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is currently taking guitar lessons and experimenting with different sounds, indicating an active engagement with guitar playing and exploration of musical styles.\nThe user is a supportive adult living in Pasadena, recently purchased a student-level violin for his niece and is actively helping her develop a consistent practice habit, valuing nurturing her musical growth while also expanding his own instrumental repertoire.\nThe user recently purchased an overdrive pedal from Guitar Center last Saturday and wants recommendations on how to use it effectively in blues and rock contexts.\nThe user has a niece who recently acquired a student-level violin from a store in Pasadena about a month ago, and the user is helping her practice, seeking advice on how to motivate her to practice more by setting achievable goals and finding music she loves.\nThe user is looking for additional acoustic guitar accessories that could improve tone and playing experience.\nThe user owns a Yamaha FG800 acoustic guitar, has used it for about eight years for songwriting and camping trips.\nThe user wants recommendations for online resources or apps that can help the niece practice violin at home.\nUser is considering purchasing a new guitar humidifier to keep their acoustic guitar in good condition, weighing the value of a high-end humidifier versus a more affordable option.\nThe user is exploring acoustic-specific pedals and pedalboards for his FG800, considering the LR Baggs Venue DI and Pedaltrain Nano Acoustic pedalboard.\nThe user wants to improve guitar playing focusing on blues and rock, seeking online resources and tutorials.",
+            "latency": 495.187
+        },
+        {
+            "strategy": "graph",
+            "context": "User is currently taking guitar lessons and experimenting with different sounds, indicating an active engagement with guitar playing and exploration of musical styles.\nThe user is a supportive adult living in Pasadena, recently purchased a student-level violin for his niece and is actively helping her develop a consistent practice habit, valuing nurturing her musical growth while also expanding his own instrumental repertoire.\nThe user recently purchased an overdrive pedal from Guitar Center last Saturday and wants recommendations on how to use it effectively in blues and rock contexts.\nThe user has a niece who recently acquired a student-level violin from a store in Pasadena about a month ago, and the user is helping her practice, seeking advice on how to motivate her to practice more by setting achievable goals and finding music she loves.\nThe user is looking for additional acoustic guitar accessories that could improve tone and playing experience.\nThe user owns a Yamaha FG800 acoustic guitar, has used it for about eight years for songwriting and camping trips.\nThe user wants recommendations for online resources or apps that can help the niece practice violin at home.\nUser is considering purchasing a new guitar humidifier to keep their acoustic guitar in good condition, weighing the value of a high-end humidifier versus a more affordable option.\nThe user is exploring acoustic-specific pedals and pedalboards for his FG800, considering the LR Baggs Venue DI and Pedaltrain Nano Acoustic pedalboard.\nThe user wants to improve guitar playing focusing on blues and rock, seeking online resources and tutorials.",
+            "latency": 731.378
+        }
+    ]
+}

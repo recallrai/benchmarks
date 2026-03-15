@@ -1,0 +1,22 @@
+{
+    "index": 332,
+    "question_type": "single-session-user",
+    "question": "How long was I in Japan for?",
+    "question_date": "2023/05/28 (Sun) 23:29",
+    "ground_truth_answer": "two weeks",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_332_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip to Asia, considering Japan, has already visited Fushimi Inari Shrine during a solo two-week trip, stayed in small hostels and guesthouses, and is now looking for budget-friendly accommodations and onsen recommendations in Kyoto.\nUser is considering traveling to other parts of Asia after Japan and wants recommendations for must-see destinations across the continent.\nUser is interested in visiting the Demilitarized Zone (DMZ) between North and South Korea and wants recommendations for guided tours or attractions.\nUser is planning a visit to South Korea, specifically Seoul, and is interested in trying must-try dishes and restaurants.",
+            "latency": 898.37
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip to Asia, considering Japan, has already visited Fushimi Inari Shrine during a solo two-week trip, stayed in small hostels and guesthouses, and is now looking for budget-friendly accommodations and onsen recommendations in Kyoto.\nUser is considering traveling to other parts of Asia after Japan and wants recommendations for must-see destinations across the continent.\nUser is interested in visiting the Demilitarized Zone (DMZ) between North and South Korea and wants recommendations for guided tours or attractions.\nUser is planning a visit to South Korea, specifically Seoul, and is interested in trying must-try dishes and restaurants.",
+            "latency": 1935.777
+        }
+    ]
+}

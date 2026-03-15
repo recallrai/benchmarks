@@ -1,0 +1,19 @@
+{
+    "index": 385,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+    "question_date": "2023/07/01 (Sat) 13:47",
+    "ground_truth_answer": "I first completed the Spring Sprint Triathlon, then took part in the Midsummer 5K Run, and finally participated in the company's annual charity soccer tournament.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions all three events (Spring Sprint Triathlon, Midsummer 5K Run, and charity soccer tournament) and provides temporal indicators that establish their chronological order - the triathlon is described as 'just finished', the 5K run as 'recently completed', and the soccer tournament with present/planning language, allowing the correct sequence to be determined."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions all three sports events (Spring Sprint Triathlon, Midsummer 5K Run, and charity soccer tournament) and provides temporal clues indicating their order: the triathlon was completed first ('has just finished'), followed by the 5K run ('recently completed'), and finally the soccer tournament ('today' and future-focused preparation language)."
+        }
+    ]
+}

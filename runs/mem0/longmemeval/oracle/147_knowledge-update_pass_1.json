@@ -1,0 +1,22 @@
+{
+    "index": 147,
+    "question_type": "knowledge-update",
+    "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+    "question_date": "2023/05/28 (Sun) 22:52",
+    "ground_truth_answer": "six",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_147_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a pair of black Converse Chuck Taylor All Star sneakers, has worn them six times\u2014including a recent errand run yesterday\u2014finds them comfortable and versatile with jeans and dresses, is considering a waterproofing spray to protect them from mud and rain, and has been seeking cleaning tips.\nThe user owns white Adidas Superstars, wore the sneakers to the gym last week, the sneakers became dirty and scuffed, the user cleaned the sneakers with a toothbrush and soap for 20 minutes but is unsure if that is the best method, and is seeking better cleaning advice.\nUser is considering purchasing Vans Old Skool sneakers and is evaluating their comfort and value as an investment.\nThe user wants to organize the user's shoe closet, has many shoes, finds it hard to locate items, and plans to sort the shoes by type and color to make them easier to find.\nThe user owns brown leather boots with a loose heel that may break off; they are seeking a cobbler to repair them, plan to use a cedar shoe tree and a leather shoe cleaning kit to maintain shape and cleanliness, and want to prevent future damage.",
+            "latency": 720.134
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a pair of black Converse Chuck Taylor All Star sneakers, has worn them six times\u2014including a recent errand run yesterday\u2014finds them comfortable and versatile with jeans and dresses, is considering a waterproofing spray to protect them from mud and rain, and has been seeking cleaning tips.\nThe user owns white Adidas Superstars, wore the sneakers to the gym last week, the sneakers became dirty and scuffed, the user cleaned the sneakers with a toothbrush and soap for 20 minutes but is unsure if that is the best method, and is seeking better cleaning advice.\nUser is considering purchasing Vans Old Skool sneakers and is evaluating their comfort and value as an investment.\nThe user wants to organize the user's shoe closet, has many shoes, finds it hard to locate items, and plans to sort the shoes by type and color to make them easier to find.\nThe user owns brown leather boots with a loose heel that may break off; they are seeking a cobbler to repair them, plan to use a cedar shoe tree and a leather shoe cleaning kit to maintain shape and cleanliness, and want to prevent future damage.",
+            "latency": 876.541
+        }
+    ]
+}

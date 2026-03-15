@@ -1,0 +1,19 @@
+{
+    "index": 285,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+    "question_date": "2023/05/29 (Mon) 23:31",
+    "ground_truth_answer": "Grilled Snapper with Mango Salsa",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions snapper and Caribbean dishes but does not contain the specific dish name 'Grilled Snapper with Mango Salsa' or any reference to a snapper dish with fruit/mango, which is necessary to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions snapper and Jamaican dishes but does not contain any reference to 'Grilled Snapper with Mango Salsa' or any snapper dish with fruit, which is what the question specifically asks about."
+        }
+    ]
+}

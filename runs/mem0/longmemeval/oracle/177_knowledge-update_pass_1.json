@@ -1,0 +1,22 @@
+{
+    "index": 177,
+    "question_type": "knowledge-update",
+    "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+    "question_date": "2023/06/23 (Fri) 07:47",
+    "ground_truth_answer": "Two",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_177_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has accumulated enough Hilton Honors points for two free nights at any Hilton property and may use those points for a separate trip to Las Vegas.\nUser is considering other Hilton properties in Las Vegas, specifically the Hilton Grand Vacations Club on the Las Vegas Strip.\nUser is planning a weekend getaway to Las Vegas and is considering staying at the Hilton Lake Las Vegas Resort.\nUser is planning a trip to Europe in November, looking for hotels in Paris with an Eiffel Tower view, wants options within a budget of $200-300 per night, prefers a relatively central location, and wants a hotel with a fitness center and breakfast included.\nUser is interested in the Waldorf Astoria Las Vegas, specifically the various room and suite types and their amenities.",
+            "latency": 784.79
+        },
+        {
+            "strategy": "graph",
+            "context": "User has accumulated enough Hilton Honors points for two free nights at any Hilton property and may use those points for a separate trip to Las Vegas.\nUser is considering other Hilton properties in Las Vegas, specifically the Hilton Grand Vacations Club on the Las Vegas Strip.\nUser is planning a weekend getaway to Las Vegas and is considering staying at the Hilton Lake Las Vegas Resort.\nUser is planning a trip to Europe in November, looking for hotels in Paris with an Eiffel Tower view, wants options within a budget of $200-300 per night, prefers a relatively central location, and wants a hotel with a fitness center and breakfast included.\nUser is interested in the Waldorf Astoria Las Vegas, specifically the various room and suite types and their amenities.",
+            "latency": 909.902
+        }
+    ]
+}

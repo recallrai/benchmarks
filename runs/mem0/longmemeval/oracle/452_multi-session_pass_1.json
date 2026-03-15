@@ -1,0 +1,22 @@
+{
+    "index": 452,
+    "question_type": "multi-session",
+    "question": "How old was I when Alex was born?",
+    "question_date": "2023/05/29 (Mon) 23:46",
+    "ground_truth_answer": "11",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_452_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is mentoring a 21\u2011year\u2011old intern named Alex, wants to provide the right guidance and is excited to see him learn and grow, and plans to review resources on effective mentorship strategies.\nUser reflects on grandma who recently turned 75, noting her energy and sharpness, and is concerned about ageism in the workplace, seeking resources and information on combating ageism.",
+            "latency": 695.537
+        },
+        {
+            "strategy": "graph",
+            "context": "User is mentoring a 21\u2011year\u2011old intern named Alex, wants to provide the right guidance and is excited to see him learn and grow, and plans to review resources on effective mentorship strategies.\nUser reflects on grandma who recently turned 75, noting her energy and sharpness, and is concerned about ageism in the workplace, seeking resources and information on combating ageism.",
+            "latency": 930.922
+        }
+    ]
+}

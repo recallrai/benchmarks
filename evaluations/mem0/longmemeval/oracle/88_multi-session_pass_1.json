@@ -1,0 +1,19 @@
+{
+    "index": 88,
+    "question_type": "multi-session",
+    "question": "How many different art-related events did I attend in the past month?",
+    "question_date": "2023/03/08 (Wed) 22:33",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one specific attended art event (the March 3rd lecture on 'The Evolution of Street Art'), while the gold answer indicates 4 different art-related events were attended in the past month."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one specific art-related event attended (a lecture on March 3rd), but the gold answer indicates the user attended 4 different art-related events in the past month, so the context is insufficient to correctly answer the question."
+        }
+    ]
+}

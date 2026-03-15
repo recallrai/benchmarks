@@ -1,0 +1,19 @@
+{
+    "index": 318,
+    "question_type": "single-session-user",
+    "question": "Where did I complete my Bachelor's degree in Computer Science?",
+    "question_date": "2023/05/21 (Sun) 09:52",
+    "ground_truth_answer": "University of California, Los Angeles (UCLA)",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User completed a Bachelor of Science in Computer Science at UCLA,' which directly matches the gold answer of University of California, Los Angeles (UCLA)."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User completed a Bachelor of Science in Computer Science at UCLA,' which directly answers the question and matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 195,
+    "question_type": "knowledge-update",
+    "question": "How long have I been living in my current apartment in Shinjuku?",
+    "question_date": "2023/10/15 (Sun) 09:44",
+    "ground_truth_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_195_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently moved to Tokyo, living in a studio apartment in Harajuku for three months, finds the commute to work convenient, and has been exploring a new neighborhood every Sunday, discovering hidden gems such as a great coffee shop in Daikanyama, and enjoys the fall foliage in Tokyo.\nUser is planning a trip to the Japanese Alps in November, specifically in Nagano prefecture, and is seeking scenic routes and accommodation recommendations.\nUser is planning a day trip to Yokohama, interested in popular spots and enjoys fall foliage in Tokyo.\nUser intends to visit Minato Mirai 21 and the Red Brick Warehouse in Yokohama, attracted by harbor views.\nUser plans to stay in Matsumoto for the trip because they are more interested in traditional Japanese culture and history, and Matsumoto is closer to the Japanese Alps Visitor Center, which they plan to visit; they are looking for onsen recommendations in Matsumoto, want to visit must\u2011visit spots such as the Japanese Alps Visitor Center, Matsumoto Castle, Nawate Street, Matsumoto Folkcraft Museum, and Zenko\u2011ji Temple, and want to prioritize the castle over the temple due to their interest in traditional culture and history.\nUser is interested in visiting Meiji Shrine and Kawai Shrine in Harajuku, but has not yet had a chance to explore the historical side of Harajuku.\nUser asks about Minato Mirai 21 illuminations, specifically whether they have special themes or displays during autumn.\nUser wants to invite friends from Tokyo to join the trip and is looking for convenient public transportation options from Tokyo to Nagano.\nUser wants to try local seafood specialties such as kanimeshi (crab rice bowl) and namashirasu (raw sardine sushi), and is seeking recommendations for good seafood restaurants.\nUser intends to attend Yokohama Oktoberfest and the Autumn Leaves Festival if they occur during the trip, enjoys trying different beers and fall foliage.",
+            "latency": 674.055
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently moved to Tokyo, living in a studio apartment in Harajuku for three months, finds the commute to work convenient, and has been exploring a new neighborhood every Sunday, discovering hidden gems such as a great coffee shop in Daikanyama, and enjoys the fall foliage in Tokyo.\nUser is planning a trip to the Japanese Alps in November, specifically in Nagano prefecture, and is seeking scenic routes and accommodation recommendations.\nUser is planning a day trip to Yokohama, interested in popular spots and enjoys fall foliage in Tokyo.\nUser intends to visit Minato Mirai 21 and the Red Brick Warehouse in Yokohama, attracted by harbor views.\nUser plans to stay in Matsumoto for the trip because they are more interested in traditional Japanese culture and history, and Matsumoto is closer to the Japanese Alps Visitor Center, which they plan to visit; they are looking for onsen recommendations in Matsumoto, want to visit must\u2011visit spots such as the Japanese Alps Visitor Center, Matsumoto Castle, Nawate Street, Matsumoto Folkcraft Museum, and Zenko\u2011ji Temple, and want to prioritize the castle over the temple due to their interest in traditional culture and history.\nUser is interested in visiting Meiji Shrine and Kawai Shrine in Harajuku, but has not yet had a chance to explore the historical side of Harajuku.\nUser asks about Minato Mirai 21 illuminations, specifically whether they have special themes or displays during autumn.\nUser wants to invite friends from Tokyo to join the trip and is looking for convenient public transportation options from Tokyo to Nagano.\nUser wants to try local seafood specialties such as kanimeshi (crab rice bowl) and namashirasu (raw sardine sushi), and is seeking recommendations for good seafood restaurants.\nUser intends to attend Yokohama Oktoberfest and the Autumn Leaves Festival if they occur during the trip, enjoys trying different beers and fall foliage.",
+            "latency": 876.021
+        }
+    ]
+}

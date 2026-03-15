@@ -1,0 +1,19 @@
+{
+    "index": 352,
+    "question_type": "single-session-user",
+    "question": "What did I bake for my uncle's birthday party?",
+    "question_date": "2023/05/30 (Tue) 06:23",
+    "ground_truth_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions baking a lemon blueberry cake for the niece's birthday party but contains no information about baking for an uncle's birthday party, which aligns with the gold answer's assertion."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions baking a lemon blueberry cake for the niece's birthday party but contains no information about baking for an uncle's birthday party, which aligns with the gold answer's distinction."
+        }
+    ]
+}

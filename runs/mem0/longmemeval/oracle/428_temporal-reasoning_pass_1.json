@@ -1,0 +1,22 @@
+{
+    "index": 428,
+    "question_type": "temporal-reasoning",
+    "question": "What was the social media activity I participated 5 days ago?",
+    "question_date": "2023/03/20 (Mon) 05:50",
+    "ground_truth_answer": "You participated in a social media challenge called #PlankChallenge.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_428_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is pursuing a fitness journey and wants healthy high\u2011protein, low\u2011carb meal prep ideas that are easy to prepare. They plan to meal prep on Sundays to save time, share recipes on Instagram under #FoodieAdventures, and seek guidance on ensuring the right nutrients for workouts, after sharing a vegan chili.\nUser wants recommendations for healthy and tasty vegan sauces or dressings for salads that are low in sugar and unhealthy fats.",
+            "latency": 524.354
+        },
+        {
+            "strategy": "graph",
+            "context": "User is pursuing a fitness journey and wants healthy high\u2011protein, low\u2011carb meal prep ideas that are easy to prepare. They plan to meal prep on Sundays to save time, share recipes on Instagram under #FoodieAdventures, and seek guidance on ensuring the right nutrients for workouts, after sharing a vegan chili.\nUser wants recommendations for healthy and tasty vegan sauces or dressings for salads that are low in sugar and unhealthy fats.",
+            "latency": 803.367
+        }
+    ]
+}

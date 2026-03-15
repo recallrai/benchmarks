@@ -1,0 +1,19 @@
+{
+    "index": 426,
+    "question_type": "temporal-reasoning",
+    "question": "What kitchen appliance did I buy 10 days ago?",
+    "question_date": "2023/03/25 (Sat) 18:04",
+    "ground_truth_answer": "a smoker",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'has just acquired a smoker' and is a BBQ enthusiast experimenting with it, which directly answers the question about buying a smoker 10 days ago."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'has just acquired a smoker,' which directly matches the gold answer and would enable someone to correctly answer the question about what kitchen appliance was bought."
+        }
+    ]
+}

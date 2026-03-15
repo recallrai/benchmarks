@@ -1,0 +1,19 @@
+{
+    "index": 452,
+    "question_type": "multi-session",
+    "question": "How old was I when Alex was born?",
+    "question_date": "2023/05/29 (Mon) 23:46",
+    "ground_truth_answer": "11",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context provides Alex's current age (21) but does not include the user's age or birth year, which is necessary to calculate how old the user was when Alex was born."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context states Alex is 21 years old but does not provide the user's current age, which is necessary to calculate how old the user was when Alex was born (the gold answer being 11 years old)."
+        }
+    ]
+}

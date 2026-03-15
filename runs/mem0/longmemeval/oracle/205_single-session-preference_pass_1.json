@@ -1,0 +1,22 @@
+{
+    "index": 205,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend a show or movie for me to watch tonight?",
+    "question_date": "2023/05/27 (Sat) 18:09",
+    "ground_truth_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_205_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is seeking online resources or books focused on comedy writing and storytelling to help them improve their craft.\nThe user is looking for online resources or books that cover building a personal brand as a comedian and establishing an online presence.\nThe user, an aspiring stand-up comedian, is seeking advice to improve their craft and wants recommendations for Netflix stand-up specials that feature strong storytelling, specifically mentioning John Mulaney's 'Kid Gorgeous' as a model.\nThe user is planning to record themselves performing jokes for YouTube and is looking for guidance on setting up a home recording studio suitable for comedy videos.\nThe user is considering attending a comedy writing workshop at a local writing center on Friday, seeking validation that this is a good idea, and has confirmed they will attend, expressing excitement about learning from experienced instructors, receiving feedback on their work, and networking with other writers.",
+            "latency": 3030.31
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is seeking online resources or books focused on comedy writing and storytelling to help them improve their craft.\nThe user is looking for online resources or books that cover building a personal brand as a comedian and establishing an online presence.\nThe user, an aspiring stand-up comedian, is seeking advice to improve their craft and wants recommendations for Netflix stand-up specials that feature strong storytelling, specifically mentioning John Mulaney's 'Kid Gorgeous' as a model.\nThe user is planning to record themselves performing jokes for YouTube and is looking for guidance on setting up a home recording studio suitable for comedy videos.\nThe user is considering attending a comedy writing workshop at a local writing center on Friday, seeking validation that this is a good idea, and has confirmed they will attend, expressing excitement about learning from experienced instructors, receiving feedback on their work, and networking with other writers.",
+            "latency": 2323.99
+        }
+    ]
+}

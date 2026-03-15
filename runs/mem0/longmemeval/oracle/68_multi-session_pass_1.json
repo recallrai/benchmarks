@@ -1,0 +1,22 @@
+{
+    "index": 68,
+    "question_type": "multi-session",
+    "question": "How many different doctors did I visit?",
+    "question_date": "2023/05/28 (Sun) 06:34",
+    "ground_truth_answer": "I visited three different doctors: a primary care physician, an ENT specialist, and a dermatologist.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_68_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User was diagnosed with chronic sinusitis by ENT specialist Dr. Patel, is recovering from a UTI, and plans to schedule appointments with Dr. Patel to discuss how UTI and antibiotic use might be impacting chronic sinusitis, and with Dr. Smith to discuss fatigue, joint pain, and rule out other conditions.\nUser, diagnosed with chronic sinusitis by ENT specialist Dr. Patel, is frustrated with how to use the prescribed nasal spray, is experiencing congestion, and is seeking recommendations for specific nasal sprays and humidifiers to manage symptoms.\nUser has a nasal spray prescription from Dr. Patel and is seeking tips to use it more effectively, while also reporting that a recent follow\u2011up with dermatologist Dr. Lee for a biopsy of a suspicious mole on the back returned benign results.\nUser wants detailed guidance on nasal saline irrigation frequency, techniques, step\u2011by\u2011step saline preparation with recommended salt types, and a concise summary.\nUser is planning to undergo a colonoscopy, has requested general information about the procedure, wants to know what questions to ask the doctor during the consultation, is interested in specific dietary restrictions and exercise limitations after the procedure, and now feels well\u2011prepared and informed about the upcoming appointment.\nUser had a urinary tract infection treated with antibiotics prescribed by primary care physician Dr. Smith, is still recovering, and is experiencing persistent fatigue and joint pain, uncertain whether these symptoms are related to chronic sinusitis or caused by the UTI/antibiotics.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User was diagnosed with chronic sinusitis by ENT specialist Dr. Patel, is recovering from a UTI, and plans to schedule appointments with Dr. Patel to discuss how UTI and antibiotic use might be impacting chronic sinusitis, and with Dr. Smith to discuss fatigue, joint pain, and rule out other conditions.\nUser, diagnosed with chronic sinusitis by ENT specialist Dr. Patel, is frustrated with how to use the prescribed nasal spray, is experiencing congestion, and is seeking recommendations for specific nasal sprays and humidifiers to manage symptoms.\nUser has a nasal spray prescription from Dr. Patel and is seeking tips to use it more effectively, while also reporting that a recent follow\u2011up with dermatologist Dr. Lee for a biopsy of a suspicious mole on the back returned benign results.\nUser wants detailed guidance on nasal saline irrigation frequency, techniques, step\u2011by\u2011step saline preparation with recommended salt types, and a concise summary.\nUser is planning to undergo a colonoscopy, has requested general information about the procedure, wants to know what questions to ask the doctor during the consultation, is interested in specific dietary restrictions and exercise limitations after the procedure, and now feels well\u2011prepared and informed about the upcoming appointment.\nUser had a urinary tract infection treated with antibiotics prescribed by primary care physician Dr. Smith, is still recovering, and is experiencing persistent fatigue and joint pain, uncertain whether these symptoms are related to chronic sinusitis or caused by the UTI/antibiotics.",
+            "latency": 725.395
+        }
+    ]
+}

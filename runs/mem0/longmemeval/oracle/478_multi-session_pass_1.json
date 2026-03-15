@@ -1,0 +1,22 @@
+{
+    "index": 478,
+    "question_type": "multi-session",
+    "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+    "question_date": "2023/05/29 (Mon) 09:49",
+    "ground_truth_answer": "1,998",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_478_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User owns a pet named Luna, and a TikTok video of Luna chasing a laser pointer has accumulated 1,456 views.\nUser plans to create a Twitter thread summarizing key takeaways from their most popular YouTube social media analytics tutorial, and is considering adding infographics or charts to enhance engagement.\nUser is actively seeking to improve their Twitter content strategy, has joined a weekly Thursday Twitter chat on social media marketing, and has a YouTube tutorial on social media analytics that has 542 views, which they plan to build upon with additional content.\nUser intends to repurpose their YouTube social media analytics tutorial for Twitter, applying its analytical tips to evaluate and optimize their own Twitter performance for better engagement.\nUser plans to reach out to local pet businesses and pet owners for collaborative content or promotions, intending to highlight the TikTok video as evidence of influence.\nUser plans to provide guidance on selecting appropriate social media analytics tools, including evaluation criteria and a list of popular options, to help their audience make informed decisions and maximize analytics effectiveness.\nUser is evaluating outreach methods and decided to start with a brief introductory email that is professional and friendly, attaching examples of work including the popular TikTok video, and will follow up with a phone call or in-person meeting if businesses express interest.\nUser intends to incorporate visuals in the Twitter thread and will share tips on tracking engagement rates and using social media listening, while also considering adding content about common social media analytics mistakes and avoidance strategies.\nUser has 187 followers on Twitter, joined a weekly Twitter chat on Thursdays focused on social media marketing, and gained 7 new followers from that activity.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User owns a pet named Luna, and a TikTok video of Luna chasing a laser pointer has accumulated 1,456 views.\nUser plans to create a Twitter thread summarizing key takeaways from their most popular YouTube social media analytics tutorial, and is considering adding infographics or charts to enhance engagement.\nUser is actively seeking to improve their Twitter content strategy, has joined a weekly Thursday Twitter chat on social media marketing, and has a YouTube tutorial on social media analytics that has 542 views, which they plan to build upon with additional content.\nUser intends to repurpose their YouTube social media analytics tutorial for Twitter, applying its analytical tips to evaluate and optimize their own Twitter performance for better engagement.\nUser plans to reach out to local pet businesses and pet owners for collaborative content or promotions, intending to highlight the TikTok video as evidence of influence.\nUser plans to provide guidance on selecting appropriate social media analytics tools, including evaluation criteria and a list of popular options, to help their audience make informed decisions and maximize analytics effectiveness.\nUser is evaluating outreach methods and decided to start with a brief introductory email that is professional and friendly, attaching examples of work including the popular TikTok video, and will follow up with a phone call or in-person meeting if businesses express interest.\nUser intends to incorporate visuals in the Twitter thread and will share tips on tracking engagement rates and using social media listening, while also considering adding content about common social media analytics mistakes and avoidance strategies.\nUser has 187 followers on Twitter, joined a weekly Twitter chat on Thursdays focused on social media marketing, and gained 7 new followers from that activity.",
+            "latency": 741.065
+        }
+    ]
+}

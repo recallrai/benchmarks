@@ -1,0 +1,22 @@
+{
+    "index": 5,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+    "question_date": "2023/02/20 (Mon) 22:35",
+    "ground_truth_answer": "30 days. 31 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_5_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to volunteer at a local soup kitchen this weekend, inspired by attending Ash Wednesday service on Feb 1, and intends to suggest to their Bible study group to organize a food drive or fundraiser supporting that soup kitchen and other homeless organizations.\nUser plans to volunteer at a local charity event soon, seeks info on homeless charities, and was inspired by a forgiveness sermon at St. Mary's Church on Jan\u202f2\u202f2026.\nUser recently attended a spiritual retreat at a local Buddhist temple, where meditation and yoga helped them relax and focus.\nUser attends a Bible study group, studying the Book of Psalms, finding sessions enlightening and enriching.",
+            "latency": 845.89
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to volunteer at a local soup kitchen this weekend, inspired by attending Ash Wednesday service on Feb 1, and intends to suggest to their Bible study group to organize a food drive or fundraiser supporting that soup kitchen and other homeless organizations.\nUser plans to volunteer at a local charity event soon, seeks info on homeless charities, and was inspired by a forgiveness sermon at St. Mary's Church on Jan\u202f2\u202f2026.\nUser recently attended a spiritual retreat at a local Buddhist temple, where meditation and yoga helped them relax and focus.\nUser attends a Bible study group, studying the Book of Psalms, finding sessions enlightening and enriching.",
+            "latency": 1328.741
+        }
+    ]
+}

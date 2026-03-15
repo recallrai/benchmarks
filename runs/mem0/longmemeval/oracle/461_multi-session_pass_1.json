@@ -1,0 +1,22 @@
+{
+    "index": 461,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster on my thesis research?",
+    "question_date": "2023/05/27 (Sat) 08:24",
+    "ground_truth_answer": "Harvard University",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_461_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User presented a poster on their thesis research at their first research conference during the summer, which took place at Harvard University where they observed several innovative AI projects in education and are now seeking updates on the latest research developments in the field.\nUser's research examined how artificial intelligence can support student learning outcomes in education.\nUser received positive feedback from educators and policymakers after presenting research at a conference over the summer, and developers expressed interest in applying findings; some educators disagreed, fearing AI systems might replace teachers, while others saw them as supportive tools.\nUser is curious about research evidence on how AI can help students develop critical thinking and problem\u2011solving skills, following their interest in AI\u2011powered adaptive systems that provide immediate feedback to students.\nUser's research primarily addressed the broader concept of AI-powered adaptive learning systems but also included case studies of specific platforms to illustrate implementation challenges and opportunities.",
+            "latency": 494.098
+        },
+        {
+            "strategy": "graph",
+            "context": "User presented a poster on their thesis research at their first research conference during the summer, which took place at Harvard University where they observed several innovative AI projects in education and are now seeking updates on the latest research developments in the field.\nUser's research examined how artificial intelligence can support student learning outcomes in education.\nUser received positive feedback from educators and policymakers after presenting research at a conference over the summer, and developers expressed interest in applying findings; some educators disagreed, fearing AI systems might replace teachers, while others saw them as supportive tools.\nUser is curious about research evidence on how AI can help students develop critical thinking and problem\u2011solving skills, following their interest in AI\u2011powered adaptive systems that provide immediate feedback to students.\nUser's research primarily addressed the broader concept of AI-powered adaptive learning systems but also included case studies of specific platforms to illustrate implementation challenges and opportunities.",
+            "latency": 739.713
+        }
+    ]
+}

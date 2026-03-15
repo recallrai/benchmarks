@@ -1,0 +1,19 @@
+{
+    "index": 154,
+    "question_type": "knowledge-update",
+    "question": "How long have my parents been staying with me in the US?",
+    "question_date": "2023/10/22 (Sun) 20:20",
+    "ground_truth_answer": "nine months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states multiple times that the user's parents have been living with them for 'nine months' or references a 'nine-month overstay', which directly matches the gold answer of 'nine months'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states multiple times that the user's parents have been living with them for 'nine months' in the US, which directly matches the gold answer."
+        }
+    ]
+}

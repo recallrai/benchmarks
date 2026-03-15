@@ -1,0 +1,22 @@
+{
+    "index": 269,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+    "question_date": "2023/05/24 (Wed) 16:21",
+    "ground_truth_answer": "Jaipur Rugs",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_269_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is requesting specific examples of private sector businesses that have been particularly impactful in reducing poverty and unemployment in Chaudhary.\nUser is asking about the role of private sector businesses in supporting poverty and unemployment reduction in Chaudhary.\nUser expresses admiration for private companies' positive impact in Chaudhary and asks whether the government is doing enough to support these initiatives and encourage more private sector investment in the region.",
+            "latency": 1685.259
+        },
+        {
+            "strategy": "graph",
+            "context": "User is requesting specific examples of private sector businesses that have been particularly impactful in reducing poverty and unemployment in Chaudhary.\nUser is asking about the role of private sector businesses in supporting poverty and unemployment reduction in Chaudhary.\nUser expresses admiration for private companies' positive impact in Chaudhary and asks whether the government is doing enough to support these initiatives and encourage more private sector investment in the region.",
+            "latency": 2477.633
+        }
+    ]
+}

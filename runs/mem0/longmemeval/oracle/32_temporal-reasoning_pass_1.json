@@ -1,0 +1,22 @@
+{
+    "index": 32,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the new router?",
+    "question_date": "2023/03/28 (Tue) 01:17",
+    "ground_truth_answer": "new router",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_32_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User set up a smart thermostat on 2026-02-10 after procrastinating for weeks, and it has become a game\u2011changer.\nUser subscribes to XYZ Internet with a 500Mbps plan, installed a new router on 2026-01-15 that improved Wi\u2011Fi signal strength, has 5\u20136 devices connected, needs to set up a guest network, and is considering negotiating a better deal with the ISP due to slow speeds when working from home.\nUser reports slow internet speeds when working from home, has trouble connecting a new streaming service to the smart TV, notices slower speeds during peak usage hours when family members use devices, and observes that the smart speaker consumes bandwidth in the background.\nUser wants to explore router analytics and network monitoring, seeking guidance on accessing router logs and recommendations for tools to track bandwidth usage.\nUser wants to explore the smart speaker\u2019s capabilities beyond music, reminders, and hands\u2011free calls, needs to reorder batteries because they are running low, and wants tips on creating custom routines to automate tasks such as turning off lights when leaving the house or locking doors at night.\nUser ordered cable organizers online on January 28, but they have not yet arrived, causing frustration due to the chaotic cable situation at home.\nUser ran a speed test showing a download speed of 350\u202fMbps, upload speed of 20\u202fMbps, and ping of 25\u202fms; paid the internet bill on 2026-01-25 and plans to call the provider to negotiate a better deal.",
+            "latency": 796.731
+        },
+        {
+            "strategy": "graph",
+            "context": "User set up a smart thermostat on 2026-02-10 after procrastinating for weeks, and it has become a game\u2011changer.\nUser subscribes to XYZ Internet with a 500Mbps plan, installed a new router on 2026-01-15 that improved Wi\u2011Fi signal strength, has 5\u20136 devices connected, needs to set up a guest network, and is considering negotiating a better deal with the ISP due to slow speeds when working from home.\nUser reports slow internet speeds when working from home, has trouble connecting a new streaming service to the smart TV, notices slower speeds during peak usage hours when family members use devices, and observes that the smart speaker consumes bandwidth in the background.\nUser wants to explore router analytics and network monitoring, seeking guidance on accessing router logs and recommendations for tools to track bandwidth usage.\nUser wants to explore the smart speaker\u2019s capabilities beyond music, reminders, and hands\u2011free calls, needs to reorder batteries because they are running low, and wants tips on creating custom routines to automate tasks such as turning off lights when leaving the house or locking doors at night.\nUser ordered cable organizers online on January 28, but they have not yet arrived, causing frustration due to the chaotic cable situation at home.\nUser ran a speed test showing a download speed of 350\u202fMbps, upload speed of 20\u202fMbps, and ping of 25\u202fms; paid the internet bill on 2026-01-25 and plans to call the provider to negotiate a better deal.",
+            "latency": 1040.631
+        }
+    ]
+}

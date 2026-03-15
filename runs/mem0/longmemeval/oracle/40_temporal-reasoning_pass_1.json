@@ -1,0 +1,22 @@
+{
+    "index": 40,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been accepted into the exchange program when I started attending the pre-departure orientation sessions?",
+    "question_date": "2023/04/19 (Wed) 15:42",
+    "ground_truth_answer": "one week",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_40_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attends pre\u2011departure orientation sessions at the user's home university every Friday since March 27, 2026, which the user finds helpful for preparing for the journey.\nUser wants information on required health insurance for UC Berkeley exchange students.\nUser has been taking an intensive English language course on weekends since March, has seen progress, instructor Ms. Johnson helpful, and wants more information on UC Berkeley English language support services.\nUser follows UC Berkeley social media accounts to stay updated on events, and wants information on campus events and activities during the semester abroad.\nUser booked a flight to San Francisco on April 1, departing on August 15, and seeks preparation tips for the flight and arrival in the US.\nUser wants detailed information on the cost and potential hidden fees associated with international phone plans to stay connected while abroad.\nUser wants to learn how to use WhatsApp, including installation, verification, profile setup, messaging, voice/video calls, media sharing, end\u2011to\u2011end encryption, group chats, web version, and tips for Wi\u2011Fi usage and data monitoring.\nUser applied for a visa, had an interview on April 25, and seeks confirmation of visa status.\nUser plans to join UC Berkeley photography club and volunteer at local animal shelter, and wants information on student organizations and community service opportunities.",
+            "latency": 801.045
+        },
+        {
+            "strategy": "graph",
+            "context": "User attends pre\u2011departure orientation sessions at the user's home university every Friday since March 27, 2026, which the user finds helpful for preparing for the journey.\nUser wants information on required health insurance for UC Berkeley exchange students.\nUser has been taking an intensive English language course on weekends since March, has seen progress, instructor Ms. Johnson helpful, and wants more information on UC Berkeley English language support services.\nUser follows UC Berkeley social media accounts to stay updated on events, and wants information on campus events and activities during the semester abroad.\nUser booked a flight to San Francisco on April 1, departing on August 15, and seeks preparation tips for the flight and arrival in the US.\nUser wants detailed information on the cost and potential hidden fees associated with international phone plans to stay connected while abroad.\nUser wants to learn how to use WhatsApp, including installation, verification, profile setup, messaging, voice/video calls, media sharing, end\u2011to\u2011end encryption, group chats, web version, and tips for Wi\u2011Fi usage and data monitoring.\nUser applied for a visa, had an interview on April 25, and seeks confirmation of visa status.\nUser plans to join UC Berkeley photography club and volunteer at local animal shelter, and wants information on student organizations and community service opportunities.",
+            "latency": 1045.353
+        }
+    ]
+}

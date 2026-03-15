@@ -1,0 +1,19 @@
+{
+    "index": 234,
+    "question_type": "single-session-assistant",
+    "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+    "question_date": "2023/05/23 (Tue) 04:42",
+    "ground_truth_answer": "Roscioli",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Roscioli' as a restaurant the user wants to make a reservation at, and earlier context confirms it's an Italian restaurant in Rome for a romantic dinner, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Roscioli' as a restaurant where the user wants to make a reservation, and the earlier context establishes this is related to finding a romantic Italian restaurant in Rome for dinner, which directly matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 246,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about The Library of Babel, and I wanted to confirm - what did Borges say about the center and circumference of the Library?",
+    "question_date": "2023/05/26 (Fri) 23:43",
+    "ground_truth_answer": "According to Borges, 'The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.'",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_246_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 962.275
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 10458.0
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 320,
+    "question_type": "single-session-user",
+    "question": "What type of cocktail recipe did I try last weekend?",
+    "question_date": "2023/05/26 (Fri) 02:26",
+    "ground_truth_answer": "lavender gin fizz",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'tried a lavender gin fizz without simple syrup,' which directly matches the gold answer of 'lavender gin fizz.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'tried a lavender gin fizz without simple syrup,' which directly matches the gold answer of 'lavender gin fizz.'"
+        }
+    ]
+}

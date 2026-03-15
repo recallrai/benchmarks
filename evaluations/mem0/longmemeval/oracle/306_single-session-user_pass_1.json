@@ -1,0 +1,19 @@
+{
+    "index": 306,
+    "question_type": "single-session-user",
+    "question": "What brand are my favorite running shoes?",
+    "question_date": "2023/05/30 (Tue) 20:23",
+    "ground_truth_answer": "Nike",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'prefers Nike as their favorite brand' and mentions 'Nike running shoes,' which directly answers the question about the brand of their favorite running shoes."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'prefers Nike as their favorite brand' and is looking for Nike running shoes, which directly answers the question about their favorite running shoe brand."
+        }
+    ]
+}

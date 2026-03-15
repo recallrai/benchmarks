@@ -1,0 +1,22 @@
+{
+    "index": 405,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+    "question_date": "2023/04/12 (Wed) 20:28",
+    "ground_truth_answer": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_405_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is vegan, pursuing a fitness journey, and actively shares progress on Instagram using the hashtags #MyFitnessJourney and #FoodieAdventures; yesterday they posted a vegan chili recipe that received significant attention, and they also participated in the #PlankChallenge.\nThe user is seeking new home workout routines, especially bodyweight 7\u2011Minute Workout, planning to do 3 rounds 3 times a week, and wants to track progress.\nThe user wants healthy, tasty vegan sauces or dressings for salads that are low in sugar and unhealthy fats, and is looking for suitable recipes.\nThe user has had issues with quinoa becoming too mushy in the past and is interested in protein-packed salads, especially the quinoa and black bean salad, and is seeking tips to cook quinoa perfectly.\nThe user wants to add high-protein, low-carb vegan protein sources to salads, specifically planning to try seitan and tempeh, and is looking for recommendations for such ingredients.\nThe user is looking for high-protein meal prep ideas that are easy to prepare for their fitness journey, plans to meal prep on Sundays to support fitness goals, wants healthy high\u2011protein vegan meal prep ideas, and seeks tips to ensure she gets the right nutrients for workouts.",
+            "latency": 494.614
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is vegan, pursuing a fitness journey, and actively shares progress on Instagram using the hashtags #MyFitnessJourney and #FoodieAdventures; yesterday they posted a vegan chili recipe that received significant attention, and they also participated in the #PlankChallenge.\nThe user is seeking new home workout routines, especially bodyweight 7\u2011Minute Workout, planning to do 3 rounds 3 times a week, and wants to track progress.\nThe user wants healthy, tasty vegan sauces or dressings for salads that are low in sugar and unhealthy fats, and is looking for suitable recipes.\nThe user has had issues with quinoa becoming too mushy in the past and is interested in protein-packed salads, especially the quinoa and black bean salad, and is seeking tips to cook quinoa perfectly.\nThe user wants to add high-protein, low-carb vegan protein sources to salads, specifically planning to try seitan and tempeh, and is looking for recommendations for such ingredients.\nThe user is looking for high-protein meal prep ideas that are easy to prepare for their fitness journey, plans to meal prep on Sundays to support fitness goals, wants healthy high\u2011protein vegan meal prep ideas, and seeks tips to ensure she gets the right nutrients for workouts.",
+            "latency": 697.0
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 234,
+    "question_type": "single-session-assistant",
+    "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+    "question_date": "2023/05/23 (Tue) 04:42",
+    "ground_truth_answer": "Roscioli",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_234_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants the best Italian restaurant in Rome for a romantic dinner.\nUser is looking for recommendations for authentic Italian restaurants and gelato spots in Rome.\nUser wants to make a reservation at Roscioli for 2026-01-29 at 7 pm.",
+            "latency": 1459.385
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants the best Italian restaurant in Rome for a romantic dinner.\nUser is looking for recommendations for authentic Italian restaurants and gelato spots in Rome.\nUser wants to make a reservation at Roscioli for 2026-01-29 at 7 pm.",
+            "latency": 3825.6
+        }
+    ]
+}

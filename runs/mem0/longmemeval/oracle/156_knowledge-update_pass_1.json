@@ -1,0 +1,22 @@
+{
+    "index": 156,
+    "question_type": "knowledge-update",
+    "question": "How long have I had my cat, Luna?",
+    "question_date": "2023/11/30 (Thu) 03:32",
+    "ground_truth_answer": "9 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_156_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is considering microchipping Luna for safety, has been wanting to do so for a while, has heard horror stories about lost pets, and has scheduled an appointment for next Friday to get Luna microchipped.\nThe user, who has been managing Luna\u2019s health and wellbeing by focusing on weight, shedding, exercise, and has started daily brushing and feeding freeze\u2011dried salmon treats, is now exploring interactive toys to keep Luna engaged and active, building on her existing routine of rotating toys weekly and using a cat tree for climbing.\nThe user is enthusiastic about acquiring the Petcube Interactive Wall Toy, believing it will be enjoyable for Luna.\nThe user is considering a pet camera that can dispense treats to reward Luna for good behavior, specifically to train her to stay off furniture, aiming to use remote positive reinforcement for training.\nThe user is seeking specific brand or product recommendations for interactive climbing walls and wall\u2011mounted toys to add to Luna\u2019s play environment.",
+            "latency": 788.562
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is considering microchipping Luna for safety, has been wanting to do so for a while, has heard horror stories about lost pets, and has scheduled an appointment for next Friday to get Luna microchipped.\nThe user, who has been managing Luna\u2019s health and wellbeing by focusing on weight, shedding, exercise, and has started daily brushing and feeding freeze\u2011dried salmon treats, is now exploring interactive toys to keep Luna engaged and active, building on her existing routine of rotating toys weekly and using a cat tree for climbing.\nThe user is enthusiastic about acquiring the Petcube Interactive Wall Toy, believing it will be enjoyable for Luna.\nThe user is considering a pet camera that can dispense treats to reward Luna for good behavior, specifically to train her to stay off furniture, aiming to use remote positive reinforcement for training.\nThe user is seeking specific brand or product recommendations for interactive climbing walls and wall\u2011mounted toys to add to Luna\u2019s play environment.",
+            "latency": 921.674
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 184,
+    "question_type": "knowledge-update",
+    "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+    "question_date": "2023/12/12 (Tue) 20:12",
+    "ground_truth_answer": "7",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user caught 7 largemouth bass on a fishing trip to Lake Michigan with Alex on July 10, which is the earlier trip before the 7/22 trip mentioned in the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user caught 7 largemouth bass on a fishing trip to Lake Michigan with Alex on July 10, which is before the July 22 trip mentioned in the question."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 407,
+    "question_type": "temporal-reasoning",
+    "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+    "question_date": "2022/08/20 (Sat) 11:32",
+    "ground_truth_answer": "Emma graduated first, followed by Rachel and then Alex.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context shows Emma graduated in late May and Rachel in mid-August 2022, but does not provide a clear graduation date for Alex to determine the complete order of first, second, and third."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context clearly indicates Emma graduated in late May and Rachel graduated on August 19 (yesterday from question date), but provides no explicit information about when Alex graduated or his position in the graduation order."
+        }
+    ]
+}

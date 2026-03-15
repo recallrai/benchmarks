@@ -1,0 +1,19 @@
+{
+    "index": 105,
+    "question_type": "multi-session",
+    "question": "How much total money did I spend on attending workshops in the last four months?",
+    "question_date": "2023/02/26 (Sun) 22:36",
+    "ground_truth_answer": "$720",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about workshop spending in the last four months before Feb 26, 2023 (approximately Nov 2022 - Feb 2023), but the context contains inconsistent dates with workshops listed in 2024 and 2025, making it impossible to correctly identify which workshops fall within the relevant time period and calculate the $720 total."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions workshops with costs of $500 (digital marketing), $200 (writing), and $20 (mindfulness) which sum to $720 matching the gold answer, though the dates in the context appear inconsistent with the question date."
+        }
+    ]
+}

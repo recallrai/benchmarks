@@ -1,0 +1,22 @@
+{
+    "index": 271,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about YouTube videos for workplace posture. Can you remind me of the Mayo Clinic video you recommended?",
+    "question_date": "2023/05/27 (Sat) 11:04",
+    "ground_truth_answer": "The video is 'How to Sit Properly at a Desk to Avoid Back Pain' and the link is https://www.youtube.com/watch?v=UfOvNlX9Hh0.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_271_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 1398.906
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 5668.721
+        }
+    ]
+}

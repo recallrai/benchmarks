@@ -1,0 +1,22 @@
+{
+    "index": 366,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+    "question_date": "2023/04/18 (Tue) 20:43",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_366_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has just harvested their first batch of fresh herbs from an herb garden kit today, is excited to use them in various dishes\u2014including Thai Basil Chicken Stir-Fry and Pesto Pasta\u2014and is seeking advice on storing fresh herbs to preserve freshness, while also watering their herb garden every morning and expressing excitement about the plants' growth.\nUser is curious about freezing herbs and wants to know how to determine if frozen herbs are still good to use after a few months.\nUser is tracking progress on a gardening app, noting rapid growth of cherry tomatoes, and is open to experimenting with homemade fertilizers and irrigation.\nUser is interested in learning about rainwater harvesting systems, including how they work and the benefits of using them.\nUser has observed rapid growth of their cherry tomato plants since starting weekly balanced fertilizer, is considering homemade fertilizers, and is evaluating whether to begin with Epsom salt or banana peel fertilizer.\nUser has recently installed a drip irrigation system in their backyard, plans to implement banana peel fertilizer by burying peels around the base of their cherry tomato plants, will monitor growth and adjust the fertilization schedule accordingly, and is now seeking information on other irrigation system types and their advantages.\nUser is interested in homemade fertilizer recipes, currently applies a balanced fertilizer to their cherry tomato plants, and wants natural, cost\u2011effective alternatives.",
+            "latency": 489.46
+        },
+        {
+            "strategy": "graph",
+            "context": "User has just harvested their first batch of fresh herbs from an herb garden kit today, is excited to use them in various dishes\u2014including Thai Basil Chicken Stir-Fry and Pesto Pasta\u2014and is seeking advice on storing fresh herbs to preserve freshness, while also watering their herb garden every morning and expressing excitement about the plants' growth.\nUser is curious about freezing herbs and wants to know how to determine if frozen herbs are still good to use after a few months.\nUser is tracking progress on a gardening app, noting rapid growth of cherry tomatoes, and is open to experimenting with homemade fertilizers and irrigation.\nUser is interested in learning about rainwater harvesting systems, including how they work and the benefits of using them.\nUser has observed rapid growth of their cherry tomato plants since starting weekly balanced fertilizer, is considering homemade fertilizers, and is evaluating whether to begin with Epsom salt or banana peel fertilizer.\nUser has recently installed a drip irrigation system in their backyard, plans to implement banana peel fertilizer by burying peels around the base of their cherry tomato plants, will monitor growth and adjust the fertilization schedule accordingly, and is now seeking information on other irrigation system types and their advantages.\nUser is interested in homemade fertilizer recipes, currently applies a balanced fertilizer to their cherry tomato plants, and wants natural, cost\u2011effective alternatives.",
+            "latency": 738.74
+        }
+    ]
+}

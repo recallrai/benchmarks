@@ -1,0 +1,19 @@
+{
+    "index": 199,
+    "question_type": "knowledge-update",
+    "question": "Where do I currently keep my old sneakers?",
+    "question_date": "2023/06/07 (Wed) 04:15",
+    "ground_truth_answer": "in a shoe rack in my closet",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the old sneakers are currently stored under the bed and mentions plans to move them into a shoe rack this weekend, which contradicts the gold answer that they are currently in a shoe rack in the closet."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states old sneakers are currently stored under the bed and plans to move them into a shoe rack this weekend (future), which contradicts the gold answer stating they are currently in a shoe rack in the closet."
+        }
+    ]
+}

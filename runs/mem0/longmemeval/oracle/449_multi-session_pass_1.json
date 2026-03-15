@@ -1,0 +1,22 @@
+{
+    "index": 449,
+    "question_type": "multi-session",
+    "question": "How much did I spend on car wash and parking ticket?",
+    "question_date": "2023/05/30 (Tue) 04:05",
+    "ground_truth_answer": "$65",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_449_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User received a parking ticket on January 5 for $50, which user notes is not a maintenance cost.\nUser has a 2018 Honda Civic and has recorded maintenance expenses including a February\u202f10 air\u2011filter replacement costing $25, a February\u202f10 gas fill\u2011up costing $30, a February\u202f3 car wash costing $15, and a December\u202f28 gas fill\u2011up with an unknown cost.\nUser intends to use proceeds from the motorcycle sale to cover recent expenses: a January\u202f25 bike repair costing $40, the February\u202f10 air\u2011filter replacement ($25), the February\u202f3 car wash ($15), and the February\u202f10 gas fill\u2011up ($30), totaling $110.\nUser wants to track car maintenance costs for the past few months to better manage expenses.\nUser's car is a 2018 Honda Civic with unknown mileage.\nUser is trying to keep track of car expenses and is seeking help to create a budget for the Honda Civic.\nUser has a bike that was serviced recently on January\u202f25 for $40, which the user considers a separate maintenance activity from the car.\nUser has not provided information about tire rotations or brake pad replacements and is uncertain whether those services have been performed recently.\nUser is planning to sell a Yamaha FZ6R motorcycle on Craigslist, listed on January\u202f20 for $3,500, and has received interest but no offers yet.\nUser has not had an oil change recently; user believes the last oil change was a while ago but does not know the exact date.",
+            "latency": 499.878
+        },
+        {
+            "strategy": "graph",
+            "context": "User received a parking ticket on January 5 for $50, which user notes is not a maintenance cost.\nUser has a 2018 Honda Civic and has recorded maintenance expenses including a February\u202f10 air\u2011filter replacement costing $25, a February\u202f10 gas fill\u2011up costing $30, a February\u202f3 car wash costing $15, and a December\u202f28 gas fill\u2011up with an unknown cost.\nUser intends to use proceeds from the motorcycle sale to cover recent expenses: a January\u202f25 bike repair costing $40, the February\u202f10 air\u2011filter replacement ($25), the February\u202f3 car wash ($15), and the February\u202f10 gas fill\u2011up ($30), totaling $110.\nUser wants to track car maintenance costs for the past few months to better manage expenses.\nUser's car is a 2018 Honda Civic with unknown mileage.\nUser is trying to keep track of car expenses and is seeking help to create a budget for the Honda Civic.\nUser has a bike that was serviced recently on January\u202f25 for $40, which the user considers a separate maintenance activity from the car.\nUser has not provided information about tire rotations or brake pad replacements and is uncertain whether those services have been performed recently.\nUser is planning to sell a Yamaha FZ6R motorcycle on Craigslist, listed on January\u202f20 for $3,500, and has received interest but no offers yet.\nUser has not had an oil change recently; user believes the last oil change was a while ago but does not know the exact date.",
+            "latency": 731.59
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 358,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+    "question_date": "2023/04/01 (Sat) 20:56",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_358_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is interested in researching the history of the user's great-grandmother's crystal chandelier and is looking for online resources or databases that provide information about antique crystal chandeliers and their makers.\nThe user recently acquired a beautiful vintage armchair from the 1950s and a stunning crystal chandelier that originally belonged to the user's great-grandmother, which the user received from their aunt today; the user is seeking general tips for dusting and polishing antique furniture and crystal pieces to ensure proper care.\nThe user is researching the history of the estate sale where the user found the vintage armchair, seeking online resources or archives about estate sales or antique dealers in the user's area, and plans to visit local antique dealers with photos of the armchair to see if the dealers recognize the dealer or auction house that conducted the sale.",
+            "latency": 1255.769
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is interested in researching the history of the user's great-grandmother's crystal chandelier and is looking for online resources or databases that provide information about antique crystal chandeliers and their makers.\nThe user recently acquired a beautiful vintage armchair from the 1950s and a stunning crystal chandelier that originally belonged to the user's great-grandmother, which the user received from their aunt today; the user is seeking general tips for dusting and polishing antique furniture and crystal pieces to ensure proper care.\nThe user is researching the history of the estate sale where the user found the vintage armchair, seeking online resources or archives about estate sales or antique dealers in the user's area, and plans to visit local antique dealers with photos of the armchair to see if the dealers recognize the dealer or auction house that conducted the sale.",
+            "latency": 2209.923
+        }
+    ]
+}

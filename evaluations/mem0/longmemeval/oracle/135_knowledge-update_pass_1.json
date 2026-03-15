@@ -1,0 +1,19 @@
+{
+    "index": 135,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+    "question_date": "2023/10/31 (Tue) 06:56",
+    "ground_truth_answer": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 4 engineers in a current team outing scenario, but does not provide information about the initial team size when the user started the role, nor does it indicate they currently lead 5 engineers."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions 4 engineers (plus manager Rachel) but doesn't provide information about the initial team size when the role started, and the current number of engineers (4) contradicts the gold answer which states the user now leads 5 engineers."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 254,
+    "question_type": "single-session-assistant",
+    "question": "I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+    "question_date": "2023/05/29 (Mon) 17:24",
+    "ground_truth_answer": "The 27th parameter was 'Sound effects (e.g., ambient, diegetic, non-diegetic, etc.)'.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_254_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 1447.717
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 7254.569
+        }
+    ]
+}

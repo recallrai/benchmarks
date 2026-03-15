@@ -1,0 +1,22 @@
+{
+    "index": 394,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I replaced my spark plugs and the day I participated in the Turbocharged Tuesdays auto racking event?",
+    "question_date": "2023/04/01 (Sat) 07:18",
+    "ground_truth_answer": "29 days. 30 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_394_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning to participate in another auto racking event soon and is seeking suspension upgrade advice to shave seconds from lap times; they completed 10 laps at Speed Demon Racing Track during the Turbocharged Tuesdays event today with an average speed of 85 mph, and they have prior knowledge of suspension options such as coilovers, sway bars, springs, shocks, bushings, camber/toe adjustments, alignment, tires, and professional assistance.\nUser wants to inspect and replace worn bushings on their car soon, seeks instructions on how to inspect and replace them, including tools and techniques, and also wants brand or type recommendations suitable for auto racking events.\nUser had a dyno test at the Tune\u2011Up Saturday event at the Performance Garage that measured 240 horsepower, which was lower than expected, and is considering another dyno test to benchmark performance improvements.\nUser plans to prepare the car for a dyno test and is contemplating a tune to squeeze out additional power, asking for recommendations for tuners and tips on what to look for in a good tune.\nUser has a discount on a set of new brake pads from the Winter Tune\u2011Up event at Speed Shop earlier this year, has not installed them yet, and is asking whether upgrading brake fluid to a high\u2011performance fluid is worthwhile to complement the new pads.",
+            "latency": 639.063
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning to participate in another auto racking event soon and is seeking suspension upgrade advice to shave seconds from lap times; they completed 10 laps at Speed Demon Racing Track during the Turbocharged Tuesdays event today with an average speed of 85 mph, and they have prior knowledge of suspension options such as coilovers, sway bars, springs, shocks, bushings, camber/toe adjustments, alignment, tires, and professional assistance.\nUser wants to inspect and replace worn bushings on their car soon, seeks instructions on how to inspect and replace them, including tools and techniques, and also wants brand or type recommendations suitable for auto racking events.\nUser had a dyno test at the Tune\u2011Up Saturday event at the Performance Garage that measured 240 horsepower, which was lower than expected, and is considering another dyno test to benchmark performance improvements.\nUser plans to prepare the car for a dyno test and is contemplating a tune to squeeze out additional power, asking for recommendations for tuners and tips on what to look for in a good tune.\nUser has a discount on a set of new brake pads from the Winter Tune\u2011Up event at Speed Shop earlier this year, has not installed them yet, and is asking whether upgrading brake fluid to a high\u2011performance fluid is worthwhile to complement the new pads.",
+            "latency": 791.589
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 411,
+    "question_type": "temporal-reasoning",
+    "question": "I received a piece of jewelry last Saturday from whom?",
+    "question_date": "2023/03/09 (Thu) 15:42",
+    "ground_truth_answer": "my aunt",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_411_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User owns a vintage 1950s armchair and a crystal chandelier originally from their great-grandmother, featuring intricate etchings and sparkling droplets, and is seeking general tips on dusting and polishing these antique pieces\nUser is researching the history of the crystal chandelier that originally belonged to their great-grandmother and is looking for online resources or databases about antique crystal chandeliers and their makers\nUser wants to learn more about the history of their great-grandmother's estate, specifically the mansion where the chandelier originally hung, and is seeking online resources or archives about historic mansions or estates in their area\nUser is researching the estate sale where they found their vintage armchair, seeks online resources or archives about estate sales or antique dealers in their area, and plans to visit local antique dealers with photos of the armchair to obtain information about the sale and the dealer or auction house that conducted it",
+            "latency": 922.206
+        },
+        {
+            "strategy": "graph",
+            "context": "User owns a vintage 1950s armchair and a crystal chandelier originally from their great-grandmother, featuring intricate etchings and sparkling droplets, and is seeking general tips on dusting and polishing these antique pieces\nUser is researching the history of the crystal chandelier that originally belonged to their great-grandmother and is looking for online resources or databases about antique crystal chandeliers and their makers\nUser wants to learn more about the history of their great-grandmother's estate, specifically the mansion where the chandelier originally hung, and is seeking online resources or archives about historic mansions or estates in their area\nUser is researching the estate sale where they found their vintage armchair, seeks online resources or archives about estate sales or antique dealers in their area, and plans to visit local antique dealers with photos of the armchair to obtain information about the sale and the dealer or auction house that conducted it",
+            "latency": 1702.88
+        }
+    ]
+}

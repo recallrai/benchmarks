@@ -1,0 +1,19 @@
+{
+    "index": 178,
+    "question_type": "knowledge-update",
+    "question": "How much weight have I lost since I started going to the gym consistently?",
+    "question_date": "2023/06/23 (Fri) 16:42",
+    "ground_truth_answer": "10 pounds",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has lost about 5 pounds in the past month and 10 pounds in the past three months,' which directly provides the answer of 10 pounds matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'has lost about 5 pounds in the past month and 10 pounds in the past three months,' which directly provides the gold answer of 10 pounds for total weight loss since starting consistent gym attendance."
+        }
+    ]
+}

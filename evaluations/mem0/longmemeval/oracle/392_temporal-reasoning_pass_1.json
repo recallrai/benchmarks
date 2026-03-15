@@ -1,0 +1,19 @@
+{
+    "index": 392,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of airlines I flew with from earliest to latest before today?",
+    "question_date": "2023/03/02 (Thu) 07:38",
+    "ground_truth_answer": "JetBlue, Delta, United, American Airlines",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions all four airlines but does not provide dates or chronological ordering for flights before the question date (2023/03/02); the only specific flight date mentioned is 2025-02-10, which is after the question date."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions flights on various airlines (American Airlines, United, JetBlue, Delta) but does not provide dates that would establish a chronological order before the question date of 2023/03/02; the only specific date mentioned (2025-02-10) is after the question date."
+        }
+    ]
+}

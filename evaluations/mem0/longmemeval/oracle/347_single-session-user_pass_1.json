@@ -1,0 +1,19 @@
+{
+    "index": 347,
+    "question_type": "single-session-user",
+    "question": "What health issue did I initially think was just a cold?",
+    "question_date": "2023/05/25 (Thu) 08:18",
+    "ground_truth_answer": "bronchitis",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions general health issues and immune system concerns but does not contain any information about bronchitis or any illness that was initially mistaken for a cold."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions general health issues and fitness recovery but does not contain any information about bronchitis or initially thinking a health issue was just a cold."
+        }
+    ]
+}

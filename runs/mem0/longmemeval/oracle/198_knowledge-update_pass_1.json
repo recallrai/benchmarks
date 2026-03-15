@@ -1,0 +1,22 @@
+{
+    "index": 198,
+    "question_type": "knowledge-update",
+    "question": "Before I purchased the gravel bike, do I have other bikes in addition to my mountain bike and my commuter bike?",
+    "question_date": "2023/06/26 (Mon) 07:42",
+    "ground_truth_answer": "Yes. (You have a road bike too.)",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_198_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User owns four bikes\u2014a road, mountain, commuter, and new hybrid\u2014uses the road bike for long rides and an upcoming century ride, and wonders if four bikes are too many. They plan a 10\u2011day drive from San Francisco to New York, will cycle 3\u20114 days on low\u2011traffic scenic routes.\nUser wants to join a guided mountain bike tour in Jackson Hole to explore challenging trails.\nUser has new cycling shoes with clipless pedals that improved pedaling efficiency and is deciding whether to bring clipless pedals on the trip or stick with platform pedals on the hybrid bike.\nUser is planning a long road trip from San Francisco to New York City, will drive over 10 days, intends to cycle 3-4 days on low\u2011traffic scenic routes, wants bike shops along the way, and is preparing their road bike for the long trip.\nUser is interested in renting bikes or joining guided tours along the route, especially for scenic routes, and wants information on bike shops offering rentals or guided tours.\nUser is considering upgrading their road bike wheels to carbon fiber, wants to research budget and investment value, noting 2,000 miles on current wheels. They seek bike computer and GPS advice, have a new bike computer, track on Strava, and are preparing the bike for the long trip.\nUser is located in the San Francisco Bay Area.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User owns four bikes\u2014a road, mountain, commuter, and new hybrid\u2014uses the road bike for long rides and an upcoming century ride, and wonders if four bikes are too many. They plan a 10\u2011day drive from San Francisco to New York, will cycle 3\u20114 days on low\u2011traffic scenic routes.\nUser wants to join a guided mountain bike tour in Jackson Hole to explore challenging trails.\nUser has new cycling shoes with clipless pedals that improved pedaling efficiency and is deciding whether to bring clipless pedals on the trip or stick with platform pedals on the hybrid bike.\nUser is planning a long road trip from San Francisco to New York City, will drive over 10 days, intends to cycle 3-4 days on low\u2011traffic scenic routes, wants bike shops along the way, and is preparing their road bike for the long trip.\nUser is interested in renting bikes or joining guided tours along the route, especially for scenic routes, and wants information on bike shops offering rentals or guided tours.\nUser is considering upgrading their road bike wheels to carbon fiber, wants to research budget and investment value, noting 2,000 miles on current wheels. They seek bike computer and GPS advice, have a new bike computer, track on Strava, and are preparing the bike for the long trip.\nUser is located in the San Francisco Bay Area.",
+            "latency": 710.489
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 191,
+    "question_type": "knowledge-update",
+    "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+    "question_date": "2023/05/24 (Wed) 22:13",
+    "ground_truth_answer": "Instant Pot",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions both a 'new Instant Pot' and a 'new Air Fryer', and while the temporal order isn't explicitly stated, the context contains the gold answer (Instant Pot) as a kitchen gadget the user has, which touches on the same topic as the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions both the Instant Pot and Air Fryer as new gadgets, it does not establish the temporal ordering of when they were acquired, which is essential to answering the question about what came 'before' the Air Fryer."
+        }
+    ]
+}

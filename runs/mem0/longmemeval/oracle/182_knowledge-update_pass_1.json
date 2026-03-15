@@ -1,0 +1,22 @@
+{
+    "index": 182,
+    "question_type": "knowledge-update",
+    "question": "What type of vehicle model am I currently working on?",
+    "question_date": "2023/06/11 (Sun) 18:18",
+    "ground_truth_answer": "Ford F-150 pickup truck",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_182_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is working on a Ford Mustang Shelby GT350R model and is seeking tips and tutorials for achieving a realistic worn\u2011out look through weathering effects.\nUser wants to add realistic engine and transmission details to the Ford Mustang Shelby GT350R model, and is asking for tips on creating realistic engine and transmission.\nUser wants to add realistic seatbelts and a dashboard to the Ford Mustang Shelby GT350R model, and is asking for tips on creating realistic seatbelts and recommended materials.\nUser is using Vallejo paints on the Ford Mustang Shelby GT350R model, is impressed with the color range and quality, and wants recommendations for Vallejo colors that create a realistic metallic finish on the model's wheels.\nUser has gained a solid understanding of realistic rust effects and intends to apply subtle rust stains to the wheel wells and suspension components of their Ford F-150 model using acrylic paints and weathering powders, seeking advice on how to blend these rust effects with surrounding paint and weathering for a seamless transition.\nUser plans to use photo\u2011etched metal strips and fabric for seatbelts, and wants recommendations for creating a realistic dashboard that looks like the real car.",
+            "latency": 870.97
+        },
+        {
+            "strategy": "graph",
+            "context": "User is working on a Ford Mustang Shelby GT350R model and is seeking tips and tutorials for achieving a realistic worn\u2011out look through weathering effects.\nUser wants to add realistic engine and transmission details to the Ford Mustang Shelby GT350R model, and is asking for tips on creating realistic engine and transmission.\nUser wants to add realistic seatbelts and a dashboard to the Ford Mustang Shelby GT350R model, and is asking for tips on creating realistic seatbelts and recommended materials.\nUser is using Vallejo paints on the Ford Mustang Shelby GT350R model, is impressed with the color range and quality, and wants recommendations for Vallejo colors that create a realistic metallic finish on the model's wheels.\nUser has gained a solid understanding of realistic rust effects and intends to apply subtle rust stains to the wheel wells and suspension components of their Ford F-150 model using acrylic paints and weathering powders, seeking advice on how to blend these rust effects with surrounding paint and weathering for a seamless transition.\nUser plans to use photo\u2011etched metal strips and fabric for seatbelts, and wants recommendations for creating a realistic dashboard that looks like the real car.",
+            "latency": 1327.5
+        }
+    ]
+}

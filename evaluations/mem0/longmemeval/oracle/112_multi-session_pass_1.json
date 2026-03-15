@@ -1,0 +1,19 @@
+{
+    "index": 112,
+    "question_type": "multi-session",
+    "question": "How many music albums or EPs have I purchased or downloaded?",
+    "question_date": "2023/05/27 (Sat) 15:44",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions three specific albums/EPs: Billie Eilish's 'Happier Than Ever' (downloaded on Spotify), The Whiskey Wanderers' EP 'Midnight Sky' (purchased), and a signed Tame Impala vinyl (already have), which totals 3 matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions 3 specific music purchases/downloads: Billie Eilish's 'Happier Than Ever' (downloaded on Spotify), The Whiskey Wanderers' EP 'Midnight Sky' (purchased at merchandise booth), and a signed Tame Impala vinyl (already have from Red Rocks), which matches the gold answer of 3."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 223,
+    "question_type": "single-session-preference",
+    "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+    "question_date": "2023/05/29 (Mon) 10:41",
+    "ground_truth_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_223_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to add roasted sweet potatoes to their meal prep for the week and wants seasoning ideas. They have chosen the Classic Herbs option and have fresh rosemary in their fridge that they want to use up.\nUser plans to make a batch of homemade granola to snack on throughout the week and is seeking suggestions for customizing the recipe to fit their taste preferences.\nUser is planning a meal prep that centers on quinoa and roasted vegetables and is exploring protein options. They have already tried grilled chicken and turkey breast, but are interested in trying lentil or mushroom bolognese. They have requested a simple recipe for lentil bolognese and are also looking for side or add-in suggestions to pair with the lentil bolognese served over quinoa.",
+            "latency": 3506.481
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to add roasted sweet potatoes to their meal prep for the week and wants seasoning ideas. They have chosen the Classic Herbs option and have fresh rosemary in their fridge that they want to use up.\nUser plans to make a batch of homemade granola to snack on throughout the week and is seeking suggestions for customizing the recipe to fit their taste preferences.\nUser is planning a meal prep that centers on quinoa and roasted vegetables and is exploring protein options. They have already tried grilled chicken and turkey breast, but are interested in trying lentil or mushroom bolognese. They have requested a simple recipe for lentil bolognese and are also looking for side or add-in suggestions to pair with the lentil bolognese served over quinoa.",
+            "latency": 2516.159
+        }
+    ]
+}

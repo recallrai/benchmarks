@@ -1,0 +1,19 @@
+{
+    "index": 209,
+    "question_type": "single-session-preference",
+    "question": "I've been thinking about ways to stay connected with my colleagues. Any suggestions?",
+    "question_date": "2023/05/30 (Tue) 14:01",
+    "ground_truth_answer": "The user would prefer responses that acknowledge their desire for social interaction and collaboration while working remotely, utilizing their previous experiences with company initiatives and team collaborations. They might prefer suggestions of virtual team-building activities, regular check-ins, or joining interest-based groups within the company. The user may not prefer generic suggestions that do not take into account their specific work situation or previous attempts at staying connected with colleagues.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly addresses the user's desire to socialize with colleagues while working remotely, their previous exploration of virtual coffee breaks, and their preference for collaborative team approaches, which aligns with the gold answer's description of their preferences for staying connected."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly addresses the user's desire to socialize with colleagues while working remotely, their exploration of virtual coffee breaks, and their need for collaborative strategies, which aligns with the gold answer's description of the user's preferences for social interaction and previous attempts at staying connected."
+        }
+    ]
+}

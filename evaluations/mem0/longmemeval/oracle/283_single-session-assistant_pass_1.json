@@ -1,0 +1,19 @@
+{
+    "index": 283,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+    "question_date": "2023/05/28 (Sun) 15:39",
+    "ground_truth_answer": "Veja",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses the user's general interest in sustainable high-end fashion brands but does not mention Veja or any brand that uses wild rubber from the Amazon rainforest."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses sustainable high-end fashion brands in general but does not mention Veja, wild rubber, or the Amazon rainforest, which are essential to answering the specific question."
+        }
+    ]
+}

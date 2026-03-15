@@ -1,0 +1,22 @@
+{
+    "index": 482,
+    "question_type": "multi-session",
+    "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+    "question_date": "2023/05/30 (Tue) 02:21",
+    "ground_truth_answer": "33",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_482_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants creative ways to repurpose Facebook Live content into various formats such as blog posts, YouTube videos, Instagram reels, podcasts, newsletters, and Pinterest boards, aiming to extend reach and diversify content distribution.\nUser plans to create a YouTube video focused on 'Vegan Breakfast Ideas' using a hybrid approach that blends a specific theme with a variety of recipes, and intends to include personal anecdotes about starting vegan recipes and the Facebook Live session that garnered 12 comments to make the video engaging and relatable.\nThe vegan recipe creator is also interested in creating a tutorial on Google Analytics, leveraging her experience with the tool to produce a comprehensive tutorial, and wants specific topics or sections and engaging, interactive elements, aiming to surpass her most popular video which had 21 comments.\nUser is actively seeking strategies to boost engagement and views on Facebook Live, including promotion, timing, thumbnails, interaction, exclusive offers, influencer collaboration, and consistent scheduling, after a recent vegan recipe session that attracted 12 comments and sparked excitement.\nUser wants to improve her social media strategy and brainstorm new content ideas for her YouTube channel, noting that her most popular video on social media analytics has garnered several comments and she wants to maintain momentum.\nUser confirms they will proceed with the personal anecdote idea, aiming for a concise, conversational tone, incorporating visual aids, and adding authenticity, emotional resonance, and relatability to make it more engaging.\nThe vegan recipe creator seeks ideas on how to promote her Google Analytics tutorial on social media platforms such as Twitter, Instagram, LinkedIn, and Facebook, looking for effective promotion strategies.",
+            "latency": 494.246
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants creative ways to repurpose Facebook Live content into various formats such as blog posts, YouTube videos, Instagram reels, podcasts, newsletters, and Pinterest boards, aiming to extend reach and diversify content distribution.\nUser plans to create a YouTube video focused on 'Vegan Breakfast Ideas' using a hybrid approach that blends a specific theme with a variety of recipes, and intends to include personal anecdotes about starting vegan recipes and the Facebook Live session that garnered 12 comments to make the video engaging and relatable.\nThe vegan recipe creator is also interested in creating a tutorial on Google Analytics, leveraging her experience with the tool to produce a comprehensive tutorial, and wants specific topics or sections and engaging, interactive elements, aiming to surpass her most popular video which had 21 comments.\nUser is actively seeking strategies to boost engagement and views on Facebook Live, including promotion, timing, thumbnails, interaction, exclusive offers, influencer collaboration, and consistent scheduling, after a recent vegan recipe session that attracted 12 comments and sparked excitement.\nUser wants to improve her social media strategy and brainstorm new content ideas for her YouTube channel, noting that her most popular video on social media analytics has garnered several comments and she wants to maintain momentum.\nUser confirms they will proceed with the personal anecdote idea, aiming for a concise, conversational tone, incorporating visual aids, and adding authenticity, emotional resonance, and relatability to make it more engaging.\nThe vegan recipe creator seeks ideas on how to promote her Google Analytics tutorial on social media platforms such as Twitter, Instagram, LinkedIn, and Facebook, looking for effective promotion strategies.",
+            "latency": 732.799
+        }
+    ]
+}

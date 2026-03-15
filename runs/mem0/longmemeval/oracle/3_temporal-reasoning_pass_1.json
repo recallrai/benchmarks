@@ -1,0 +1,22 @@
+{
+    "index": 3,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+    "question_date": "2023/03/15 (Wed) 03:53",
+    "ground_truth_answer": "Samsung Galaxy S22",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_3_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User bought a new Samsung Galaxy S22 from Best Buy at the mall on February 20th, loves it so far, and saved $100 with a student discount while trading in an iPhone 12 for an additional $200 off, and is excited to capture great shots with the phone's camera.\nUser uses the new Samsung Galaxy S22 to track fitness goals while hiking and enjoys using it for photo capture during the trip.\nUser wants to ensure the new phone stays charged during the trip, planning to use a portable power bank (Anker PowerCore 20000) bought from Amazon a week before the phone purchase, and also considers a car charger and waterproof case.",
+            "latency": 878.938
+        },
+        {
+            "strategy": "graph",
+            "context": "User bought a new Samsung Galaxy S22 from Best Buy at the mall on February 20th, loves it so far, and saved $100 with a student discount while trading in an iPhone 12 for an additional $200 off, and is excited to capture great shots with the phone's camera.\nUser uses the new Samsung Galaxy S22 to track fitness goals while hiking and enjoys using it for photo capture during the trip.\nUser wants to ensure the new phone stays charged during the trip, planning to use a portable power bank (Anker PowerCore 20000) bought from Amazon a week before the phone purchase, and also considers a car charger and waterproof case.",
+            "latency": 1563.013
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 348,
+    "question_type": "single-session-user",
+    "question": "Where did I meet Sophia?",
+    "question_date": "2023/05/25 (Thu) 15:35",
+    "ground_truth_answer": "a coffee shop in the city",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_348_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User met Sophia at a coffee shop in the city; Sophia is into indie music and coffee; they talked about new bands and the user recommended coffee spots; user plans to send Sophia a list of new indie music releases.\nUser met Maria at a cooking class; Maria is interested in cooking and food; user plans to share a recipe with Maria or ask about her favorite cooking techniques.\nUser met yoga instructor Rachel at a yoga studio; Rachel's interests include yoga and wellness; user plans to ask Rachel about upcoming yoga workshops or events.\nUser met David at a bookstore; David is interested in literature and writing; user plans to recommend a book or author to David and ask about his writing projects.\nUser met Lucy at an animal shelter; Lucy is interested in animals and volunteering; user plans to ask Lucy about volunteer opportunities or donate to the shelter.\nUser met Alex on a train commute; Alex's interests include commuting and podcasts; they discussed jobs and commutes, and Alex recommended podcasts; user plans to thank Alex for the podcast recommendations and ask about his favorite episodes.\nUser met mechanic Juan at a car repair shop; Juan's interests include cars and mechanics; user plans to ask Juan about car maintenance tips or recommend a car-related resource.\nUser wants to organize contacts and remember to follow up with people they've met recently, and plans to create a template listing names, how they met, interests, and follow-up actions.",
+            "latency": 930.724
+        },
+        {
+            "strategy": "graph",
+            "context": "User met Sophia at a coffee shop in the city; Sophia is into indie music and coffee; they talked about new bands and the user recommended coffee spots; user plans to send Sophia a list of new indie music releases.\nUser met Maria at a cooking class; Maria is interested in cooking and food; user plans to share a recipe with Maria or ask about her favorite cooking techniques.\nUser met yoga instructor Rachel at a yoga studio; Rachel's interests include yoga and wellness; user plans to ask Rachel about upcoming yoga workshops or events.\nUser met David at a bookstore; David is interested in literature and writing; user plans to recommend a book or author to David and ask about his writing projects.\nUser met Lucy at an animal shelter; Lucy is interested in animals and volunteering; user plans to ask Lucy about volunteer opportunities or donate to the shelter.\nUser met Alex on a train commute; Alex's interests include commuting and podcasts; they discussed jobs and commutes, and Alex recommended podcasts; user plans to thank Alex for the podcast recommendations and ask about his favorite episodes.\nUser met mechanic Juan at a car repair shop; Juan's interests include cars and mechanics; user plans to ask Juan about car maintenance tips or recommend a car-related resource.\nUser wants to organize contacts and remember to follow up with people they've met recently, and plans to create a template listing names, how they met, interests, and follow-up actions.",
+            "latency": 1976.007
+        }
+    ]
+}

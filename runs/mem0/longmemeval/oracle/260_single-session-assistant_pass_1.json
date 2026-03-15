@@ -1,0 +1,22 @@
+{
+    "index": 260,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+    "question_date": "2023/05/29 (Mon) 18:21",
+    "ground_truth_answer": "By Chloe",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_260_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User, an avid foodie, is looking for recommendations for New York City and is excited about exploring local cuisine, seeking off-the-beaten-path restaurants or food markets, specific recommendations for the city, vegan or vegetarian options, and the best coffee shops, feeling mouth-watering and eager to indulge, noting that they cannot explore on an empty stomach.",
+            "latency": 5058.234
+        },
+        {
+            "strategy": "graph",
+            "context": "User, an avid foodie, is looking for recommendations for New York City and is excited about exploring local cuisine, seeking off-the-beaten-path restaurants or food markets, specific recommendations for the city, vegan or vegetarian options, and the best coffee shops, feeling mouth-watering and eager to indulge, noting that they cannot explore on an empty stomach.",
+            "latency": 2423.791
+        }
+    ]
+}

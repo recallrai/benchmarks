@@ -1,0 +1,22 @@
+{
+    "index": 13,
+    "question_type": "temporal-reasoning",
+    "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+    "question_date": "2023/05/20 (Sat) 06:04",
+    "ground_truth_answer": "Training pads for Luna",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_13_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is considering additional supplies for puppy Luna's potty training, currently using eco\u2011friendly training pads from Chewy.com (10 pads for $25 purchased about a month ago, which have been lifesavers).\nUser purchased an Orthopedic Memory Foam dog bed for Max from Petco about three weeks ago, helping with his arthritis, and has now purchased a Kong Toy for durable chewing, good for teeth and mental stimulation.\nUser is trying to get Max to eat his new grain\u2011free dog food but Max is picky; the user wants tips on how to transition him without upsetting his stomach.\nUser is trying to help Max lose weight but finds it difficult because Max loves treats; the user is looking for healthy dog treats that can aid in weight management.\nUser has ordered a 6\u2011month supply of generic Frontline from Chewy.com for Luna and Max, and is looking for alternative or additional flea\u2011and\u2011tick prevention products or methods.\nUser bought a pack of 20 dental chews from the vet's office for $15 to aid Luna's teething, and is looking for additional dental chews or toys to support her oral health.\nUser wants healthy chews for Max to support his teething and dental health; the user is seeking recommendations for chews suitable for Max's age and breed.\nUser purchased a set of pet\u2011safe cleaning products from Amazon (bowl cleaner, brush, scrubber) for about $20 to keep Max's food and water bowls clean, and is seeking additional recommendations for maintaining bowl hygiene.\nUser purchased a 5\u2011tier cat tree with scratching posts and perches for cat Whiskers from Walmart for $40, and seeks tips to encourage Whiskers to use it more, as well as recommendations for additional cat toys or accessories.",
+            "latency": 860.221
+        },
+        {
+            "strategy": "graph",
+            "context": "User is considering additional supplies for puppy Luna's potty training, currently using eco\u2011friendly training pads from Chewy.com (10 pads for $25 purchased about a month ago, which have been lifesavers).\nUser purchased an Orthopedic Memory Foam dog bed for Max from Petco about three weeks ago, helping with his arthritis, and has now purchased a Kong Toy for durable chewing, good for teeth and mental stimulation.\nUser is trying to get Max to eat his new grain\u2011free dog food but Max is picky; the user wants tips on how to transition him without upsetting his stomach.\nUser is trying to help Max lose weight but finds it difficult because Max loves treats; the user is looking for healthy dog treats that can aid in weight management.\nUser has ordered a 6\u2011month supply of generic Frontline from Chewy.com for Luna and Max, and is looking for alternative or additional flea\u2011and\u2011tick prevention products or methods.\nUser bought a pack of 20 dental chews from the vet's office for $15 to aid Luna's teething, and is looking for additional dental chews or toys to support her oral health.\nUser wants healthy chews for Max to support his teething and dental health; the user is seeking recommendations for chews suitable for Max's age and breed.\nUser purchased a set of pet\u2011safe cleaning products from Amazon (bowl cleaner, brush, scrubber) for about $20 to keep Max's food and water bowls clean, and is seeking additional recommendations for maintaining bowl hygiene.\nUser purchased a 5\u2011tier cat tree with scratching posts and perches for cat Whiskers from Walmart for $40, and seeks tips to encourage Whiskers to use it more, as well as recommendations for additional cat toys or accessories.",
+            "latency": 1371.641
+        }
+    ]
+}

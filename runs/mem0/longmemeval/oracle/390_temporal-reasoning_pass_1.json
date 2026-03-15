@@ -1,0 +1,22 @@
+{
+    "index": 390,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+    "question_date": "2023/04/01 (Sat) 21:45",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_390_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been attending sculpting classes at a local art studio every Saturday from 10am to 1pm for six weeks, finds the experience enjoyable, and feels excited, curious, and purposeful about experimenting with new materials and techniques to create a meaningful, sustainable artwork for the competition.\nUser has recently acquired a modeling tool set, a wire cutter, and a sculpting mat, and intends to use these tools to shape eco\u2011friendly materials such as air\u2011dry clay, natural waxes, recycled paper pulp, and natural fibers, while also incorporating recycled wire armatures and other sustainable materials into the sculpture.\nUser intends to enter a local art competition in the sculpture category and is researching what types of sculptures are typically well\u2011received, while brainstorming ideas for their entry.\nUser seeks advice on how to attach seashells to driftwood without damaging them, looking for gentle adhesive techniques and preservation methods.\nUser is planning a sculpture for a local art competition, using plastic bottles and cardboard tubes as a base structure.\nUser wants to create an eco\u2011friendly sculpture that incorporates found objects, recycled materials, driftwood, and seashells, aiming to balance textures and colors and convey a meaningful story.\nUser plans to collect driftwood and seashells, experiment with arrangements to resemble a coastal landscape, and craft a narrative that reflects their eco\u2011friendly theme.\nUser wants to attach natural materials such as leaves, twigs, or seeds without glue, exploring methods like tying, weaving, nesting, or using tension and friction.",
+            "latency": 499.699
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been attending sculpting classes at a local art studio every Saturday from 10am to 1pm for six weeks, finds the experience enjoyable, and feels excited, curious, and purposeful about experimenting with new materials and techniques to create a meaningful, sustainable artwork for the competition.\nUser has recently acquired a modeling tool set, a wire cutter, and a sculpting mat, and intends to use these tools to shape eco\u2011friendly materials such as air\u2011dry clay, natural waxes, recycled paper pulp, and natural fibers, while also incorporating recycled wire armatures and other sustainable materials into the sculpture.\nUser intends to enter a local art competition in the sculpture category and is researching what types of sculptures are typically well\u2011received, while brainstorming ideas for their entry.\nUser seeks advice on how to attach seashells to driftwood without damaging them, looking for gentle adhesive techniques and preservation methods.\nUser is planning a sculpture for a local art competition, using plastic bottles and cardboard tubes as a base structure.\nUser wants to create an eco\u2011friendly sculpture that incorporates found objects, recycled materials, driftwood, and seashells, aiming to balance textures and colors and convey a meaningful story.\nUser plans to collect driftwood and seashells, experiment with arrangements to resemble a coastal landscape, and craft a narrative that reflects their eco\u2011friendly theme.\nUser wants to attach natural materials such as leaves, twigs, or seeds without glue, exploring methods like tying, weaving, nesting, or using tension and friction.",
+            "latency": 697.0
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 25,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+    "question_date": "2023/05/27 (Sat) 08:13",
+    "ground_truth_answer": "2 months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user has been watching stand-up for about three months and attended an open mic last month, which means at the time of the open mic they had been watching for approximately 2 months, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user has been watching stand-up comedy for 'about three months' total and attended an open mic 'last month', which implies they had been watching for approximately 2 months at the time of the open mic attendance, matching the gold answer."
+        }
+    ]
+}

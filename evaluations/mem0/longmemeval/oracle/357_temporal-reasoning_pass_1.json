@@ -1,0 +1,19 @@
+{
+    "index": 357,
+    "question_type": "temporal-reasoning",
+    "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a customized phone case for my friend's birthday?",
+    "question_date": "2023/03/22 (Wed) 18:48",
+    "ground_truth_answer": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions all three events (helping set up a nursery, helping cousin pick items for baby shower, and ordering a customized phone case), it does not provide sufficient temporal information to determine the chronological order of these events as specified in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the retrieved context mentions all three events (helping with nursery, helping cousin with baby shower items, and ordering phone case), it does not provide any temporal ordering information or dates that would allow someone to determine which event happened first, second, or third."
+        }
+    ]
+}

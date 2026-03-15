@@ -1,0 +1,19 @@
+{
+    "index": 35,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+    "question_date": "2023/05/30 (Tue) 03:49",
+    "ground_truth_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the rug was purchased 'a month ago' and the furniture rearrangement occurred 'three weeks ago', which indicates the user had the rug for approximately one week (4 weeks - 3 weeks = 1 week) before rearranging the furniture, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the area rug was purchased a month ago and the furniture rearrangement occurred three weeks ago; the difference (approximately 7-9 days) falls within the acceptable range of 7-10 days stated in the gold answer."
+        }
+    ]
+}

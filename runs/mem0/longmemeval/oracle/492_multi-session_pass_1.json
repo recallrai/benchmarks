@@ -1,0 +1,22 @@
+{
+    "index": 492,
+    "question_type": "multi-session",
+    "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+    "question_date": "2023/05/25 (Thu) 05:00",
+    "ground_truth_answer": "30 minutes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_492_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wakes up at 6:30 AM on weekdays, including Fridays, to get a head start on their day.\nUser adds a 20\u2011minute lunch preparation slot between meditation and gym, starting at 6:55 AM on weekdays.\nUser starts a gym session at 7:00 AM on weekdays, after the 20\u2011minute lunch prep slot.\nUser takes the 8:05 AM bus to work, arriving at 8:40 AM; a new route adopted last week adds about 10 minutes but is less crowded.\nTo accommodate the project, the user wants to shift lunch to 12:30 PM to gain an extra 30 minutes of work time, and also wants to add 15 minutes for urgent email responses before coffee.\nUser is planning a schedule for today that includes a 45\u2011minute workout, 30\u2011minute meditation, 20\u2011minute lunch preparation, getting ready for work, a daily team meeting at 9:00 AM, coffee and news before the meeting, and the top priority is finishing a project due by the end of the day.\nThe user confirms that the revised schedule works and is pleased with the added time.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User wakes up at 6:30 AM on weekdays, including Fridays, to get a head start on their day.\nUser adds a 20\u2011minute lunch preparation slot between meditation and gym, starting at 6:55 AM on weekdays.\nUser starts a gym session at 7:00 AM on weekdays, after the 20\u2011minute lunch prep slot.\nUser takes the 8:05 AM bus to work, arriving at 8:40 AM; a new route adopted last week adds about 10 minutes but is less crowded.\nTo accommodate the project, the user wants to shift lunch to 12:30 PM to gain an extra 30 minutes of work time, and also wants to add 15 minutes for urgent email responses before coffee.\nUser is planning a schedule for today that includes a 45\u2011minute workout, 30\u2011minute meditation, 20\u2011minute lunch preparation, getting ready for work, a daily team meeting at 9:00 AM, coffee and news before the meeting, and the top priority is finishing a project due by the end of the day.\nThe user confirms that the revised schedule works and is pleased with the added time.",
+            "latency": 721.747
+        }
+    ]
+}

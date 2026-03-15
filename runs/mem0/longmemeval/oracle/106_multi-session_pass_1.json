@@ -1,0 +1,22 @@
+{
+    "index": 106,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+    "question_date": "2023/05/25 (Thu) 04:12",
+    "ground_truth_answer": "15 days",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_106_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to spend 4 days in Paris (Eiffel Tower, Louvre, Montmartre) and 3 days in Rome (Colosseum, Vatican City, Pantheon, Trevi Fountain).\nUser recently returned from a solo five\u2011day trip to New York City, where they saved money by staying at a hostel and eating at local cafes, and is now planning another trip soon, seeking budgeting tips.\nThe traveler recently returned from an island-hopping trip to Hawaii with family, which sparked contemplation about whether to travel solo or with family on the next trip, valuing flexibility and noting that a 10\u2011day pre\u2011planned itinerary was restrictive.\nUser is considering a European trip, likely to Paris or Rome, wants to visit the Louvre and try authentic Italian food, and is curious whether hostels are a good option in Europe.\nUser plans a 7\u201110 day European trip, focusing on Paris (Eiffel Tower, Louvre) and Rome (Colosseum, authentic Italian food), intends to focus on Paris and Rome for now, possibly adding a third destination later, and believes intercity travel in Europe is relatively easy and affordable.\nThe traveler is curious about destinations that are particularly well\u2011suited for solo travel, seeking options that offer flexibility and ease of navigation.\nThe traveler is fascinated by Japan, especially its cuisine, and is seeking guidance on the best time to visit Japan, specific festivals or events to attend, and recommended dishes or restaurants to try.",
+            "latency": 838.905
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to spend 4 days in Paris (Eiffel Tower, Louvre, Montmartre) and 3 days in Rome (Colosseum, Vatican City, Pantheon, Trevi Fountain).\nUser recently returned from a solo five\u2011day trip to New York City, where they saved money by staying at a hostel and eating at local cafes, and is now planning another trip soon, seeking budgeting tips.\nThe traveler recently returned from an island-hopping trip to Hawaii with family, which sparked contemplation about whether to travel solo or with family on the next trip, valuing flexibility and noting that a 10\u2011day pre\u2011planned itinerary was restrictive.\nUser is considering a European trip, likely to Paris or Rome, wants to visit the Louvre and try authentic Italian food, and is curious whether hostels are a good option in Europe.\nUser plans a 7\u201110 day European trip, focusing on Paris (Eiffel Tower, Louvre) and Rome (Colosseum, authentic Italian food), intends to focus on Paris and Rome for now, possibly adding a third destination later, and believes intercity travel in Europe is relatively easy and affordable.\nThe traveler is curious about destinations that are particularly well\u2011suited for solo travel, seeking options that offer flexibility and ease of navigation.\nThe traveler is fascinated by Japan, especially its cuisine, and is seeking guidance on the best time to visit Japan, specific festivals or events to attend, and recommended dishes or restaurants to try.",
+            "latency": 1273.914
+        }
+    ]
+}

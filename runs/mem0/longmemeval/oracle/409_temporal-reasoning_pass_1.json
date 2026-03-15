@@ -1,0 +1,22 @@
+{
+    "index": 409,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish a week ago?",
+    "question_date": "2023/02/07 (Tue) 10:44",
+    "ground_truth_answer": "'The Nightingale' by Kristin Hannah",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_409_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is currently reading 'The Song of Achilles' by Madeline Miller, enjoys it, reads it in short bursts before bed, is about halfway through, and hopes to finish by the end of the month\nUser is intrigued by the historical fiction novel 'The Alice Network' and wants more information about it\nUser finished reading the historical fiction novel 'The Nightingale' by Kristin Hannah today and has read 'The Poppy War', seeking similar books with emotional depth and strong female protagonists\nUser seeks audiobook recommendations similar to 'The Nightingale' in historical setting and strong female leads, specifically focusing on African, Asian, or Latin American mythologies.\nUser wants feminist dystopian audiobooks similar to 'The Power' by Naomi Alderman, seeking recommendations.\nUser enjoys mythology and folklore from diverse cultures, reimagining classic stories from different perspectives, currently reading 'The Star-Touched Queen', wants recommendations focusing on Africa, Asia, Latin America.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is currently reading 'The Song of Achilles' by Madeline Miller, enjoys it, reads it in short bursts before bed, is about halfway through, and hopes to finish by the end of the month\nUser is intrigued by the historical fiction novel 'The Alice Network' and wants more information about it\nUser finished reading the historical fiction novel 'The Nightingale' by Kristin Hannah today and has read 'The Poppy War', seeking similar books with emotional depth and strong female protagonists\nUser seeks audiobook recommendations similar to 'The Nightingale' in historical setting and strong female leads, specifically focusing on African, Asian, or Latin American mythologies.\nUser wants feminist dystopian audiobooks similar to 'The Power' by Naomi Alderman, seeking recommendations.\nUser enjoys mythology and folklore from diverse cultures, reimagining classic stories from different perspectives, currently reading 'The Star-Touched Queen', wants recommendations focusing on Africa, Asia, Latin America.",
+            "latency": 733.71
+        }
+    ]
+}

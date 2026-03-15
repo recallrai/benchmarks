@@ -1,0 +1,22 @@
+{
+    "index": 310,
+    "question_type": "single-session-user",
+    "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+    "question_date": "2023/05/23 (Tue) 07:23",
+    "ground_truth_answer": "12",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_310_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a fishing trip to Lake Michigan with friends and is seeking tips on the best spots to catch trout.\nUser has prior fishing experience in Lake Michigan, prefers spinner lures over live bait for trout, caught 12 largemouth bass on the last trip, and wants recommendations for the best spinner lure for trout.\nUser is considering restocking tackle box with size 2 hooks and chartreuse plastic worms and wants to know if those are effective for catching largemouth bass.\nUser is planning a fly fishing trip to Montana or Colorado next summer and is looking for tips or recommendations.\nUser wants to take a class to learn fly tying and is seeking online resources or books to get started.",
+            "latency": 1124.86
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a fishing trip to Lake Michigan with friends and is seeking tips on the best spots to catch trout.\nUser has prior fishing experience in Lake Michigan, prefers spinner lures over live bait for trout, caught 12 largemouth bass on the last trip, and wants recommendations for the best spinner lure for trout.\nUser is considering restocking tackle box with size 2 hooks and chartreuse plastic worms and wants to know if those are effective for catching largemouth bass.\nUser is planning a fly fishing trip to Montana or Colorado next summer and is looking for tips or recommendations.\nUser wants to take a class to learn fly tying and is seeking online resources or books to get started.",
+            "latency": 2150.096
+        }
+    ]
+}

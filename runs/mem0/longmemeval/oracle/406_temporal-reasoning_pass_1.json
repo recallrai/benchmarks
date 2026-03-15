@@ -1,0 +1,22 @@
+{
+    "index": 406,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I fixed my mountain bike and the day I decided to upgrade my road bike's pedals?",
+    "question_date": "2023/04/10 (Mon) 18:16",
+    "ground_truth_answer": "4 days. 5 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_406_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a 60-mile road bike ride this weekend and is seeking suitable routes for a road bike; additionally, User recently fixed a flat tire on their mountain bike by replacing the inner tube, cleaning the chain, and reports the bike is running smoothly.\nUser upgraded their road bike's pedals to Shimano Ultegra clipless pedals today and is seeking a step\u2011by\u2011step guide to install them themselves, expressing confidence in handling the installation while remaining open to shop assistance if needed.\nUser is seeking tips on how to keep their mountain bike's chain clean and well-lubricated.\nUser plans a maintenance check at a local bike shop to address spongy brake feel, inspect brake pads for wear and contamination, and get an estimate for replacement.\nUser wants tire pressure verified and adjusted during the maintenance check.\nUser requests inspection of chain and gear wear, including an estimate for chain replacement due to skipping and hesitation.\nUser asks for quick releases and bolts to be inspected and tightened for safety.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a 60-mile road bike ride this weekend and is seeking suitable routes for a road bike; additionally, User recently fixed a flat tire on their mountain bike by replacing the inner tube, cleaning the chain, and reports the bike is running smoothly.\nUser upgraded their road bike's pedals to Shimano Ultegra clipless pedals today and is seeking a step\u2011by\u2011step guide to install them themselves, expressing confidence in handling the installation while remaining open to shop assistance if needed.\nUser is seeking tips on how to keep their mountain bike's chain clean and well-lubricated.\nUser plans a maintenance check at a local bike shop to address spongy brake feel, inspect brake pads for wear and contamination, and get an estimate for replacement.\nUser wants tire pressure verified and adjusted during the maintenance check.\nUser requests inspection of chain and gear wear, including an estimate for chain replacement due to skipping and hesitation.\nUser asks for quick releases and bolts to be inspected and tightened for safety.",
+            "latency": 720.693
+        }
+    ]
+}

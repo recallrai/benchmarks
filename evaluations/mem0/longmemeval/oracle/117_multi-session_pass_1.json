@@ -1,0 +1,19 @@
+{
+    "index": 117,
+    "question_type": "multi-session",
+    "question": "How many different museums or galleries did I visit in December?",
+    "question_date": "2023/03/03 (Fri) 18:26",
+    "ground_truth_answer": "0. You did not mention visitng any museum in December",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions museum/gallery visits in January and February but contains no mention of any visits in December, which aligns with the gold answer that the user did not visit any museums in December (0 visits)."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions museum/gallery visits in January and February but contains no information confirming or denying any December visits, so it cannot definitively answer that there were 0 visits in December."
+        }
+    ]
+}

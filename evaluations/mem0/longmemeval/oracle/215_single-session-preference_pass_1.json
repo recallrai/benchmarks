@@ -1,0 +1,19 @@
+{
+    "index": 215,
+    "question_type": "single-session-preference",
+    "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+    "question_date": "2023/05/27 (Sat) 23:31",
+    "ground_truth_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's previous success with a lemon poppyseed cake at a colleague's going-away party and their various baking experiences, which would enable someone to provide appropriate suggestions building on that success for a colleague gathering."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context directly mentions the user's previous success with a lemon poppyseed cake at a colleague's going-away party, and shows their interest in similar lemon-flavored desserts like lemon lavender pound cake, which aligns with the gold answer's expectation that suggestions should build upon their lemon poppyseed cake success."
+        }
+    ]
+}

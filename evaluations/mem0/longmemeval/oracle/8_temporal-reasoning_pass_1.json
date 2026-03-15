@@ -1,0 +1,19 @@
+{
+    "index": 8,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Hindu festival of Holi and the Sunday mass at St. Mary's Church?",
+    "question_date": "2023/03/26 (Sun) 21:19",
+    "ground_truth_answer": "21 days. 22 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the specific dates needed: Holi celebration on February 26th and St. Mary's Church Sunday mass on March 19th, which allows calculating the 21-day (or 22-day inclusive) interval matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the Holi celebration was on February 26th and the Sunday mass at St. Mary's Church was on March 19th, which allows calculating the 21-day difference (or 22 days inclusive) matching the gold answer."
+        }
+    ]
+}

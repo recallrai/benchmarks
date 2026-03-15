@@ -1,0 +1,19 @@
+{
+    "index": 363,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+    "question_date": "2023/10/01 (Sun) 03:53",
+    "ground_truth_answer": "Michael's engagement party",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Michael's engagement party as inspiration but provides no timing information about when it occurred, and does not mention the cousin's wedding at all, making it impossible to determine which event happened first."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Michael's engagement party but contains no information about the cousin's wedding, making it impossible to determine which event happened first."
+        }
+    ]
+}

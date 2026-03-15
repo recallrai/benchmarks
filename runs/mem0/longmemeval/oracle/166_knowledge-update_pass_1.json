@@ -1,0 +1,22 @@
+{
+    "index": 166,
+    "question_type": "knowledge-update",
+    "question": "What time do I usually go to the gym?",
+    "question_date": "2023/06/08 (Thu) 00:54",
+    "ground_truth_answer": "6:00 pm",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_166_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a gym routine on Mondays, Wednesdays, and Fridays at 7:00\u202fpm and wants to avoid scheduling meetings during those times.\nUser wants to set reminders for gym sessions that occur at 7:00 pm on Mondays, Wednesdays, and Fridays, and is seeking the best way to do this in Todoist.\nUser is scheduling a meeting with a potential client on Tuesday at 2:00\u202fpm, ensuring the meeting ends before the 6:00\u202fpm gym session.\nUser will confirm meeting details (date, time, duration) in the email.\nUser is motivated to stay organized and maintain a consistent fitness habit while juggling multiple projects.\nUser is particularly interested in using Todoist and Trello, and wants to know how these apps integrate with Google Calendar.\nUser is exploring Todoist's features for tracking progress and achieving goals, and wants to learn how to set and track goals within the app.\nUser is planning their week and is looking for productivity apps that can help them stay organized.",
+            "latency": 721.049
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a gym routine on Mondays, Wednesdays, and Fridays at 7:00\u202fpm and wants to avoid scheduling meetings during those times.\nUser wants to set reminders for gym sessions that occur at 7:00 pm on Mondays, Wednesdays, and Fridays, and is seeking the best way to do this in Todoist.\nUser is scheduling a meeting with a potential client on Tuesday at 2:00\u202fpm, ensuring the meeting ends before the 6:00\u202fpm gym session.\nUser will confirm meeting details (date, time, duration) in the email.\nUser is motivated to stay organized and maintain a consistent fitness habit while juggling multiple projects.\nUser is particularly interested in using Todoist and Trello, and wants to know how these apps integrate with Google Calendar.\nUser is exploring Todoist's features for tracking progress and achieving goals, and wants to learn how to set and track goals within the app.\nUser is planning their week and is looking for productivity apps that can help them stay organized.",
+            "latency": 952.213
+        }
+    ]
+}

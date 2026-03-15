@@ -1,0 +1,19 @@
+{
+    "index": 173,
+    "question_type": "knowledge-update",
+    "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+    "question_date": "2023/08/15 (Tue) 05:55",
+    "ground_truth_answer": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions both 'weekly tennis sessions with friends at the local park' and 'tennis game with friends at the local park on Sunday, repeating every other week', which corresponds to the gold answer's distinction between previous weekly play and current every-other-week play."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains references to both 'weekly tennis sessions with friends at the local park' and 'tennis game with friends at the local park on Sunday, repeating every other week,' which aligns with the gold answer's distinction between previous weekly play and current every-other-week play."
+        }
+    ]
+}

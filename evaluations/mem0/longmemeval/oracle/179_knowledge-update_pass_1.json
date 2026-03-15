@@ -1,0 +1,19 @@
+{
+    "index": 179,
+    "question_type": "knowledge-update",
+    "question": "How many followers do I have on Instagram now?",
+    "question_date": "2023/06/03 (Sat) 09:01",
+    "ground_truth_answer": "1300",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The Instagram content creator has approximately 1300 followers' which directly matches the gold answer of 1300 and would enable someone to correctly answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'The Instagram content creator has approximately 1300 followers,' which directly matches the gold answer of 1300."
+        }
+    ]
+}

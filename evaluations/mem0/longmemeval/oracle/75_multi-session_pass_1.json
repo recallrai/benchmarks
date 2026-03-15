@@ -1,0 +1,19 @@
+{
+    "index": 75,
+    "question_type": "multi-session",
+    "question": "How many hours have I spent playing games in total?",
+    "question_date": "2023/05/30 (Tue) 21:53",
+    "ground_truth_answer": "140 hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions specific playtimes for multiple games (The Last of Us Part II on both difficulties, Hyper Light Drifter in 5 hours, Celeste in 10 hours, and Assassin's Creed Odyssey in approximately 70 hours) which, when summed together, equals or very closely approximates the gold answer of 140 hours."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions specific playtimes (30 hours for The Last of Us Part II hard mode, 5 hours for Hyper Light Drifter, 10 hours for Celeste, and 70 hours for Assassin's Creed Odyssey) which totals 115 hours, not the gold answer of 140 hours - a significant 25 hour discrepancy that cannot be accounted for from the available information."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 231,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to visit Bandung again and I was wondering if you could remind me of the name of that restaurant in Cihampelas Walk that serves a great Nasi Goreng?",
+    "question_date": "2023/05/25 (Thu) 15:43",
+    "ground_truth_answer": "Miss Bee Providore",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_231_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to visit Cihampelas Walk to explore its denim street and dine at Miss Bee Providore, ordering the signature Miss Bee's Nasi Goreng and chocolate brownie.\nUser is interested in visiting tea plantations in Bandung and wants recommendations for a good tea house to visit.\nUser is excited to explore more of Bandung and is seeking recommendations for other fun activities to do in the city.\nUser is interested in unique shopping experiences in Bandung and is excited about the variety of shopping destinations available.",
+            "latency": 5269.945
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to visit Cihampelas Walk to explore its denim street and dine at Miss Bee Providore, ordering the signature Miss Bee's Nasi Goreng and chocolate brownie.\nUser is interested in visiting tea plantations in Bandung and wants recommendations for a good tea house to visit.\nUser is excited to explore more of Bandung and is seeking recommendations for other fun activities to do in the city.\nUser is interested in unique shopping experiences in Bandung and is excited about the variety of shopping destinations available.",
+            "latency": 2402.315
+        }
+    ]
+}

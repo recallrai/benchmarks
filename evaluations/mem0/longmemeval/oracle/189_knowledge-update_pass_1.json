@@ -1,0 +1,19 @@
+{
+    "index": 189,
+    "question_type": "knowledge-update",
+    "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+    "question_date": "2023/06/26 (Mon) 00:11",
+    "ground_truth_answer": "You increased the limit (from one cup to two cups)",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user 'now drinks two cups in the morning' but does not specify whether this was an increase or decrease from a previous limit, which is what the question asks about."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user 'now drinks two cups in the morning' but does not explicitly state whether this represents an increase or decrease from a previous limit, which is what the question specifically asks about."
+        }
+    ]
+}

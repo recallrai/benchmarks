@@ -1,0 +1,19 @@
+{
+    "index": 190,
+    "question_type": "knowledge-update",
+    "question": "How many trips have I taken my Canon EOS 80D camera on?",
+    "question_date": "2023/06/14 (Wed) 10:15",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions three specific trips (Yellowstone, Yosemite, and Grand Canyon) with the Canon EOS 80D, but the gold answer states the user has taken five trips with the camera."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions three specific trips (Yellowstone, Yosemite, and Grand Canyon) with the Canon EOS 80D, but the gold answer indicates five trips total."
+        }
+    ]
+}

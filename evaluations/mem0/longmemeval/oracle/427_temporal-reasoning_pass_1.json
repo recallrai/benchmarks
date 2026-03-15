@@ -1,0 +1,19 @@
+{
+    "index": 427,
+    "question_type": "temporal-reasoning",
+    "question": "Where did I attend the religious activity last week?",
+    "question_date": "2023/04/10 (Mon) 08:05",
+    "ground_truth_answer": "the Episcopal Church",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions attending a Maundy Thursday service at the Episcopal Church, which would have occurred on April 6, 2023 (last week relative to the question date of April 10, 2023), matching the gold answer location."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions attending a Maundy Thursday service at the Episcopal Church, which occurred on April 6, 2023 (just 4 days before the question date of April 10), matching both the timeframe of 'last week' and the gold answer location."
+        }
+    ]
+}

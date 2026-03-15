@@ -1,0 +1,22 @@
+{
+    "index": 187,
+    "question_type": "knowledge-update",
+    "question": "Do I have a spare screwdriver for opening up my laptop?",
+    "question_date": "2023/09/06 (Wed) 17:02",
+    "ground_truth_answer": "Yes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_187_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to visit a local electronics store to obtain a small screwdriver for the laptop RAM upgrade, and also wants instructions on how to select specific files and folders to back up on Google Drive.\nUser has decided to purchase the 100 GB Google Drive storage plan, believes it will suffice for their working files, plans to upgrade their laptop's RAM, and now has a spare screwdriver from earlier desk organization, feeling prepared but slightly anxious about the maintenance.\nUser wants to set up automatic backups for working files on their laptop and asks for a step-by-step guide to establish a backup system.\nUser confirms that the Google Drive backup setup is complete and thanks the assistant for help.\nUser has completed the Google Drive backup setup and now seeks methods to verify that files are being backed up correctly, including checking backup status and receiving notifications if issues arise.\nUser is troubleshooting a wireless mouse freezing issue, is considering resetting the mouse per manufacturer instructions and will update drivers if resetting fails, taking a methodical approach.\nUser has chosen Google Drive as the cloud backup service, wants to enable versioning for their files, and is considering whether to upgrade their storage plan to accommodate versioning.\nUser has decided to use Backblaze for automatic backup of working files and wants to understand how Backblaze handles file versioning.\nUser has chosen the Anker cable organizer to fit in their bag, reflecting their desire to keep cables organized.",
+            "latency": 784.698
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to visit a local electronics store to obtain a small screwdriver for the laptop RAM upgrade, and also wants instructions on how to select specific files and folders to back up on Google Drive.\nUser has decided to purchase the 100 GB Google Drive storage plan, believes it will suffice for their working files, plans to upgrade their laptop's RAM, and now has a spare screwdriver from earlier desk organization, feeling prepared but slightly anxious about the maintenance.\nUser wants to set up automatic backups for working files on their laptop and asks for a step-by-step guide to establish a backup system.\nUser confirms that the Google Drive backup setup is complete and thanks the assistant for help.\nUser has completed the Google Drive backup setup and now seeks methods to verify that files are being backed up correctly, including checking backup status and receiving notifications if issues arise.\nUser is troubleshooting a wireless mouse freezing issue, is considering resetting the mouse per manufacturer instructions and will update drivers if resetting fails, taking a methodical approach.\nUser has chosen Google Drive as the cloud backup service, wants to enable versioning for their files, and is considering whether to upgrade their storage plan to accommodate versioning.\nUser has decided to use Backblaze for automatic backup of working files and wants to understand how Backblaze handles file versioning.\nUser has chosen the Anker cable organizer to fit in their bag, reflecting their desire to keep cables organized.",
+            "latency": 914.609
+        }
+    ]
+}

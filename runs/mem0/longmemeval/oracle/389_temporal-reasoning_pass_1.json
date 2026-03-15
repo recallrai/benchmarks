@@ -1,0 +1,22 @@
+{
+    "index": 389,
+    "question_type": "temporal-reasoning",
+    "question": "Which mode of transport did I use most recently, a bus or a train?",
+    "question_date": "2023/05/02 (Tue) 14:37",
+    "ground_truth_answer": "train",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_389_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently took a 2\u2011hour train ride to visit family in the countryside on March 3rd, and has been taking many trains for short distances.\nUser has observed that buses are more eco-friendly for short distances and wants information on the carbon footprint of trains in Japan compared to buses, and wants to know which train lines or companies are more sustainable.\nUser has tracked travel expenses and transport modes, noting a 20% reduction in carbon emissions over the past quarter by favoring trains and buses over driving or taxis.\nUser plans to take the train to Narita airport for the Japan trip and wants the best way to get to Narita from Tokyo city center.\nUser wants to check in for flight and drop off luggage at a train station before heading to Narita airport, seeking a convenient station check-in service.\nUser is glad that Japan's train network is relatively eco-friendly and wants to know scenic train routes in Japan to not miss, hoping to enjoy natural beauty while reducing carbon footprint.\nUser is planning a trip to Japan in May, their 7th international trip this year, with flights and accommodation already booked, excited to explore Tokyo and Osaka, and has returned from a bus ride to attend a friend's wedding, feeling tired but excited.\nUser plans a road trip to the northern mountains on April 15th, will detour to visit family in the countryside; starting point is their home city; family location is on the way; they want a route that is not too far off.\nUser averages about two flights per month since November last year, mostly for work; has visited Singapore three times in the past four months, with the last trip on January 20th.",
+            "latency": 547.758
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently took a 2\u2011hour train ride to visit family in the countryside on March 3rd, and has been taking many trains for short distances.\nUser has observed that buses are more eco-friendly for short distances and wants information on the carbon footprint of trains in Japan compared to buses, and wants to know which train lines or companies are more sustainable.\nUser has tracked travel expenses and transport modes, noting a 20% reduction in carbon emissions over the past quarter by favoring trains and buses over driving or taxis.\nUser plans to take the train to Narita airport for the Japan trip and wants the best way to get to Narita from Tokyo city center.\nUser wants to check in for flight and drop off luggage at a train station before heading to Narita airport, seeking a convenient station check-in service.\nUser is glad that Japan's train network is relatively eco-friendly and wants to know scenic train routes in Japan to not miss, hoping to enjoy natural beauty while reducing carbon footprint.\nUser is planning a trip to Japan in May, their 7th international trip this year, with flights and accommodation already booked, excited to explore Tokyo and Osaka, and has returned from a bus ride to attend a friend's wedding, feeling tired but excited.\nUser plans a road trip to the northern mountains on April 15th, will detour to visit family in the countryside; starting point is their home city; family location is on the way; they want a route that is not too far off.\nUser averages about two flights per month since November last year, mostly for work; has visited Singapore three times in the past four months, with the last trip on January 20th.",
+            "latency": 764.764
+        }
+    ]
+}

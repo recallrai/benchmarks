@@ -1,0 +1,22 @@
+{
+    "index": 165,
+    "question_type": "knowledge-update",
+    "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+    "question_date": "2023/12/29 (Fri) 12:41",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_165_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has made a Negroni at home 10 times since Emma taught them the recipe, using Hendrick's gin and Carpano Antica vermouth, feels a mix of pride and a desire to refine the flavor profile, and is looking for alternative bitter liqueurs to replace Campari.\nUser has recently acquired a bottle of Hendrick's gin, has experimented with various gin brands, enjoys the botanical blend of Hendrick's, and is currently enjoying Hendrick's gin which they purchased last week and use in Negroni recipes.\nUser wants a recipe or tips for a White Negroni to showcase gin and bitter liqueur, and plans to try alternative bitter liqueurs to observe flavor changes.\nUser has homemade honey syrup and is excited to try it in a Bee's Knees cocktail, indicating enthusiasm for crafting cocktails with personal ingredients.\nUser is interested in incorporating lavender into cocktails, wants a lavender syrup recipe and cocktail suggestions, and plans to try the recipe.\nUser is seeking unique cocktail recipes that incorporate lavender or grapefruit for a dinner party, showing interest in creating garden-to-glass experiences with fresh herbs and citrus.",
+            "latency": 496.032
+        },
+        {
+            "strategy": "graph",
+            "context": "User has made a Negroni at home 10 times since Emma taught them the recipe, using Hendrick's gin and Carpano Antica vermouth, feels a mix of pride and a desire to refine the flavor profile, and is looking for alternative bitter liqueurs to replace Campari.\nUser has recently acquired a bottle of Hendrick's gin, has experimented with various gin brands, enjoys the botanical blend of Hendrick's, and is currently enjoying Hendrick's gin which they purchased last week and use in Negroni recipes.\nUser wants a recipe or tips for a White Negroni to showcase gin and bitter liqueur, and plans to try alternative bitter liqueurs to observe flavor changes.\nUser has homemade honey syrup and is excited to try it in a Bee's Knees cocktail, indicating enthusiasm for crafting cocktails with personal ingredients.\nUser is interested in incorporating lavender into cocktails, wants a lavender syrup recipe and cocktail suggestions, and plans to try the recipe.\nUser is seeking unique cocktail recipes that incorporate lavender or grapefruit for a dinner party, showing interest in creating garden-to-glass experiences with fresh herbs and citrus.",
+            "latency": 756.996
+        }
+    ]
+}

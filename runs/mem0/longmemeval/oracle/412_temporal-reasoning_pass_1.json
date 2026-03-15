@@ -1,0 +1,22 @@
+{
+    "index": 412,
+    "question_type": "temporal-reasoning",
+    "question": "What charity event did I participate in a month ago?",
+    "question_date": "2023/04/18 (Tue) 07:36",
+    "ground_truth_answer": "the 'Walk for Hunger' charity event",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_412_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is actively seeking information on the latest developments in cancer research, specifically the most promising areas of research, and has recently attended a charity gala organized by the Cancer Research Foundation at a fancy downtown hotel, where the event raised over $100,000 for cancer research.\nUser likes overnight oats, has been participating in many charity events, and wants tips on staying hydrated during long walks like the 5\u2011kilometer Walk for Hunger event.\nUser just completed a 5\u2011kilometer Walk for Hunger charity event with colleagues to raise money for the local food bank and is looking for healthy, easy\u2011to\u2011prepare snack ideas to refuel.\nUser seeks tips on staying organized and managing time effectively when volunteering for multiple charity events, feeling overwhelmed by the volume of events.\nUser is planning a charity bake sale at their office to raise money for the local animal shelter and is seeking ideas for easy\u2011to\u2011make baked goods to sell.\nUser volunteered at a 'Books for Kids' charity book drive at their local library, sorting and packing over 500 books for underprivileged neighborhood children, and is now seeking popular, fun, and educational book recommendations for kids.\nUser wants detailed information on immunotherapy and its current success rates in treating various types of cancer.\nUser wants information on the rights, daily lives, and societal contributions of women in ancient Egyptian society.\nUser is preparing for a 4\u2011day road trip from San Francisco to Lake Tahoe on a road bike, has already planned the itinerary, is confident from a recent 4\u2011hour charity bike ride, and is now seeking a comprehensive packing list of essential gear and clothing to ensure all necessary items for the trip.\nUser is interested in protein\u2011rich breakfasts that can be prepared in advance for weekdays.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is actively seeking information on the latest developments in cancer research, specifically the most promising areas of research, and has recently attended a charity gala organized by the Cancer Research Foundation at a fancy downtown hotel, where the event raised over $100,000 for cancer research.\nUser likes overnight oats, has been participating in many charity events, and wants tips on staying hydrated during long walks like the 5\u2011kilometer Walk for Hunger event.\nUser just completed a 5\u2011kilometer Walk for Hunger charity event with colleagues to raise money for the local food bank and is looking for healthy, easy\u2011to\u2011prepare snack ideas to refuel.\nUser seeks tips on staying organized and managing time effectively when volunteering for multiple charity events, feeling overwhelmed by the volume of events.\nUser is planning a charity bake sale at their office to raise money for the local animal shelter and is seeking ideas for easy\u2011to\u2011make baked goods to sell.\nUser volunteered at a 'Books for Kids' charity book drive at their local library, sorting and packing over 500 books for underprivileged neighborhood children, and is now seeking popular, fun, and educational book recommendations for kids.\nUser wants detailed information on immunotherapy and its current success rates in treating various types of cancer.\nUser wants information on the rights, daily lives, and societal contributions of women in ancient Egyptian society.\nUser is preparing for a 4\u2011day road trip from San Francisco to Lake Tahoe on a road bike, has already planned the itinerary, is confident from a recent 4\u2011hour charity bike ride, and is now seeking a comprehensive packing list of essential gear and clothing to ensure all necessary items for the trip.\nUser is interested in protein\u2011rich breakfasts that can be prepared in advance for weekdays.",
+            "latency": 697.0
+        }
+    ]
+}

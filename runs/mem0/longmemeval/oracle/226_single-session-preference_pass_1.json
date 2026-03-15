@@ -1,0 +1,22 @@
+{
+    "index": 226,
+    "question_type": "single-session-preference",
+    "question": "I noticed my bike seems to be performing even better during my Sunday group rides. Could there be a reason for this?",
+    "question_date": "2024/02/20 (Tue) 21:35",
+    "ground_truth_answer": "The user would prefer responses that reference specific details from their previous interactions, such as the replacement of the bike's chain and cassette, and the use of a new Garmin bike computer. They might prefer explanations that connect these details to the observed improvement in bike performance. The user may not prefer responses that fail to acknowledge these specific details or provide vague, general explanations for the improvement.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_226_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User replaced the bike's chain and cassette on February\u202f1, improving performance, and is planning a 20\u2011mile bike ride this weekend; they are seeking hydration tips for long rides, instructions to set up a new Garmin bike computer for accurate distance and speed readings, recommendations for routes or apps that highlight bike\u2011friendly roads, and general bike safety tips for the ride.\nUser is planning to order a new bike helmet from Specialized soon, as their current helmet is outdated, and is looking for recommendations on good brands or models.",
+            "latency": 1471.727
+        },
+        {
+            "strategy": "graph",
+            "context": "User replaced the bike's chain and cassette on February\u202f1, improving performance, and is planning a 20\u2011mile bike ride this weekend; they are seeking hydration tips for long rides, instructions to set up a new Garmin bike computer for accurate distance and speed readings, recommendations for routes or apps that highlight bike\u2011friendly roads, and general bike safety tips for the ride.\nUser is planning to order a new bike helmet from Specialized soon, as their current helmet is outdated, and is looking for recommendations on good brands or models.",
+            "latency": 5402.188
+        }
+    ]
+}

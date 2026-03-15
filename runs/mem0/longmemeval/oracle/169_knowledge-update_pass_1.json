@@ -1,0 +1,22 @@
+{
+    "index": 169,
+    "question_type": "knowledge-update",
+    "question": "How many different species of birds have I seen in my local park?",
+    "question_date": "2023/06/28 (Wed) 14:23",
+    "ground_truth_answer": "32",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_169_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is an avid birdwatcher and photographer who has recorded 32 species in a local park, having increased from 27 after spotting a Northern Flicker last weekend, reflecting active birdwatching and record\u2011keeping\nUser is planning a picnic in their local park this weekend, intending to bring bird-friendly food such as sunflower seeds, suet, fresh fruits (apples and oranges), peanut butter, water, and a birdbath, and binoculars to attract and observe birds, and will likely log the sightings in the eBird app\nUser is seeking tips to improve bird photography skills, specifically for taking better close\u2011up shots of skittish birds such as the Northern Flicker, indicating a desire to capture detailed images of elusive species.\nUser plans a trip to a nearby lake next weekend to observe waterbirds, will bring both binoculars and a spotting scope, hopes to spot Ospreys and Bald Eagles, and seeks tips to increase chances of seeing these species, indicating a focused birding goal and preparation.\nUser is actively using the eBird app to log sightings and submit data, finding it helpful for organizing records and comparing observations with other birders in the area, demonstrating engagement with community data platforms.\nUser wants guidance on identifying warblers and sparrows, noting that these groups are difficult to distinguish, reflecting a commitment to deepen bird identification knowledge.",
+            "latency": 832.346
+        },
+        {
+            "strategy": "graph",
+            "context": "User is an avid birdwatcher and photographer who has recorded 32 species in a local park, having increased from 27 after spotting a Northern Flicker last weekend, reflecting active birdwatching and record\u2011keeping\nUser is planning a picnic in their local park this weekend, intending to bring bird-friendly food such as sunflower seeds, suet, fresh fruits (apples and oranges), peanut butter, water, and a birdbath, and binoculars to attract and observe birds, and will likely log the sightings in the eBird app\nUser is seeking tips to improve bird photography skills, specifically for taking better close\u2011up shots of skittish birds such as the Northern Flicker, indicating a desire to capture detailed images of elusive species.\nUser plans a trip to a nearby lake next weekend to observe waterbirds, will bring both binoculars and a spotting scope, hopes to spot Ospreys and Bald Eagles, and seeks tips to increase chances of seeing these species, indicating a focused birding goal and preparation.\nUser is actively using the eBird app to log sightings and submit data, finding it helpful for organizing records and comparing observations with other birders in the area, demonstrating engagement with community data platforms.\nUser wants guidance on identifying warblers and sparrows, noting that these groups are difficult to distinguish, reflecting a commitment to deepen bird identification knowledge.",
+            "latency": 1026.751
+        }
+    ]
+}

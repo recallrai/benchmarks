@@ -1,0 +1,22 @@
+{
+    "index": 219,
+    "question_type": "single-session-preference",
+    "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+    "question_date": "2023/05/27 (Sat) 20:51",
+    "ground_truth_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_219_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants simple ways to keep their living room dust-free, especially because they have a cat that sheds a lot, and is looking for vacuum cleaners that can handle a lot of cat hair.\nUser is interested in indoor plants that thrive in indoor conditions and help purify the air, especially in a cat-shedding room; they plan to acquire a spider plant or a snake plant, use a planter with good drainage and a well-draining potting mix,\nUser is experiencing flickering in their TV picture and is seeking troubleshooting guidance or a local TV repair service.\nand are considering whether to fertilize the plant regularly.",
+            "latency": 1074.4
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants simple ways to keep their living room dust-free, especially because they have a cat that sheds a lot, and is looking for vacuum cleaners that can handle a lot of cat hair.\nUser is interested in indoor plants that thrive in indoor conditions and help purify the air, especially in a cat-shedding room; they plan to acquire a spider plant or a snake plant, use a planter with good drainage and a well-draining potting mix,\nUser is experiencing flickering in their TV picture and is seeking troubleshooting guidance or a local TV repair service.\nand are considering whether to fertilize the plant regularly.",
+            "latency": 2189.329
+        }
+    ]
+}

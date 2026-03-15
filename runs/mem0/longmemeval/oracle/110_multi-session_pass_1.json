@@ -1,0 +1,22 @@
+{
+    "index": 110,
+    "question_type": "multi-session",
+    "question": "How many magazine subscriptions do I currently have?",
+    "question_date": "2023/04/01 (Sat) 21:12",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_110_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User canceled their Forbes magazine subscription in early March because the articles were not interesting, and has since subscribed to The New Yorker in early February, enjoys its weekly issues and particularly appreciated the April\u202f10 issue featuring an article on the intersection of technology and art.\nUser is looking for reliable online news sources that provide in\u2011depth coverage of international news and current events.\nUser follows The New\u202fYork\u202fTimes on Twitter, read a March\u202f28 COVID\u201119 tweet that frightened them, and listens to The Daily podcast where an April\u202f3 episode on the economy influenced their investment thinking; they now seek personal finance podcasts or resources to make more informed investment decisions.",
+            "latency": 492.001
+        },
+        {
+            "strategy": "graph",
+            "context": "User canceled their Forbes magazine subscription in early March because the articles were not interesting, and has since subscribed to The New Yorker in early February, enjoys its weekly issues and particularly appreciated the April\u202f10 issue featuring an article on the intersection of technology and art.\nUser is looking for reliable online news sources that provide in\u2011depth coverage of international news and current events.\nUser follows The New\u202fYork\u202fTimes on Twitter, read a March\u202f28 COVID\u201119 tweet that frightened them, and listens to The Daily podcast where an April\u202f3 episode on the economy influenced their investment thinking; they now seek personal finance podcasts or resources to make more informed investment decisions.",
+            "latency": 697.0
+        }
+    ]
+}

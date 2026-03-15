@@ -1,0 +1,22 @@
+{
+    "index": 459,
+    "question_type": "multi-session",
+    "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+    "question_date": "2023/05/28 (Sun) 13:45",
+    "ground_truth_answer": "8 meals",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_459_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently made a large batch of lentil soup that lasted 5 lunches, indicating a focus on meal prep and efficient use of ingredients.\nUser is seeking new recipe ideas to use leftover vegetables to reduce food waste and get creative, and has recently finished the last of their chicken fajitas\u2014made last week\u2014with saut\u00e9ed onions and bell peppers, marking the third meal from that batch.\nUser plans to use roasted sweet potatoes and caramelized onions in a frittata, has a sweet potato in their pantry, loves the flavor of caramelized onions, and wants quick tips for caramelizing onions.\nUser enjoys experimenting with seasonings and spices on cauliflower rice and is seeking suggestions for protein sources or vegetables to add to it.\nUser is looking for a good marinade for grilled chicken breasts, experimenting with different marinades, and has decided to try the Korean-Style Gochujang Marinade, enjoying gochujang's sweet and spicy flavor.\nUser is interested in making a veggie frittata with roasted vegetables and has requested recommendations for the best vegetables to use in a frittata.",
+            "latency": 564.122
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently made a large batch of lentil soup that lasted 5 lunches, indicating a focus on meal prep and efficient use of ingredients.\nUser is seeking new recipe ideas to use leftover vegetables to reduce food waste and get creative, and has recently finished the last of their chicken fajitas\u2014made last week\u2014with saut\u00e9ed onions and bell peppers, marking the third meal from that batch.\nUser plans to use roasted sweet potatoes and caramelized onions in a frittata, has a sweet potato in their pantry, loves the flavor of caramelized onions, and wants quick tips for caramelizing onions.\nUser enjoys experimenting with seasonings and spices on cauliflower rice and is seeking suggestions for protein sources or vegetables to add to it.\nUser is looking for a good marinade for grilled chicken breasts, experimenting with different marinades, and has decided to try the Korean-Style Gochujang Marinade, enjoying gochujang's sweet and spicy flavor.\nUser is interested in making a veggie frittata with roasted vegetables and has requested recommendations for the best vegetables to use in a frittata.",
+            "latency": 766.386
+        }
+    ]
+}

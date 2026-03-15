@@ -1,0 +1,19 @@
+{
+    "index": 48,
+    "question_type": "temporal-reasoning",
+    "question": "Which gift did I buy first, the necklace for my sister or the photo album for my mom?",
+    "question_date": "2023/05/22 (Mon) 12:21",
+    "ground_truth_answer": "the photo album for my mom",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context indicates the photo album was ordered and received by Wednesday (before the question date), while the sister's birthday dinner is 'this weekend' (after the question date), suggesting the photo album was purchased earlier, which aligns with the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions both gifts (the Tiffany's necklace for the sister and the Shutterfly photo album for mom) but does not provide sufficient information about the relative timing of when each was purchased to determine which was bought first."
+        }
+    ]
+}

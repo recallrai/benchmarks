@@ -1,0 +1,19 @@
+{
+    "index": 39,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, Mark and Sarah or Tom?",
+    "question_date": "2023/05/28 (Sun) 17:00",
+    "ground_truth_answer": "Tom",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions both Tom and Mark/Sarah, it does not provide sufficient temporal information to determine who was met first - Mark and Sarah were met 'a month ago' and Tom at 'a previous event', but these relative references cannot be ordered chronologically to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions meeting Mark and Sarah 'a month ago' on a beach trip and meeting Tom at a 'previous event', but does not provide sufficient chronological information to determine who was met first."
+        }
+    ]
+}

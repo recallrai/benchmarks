@@ -1,0 +1,22 @@
+{
+    "index": 193,
+    "question_type": "knowledge-update",
+    "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+    "question_date": "2023/06/03 (Sat) 02:36",
+    "ground_truth_answer": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_193_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User, a Senior Software Engineer, leads a team of five engineers.\nUser is considering improving delegation of tasks to ensure project deadlines are met, and plans to implement suggestions such as setting realistic deadlines, providing necessary resources, and supporting team members.",
+            "latency": 500.217
+        },
+        {
+            "strategy": "graph",
+            "context": "User, a Senior Software Engineer, leads a team of five engineers.\nUser is considering improving delegation of tasks to ensure project deadlines are met, and plans to implement suggestions such as setting realistic deadlines, providing necessary resources, and supporting team members.",
+            "latency": 726.708
+        }
+    ]
+}

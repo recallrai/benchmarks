@@ -1,0 +1,22 @@
+{
+    "index": 297,
+    "question_type": "single-session-user",
+    "question": "How much did I spend on a designer handbag?",
+    "question_date": "2023/05/29 (Mon) 21:17",
+    "ground_truth_answer": "$800",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_297_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is trying to get a better handle on finances, wants help tracking spending habits, is considering creating a budget, has been using credit card heavily, spent $800 on a designer handbag last month, frequently shops at high\u2011end department stores like Saks and Neiman Marcus, is planning to try the Mint budgeting app, is researching affordable alternatives such as H&M and Uniqlo, is canceling a $50/month beauty box subscription due to low usage, and is buying beauty products at discount stores to save money, all while feeling more in control of finances and excited to continue making progress.",
+            "latency": 1327.735
+        },
+        {
+            "strategy": "graph",
+            "context": "User is trying to get a better handle on finances, wants help tracking spending habits, is considering creating a budget, has been using credit card heavily, spent $800 on a designer handbag last month, frequently shops at high\u2011end department stores like Saks and Neiman Marcus, is planning to try the Mint budgeting app, is researching affordable alternatives such as H&M and Uniqlo, is canceling a $50/month beauty box subscription due to low usage, and is buying beauty products at discount stores to save money, all while feeling more in control of finances and excited to continue making progress.",
+            "latency": 2268.402
+        }
+    ]
+}

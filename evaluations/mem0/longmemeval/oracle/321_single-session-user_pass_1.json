@@ -1,0 +1,19 @@
+{
+    "index": 321,
+    "question_type": "single-session-user",
+    "question": "What type of rice is my favorite?",
+    "question_date": "2023/05/25 (Thu) 11:51",
+    "ground_truth_answer": "Japanese short-grain rice",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'their favorite Japanese short-grain rice', which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'their favorite Japanese short-grain rice', which directly matches the gold answer."
+        }
+    ]
+}

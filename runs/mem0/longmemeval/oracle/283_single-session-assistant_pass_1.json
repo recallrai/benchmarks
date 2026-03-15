@@ -1,0 +1,22 @@
+{
+    "index": 283,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+    "question_date": "2023/05/28 (Sun) 15:39",
+    "ground_truth_answer": "Veja",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_283_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is requesting recommendations for high-end fashion brands that prioritize sustainability, expressing interest in eco-friendly, ethically produced luxury apparel.\nUser is curious about how high-end fashion brands differ from fast fashion and why high-end brands are more expensive, seeking to understand the distinctions and pricing factors.\nUser wants to know if sustainable high-end brands offer sales or discounts, looking for opportunities to purchase such items at reduced prices.\nUser is evaluating whether investing in high-end fashion brands is worthwhile, weighing budget considerations against the appeal of durable, unique designs and brand prestige.\nUser plans to shop secondhand for sustainable, high-quality fashion while staying mindful of spending, aiming to balance environmental responsibility with budget constraints.",
+            "latency": 1649.938
+        },
+        {
+            "strategy": "graph",
+            "context": "User is requesting recommendations for high-end fashion brands that prioritize sustainability, expressing interest in eco-friendly, ethically produced luxury apparel.\nUser is curious about how high-end fashion brands differ from fast fashion and why high-end brands are more expensive, seeking to understand the distinctions and pricing factors.\nUser wants to know if sustainable high-end brands offer sales or discounts, looking for opportunities to purchase such items at reduced prices.\nUser is evaluating whether investing in high-end fashion brands is worthwhile, weighing budget considerations against the appeal of durable, unique designs and brand prestige.\nUser plans to shop secondhand for sustainable, high-quality fashion while staying mindful of spending, aiming to balance environmental responsibility with budget constraints.",
+            "latency": 2136.171
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 437,
+    "question_type": "multi-session",
+    "question": "What percentage of packed shoes did I wear on my last trip?",
+    "question_date": "2023/05/28 (Sun) 15:36",
+    "ground_truth_answer": "40%",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions packing five pairs of shoes for an upcoming trip but contains no information about what percentage of shoes were actually worn on a past completed trip, nor does it mention 40% or any usage statistics."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions packing five pairs of shoes but does not contain any information about what percentage of those shoes were actually worn on the trip."
+        }
+    ]
+}

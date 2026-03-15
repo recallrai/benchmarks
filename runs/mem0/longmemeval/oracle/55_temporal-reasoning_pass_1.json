@@ -1,0 +1,22 @@
+{
+    "index": 55,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at Google?",
+    "question_date": "2023/05/23 (Tue) 10:59",
+    "ground_truth_answer": "The information provided is not enough. From the information provided, You haven't started working at Google yet.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_55_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The software engineer, a backend developer with a Computer Science degree from UC Berkeley, has 9 years of professional experience, has been working at NovaTech for 4 years and 3 months, and is currently engaged in a high-priority project demanding long hours, increased commute, and limited personal time.\nUser is seeking advice on managing time more efficiently, specifically looking for ways to prioritize tasks and maximize productivity given long work hours, increased commute, and limited personal life.\nUser plans to expand freelance services to include project management and consulting in addition to web development, and is seeking guidance on how to price these new offerings.\nUser uses a spreadsheet to track freelance projects and income but is looking for digital tools to better manage these aspects.\nUser currently uses a physical notebook to track tasks and projects but finds it inefficient and wants recommendations for digital tools or apps to stay organized.\nThe software engineer is seeking profiling and benchmarking tools for the API, prefers New Relic for its detailed transaction tracing and code-level profiling, but is evaluating both New Relic and Datadog through a trial or demo to determine the best fit for their team's needs.\nThe software engineer needs guidance on implementing and rolling out New Relic to their team, aiming for a smooth integration with existing workflows, including training, onboarding, and governance to ensure adoption.",
+            "latency": 797.425
+        },
+        {
+            "strategy": "graph",
+            "context": "The software engineer, a backend developer with a Computer Science degree from UC Berkeley, has 9 years of professional experience, has been working at NovaTech for 4 years and 3 months, and is currently engaged in a high-priority project demanding long hours, increased commute, and limited personal time.\nUser is seeking advice on managing time more efficiently, specifically looking for ways to prioritize tasks and maximize productivity given long work hours, increased commute, and limited personal life.\nUser plans to expand freelance services to include project management and consulting in addition to web development, and is seeking guidance on how to price these new offerings.\nUser uses a spreadsheet to track freelance projects and income but is looking for digital tools to better manage these aspects.\nUser currently uses a physical notebook to track tasks and projects but finds it inefficient and wants recommendations for digital tools or apps to stay organized.\nThe software engineer is seeking profiling and benchmarking tools for the API, prefers New Relic for its detailed transaction tracing and code-level profiling, but is evaluating both New Relic and Datadog through a trial or demo to determine the best fit for their team's needs.\nThe software engineer needs guidance on implementing and rolling out New Relic to their team, aiming for a smooth integration with existing workflows, including training, onboarding, and governance to ensure adoption.",
+            "latency": 1052.115
+        }
+    ]
+}

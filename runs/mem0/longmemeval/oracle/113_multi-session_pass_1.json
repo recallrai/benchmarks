@@ -1,0 +1,22 @@
+{
+    "index": 113,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+    "question_date": "2021/08/20 (Fri) 19:01",
+    "ground_truth_answer": "10 years",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_113_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User graduated with a Bachelor's in Computer Science from UCLA in 2020, earned a 3.6 GPA, was on the Dean's list for three semesters, earned an Associate's from Pasadena City College, completed Johns Hopkins specialization, and is pursuing a Master's in CS at UCLA focusing on explainable AI and fairness.\nUser was a member of a high school robotics team and enjoyed the experience.\nUser is looking to improve skills in machine learning and artificial intelligence by taking online courses or resources, has taken courses on Coursera and edX, and is eager to apply these skills to real-world problems.",
+            "latency": 494.66
+        },
+        {
+            "strategy": "graph",
+            "context": "User graduated with a Bachelor's in Computer Science from UCLA in 2020, earned a 3.6 GPA, was on the Dean's list for three semesters, earned an Associate's from Pasadena City College, completed Johns Hopkins specialization, and is pursuing a Master's in CS at UCLA focusing on explainable AI and fairness.\nUser was a member of a high school robotics team and enjoyed the experience.\nUser is looking to improve skills in machine learning and artificial intelligence by taking online courses or resources, has taken courses on Coursera and edX, and is eager to apply these skills to real-world problems.",
+            "latency": 697.0
+        }
+    ]
+}

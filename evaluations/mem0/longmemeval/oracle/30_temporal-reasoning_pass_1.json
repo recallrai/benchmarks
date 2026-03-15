@@ -1,0 +1,19 @@
+{
+    "index": 30,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been bird watching when I attended the bird watching workshop?",
+    "question_date": "2023/05/25 (Thu) 19:42",
+    "ground_truth_answer": "Two months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user has been bird watching for 'about three months' and 'recently attended' a workshop, but does not specify they had been bird watching for two months at the time of the workshop - the timeframes don't allow for definitively determining the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user has been bird watching for 'about three months' and 'recently attended' a workshop, but does not specify they had been bird watching for exactly two months at the time of attending the workshop."
+        }
+    ]
+}

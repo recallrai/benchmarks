@@ -1,0 +1,22 @@
+{
+    "index": 107,
+    "question_type": "multi-session",
+    "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+    "question_date": "2023/05/01 (Mon) 09:52",
+    "ground_truth_answer": "3 days",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_107_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a lecture on sustainable development at the public library on April 10, which sparked their interest in urban planning and sustainable development, and they are now looking for online courses or books on the topic.\nUser attended a 2\u2011day workshop on April\u202f17\u201118 that covered standardization, normalization, supervised learning, and deep learning, yet remains unclear about when to use each technique and requests an example of using standardization over normalization.\nUser wants details on the goals and outcomes of the Climate and Sea-Level Rise (C&SLR) Initiative.\nUser wants details on the structure, instructor, assignments, and projects of the Coursera Sustainable Development specialization from the University of Michigan.\nUser wants information on Dr. Jonathan T. Overpeck's background, research focus, notable publications, and his work on sea-level rise.",
+            "latency": 855.455
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a lecture on sustainable development at the public library on April 10, which sparked their interest in urban planning and sustainable development, and they are now looking for online courses or books on the topic.\nUser attended a 2\u2011day workshop on April\u202f17\u201118 that covered standardization, normalization, supervised learning, and deep learning, yet remains unclear about when to use each technique and requests an example of using standardization over normalization.\nUser wants details on the goals and outcomes of the Climate and Sea-Level Rise (C&SLR) Initiative.\nUser wants details on the structure, instructor, assignments, and projects of the Coursera Sustainable Development specialization from the University of Michigan.\nUser wants information on Dr. Jonathan T. Overpeck's background, research focus, notable publications, and his work on sea-level rise.",
+            "latency": 1418.565
+        }
+    ]
+}

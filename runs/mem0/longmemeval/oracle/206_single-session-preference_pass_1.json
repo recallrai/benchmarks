@@ -1,0 +1,22 @@
+{
+    "index": 206,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities that I can do in the evening?",
+    "question_date": "2023/05/24 (Wed) 05:51",
+    "ground_truth_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_206_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to wind down later in the day, preferring to finish winding down by 9:30 pm to prepare for a good night's sleep.\nUser is struggling to manage time effectively and seeks assistance in prioritizing tasks and creating a schedule that works for them.\nUser plans to try another meditation session tonight, specifically the 'Body Scan' meditation by Insight Timer, and wants an overview of what to expect.\nUser reports that the 'Sleep' meditation experience was very relaxing and calming, helped them unwind and quiet their mind, made it easier to fall asleep, and they especially liked the imagery and visualization part that distracted them from stressful thoughts.\nUser is interested in meditation apps or guided meditation resources to help relax before bed, specifically seeking guided meditations designed for sleep and relaxation.\nUser wants an overview of the 'Sleep' guided meditation by Headspace, which is a 10-minute meditation designed to help relax and prepare for sleep, featuring breathing, body relaxation, imagery, and gradual letting go.\nUser has a project due soon, needs to finish a report and respond to emails, with most time-consuming tasks being project work, email responses, and meetings; they have 7-8 hours available each day, are most productive between 10 am and 12 pm, have a 30-minute morning exercise routine, prefer a structured schedule, want to minimize procrastination and social media usage, and have no existing time management tools but are open to using one.",
+            "latency": 2233.619
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to wind down later in the day, preferring to finish winding down by 9:30 pm to prepare for a good night's sleep.\nUser is struggling to manage time effectively and seeks assistance in prioritizing tasks and creating a schedule that works for them.\nUser plans to try another meditation session tonight, specifically the 'Body Scan' meditation by Insight Timer, and wants an overview of what to expect.\nUser reports that the 'Sleep' meditation experience was very relaxing and calming, helped them unwind and quiet their mind, made it easier to fall asleep, and they especially liked the imagery and visualization part that distracted them from stressful thoughts.\nUser is interested in meditation apps or guided meditation resources to help relax before bed, specifically seeking guided meditations designed for sleep and relaxation.\nUser wants an overview of the 'Sleep' guided meditation by Headspace, which is a 10-minute meditation designed to help relax and prepare for sleep, featuring breathing, body relaxation, imagery, and gradual letting go.\nUser has a project due soon, needs to finish a report and respond to emails, with most time-consuming tasks being project work, email responses, and meetings; they have 7-8 hours available each day, are most productive between 10 am and 12 pm, have a 30-minute morning exercise routine, prefer a structured schedule, want to minimize procrastination and social media usage, and have no existing time management tools but are open to using one.",
+            "latency": 2314.933
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 215,
+    "question_type": "single-session-preference",
+    "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+    "question_date": "2023/05/27 (Sat) 23:31",
+    "ground_truth_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_215_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants tips on how to make the perfect chewy chocolate chip cookies to bring to the birthday party.\nUser wants storage tips for the lemon lavender pound cake, plans to serve it at a birthday party, and will store it properly beforehand, expressing gratitude for the advice.\nUser is seeking suggestions for a lemon flavored cake to serve at a friend's birthday, referencing a previous lemon poppyseed cake that was a hit at a colleague's going-away party.\nUser has decided to use dried lavender buds in the lemon lavender pound cake and is asking for the appropriate amount of sugar, as well as whether to adjust the lemon zest and juice quantities.\nUser is interested in a lemon lavender pound cake and wants detailed instructions on how to incorporate lavender into the batter.\nUser is looking for a recipe for a chocolate cake with caramel ganache frosting.",
+            "latency": 1963.93
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants tips on how to make the perfect chewy chocolate chip cookies to bring to the birthday party.\nUser wants storage tips for the lemon lavender pound cake, plans to serve it at a birthday party, and will store it properly beforehand, expressing gratitude for the advice.\nUser is seeking suggestions for a lemon flavored cake to serve at a friend's birthday, referencing a previous lemon poppyseed cake that was a hit at a colleague's going-away party.\nUser has decided to use dried lavender buds in the lemon lavender pound cake and is asking for the appropriate amount of sugar, as well as whether to adjust the lemon zest and juice quantities.\nUser is interested in a lemon lavender pound cake and wants detailed instructions on how to incorporate lavender into the batter.\nUser is looking for a recipe for a chocolate cake with caramel ganache frosting.",
+            "latency": 2430.796
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 207,
+    "question_type": "single-session-preference",
+    "question": "My kitchen's becoming a bit of a mess again. Any tips for keeping it clean?",
+    "question_date": "2023/05/28 (Sun) 12:29",
+    "ground_truth_answer": "The user would prefer responses that acknowledge and build upon their existing efforts to organize their kitchen, such as utilizing their new utensil holder to keep countertops clutter-free. They would also appreciate tips that address their concern for maintaining their granite surface, particularly around the sink area. Preferred responses would provide practical and actionable steps to maintain cleanliness, leveraging the user's current tools and setup. They might not prefer generic or vague suggestions that do not take into account their specific kitchen setup or concerns.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_207_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently purchased a new utensil holder to keep countertops clutter-free and wants tips on maximizing the space in the holder, indicating a desire to organize kitchen utensils efficiently.\nUser is experiencing issues with their garbage disposal and is seeking tips for cleaning it or determining when it should be replaced, indicating a need for maintenance guidance on kitchen appliances.\nUser has a leaking kitchen faucet and wants tips on fixing it or knowing when it should be replaced, indicating a need for plumbing maintenance advice.\nUser noticed scratches on their granite countertop near the sink and is asking for advice on how to repair or remove those scratches, indicating a concern for maintaining kitchen surface appearance.\nUser wants to try making yogurt in their slow cooker and is asking for tips on how to do that, indicating interest in using kitchen appliances for alternative cooking methods.\nUser wants more information about using different types of milk and thickening agents to create non-dairy yogurt alternatives, indicating an interest in plant-based yogurt production and achieving desired texture.",
+            "latency": 1255.396
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently purchased a new utensil holder to keep countertops clutter-free and wants tips on maximizing the space in the holder, indicating a desire to organize kitchen utensils efficiently.\nUser is experiencing issues with their garbage disposal and is seeking tips for cleaning it or determining when it should be replaced, indicating a need for maintenance guidance on kitchen appliances.\nUser has a leaking kitchen faucet and wants tips on fixing it or knowing when it should be replaced, indicating a need for plumbing maintenance advice.\nUser noticed scratches on their granite countertop near the sink and is asking for advice on how to repair or remove those scratches, indicating a concern for maintaining kitchen surface appearance.\nUser wants to try making yogurt in their slow cooker and is asking for tips on how to do that, indicating interest in using kitchen appliances for alternative cooking methods.\nUser wants more information about using different types of milk and thickening agents to create non-dairy yogurt alternatives, indicating an interest in plant-based yogurt production and achieving desired texture.",
+            "latency": 2032.684
+        }
+    ]
+}

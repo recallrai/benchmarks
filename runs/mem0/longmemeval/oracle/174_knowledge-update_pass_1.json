@@ -1,0 +1,22 @@
+{
+    "index": 174,
+    "question_type": "knowledge-update",
+    "question": "How much time do I dedicate to coding exercises each day?",
+    "question_date": "2023/06/22 (Thu) 19:41",
+    "ground_truth_answer": "about two hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_174_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is seeking resources for learning data structures and algorithms and is dedicating about two hours each day to coding exercises, excited to see progress in the next few weeks.\nUser plans to track progress by logging completed challenges, learned concepts, and improved skills, setting specific goals such as completing a set number of challenges within a timeframe or mastering a particular skill.\nUser has been using Pluralsight for Python tutorials and wants to explore additional platforms or websites that provide a wide range of Python coding challenges and problem\u2011solving exercises, and seeks advice on how to approach these challenges to maximize learning.",
+            "latency": 893.786
+        },
+        {
+            "strategy": "graph",
+            "context": "User is seeking resources for learning data structures and algorithms and is dedicating about two hours each day to coding exercises, excited to see progress in the next few weeks.\nUser plans to track progress by logging completed challenges, learned concepts, and improved skills, setting specific goals such as completing a set number of challenges within a timeframe or mastering a particular skill.\nUser has been using Pluralsight for Python tutorials and wants to explore additional platforms or websites that provide a wide range of Python coding challenges and problem\u2011solving exercises, and seeks advice on how to approach these challenges to maximize learning.",
+            "latency": 1370.192
+        }
+    ]
+}

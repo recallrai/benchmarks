@@ -1,0 +1,22 @@
+{
+    "index": 119,
+    "question_type": "multi-session",
+    "question": "How many days did it take for my iPad case to arrive after I bought it?",
+    "question_date": "2023/01/24 (Tue) 10:05",
+    "ground_truth_answer": "The information provided is not enough. You did not mention buying an iPad case.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_119_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently started using a new laptop backpack that arrived on January 20, 2026, and finds it a lifesaver for carrying their work laptop.\nUser installed a new graphics card in December, installed it on February 10, 2026, and it has significantly improved their gaming experience; the high\u2011end NVIDIA card also boosts FPS game performance, makes the system snappier by offloading graphical tasks from the CPU, and after cleaning the desktop on February 1, 2026, removing dust from fans and vents, the user observed further performance improvement and is seeking maintenance tips.\nUser plans to upgrade their desktop computer soon and is asking whether a new graphics card would significantly improve performance.\nUser downloaded a password manager app on February 12, 2026, has not yet checked for updates, and is looking for guidance on how to keep the app up to date and secure, demonstrating their ongoing commitment to laptop performance and cybersecurity.\nUser is interested in a mid\u2011range wireless mouse and wants to know about the battery life and sensor accuracy of the Logitech MX Anywhere 2S compared to other mid\u2011range mice.\nUser is considering purchasing a new wireless mouse because their current one is acting up.",
+            "latency": 804.937
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently started using a new laptop backpack that arrived on January 20, 2026, and finds it a lifesaver for carrying their work laptop.\nUser installed a new graphics card in December, installed it on February 10, 2026, and it has significantly improved their gaming experience; the high\u2011end NVIDIA card also boosts FPS game performance, makes the system snappier by offloading graphical tasks from the CPU, and after cleaning the desktop on February 1, 2026, removing dust from fans and vents, the user observed further performance improvement and is seeking maintenance tips.\nUser plans to upgrade their desktop computer soon and is asking whether a new graphics card would significantly improve performance.\nUser downloaded a password manager app on February 12, 2026, has not yet checked for updates, and is looking for guidance on how to keep the app up to date and secure, demonstrating their ongoing commitment to laptop performance and cybersecurity.\nUser is interested in a mid\u2011range wireless mouse and wants to know about the battery life and sensor accuracy of the Logitech MX Anywhere 2S compared to other mid\u2011range mice.\nUser is considering purchasing a new wireless mouse because their current one is acting up.",
+            "latency": 1022.665
+        }
+    ]
+}

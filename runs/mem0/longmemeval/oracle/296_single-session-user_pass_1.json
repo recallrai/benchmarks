@@ -1,0 +1,22 @@
+{
+    "index": 296,
+    "question_type": "single-session-user",
+    "question": "What was my previous occupation?",
+    "question_date": "2023/05/30 (Tue) 16:21",
+    "ground_truth_answer": "Marketing specialist at a small startup",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_296_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 1392.628
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 2215.629
+        }
+    ]
+}

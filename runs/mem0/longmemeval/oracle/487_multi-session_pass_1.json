@@ -1,0 +1,22 @@
+{
+    "index": 487,
+    "question_type": "multi-session",
+    "question": "How many minutes did I exceed my target time by in the marathon?",
+    "question_date": "2023/05/23 (Tue) 02:53",
+    "ground_truth_answer": "12",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_487_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User completed the first full marathon in 4 hours and 22 minutes and is looking for running routes in San Francisco that are 6 to 8 miles long, run on roads, to maintain endurance while traveling for a work trip.\nUser plans to start triathlon training in approximately 12 weeks, aiming to incorporate running, cycling, and swimming into a structured schedule that leverages their marathon endurance goal of a 4\u2011hour\u201110\u2011minute finish.\nUser is uncertain whether to target specific pace or heart\u2011rate zones during brick workouts and requests guidance on whether to aim for a comfortable pace.\nUser wants clarification on interval training in swimming, including specific drills or techniques to improve swimming efficiency and speed.\nUser is planning to start a daily commute by bike to work, has experience from a charity cycling event where the user completed 30 miles in 2 hours and 15 minutes, intends to use this background for triathlon cycling, wants to invest in gear such as a helmet, lights, and reflectors, and is deciding between a hybrid bike and a commuter bike to achieve a comfortable riding position and good gear system while carrying gear and clothes.\nUser does not yet own a road bike but plans to purchase one soon, and seeks a 12\u2011week structured triathlon plan with specific workouts and distances.\nUser is a beginner swimmer, attending masters swimming sessions at a community pool every Wednesday evening since mid\u2011January, reporting noticeable improvement, and can dedicate 4\u20135 training days per week.\nUser requests strength\u2011training exercises to boost endurance and reduce injury risk.\nUser expresses confidence after receiving detailed swimming drill explanations, committing to focus on proper body position, core engagement, and drills to enhance swimming efficiency and speed.",
+            "latency": 498.06
+        },
+        {
+            "strategy": "graph",
+            "context": "User completed the first full marathon in 4 hours and 22 minutes and is looking for running routes in San Francisco that are 6 to 8 miles long, run on roads, to maintain endurance while traveling for a work trip.\nUser plans to start triathlon training in approximately 12 weeks, aiming to incorporate running, cycling, and swimming into a structured schedule that leverages their marathon endurance goal of a 4\u2011hour\u201110\u2011minute finish.\nUser is uncertain whether to target specific pace or heart\u2011rate zones during brick workouts and requests guidance on whether to aim for a comfortable pace.\nUser wants clarification on interval training in swimming, including specific drills or techniques to improve swimming efficiency and speed.\nUser is planning to start a daily commute by bike to work, has experience from a charity cycling event where the user completed 30 miles in 2 hours and 15 minutes, intends to use this background for triathlon cycling, wants to invest in gear such as a helmet, lights, and reflectors, and is deciding between a hybrid bike and a commuter bike to achieve a comfortable riding position and good gear system while carrying gear and clothes.\nUser does not yet own a road bike but plans to purchase one soon, and seeks a 12\u2011week structured triathlon plan with specific workouts and distances.\nUser is a beginner swimmer, attending masters swimming sessions at a community pool every Wednesday evening since mid\u2011January, reporting noticeable improvement, and can dedicate 4\u20135 training days per week.\nUser requests strength\u2011training exercises to boost endurance and reduce injury risk.\nUser expresses confidence after receiving detailed swimming drill explanations, committing to focus on proper body position, core engagement, and drills to enhance swimming efficiency and speed.",
+            "latency": 715.909
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 155,
+    "question_type": "knowledge-update",
+    "question": "How long have I been sticking to my daily tidying routine?",
+    "question_date": "2023/09/30 (Sat) 18:36",
+    "ground_truth_answer": "4 weeks",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been following a tidying routine for 4 weeks,' which directly matches the gold answer of '4 weeks.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has been following a tidying routine for 4 weeks,' which directly matches the gold answer of '4 weeks.'"
+        }
+    ]
+}

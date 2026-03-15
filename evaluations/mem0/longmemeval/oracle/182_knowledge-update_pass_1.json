@@ -1,0 +1,19 @@
+{
+    "index": 182,
+    "question_type": "knowledge-update",
+    "question": "What type of vehicle model am I currently working on?",
+    "question_date": "2023/06/11 (Sun) 18:18",
+    "ground_truth_answer": "Ford F-150 pickup truck",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions the Ford F-150 model once, the majority of the retrieved context (5 out of 6 items) focuses on the Ford Mustang Shelby GT350R model, which would lead someone to incorrectly conclude that is the vehicle currently being worked on rather than the F-150."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context predominantly describes work on a Ford Mustang Shelby GT350R model (weathering, engine details, seatbelts, dashboard, paints), while the gold answer states Ford F-150 pickup truck; the F-150 is only mentioned once with future-tense language ('intends to apply'), making it unclear that this is the current project."
+        }
+    ]
+}

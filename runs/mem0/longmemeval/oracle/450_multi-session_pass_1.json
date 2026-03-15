@@ -1,0 +1,22 @@
+{
+    "index": 450,
+    "question_type": "multi-session",
+    "question": "How many sports have I played competitively in the past?",
+    "question_date": "2023/05/26 (Fri) 14:53",
+    "ground_truth_answer": "two",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_450_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User, a former college competitive swimmer, is looking to improve overall fitness with a focus on agility and speed, and has been playing soccer and tennis recently to build on those sports.\nUser is interested in acquiring a fitness tracker that can monitor runs, soccer games, and tennis matches.\nUser is leaning toward the Garmin Forerunner 945 and wants to know whether it can automatically detect tennis activity, and what tennis-specific metrics it can track such as serve speed or racket swing.\nUser, a former college competitive swimmer, is eager to resume lap swimming to stay active and relieve stress; they are searching for a local 25\u2011yard pool that offers lap swimming hours, preferably in the morning, with water temperature around 78\u201180\u00b0F, and that hosts swim teams or masters programs; they also want to confirm that the pool allows use of kickboards, pull buoys, and other equipment, and that lane sharing and circle swimming policies provide sufficient space for fast\u2011paced workouts.\nUser intends to integrate Garmin Forerunner 945 data with tennis lessons, hoping instructor Alex can use the data to provide personalized feedback on their game.\nUser plans to share Garmin data with instructor Alex, collaborate on customized workouts, and track progress, expressing gratitude for the advice.\nUser plans to incorporate strength training into their routine, seeking exercises that benefit tennis performance, and has a background as a high school competitive tennis player.",
+            "latency": 599.161
+        },
+        {
+            "strategy": "graph",
+            "context": "User, a former college competitive swimmer, is looking to improve overall fitness with a focus on agility and speed, and has been playing soccer and tennis recently to build on those sports.\nUser is interested in acquiring a fitness tracker that can monitor runs, soccer games, and tennis matches.\nUser is leaning toward the Garmin Forerunner 945 and wants to know whether it can automatically detect tennis activity, and what tennis-specific metrics it can track such as serve speed or racket swing.\nUser, a former college competitive swimmer, is eager to resume lap swimming to stay active and relieve stress; they are searching for a local 25\u2011yard pool that offers lap swimming hours, preferably in the morning, with water temperature around 78\u201180\u00b0F, and that hosts swim teams or masters programs; they also want to confirm that the pool allows use of kickboards, pull buoys, and other equipment, and that lane sharing and circle swimming policies provide sufficient space for fast\u2011paced workouts.\nUser intends to integrate Garmin Forerunner 945 data with tennis lessons, hoping instructor Alex can use the data to provide personalized feedback on their game.\nUser plans to share Garmin data with instructor Alex, collaborate on customized workouts, and track progress, expressing gratitude for the advice.\nUser plans to incorporate strength training into their routine, seeking exercises that benefit tennis performance, and has a background as a high school competitive tennis player.",
+            "latency": 820.6
+        }
+    ]
+}

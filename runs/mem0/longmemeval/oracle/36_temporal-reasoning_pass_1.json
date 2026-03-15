@@ -1,0 +1,22 @@
+{
+    "index": 36,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before my best friend's birthday party did I order her gift?",
+    "question_date": "2022/05/15 (Sun) 06:22",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_36_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user bought a personalized photo album from Shutterfly on April 15, 2026 for their best friend's birthday, which was celebrated on April 22, 2026; the album arrived on April 20, 2026, was a great deal, amazing, and the friend loved it.\nThe user wants to see popular watch brands available on Amazon for their brother's June birthday gift.\nThe user is looking for other gift ideas for his brother's birthday besides a watch, around $50\u2013$70.\nThe user intends to order a customized necklace for Mother's Day featuring their mother's birthstone and their children's names engraved, and is looking for reputable places to have it made.\nThe user plans to purchase a Skagen Ancher watch for their brother's birthday in June 2026, aiming for a casual sporty or minimalist style with a leather strap, within a $200\u2013$300 budget, and is seeking information about the leather strap quality and engraving options.\nThe user is interested in the Fossil Grant Chronograph Watch and wants to know if it comes in a smaller size suitable for his brother's smaller wrist.\nThe user wants to find other brands that offer smaller watch sizes, specifically 36mm or 34mm case diameters.\nThe user wants specific watch models from popular Amazon brands that fall within a $50\u2013$70 price range.",
+            "latency": 808.501
+        },
+        {
+            "strategy": "graph",
+            "context": "The user bought a personalized photo album from Shutterfly on April 15, 2026 for their best friend's birthday, which was celebrated on April 22, 2026; the album arrived on April 20, 2026, was a great deal, amazing, and the friend loved it.\nThe user wants to see popular watch brands available on Amazon for their brother's June birthday gift.\nThe user is looking for other gift ideas for his brother's birthday besides a watch, around $50\u2013$70.\nThe user intends to order a customized necklace for Mother's Day featuring their mother's birthstone and their children's names engraved, and is looking for reputable places to have it made.\nThe user plans to purchase a Skagen Ancher watch for their brother's birthday in June 2026, aiming for a casual sporty or minimalist style with a leather strap, within a $200\u2013$300 budget, and is seeking information about the leather strap quality and engraving options.\nThe user is interested in the Fossil Grant Chronograph Watch and wants to know if it comes in a smaller size suitable for his brother's smaller wrist.\nThe user wants to find other brands that offer smaller watch sizes, specifically 36mm or 34mm case diameters.\nThe user wants specific watch models from popular Amazon brands that fall within a $50\u2013$70 price range.",
+            "latency": 1198.859
+        }
+    ]
+}

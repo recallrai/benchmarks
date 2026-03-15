@@ -1,0 +1,22 @@
+{
+    "index": 105,
+    "question_type": "multi-session",
+    "question": "How much total money did I spend on attending workshops in the last four months?",
+    "question_date": "2023/02/26 (Sun) 22:36",
+    "ground_truth_answer": "$720",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_105_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has attended five workshops in the last three months, most recently a digital marketing workshop, and is actively implementing techniques learned; they aim to attend at least one workshop per month to acquire new skills and network with professionals across industries.\nUser is looking for resources or websites that offer digital marketing workshops or online courses.\nUser is looking for websites or platforms that list writing workshops, conferences, or festivals, and wants to filter search results by price range or duration to find events that fit their budget and time preferences.\nUser intends to attend additional photography workshops to learn from experienced photographers and is looking for upcoming workshops in their area.\nUser completed a two\u2011day digital marketing workshop at the city convention center on March 15\u201116, 2024, paid $500, found it worth it, and learned the importance of tracking online engagement to improve their business\u2019s online presence.\nUser attended a two\u2011day writing workshop at a literary festival in November, paid $200, instructor was a published author, received great feedback on their short story, and is now seeking resources on character development and editing.\nUser attended a half\u2011day mindfulness and wellness workshop at a nearby yoga studio on December 12, 2025, paid $20, and received a workbook with exercises and tips.\nUser wants tips on creating a content calendar to plan and schedule content in advance, aiming to maintain consistency and align with their content strategy.\nUser is seeking resources and tutorials to improve portrait photography skills, and recently attended a free one\u2011day photography workshop on February 22, 2025 at a local studio, which required online registration.\nUser is looking for online communities or forums where they can connect with other digital marketers and get feedback on their marketing strategies.",
+            "latency": 504.067
+        },
+        {
+            "strategy": "graph",
+            "context": "User has attended five workshops in the last three months, most recently a digital marketing workshop, and is actively implementing techniques learned; they aim to attend at least one workshop per month to acquire new skills and network with professionals across industries.\nUser is looking for resources or websites that offer digital marketing workshops or online courses.\nUser is looking for websites or platforms that list writing workshops, conferences, or festivals, and wants to filter search results by price range or duration to find events that fit their budget and time preferences.\nUser intends to attend additional photography workshops to learn from experienced photographers and is looking for upcoming workshops in their area.\nUser completed a two\u2011day digital marketing workshop at the city convention center on March 15\u201116, 2024, paid $500, found it worth it, and learned the importance of tracking online engagement to improve their business\u2019s online presence.\nUser attended a two\u2011day writing workshop at a literary festival in November, paid $200, instructor was a published author, received great feedback on their short story, and is now seeking resources on character development and editing.\nUser attended a half\u2011day mindfulness and wellness workshop at a nearby yoga studio on December 12, 2025, paid $20, and received a workbook with exercises and tips.\nUser wants tips on creating a content calendar to plan and schedule content in advance, aiming to maintain consistency and align with their content strategy.\nUser is seeking resources and tutorials to improve portrait photography skills, and recently attended a free one\u2011day photography workshop on February 22, 2025 at a local studio, which required online registration.\nUser is looking for online communities or forums where they can connect with other digital marketers and get feedback on their marketing strategies.",
+            "latency": 704.111
+        }
+    ]
+}

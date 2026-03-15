@@ -1,0 +1,19 @@
+{
+    "index": 316,
+    "question_type": "single-session-user",
+    "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+    "question_date": "2023/05/24 (Wed) 22:04",
+    "ground_truth_answer": "The painting is worth triple what I paid for it.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the flea market find is 'valued at triple what they paid,' which directly matches the gold answer's core information that the painting is worth triple the original price."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the flea market find is 'valued at triple what they paid,' which directly matches the gold answer that the painting is worth triple what was paid for it."
+        }
+    ]
+}

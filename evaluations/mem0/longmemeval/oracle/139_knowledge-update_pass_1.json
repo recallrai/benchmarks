@@ -1,0 +1,19 @@
+{
+    "index": 139,
+    "question_type": "knowledge-update",
+    "question": "How many sessions of the bereavement support group did I attend?",
+    "question_date": "2023/11/14 (Tue) 04:58",
+    "ground_truth_answer": "five",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states the user participated in three sessions of the bereavement support group, but the gold answer indicates five sessions."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user participated in three sessions of the bereavement support group, but the gold answer indicates they attended five sessions."
+        }
+    ]
+}

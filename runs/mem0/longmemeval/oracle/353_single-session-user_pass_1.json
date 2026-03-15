@@ -1,0 +1,22 @@
+{
+    "index": 353,
+    "question_type": "single-session-user",
+    "question": "How long was I in Korea for?",
+    "question_date": "2023/05/27 (Sat) 17:25",
+    "ground_truth_answer": "You did not mention this information. You mentioned staying in Japan, but not in Korea.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_353_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is thinking of visiting South Korea.\nUser is thinking of visiting the Demilitarized Zone (DMZ) between North and South Korea.\nUser is interested in must-try dishes or restaurants in Seoul.\nUser is interested in finding budget-friendly accommodations in Kyoto.\nUser is interested in must-see attractions in Kyoto.\nUser is interested in must-see destinations in Asia and is considering traveling to other parts of Asia after Japan.\nUser stayed in small hostels and guesthouses during their solo trip to Japan, and found it an excellent way to meet other travelers.\nUser is interested in guided tours or attractions at the DMZ.\nUser spent two weeks traveling solo around Japan, visited Fushimi Inari Shrine, and found the overall experience incredible.\nUser has heard great things about Seoul and its food.",
+            "latency": 927.959
+        },
+        {
+            "strategy": "graph",
+            "context": "User is thinking of visiting South Korea.\nUser is thinking of visiting the Demilitarized Zone (DMZ) between North and South Korea.\nUser is interested in must-try dishes or restaurants in Seoul.\nUser is interested in finding budget-friendly accommodations in Kyoto.\nUser is interested in must-see attractions in Kyoto.\nUser is interested in must-see destinations in Asia and is considering traveling to other parts of Asia after Japan.\nUser stayed in small hostels and guesthouses during their solo trip to Japan, and found it an excellent way to meet other travelers.\nUser is interested in guided tours or attractions at the DMZ.\nUser spent two weeks traveling solo around Japan, visited Fushimi Inari Shrine, and found the overall experience incredible.\nUser has heard great things about Seoul and its food.",
+            "latency": 1551.427
+        }
+    ]
+}

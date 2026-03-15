@@ -1,0 +1,22 @@
+{
+    "index": 429,
+    "question_type": "multi-session",
+    "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+    "question_date": "2022/09/24 (Sat) 19:30",
+    "ground_truth_answer": "8 miles",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_429_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to visit the South Rim of the Grand Canyon, then Monument Valley, then Four Corners on the way back, and is asking whether the itinerary is doable or needs more time.\nUser recently completed a 3-mile loop trail at Valley of Fire State Park last weekend and is enjoying outdoor activities.\nUser is planning a January road trip to the Grand Canyon, with a route that includes stops at Monument Valley and Four Corners, and is seeking recommendations for routes and accommodations, specifically weighing the option of booking lodging in Williams versus Flagstaff.\nUser is interested in joining a recreational volleyball league in Las Vegas that focuses on socializing and enjoyment rather than intense competition, aligning with their approach to yoga and bike rides, and hopes to meet new people who share similar interests.\nUser is looking for yoga classes near their new apartment, intends to use Google search and yoga apps to find them, and is actively exploring local studios to incorporate flexibility and stress\u2011relief practices into their routine.\nUser recently completed a 5\u2011mile hike at Red Rock Canyon with breathtaking ridge views.\nUser commutes by bike three times a week, lives in a new apartment close to public transportation, and wants bike maintenance tips and bike shop recommendations near them.",
+            "latency": 492.407
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to visit the South Rim of the Grand Canyon, then Monument Valley, then Four Corners on the way back, and is asking whether the itinerary is doable or needs more time.\nUser recently completed a 3-mile loop trail at Valley of Fire State Park last weekend and is enjoying outdoor activities.\nUser is planning a January road trip to the Grand Canyon, with a route that includes stops at Monument Valley and Four Corners, and is seeking recommendations for routes and accommodations, specifically weighing the option of booking lodging in Williams versus Flagstaff.\nUser is interested in joining a recreational volleyball league in Las Vegas that focuses on socializing and enjoyment rather than intense competition, aligning with their approach to yoga and bike rides, and hopes to meet new people who share similar interests.\nUser is looking for yoga classes near their new apartment, intends to use Google search and yoga apps to find them, and is actively exploring local studios to incorporate flexibility and stress\u2011relief practices into their routine.\nUser recently completed a 5\u2011mile hike at Red Rock Canyon with breathtaking ridge views.\nUser commutes by bike three times a week, lives in a new apartment close to public transportation, and wants bike maintenance tips and bike shop recommendations near them.",
+            "latency": 721.754
+        }
+    ]
+}

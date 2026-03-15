@@ -1,0 +1,22 @@
+{
+    "index": 440,
+    "question_type": "multi-session",
+    "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+    "question_date": "2023/05/30 (Tue) 16:15",
+    "ground_truth_answer": "Yes.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_440_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is considering trying meal kit delivery services and is looking for recommendations or promotions for brands such as Blue Apron and Plated, and notes that they recently tried HelloFresh and received a 40% discount on their first order, which they found to be a great deal.\nUser is actively using coupons to cut down on eating out and has been applying them to online food delivery services like Grubhub and UberEats, and is seeking available promotions or discounts for those services, having recently received a 20% discount on an UberEats order last week.\nUser is asking whether a discount can be applied to a specific dish like the veggie lasagna or if discounts usually apply to the entire order.\nUser is asking whether a discount can be applied to the delivery fee itself or if discounts typically apply only to food items.\nUser is interested in knowing which types of restaurants or cuisines typically offer more promo codes or discounts on food delivery platforms.\nUser wants detailed information on Sun Basket's low-carb meal plan, including its pricing structure and delivery options, as part of evaluating whether it fits their low-carb and low-sugar dietary preferences.\nUser is considering ordering from a new Italian restaurant downtown and wants to know if it might have any promotions or discounts available.\nUser is evaluating Sun Basket and Home Chef, focusing on their customer service quality and how easily they can skip or cancel orders if needed.\nUser is weighing whether to prioritize meal kit services that offer more recipe variety versus those that cater to specific dietary needs, and has decided to prioritize services that cater to specific dietary needs, especially low-carb and low-sugar diets.\nUser is planning to try the veggie lasagna at the new Italian restaurant and is looking for information about it.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is considering trying meal kit delivery services and is looking for recommendations or promotions for brands such as Blue Apron and Plated, and notes that they recently tried HelloFresh and received a 40% discount on their first order, which they found to be a great deal.\nUser is actively using coupons to cut down on eating out and has been applying them to online food delivery services like Grubhub and UberEats, and is seeking available promotions or discounts for those services, having recently received a 20% discount on an UberEats order last week.\nUser is asking whether a discount can be applied to a specific dish like the veggie lasagna or if discounts usually apply to the entire order.\nUser is asking whether a discount can be applied to the delivery fee itself or if discounts typically apply only to food items.\nUser is interested in knowing which types of restaurants or cuisines typically offer more promo codes or discounts on food delivery platforms.\nUser wants detailed information on Sun Basket's low-carb meal plan, including its pricing structure and delivery options, as part of evaluating whether it fits their low-carb and low-sugar dietary preferences.\nUser is considering ordering from a new Italian restaurant downtown and wants to know if it might have any promotions or discounts available.\nUser is evaluating Sun Basket and Home Chef, focusing on their customer service quality and how easily they can skip or cancel orders if needed.\nUser is weighing whether to prioritize meal kit services that offer more recipe variety versus those that cater to specific dietary needs, and has decided to prioritize services that cater to specific dietary needs, especially low-carb and low-sugar diets.\nUser is planning to try the veggie lasagna at the new Italian restaurant and is looking for information about it.",
+            "latency": 709.688
+        }
+    ]
+}

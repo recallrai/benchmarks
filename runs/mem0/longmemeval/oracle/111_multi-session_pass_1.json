@@ -1,0 +1,22 @@
+{
+    "index": 111,
+    "question_type": "multi-session",
+    "question": "How many online courses have I completed in total?",
+    "question_date": "2023/05/30 (Tue) 13:11",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_111_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has completed three courses on Coursera, giving them a good foundation in NLP and deep learning.\nUser is interested in enrolling in Stanford Online's Convolutional Neural Networks for Text Classification course and wants details about its duration, difficulty level, topics covered, assignments and final project tasks, evaluation criteria, and prerequisites, including required programming skills and tools.\nUser is seeking resources to improve NLP and deep learning skills, specifically online courses or tutorials on deep learning for NLP focusing on text classification and sentiment analysis.\nUser is excited to start working on the final project and apply concepts learned throughout the Stanford Natural Language Processing with Deep Learning Specialization to a real\u2011world problem, and is seeking information about career opportunities and resources available after completing the specialization.",
+            "latency": 879.527
+        },
+        {
+            "strategy": "graph",
+            "context": "User has completed three courses on Coursera, giving them a good foundation in NLP and deep learning.\nUser is interested in enrolling in Stanford Online's Convolutional Neural Networks for Text Classification course and wants details about its duration, difficulty level, topics covered, assignments and final project tasks, evaluation criteria, and prerequisites, including required programming skills and tools.\nUser is seeking resources to improve NLP and deep learning skills, specifically online courses or tutorials on deep learning for NLP focusing on text classification and sentiment analysis.\nUser is excited to start working on the final project and apply concepts learned throughout the Stanford Natural Language Processing with Deep Learning Specialization to a real\u2011world problem, and is seeking information about career opportunities and resources available after completing the specialization.",
+            "latency": 1579.384
+        }
+    ]
+}

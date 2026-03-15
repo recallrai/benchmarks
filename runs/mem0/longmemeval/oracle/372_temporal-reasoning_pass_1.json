@@ -1,0 +1,22 @@
+{
+    "index": 372,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I buy a smoker?",
+    "question_date": "2023/03/25 (Sat) 21:28",
+    "ground_truth_answer": "10 days ago. 11 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_372_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently purchased a smoker and is excited to experiment with different types of wood and meats, specifically planning to use a mix of hickory and apple wood which they believe pair well with pork and beef; they want recommended meat and wood pairings, are curious about the differences between wood chips, chunks, and logs and how to use them, want to understand what wood pellets are and how they compare to other options, are seeking recommendations for reputable wood pellet brands and types suitable for smoking meats, and want guidance on the ratio of hickory to apple wood pellets for their next smoke.\nUser is experimenting with homemade BBQ sauce recipes, always looking to improve, and is seeking new recipes to try.",
+            "latency": 927.735
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently purchased a smoker and is excited to experiment with different types of wood and meats, specifically planning to use a mix of hickory and apple wood which they believe pair well with pork and beef; they want recommended meat and wood pairings, are curious about the differences between wood chips, chunks, and logs and how to use them, want to understand what wood pellets are and how they compare to other options, are seeking recommendations for reputable wood pellet brands and types suitable for smoking meats, and want guidance on the ratio of hickory to apple wood pellets for their next smoke.\nUser is experimenting with homemade BBQ sauce recipes, always looking to improve, and is seeking new recipes to try.",
+            "latency": 1871.139
+        }
+    ]
+}

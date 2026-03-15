@@ -1,0 +1,19 @@
+{
+    "index": 310,
+    "question_type": "single-session-user",
+    "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+    "question_date": "2023/05/23 (Tue) 07:23",
+    "ground_truth_answer": "12",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'caught 12 largemouth bass on the last trip' to Lake Michigan, which matches the gold answer of 12."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'caught 12 largemouth bass on the last trip' to Lake Michigan, which directly matches the gold answer of 12."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 312,
+    "question_type": "single-session-user",
+    "question": "What is the name of my cat?",
+    "question_date": "2023/05/28 (Sun) 16:07",
+    "ground_truth_answer": "Luna",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_312_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's cat Luna has been experiencing digestive health issues; the user started giving her a probiotic supplement recommended by a veterinarian during a follow-up appointment on January 15, 2026, and reports that the supplement is helping.\nUser is considering microchipping Luna to prevent her from escaping, especially due to a front door that has not been closing properly, and is seeking information about the microchipping process and recommendations for veterinarians in the user's area.\nUser has been dealing with odor problems in Luna's litter box; the user washed all of Luna's blankets and beds on January 25, 2026, to address the odor, and is considering switching to a new litter that is easy to clean and odor-free.\nUser is actively seeking solutions to improve Luna's well-being, including using probiotics for digestive health, better litter for odor control, microchipping for safety, and repairing the front door to prevent escape.\nUser expresses gratitude for being able to provide Luna with a happy and healthy home, noting that Luna has been sweet and adapting well to environmental changes.",
+            "latency": 934.396
+        },
+        {
+            "strategy": "graph",
+            "context": "User's cat Luna has been experiencing digestive health issues; the user started giving her a probiotic supplement recommended by a veterinarian during a follow-up appointment on January 15, 2026, and reports that the supplement is helping.\nUser is considering microchipping Luna to prevent her from escaping, especially due to a front door that has not been closing properly, and is seeking information about the microchipping process and recommendations for veterinarians in the user's area.\nUser has been dealing with odor problems in Luna's litter box; the user washed all of Luna's blankets and beds on January 25, 2026, to address the odor, and is considering switching to a new litter that is easy to clean and odor-free.\nUser is actively seeking solutions to improve Luna's well-being, including using probiotics for digestive health, better litter for odor control, microchipping for safety, and repairing the front door to prevent escape.\nUser expresses gratitude for being able to provide Luna with a happy and healthy home, noting that Luna has been sweet and adapting well to environmental changes.",
+            "latency": 2050.063
+        }
+    ]
+}

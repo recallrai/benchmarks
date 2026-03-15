@@ -1,0 +1,22 @@
+{
+    "index": 208,
+    "question_type": "single-session-preference",
+    "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+    "question_date": "2023/05/21 (Sun) 02:23",
+    "ground_truth_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_208_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently used a slow cooker to make a delicious beef stew and is now interested in trying more slow cooker recipes.\nUser is interested in making yogurt in a slow cooker and is seeking recipes for it.\nUser wants detailed instructions on soaking, blending, and straining cashews to achieve a smooth consistency for cashew-based slow cooker yogurt.\nUser is curious about whether a thermometer is necessary when heating milk for yogurt in a slow cooker, questioning if simply waiting 2-3 hours suffices.\nUser is looking for vegan yogurt alternatives to use as a base for slow cooker yogurt and wants ideas for flavorings and sweeteners to add.",
+            "latency": 1763.803
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently used a slow cooker to make a delicious beef stew and is now interested in trying more slow cooker recipes.\nUser is interested in making yogurt in a slow cooker and is seeking recipes for it.\nUser wants detailed instructions on soaking, blending, and straining cashews to achieve a smooth consistency for cashew-based slow cooker yogurt.\nUser is curious about whether a thermometer is necessary when heating milk for yogurt in a slow cooker, questioning if simply waiting 2-3 hours suffices.\nUser is looking for vegan yogurt alternatives to use as a base for slow cooker yogurt and wants ideas for flavorings and sweeteners to add.",
+            "latency": 2446.573
+        }
+    ]
+}

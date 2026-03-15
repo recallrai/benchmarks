@@ -1,0 +1,22 @@
+{
+    "index": 93,
+    "question_type": "multi-session",
+    "question": "How many fish are there in total in both of my aquariums?",
+    "question_date": "2023/05/27 (Sat) 17:21",
+    "ground_truth_answer": "17",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_93_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has golden honey gouramis in the 20\u2011gallon tank that exhibit aggression toward each other during feeding times and wonders if adding more schooling fish like lemon tetras or zebra danios could distract them and reduce aggression.\nUser is considering adding schooling fish such as lemon tetras or zebra danios to their 20\u2011gallon tank and wants detailed information on their behavior and tank requirements, including schooling size, temperature, pH, and feeding habits, to ensure harmonious coexistence with existing neon tetras, golden honey gouramis, and pleco catfish.\nUser plans to introduce schooling fish in a group with ample hiding places and is curious whether their betta fish Bubbles would be interested in eating frozen bloodworms as a treat.\nThe user intends to add a treasure chest decoration near existing artificial coral and rocks to create a 'city' area with more hiding places for the fish, especially neon tetras, and is evaluating whether this setup will work well in the 20\u2011gallon tank, while also seeking recommendations on arranging new artificial coral and rocks to create hiding places and a visually appealing aquascape.\nUser has upgraded their old 10\u2011gallon tank to house a betta fish named Bubbles.\nThe user has a new 20\u2011gallon community aquarium containing 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, and is planning to add live plants, specifically Java Moss and Anacharis, to enhance the habitat and provide natural food and hiding spots for the fish, while also seeking advice on anchoring these plants in the substrate to prevent them from floating.",
+            "latency": 865.541
+        },
+        {
+            "strategy": "graph",
+            "context": "User has golden honey gouramis in the 20\u2011gallon tank that exhibit aggression toward each other during feeding times and wonders if adding more schooling fish like lemon tetras or zebra danios could distract them and reduce aggression.\nUser is considering adding schooling fish such as lemon tetras or zebra danios to their 20\u2011gallon tank and wants detailed information on their behavior and tank requirements, including schooling size, temperature, pH, and feeding habits, to ensure harmonious coexistence with existing neon tetras, golden honey gouramis, and pleco catfish.\nUser plans to introduce schooling fish in a group with ample hiding places and is curious whether their betta fish Bubbles would be interested in eating frozen bloodworms as a treat.\nThe user intends to add a treasure chest decoration near existing artificial coral and rocks to create a 'city' area with more hiding places for the fish, especially neon tetras, and is evaluating whether this setup will work well in the 20\u2011gallon tank, while also seeking recommendations on arranging new artificial coral and rocks to create hiding places and a visually appealing aquascape.\nUser has upgraded their old 10\u2011gallon tank to house a betta fish named Bubbles.\nThe user has a new 20\u2011gallon community aquarium containing 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, and is planning to add live plants, specifically Java Moss and Anacharis, to enhance the habitat and provide natural food and hiding spots for the fish, while also seeking advice on anchoring these plants in the substrate to prevent them from floating.",
+            "latency": 1352.961
+        }
+    ]
+}

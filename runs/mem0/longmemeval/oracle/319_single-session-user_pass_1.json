@@ -1,0 +1,22 @@
+{
+    "index": 319,
+    "question_type": "single-session-user",
+    "question": "How long did it take to move to the new apartment?",
+    "question_date": "2023/05/29 (Mon) 07:44",
+    "ground_truth_answer": "5 hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_319_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User and friends spent around 5 hours moving all belongings into the new apartment, a process they found worthwhile because it brought them closer to work and reduced commute time.\nUser has recently moved into a new apartment in the city, which is about 20 minutes away from their old place, and is actively exploring the neighborhood, having already discovered several decent restaurants and coffee shops during the move\u2011in paperwork and key pickup a week before the move.\nUser drove to their parents' house last weekend, a trip that took approximately 2 hours, and found the return drive tiring, especially after a long workday on Monday.\nUser is seeking recommendations for good coffee shops near their new apartment, preferring unique or independent establishments that offer free Wi\u2011Fi and outdoor seating.\nUser is incorporating more walking into their daily routine by taking the stairs instead of the elevator at work.\nUser realized that asking baristas for recommendations could help them discover local coffee shops.",
+            "latency": 1179.414
+        },
+        {
+            "strategy": "graph",
+            "context": "User and friends spent around 5 hours moving all belongings into the new apartment, a process they found worthwhile because it brought them closer to work and reduced commute time.\nUser has recently moved into a new apartment in the city, which is about 20 minutes away from their old place, and is actively exploring the neighborhood, having already discovered several decent restaurants and coffee shops during the move\u2011in paperwork and key pickup a week before the move.\nUser drove to their parents' house last weekend, a trip that took approximately 2 hours, and found the return drive tiring, especially after a long workday on Monday.\nUser is seeking recommendations for good coffee shops near their new apartment, preferring unique or independent establishments that offer free Wi\u2011Fi and outdoor seating.\nUser is incorporating more walking into their daily routine by taking the stairs instead of the elevator at work.\nUser realized that asking baristas for recommendations could help them discover local coffee shops.",
+            "latency": 2083.98
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 25,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+    "question_date": "2023/05/27 (Sat) 08:13",
+    "ground_truth_answer": "2 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_25_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in attending live comedy events, specifically comedy clubs or open mics in their area, and has attended an open mic last month, wanting to see live comedy and possibly try performing stand\u2011up themselves.\nUser has been watching stand-up comedy regularly for about three months, starting after watching a Netflix special by John Mulaney, and is now looking for recommendations for comedians or specials to enjoy.\nUser attended an open mic last month, found it amazing, and now seeks advice on writing jokes, structuring them, making them flow, humor in everyday situations, while struggling to turn mundane experiences into funny material. They are weighing open mics before enrolling in a comedy class versus structured learning.\nUser plans to attend a few open mics first and is deciding whether to create new material for each open mic or focus on refining a few jokes, aiming to balance experimentation with honing their best material.\nUser intends to record their stand\u2011up performances and review them to identify areas for improvement, such as pacing, tone, body language, and audience reaction, and to track progress over time.\nUser wants to share recordings with other comedians or mentors for feedback and insights, recognizing the potential vulnerability but valuing objective perspectives and relationship building.\nUser carries a small notebook everywhere to jot down joke ideas, some of which are terrible but a few have potential, and tests these ideas on friends and family to see what works and what doesn't.\nUser is seeking advice on writing jokes, structuring them, making them flow, making them relatable, and finding humor in everyday situations, while struggling to turn mundane experiences into funny material.",
+            "latency": 713.203
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in attending live comedy events, specifically comedy clubs or open mics in their area, and has attended an open mic last month, wanting to see live comedy and possibly try performing stand\u2011up themselves.\nUser has been watching stand-up comedy regularly for about three months, starting after watching a Netflix special by John Mulaney, and is now looking for recommendations for comedians or specials to enjoy.\nUser attended an open mic last month, found it amazing, and now seeks advice on writing jokes, structuring them, making them flow, humor in everyday situations, while struggling to turn mundane experiences into funny material. They are weighing open mics before enrolling in a comedy class versus structured learning.\nUser plans to attend a few open mics first and is deciding whether to create new material for each open mic or focus on refining a few jokes, aiming to balance experimentation with honing their best material.\nUser intends to record their stand\u2011up performances and review them to identify areas for improvement, such as pacing, tone, body language, and audience reaction, and to track progress over time.\nUser wants to share recordings with other comedians or mentors for feedback and insights, recognizing the potential vulnerability but valuing objective perspectives and relationship building.\nUser carries a small notebook everywhere to jot down joke ideas, some of which are terrible but a few have potential, and tests these ideas on friends and family to see what works and what doesn't.\nUser is seeking advice on writing jokes, structuring them, making them flow, making them relatable, and finding humor in everyday situations, while struggling to turn mundane experiences into funny material.",
+            "latency": 866.796
+        }
+    ]
+}

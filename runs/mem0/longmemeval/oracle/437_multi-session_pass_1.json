@@ -1,0 +1,22 @@
+{
+    "index": 437,
+    "question_type": "multi-session",
+    "question": "What percentage of packed shoes did I wear on my last trip?",
+    "question_date": "2023/05/28 (Sun) 15:36",
+    "ground_truth_answer": "40%",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_437_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User packed five pairs of shoes, needed space for snacks, and is seeking additional organization tips beyond packing cubes, such as making a packing list, categorizing items, using packing templates, rolling clothes, packing multipurpose items, keeping essentials accessible, using every space, packing a first\u2011night bag, organizing cords, and weighing luggage.\nUser will bring a small laundry detergent pack to handle any washing needs during the trip.\nUser will pack a small toiletry bag containing essentials\u2014toothbrush, toothpaste, deodorant, prescription medications\u2014and sample\u2011sized toiletries like face wash and moisturizer, mindful of overpacking habits.\nUser plans to bring 5\u20117 pairs of undergarments and 7\u201110 pairs of socks, ensuring enough for each day with extras for unexpected needs, preferring quick\u2011dry, moisture\u2011wicking options for outdoor use and dressier socks for special occasions.\nUser is planning a 5\u2011day trip and wants to pack lightly, choosing 2\u20113 tops and 2 bottoms\u2014black pants, comfortable shorts, a white t\u2011shirt, a gray sweater, a patterned blouse\u2014along with scarves, jackets for variety, aiming for versatile clothing that can be dressed up or down ensuring enough options while avoiding overpacking.\nUser creates a packing list a week before travel to plan and prepare, which helps avoid forgetting essentials and prioritizes needed items, and is looking for tips to maximize the effectiveness of the packing list.\nUser will pack healthy snacks like nuts, seeds, dried fruit, protein bars, jerky, granola, crackers, fresh fruit, trail mix, dark chocolate, and instant coffee/tea to avoid relying on airport or bus station food, choosing easy\u2011to\u2011pack, non\u2011perishable options.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User packed five pairs of shoes, needed space for snacks, and is seeking additional organization tips beyond packing cubes, such as making a packing list, categorizing items, using packing templates, rolling clothes, packing multipurpose items, keeping essentials accessible, using every space, packing a first\u2011night bag, organizing cords, and weighing luggage.\nUser will bring a small laundry detergent pack to handle any washing needs during the trip.\nUser will pack a small toiletry bag containing essentials\u2014toothbrush, toothpaste, deodorant, prescription medications\u2014and sample\u2011sized toiletries like face wash and moisturizer, mindful of overpacking habits.\nUser plans to bring 5\u20117 pairs of undergarments and 7\u201110 pairs of socks, ensuring enough for each day with extras for unexpected needs, preferring quick\u2011dry, moisture\u2011wicking options for outdoor use and dressier socks for special occasions.\nUser is planning a 5\u2011day trip and wants to pack lightly, choosing 2\u20113 tops and 2 bottoms\u2014black pants, comfortable shorts, a white t\u2011shirt, a gray sweater, a patterned blouse\u2014along with scarves, jackets for variety, aiming for versatile clothing that can be dressed up or down ensuring enough options while avoiding overpacking.\nUser creates a packing list a week before travel to plan and prepare, which helps avoid forgetting essentials and prioritizes needed items, and is looking for tips to maximize the effectiveness of the packing list.\nUser will pack healthy snacks like nuts, seeds, dried fruit, protein bars, jerky, granola, crackers, fresh fruit, trail mix, dark chocolate, and instant coffee/tea to avoid relying on airport or bus station food, choosing easy\u2011to\u2011pack, non\u2011perishable options.",
+            "latency": 697.0
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 421,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+    "question_date": "2022/04/12 (Tue) 13:26",
+    "ground_truth_answer": "a chocolate cake",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user 'baked a chocolate cake with espresso powder for a friend's birthday', which matches the gold answer of 'a chocolate cake' and aligns with the question about cooking something for a friend."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user 'baked a chocolate cake with espresso powder for a friend's birthday,' which matches the gold answer of 'a chocolate cake' and would allow someone to correctly answer the question."
+        }
+    ]
+}

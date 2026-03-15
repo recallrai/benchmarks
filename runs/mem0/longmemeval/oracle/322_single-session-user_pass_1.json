@@ -1,0 +1,22 @@
+{
+    "index": 322,
+    "question_type": "single-session-user",
+    "question": "Who did I have a conversation with about destiny?",
+    "question_date": "2023/05/28 (Sun) 20:15",
+    "ground_truth_answer": "Sarah",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_322_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is struggling to stay motivated and seeks tips for maintaining a positive mindset, and is reflecting on a recent conversation with friend Sarah who said everything happens for a reason, prompting the user to explore beliefs about destiny and how positive thinking might manifest desires.\nThe user is uncertain about their career path, wants resources to explore different career options and industries, and has expressed a preference for reframing negative thoughts and focusing on the present as a strategy to navigate this uncertainty.\nThe user\u2019s parents are atheists who instilled in them skepticism and critical thinking; the user is now questioning whether there is more to life beyond science and reason, is interested in exploring spirituality and mysticism, and wonders if these doubts could affect their ability to work in non\u2011profit organizations with religious affiliations.\nThe user values making a positive impact on people\u2019s lives and is considering a career in the non\u2011profit sector; they are seeking advice on how to get started and information about the types of jobs available in this field.",
+            "latency": 986.579
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is struggling to stay motivated and seeks tips for maintaining a positive mindset, and is reflecting on a recent conversation with friend Sarah who said everything happens for a reason, prompting the user to explore beliefs about destiny and how positive thinking might manifest desires.\nThe user is uncertain about their career path, wants resources to explore different career options and industries, and has expressed a preference for reframing negative thoughts and focusing on the present as a strategy to navigate this uncertainty.\nThe user\u2019s parents are atheists who instilled in them skepticism and critical thinking; the user is now questioning whether there is more to life beyond science and reason, is interested in exploring spirituality and mysticism, and wonders if these doubts could affect their ability to work in non\u2011profit organizations with religious affiliations.\nThe user values making a positive impact on people\u2019s lives and is considering a career in the non\u2011profit sector; they are seeking advice on how to get started and information about the types of jobs available in this field.",
+            "latency": 1987.529
+        }
+    ]
+}

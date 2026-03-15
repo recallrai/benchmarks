@@ -1,0 +1,22 @@
+{
+    "index": 306,
+    "question_type": "single-session-user",
+    "question": "What brand are my favorite running shoes?",
+    "question_date": "2023/05/30 (Tue) 20:23",
+    "ground_truth_answer": "Nike",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_306_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for new athletic wear, specifically a new pair of Nike running shoes for daily 5K runs, wants the same model as their current shoes, prefers Nike as their favorite brand, and hopes to find similar deals at outlet malls or online, recalling that they bought their current shoes at an outlet mall in April at a 20% discount.",
+            "latency": 1375.828
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for new athletic wear, specifically a new pair of Nike running shoes for daily 5K runs, wants the same model as their current shoes, prefers Nike as their favorite brand, and hopes to find similar deals at outlet malls or online, recalling that they bought their current shoes at an outlet mall in April at a 20% discount.",
+            "latency": 2176.35
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 432,
+    "question_type": "multi-session",
+    "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "100",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user grew from 250 to 350 Instagram followers in two weeks, which is an increase of 100 followers, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user grew from 250 to 350 Instagram followers in two weeks, which is an increase of 100 followers, matching the gold answer."
+        }
+    ]
+}

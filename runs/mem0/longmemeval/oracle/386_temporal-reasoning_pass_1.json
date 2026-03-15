@@ -1,0 +1,22 @@
+{
+    "index": 386,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+    "question_date": "2023/10/15 (Sun) 12:05",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_386_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User, who has just recovered from the flu, completed their 10th outdoor jog today, feeling great and back in shape after a harsh winter.\nUser plans July vacation to family beach house, wants beach activities and games for cousins, will take it easy after flu, seeks healthy snack ideas to maintain energy.\nUser intends to try kayaking or paddleboarding for the first time during an upcoming vacation, and plans to keep the previously discussed preparation tips in mind.\nUser has worn same running shoes for a while and is unsure if they remain suitable after a break; planning to try Brooks Ghost for cushioning and support, wants tips on breaking in new shoes to avoid discomfort or injury.\nUser is seeking recommendations for scenic fall foliage drives or road trips, including coastal hotspots in Massachusetts or Rhode Island.",
+            "latency": 537.151
+        },
+        {
+            "strategy": "graph",
+            "context": "User, who has just recovered from the flu, completed their 10th outdoor jog today, feeling great and back in shape after a harsh winter.\nUser plans July vacation to family beach house, wants beach activities and games for cousins, will take it easy after flu, seeks healthy snack ideas to maintain energy.\nUser intends to try kayaking or paddleboarding for the first time during an upcoming vacation, and plans to keep the previously discussed preparation tips in mind.\nUser has worn same running shoes for a while and is unsure if they remain suitable after a break; planning to try Brooks Ghost for cushioning and support, wants tips on breaking in new shoes to avoid discomfort or injury.\nUser is seeking recommendations for scenic fall foliage drives or road trips, including coastal hotspots in Massachusetts or Rhode Island.",
+            "latency": 791.738
+        }
+    ]
+}

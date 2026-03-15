@@ -1,0 +1,22 @@
+{
+    "index": 344,
+    "question_type": "single-session-user",
+    "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+    "question_date": "2023/05/29 (Mon) 22:42",
+    "ground_truth_answer": "24 hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_344_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User intends to cook BBQ ribs for the party, recalling Alex marinated them in a special sauce for 24 hours before grilling, and is seeking advice on choosing the right type of wood for smoking meats.\nUser is planning a backyard BBQ party soon and wants a list of must-haves; User recalls friend Alex's ribs from a party a few weeks ago were tender and flavorful, indicating excitement about the event.\nUser is looking for side dish recommendations that pair well with BBQ ribs and brisket, considering coleslaw but also wants additional options.\nUser wants to cook brisket for the party and seeks tips to achieve a tender, melt-in-your-mouth texture similar to that experienced at a BBQ festival.\nUser has decided to serve baked beans and potato salad as sides for the BBQ and plans to use 40 pounds of ice for the coolers.\nUser is looking for recommendations for fun outdoor games or activities to set up for guests at the BBQ.",
+            "latency": 929.383
+        },
+        {
+            "strategy": "graph",
+            "context": "User intends to cook BBQ ribs for the party, recalling Alex marinated them in a special sauce for 24 hours before grilling, and is seeking advice on choosing the right type of wood for smoking meats.\nUser is planning a backyard BBQ party soon and wants a list of must-haves; User recalls friend Alex's ribs from a party a few weeks ago were tender and flavorful, indicating excitement about the event.\nUser is looking for side dish recommendations that pair well with BBQ ribs and brisket, considering coleslaw but also wants additional options.\nUser wants to cook brisket for the party and seeks tips to achieve a tender, melt-in-your-mouth texture similar to that experienced at a BBQ festival.\nUser has decided to serve baked beans and potato salad as sides for the BBQ and plans to use 40 pounds of ice for the coolers.\nUser is looking for recommendations for fun outdoor games or activities to set up for guests at the BBQ.",
+            "latency": 1890.426
+        }
+    ]
+}

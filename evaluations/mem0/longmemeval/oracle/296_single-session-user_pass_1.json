@@ -1,0 +1,19 @@
+{
+    "index": 296,
+    "question_type": "single-session-user",
+    "question": "What was my previous occupation?",
+    "question_date": "2023/05/30 (Tue) 16:21",
+    "ground_truth_answer": "Marketing specialist at a small startup",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's previous occupation, so it cannot be used to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's previous occupation as a marketing specialist at a small startup."
+        }
+    ]
+}

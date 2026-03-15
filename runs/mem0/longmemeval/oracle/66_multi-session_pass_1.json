@@ -1,0 +1,22 @@
+{
+    "index": 66,
+    "question_type": "multi-session",
+    "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+    "question_date": "2023/05/05 (Fri) 19:59",
+    "ground_truth_answer": "$185",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_66_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has accumulated 347 miles of bike riding since January 1, 2026, feels proud of progress, aims to reach 1000 miles by the end of summer, and values precise mileage tracking and average speed calculation.\nUser is planning a road trip to the mountains in June 2026 and wants to ensure their bike is ready for the long trip.\nUser commutes 10 miles round trip to work and is considering bike insurance to protect the investment during longer trips.\nUser seeks recommendations for bike-friendly routes or trails in the mountains to explore during the June road trip.\nUser wants guidance on properly cleaning their bike using a specialized bike cleaner to ensure correct cleaning technique.\nUser plans to lubricate the bike chain on May 15th and wants instructions for proper chain lubrication.\nUser wants recommendations for other bike shops in the area that offer good tune\u2011up services.\nUser is researching bike racks and intends to order a Saris Bones 2-Bike Trunk Rack next week, looking for tips on choosing the right rack for their car.\nUser recently installed a new set of bike lights costing $40, which has greatly improved visibility during early morning rides, and recommends considering such lights for low-light conditions during trips.\nUser had a positive experience with a local bike shop downtown where a knowledgeable and friendly mechanic performed a tune\u2011up.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has accumulated 347 miles of bike riding since January 1, 2026, feels proud of progress, aims to reach 1000 miles by the end of summer, and values precise mileage tracking and average speed calculation.\nUser is planning a road trip to the mountains in June 2026 and wants to ensure their bike is ready for the long trip.\nUser commutes 10 miles round trip to work and is considering bike insurance to protect the investment during longer trips.\nUser seeks recommendations for bike-friendly routes or trails in the mountains to explore during the June road trip.\nUser wants guidance on properly cleaning their bike using a specialized bike cleaner to ensure correct cleaning technique.\nUser plans to lubricate the bike chain on May 15th and wants instructions for proper chain lubrication.\nUser wants recommendations for other bike shops in the area that offer good tune\u2011up services.\nUser is researching bike racks and intends to order a Saris Bones 2-Bike Trunk Rack next week, looking for tips on choosing the right rack for their car.\nUser recently installed a new set of bike lights costing $40, which has greatly improved visibility during early morning rides, and recommends considering such lights for low-light conditions during trips.\nUser had a positive experience with a local bike shop downtown where a knowledgeable and friendly mechanic performed a tune\u2011up.",
+            "latency": 697.0
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 3,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?",
+    "question_date": "2023/03/15 (Wed) 03:53",
+    "ground_truth_answer": "Samsung Galaxy S22",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the Samsung Galaxy S22 purchase date (February 20th) but contains no information about the Dell XPS 13, making it impossible to determine which device came first."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the Samsung Galaxy S22 (purchased February 20th) but contains no information about the Dell XPS 13, making it impossible to determine which device was purchased first."
+        }
+    ]
+}

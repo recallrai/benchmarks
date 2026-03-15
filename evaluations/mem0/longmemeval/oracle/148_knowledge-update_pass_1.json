@@ -1,0 +1,19 @@
+{
+    "index": 148,
+    "question_type": "knowledge-update",
+    "question": "How many episodes of the Science series have I completed on Crash Course?",
+    "question_date": "2023/06/21 (Wed) 00:41",
+    "ground_truth_answer": "50",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'has completed 50 episodes of the Science series,' which directly matches the gold answer of 50."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'has completed 50 episodes of the Science series' which directly matches the gold answer of 50."
+        }
+    ]
+}

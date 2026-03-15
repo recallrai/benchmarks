@@ -1,0 +1,22 @@
+{
+    "index": 301,
+    "question_type": "single-session-user",
+    "question": "How long did it take me to assemble the IKEA bookshelf?",
+    "question_date": "2023/05/28 (Sun) 03:40",
+    "ground_truth_answer": "4 hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_301_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User expects IKEA coffee tables to be similarly easy to assemble as the previously assembled IKEA bookshelf, and is considering assembly time.\nUser is evaluating wood versus glass tops for coffee tables, concerned about scratch and fingerprint resistance, and has experience assembling an IKEA bookshelf in 4 hours, finding it manageable.\nUser plans to visit West Elm, Crate & Barrel, and IKEA this weekend to compare coffee tables with storage, will read online reviews and ratings to assess quality and durability, and seeks advice on prioritizing factors such as storage needs, budget, style, and material.\nUser is searching for coffee tables with storage and seeks recommendations or brand suggestions.",
+            "latency": 1145.182
+        },
+        {
+            "strategy": "graph",
+            "context": "User expects IKEA coffee tables to be similarly easy to assemble as the previously assembled IKEA bookshelf, and is considering assembly time.\nUser is evaluating wood versus glass tops for coffee tables, concerned about scratch and fingerprint resistance, and has experience assembling an IKEA bookshelf in 4 hours, finding it manageable.\nUser plans to visit West Elm, Crate & Barrel, and IKEA this weekend to compare coffee tables with storage, will read online reviews and ratings to assess quality and durability, and seeks advice on prioritizing factors such as storage needs, budget, style, and material.\nUser is searching for coffee tables with storage and seeks recommendations or brand suggestions.",
+            "latency": 2433.264
+        }
+    ]
+}

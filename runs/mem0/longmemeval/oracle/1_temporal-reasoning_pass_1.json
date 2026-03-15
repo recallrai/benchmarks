@@ -1,0 +1,22 @@
+{
+    "index": 1,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+    "question_date": "2023/05/28 (Sun) 06:47",
+    "ground_truth_answer": "'Data Analysis using Python' webinar",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_1_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User aims to focus more on learning skills, has attended an Effective Time Management workshop at a local community center last Saturday, and a webinar titled 'Data Analysis using Python' two months ago organized by an online learning platform, and seeks online resources or courses to further skill development.\nUser is working on a data analysis project and is seeking resources for learning data visualization in Python.\nUser intends to try both Tableau and Power BI free trials, exploring their Python APIs and documentation to determine which tool feels more comfortable.\nUser is considering creating a dashboard to track key metrics for their project, evaluating Tableau and Power BI as potential tools, and will use Python to connect to the data source focusing on ease of use and customization options.\nUser wants tips on effectively communicating insights from data visualizations to non-technical stakeholders.\nUser has been using website blockers and scheduling social media breaks, which have helped focus, but still habitually checks phone; seeks suggestions to break that habit.\nUser is seeking apps or tools to help prioritize tasks and avoid procrastination, aiming to become more organized and stay on top of tasks.\nUser identifies social media as the biggest distraction, often mindlessly scrolling during concentration tasks, and seeks strategies to avoid social media distractions.\nUser has begun implementing strategies such as prioritizing tasks and breaking them into smaller chunks, and reports that these practices are helping User stay on top of User's work.\nUser wants suggestions for minimizing distractions while working on tasks that require high concentration.",
+            "latency": 850.696
+        },
+        {
+            "strategy": "graph",
+            "context": "User aims to focus more on learning skills, has attended an Effective Time Management workshop at a local community center last Saturday, and a webinar titled 'Data Analysis using Python' two months ago organized by an online learning platform, and seeks online resources or courses to further skill development.\nUser is working on a data analysis project and is seeking resources for learning data visualization in Python.\nUser intends to try both Tableau and Power BI free trials, exploring their Python APIs and documentation to determine which tool feels more comfortable.\nUser is considering creating a dashboard to track key metrics for their project, evaluating Tableau and Power BI as potential tools, and will use Python to connect to the data source focusing on ease of use and customization options.\nUser wants tips on effectively communicating insights from data visualizations to non-technical stakeholders.\nUser has been using website blockers and scheduling social media breaks, which have helped focus, but still habitually checks phone; seeks suggestions to break that habit.\nUser is seeking apps or tools to help prioritize tasks and avoid procrastination, aiming to become more organized and stay on top of tasks.\nUser identifies social media as the biggest distraction, often mindlessly scrolling during concentration tasks, and seeks strategies to avoid social media distractions.\nUser has begun implementing strategies such as prioritizing tasks and breaking them into smaller chunks, and reports that these practices are helping User stay on top of User's work.\nUser wants suggestions for minimizing distractions while working on tasks that require high concentration.",
+            "latency": 1298.525
+        }
+    ]
+}

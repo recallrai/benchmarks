@@ -1,0 +1,19 @@
+{
+    "index": 456,
+    "question_type": "multi-session",
+    "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+    "question_date": "2023/05/30 (Tue) 02:24",
+    "ground_truth_answer": "10%",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the renovation budget is $20,000 and the rural/countryside property is listed at $200,000, which yields the correct 10% calculation ($20,000/$200,000 = 10%)."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the countryside property is listed at $200,000 and the renovation budget is $20,000, which equals 10% ($20,000/$200,000), matching the gold answer."
+        }
+    ]
+}

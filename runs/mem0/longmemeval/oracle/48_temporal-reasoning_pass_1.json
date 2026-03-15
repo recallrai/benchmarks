@@ -1,0 +1,22 @@
+{
+    "index": 48,
+    "question_type": "temporal-reasoning",
+    "question": "Which gift did I buy first, the necklace for my sister or the photo album for my mom?",
+    "question_date": "2023/05/22 (Mon) 12:21",
+    "ground_truth_answer": "the photo album for my mom",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_48_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a birthday dinner for their sister this weekend, has bought a $200 Tiffany's necklace, a gift card to the sister's favorite restaurant, and a birthday card with a heartfelt message.\nUser ordered a customized photo album from Shutterfly for her mom's anniversary, paid about $50, received it on Wednesday, and is pleased with the quality.\nUser plans to give their dad a new leather wallet from Coach for Father's Day, ordered last week, expected to arrive just in time, and is seeking ideas for a special message or card to accompany the gift.\nUser plans to package a Tiffany Blue Velvet Cake with an ombre design and vanilla bean flavor using blue velvet wrap, ribbon, a cake stand, fresh flowers, and a topper, will wrap the gift with gift wrapping paper and a birthday card, giving a gift card to the sister's favorite restaurant.\nUser uploaded photos to a Shutterfly album for mom's anniversary, added captions, funny quotes, and jokes, highlighted a beach trip where brother built a sandcastle that looked like a pile of poop, included mom's humorous 'most impressive' comment, and is proud of the album that arrived on Wednesday costing $50.\nUser included a humorous quote in the album about her little brother building a sandcastle that looked like a giant pile of poop, with her mom joking it was the 'most impressive' sandcastle, expecting it to bring back hilarious memories.\nUser is seeking ideas for simple yet elegant desserts to complement the Tiffany Blue Velvet Cake for her sister's birthday dinner.\nUser will bake a Tiffany Blue Velvet Cake with an ombre design and vanilla bean flavor, decorate it with blue velvet wrap, ribbon, a cake stand, fresh flowers, and a topper, and include a family slideshow with recent and childhood photos and a playlist of classic and modern upbeat tracks.",
+            "latency": 661.203
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a birthday dinner for their sister this weekend, has bought a $200 Tiffany's necklace, a gift card to the sister's favorite restaurant, and a birthday card with a heartfelt message.\nUser ordered a customized photo album from Shutterfly for her mom's anniversary, paid about $50, received it on Wednesday, and is pleased with the quality.\nUser plans to give their dad a new leather wallet from Coach for Father's Day, ordered last week, expected to arrive just in time, and is seeking ideas for a special message or card to accompany the gift.\nUser uploaded photos to a Shutterfly album for mom's anniversary, added captions, funny quotes, and jokes, highlighted a beach trip where brother built a sandcastle that looked like a pile of poop, included mom's humorous 'most impressive' comment, and is proud of the album that arrived on Wednesday costing $50.\nUser plans to package a Tiffany Blue Velvet Cake with an ombre design and vanilla bean flavor using blue velvet wrap, ribbon, a cake stand, fresh flowers, and a topper, will wrap the gift with gift wrapping paper and a birthday card, giving a gift card to the sister's favorite restaurant.\nUser included a humorous quote in the album about her little brother building a sandcastle that looked like a giant pile of poop, with her mom joking it was the 'most impressive' sandcastle, expecting it to bring back hilarious memories.\nUser is seeking ideas for simple yet elegant desserts to complement the Tiffany Blue Velvet Cake for her sister's birthday dinner.\nUser will bake a Tiffany Blue Velvet Cake with an ombre design and vanilla bean flavor, decorate it with blue velvet wrap, ribbon, a cake stand, fresh flowers, and a topper, and include a family slideshow with recent and childhood photos and a playlist of classic and modern upbeat tracks.",
+            "latency": 845.13
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 305,
+    "question_type": "single-session-user",
+    "question": "What was my previous stance on spirituality?",
+    "question_date": "2023/05/29 (Mon) 23:42",
+    "ground_truth_answer": "A staunch atheist",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had 'a staunch atheist stance' before their current exploration of spirituality, which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user had 'a staunch atheist stance' before their shift to exploring spiritual possibilities, which directly matches the gold answer."
+        }
+    ]
+}

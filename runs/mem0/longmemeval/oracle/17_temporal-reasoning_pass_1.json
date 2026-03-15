@@ -1,0 +1,22 @@
+{
+    "index": 17,
+    "question_type": "temporal-reasoning",
+    "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+    "question_date": "2023/05/22 (Mon) 00:25",
+    "ground_truth_answer": "'The Hate U Give'",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_17_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User finished 'The Hate U Give' by Angie Thomas just in time for a book club meeting two weeks ago, being the only one who hadn't finished it but completing it a few days before the meeting.\nUser prefers full\u2011cast narrations for novels with characters and dialogue\u2011heavy scenes because it adds immersion and helps track speakers, but also enjoys single\u2011narrator audiobooks that bring a tone; believes narration is crucial, with a good narrator elevating the story and making it more engaging, as seen in 'The Hate U Give'.\nUser recently finished three fiction novels\u2014'The Seven Husbands of Evelyn Hugo', 'The Silent Patient', and 'The Nightingale'\u2014and loves their styles; listens to the audiobook 'Daisy Jones and The Six'; enjoys mixing genres and authors, seeking recommendations for similar fiction and self\u2011help titles that align with growth and emotional depth.\nThe user listens to audiobooks during daily commutes, having just finished \"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari and \"Daisy Jones and The Six\" by Taylor Jenkins Reid, is interested in exploring more audiobook options, and is seeking recommendations for audiobook platforms or services that offer a wide selection of titles.\nThe user maintains a reading log where they track progress and write thoughts on each book, finds it motivating and helpful for reflection, and is requesting prompts or questions specifically tailored to non\u2011fiction self\u2011help books to enhance their reflective practice.\nThe user follows book bloggers and bookstagrammers on social media, uses their reviews and recommendations to discover new authors and genres, has started their own bookstagram account where they post reviews and book\u2011related photos, and wants tips to make the account more engaging and attractive to potential followers.",
+            "latency": 824.38
+        },
+        {
+            "strategy": "graph",
+            "context": "User finished 'The Hate U Give' by Angie Thomas just in time for a book club meeting two weeks ago, being the only one who hadn't finished it but completing it a few days before the meeting.\nUser prefers full\u2011cast narrations for novels with characters and dialogue\u2011heavy scenes because it adds immersion and helps track speakers, but also enjoys single\u2011narrator audiobooks that bring a tone; believes narration is crucial, with a good narrator elevating the story and making it more engaging, as seen in 'The Hate U Give'.\nUser recently finished three fiction novels\u2014'The Seven Husbands of Evelyn Hugo', 'The Silent Patient', and 'The Nightingale'\u2014and loves their styles; listens to the audiobook 'Daisy Jones and The Six'; enjoys mixing genres and authors, seeking recommendations for similar fiction and self\u2011help titles that align with growth and emotional depth.\nThe user listens to audiobooks during daily commutes, having just finished \"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari and \"Daisy Jones and The Six\" by Taylor Jenkins Reid, is interested in exploring more audiobook options, and is seeking recommendations for audiobook platforms or services that offer a wide selection of titles.\nThe user maintains a reading log where they track progress and write thoughts on each book, finds it motivating and helpful for reflection, and is requesting prompts or questions specifically tailored to non\u2011fiction self\u2011help books to enhance their reflective practice.\nThe user follows book bloggers and bookstagrammers on social media, uses their reviews and recommendations to discover new authors and genres, has started their own bookstagram account where they post reviews and book\u2011related photos, and wants tips to make the account more engaging and attractive to potential followers.",
+            "latency": 1083.016
+        }
+    ]
+}

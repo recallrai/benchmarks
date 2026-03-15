@@ -1,0 +1,22 @@
+{
+    "index": 350,
+    "question_type": "single-session-user",
+    "question": "What is the name of my hamster?",
+    "question_date": "2023/05/22 (Mon) 13:42",
+    "ground_truth_answer": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_350_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is motivated to microchip Luna due to concerns about the front door not closing properly and the risk of Luna escaping; the user wants information on the microchipping process and local veterinarian recommendations.\nLuna's litter box has become stinky, and the user washed Luna's blankets and beds on January 25th; the user is evaluating whether the new litter the user plans to use will improve odor control.\nUser's cat Luna is sweet and has been adapting well to environmental changes, and the user is glad to provide a happy and healthy home.\nUser has started giving Luna a probiotic supplement, which is helping, following a vet recommendation during a follow-up appointment on January 15th, and is seeking recommendations for an easy\u2011to\u2011clean, odor\u2011free cat litter for Luna's new low\u2011sided litter box.",
+            "latency": 958.234
+        },
+        {
+            "strategy": "graph",
+            "context": "User is motivated to microchip Luna due to concerns about the front door not closing properly and the risk of Luna escaping; the user wants information on the microchipping process and local veterinarian recommendations.\nLuna's litter box has become stinky, and the user washed Luna's blankets and beds on January 25th; the user is evaluating whether the new litter the user plans to use will improve odor control.\nUser's cat Luna is sweet and has been adapting well to environmental changes, and the user is glad to provide a happy and healthy home.\nUser has started giving Luna a probiotic supplement, which is helping, following a vet recommendation during a follow-up appointment on January 15th, and is seeking recommendations for an easy\u2011to\u2011clean, odor\u2011free cat litter for Luna's new low\u2011sided litter box.",
+            "latency": 1935.071
+        }
+    ]
+}

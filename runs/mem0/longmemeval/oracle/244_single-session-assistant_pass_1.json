@@ -1,0 +1,22 @@
+{
+    "index": 244,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+    "question_date": "2023/05/24 (Wed) 06:33",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_244_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants a D&D one-shot adventure for level 8 PCs, including stat blocks for enemies, loot for success, a surprise twist in the final battle, cool layered actions, detailed traps, and a comprehensive description to help a GM run the one-shot smoothly.",
+            "latency": 1321.945
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants a D&D one-shot adventure for level 8 PCs, including stat blocks for enemies, loot for success, a surprise twist in the final battle, cool layered actions, detailed traps, and a comprehensive description to help a GM run the one-shot smoothly.",
+            "latency": 7142.457
+        }
+    ]
+}

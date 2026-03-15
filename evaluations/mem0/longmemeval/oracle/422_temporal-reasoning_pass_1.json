@@ -1,0 +1,19 @@
+{
+    "index": 422,
+    "question_type": "temporal-reasoning",
+    "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+    "question_date": "2023/03/28 (Tue) 00:03",
+    "ground_truth_answer": "I signed a contract with my first client.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has signed first client contract today' which directly matches the gold answer about signing a contract with the first client."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has signed first client contract today,' which directly matches the gold answer about signing a contract with their first client as the significant business milestone."
+        }
+    ]
+}

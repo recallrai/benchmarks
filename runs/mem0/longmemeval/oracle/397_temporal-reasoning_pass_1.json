@@ -1,0 +1,22 @@
+{
+    "index": 397,
+    "question_type": "temporal-reasoning",
+    "question": "How many months ago did I attend the photography workshop?",
+    "question_date": "2024/02/01 (Thu) 22:41",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_397_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a 3-day photography workshop in a nearby city today, learning about various techniques and styles of photography, and now wants an explanation of dark frames and bias frames and how they help in image stacking; additionally, the user is looking for recommendations for a good wide-angle lens suitable for astrophotography, and expresses gratitude for previous help.\nUser is seeking online resources or tutorials for night photography to gain inspiration and tips.\nUser is interested in astrophotography and requests recommendations for apps or software to edit and process astrophotography images, as well as online communities or forums where the user can share work and receive feedback.\nUser is interested in learning how camera sensors work and what factors affect their performance in low-light conditions, and also wants recommendations for cameras that are suitable for astrophotography.\nUser wants to learn about the image stacking process and effective tips, and also seeks recommendations for a good camera remote shutter release.",
+            "latency": 909.591
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a 3-day photography workshop in a nearby city today, learning about various techniques and styles of photography, and now wants an explanation of dark frames and bias frames and how they help in image stacking; additionally, the user is looking for recommendations for a good wide-angle lens suitable for astrophotography, and expresses gratitude for previous help.\nUser is seeking online resources or tutorials for night photography to gain inspiration and tips.\nUser is interested in astrophotography and requests recommendations for apps or software to edit and process astrophotography images, as well as online communities or forums where the user can share work and receive feedback.\nUser is interested in learning how camera sensors work and what factors affect their performance in low-light conditions, and also wants recommendations for cameras that are suitable for astrophotography.\nUser wants to learn about the image stacking process and effective tips, and also seeks recommendations for a good camera remote shutter release.",
+            "latency": 1853.082
+        }
+    ]
+}

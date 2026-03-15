@@ -1,0 +1,22 @@
+{
+    "index": 47,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the meeting with Rachel or the pride parade?",
+    "question_date": "2023/05/09 (Tue) 17:23",
+    "ground_truth_answer": "The meeting with Rachel",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_47_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has attended a pride parade in their city on May 1st that reinforced their focus on diversity and inclusion in all aspects of life.\nUser plans to discuss the initiative with his mentor Rachel, whom he met on April\u202f10,\u202f2026, and seeks Rachel\u2019s advice on proposing the initiative to leadership, building a compelling business case, measuring effectiveness, and leveraging any existing company resources.\nUser wants an explanation of the concept of intersectionality and how it relates to diversity and inclusion.\nUser, a cisgender male in the tech industry, attended a gender equality seminar at his company's headquarters on March\u202f22,\u202f2026, and is seeking up\u2011to\u2011date statistics on women in leadership positions within the tech sector.\nUser intends to focus on implementing diversity and inclusion initiatives at his company, with a particular emphasis on unconscious bias training, and is looking for resources or organizations that can help design, deliver, and evaluate such training programs.\nUser also considers involving HR and colleagues who have previously expressed interest in diversity and inclusion initiatives to build a coalition, increase buy\u2011in, and create a supportive task force for the initiative.",
+            "latency": 874.504
+        },
+        {
+            "strategy": "graph",
+            "context": "User has attended a pride parade in their city on May 1st that reinforced their focus on diversity and inclusion in all aspects of life.\nUser plans to discuss the initiative with his mentor Rachel, whom he met on April\u202f10,\u202f2026, and seeks Rachel\u2019s advice on proposing the initiative to leadership, building a compelling business case, measuring effectiveness, and leveraging any existing company resources.\nUser wants an explanation of the concept of intersectionality and how it relates to diversity and inclusion.\nUser, a cisgender male in the tech industry, attended a gender equality seminar at his company's headquarters on March\u202f22,\u202f2026, and is seeking up\u2011to\u2011date statistics on women in leadership positions within the tech sector.\nUser intends to focus on implementing diversity and inclusion initiatives at his company, with a particular emphasis on unconscious bias training, and is looking for resources or organizations that can help design, deliver, and evaluate such training programs.\nUser also considers involving HR and colleagues who have previously expressed interest in diversity and inclusion initiatives to build a coalition, increase buy\u2011in, and create a supportive task force for the initiative.",
+            "latency": 1331.748
+        }
+    ]
+}

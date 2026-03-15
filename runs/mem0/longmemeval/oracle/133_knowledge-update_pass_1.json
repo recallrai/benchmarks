@@ -1,0 +1,22 @@
+{
+    "index": 133,
+    "question_type": "knowledge-update",
+    "question": "How many short stories have I written since I started writing regularly?",
+    "question_date": "2023/06/14 (Wed) 08:23",
+    "ground_truth_answer": "seven",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_133_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is a writer juggling short stories, a journal, and a memoir, seeking organizational strategies like a writing calendar, project folders, and goal-setting to maintain momentum. Over three months, they have completed seven short stories and plan to focus their memoir on this writing experience.\nThe user intends to begin their memoir with a chapter titled 'The Spark', describing how they started writing regularly, what motivated them to continue, and how writing has become a therapeutic outlet; they seek structure tips and suggestions for focus.\nThe user wants to learn about how a writing group is usually structured and what kind of feedback can be expected from other members.\nThe user is planning to start a writing group with friends, is excited to share work and receive feedback, and is looking for tips to keep the group productive and motivated.\nThe user is developing a short story concept set in a mysterious library with a discovery theme, incorporating magical or supernatural elements like sentient books that whisper secrets and have personalities, and is exploring whether the protagonist will directly communicate with the books or have a subtle, intuitive connection, aiming to create intriguing interactions, conflicts, and alliances.\nThe user wants to describe their Sundays as dedicated writing days, capturing the routine of waking up early, making coffee, sitting at a desk with a blank page, feeling excitement and anticipation, noting that this routine has become a therapeutic outlet.\nThe user is experimenting with non\u2011linear narrative structures and seeks book or author recommendations known for effective use of this style.",
+            "latency": 823.939
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is a writer juggling short stories, a journal, and a memoir, seeking organizational strategies like a writing calendar, project folders, and goal-setting to maintain momentum. Over three months, they have completed seven short stories and plan to focus their memoir on this writing experience.\nThe user intends to begin their memoir with a chapter titled 'The Spark', describing how they started writing regularly, what motivated them to continue, and how writing has become a therapeutic outlet; they seek structure tips and suggestions for focus.\nThe user wants to learn about how a writing group is usually structured and what kind of feedback can be expected from other members.\nThe user is planning to start a writing group with friends, is excited to share work and receive feedback, and is looking for tips to keep the group productive and motivated.\nThe user is developing a short story concept set in a mysterious library with a discovery theme, incorporating magical or supernatural elements like sentient books that whisper secrets and have personalities, and is exploring whether the protagonist will directly communicate with the books or have a subtle, intuitive connection, aiming to create intriguing interactions, conflicts, and alliances.\nThe user wants to describe their Sundays as dedicated writing days, capturing the routine of waking up early, making coffee, sitting at a desk with a blank page, feeling excitement and anticipation, noting that this routine has become a therapeutic outlet.\nThe user is experimenting with non\u2011linear narrative structures and seeks book or author recommendations known for effective use of this style.",
+            "latency": 1236.3
+        }
+    ]
+}

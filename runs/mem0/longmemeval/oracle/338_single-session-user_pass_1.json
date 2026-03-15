@@ -1,0 +1,22 @@
+{
+    "index": 338,
+    "question_type": "single-session-user",
+    "question": "How many skeins of worsted weight yarn did I find in my stash?",
+    "question_date": "2023/05/30 (Tue) 19:28",
+    "ground_truth_answer": "17",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_338_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user plans to create small to medium amigurumi toys for their niece and nephew, using 17 skeins of worsted yarn and starting with a 4.5\u202fmm hook, considering a slightly smaller hook than for fingerless gloves to achieve denser fabric\nThe user has already completed a pair of fingerless gloves for their sister's birthday using worsted yarn, and now intends to produce additional gloves for friends; they will use the same yarn and hook size as the first pair but will adjust the stitch count to accommodate varying hand sizes\nThe user repaired their sewing machine and plans to make tote bags from cotton prints, seeking tips like pre\u2011washing, using a walking foot, maintaining a consistent seam allowance, and pressing seams to ensure straight, professional\u2011looking seams",
+            "latency": 949.316
+        },
+        {
+            "strategy": "graph",
+            "context": "The user plans to create small to medium amigurumi toys for their niece and nephew, using 17 skeins of worsted yarn and starting with a 4.5\u202fmm hook, considering a slightly smaller hook than for fingerless gloves to achieve denser fabric\nThe user has already completed a pair of fingerless gloves for their sister's birthday using worsted yarn, and now intends to produce additional gloves for friends; they will use the same yarn and hook size as the first pair but will adjust the stitch count to accommodate varying hand sizes\nThe user repaired their sewing machine and plans to make tote bags from cotton prints, seeking tips like pre\u2011washing, using a walking foot, maintaining a consistent seam allowance, and pressing seams to ensure straight, professional\u2011looking seams",
+            "latency": 1780.548
+        }
+    ]
+}

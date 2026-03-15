@@ -1,0 +1,22 @@
+{
+    "index": 331,
+    "question_type": "single-session-user",
+    "question": "What type of action figure did I buy from a thrift store?",
+    "question_date": "2023/05/30 (Tue) 13:38",
+    "ground_truth_answer": "a blue Snaggletooth",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_331_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is collecting vintage watches and wants a display case for a 1960s Omega Seamaster, and has recently added a rare blue Snaggletooth action figure to their collection.\nUser has acquired a first edition of The Catcher in the Rye and is now searching for a rare Pikachu Illustrator Pok\u00e9mon trading card, seeking online marketplaces or resources.\nUser organized a scattered coin collection into specialized albums and folders, has coins from over 20 countries including rare ancient Greek and Roman coins, and is seeking tips for proper storage and display to preserve condition and ease of viewing.\nUser prefers a glass-fronted wooden display case for watches and is searching for a reputable seller of vintage camera equipment to add a rare camera to their collection.\nUser acquired a limited edition Nike Air Jordan \"Black Toe\" sneaker in their size from a reputable seller, has been wearing them non-stop since arrival, and seeks tips for proper storage and display to maintain condition and visibility.\nUser is planning to start a collectible book collection of first edition novels by favorite authors and seeks online bookstores or resources to find rare titles.",
+            "latency": 1028.878
+        },
+        {
+            "strategy": "graph",
+            "context": "User is collecting vintage watches and wants a display case for a 1960s Omega Seamaster, and has recently added a rare blue Snaggletooth action figure to their collection.\nUser has acquired a first edition of The Catcher in the Rye and is now searching for a rare Pikachu Illustrator Pok\u00e9mon trading card, seeking online marketplaces or resources.\nUser organized a scattered coin collection into specialized albums and folders, has coins from over 20 countries including rare ancient Greek and Roman coins, and is seeking tips for proper storage and display to preserve condition and ease of viewing.\nUser prefers a glass-fronted wooden display case for watches and is searching for a reputable seller of vintage camera equipment to add a rare camera to their collection.\nUser acquired a limited edition Nike Air Jordan \"Black Toe\" sneaker in their size from a reputable seller, has been wearing them non-stop since arrival, and seeks tips for proper storage and display to maintain condition and visibility.\nUser is planning to start a collectible book collection of first edition novels by favorite authors and seeks online bookstores or resources to find rare titles.",
+            "latency": 2065.213
+        }
+    ]
+}

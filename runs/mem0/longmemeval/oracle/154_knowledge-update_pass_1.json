@@ -1,0 +1,22 @@
+{
+    "index": 154,
+    "question_type": "knowledge-update",
+    "question": "How long have my parents been staying with me in the US?",
+    "question_date": "2023/10/22 (Sun) 20:20",
+    "ground_truth_answer": "nine months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_154_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning to apply for a green card soon, wants a detailed walk-through of the steps and timeline, is uncertain about the documents needed, and is concerned about how having parents living with them for nine months in the US might affect the application.\nUser's parents have been living with them for the past nine months, helping with household chores, cooking, English language classes, and paperwork, and the user values their companionship and support.\nUser wants more information about the waiver of inadmissibility process and how it might apply to their parents\u2019 situation, and plans to ask the attorney about this process in the context of the parents\u2019 nine\u2011month overstay.\nUser is concerned about the financial aspect of the green card application, specifically whether they need to include their parents' income or expenses if the parents are included in the application, and whether parents not working require their expenses to be counted as part of the user's own expenses.\nUser intends to consult an immigration attorney to discuss their green card application and to seek guidance on how to address the parents' nine\u2011month overstay, including asking the attorney about the attorney\u2019s experience with green card applications and similar cases involving overstaying parents.\nUser wants to know the next step in the green card application process after submitting the petition and supporting documents.\nUser is concerned about common mistakes in the green card application process and wants to avoid them.",
+            "latency": 716.552
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning to apply for a green card soon, wants a detailed walk-through of the steps and timeline, is uncertain about the documents needed, and is concerned about how having parents living with them for nine months in the US might affect the application.\nUser's parents have been living with them for the past nine months, helping with household chores, cooking, English language classes, and paperwork, and the user values their companionship and support.\nUser wants more information about the waiver of inadmissibility process and how it might apply to their parents\u2019 situation, and plans to ask the attorney about this process in the context of the parents\u2019 nine\u2011month overstay.\nUser is concerned about the financial aspect of the green card application, specifically whether they need to include their parents' income or expenses if the parents are included in the application, and whether parents not working require their expenses to be counted as part of the user's own expenses.\nUser intends to consult an immigration attorney to discuss their green card application and to seek guidance on how to address the parents' nine\u2011month overstay, including asking the attorney about the attorney\u2019s experience with green card applications and similar cases involving overstaying parents.\nUser wants to know the next step in the green card application process after submitting the petition and supporting documents.\nUser is concerned about common mistakes in the green card application process and wants to avoid them.",
+            "latency": 861.413
+        }
+    ]
+}

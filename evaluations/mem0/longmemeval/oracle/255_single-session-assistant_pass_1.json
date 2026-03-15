@@ -1,0 +1,19 @@
+{
+    "index": 255,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was?",
+    "question_date": "2023/05/26 (Fri) 05:10",
+    "ground_truth_answer": "Absinthe",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the cocktail bar conversation, the five recommended bottles, or absinthe."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the five bottle recommendations or absinthe, making it impossible to answer the question from the context provided."
+        }
+    ]
+}

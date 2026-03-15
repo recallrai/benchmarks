@@ -1,0 +1,22 @@
+{
+    "index": 281,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+    "question_date": "2023/05/29 (Mon) 18:39",
+    "ground_truth_answer": "Nostalgia",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_281_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is eager to learn more about traditional tailoring and embroidery techniques of India, seeking resources and guidance to deepen knowledge of these cultural crafts.\nThe user wants recommendations for high\u2011quality materials and tools suitable for traditional Indian embroidery and tailoring, aiming to source authentic fabrics, threads, needles, and accessories that support authentic craftsmanship.\nThe user seeks online communities or forums where the user can connect with other enthusiasts of traditional Indian embroidery and tailoring, to share work, receive feedback, and engage in collaborative learning.\nThe user is searching for inspiration for the user's own designs in traditional Indian embroidery and tailoring, looking to draw ideas from textiles, art, architecture, nature, festivals, and online resources.\nThe user is looking for specific books and workshops to study traditional Indian embroidery and tailoring techniques, hoping to find curated learning opportunities that cover these specialized skills.\nThe user is excited to begin practicing traditional Indian embroidery and tailoring techniques on their own and is seeking practical advice on how to start, including foundational stitches and initial project ideas.\nThe user expresses strong excitement and motivation to start practicing traditional Indian embroidery and tailoring, feeling inspired and eager to explore creative possibilities and see where the user's creativity leads.",
+            "latency": 1528.418
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is eager to learn more about traditional tailoring and embroidery techniques of India, seeking resources and guidance to deepen knowledge of these cultural crafts.\nThe user wants recommendations for high\u2011quality materials and tools suitable for traditional Indian embroidery and tailoring, aiming to source authentic fabrics, threads, needles, and accessories that support authentic craftsmanship.\nThe user seeks online communities or forums where the user can connect with other enthusiasts of traditional Indian embroidery and tailoring, to share work, receive feedback, and engage in collaborative learning.\nThe user is searching for inspiration for the user's own designs in traditional Indian embroidery and tailoring, looking to draw ideas from textiles, art, architecture, nature, festivals, and online resources.\nThe user is looking for specific books and workshops to study traditional Indian embroidery and tailoring techniques, hoping to find curated learning opportunities that cover these specialized skills.\nThe user is excited to begin practicing traditional Indian embroidery and tailoring techniques on their own and is seeking practical advice on how to start, including foundational stitches and initial project ideas.\nThe user expresses strong excitement and motivation to start practicing traditional Indian embroidery and tailoring, feeling inspired and eager to explore creative possibilities and see where the user's creativity leads.",
+            "latency": 2232.844
+        }
+    ]
+}

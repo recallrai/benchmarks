@@ -1,0 +1,22 @@
+{
+    "index": 210,
+    "question_type": "single-session-preference",
+    "question": "What should I serve for dinner this weekend with my homegrown ingredients?",
+    "question_date": "2023/05/24 (Wed) 10:29",
+    "ground_truth_answer": "The user would prefer dinner suggestions that incorporate their homegrown cherry tomatoes and herbs like basil and mint, highlighting recipes that showcase their garden produce. They might not prefer suggestions that do not utilize these specific ingredients or do not emphasize the use of homegrown elements.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_210_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for recipe ideas that incorporate fresh basil and mint.\nUser is seeking information on companion plants suitable for tomatoes.\nUser tried neem oil on pepper plants to control aphids, but it was ineffective, and they are now considering introducing natural predators such as ladybugs or lacewings to their garden to control aphids, and they are seeking confirmation that this is a good idea.\nUser has been using basil and mint in cooking, has harvested cherry tomatoes from their garden, and is looking for companion plants to help those cherry tomatoes grow better.\nUser is seeking guidance on using neem oil to control aphids.",
+            "latency": 1175.209
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for recipe ideas that incorporate fresh basil and mint.\nUser is seeking information on companion plants suitable for tomatoes.\nUser tried neem oil on pepper plants to control aphids, but it was ineffective, and they are now considering introducing natural predators such as ladybugs or lacewings to their garden to control aphids, and they are seeking confirmation that this is a good idea.\nUser has been using basil and mint in cooking, has harvested cherry tomatoes from their garden, and is looking for companion plants to help those cherry tomatoes grow better.\nUser is seeking guidance on using neem oil to control aphids.",
+            "latency": 2108.836
+        }
+    ]
+}

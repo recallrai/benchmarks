@@ -1,0 +1,22 @@
+{
+    "index": 419,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet with during the lunch last Tuesday?",
+    "question_date": "2023/04/18 (Tue) 02:06",
+    "ground_truth_answer": "Emma",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_419_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a digital marketing workshop during the week of January 22-28, 2026, where speaker Rachel Lee presented interesting strategies; the user is now seeking online resources or tutorials on social media advertising and has met freelance writer Emma over lunch on January 28, 2026, who is now a potential collaborator for a project the user is working on.\nUser wants to learn how to target Instagram ads to people interested in sustainable living and eco-friendly products, citing Emma's success with targeting specific interests and behaviors.\nUser wants detailed instructions on how to use Facebook's Audience Insights tool to gather information about their target audience.\nUser wants to learn how to use Instagram's automatic targeting feature to reach people likely interested in sustainable living and eco-friendly products.",
+            "latency": 959.842
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a digital marketing workshop during the week of January 22-28, 2026, where speaker Rachel Lee presented interesting strategies; the user is now seeking online resources or tutorials on social media advertising and has met freelance writer Emma over lunch on January 28, 2026, who is now a potential collaborator for a project the user is working on.\nUser wants to learn how to target Instagram ads to people interested in sustainable living and eco-friendly products, citing Emma's success with targeting specific interests and behaviors.\nUser wants detailed instructions on how to use Facebook's Audience Insights tool to gather information about their target audience.\nUser wants to learn how to use Instagram's automatic targeting feature to reach people likely interested in sustainable living and eco-friendly products.",
+            "latency": 1547.386
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 224,
+    "question_type": "single-session-preference",
+    "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+    "question_date": "2023/05/26 (Fri) 02:11",
+    "ground_truth_answer": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_224_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "During a previous visit to Denver, where the user had a great time meeting Brandon Flowers after The Killers' concert, the user realized a strong affection for the city's music scene and is now seeking recommendations for must\u2011visit music venues or festivals in Denver.\nUser is planning to return to Denver for another concert and is inquiring about good barbecue restaurants located near Red Rocks Amphitheater.\nUser met Brandon Flowers, the lead singer of The Killers, after attending their concert in Denver, and is looking for the best ways to stay updated on new music releases and concerts in their local area.\nUser is actively seeking music recommendations, has attended three concerts recently\u2014including a performance by The Killers at Red Rocks Amphitheater\u2014and expresses a continual desire to discover new bands to check out.\nUser is planning to dine at The Ship Rock Grille before a concert, wants to know if the restaurant offers outdoor seating with a view of Red Rocks, and intends to ask the staff for tables that provide a view of the stage.",
+            "latency": 4506.05
+        },
+        {
+            "strategy": "graph",
+            "context": "During a previous visit to Denver, where the user had a great time meeting Brandon Flowers after The Killers' concert, the user realized a strong affection for the city's music scene and is now seeking recommendations for must\u2011visit music venues or festivals in Denver.\nUser is planning to return to Denver for another concert and is inquiring about good barbecue restaurants located near Red Rocks Amphitheater.\nUser met Brandon Flowers, the lead singer of The Killers, after attending their concert in Denver, and is looking for the best ways to stay updated on new music releases and concerts in their local area.\nUser is actively seeking music recommendations, has attended three concerts recently\u2014including a performance by The Killers at Red Rocks Amphitheater\u2014and expresses a continual desire to discover new bands to check out.\nUser is planning to dine at The Ship Rock Grille before a concert, wants to know if the restaurant offers outdoor seating with a view of Red Rocks, and intends to ask the staff for tables that provide a view of the stage.",
+            "latency": 2373.576
+        }
+    ]
+}

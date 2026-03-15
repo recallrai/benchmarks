@@ -1,0 +1,22 @@
+{
+    "index": 345,
+    "question_type": "single-session-user",
+    "question": "Who gave me a new stand mixer as a birthday gift?",
+    "question_date": "2023/05/24 (Wed) 21:11",
+    "ground_truth_answer": "my sister",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_345_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User received a new stand mixer from their sister last month, which has become a game-changer for making caramel; they use a recipe that melts sugar and butter together, then slowly adds heavy cream to create a smooth caramel sauce, and it has been working well.\nUser is a DIY coffee enthusiast who recently acquired a new coffee grinder and milk frother, enjoys experimenting with coffee recipes at home, and is planning to start a small coffee and baking blog to share their recipes and experiments.\nUser typically uses the whisk attachment on their stand mixer when making caramel because it helps incorporate the cream more evenly; they have not yet tried different sugars but plan to experiment, and they primarily use caramel sauce as a topping for baked goods like the apple tart, while also considering using it to make caramel macchiatos.\nUser is especially interested in caramel \u00e9clairs and recently made a caramel apple tart for a family Sunday dinner, which was a huge hit, showing enthusiasm for caramel pastries and family cooking.\nUser is experimenting with baking recipes and is seeking pastry ideas that feature caramel as a main ingredient, indicating a strong interest in caramel-based desserts.\nUser is considering naming their new coffee and baking blog 'The Daily Grind' and is seeking feedback on the name.",
+            "latency": 927.04
+        },
+        {
+            "strategy": "graph",
+            "context": "User received a new stand mixer from their sister last month, which has become a game-changer for making caramel; they use a recipe that melts sugar and butter together, then slowly adds heavy cream to create a smooth caramel sauce, and it has been working well.\nUser is a DIY coffee enthusiast who recently acquired a new coffee grinder and milk frother, enjoys experimenting with coffee recipes at home, and is planning to start a small coffee and baking blog to share their recipes and experiments.\nUser typically uses the whisk attachment on their stand mixer when making caramel because it helps incorporate the cream more evenly; they have not yet tried different sugars but plan to experiment, and they primarily use caramel sauce as a topping for baked goods like the apple tart, while also considering using it to make caramel macchiatos.\nUser is especially interested in caramel \u00e9clairs and recently made a caramel apple tart for a family Sunday dinner, which was a huge hit, showing enthusiasm for caramel pastries and family cooking.\nUser is experimenting with baking recipes and is seeking pastry ideas that feature caramel as a main ingredient, indicating a strong interest in caramel-based desserts.\nUser is considering naming their new coffee and baking blog 'The Daily Grind' and is seeking feedback on the name.",
+            "latency": 1775.043
+        }
+    ]
+}

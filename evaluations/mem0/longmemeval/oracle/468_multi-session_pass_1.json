@@ -1,0 +1,19 @@
+{
+    "index": 468,
+    "question_type": "multi-session",
+    "question": "What is the total number of online courses I've completed?",
+    "question_date": "2023/05/25 (Thu) 10:41",
+    "ground_truth_answer": "20",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has completed 8 edX courses and 12 Coursera courses, which totals to 20 courses, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user completed 8 edX courses and 12 Coursera courses, which totals to 20 courses matching the gold answer."
+        }
+    ]
+}

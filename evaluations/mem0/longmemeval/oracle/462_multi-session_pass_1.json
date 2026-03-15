@@ -1,0 +1,19 @@
+{
+    "index": 462,
+    "question_type": "multi-session",
+    "question": "How long have I been working in my current role?",
+    "question_date": "2023/05/30 (Tue) 03:15",
+    "ground_truth_answer": "1 year and 5 months",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user progressed to Senior Marketing Specialist after 2 years and 4 months of experience, but does not contain information about how long they have been in their current role (1 year and 5 months)."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions '2 years and 4 months of experience' before progressing to Senior Marketing Specialist, but does not specify how long the user has been in their current role (1 year and 5 months), which is what the question asks."
+        }
+    ]
+}

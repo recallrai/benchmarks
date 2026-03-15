@@ -1,0 +1,22 @@
+{
+    "index": 22,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+    "question_date": "2023/12/10 (Sun) 19:41",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_22_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended the annual Holiday Market at the local mall a week before Black Friday, saw unique handmade jewelry but was unsure if it matched sister's style.\nUser, who is planning a birthday gift for his sister, is upgrading his phone case and screen protector for his iPhone 13 Pro, which he purchased at a discounted price of $800 from Best Buy on Black Friday, down from the regular price of $1,000.\nUser plans to revisit the Holiday Market to examine jewelry vendors again, aiming to find a perfect piece that aligns with sister's style now that she has a clearer idea of what to look for.\nUser decided to keep the phone case design simple by adding sister's name in an elegant font and a small message like 'Sis' or 'Birthday Girl', and wants to pair this with a piece of jewelry from the Holiday Market.\nUser is interested in creating a customized phone case or personalized journal, and is evaluating design tools such as Canva or Adobe Spark while deciding whether to include a special message or keep the design simple with just her name or initials.\nUser is looking for 4K TV options in the $800-$1,200 price range, and after scoring a 30% discount on a 4K TV from Amazon on Cyber Monday (original price $1,200), wants similar models with good picture quality and HDR support in the $800-$1,000 range.\nUser is interested in waterproof phone cases for outdoor use to protect his phone from water and dust.\nUser is planning a budget-friendly gift for sister's upcoming birthday, considering personalized items and handmade jewelry.\nUser wants soundbar options with good sound quality in a budget of $200-$300.",
+            "latency": 849.065
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended the annual Holiday Market at the local mall a week before Black Friday, saw unique handmade jewelry but was unsure if it matched sister's style.\nUser, who is planning a birthday gift for his sister, is upgrading his phone case and screen protector for his iPhone 13 Pro, which he purchased at a discounted price of $800 from Best Buy on Black Friday, down from the regular price of $1,000.\nUser plans to revisit the Holiday Market to examine jewelry vendors again, aiming to find a perfect piece that aligns with sister's style now that she has a clearer idea of what to look for.\nUser decided to keep the phone case design simple by adding sister's name in an elegant font and a small message like 'Sis' or 'Birthday Girl', and wants to pair this with a piece of jewelry from the Holiday Market.\nUser is interested in creating a customized phone case or personalized journal, and is evaluating design tools such as Canva or Adobe Spark while deciding whether to include a special message or keep the design simple with just her name or initials.\nUser is looking for 4K TV options in the $800-$1,200 price range, and after scoring a 30% discount on a 4K TV from Amazon on Cyber Monday (original price $1,200), wants similar models with good picture quality and HDR support in the $800-$1,000 range.\nUser is interested in waterproof phone cases for outdoor use to protect his phone from water and dust.\nUser is planning a budget-friendly gift for sister's upcoming birthday, considering personalized items and handmade jewelry.\nUser wants soundbar options with good sound quality in a budget of $200-$300.",
+            "latency": 1426.472
+        }
+    ]
+}

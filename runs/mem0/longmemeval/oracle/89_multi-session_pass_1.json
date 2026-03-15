@@ -1,0 +1,22 @@
+{
+    "index": 89,
+    "question_type": "multi-session",
+    "question": "What is the average age of me, my parents, and my grandparents?",
+    "question_date": "2023/05/26 (Fri) 03:27",
+    "ground_truth_answer": "59.6",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_89_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a 32\u2011year\u2011old male who celebrated a birthday on February 12, is motivated to re-establish a regular exercise routine with a focus on weight loss, seeks exercise recommendations suitable for his age, and wants to set a good example for his parents who are 55 and 58.\nUser is excited to start the new workout routine and meal plan, feels more motivated, wants recommendations for apps or tools to track workouts and meals, and plans to track progress and adjust the plan as needed.",
+            "latency": 490.768
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a 32\u2011year\u2011old male who celebrated a birthday on February 12, is motivated to re-establish a regular exercise routine with a focus on weight loss, seeks exercise recommendations suitable for his age, and wants to set a good example for his parents who are 55 and 58.\nUser is excited to start the new workout routine and meal plan, feels more motivated, wants recommendations for apps or tools to track workouts and meals, and plans to track progress and adjust the plan as needed.",
+            "latency": 756.226
+        }
+    ]
+}

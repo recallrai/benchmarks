@@ -1,0 +1,19 @@
+{
+    "index": 50,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my attendance at a cultural festival or the start of my Spanish classes?",
+    "question_date": "2023/05/20 (Sat) 03:39",
+    "ground_truth_answer": "Spanish classes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Spanish classes starting three months prior to the question date but contains no information about attendance at a cultural festival, making it impossible to determine which event occurred first."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions Spanish classes starting three months before the question date, but contains no information about attendance at a cultural festival, making it impossible to determine which event happened first."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 214,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+    "question_date": "2023/05/30 (Tue) 02:48",
+    "ground_truth_answer": "The user would prefer responses that build upon their previous experimentation with turbinado sugar, suggesting ingredients or techniques that complement its richer flavor. They might not prefer generic cookie-making advice or suggestions that don't take into account their existing use of turbinado sugar.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's previous experimentation with turbinado sugar, which is central to the gold answer's guidance about what type of advice would be preferred."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the user's previous experimentation with turbinado sugar or any details that would enable providing the personalized cookie advice described in the gold answer."
+        }
+    ]
+}

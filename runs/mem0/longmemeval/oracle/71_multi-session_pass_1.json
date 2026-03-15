@@ -1,0 +1,22 @@
+{
+    "index": 71,
+    "question_type": "multi-session",
+    "question": "How many movie festivals that I attended?",
+    "question_date": "2023/05/29 (Mon) 08:34",
+    "ground_truth_answer": "I attended four movie festivals.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_71_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is contemplating the role of film festivals in promoting social change and raising awareness about important issues.\nUser attended AFI Fest, watched Joker, and participated in a Q&A session with Todd Phillips and Joaquin Phoenix, reflecting on the film's themes of mental health and societal decay and how those themes resonate with their own festival experiences.\nUser had a conversation with the director of The Weight of Water during a Q&A session at the Seattle International Film Festival, discussing the film's non\u2011linear narrative structure inspired by memory fragmentation, and how this dialogue inspired the user to experiment with non\u2011linear storytelling.\nUser participated in a 48\u2011hour film challenge at the Austin Film Festival, writing, shooting, and editing a short film with their team in just 48 hours, experiencing rapid decision\u2011making and collaborative creativity that resulted in a cohesive final product.\nUser appreciates the mix of camera formats in Joker, noting that the combination adds tension and unease to the film's atmosphere.\nUser assisted with a masterclass workshop led by cinematographer Rachel Morrison at the Portland Film Festival, where Morrison shared insights about her approach to cinematography, her work on films like Mudbound and Black Panther, and impressed the user with her humility and generosity in sharing knowledge.\nUser completed an online cinematography workshop, gaining practical skills in camera techniques and editing software, and has been experimenting with different camera angles, lighting techniques, and editing approaches to develop a personal visual style.",
+            "latency": 505.272
+        },
+        {
+            "strategy": "graph",
+            "context": "User is contemplating the role of film festivals in promoting social change and raising awareness about important issues.\nUser attended AFI Fest, watched Joker, and participated in a Q&A session with Todd Phillips and Joaquin Phoenix, reflecting on the film's themes of mental health and societal decay and how those themes resonate with their own festival experiences.\nUser had a conversation with the director of The Weight of Water during a Q&A session at the Seattle International Film Festival, discussing the film's non\u2011linear narrative structure inspired by memory fragmentation, and how this dialogue inspired the user to experiment with non\u2011linear storytelling.\nUser participated in a 48\u2011hour film challenge at the Austin Film Festival, writing, shooting, and editing a short film with their team in just 48 hours, experiencing rapid decision\u2011making and collaborative creativity that resulted in a cohesive final product.\nUser appreciates the mix of camera formats in Joker, noting that the combination adds tension and unease to the film's atmosphere.\nUser assisted with a masterclass workshop led by cinematographer Rachel Morrison at the Portland Film Festival, where Morrison shared insights about her approach to cinematography, her work on films like Mudbound and Black Panther, and impressed the user with her humility and generosity in sharing knowledge.\nUser completed an online cinematography workshop, gaining practical skills in camera techniques and editing software, and has been experimenting with different camera angles, lighting techniques, and editing approaches to develop a personal visual style.",
+            "latency": 720.836
+        }
+    ]
+}

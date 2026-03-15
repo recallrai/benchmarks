@@ -1,0 +1,22 @@
+{
+    "index": 425,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+    "question_date": "2023/04/01 (Sat) 23:09",
+    "ground_truth_answer": "I got my own set of sculpting tools.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_425_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been attending sculpting classes at a local art studio every Saturday morning from 10\u202fam to 1\u202fpm for about six weeks, enjoying the experience and experimenting with different materials and techniques.",
+            "latency": 567.101
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been attending sculpting classes at a local art studio every Saturday morning from 10\u202fam to 1\u202fpm for about six weeks, enjoying the experience and experimenting with different materials and techniques.",
+            "latency": 784.525
+        }
+    ]
+}

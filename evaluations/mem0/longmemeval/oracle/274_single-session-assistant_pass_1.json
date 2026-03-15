@@ -1,0 +1,19 @@
+{
+    "index": 274,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+    "question_date": "2023/05/30 (Tue) 04:27",
+    "ground_truth_answer": "Fissionator.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Fissionator' multiple times as the name for the radiation-themed zombie, including that the user 'finds Fissionator appealing' and provides extensive details about 'the Fissionator' throughout, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Fissionator' as the name they settled on and uses it consistently throughout to describe the radiation zombie's characteristics and abilities."
+        }
+    ]
+}

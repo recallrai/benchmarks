@@ -1,0 +1,19 @@
+{
+    "index": 68,
+    "question_type": "multi-session",
+    "question": "How many different doctors did I visit?",
+    "question_date": "2023/05/28 (Sun) 06:34",
+    "ground_truth_answer": "I visited three different doctors: a primary care physician, an ENT specialist, and a dermatologist.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three different doctors: Dr. Patel (ENT specialist), Dr. Smith (primary care physician), and Dr. Lee (dermatologist), which matches the gold answer stating three doctors with those same specialties."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three distinct doctors with the same specialties as the gold answer: Dr. Patel (ENT specialist), Dr. Smith (primary care physician), and Dr. Lee (dermatologist)."
+        }
+    ]
+}

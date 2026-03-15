@@ -1,0 +1,19 @@
+{
+    "index": 469,
+    "question_type": "multi-session",
+    "question": "How much did I save on the Jimmy Choo heels?",
+    "question_date": "2023/05/30 (Tue) 18:46",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the Jimmy Choo heels were purchased for $200 with an original retail price of $500, which means the user saved $300 ($500 - $200 = $300), matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the Jimmy Choo heels had an original retail price of $500 and were purchased for $200, which means a savings of $300, matching the gold answer."
+        }
+    ]
+}

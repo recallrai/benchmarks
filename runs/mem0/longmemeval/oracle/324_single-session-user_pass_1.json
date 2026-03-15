@@ -1,0 +1,22 @@
+{
+    "index": 324,
+    "question_type": "single-session-user",
+    "question": "What time do I stop checking work emails and messages?",
+    "question_date": "2023/05/30 (Tue) 12:46",
+    "ground_truth_answer": "7 pm",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_324_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has implemented a boundary of stopping work emails and messages by 7pm to separate work and personal life, which helps User relax and avoid thinking about work during personal time.\nUser has incorporated reading, walking around the neighborhood where User lives, practicing guitar, light stretching, and meditation before bed into the evening routine of User, finding these activities helpful for calming the mind and preparing for sleep.\nUser uses a guided meditation app with body\u2011scan meditation to relax muscles and calm mind before bed, and practices breath focus during the day to reduce stress, noting that deep breathing significantly improves well\u2011being.",
+            "latency": 888.246
+        },
+        {
+            "strategy": "graph",
+            "context": "User has implemented a boundary of stopping work emails and messages by 7pm to separate work and personal life, which helps User relax and avoid thinking about work during personal time.\nUser has incorporated reading, walking around the neighborhood where User lives, practicing guitar, light stretching, and meditation before bed into the evening routine of User, finding these activities helpful for calming the mind and preparing for sleep.\nUser uses a guided meditation app with body\u2011scan meditation to relax muscles and calm mind before bed, and practices breath focus during the day to reduce stress, noting that deep breathing significantly improves well\u2011being.",
+            "latency": 1818.267
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 153,
+    "question_type": "knowledge-update",
+    "question": "What brand of BBQ sauce am I currently obsessed with?",
+    "question_date": "2023/07/02 (Sun) 10:10",
+    "ground_truth_answer": "Kansas City Masterpiece",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'is obsessed with Kansas City Masterpiece BBQ sauce on ribs' and 'currently favoring Kansas City Masterpiece BBQ sauce,' which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'is obsessed with Kansas City Masterpiece BBQ sauce on ribs,' which directly matches the gold answer and answers the question."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 321,
+    "question_type": "single-session-user",
+    "question": "What type of rice is my favorite?",
+    "question_date": "2023/05/25 (Thu) 11:51",
+    "ground_truth_answer": "Japanese short-grain rice",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_321_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user wants to make Japanese-style dishes using their favorite Japanese short-grain rice, looking for simple recipes that pair well with grilled chicken or vegetables.\nThe user plans to make onigiri for lunch, wants tips on shaping them perfectly after previous misshapen attempts, will store them individually wrapped in plastic wrap inside an airtight container in the refrigerator, and seeks additional tips to keep them fresh and prevent drying out.",
+            "latency": 1072.558
+        },
+        {
+            "strategy": "graph",
+            "context": "The user wants to make Japanese-style dishes using their favorite Japanese short-grain rice, looking for simple recipes that pair well with grilled chicken or vegetables.\nThe user plans to make onigiri for lunch, wants tips on shaping them perfectly after previous misshapen attempts, will store them individually wrapped in plastic wrap inside an airtight container in the refrigerator, and seeks additional tips to keep them fresh and prevent drying out.",
+            "latency": 2133.531
+        }
+    ]
+}

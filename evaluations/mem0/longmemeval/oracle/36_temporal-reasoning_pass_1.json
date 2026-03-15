@@ -1,0 +1,19 @@
+{
+    "index": 36,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before my best friend's birthday party did I order her gift?",
+    "question_date": "2022/05/15 (Sun) 06:22",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the gift was ordered on April 15, 2026 and the birthday was celebrated on April 22, 2026, which is 7 days apart (or 8 days including the last day), matching the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the gift was ordered on April 15, 2026 and the birthday party was on April 22, 2026, which is 7 days apart (or 8 days including endpoints), matching the gold answer."
+        }
+    ]
+}

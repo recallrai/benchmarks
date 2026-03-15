@@ -1,0 +1,22 @@
+{
+    "index": 294,
+    "question_type": "single-session-user",
+    "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+    "question_date": "2023/04/02 (Sun) 20:31",
+    "ground_truth_answer": "February 14th",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_294_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User volunteered at the Love is in the Air fundraising dinner on Valentine's Day, enjoyed the energy of bidding on prizes and meeting new people, and found the experience fantastic.\nUser is organizing their calendar for the rest of 2026 and is looking for upcoming charity events in Los Angeles that align with their passions for animal welfare and children's health, and is open to various event types such as galas, runs, auctions, and volunteer days.\nUser plans to attend the Strut Your Mutt event with a few friends who share a passion for animal welfare, looking forward to a fun day out, exercise, supporting a great cause, catching up, and potentially meeting new like-minded people.\nUser is eager to learn more about the silent auction and raffles at the Strut Your Mutt event scheduled for September 18, 2023, and has expressed excitement about similar events they have attended before.",
+            "latency": 1669.276
+        },
+        {
+            "strategy": "graph",
+            "context": "User volunteered at the Love is in the Air fundraising dinner on Valentine's Day, enjoyed the energy of bidding on prizes and meeting new people, and found the experience fantastic.\nUser is organizing their calendar for the rest of 2026 and is looking for upcoming charity events in Los Angeles that align with their passions for animal welfare and children's health, and is open to various event types such as galas, runs, auctions, and volunteer days.\nUser plans to attend the Strut Your Mutt event with a few friends who share a passion for animal welfare, looking forward to a fun day out, exercise, supporting a great cause, catching up, and potentially meeting new like-minded people.\nUser is eager to learn more about the silent auction and raffles at the Strut Your Mutt event scheduled for September 18, 2023, and has expressed excitement about similar events they have attended before.",
+            "latency": 2311.751
+        }
+    ]
+}

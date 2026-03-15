@@ -1,0 +1,22 @@
+{
+    "index": 125,
+    "question_type": "knowledge-update",
+    "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+    "question_date": "2023/12/09 (Sat) 11:53",
+    "ground_truth_answer": "$400,000",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_125_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a prospective homeowner excited to move into a new home soon, looking forward to owning a backyard, and recalling a prior pre\u2011approval for a $400,000 Wells\u202fFargo loan.\nUser wants an estimate of their monthly mortgage payment, property taxes, and insurance.\nUser wants an estimate of how much they will need to pay out of pocket for closing costs if the seller agrees to cover the additional $3,250.\nUser has decided to use Trello as a project management tool for the move and wants to schedule a home insurance policy with Liberty\u202fMutual, seeking tips on what to focus on when reviewing the policy documents.\nUser wants to understand how much of the closing costs can be negotiated with the seller based on the inspection report.\nUser has minor roof and plumbing issues identified in the inspection report, already received a $2,000 credit toward closing costs, and is considering asking the seller to cover an additional 1% of the purchase price ($3,250) to cover closing costs, seeking assessment of reasonableness.\nUser rented a storage unit from a company on March\u202f1st to store belongings while closing on the house and wants to confirm moving details with the storage unit company, including moving date, truck size, and labor assistance.\nUser is located in the 78749 zip code and is seeking cable and TV service providers and their prices for the new home, as well as electricity and gas service providers in the area.\nUser needs to schedule appointments for electricity and gas setup and is looking for a time\u2011tracking tool or app to manage all moving\u2011related appointments and tasks.",
+            "latency": 816.082
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a prospective homeowner excited to move into a new home soon, looking forward to owning a backyard, and recalling a prior pre\u2011approval for a $400,000 Wells\u202fFargo loan.\nUser wants an estimate of their monthly mortgage payment, property taxes, and insurance.\nUser wants an estimate of how much they will need to pay out of pocket for closing costs if the seller agrees to cover the additional $3,250.\nUser has decided to use Trello as a project management tool for the move and wants to schedule a home insurance policy with Liberty\u202fMutual, seeking tips on what to focus on when reviewing the policy documents.\nUser wants to understand how much of the closing costs can be negotiated with the seller based on the inspection report.\nUser has minor roof and plumbing issues identified in the inspection report, already received a $2,000 credit toward closing costs, and is considering asking the seller to cover an additional 1% of the purchase price ($3,250) to cover closing costs, seeking assessment of reasonableness.\nUser rented a storage unit from a company on March\u202f1st to store belongings while closing on the house and wants to confirm moving details with the storage unit company, including moving date, truck size, and labor assistance.\nUser is located in the 78749 zip code and is seeking cable and TV service providers and their prices for the new home, as well as electricity and gas service providers in the area.\nUser needs to schedule appointments for electricity and gas setup and is looking for a time\u2011tracking tool or app to manage all moving\u2011related appointments and tasks.",
+            "latency": 941.711
+        }
+    ]
+}

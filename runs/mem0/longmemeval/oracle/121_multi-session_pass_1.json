@@ -1,0 +1,22 @@
+{
+    "index": 121,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Master's degree?",
+    "question_date": "2023/08/20 (Sun) 14:44",
+    "ground_truth_answer": "The information provided is not enough. You mentioned 4 years in high school (2010-2014), 2 years at PCC (2014-2016), and 4 years at UCLA (2016-2020). But you didn't mention the number of years you spend getting the Master's degree",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_121_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a UCLA Computer Science graduate (2020) with a 3.6 GPA and three consecutive dean's-list honors, attended Arcadia High School from 2010 to 2014, is from Arcadia, California, is considering pursuing a Master's degree in Computer Science, has a strong interest in AI and machine learning\u2014particularly explainable AI and fairness\u2014and intends to email Prof. Ver Steeg and Prof. Seltzer to discuss research opportunities, expressing gratitude for the advice received\nUser is a UCLA Computer Science graduate (2020) with an Associate's degree in Computer Science from Pasadena City College (May 2016), has completed courses in Python programming, data structures, algorithms, and a Data Science specialization from Johns Hopkins University.\nUser is specifically interested in AI applications in medical imaging and diagnostics, especially in radiology and oncology, and has been taking online courses on Coursera and edX to improve machine learning and deep learning skills, eager to apply them to real-world problems.\nand is now seeking to deepen their machine learning and artificial intelligence skills through advanced online courses and resources.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a UCLA Computer Science graduate (2020) with a 3.6 GPA and three consecutive dean's-list honors, attended Arcadia High School from 2010 to 2014, is from Arcadia, California, is considering pursuing a Master's degree in Computer Science, has a strong interest in AI and machine learning\u2014particularly explainable AI and fairness\u2014and intends to email Prof. Ver Steeg and Prof. Seltzer to discuss research opportunities, expressing gratitude for the advice received\nUser is a UCLA Computer Science graduate (2020) with an Associate's degree in Computer Science from Pasadena City College (May 2016), has completed courses in Python programming, data structures, algorithms, and a Data Science specialization from Johns Hopkins University.\nUser is specifically interested in AI applications in medical imaging and diagnostics, especially in radiology and oncology, and has been taking online courses on Coursera and edX to improve machine learning and deep learning skills, eager to apply them to real-world problems.\nand is now seeking to deepen their machine learning and artificial intelligence skills through advanced online courses and resources.",
+            "latency": 724.849
+        }
+    ]
+}

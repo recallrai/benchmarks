@@ -1,0 +1,19 @@
+{
+    "index": 86,
+    "question_type": "multi-session",
+    "question": "Which grocery store did I spend the most money at in the past month?",
+    "question_date": "2023/05/30 (Tue) 20:10",
+    "ground_truth_answer": "Thrive Market",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows spending of $150 at Thrive Market 'last month', $120 at Walmart 'last week', and $80 at Trader Joe's 'the week before last', indicating Thrive Market had the highest spending in the past month period, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions spending $150 at Thrive Market last month, $120 at Walmart last week, and $80 at Trader Joe's the week before last, which shows Thrive Market had the highest spending and matches the gold answer."
+        }
+    ]
+}

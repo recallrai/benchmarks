@@ -1,0 +1,19 @@
+{
+    "index": 491,
+    "question_type": "multi-session",
+    "question": "How much discount will I get on my next purchase at FreshMart?",
+    "question_date": "2023/05/30 (Tue) 10:10",
+    "ground_truth_answer": "$5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions FreshMart loyalty points with a conversion rate where 500 points equal $5 discount, and states the user is planning to use their loyalty points to maximize savings, which aligns with the gold answer of $5."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions FreshMart loyalty points and that 500 points equal $5 discount, it does not explicitly state how many points the user currently has or confirm they will receive a $5 discount on their next purchase."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 373,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amazon gift card from Ibotta'?",
+    "question_date": "2023/05/10 (Wed) 06:18",
+    "ground_truth_answer": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_373_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user plans a trip to Walmart this weekend to look for deals on baby essentials, specifically diapers, and has successfully used a Buy One Get One Free coupon on Luvs diapers at Walmart, finding it a great deal.\nUser is planning a grocery shopping trip for this week, specifically looking for deals on diapers and formula at ShopRite, and has just signed up for ShopRite's rewards program to maximize points and savings.\nUser believes digital coupons can be used in addition to rewards points earned at ShopRite, and wants to confirm that stacking is possible.\nThe user has previously used Ibotta for cashback and liked it, is also using Fetch Rewards for gas purchases, and asks whether Fetch Rewards offers deals on diapers or baby products.\nThe user is considering switching to a digital coupon app and wants more information about how Fetch Rewards and Ibotta work.\nUser has been tracking coupon usage and savings with a spreadsheet, and is seeking efficient methods to organize coupons, rewards programs, and sales, including reminders for expiration dates.\nUser is interested in apps that can track rewards points across multiple stores and programs, aiming for a single app that displays all balances and expiration dates.\nThe user is interested in exploring Fetch Rewards' gas rewards program, is using Fetch Rewards for gas purchases, and wants to understand how it works.\nUser plans to try AwardWallet and Loyalty Card Manager to determine which app better serves their need to track rewards balances and expiration dates.\nUser is evaluating whether to use a store\u2011specific app or a general coupon app like RetailMeNot for finding digital coupons, and wants to know which approach might be better.",
+            "latency": 490.576
+        },
+        {
+            "strategy": "graph",
+            "context": "The user plans a trip to Walmart this weekend to look for deals on baby essentials, specifically diapers, and has successfully used a Buy One Get One Free coupon on Luvs diapers at Walmart, finding it a great deal.\nUser is planning a grocery shopping trip for this week, specifically looking for deals on diapers and formula at ShopRite, and has just signed up for ShopRite's rewards program to maximize points and savings.\nUser believes digital coupons can be used in addition to rewards points earned at ShopRite, and wants to confirm that stacking is possible.\nThe user has previously used Ibotta for cashback and liked it, is also using Fetch Rewards for gas purchases, and asks whether Fetch Rewards offers deals on diapers or baby products.\nThe user is considering switching to a digital coupon app and wants more information about how Fetch Rewards and Ibotta work.\nUser has been tracking coupon usage and savings with a spreadsheet, and is seeking efficient methods to organize coupons, rewards programs, and sales, including reminders for expiration dates.\nUser is interested in apps that can track rewards points across multiple stores and programs, aiming for a single app that displays all balances and expiration dates.\nThe user is interested in exploring Fetch Rewards' gas rewards program, is using Fetch Rewards for gas purchases, and wants to understand how it works.\nUser plans to try AwardWallet and Loyalty Card Manager to determine which app better serves their need to track rewards balances and expiration dates.\nUser is evaluating whether to use a store\u2011specific app or a general coupon app like RetailMeNot for finding digital coupons, and wants to know which approach might be better.",
+            "latency": 702.987
+        }
+    ]
+}

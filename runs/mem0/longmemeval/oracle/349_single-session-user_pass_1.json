@@ -1,0 +1,22 @@
+{
+    "index": 349,
+    "question_type": "single-session-user",
+    "question": "What game did I finally beat last weekend?",
+    "question_date": "2023/05/27 (Sat) 21:54",
+    "ground_truth_answer": "Dark Souls 3 DLC",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_349_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently defeated the final boss in the Dark Souls 3 DLC last weekend after weeks of effort, and expresses that the greatest enjoyment of Dark Souls 3 comes from the sense of accomplishment when overcoming tough bosses or difficult sections.\nUser is planning to build a gaming PC capable of 4K resolution and high frame rates, aiming for the higher end of the $2,500-$3,500 budget range.\nUser is a Mercy main in Overwatch, currently using a sensitivity of 6 and a DPI of 1600, practices flicks and circle jumps in training mode, and is seeking specific tips to improve tracking of fast\u2011moving heroes such as Reaper and Genji.",
+            "latency": 1247.72
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently defeated the final boss in the Dark Souls 3 DLC last weekend after weeks of effort, and expresses that the greatest enjoyment of Dark Souls 3 comes from the sense of accomplishment when overcoming tough bosses or difficult sections.\nUser is planning to build a gaming PC capable of 4K resolution and high frame rates, aiming for the higher end of the $2,500-$3,500 budget range.\nUser is a Mercy main in Overwatch, currently using a sensitivity of 6 and a DPI of 1600, practices flicks and circle jumps in training mode, and is seeking specific tips to improve tracking of fast\u2011moving heroes such as Reaper and Genji.",
+            "latency": 2108.255
+        }
+    ]
+}

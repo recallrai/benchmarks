@@ -1,0 +1,22 @@
+{
+    "index": 257,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+    "question_date": "2023/05/26 (Fri) 15:32",
+    "ground_truth_answer": "28. Kg3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_257_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is playing a chess game as White, has played the move hxg4, and is currently at a position after 28. Kg3 Be6, requesting a move.",
+            "latency": 1737.702
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is playing a chess game as White, has played the move hxg4, and is currently at a position after 28. Kg3 Be6, requesting a move.",
+            "latency": 2437.914
+        }
+    ]
+}

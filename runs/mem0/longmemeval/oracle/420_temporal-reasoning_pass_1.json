@@ -1,0 +1,22 @@
+{
+    "index": 420,
+    "question_type": "temporal-reasoning",
+    "question": "What is the artist that I started to listen to last Friday?",
+    "question_date": "2023/04/05 (Wed) 15:05",
+    "ground_truth_answer": "a bluegrass band that features a banjo player",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_420_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended a music workshop two weeks ago where they played the ukulele, enjoyed it, and is now considering purchasing a ukulele. They are debating whether to start with a cheaper instrument and upgrade later or invest in a higher\u2011end model from the start.\nUser has recently purchased a Fender CD\u201160S acoustic guitar, has been playing it for three weeks, feels they are making good progress, and is eager to further improve their skills.\nUser is interested in exploring more music genres and wants recommendations for jazz musicians or albums.\nUser is exploring additional instruments beyond guitar, specifically the ukulele and saxophone, and is seeking online resources or local music schools that offer lessons for these instruments.\nUser is curious about how fingerpicking style differs between ukulele and guitar.\nUser has rekindled their interest in keyboard playing after listening to piano\u2011centric music, dusted off their old keyboard, played along to favorite songs today, found it easier than expected thanks to muscle memory, and is experimenting with composing simple melodies as a creative outlet.\nUser is actively seeking online learning resources, specifically favoring video lessons from Justin Guitar and TrueFire, and is interested in developing their fingerpicking technique.\nUser is considering buying a metronome to improve guitar playing and wants tips on effective metronome use.\nUser discovered a bluegrass band featuring a banjo player, enjoys their music, is considering trying banjo but unsure if ready, wants recommendations for bluegrass musicians or albums, and seeks advice on choosing between starting with ukulele or banjo.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended a music workshop two weeks ago where they played the ukulele, enjoyed it, and is now considering purchasing a ukulele. They are debating whether to start with a cheaper instrument and upgrade later or invest in a higher\u2011end model from the start.\nUser has recently purchased a Fender CD\u201160S acoustic guitar, has been playing it for three weeks, feels they are making good progress, and is eager to further improve their skills.\nUser is interested in exploring more music genres and wants recommendations for jazz musicians or albums.\nUser is exploring additional instruments beyond guitar, specifically the ukulele and saxophone, and is seeking online resources or local music schools that offer lessons for these instruments.\nUser is curious about how fingerpicking style differs between ukulele and guitar.\nUser has rekindled their interest in keyboard playing after listening to piano\u2011centric music, dusted off their old keyboard, played along to favorite songs today, found it easier than expected thanks to muscle memory, and is experimenting with composing simple melodies as a creative outlet.\nUser is actively seeking online learning resources, specifically favoring video lessons from Justin Guitar and TrueFire, and is interested in developing their fingerpicking technique.\nUser is considering buying a metronome to improve guitar playing and wants tips on effective metronome use.\nUser discovered a bluegrass band featuring a banjo player, enjoys their music, is considering trying banjo but unsure if ready, wants recommendations for bluegrass musicians or albums, and seeks advice on choosing between starting with ukulele or banjo.",
+            "latency": 730.462
+        }
+    ]
+}

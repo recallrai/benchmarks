@@ -1,0 +1,22 @@
+{
+    "index": 183,
+    "question_type": "knowledge-update",
+    "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+    "question_date": "2023/10/12 (Thu) 00:50",
+    "ground_truth_answer": "level 100",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_183_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is specifically interested in playing Apex Legends with friends this weekend, choosing to play for fun rather than focusing on ranking up to level 150, but maintains a long\u2011term goal of reaching level 150 eventually.\nUser is seeking tips to improve aim in Apex Legends.\nUser has a new keyboard and is looking for a new gaming mouse to pair with it for FPS games like Apex Legends, and is determined to reach level 100 in Apex Legends before the end of the year.\nUser intends to focus on completing daily and weekly challenges to earn more experience points and level up faster, viewing this as a motivating way to track progress toward the goal of reaching level 150.\nUser is looking for tips to improve overall gameplay and communication with teammates in Apex Legends.\nUser is looking for a new gaming headset that is PC-compatible and offers good sound quality for games like Apex Legends.\nUser is leaning toward the HyperX Cloud II headset due to its comfort and microphone quality, but has concerns about its surround sound quality being inconsistent in some games, and is uncertain whether these issues would hinder competitive Apex Legends play.\nUser plans to organize a gaming session with friends this weekend, seeking multiplayer games that are easy to pick up but still challenging to master.\nUser is interested in the SteelSeries Rival 600 mouse and wants detailed information about its TrueMove3 sensor and how it compares to other sensors on the market.",
+            "latency": 811.445
+        },
+        {
+            "strategy": "graph",
+            "context": "User is specifically interested in playing Apex Legends with friends this weekend, choosing to play for fun rather than focusing on ranking up to level 150, but maintains a long\u2011term goal of reaching level 150 eventually.\nUser is seeking tips to improve aim in Apex Legends.\nUser has a new keyboard and is looking for a new gaming mouse to pair with it for FPS games like Apex Legends, and is determined to reach level 100 in Apex Legends before the end of the year.\nUser intends to focus on completing daily and weekly challenges to earn more experience points and level up faster, viewing this as a motivating way to track progress toward the goal of reaching level 150.\nUser is looking for tips to improve overall gameplay and communication with teammates in Apex Legends.\nUser is looking for a new gaming headset that is PC-compatible and offers good sound quality for games like Apex Legends.\nUser is leaning toward the HyperX Cloud II headset due to its comfort and microphone quality, but has concerns about its surround sound quality being inconsistent in some games, and is uncertain whether these issues would hinder competitive Apex Legends play.\nUser plans to organize a gaming session with friends this weekend, seeking multiplayer games that are easy to pick up but still challenging to master.\nUser is interested in the SteelSeries Rival 600 mouse and wants detailed information about its TrueMove3 sensor and how it compares to other sensors on the market.",
+            "latency": 926.125
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 425,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+    "question_date": "2023/04/01 (Sat) 23:09",
+    "ground_truth_answer": "I got my own set of sculpting tools.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions attending sculpting classes but does not contain any information about buying sculpting tools or making an investment for a competition, so it cannot be used to answer the question correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions sculpting classes but does not contain any information about buying sculpting tools, making an investment, or a competition, so it cannot be used to answer the question about what was purchased."
+        }
+    ]
+}

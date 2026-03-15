@@ -1,0 +1,19 @@
+{
+    "index": 292,
+    "question_type": "single-session-user",
+    "question": "Where do I take yoga classes?",
+    "question_date": "2023/05/26 (Fri) 15:21",
+    "ground_truth_answer": "Serenity Yoga",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Serenity Yoga' multiple times, including that the user attends classes there and uses a home app on days when they cannot attend Serenity Yoga, which directly answers where they take yoga classes."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'Serenity Yoga' multiple times as the place where the user attends yoga classes, including references to days when they 'cannot attend Serenity Yoga' and looking for brunch spots 'near Serenity Yoga', which directly matches the gold answer."
+        }
+    ]
+}

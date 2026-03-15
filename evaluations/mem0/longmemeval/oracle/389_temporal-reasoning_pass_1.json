@@ -1,0 +1,19 @@
+{
+    "index": 389,
+    "question_type": "temporal-reasoning",
+    "question": "Which mode of transport did I use most recently, a bus or a train?",
+    "question_date": "2023/05/02 (Tue) 14:37",
+    "ground_truth_answer": "train",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions the user 'has been taking many trains for short distances' suggesting recent/ongoing train usage near the question date, while the bus ride to a wedding is mentioned as a completed past event without indicating it was more recent than the trains."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions a train ride on March 3rd with a specific date, while the bus ride to a wedding has no clear date specified, making the March 3rd train the most recently dated transport reference before the question date of May 2, 2023."
+        }
+    ]
+}

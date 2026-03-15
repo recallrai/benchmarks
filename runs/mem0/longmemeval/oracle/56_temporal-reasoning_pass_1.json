@@ -1,0 +1,22 @@
+{
+    "index": 56,
+    "question_type": "temporal-reasoning",
+    "question": "When did I book the Airbnb in Sacramento?",
+    "question_date": "2023/05/25 (Thu) 14:37",
+    "ground_truth_answer": "The information provided is not enough. You only mentioned booking Airbnb in San Francisco.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_56_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip to San Francisco next month for a wedding, intends to stay in Haight\u2011Ashbury via Airbnb, has previously booked an Airbnb there for a best\u2011friend\u2019s wedding with a three\u2011month advance reservation, and recalls a 5\u2011day trip two months ago where they had an amazing time.\nUser plans to travel from San Francisco International Airport by BART to the city and then a short taxi ride to the Airbnb.\nUser is planning to rent a car for the upcoming San Francisco trip and wants recommendations for scenic drives or routes around the Bay Area.\nUser is attending a wedding and is choosing a wine\u2011country gift basket as a unique San Francisco\u2011specific present for the couple. The user is requesting recommendations for wine shops or vendors in San Francisco that can help assemble the gift basket.\nUser wants to know if The Pork Store Cafe serves breakfast all day or only until a certain time.\nUser wore a new navy blue suit to a friend\u2019s wedding, bought from a local tailor, and seeks a similar style in San Francisco, possibly Haight\u2011Ashbury or nearby, considering vintage or thrift stores, and wants a custom suit for an upcoming wedding, looking for tailors in the city.\nUser is seeking recommendations for restaurants and caf\u00e9s within Haight\u2011Ashbury.\nUser took a short 3\u2011day road trip to nearby mountains with family, drove about 4 hours to a campsite, pitched a tent, roasted marshmallows, told ghost stories, and is seeking camping gear recommendations or tips for a comfortable camping experience.\nUser drove about 2 hours to their sister\u2019s place to help her move into a new apartment, had to detour due to a road closure caused by a landslide, and is asking for tips on preparing for road closures or unexpected detours during a road trip.",
+            "latency": 758.213
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip to San Francisco next month for a wedding, intends to stay in Haight\u2011Ashbury via Airbnb, has previously booked an Airbnb there for a best\u2011friend\u2019s wedding with a three\u2011month advance reservation, and recalls a 5\u2011day trip two months ago where they had an amazing time.\nUser plans to travel from San Francisco International Airport by BART to the city and then a short taxi ride to the Airbnb.\nUser is planning to rent a car for the upcoming San Francisco trip and wants recommendations for scenic drives or routes around the Bay Area.\nUser is attending a wedding and is choosing a wine\u2011country gift basket as a unique San Francisco\u2011specific present for the couple. The user is requesting recommendations for wine shops or vendors in San Francisco that can help assemble the gift basket.\nUser wants to know if The Pork Store Cafe serves breakfast all day or only until a certain time.\nUser wore a new navy blue suit to a friend\u2019s wedding, bought from a local tailor, and seeks a similar style in San Francisco, possibly Haight\u2011Ashbury or nearby, considering vintage or thrift stores, and wants a custom suit for an upcoming wedding, looking for tailors in the city.\nUser is seeking recommendations for restaurants and caf\u00e9s within Haight\u2011Ashbury.\nUser took a short 3\u2011day road trip to nearby mountains with family, drove about 4 hours to a campsite, pitched a tent, roasted marshmallows, told ghost stories, and is seeking camping gear recommendations or tips for a comfortable camping experience.\nUser drove about 2 hours to their sister\u2019s place to help her move into a new apartment, had to detour due to a road closure caused by a landslide, and is asking for tips on preparing for road closures or unexpected detours during a road trip.",
+            "latency": 932.813
+        }
+    ]
+}

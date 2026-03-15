@@ -1,0 +1,22 @@
+{
+    "index": 277,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about music theory. You mentioned some online resources for learning music theory. Can you remind me of the website you recommended for free lessons and exercises?",
+    "question_date": "2023/05/30 (Tue) 06:11",
+    "ground_truth_answer": "MusicTheory.net",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_277_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a musician who has been intimidated by music theory but now recognizes its benefits for creativity and technical skill, and is excited to improve playing; they plan to start learning via MusicTheory.net and YouTube channels, actively seeking resources.",
+            "latency": 1598.023
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a musician who has been intimidated by music theory but now recognizes its benefits for creativity and technical skill, and is excited to improve playing; they plan to start learning via MusicTheory.net and YouTube channels, actively seeking resources.",
+            "latency": 2860.0
+        }
+    ]
+}

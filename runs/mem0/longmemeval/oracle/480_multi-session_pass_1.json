@@ -1,0 +1,22 @@
+{
+    "index": 480,
+    "question_type": "multi-session",
+    "question": "How many years older am I than when I graduated from college?",
+    "question_date": "2023/05/27 (Sat) 16:37",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_480_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a Bachelor's degree in Business Administration with a concentration in Marketing from the University of California, Berkeley, completed at age 25, and has been working in digital marketing for a while, actively seeking to stay updated on the latest industry trends.\nUser is interested in professional certifications like the Certified Digital Marketing Professional (CDMP) and Certified Marketing Professional (CMP) to demonstrate expertise and commitment, and wants to know how these certifications can benefit their career.\nUser is a 32\u2011year\u2011old Digital Marketing Specialist at TechSavvy Inc., seeking the CDMP certification to boost skills for current role and future MBA plans, and requests detailed info on prerequisites, exam format, duration, study materials, and ongoing professional development.\nUser works 40-50 hours per week during peak campaign seasons and wants to understand the time commitment for the HubSpot and Coursera courses to ensure they can fit into their demanding schedule.\nUser is considering pursuing an MBA in the near future to advance their career and increase earning potential, and is weighing whether an MBA is a good idea or if alternative paths could achieve similar career goals.\nUser is exploring online courses to enhance marketing skills, specifically in content creation and strategy, and is particularly interested in the HubSpot Content Marketing Certification and Coursera's Digital Marketing Specialization.",
+            "latency": 538.316
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a Bachelor's degree in Business Administration with a concentration in Marketing from the University of California, Berkeley, completed at age 25, and has been working in digital marketing for a while, actively seeking to stay updated on the latest industry trends.\nUser is interested in professional certifications like the Certified Digital Marketing Professional (CDMP) and Certified Marketing Professional (CMP) to demonstrate expertise and commitment, and wants to know how these certifications can benefit their career.\nUser is a 32\u2011year\u2011old Digital Marketing Specialist at TechSavvy Inc., seeking the CDMP certification to boost skills for current role and future MBA plans, and requests detailed info on prerequisites, exam format, duration, study materials, and ongoing professional development.\nUser works 40-50 hours per week during peak campaign seasons and wants to understand the time commitment for the HubSpot and Coursera courses to ensure they can fit into their demanding schedule.\nUser is considering pursuing an MBA in the near future to advance their career and increase earning potential, and is weighing whether an MBA is a good idea or if alternative paths could achieve similar career goals.\nUser is exploring online courses to enhance marketing skills, specifically in content creation and strategy, and is particularly interested in the HubSpot Content Marketing Certification and Coursera's Digital Marketing Specialization.",
+            "latency": 762.023
+        }
+    ]
+}

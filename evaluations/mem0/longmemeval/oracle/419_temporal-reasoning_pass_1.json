@@ -1,0 +1,19 @@
+{
+    "index": 419,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet with during the lunch last Tuesday?",
+    "question_date": "2023/04/18 (Tue) 02:06",
+    "ground_truth_answer": "Emma",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about a lunch meeting 'last Tuesday' relative to 2023/04/18, which would be around 2023/04/11, but the retrieved context mentions meeting Emma for lunch on January 28, 2026, which is nearly 3 years in the future from the question date and cannot refer to the same event."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about 'last Tuesday' relative to 2023/04/18 (which would be 2023/04/11), but the retrieved context mentions a lunch meeting with Emma on January 28, 2026, which is a completely different date."
+        }
+    ]
+}

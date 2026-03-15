@@ -1,0 +1,19 @@
+{
+    "index": 337,
+    "question_type": "single-session-user",
+    "question": "What book am I currently reading?",
+    "question_date": "2023/05/27 (Sat) 20:04",
+    "ground_truth_answer": "The Seven Husbands of Evelyn Hugo",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'currently devouring The Seven Husbands of Evelyn Hugo', which matches the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'currently devouring The Seven Husbands of Evelyn Hugo', which directly matches the gold answer."
+        }
+    ]
+}

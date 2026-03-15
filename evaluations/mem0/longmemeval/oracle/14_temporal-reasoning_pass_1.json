@@ -1,0 +1,19 @@
+{
+    "index": 14,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+    "question_date": "2023/05/22 (Mon) 13:04",
+    "ground_truth_answer": "Fixing the fence",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions goat hoof trimming but contains no information about fixing a fence, which is the task that should have been completed first according to the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions goat hoof trimming but does not mention fixing the fence at all, nor does it provide any information about the relative timing of these two tasks that would allow answering which was completed first."
+        }
+    ]
+}

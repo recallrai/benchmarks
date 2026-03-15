@@ -1,0 +1,22 @@
+{
+    "index": 334,
+    "question_type": "single-session-user",
+    "question": "How much screen time have I been averaging on Instagram per day?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "2 hours",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_334_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User currently spends about two hours per day on Instagram for the past two weeks, wants to cut that down to a 30\u2011minute daily limit, and is considering a gradual reduction approach to make the change sustainable.\nUser is actively trying to reduce social media usage, especially the anxiety of waiting for responses on WhatsApp and Facebook Messenger, likes the idea of designating specific check-in times for social media, and is seeking strategies to stay connected with loved ones without falling into mindless scrolling.\nUser plans to incorporate doodling into work breaks as a creative and relaxing outlet, recalling that drawing was enjoyable in youth, and is looking for tips and favorite patterns to get started.",
+            "latency": 1296.749
+        },
+        {
+            "strategy": "graph",
+            "context": "User currently spends about two hours per day on Instagram for the past two weeks, wants to cut that down to a 30\u2011minute daily limit, and is considering a gradual reduction approach to make the change sustainable.\nUser is actively trying to reduce social media usage, especially the anxiety of waiting for responses on WhatsApp and Facebook Messenger, likes the idea of designating specific check-in times for social media, and is seeking strategies to stay connected with loved ones without falling into mindless scrolling.\nUser plans to incorporate doodling into work breaks as a creative and relaxing outlet, recalling that drawing was enjoyable in youth, and is looking for tips and favorite patterns to get started.",
+            "latency": 2274.7
+        }
+    ]
+}

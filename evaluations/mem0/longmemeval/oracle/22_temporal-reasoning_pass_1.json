@@ -1,0 +1,19 @@
+{
+    "index": 22,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+    "question_date": "2023/12/10 (Sun) 19:41",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user attended the Holiday Market 'a week before Black Friday' and purchased the iPhone 13 Pro 'on Black Friday', which indicates a 7-day difference matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the Holiday Market was attended 'a week before Black Friday' and the iPhone 13 Pro was purchased 'on Black Friday', which means 7 days apart, matching the gold answer."
+        }
+    ]
+}

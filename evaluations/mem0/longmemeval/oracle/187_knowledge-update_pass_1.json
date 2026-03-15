@@ -1,0 +1,19 @@
+{
+    "index": 187,
+    "question_type": "knowledge-update",
+    "question": "Do I have a spare screwdriver for opening up my laptop?",
+    "question_date": "2023/09/06 (Wed) 17:02",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'now has a spare screwdriver from earlier desk organization' in relation to the laptop RAM upgrade, which directly confirms the gold answer of 'Yes'."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user 'now has a spare screwdriver from earlier desk organization' in relation to their laptop RAM upgrade plans, which matches the gold answer of 'Yes'."
+        }
+    ]
+}

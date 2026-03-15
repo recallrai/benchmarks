@@ -1,0 +1,19 @@
+{
+    "index": 171,
+    "question_type": "knowledge-update",
+    "question": "What was my previous personal best time for the charity 5K run?",
+    "question_date": "2023/08/23 (Wed) 07:49",
+    "ground_truth_answer": "27 minutes and 45 seconds",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a personal best time of 26 minutes and 30 seconds but does not contain any information about the previous personal best time of 27 minutes and 45 seconds."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a recent personal best of 26 minutes and 30 seconds, but the question asks for the 'previous' personal best (27 minutes and 45 seconds), which is not mentioned in the context."
+        }
+    ]
+}

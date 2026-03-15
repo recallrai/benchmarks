@@ -1,0 +1,22 @@
+{
+    "index": 270,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+    "question_date": "2023/05/28 (Sun) 06:43",
+    "ground_truth_answer": "2014.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_270_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants the assistant to remember the case of Bajimaya v Reward Homes Pty Ltd.\nUser wants three meta titles (\u226470 characters) and three meta descriptions (\u2264155 characters) for the article.\nUser wants a compelling conclusion title for the article\u2019s conclusion paragraph.",
+            "latency": 1351.791
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants the assistant to remember the case of Bajimaya v Reward Homes Pty Ltd.\nUser wants three meta titles (\u226470 characters) and three meta descriptions (\u2264155 characters) for the article.\nUser wants a compelling conclusion title for the article\u2019s conclusion paragraph.",
+            "latency": 2263.433
+        }
+    ]
+}

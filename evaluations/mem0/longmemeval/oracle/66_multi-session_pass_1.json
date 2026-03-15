@@ -1,0 +1,19 @@
+{
+    "index": 66,
+    "question_type": "multi-session",
+    "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+    "question_date": "2023/05/05 (Fri) 19:59",
+    "ground_truth_answer": "$185",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one specific bike-related expense ($40 for bike lights) and does not provide enough information to determine the total of $185 in bike-related expenses since the start of 2023, nor do the dates in the context align with the 2023 question timeframe."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions one specific bike expense ($40 for bike lights) and references events from 2026, while the question asks about expenses in 2023, making it impossible to arrive at the gold answer of $185 total."
+        }
+    ]
+}

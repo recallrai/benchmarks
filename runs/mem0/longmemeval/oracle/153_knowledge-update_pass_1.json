@@ -1,0 +1,22 @@
+{
+    "index": 153,
+    "question_type": "knowledge-update",
+    "question": "What brand of BBQ sauce am I currently obsessed with?",
+    "question_date": "2023/07/02 (Sun) 10:10",
+    "ground_truth_answer": "Kansas City Masterpiece",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_153_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants recommendations for a good BBQ sauce to serve with pulled pork on a bun with coleslaw and pickles, currently favoring Kansas City Masterpiece BBQ sauce but open to other options.\nUser loves mac and cheese, considers it a favorite of both self and friends, wants Sweet Baby Ray's BBQ sauce for ribs, and is looking for smoked brisket recipes.\nUser will try the Brisket recipe, wants info on wood chips for smoking, plans to use post oak wood chips, seeks a BBQ rub that complements Sweet Baby Ray's sauce for brisket and ribs, has a Weber gas grill, and is obsessed with Kansas City Masterpiece BBQ sauce on ribs.\nUser has chosen Killer Hogs BBQ Rub and wants tips on how to prep brisket before applying the rub.\nUser wants tips on how to make delicious pulled pork and what type of wood is good for smoking it.\nUser wants tips on grilling pineapple, including what type of pineapple is best for grilling, and references a friend Emily who brought grilled pineapple to a birthday party.\nUser is planning to host another backyard BBQ soon, intending to serve smoked brisket, grilled pineapple, burgers, hot dogs, and pulled pork on buns with coleslaw and pickles, and wants side dish suggestions that pair well with ribs and brisket, including a coleslaw recipe to cut the meat's richness.\nUser wants suggestions to make burgers and hot dogs more interesting, including unique toppings or preparation methods.\nUser intends to trim excess fat and remove silver skin from brisket before applying the rub, and wants tips on setting up smoker for the Low and Slow Smoked Brisket recipe.",
+            "latency": 600.416
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants recommendations for a good BBQ sauce to serve with pulled pork on a bun with coleslaw and pickles, currently favoring Kansas City Masterpiece BBQ sauce but open to other options.\nUser loves mac and cheese, considers it a favorite of both self and friends, wants Sweet Baby Ray's BBQ sauce for ribs, and is looking for smoked brisket recipes.\nUser will try the Brisket recipe, wants info on wood chips for smoking, plans to use post oak wood chips, seeks a BBQ rub that complements Sweet Baby Ray's sauce for brisket and ribs, has a Weber gas grill, and is obsessed with Kansas City Masterpiece BBQ sauce on ribs.\nUser has chosen Killer Hogs BBQ Rub and wants tips on how to prep brisket before applying the rub.\nUser wants tips on how to make delicious pulled pork and what type of wood is good for smoking it.\nUser wants tips on grilling pineapple, including what type of pineapple is best for grilling, and references a friend Emily who brought grilled pineapple to a birthday party.\nUser is planning to host another backyard BBQ soon, intending to serve smoked brisket, grilled pineapple, burgers, hot dogs, and pulled pork on buns with coleslaw and pickles, and wants side dish suggestions that pair well with ribs and brisket, including a coleslaw recipe to cut the meat's richness.\nUser wants suggestions to make burgers and hot dogs more interesting, including unique toppings or preparation methods.\nUser intends to trim excess fat and remove silver skin from brisket before applying the rub, and wants tips on setting up smoker for the Low and Slow Smoked Brisket recipe.",
+            "latency": 807.479
+        }
+    ]
+}

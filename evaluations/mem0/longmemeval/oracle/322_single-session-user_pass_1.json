@@ -1,0 +1,19 @@
+{
+    "index": 322,
+    "question_type": "single-session-user",
+    "question": "Who did I have a conversation with about destiny?",
+    "question_date": "2023/05/28 (Sun) 20:15",
+    "ground_truth_answer": "Sarah",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'a recent conversation with friend Sarah who said everything happens for a reason, prompting the user to explore beliefs about destiny,' which directly answers who the user discussed destiny with."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'a recent conversation with friend Sarah who said everything happens for a reason, prompting the user to explore beliefs about destiny,' which directly answers the question and matches the gold answer."
+        }
+    ]
+}

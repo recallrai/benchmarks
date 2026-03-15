@@ -1,0 +1,19 @@
+{
+    "index": 45,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+    "question_date": "2023/05/29 (Mon) 09:14",
+    "ground_truth_answer": "Receiving the new phone case",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the phone case was purchased about a month ago while the phone charger was lost two weeks ago, confirming the phone case came first as stated in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the phone case was purchased 'about a month ago' while the phone charger was lost 'two weeks ago', indicating the phone case came first, which matches the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 181,
+    "question_type": "knowledge-update",
+    "question": "How many projects have I completed since starting painting classes?",
+    "question_date": "2023/10/20 (Fri) 12:00",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'has completed five projects since starting painting classes' which directly matches the gold answer of 5."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'has completed five projects since starting painting classes,' which directly matches the gold answer of 5."
+        }
+    ]
+}

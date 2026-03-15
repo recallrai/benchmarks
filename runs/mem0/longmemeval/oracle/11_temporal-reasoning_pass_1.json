@@ -1,0 +1,22 @@
+{
+    "index": 11,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the purchase of the coffee maker or the malfunction of the stand mixer?",
+    "question_date": "2023/05/22 (Mon) 18:10",
+    "ground_truth_answer": "The malfunction of the stand mixer",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_11_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User had their stand mixer repaired last month, which took two weeks, and during that time they baked several items by hand.\nUser is seeking dessert recipes that do not require a stand mixer, possibly using their new coffee maker or other appliances, due to the recent stand mixer repair.\nUser bought a black and stainless steel coffee maker from a well-known brand about three weeks ago and uses it every morning; they are experiencing performance issues and want cleaning and maintenance tips.\nUser has used 20 of the 50 coffee pods in their machine and is considering cleaning the coffee pod compartment; they want guidance on how often to clean it.\nUser is planning a dinner party soon and wants recommendations for essential kitchen utensils that can help if the stand mixer breaks down again.\nUser is interested in making Coffee Cr\u00e8me Br\u00fbl\u00e9e and wants detailed tips on achieving a proper caramelized sugar crust.\nUser wants slow cooker recipes featuring peppers and onions, specifically alternatives to chili con carne such as pepper and onion chicken taco.\nUser has leftover peppers and onions from chicken fajitas and wants recipe ideas to use them before they spoil.",
+            "latency": 901.635
+        },
+        {
+            "strategy": "graph",
+            "context": "User had their stand mixer repaired last month, which took two weeks, and during that time they baked several items by hand.\nUser is seeking dessert recipes that do not require a stand mixer, possibly using their new coffee maker or other appliances, due to the recent stand mixer repair.\nUser bought a black and stainless steel coffee maker from a well-known brand about three weeks ago and uses it every morning; they are experiencing performance issues and want cleaning and maintenance tips.\nUser has used 20 of the 50 coffee pods in their machine and is considering cleaning the coffee pod compartment; they want guidance on how often to clean it.\nUser is planning a dinner party soon and wants recommendations for essential kitchen utensils that can help if the stand mixer breaks down again.\nUser is interested in making Coffee Cr\u00e8me Br\u00fbl\u00e9e and wants detailed tips on achieving a proper caramelized sugar crust.\nUser wants slow cooker recipes featuring peppers and onions, specifically alternatives to chili con carne such as pepper and onion chicken taco.\nUser has leftover peppers and onions from chicken fajitas and wants recipe ideas to use them before they spoil.",
+            "latency": 1450.866
+        }
+    ]
+}

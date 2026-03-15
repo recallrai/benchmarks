@@ -1,0 +1,22 @@
+{
+    "index": 398,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the charity gala or the charity bake sale?",
+    "question_date": "2023/05/01 (Mon) 02:55",
+    "ground_truth_answer": "I participated in the charity bake sale first.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_398_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants suggestions for a charity-focused social media post to promote their bake sale and encourage donations.\nUser wants a template for a charity thank-you note or email to send to donors and supporters after the bake sale.\nUser wants information on how the funds raised from the charity walk for cancer research will be used to support cancer research.\nUser participated in a charity walk for cancer research last month and is looking for tips on how to stay motivated to continue participating in charity events and giving back to the community, expressing a desire to keep the momentum going after a busy period of charitable activity.\nUser wants to mention their attendance at a charity gala tonight on their fundraising page to inspire donors.\nUser is organizing a charity bake sale at their office today and is seeking healthy, savory, easy-to-make, non-perishable snack ideas to balance sweet treats.\nUser plans to run a charity 5K soon to raise money for the local food bank, wants a good training plan, wants to set goals and challenges to stay motivated, and hopes to surpass previous $250 fundraising goal.\nUser is seeking suggestions for good fundraising page platforms and later chooses Classy as the platform to use.\nUser wants a simple recipe with exact measurements for Spicy Roasted Chickpeas.",
+            "latency": 576.534
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants suggestions for a charity-focused social media post to promote their bake sale and encourage donations.\nUser wants a template for a charity thank-you note or email to send to donors and supporters after the bake sale.\nUser wants information on how the funds raised from the charity walk for cancer research will be used to support cancer research.\nUser participated in a charity walk for cancer research last month and is looking for tips on how to stay motivated to continue participating in charity events and giving back to the community, expressing a desire to keep the momentum going after a busy period of charitable activity.\nUser wants to mention their attendance at a charity gala tonight on their fundraising page to inspire donors.\nUser is organizing a charity bake sale at their office today and is seeking healthy, savory, easy-to-make, non-perishable snack ideas to balance sweet treats.\nUser plans to run a charity 5K soon to raise money for the local food bank, wants a good training plan, wants to set goals and challenges to stay motivated, and hopes to surpass previous $250 fundraising goal.\nUser is seeking suggestions for good fundraising page platforms and later chooses Classy as the platform to use.\nUser wants a simple recipe with exact measurements for Spicy Roasted Chickpeas.",
+            "latency": 825.728
+        }
+    ]
+}

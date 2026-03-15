@@ -1,0 +1,22 @@
+{
+    "index": 381,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+    "question_date": "2023/04/01 (Sat) 16:11",
+    "ground_truth_answer": "24 days. 25 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_381_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User owns a Taylor GS Mini with high action causing left\u2011hand discomfort, plans to take it to guitar tech Joe at Guitar Central by month\u2019s end for a full setup, and has recently had it serviced, resulting in perfect action and increased comfort.\nUser has started ukulele lessons with friend Rachel, enjoys progress, and seeks practice tips to improve chord changes and fingerpicking technique, focusing on reducing tension, developing finger independence, using a metronome, and building patterns gradually.\nUser seeks a new guitar amp to replace Fender Mustang I V2, suitable for practice and gigs, to enhance Taylor GS Mini. They evaluate Fender Acoustic 40 and Fishman Loudbox Mini, both within budget, and consider AER Compact 60 slightly above budget; the GS Mini has been serviced with perfect action.\nUser is taking ukulele lessons with friend Rachel, enjoys progress, and struggles with fingerpicking, tangled fingers, and smooth sound. They seek tips to improve technique, focusing on reducing tension, developing finger independence, using a metronome, and building patterns gradually.\nUser is interested in exploring effects pedals or accessories to enhance sound, specifically a compressor pedal to even out dynamics and add sustain, complementing their Taylor GS Mini and Fender Mustang I V2.\nUser is a music enthusiast playing a Yamaha P\u2011125, searching for a new keyboard with weighted keys, recording capability, USB connectivity, within $500\u2013$1,000. They play classical and jazz, want a good piano sound, and are considering Korg B1 and Roland FP-10 but are unsure about weighted keys.\nUser is considering selling their Hohner Special 20 harmonica on eBay, wants advice on pricing and photography, and has not been played in ages, collecting dust in their music room.",
+            "latency": 505.807
+        },
+        {
+            "strategy": "graph",
+            "context": "User owns a Taylor GS Mini with high action causing left\u2011hand discomfort, plans to take it to guitar tech Joe at Guitar Central by month\u2019s end for a full setup, and has recently had it serviced, resulting in perfect action and increased comfort.\nUser has started ukulele lessons with friend Rachel, enjoys progress, and seeks practice tips to improve chord changes and fingerpicking technique, focusing on reducing tension, developing finger independence, using a metronome, and building patterns gradually.\nUser seeks a new guitar amp to replace Fender Mustang I V2, suitable for practice and gigs, to enhance Taylor GS Mini. They evaluate Fender Acoustic 40 and Fishman Loudbox Mini, both within budget, and consider AER Compact 60 slightly above budget; the GS Mini has been serviced with perfect action.\nUser is taking ukulele lessons with friend Rachel, enjoys progress, and struggles with fingerpicking, tangled fingers, and smooth sound. They seek tips to improve technique, focusing on reducing tension, developing finger independence, using a metronome, and building patterns gradually.\nUser is interested in exploring effects pedals or accessories to enhance sound, specifically a compressor pedal to even out dynamics and add sustain, complementing their Taylor GS Mini and Fender Mustang I V2.\nUser is a music enthusiast playing a Yamaha P\u2011125, searching for a new keyboard with weighted keys, recording capability, USB connectivity, within $500\u2013$1,000. They play classical and jazz, want a good piano sound, and are considering Korg B1 and Roland FP-10 but are unsure about weighted keys.\nUser is considering selling their Hohner Special 20 harmonica on eBay, wants advice on pricing and photography, and has not been played in ages, collecting dust in their music room.",
+            "latency": 716.833
+        }
+    ]
+}

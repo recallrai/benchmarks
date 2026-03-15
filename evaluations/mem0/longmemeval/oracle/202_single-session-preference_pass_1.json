@@ -1,0 +1,19 @@
+{
+    "index": 202,
+    "question_type": "single-session-preference",
+    "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+    "question_date": "2023/05/22 (Mon) 14:25",
+    "ground_truth_answer": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for medical image analysis. They would not be interested in general AI topics or those unrelated to healthcare.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly indicates the user is a professional in deep learning for medical image analysis seeking research papers and recent advancements, which directly aligns with the gold answer's specification of AI in healthcare and medical image analysis topics."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly indicates the user works in deep learning for medical image analysis and seeks information on specific related topics (segmentation, explainable AI, multi-modal fusion, etc.), which aligns with the gold answer's specification that recommendations should focus on AI in healthcare and deep learning for medical image analysis."
+        }
+    ]
+}

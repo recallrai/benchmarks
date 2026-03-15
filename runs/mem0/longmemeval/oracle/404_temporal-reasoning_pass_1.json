@@ -1,0 +1,22 @@
+{
+    "index": 404,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I participate in the 5K charity run?",
+    "question_date": "2023/03/26 (Sun) 10:22",
+    "ground_truth_answer": "7 days ago. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_404_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently completed a 5K charity run with a time of 27 minutes and 12 seconds, which served as a strong motivator for getting back into running.\nUser wants to explore new areas of the city for running and is interested in joining a running group or club to meet other runners and receive route suggestions.\nUser is seeking guidance on how to effectively reach out to a running group and request a route suggestion.\nUser is looking for new running routes in their city that are 3-5 miles long, prefer roads that are flat, easy to navigate, have minimal traffic, good lighting, and sidewalks or pedestrian paths, and typically runs in the morning around 7-8 am.\nUser is considering joining a Saturday morning running group and wants to obtain a route suggestion from the group before deciding to join, to ensure the group\u2019s routes fit their preferences.\nUser is looking for beginner-friendly routes or training programs offered by running groups or clubs, as they are just getting back into running.\nUser enjoys playing volleyball and tennis with friends and believes that running with a group would provide social benefits and support as they get back into running.",
+            "latency": 932.454
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently completed a 5K charity run with a time of 27 minutes and 12 seconds, which served as a strong motivator for getting back into running.\nUser wants to explore new areas of the city for running and is interested in joining a running group or club to meet other runners and receive route suggestions.\nUser is seeking guidance on how to effectively reach out to a running group and request a route suggestion.\nUser is looking for new running routes in their city that are 3-5 miles long, prefer roads that are flat, easy to navigate, have minimal traffic, good lighting, and sidewalks or pedestrian paths, and typically runs in the morning around 7-8 am.\nUser is considering joining a Saturday morning running group and wants to obtain a route suggestion from the group before deciding to join, to ensure the group\u2019s routes fit their preferences.\nUser is looking for beginner-friendly routes or training programs offered by running groups or clubs, as they are just getting back into running.\nUser enjoys playing volleyball and tennis with friends and believes that running with a group would provide social benefits and support as they get back into running.",
+            "latency": 1495.071
+        }
+    ]
+}

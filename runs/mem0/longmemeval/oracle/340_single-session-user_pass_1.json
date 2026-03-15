@@ -1,0 +1,22 @@
+{
+    "index": 340,
+    "question_type": "single-session-user",
+    "question": "What time do I usually get home from work on weeknights?",
+    "question_date": "2023/05/29 (Mon) 16:15",
+    "ground_truth_answer": "6:30 pm",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_340_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User follows a routine that starts with arriving home at 6:30\u202fpm on weekdays, preparing dinner, doing yoga, and then spending an hour on language learning Tuesdays and Thursdays, reinforcing the habit.\nUser categorizes tasks into must\u2011do, should\u2011do, and nice\u2011to\u2011do, and dedicates an hour on Tuesdays and Thursdays to language learning, noting slow but steady progress.\nUser is looking for simple and quick dinner recipes to prepare during the week, and specifically likes one-pot pasta and chicken fajitas, which fit into an hour between arriving home and starting dinner.\nUser plans to prep ingredients ahead of time to save cooking time, and is interested in effective weekly planning and task prioritization methods.",
+            "latency": 954.47
+        },
+        {
+            "strategy": "graph",
+            "context": "User follows a routine that starts with arriving home at 6:30\u202fpm on weekdays, preparing dinner, doing yoga, and then spending an hour on language learning Tuesdays and Thursdays, reinforcing the habit.\nUser categorizes tasks into must\u2011do, should\u2011do, and nice\u2011to\u2011do, and dedicates an hour on Tuesdays and Thursdays to language learning, noting slow but steady progress.\nUser is looking for simple and quick dinner recipes to prepare during the week, and specifically likes one-pot pasta and chicken fajitas, which fit into an hour between arriving home and starting dinner.\nUser plans to prep ingredients ahead of time to save cooking time, and is interested in effective weekly planning and task prioritization methods.",
+            "latency": 1726.329
+        }
+    ]
+}

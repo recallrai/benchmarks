@@ -1,0 +1,22 @@
+{
+    "index": 18,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "Smart thermostat",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_18_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User set up a smart thermostat a month ago; the thermostat learns the user\u2019s schedule and preferences, automatically adjusts temperature when the user is not home or sleeping, and has helped reduce the user\u2019s energy bills.\nUser wants to upgrade from a 5\u2011year\u2011old desktop that freezes, planning to spend $800\u2013$1,200 on a traditional desktop that can fully support their new mesh network system, prioritizing strong Wi\u2011Fi\u202f6 connectivity and overall performance to handle the improved internet connection.",
+            "latency": 854.93
+        },
+        {
+            "strategy": "graph",
+            "context": "User set up a smart thermostat a month ago; the thermostat learns the user\u2019s schedule and preferences, automatically adjusts temperature when the user is not home or sleeping, and has helped reduce the user\u2019s energy bills.\nUser wants to upgrade from a 5\u2011year\u2011old desktop that freezes, planning to spend $800\u2013$1,200 on a traditional desktop that can fully support their new mesh network system, prioritizing strong Wi\u2011Fi\u202f6 connectivity and overall performance to handle the improved internet connection.",
+            "latency": 1567.812
+        }
+    ]
+}

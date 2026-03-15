@@ -1,0 +1,19 @@
+{
+    "index": 309,
+    "question_type": "single-session-user",
+    "question": "What breed is my dog?",
+    "question_date": "2023/05/23 (Tue) 03:16",
+    "ground_truth_answer": "Golden Retriever",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that Max is a Golden Retriever, which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'Max, a Golden Retriever' which directly matches the gold answer and allows the question about the dog's breed to be correctly answered."
+        }
+    ]
+}

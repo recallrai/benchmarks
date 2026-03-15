@@ -1,0 +1,22 @@
+{
+    "index": 276,
+    "question_type": "single-session-assistant",
+    "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+    "question_date": "2023/05/30 (Tue) 04:21",
+    "ground_truth_answer": "The designation on your jumpsuit was 'LIV'.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_276_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is searching for a specific file number in a facility, using clues from a jumpsuit designation \"LIV\" and a clipboard note, and realizes that \"LIV\" is the Roman numeral for 54, leading the user to target file number 54.\nThe user locates file 54, which is labeled \"Experiment in progress\" and contains the name \"A\"; the user then determines that the relevant information is actually in the previous iteration, prompting a search for file 53.\nThe user discovers file 53, containing charts, a crossed\u2011off name 'A' marked DISCHARGED, a note about subject A's resistance and early termination, and handwritten instructions to find the subject in Incubation, wake them, give the opposite of the memory unlock dosage, and obtain a keycard and Directory.\nThe user realizes they lack a clear route to the security area, recalls the presence of colored pipes, and follows the green pipe after receiving advice via a walky\u2011talky with a green button, ultimately reaching the security room.\nThe user inserts a green\u2011stripe keycard into a security panel, gains access to a control room featuring monitors labeled \"NARCO CHAMBERS\", and encounters a password screen requiring a five\u2011letter password.",
+            "latency": 1149.435
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is searching for a specific file number in a facility, using clues from a jumpsuit designation \"LIV\" and a clipboard note, and realizes that \"LIV\" is the Roman numeral for 54, leading the user to target file number 54.\nThe user locates file 54, which is labeled \"Experiment in progress\" and contains the name \"A\"; the user then determines that the relevant information is actually in the previous iteration, prompting a search for file 53.\nThe user discovers file 53, containing charts, a crossed\u2011off name 'A' marked DISCHARGED, a note about subject A's resistance and early termination, and handwritten instructions to find the subject in Incubation, wake them, give the opposite of the memory unlock dosage, and obtain a keycard and Directory.\nThe user realizes they lack a clear route to the security area, recalls the presence of colored pipes, and follows the green pipe after receiving advice via a walky\u2011talky with a green button, ultimately reaching the security room.\nThe user inserts a green\u2011stripe keycard into a security panel, gains access to a control room featuring monitors labeled \"NARCO CHAMBERS\", and encounters a password screen requiring a five\u2011letter password.",
+            "latency": 2112.722
+        }
+    ]
+}

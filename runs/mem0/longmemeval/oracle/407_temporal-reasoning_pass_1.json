@@ -1,0 +1,22 @@
+{
+    "index": 407,
+    "question_type": "temporal-reasoning",
+    "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+    "question_date": "2022/08/20 (Sat) 11:32",
+    "ground_truth_answer": "Emma graduated first, followed by Rachel and then Alex.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_407_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "Emma did not give a speech at the graduation ceremony but received several awards for academic achievements.\nUser plans to write a heartfelt letter to Emma, following advice on letter writing, intending to include specific memories and anecdotes to make the letter more special.\nThe user just returned from friend Rachel's master's degree graduation ceremony yesterday, which was amazing; Rachel must be thrilled to finally have that behind her.\nUser plans to give niece Emma a personalized necklace engraved with her name and graduation year, and is looking for online stores that sell customized jewelry after attending Emma's graduation ceremony on a sunny Saturday in late May, which was an emotional experience.\nUser is considering reaching out to Alex to check in on his job search progress, debating whether to call him or send a LinkedIn message.\nUser plans to give cousin Alex a personalized gift: a Coursera Machine Learning course by Andrew Ng, including a personalized congratulatory message, to aid his job search.\nUser chose the closing sentence: 'Remember, your dreams are within reach, and I'll be cheering you on every step of the way.'\nThe user is planning a trip to visit family soon and wants to give cousin John a personalized gift for his engineering graduation, considering an engraved accessory or customized item for his new job.",
+            "latency": 497.678
+        },
+        {
+            "strategy": "graph",
+            "context": "Emma did not give a speech at the graduation ceremony but received several awards for academic achievements.\nUser plans to write a heartfelt letter to Emma, following advice on letter writing, intending to include specific memories and anecdotes to make the letter more special.\nThe user just returned from friend Rachel's master's degree graduation ceremony yesterday, which was amazing; Rachel must be thrilled to finally have that behind her.\nUser plans to give niece Emma a personalized necklace engraved with her name and graduation year, and is looking for online stores that sell customized jewelry after attending Emma's graduation ceremony on a sunny Saturday in late May, which was an emotional experience.\nUser is considering reaching out to Alex to check in on his job search progress, debating whether to call him or send a LinkedIn message.\nUser plans to give cousin Alex a personalized gift: a Coursera Machine Learning course by Andrew Ng, including a personalized congratulatory message, to aid his job search.\nUser chose the closing sentence: 'Remember, your dreams are within reach, and I'll be cheering you on every step of the way.'\nThe user is planning a trip to visit family soon and wants to give cousin John a personalized gift for his engineering graduation, considering an engraved accessory or customized item for his new job.",
+            "latency": 697.0
+        }
+    ]
+}

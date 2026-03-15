@@ -1,0 +1,22 @@
+{
+    "index": 103,
+    "question_type": "multi-session",
+    "question": "How many kitchen items did I replace or fix?",
+    "question_date": "2023/05/29 (Mon) 20:45",
+    "ground_truth_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_103_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User upgraded the kitchen with a touchless Moen faucet, new IKEA mat, new toaster oven, cleaned counters, fixed shelves, and decluttered countertops by replacing an old toaster, now seeking tips to organize utensils and gadgets.\nUser is excited to try a Radish Kimchi recipe and wants suggestions on how to store kimchi in the refrigerator to keep it fresh for a longer period.\nUser wants to use the new toaster oven to make Korean-style roasted vegetables to pair with the Radish Kimchi.\nUser wants more information about different types of kimchi and their flavor profiles, and is interested in trying various kimchi variations.\nUser is reducing food waste by buying in bulk, freezing staples, and organizing their pantry.\nUser is looking for new recipes that use up a lot of veggies, seeking suggestions for dishes that are veggie-packed.\nUser plans to make steamed dumplings to accompany the stir-fry and wants tips on cooking dumplings perfectly.\nUser made a large batch of homemade granola last week that turned out amazing and is looking for storage tips to keep it fresh for an extended period.\nUser wants to use up kale and butternut squash by roasting them with seasoning suggestions and specific veggie combinations.\nUser is interested in making a breakfast quesadilla.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User upgraded the kitchen with a touchless Moen faucet, new IKEA mat, new toaster oven, cleaned counters, fixed shelves, and decluttered countertops by replacing an old toaster, now seeking tips to organize utensils and gadgets.\nUser is excited to try a Radish Kimchi recipe and wants suggestions on how to store kimchi in the refrigerator to keep it fresh for a longer period.\nUser wants to use the new toaster oven to make Korean-style roasted vegetables to pair with the Radish Kimchi.\nUser wants more information about different types of kimchi and their flavor profiles, and is interested in trying various kimchi variations.\nUser is reducing food waste by buying in bulk, freezing staples, and organizing their pantry.\nUser is looking for new recipes that use up a lot of veggies, seeking suggestions for dishes that are veggie-packed.\nUser plans to make steamed dumplings to accompany the stir-fry and wants tips on cooking dumplings perfectly.\nUser made a large batch of homemade granola last week that turned out amazing and is looking for storage tips to keep it fresh for an extended period.\nUser wants to use up kale and butternut squash by roasting them with seasoning suggestions and specific veggie combinations.\nUser is interested in making a breakfast quesadilla.",
+            "latency": 711.412
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 173,
+    "question_type": "knowledge-update",
+    "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+    "question_date": "2023/08/15 (Tue) 05:55",
+    "ground_truth_answer": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_173_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans a 5-mile jog near home in zip code 95123, followed by a tennis game with friends at the local park on Sunday, repeating every other week.\nUser is a fan of Roger Federer but plays tennis for fun with friends, and is seeking tips for keeping User's tennis racket in good condition.\nUser is considering ordering Nike Court Flex Tennis Socks and Air Zoom shoes, prefers Nike brand, and has weekly tennis sessions with friends at the local park, observing players last Sunday; they live in zip code 95123.\nUser is looking for a new tennis bag that can fit a racket, shoes, and other essentials for trips to the local park.\nUser is incorporating swimming into their routine, signed up for swim lessons at a local pool, and seeks tips to improve technique.\nUser is a baseline player focusing on forehand and backhand groundstrokes, is working to improve User's net game by practicing volleys and overheads, and wants drills to improve reaction time and hand\u2011eye coordination at the net.\nUser has chosen the Almaden Lake Park Loop for the jog and plans to visit CorePower Yoga Almaden afterward to stretch and relax.",
+            "latency": 638.706
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans a 5-mile jog near home in zip code 95123, followed by a tennis game with friends at the local park on Sunday, repeating every other week.\nUser is a fan of Roger Federer but plays tennis for fun with friends, and is seeking tips for keeping User's tennis racket in good condition.\nUser is considering ordering Nike Court Flex Tennis Socks and Air Zoom shoes, prefers Nike brand, and has weekly tennis sessions with friends at the local park, observing players last Sunday; they live in zip code 95123.\nUser is looking for a new tennis bag that can fit a racket, shoes, and other essentials for trips to the local park.\nUser is incorporating swimming into their routine, signed up for swim lessons at a local pool, and seeks tips to improve technique.\nUser is a baseline player focusing on forehand and backhand groundstrokes, is working to improve User's net game by practicing volleys and overheads, and wants drills to improve reaction time and hand\u2011eye coordination at the net.\nUser has chosen the Almaden Lake Park Loop for the jog and plans to visit CorePower Yoga Almaden afterward to stretch and relax.",
+            "latency": 816.577
+        }
+    ]
+}

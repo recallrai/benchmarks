@@ -1,0 +1,19 @@
+{
+    "index": 313,
+    "question_type": "single-session-user",
+    "question": "How old was I when my grandma gave me the silver necklace?",
+    "question_date": "2023/05/27 (Sat) 13:18",
+    "ground_truth_answer": "18",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the silver necklace was given by their grandmother on their 18th birthday, which directly answers that they were 18 years old."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the silver necklace was given by the grandmother on the user's 18th birthday, which directly answers the question about how old they were."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 14,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+    "question_date": "2023/05/22 (Mon) 13:04",
+    "ground_truth_answer": "Fixing the fence",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_14_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has successfully performed goat hoof trimming two weeks ago, feeling proud and satisfied with the clean result, and has improved her hoof trimming skills through regular practice.\nUser wants to set up a petting zoo for the farm open house but is concerned about animal containment and safety, and has vaccinated goats against parasites on 2026-01-27.\nUser feels more confident about making decisions and preparing for the farm open house event and new cow selection after receiving advice.\nUser plans to create a farm\u2011to\u2011table section at the open house to sell fresh produce, eggs, baked goods such as quiche made with her chickens\u2019 eggs, and milk and cheese products, and wants fun activities for kids and adults including a petting zoo and farm\u2011themed crafts.\nUser plans to create a farm\u2011to\u2011table section at the open house to sell fresh produce, eggs, baked goods such as quiche made with her chickens\u2019 eggs, and milk and cheese products.\nUser plans to sell milk and cheese products at the farm open house and wants marketing and promotion strategies to attract more visitors.\nUser is seeking advice on how to price fresh produce, eggs, and baked goods such as quiche made with her chickens\u2019 eggs for the open house.\nUser sells eggs to coworkers, enjoys them, experiments with recipes, recently made a quiche with garden herbs, and is seeking additional recipe ideas.\nUser is planning to set up a small farm store on her property to sell dairy products, eggs, and other farm\u2011fresh goods, and seeks advice on store design and stocking.",
+            "latency": 782.422
+        },
+        {
+            "strategy": "graph",
+            "context": "User has successfully performed goat hoof trimming two weeks ago, feeling proud and satisfied with the clean result, and has improved her hoof trimming skills through regular practice.\nUser wants to set up a petting zoo for the farm open house but is concerned about animal containment and safety, and has vaccinated goats against parasites on 2026-01-27.\nUser feels more confident about making decisions and preparing for the farm open house event and new cow selection after receiving advice.\nUser plans to create a farm\u2011to\u2011table section at the open house to sell fresh produce, eggs, baked goods such as quiche made with her chickens\u2019 eggs, and milk and cheese products, and wants fun activities for kids and adults including a petting zoo and farm\u2011themed crafts.\nUser plans to create a farm\u2011to\u2011table section at the open house to sell fresh produce, eggs, baked goods such as quiche made with her chickens\u2019 eggs, and milk and cheese products.\nUser plans to sell milk and cheese products at the farm open house and wants marketing and promotion strategies to attract more visitors.\nUser is seeking advice on how to price fresh produce, eggs, and baked goods such as quiche made with her chickens\u2019 eggs for the open house.\nUser sells eggs to coworkers, enjoys them, experiments with recipes, recently made a quiche with garden herbs, and is seeking additional recipe ideas.\nUser is planning to set up a small farm store on her property to sell dairy products, eggs, and other farm\u2011fresh goods, and seeks advice on store design and stocking.",
+            "latency": 945.852
+        }
+    ]
+}

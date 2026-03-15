@@ -1,0 +1,22 @@
+{
+    "index": 70,
+    "question_type": "multi-session",
+    "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+    "question_date": "2023/05/28 (Sun) 01:01",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_70_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is exploring new cocktail recipes, has made homemade orange bitters from orange peels and vodka, and is seeking whiskey sour recipes that incorporate orange bitters.\nUser is exploring combinations for cocktails, wants suggestions for unusual combinations that work well in a summer cocktail, plans to serve drinks with lime juice, and is setting up a DIY cocktail bar with mixers and garnishes that complement lime juice and summer flavors, including strawberry and mint simple syrups.\nUser is interested in exploring infused simple syrups, wants to know how to infuse them and what flavors can be infused, learned how to make flavored simple syrups in a mixology class, and plans to add strawberry and mint syrups to their DIY cocktail bar.\nUser has recently learned how to make a classic Daiquiri using fresh lime juice and simple syrup in a mixology class.\nUser is interested in honey syrup as a sweetener for cocktails, has never used it before, wants to know its shelf life compared to simple syrup, and is eager to make flavored honey syrups (lavender, rose-petal, citrus, spice) with tips on infusing, steeping, and straining.\nUser is planning to make pitchers of Sangria for the dinner party and wants fruit and herb pairings that complement Rioja wine and orange and lemon slices.\nUser has made cucumber-infused gin and wants to use it as a substitute for gin in the Cucumber Lime Refresher to enhance cucumber flavor.\nUser wants recommendations for a good gin to use in the Cucumber Gimlet.\nUser intends to serve Sangria in a large pitcher with orange and lemon slices, recalling a previous dinner party two weeks ago, and asks if this is a good idea.\nUser is planning a Spanish-inspired dinner party next weekend, featuring paella made with chorizo, shrimp, chicken, saffron, smoked paprika, and a pitcher of Sangria made with Rioja wine and orange and lemon slices, and is seeking tapas suggestions that pair well with the paella.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is exploring new cocktail recipes, has made homemade orange bitters from orange peels and vodka, and is seeking whiskey sour recipes that incorporate orange bitters.\nUser is exploring combinations for cocktails, wants suggestions for unusual combinations that work well in a summer cocktail, plans to serve drinks with lime juice, and is setting up a DIY cocktail bar with mixers and garnishes that complement lime juice and summer flavors, including strawberry and mint simple syrups.\nUser is interested in exploring infused simple syrups, wants to know how to infuse them and what flavors can be infused, learned how to make flavored simple syrups in a mixology class, and plans to add strawberry and mint syrups to their DIY cocktail bar.\nUser has recently learned how to make a classic Daiquiri using fresh lime juice and simple syrup in a mixology class.\nUser is interested in honey syrup as a sweetener for cocktails, has never used it before, wants to know its shelf life compared to simple syrup, and is eager to make flavored honey syrups (lavender, rose-petal, citrus, spice) with tips on infusing, steeping, and straining.\nUser is planning to make pitchers of Sangria for the dinner party and wants fruit and herb pairings that complement Rioja wine and orange and lemon slices.\nUser has made cucumber-infused gin and wants to use it as a substitute for gin in the Cucumber Lime Refresher to enhance cucumber flavor.\nUser wants recommendations for a good gin to use in the Cucumber Gimlet.\nUser intends to serve Sangria in a large pitcher with orange and lemon slices, recalling a previous dinner party two weeks ago, and asks if this is a good idea.\nUser is planning a Spanish-inspired dinner party next weekend, featuring paella made with chorizo, shrimp, chicken, saffron, smoked paprika, and a pitcher of Sangria made with Rioja wine and orange and lemon slices, and is seeking tapas suggestions that pair well with the paella.",
+            "latency": 716.326
+        }
+    ]
+}

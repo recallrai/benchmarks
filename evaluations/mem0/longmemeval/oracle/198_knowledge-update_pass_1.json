@@ -1,0 +1,19 @@
+{
+    "index": 198,
+    "question_type": "knowledge-update",
+    "question": "Before I purchased the gravel bike, do I have other bikes in addition to my mountain bike and my commuter bike?",
+    "question_date": "2023/06/26 (Mon) 07:42",
+    "ground_truth_answer": "Yes. (You have a road bike too.)",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user owns a road bike (in addition to mountain and commuter bikes) and provides multiple references to the road bike being used for long rides, which matches the gold answer confirming the user has a road bike."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user owns a road bike (along with mountain, commuter, and hybrid bikes), which directly confirms the gold answer that yes, they had a road bike in addition to their mountain and commuter bikes."
+        }
+    ]
+}

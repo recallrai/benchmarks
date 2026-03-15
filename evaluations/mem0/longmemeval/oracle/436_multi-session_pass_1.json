@@ -1,0 +1,19 @@
+{
+    "index": 436,
+    "question_type": "multi-session",
+    "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+    "question_date": "2023/05/27 (Sat) 03:27",
+    "ground_truth_answer": "$750",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the luxury boots cost $800 and mentions looking for alternatives priced between $50-$100, which allows calculating the price difference of $750 ($800 - $50)."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the luxury boots cost $800 and the user is looking for alternatives priced between $50-$100, which allows calculation of the $750 price difference ($800 - $50 = $750)."
+        }
+    ]
+}

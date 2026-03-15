@@ -1,0 +1,19 @@
+{
+    "index": 49,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+    "question_date": "2023/05/20 (Sat) 05:18",
+    "ground_truth_answer": "volleyball league",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has been in the volleyball league for about 2 months and completed a charity 5K run after joining the league, indicating the volleyball league came first, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the user joined the volleyball league 2 months ago and has been improving fitness since then, followed by completing the charity 5K run, which aligns with the gold answer that volleyball league came first."
+        }
+    ]
+}

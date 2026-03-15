@@ -1,0 +1,22 @@
+{
+    "index": 85,
+    "question_type": "multi-session",
+    "question": "Which social media platform did I gain the most followers on over the past month?",
+    "question_date": "2023/05/28 (Sun) 00:07",
+    "ground_truth_answer": "TikTok",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_85_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is seeking to improve social media engagement, noting strong Instagram performance and a steady Facebook follower count of about 800, while observing increased shares and comments on Facebook posts, and wants to know optimal posting times to maximize engagement.\nUser is evaluating overall social media strategy, noting a steady Facebook follower count of about 800, and is considering whether to focus more effort on growing that audience.\nUser wants to leverage Facebook Groups to grow their following, seeking guidance on how to create, manage, and use a Facebook Group to attract new followers.\nThe content creator plans to use Instagram's Question sticker to ask followers about their favorite TV shows or movies, aiming to gather audience insights and foster engagement, and will keep questions open-ended and easy to respond to, engaging with followers who answer.\nUser is growing a TikTok following rapidly by posting short videos about hobbies and interests, and seeks advice to further expand their TikTok audience.\nUser is interested in creating engaging Facebook content that resonates with their audience and seeks specific tips for content creation.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is seeking to improve social media engagement, noting strong Instagram performance and a steady Facebook follower count of about 800, while observing increased shares and comments on Facebook posts, and wants to know optimal posting times to maximize engagement.\nUser is evaluating overall social media strategy, noting a steady Facebook follower count of about 800, and is considering whether to focus more effort on growing that audience.\nUser wants to leverage Facebook Groups to grow their following, seeking guidance on how to create, manage, and use a Facebook Group to attract new followers.\nThe content creator plans to use Instagram's Question sticker to ask followers about their favorite TV shows or movies, aiming to gather audience insights and foster engagement, and will keep questions open-ended and easy to respond to, engaging with followers who answer.\nUser is growing a TikTok following rapidly by posting short videos about hobbies and interests, and seeks advice to further expand their TikTok audience.\nUser is interested in creating engaging Facebook content that resonates with their audience and seeks specific tips for content creation.",
+            "latency": 732.229
+        }
+    ]
+}

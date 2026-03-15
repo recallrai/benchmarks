@@ -1,0 +1,19 @@
+{
+    "index": 349,
+    "question_type": "single-session-user",
+    "question": "What game did I finally beat last weekend?",
+    "question_date": "2023/05/27 (Sat) 21:54",
+    "ground_truth_answer": "Dark Souls 3 DLC",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user defeated the final boss in the Dark Souls 3 DLC last weekend, which directly matches the gold answer and timeframe asked about in the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user defeated the final boss in Dark Souls 3 DLC last weekend, which directly matches the gold answer and timeframe referenced in the question."
+        }
+    ]
+}

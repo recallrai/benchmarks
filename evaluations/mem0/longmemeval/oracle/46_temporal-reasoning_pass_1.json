@@ -1,0 +1,19 @@
+{
+    "index": 46,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+    "question_date": "2023/05/28 (Sun) 15:31",
+    "ground_truth_answer": "the woman selling jam at the farmer's market",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the jam maker at the farmer's market was met 'two weeks ago on a Saturday morning' (~May 13, 2023), while the tourist from Australia was met 'last Thursday' (~May 25, 2023), confirming the woman selling jam was met first, which matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the jam maker was met 'two weeks ago on a Saturday morning' (approximately May 13, 2023) and the tourist from Australia was met 'last Thursday' (May 25, 2023), so the woman selling jam at the farmer's market was met first, matching the gold answer."
+        }
+    ]
+}

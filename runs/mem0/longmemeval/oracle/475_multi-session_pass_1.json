@@ -1,0 +1,22 @@
+{
+    "index": 475,
+    "question_type": "multi-session",
+    "question": "What is the total weight of the new feed I purchased in the past two months?",
+    "question_date": "2023/05/30 (Tue) 12:23",
+    "ground_truth_answer": "70 pounds",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_475_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has added two new hens to the flock, is adjusting the feeding schedule, wants guidance on how often to feed and how much to give each day, seeks tips for a gradual transition to the new layer feed to avoid stress, and is looking for supplements or additional nutrients\nUser purchased a 50-pound batch of layer feed for $120 before a 10% discount from a local farm supply store, paid $108 net, and is calculating the cost per pound to track farm expenses.\nto further improve egg quality after noticing an improvement following the feed change.\nUser purchased 20 pounds of organic scratch grains for the chickens and has observed an improvement in the quality of the eggs produced.\nUser has materials ready to repair the fencing around the north pasture and is asking for tips on how to start the repair process.\nUser is considering repurposing an old plow found in the barn for use in the garden, asking whether this is a good idea or if the farmer should stick with modern gardening tools.\nUser plans to add homemade honey to their product line for sale at a farmer's market and seeks information on regulations and permits, whether a food safety certification course is required under cottage food laws, whether registration is annual, and labeling requirements: net quantity and product name.\nUser plans to add homemade jam to their product line for sale at a farmer's market and seeks information on regulations, whether a food safety certification course is required under cottage food laws, whether registration is annual, and labeling requirements: ingredient list and allergen warning but no nutrition facts label.",
+            "latency": 490.371
+        },
+        {
+            "strategy": "graph",
+            "context": "User has added two new hens to the flock, is adjusting the feeding schedule, wants guidance on how often to feed and how much to give each day, seeks tips for a gradual transition to the new layer feed to avoid stress, and is looking for supplements or additional nutrients\nUser purchased a 50-pound batch of layer feed for $120 before a 10% discount from a local farm supply store, paid $108 net, and is calculating the cost per pound to track farm expenses.\nto further improve egg quality after noticing an improvement following the feed change.\nUser purchased 20 pounds of organic scratch grains for the chickens and has observed an improvement in the quality of the eggs produced.\nUser has materials ready to repair the fencing around the north pasture and is asking for tips on how to start the repair process.\nUser is considering repurposing an old plow found in the barn for use in the garden, asking whether this is a good idea or if the farmer should stick with modern gardening tools.\nUser plans to add homemade honey to their product line for sale at a farmer's market and seeks information on regulations and permits, whether a food safety certification course is required under cottage food laws, whether registration is annual, and labeling requirements: net quantity and product name.\nUser plans to add homemade jam to their product line for sale at a farmer's market and seeks information on regulations, whether a food safety certification course is required under cottage food laws, whether registration is annual, and labeling requirements: ingredient list and allergen warning but no nutrition facts label.",
+            "latency": 729.567
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 355,
+    "question_type": "single-session-user",
+    "question": "What did my dad gave me as a birthday gift?",
+    "question_date": "2023/05/20 (Sat) 23:21",
+    "ground_truth_answer": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_355_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User received a new stand mixer as a birthday gift from User's sister last month, which has been a game-changer for making caramel; User uses a recipe that melts sugar and butter together, then slowly adds heavy cream to create a smooth caramel sauce, and it has worked well so far.\nUser recently made a caramel apple tart for User's family's Sunday dinner, which was a huge hit, and is especially interested in trying caramel \u00e9clairs.",
+            "latency": 915.746
+        },
+        {
+            "strategy": "graph",
+            "context": "User received a new stand mixer as a birthday gift from User's sister last month, which has been a game-changer for making caramel; User uses a recipe that melts sugar and butter together, then slowly adds heavy cream to create a smooth caramel sauce, and it has worked well so far.\nUser recently made a caramel apple tart for User's family's Sunday dinner, which was a huge hit, and is especially interested in trying caramel \u00e9clairs.",
+            "latency": 1677.479
+        }
+    ]
+}

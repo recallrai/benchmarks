@@ -1,0 +1,22 @@
+{
+    "index": 346,
+    "question_type": "single-session-user",
+    "question": "What brand of shampoo do I currently use?",
+    "question_date": "2023/05/28 (Sun) 23:42",
+    "ground_truth_answer": "Trader Joe's",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_346_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been using a lavender-scented shampoo purchased from Trader Joe's, which has been effective, and is seeking tips to maintain healthy, shiny hair.\nUser is considering using Habitica to gamify tasks and is also looking for recommendations for exfoliating gloves or scrubbers, currently using a loofah but open to trying new products.\nUser is developing a habit of drinking more water, uses a refillable water bottle on their bathroom counter, and seeks suggestions for tracking water intake or staying motivated.\nUser is seeking to organize their bathroom cleaning routine and is looking for a schedule or an app to help track when to clean specific items.\nUser is considering fixing a leaky faucet in their bathroom, has DIY experience, plans to attempt it, will call a plumber if issues arise, and is also looking for recommendations for a good plumber in their area.",
+            "latency": 1018.564
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been using a lavender-scented shampoo purchased from Trader Joe's, which has been effective, and is seeking tips to maintain healthy, shiny hair.\nUser is considering using Habitica to gamify tasks and is also looking for recommendations for exfoliating gloves or scrubbers, currently using a loofah but open to trying new products.\nUser is developing a habit of drinking more water, uses a refillable water bottle on their bathroom counter, and seeks suggestions for tracking water intake or staying motivated.\nUser is seeking to organize their bathroom cleaning routine and is looking for a schedule or an app to help track when to clean specific items.\nUser is considering fixing a leaky faucet in their bathroom, has DIY experience, plans to attempt it, will call a plumber if issues arise, and is also looking for recommendations for a good plumber in their area.",
+            "latency": 1889.847
+        }
+    ]
+}

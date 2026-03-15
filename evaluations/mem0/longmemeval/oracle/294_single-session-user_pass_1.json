@@ -1,0 +1,19 @@
+{
+    "index": 294,
+    "question_type": "single-session-user",
+    "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+    "question_date": "2023/04/02 (Sun) 20:31",
+    "ground_truth_answer": "February 14th",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user volunteered at a fundraising dinner on Valentine's Day, which is February 14th, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user volunteered at a fundraising dinner on Valentine's Day, which is February 14th, matching the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 184,
+    "question_type": "knowledge-update",
+    "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+    "question_date": "2023/12/12 (Tue) 20:12",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_184_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User caught 7 largemouth bass on a fishing trip to Lake Michigan with Alex on July 10, describing it as a great day.\nUser caught 9 largemouth bass on a fishing trip to Lake Michigan with Alex on July 22, recalling that spinnerbaits and plastic worms were effective.\nUser is interested in bass fishing lures effective for catching largemouth bass, specifically spinnerbaits and plastic worms, which were successful in catching 9 bass on 7/22 with Alex.\nUser wants current water temperature and fishing forecast for Lake Michigan near Waukegan harbor area.\nUser has recently resumed fishing and hunting activities and is looking for apps or tools to organize trips, log catches, and note what worked well.\nUser is looking for tips on selecting the appropriate tree and safely setting up a tree stand for deer hunting, including the best way to set up a tree stand and plans to help Alex set up more tree stands on his property.\nUser is seeking educational resources on deer hunting strategies and tactics, including the best way to set up a tree stand, recommendations for deer calls, and is watching YouTube videos on deer hunting strategies and tactics.",
+            "latency": 759.533
+        },
+        {
+            "strategy": "graph",
+            "context": "User caught 7 largemouth bass on a fishing trip to Lake Michigan with Alex on July 10, describing it as a great day.\nUser caught 9 largemouth bass on a fishing trip to Lake Michigan with Alex on July 22, recalling that spinnerbaits and plastic worms were effective.\nUser is interested in bass fishing lures effective for catching largemouth bass, specifically spinnerbaits and plastic worms, which were successful in catching 9 bass on 7/22 with Alex.\nUser wants current water temperature and fishing forecast for Lake Michigan near Waukegan harbor area.\nUser has recently resumed fishing and hunting activities and is looking for apps or tools to organize trips, log catches, and note what worked well.\nUser is looking for tips on selecting the appropriate tree and safely setting up a tree stand for deer hunting, including the best way to set up a tree stand and plans to help Alex set up more tree stands on his property.\nUser is seeking educational resources on deer hunting strategies and tactics, including the best way to set up a tree stand, recommendations for deer calls, and is watching YouTube videos on deer hunting strategies and tactics.",
+            "latency": 906.884
+        }
+    ]
+}

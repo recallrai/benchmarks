@@ -1,0 +1,22 @@
+{
+    "index": 65,
+    "question_type": "multi-session",
+    "question": "How many plants did I acquire in the last month?",
+    "question_date": "2023/05/28 (Sun) 09:22",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_65_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's snake plant, received from sister last month, is thriving with its current watering and fertilizer routine and the user is considering repotting it into a larger pot with fresh potting mix.\nUser uses a plant tracking app to monitor watering and fertilization schedules, seeking guidance on watering frequency while using the mixture.\nUser uses a nursery\u2011recommended mixture of water and fertilizer for both plants, considering whether to continue or switch to a balanced fertilizer.\nUser misted a fern every other day and wants appropriate misting frequency for the peace lily.\nUser is asking for general care tips for the peace lily.\nUser wants a humidifier recommendation for indoor plants, with particular emphasis on a fern that may benefit from increased humidity.\nUser pruned a rose bush about a month ago, which is now producing new buds, and is asking whether to prune again to encourage more blooms or wait until the blooming season is over.\nUser has noticed tiny, moving dot pests on a fern and wants advice on how to get rid of them without harming the plant, planning to use neem oil and considering misting more frequently to prevent recurrence.\nUser plans to repot their spider plant because the current potting mix is aging, and they are seeking recommendations for a suitable potting mix that provides good drainage and nutrient content.\nUser maintains the peace lily at a consistent temperature range of 65\u00b0F to 70\u00b0F (18\u00b0C to 21\u00b0C) and wants confirmation that this is suitable.",
+            "latency": 489.591
+        },
+        {
+            "strategy": "graph",
+            "context": "User's snake plant, received from sister last month, is thriving with its current watering and fertilizer routine and the user is considering repotting it into a larger pot with fresh potting mix.\nUser uses a plant tracking app to monitor watering and fertilization schedules, seeking guidance on watering frequency while using the mixture.\nUser uses a nursery\u2011recommended mixture of water and fertilizer for both plants, considering whether to continue or switch to a balanced fertilizer.\nUser misted a fern every other day and wants appropriate misting frequency for the peace lily.\nUser is asking for general care tips for the peace lily.\nUser wants a humidifier recommendation for indoor plants, with particular emphasis on a fern that may benefit from increased humidity.\nUser pruned a rose bush about a month ago, which is now producing new buds, and is asking whether to prune again to encourage more blooms or wait until the blooming season is over.\nUser has noticed tiny, moving dot pests on a fern and wants advice on how to get rid of them without harming the plant, planning to use neem oil and considering misting more frequently to prevent recurrence.\nUser plans to repot their spider plant because the current potting mix is aging, and they are seeking recommendations for a suitable potting mix that provides good drainage and nutrient content.\nUser maintains the peace lily at a consistent temperature range of 65\u00b0F to 70\u00b0F (18\u00b0C to 21\u00b0C) and wants confirmation that this is suitable.",
+            "latency": 712.196
+        }
+    ]
+}

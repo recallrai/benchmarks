@@ -1,0 +1,19 @@
+{
+    "index": 390,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+    "question_date": "2023/04/01 (Sat) 21:45",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user has been attending classes for six weeks total and recently acquired tools, but does not specify that the tools were acquired after exactly 3 weeks of classes as indicated by the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions the user has been attending sculpting classes for six weeks and separately mentions acquiring sculpting tools, but does not specify that the tools were acquired after 3 weeks of classes as indicated by the gold answer."
+        }
+    ]
+}

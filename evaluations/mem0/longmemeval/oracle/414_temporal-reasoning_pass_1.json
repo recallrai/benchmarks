@@ -1,0 +1,19 @@
+{
+    "index": 414,
+    "question_type": "temporal-reasoning",
+    "question": "What gardening-related activity did I do two weeks ago?",
+    "question_date": "2023/05/05 (Fri) 03:53",
+    "ground_truth_answer": "planting 12 new tomato saplings",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'User planted 12 new tomato saplings today', which matches the gold answer's activity of 'planting 12 new tomato saplings', and the temporal reference 'today' in the context could correspond to the 'two weeks ago' timeframe asked about in the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User planted 12 new tomato saplings today', which matches the gold answer of 'planting 12 new tomato saplings' - the specific activity and details align perfectly with what the question asks about."
+        }
+    ]
+}

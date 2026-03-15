@@ -1,0 +1,19 @@
+{
+    "index": 355,
+    "question_type": "single-session-user",
+    "question": "What did my dad gave me as a birthday gift?",
+    "question_date": "2023/05/20 (Sat) 23:21",
+    "ground_truth_answer": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions a birthday gift from the sister (stand mixer) but contains no information about a gift from the dad, which aligns with the gold answer's statement that the dad's gift was not mentioned."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms there is no mention of a gift from dad, only a stand mixer from the sister, which aligns with the gold answer stating this information was not mentioned."
+        }
+    ]
+}

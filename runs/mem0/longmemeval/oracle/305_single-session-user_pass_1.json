@@ -1,0 +1,22 @@
+{
+    "index": 305,
+    "question_type": "single-session-user",
+    "question": "What was my previous stance on spirituality?",
+    "question_date": "2023/05/29 (Mon) 23:42",
+    "ground_truth_answer": "A staunch atheist",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_305_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for books on synchronicity and its connection to spirituality, has recently been reading a lot about Buddhism, indicating a shift from a staunch atheist stance to exploring other spiritual possibilities.\nUser is seeking books or research papers on the Orch-OR theory and its connection to synchronicity, wants information about the Global Consciousness Project and its findings on collective consciousness, and is exploring whether Orch-OR could explain synchronicities and its mechanisms.\nUser is excited about using meditation and intentional practices to tune into the quantum realm and attract more synchronicities, specifically interested in Intentional Synchronicity Meditation, Quantum Journaling, and Synchronicity Walking, believing these practices can develop greater trust and faith in the universe.\nUser is interested in the scientific aspects of synchronicity and seeks research evidence that supports synchronicity being more than coincidence.",
+            "latency": 936.538
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for books on synchronicity and its connection to spirituality, has recently been reading a lot about Buddhism, indicating a shift from a staunch atheist stance to exploring other spiritual possibilities.\nUser is seeking books or research papers on the Orch-OR theory and its connection to synchronicity, wants information about the Global Consciousness Project and its findings on collective consciousness, and is exploring whether Orch-OR could explain synchronicities and its mechanisms.\nUser is excited about using meditation and intentional practices to tune into the quantum realm and attract more synchronicities, specifically interested in Intentional Synchronicity Meditation, Quantum Journaling, and Synchronicity Walking, believing these practices can develop greater trust and faith in the universe.\nUser is interested in the scientific aspects of synchronicity and seeks research evidence that supports synchronicity being more than coincidence.",
+            "latency": 1829.949
+        }
+    ]
+}

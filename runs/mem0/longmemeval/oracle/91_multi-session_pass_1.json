@@ -1,0 +1,22 @@
+{
+    "index": 91,
+    "question_type": "multi-session",
+    "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+    "question_date": "2023/03/01 (Wed) 19:29",
+    "ground_truth_answer": "5 days. 6 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_91_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User ordered a new remote shutter release online on February 5, 2026, after realizing they had lost the old one during a photo walk, and it has been working great so far.\nUser has identified a new lightweight, portable tripod option that they believe will be a better fit for travel and outdoor photography needs, and intends to place an order for it next week.\nUser uses Adobe Lightroom for organizing and editing photos, is satisfied with it, and is looking for recommended settings or presets tailored to landscape and portrait photography.\nUser has an older tripod owned since 2018 and is considering selling it; they are weighing options between online marketplaces like eBay or Craigslist versus a local camera store, and plan to price it competitively by researching similar listings online and adding 10\u201120% to the average market value.",
+            "latency": 882.018
+        },
+        {
+            "strategy": "graph",
+            "context": "User ordered a new remote shutter release online on February 5, 2026, after realizing they had lost the old one during a photo walk, and it has been working great so far.\nUser has identified a new lightweight, portable tripod option that they believe will be a better fit for travel and outdoor photography needs, and intends to place an order for it next week.\nUser uses Adobe Lightroom for organizing and editing photos, is satisfied with it, and is looking for recommended settings or presets tailored to landscape and portrait photography.\nUser has an older tripod owned since 2018 and is considering selling it; they are weighing options between online marketplaces like eBay or Craigslist versus a local camera store, and plan to price it competitively by researching similar listings online and adding 10\u201120% to the average market value.",
+            "latency": 1477.278
+        }
+    ]
+}

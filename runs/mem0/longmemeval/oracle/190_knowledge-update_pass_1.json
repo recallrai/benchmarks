@@ -1,0 +1,22 @@
+{
+    "index": 190,
+    "question_type": "knowledge-update",
+    "question": "How many trips have I taken my Canon EOS 80D camera on?",
+    "question_date": "2023/06/14 (Wed) 10:15",
+    "ground_truth_answer": "five",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_190_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is considering the Really Right Stuff tripod, wants to confirm its compatibility with the Canon EOS 80D, has taken it on trips to Yellowstone, Yosemite, and Grand Canyon, is excited to use it on future adventures, but is uncertain about its investment value.\nUser is looking for a good camera bag, has recently purchased a Lowepro backpack-style bag, and is now considering the Lowepro ProTactic 450 AW backpack, believing it will comfortably hold all gear including a Canon EOS 80D and multiple lenses, based on positive reviews.\nUser wants to order a replacement lens cap for the user's Canon EF-S 18-135mm f/3.5-5.6 IS USM kit lens and seeks tips on where to find a good one and how to ensure it fits properly.\nUser has decided to use Adobe Creative Cloud for professional photography work while continuing to use Google Photos for personal shots, enjoys experimenting with Lightroom and Photoshop, and needs 1 TB of storage to edit and store many files.\nUser is contemplating switching to a cloud-based storage service for photos and is asking for recommendations between Google Photos and Adobe Creative Cloud.",
+            "latency": 717.761
+        },
+        {
+            "strategy": "graph",
+            "context": "User is considering the Really Right Stuff tripod, wants to confirm its compatibility with the Canon EOS 80D, has taken it on trips to Yellowstone, Yosemite, and Grand Canyon, is excited to use it on future adventures, but is uncertain about its investment value.\nUser is looking for a good camera bag, has recently purchased a Lowepro backpack-style bag, and is now considering the Lowepro ProTactic 450 AW backpack, believing it will comfortably hold all gear including a Canon EOS 80D and multiple lenses, based on positive reviews.\nUser wants to order a replacement lens cap for the user's Canon EF-S 18-135mm f/3.5-5.6 IS USM kit lens and seeks tips on where to find a good one and how to ensure it fits properly.\nUser has decided to use Adobe Creative Cloud for professional photography work while continuing to use Google Photos for personal shots, enjoys experimenting with Lightroom and Photoshop, and needs 1 TB of storage to edit and store many files.\nUser is contemplating switching to a cloud-based storage service for photos and is asking for recommendations between Google Photos and Adobe Creative Cloud.",
+            "latency": 899.4
+        }
+    ]
+}

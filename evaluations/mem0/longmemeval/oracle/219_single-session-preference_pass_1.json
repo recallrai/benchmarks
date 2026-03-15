@@ -1,0 +1,19 @@
+{
+    "index": 219,
+    "question_type": "single-session-preference",
+    "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+    "question_date": "2023/05/27 (Sat) 20:51",
+    "ground_truth_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user has a cat that sheds a lot and wants to keep their living room dust-free, which addresses the cat shedding factor mentioned in the gold answer, though it lacks the specific detail about the recent deep clean and the cat's name Luna."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the cat shedding and living room dust concerns, but is missing the key detail about the recent deep clean of the living room and dust being stirred up, which is specifically mentioned in the gold answer as important context for understanding the sneezing."
+        }
+    ]
+}

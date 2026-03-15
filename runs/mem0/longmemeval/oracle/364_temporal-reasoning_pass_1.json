@@ -1,0 +1,22 @@
+{
+    "index": 364,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+    "question_date": "2023/04/10 (Mon) 07:43",
+    "ground_truth_answer": "4 days.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_364_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended the Maundy Thursday service at the Episcopal Church today, describing it as beautiful and moving, reflecting a meaningful spiritual experience.\nUser recently helped out at an Easter Egg Hunt event last week and is now seeking additional local volunteer opportunities, preferring community service or helping the underprivileged, available on weekdays evenings, and willing to commit to a regular volunteer schedule.\nUser is interested in group volunteering opportunities with their church or community group at the food bank, including inviting friends to volunteer and potentially adopting a specific project or program such as a food drive or special event to make a significant impact and contribute to the food bank's mission.\nUser is interested in the Food Bank Volunteer opportunity and requests detailed information on its location, tasks, time commitment, volunteer requirements such as training or background checks, contact information, and the application form.",
+            "latency": 911.025
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended the Maundy Thursday service at the Episcopal Church today, describing it as beautiful and moving, reflecting a meaningful spiritual experience.\nUser recently helped out at an Easter Egg Hunt event last week and is now seeking additional local volunteer opportunities, preferring community service or helping the underprivileged, available on weekdays evenings, and willing to commit to a regular volunteer schedule.\nUser is interested in group volunteering opportunities with their church or community group at the food bank, including inviting friends to volunteer and potentially adopting a specific project or program such as a food drive or special event to make a significant impact and contribute to the food bank's mission.\nUser is interested in the Food Bank Volunteer opportunity and requests detailed information on its location, tasks, time commitment, volunteer requirements such as training or background checks, contact information, and the application form.",
+            "latency": 1900.459
+        }
+    ]
+}

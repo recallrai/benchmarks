@@ -1,0 +1,19 @@
+{
+    "index": 269,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+    "question_date": "2023/05/24 (Wed) 16:21",
+    "ground_truth_answer": "Jaipur Rugs",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains general questions about private sector businesses in Chaudhary but does not mention Jaipur Rugs, any specific company name, the rug-manufacturing industry, or employment numbers that would allow answering the question correctly."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only contains general information about private sector businesses in Chaudhary but does not mention the specific company name 'Jaipur Rugs', the rug-manufacturing industry, or the detail about 40,000 employees needed to answer the question."
+        }
+    ]
+}

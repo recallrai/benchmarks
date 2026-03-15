@@ -1,0 +1,22 @@
+{
+    "index": 77,
+    "question_type": "multi-session",
+    "question": "How many babies were born to friends and family members in the last few months?",
+    "question_date": "2023/05/13 (Sat) 20:23",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_77_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a baby gift for their aunt's twins, Ava and Lily, who were born in April.\nUser plans to add birthday events for aunt's twins Ava and Lily, who were born in April, to the calendar.\nUser attended cousin Rachel's baby shower in February for her baby boy Max, who was born in March, and this experience motivates the user to give a thoughtful gift.\nUser plans to add a birthday event for cousin Rachel's son Max, who was born in March, to the calendar.\nUser plans to add a birthday event for friends Mike and Emma's daughter Charlotte, who was born around the same time as Max, to the calendar.\nUser has learned that David, a college friend, recently had a baby boy named Jasper a few weeks ago, and wants to remember Jasper's birthday.\nUser wants to include a heartfelt card with a message for the aunt and twins.\nUser plans to add a birthday event for friend Sarah's adopted daughter Aaliyah to the calendar.\nUser plans to order a personalized blanket with Ava and Lily's names from Etsy, and is considering adding a message or the twins' birthdate to the blanket.\nUser intends to purchase twin baby carriers and a diaper cake for the twins.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a baby gift for their aunt's twins, Ava and Lily, who were born in April.\nUser plans to add birthday events for aunt's twins Ava and Lily, who were born in April, to the calendar.\nUser attended cousin Rachel's baby shower in February for her baby boy Max, who was born in March, and this experience motivates the user to give a thoughtful gift.\nUser plans to add a birthday event for cousin Rachel's son Max, who was born in March, to the calendar.\nUser plans to add a birthday event for friends Mike and Emma's daughter Charlotte, who was born around the same time as Max, to the calendar.\nUser has learned that David, a college friend, recently had a baby boy named Jasper a few weeks ago, and wants to remember Jasper's birthday.\nUser wants to include a heartfelt card with a message for the aunt and twins.\nUser plans to add a birthday event for friend Sarah's adopted daughter Aaliyah to the calendar.\nUser plans to order a personalized blanket with Ava and Lily's names from Etsy, and is considering adding a message or the twins' birthdate to the blanket.\nUser intends to purchase twin baby carriers and a diaper cake for the twins.",
+            "latency": 737.344
+        }
+    ]
+}

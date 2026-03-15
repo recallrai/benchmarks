@@ -1,0 +1,22 @@
+{
+    "index": 403,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+    "question_date": "2023/08/05 (Sat) 23:49",
+    "ground_truth_answer": "3 weeks ago",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_403_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended Universal Studios Hollywood's Summer Nights festival with friends Rachel and Mike, where they had an amazing day, especially enjoying the Wizarding World of Harry Potter and the Nighttime Lights at Hogwarts Castle show, which they found breathtaking.\nUser is planning a theme park trip soon and wants to compare the different ticket options for Six Flags Magic Mountain.\nUser had a birthday dinner at Toothsome Chocolate Emporium & Savory Feast Kitchen at Universal CityWalk a month ago and found it amazing.\nUser intends to visit Six Flags Magic Mountain on a weekend, likely using General Admission, and wants details on the new single-rider line system.\nUser is excited to ride record-breaking roller coasters such as Twisted Colossus, Full Throttle, West Coast Racers, and X2, and plans to take a snack break and people-watch before deciding on their next ride.",
+            "latency": 922.585
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended Universal Studios Hollywood's Summer Nights festival with friends Rachel and Mike, where they had an amazing day, especially enjoying the Wizarding World of Harry Potter and the Nighttime Lights at Hogwarts Castle show, which they found breathtaking.\nUser is planning a theme park trip soon and wants to compare the different ticket options for Six Flags Magic Mountain.\nUser had a birthday dinner at Toothsome Chocolate Emporium & Savory Feast Kitchen at Universal CityWalk a month ago and found it amazing.\nUser intends to visit Six Flags Magic Mountain on a weekend, likely using General Admission, and wants details on the new single-rider line system.\nUser is excited to ride record-breaking roller coasters such as Twisted Colossus, Full Throttle, West Coast Racers, and X2, and plans to take a snack break and people-watch before deciding on their next ride.",
+            "latency": 1614.901
+        }
+    ]
+}

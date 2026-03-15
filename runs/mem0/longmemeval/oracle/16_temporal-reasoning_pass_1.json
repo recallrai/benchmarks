@@ -1,0 +1,22 @@
+{
+    "index": 16,
+    "question_type": "temporal-reasoning",
+    "question": "How long have I been working before I started my current job at NovaTech?",
+    "question_date": "2023/05/22 (Mon) 03:09",
+    "ground_truth_answer": "4 years and 9 months",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_16_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has 9 years of experience, is a software engineer and backend developer, graduated from UC Berkeley, has worked at NovaTech for 4 years and 3 months, working on a project at NovaTech that requires optimizing API performance, including profiling and benchmarking, and seeks digital tools to stay organized.\nThe user is evaluating New Relic and Datadog as potential tools for detailed transaction tracing and code-level profiling, leaning toward New Relic but will consider both tools and conduct trials or demos before making a final decision.\nThe user is seeking advice on managing time more efficiently due to long working hours on a high-priority project and an increased commute, which have left little time for personal life; they want tips on prioritizing tasks and maximizing time.\nThe user has decided to implement New Relic and wants guidance on rolling it out to the team and ensuring smooth integration with existing workflows.\nThe user is considering using a digital tool to track freelance projects and income, having previously relied on a spreadsheet, and is planning to take their freelance business to the next level by adopting such a tool to stay organized and focused.\nThe user plans to expand freelance services to include project management and consulting alongside web development, seeks advice on pricing these new offerings, appreciates a structured approach, and intends to regularly review and adjust pricing as the business grows.",
+            "latency": 880.767
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has 9 years of experience, is a software engineer and backend developer, graduated from UC Berkeley, has worked at NovaTech for 4 years and 3 months, working on a project at NovaTech that requires optimizing API performance, including profiling and benchmarking, and seeks digital tools to stay organized.\nThe user is evaluating New Relic and Datadog as potential tools for detailed transaction tracing and code-level profiling, leaning toward New Relic but will consider both tools and conduct trials or demos before making a final decision.\nThe user is seeking advice on managing time more efficiently due to long working hours on a high-priority project and an increased commute, which have left little time for personal life; they want tips on prioritizing tasks and maximizing time.\nThe user has decided to implement New Relic and wants guidance on rolling it out to the team and ensuring smooth integration with existing workflows.\nThe user is considering using a digital tool to track freelance projects and income, having previously relied on a spreadsheet, and is planning to take their freelance business to the next level by adopting such a tool to stay organized and focused.\nThe user plans to expand freelance services to include project management and consulting alongside web development, seeks advice on pricing these new offerings, appreciates a structured approach, and intends to regularly review and adjust pricing as the business grows.",
+            "latency": 1417.917
+        }
+    ]
+}

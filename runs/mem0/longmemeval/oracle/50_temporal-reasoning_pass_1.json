@@ -1,0 +1,22 @@
+{
+    "index": 50,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, my attendance at a cultural festival or the start of my Spanish classes?",
+    "question_date": "2023/05/20 (Sat) 03:39",
+    "ground_truth_answer": "Spanish classes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_50_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been taking Spanish language classes for the past three months and is curious whether Spanish will be useful during their European trip.\nUser wants to know cultural differences and etiquette in France and Germany, including customs for dining at a restaurant or visiting someone's home.\nUser is interested in leveraging cognates between Spanish and French or German to learn German and French more quickly, given their Spanish background.\nUser wants recommendations for language learning apps or resources that can help them learn basic German and French phrases before their trip.\nUser wants to learn specific French and German phrases or expressions useful for everyday situations such as ordering food or asking for directions during their trip.\nUser is planning a trip to Europe in the summer of 2026 to visit relatives in Germany, France, and the United Kingdom, and as a US citizen they will not need a visa for stays under 90 days in those countries; they are interested in visa requirements and travel restrictions.\nUser wants recommendations for popular restaurants or cafes in Germany and France to try while traveling.",
+            "latency": 978.936
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been taking Spanish language classes for the past three months and is curious whether Spanish will be useful during their European trip.\nUser wants to know cultural differences and etiquette in France and Germany, including customs for dining at a restaurant or visiting someone's home.\nUser is interested in leveraging cognates between Spanish and French or German to learn German and French more quickly, given their Spanish background.\nUser wants recommendations for language learning apps or resources that can help them learn basic German and French phrases before their trip.\nUser wants to learn specific French and German phrases or expressions useful for everyday situations such as ordering food or asking for directions during their trip.\nUser is planning a trip to Europe in the summer of 2026 to visit relatives in Germany, France, and the United Kingdom, and as a US citizen they will not need a visa for stays under 90 days in those countries; they are interested in visa requirements and travel restrictions.\nUser wants recommendations for popular restaurants or cafes in Germany and France to try while traveling.",
+            "latency": 1617.493
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 474,
+    "question_type": "multi-session",
+    "question": "What time did I reach the clinic on Monday?",
+    "question_date": "2023/05/29 (Mon) 00:19",
+    "ground_truth_answer": "9:00 AM",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_474_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "Feels overwhelmed after the long weekend and a Monday doctor's appointment that took a half\u2011day off, returning to work at 1\u202fp.m. Seeks to reschedule a follow\u2011up primary\u2011care appointment, preferring morning slots on weekdays within an hour's drive from zip 12345, after a two\u2011hour commute. Balances marketing\u2011campaign deadline with health considerations.\nUser plans to prepare a list of questions for Family Care Medical Center, including inquiries about wait time for new patients, availability of a reminder system to minimize wait times, and whether a doctor with experience in condition can be requested and how that might affect wait time or availability.\nUser wants strategies for building buffer time or flexibility into the schedule, such as adding 10-20% padding and allocating buffer days, and is interested in tools/apps for tracking progress and staying organized, including Trello and RescueTime.\nUser's marketing campaign project has a deadline in two weeks; the user needs to finalize content, design visuals, and coordinate with the team for the launch, and wants a schedule or timeline to allocate time and avoid last-minute rushes.\nUser seeks strategies for taking effective notes during meetings and calls and translating those notes into actionable tasks.",
+            "latency": 496.902
+        },
+        {
+            "strategy": "graph",
+            "context": "Feels overwhelmed after the long weekend and a Monday doctor's appointment that took a half\u2011day off, returning to work at 1\u202fp.m. Seeks to reschedule a follow\u2011up primary\u2011care appointment, preferring morning slots on weekdays within an hour's drive from zip 12345, after a two\u2011hour commute. Balances marketing\u2011campaign deadline with health considerations.\nUser plans to prepare a list of questions for Family Care Medical Center, including inquiries about wait time for new patients, availability of a reminder system to minimize wait times, and whether a doctor with experience in condition can be requested and how that might affect wait time or availability.\nUser wants strategies for building buffer time or flexibility into the schedule, such as adding 10-20% padding and allocating buffer days, and is interested in tools/apps for tracking progress and staying organized, including Trello and RescueTime.\nUser's marketing campaign project has a deadline in two weeks; the user needs to finalize content, design visuals, and coordinate with the team for the launch, and wants a schedule or timeline to allocate time and avoid last-minute rushes.\nUser seeks strategies for taking effective notes during meetings and calls and translating those notes into actionable tasks.",
+            "latency": 730.714
+        }
+    ]
+}

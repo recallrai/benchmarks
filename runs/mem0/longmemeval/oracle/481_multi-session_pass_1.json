@@ -1,0 +1,22 @@
+{
+    "index": 481,
+    "question_type": "multi-session",
+    "question": "What is the total amount I spent on gifts for my coworker and brother?",
+    "question_date": "2023/05/30 (Tue) 22:15",
+    "ground_truth_answer": "$200",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_481_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "After accounting for these known gifts, $205 of gift spending remains unaccounted.\nUser has a monthly gift\u2011shopping habit of about $500, buying a $75 birthday present for a sister, a $20 meme\u2011themed mug for a best friend, a $100 baby clothes set for a coworker's baby shower, and a $100 graduation gift card for their brother in May.\nUser is reflecting on their gift\u2011giving habits, noting that they spend a lot on gifts during special occasions and considering whether to cut back.\nUser plans to spend $150\u2013$200 on a personalized photo album for their mom's anniversary, leaning toward a mid\u2011range option with 40\u201360 pages and premium printing, and is weighing whether to splurge on a high\u2011end version.\nUser bought a set of baby clothes and toys from Buy Buy Baby for a coworker's baby at a recent baby shower, totaling $100, and obtained a gift receipt for potential exchange.\nUser has chosen the Classic and Simple design style for the photo album, favoring a clean, elegant look that lets photos be the focus.\nUser prefers adding a personalized message to the photo album over a decorative box, viewing it as a more intimate and sentimental addition.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "After accounting for these known gifts, $205 of gift spending remains unaccounted.\nUser has a monthly gift\u2011shopping habit of about $500, buying a $75 birthday present for a sister, a $20 meme\u2011themed mug for a best friend, a $100 baby clothes set for a coworker's baby shower, and a $100 graduation gift card for their brother in May.\nUser is reflecting on their gift\u2011giving habits, noting that they spend a lot on gifts during special occasions and considering whether to cut back.\nUser plans to spend $150\u2013$200 on a personalized photo album for their mom's anniversary, leaning toward a mid\u2011range option with 40\u201360 pages and premium printing, and is weighing whether to splurge on a high\u2011end version.\nUser bought a set of baby clothes and toys from Buy Buy Baby for a coworker's baby at a recent baby shower, totaling $100, and obtained a gift receipt for potential exchange.\nUser has chosen the Classic and Simple design style for the photo album, favoring a clean, elegant look that lets photos be the focus.\nUser prefers adding a personalized message to the photo album over a decorative box, viewing it as a more intimate and sentimental addition.",
+            "latency": 710.265
+        }
+    ]
+}

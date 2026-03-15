@@ -1,0 +1,19 @@
+{
+    "index": 411,
+    "question_type": "temporal-reasoning",
+    "question": "I received a piece of jewelry last Saturday from whom?",
+    "question_date": "2023/03/09 (Thu) 15:42",
+    "ground_truth_answer": "my aunt",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only discusses antique furniture (armchair and chandelier) from the user's great-grandmother and estate sales, with no mention of jewelry, an aunt, or receiving anything last Saturday."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only discusses vintage furniture (armchair and chandelier) from the user's great-grandmother and estate sales, but contains no information about receiving jewelry last Saturday or from an aunt."
+        }
+    ]
+}

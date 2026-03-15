@@ -1,0 +1,22 @@
+{
+    "index": 477,
+    "question_type": "multi-session",
+    "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+    "question_date": "2023/05/26 (Fri) 00:54",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_477_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants transportation recommendations from the airport to their hotel and is considering asking hotel staff for advice; also considers a taxi fare of about $60, which they find pricey.\nThe user is planning a trip to Japan, flying into Narita International Airport, staying in Shinjuku district, arriving on a Friday afternoon, and believes the train fare to their hotel is about $10, possibly due to a special deal.",
+            "latency": 563.963
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants transportation recommendations from the airport to their hotel and is considering asking hotel staff for advice; also considers a taxi fare of about $60, which they find pricey.\nThe user is planning a trip to Japan, flying into Narita International Airport, staying in Shinjuku district, arriving on a Friday afternoon, and believes the train fare to their hotel is about $10, possibly due to a special deal.",
+            "latency": 836.187
+        }
+    ]
+}

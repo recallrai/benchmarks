@@ -1,0 +1,19 @@
+{
+    "index": 76,
+    "question_type": "multi-session",
+    "question": "How many weddings have I attended in this year?",
+    "question_date": "2023/10/15 (Sun) 22:23",
+    "ground_truth_answer": "I attended three weddings. The couples were Rachel and Mike, Emily and Sarah, and Jen and Tom.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions all three weddings from the gold answer: cousin Rachel's vineyard wedding, cousin Emily's rooftop garden wedding, and friend Jen's marriage to Tom in a rustic barn, which would enable correctly answering the question about attending three weddings."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions all three weddings from the gold answer: Rachel's vineyard wedding (where user was a bridesmaid), Emily's rooftop garden wedding (which influenced the user's preferences), and Jen and Tom's rustic barn wedding, providing sufficient information to answer the question correctly."
+        }
+    ]
+}

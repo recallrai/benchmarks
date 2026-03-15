@@ -1,0 +1,22 @@
+{
+    "index": 155,
+    "question_type": "knowledge-update",
+    "question": "How long have I been sticking to my daily tidying routine?",
+    "question_date": "2023/09/30 (Sat) 18:36",
+    "ground_truth_answer": "4 weeks",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_155_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been following a tidying routine for 4 weeks, feels proud of this consistency and that it has made a significant positive difference in their apartment, and wants to create a workstation for routine, moving from the kitchen counter to a space to keep supplies organized and stay consistent.\nUser wants advice on how to categorize cleaning supplies, considering organizing them by room or by type of cleaning product.\nUser plans to keep a variety of cleaning supplies at the new workstation, including all-purpose cleaners, disinfectants, dusters, paper towels, a cordless vacuum, a microfiber mop, and an all-natural bathroom brand started last week that effectively removes soap scum and mildew.\nUser is considering using stackable bins and labels in the garage to keep everything organized and easy to find, and is looking for tips on how to choose the right bins and labels for the job.\nUser wants advice on organizing their bookshelf, specifically wanting to categorize and group similar books together.\nUser plans to clean out the garage this weekend, aiming to purge and categorize items using a 4\u2011box method, group similar items, implement a one\u2011touch rule during the cleanup, and will use a Brother P\u2011Touch label maker to label all storage bins and shelves, focusing on sports equipment and desk.",
+            "latency": 708.829
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been following a tidying routine for 4 weeks, feels proud of this consistency and that it has made a significant positive difference in their apartment, and wants to create a workstation for routine, moving from the kitchen counter to a space to keep supplies organized and stay consistent.\nUser wants advice on how to categorize cleaning supplies, considering organizing them by room or by type of cleaning product.\nUser plans to keep a variety of cleaning supplies at the new workstation, including all-purpose cleaners, disinfectants, dusters, paper towels, a cordless vacuum, a microfiber mop, and an all-natural bathroom brand started last week that effectively removes soap scum and mildew.\nUser is considering using stackable bins and labels in the garage to keep everything organized and easy to find, and is looking for tips on how to choose the right bins and labels for the job.\nUser wants advice on organizing their bookshelf, specifically wanting to categorize and group similar books together.\nUser plans to clean out the garage this weekend, aiming to purge and categorize items using a 4\u2011box method, group similar items, implement a one\u2011touch rule during the cleanup, and will use a Brother P\u2011Touch label maker to label all storage bins and shelves, focusing on sports equipment and desk.",
+            "latency": 897.758
+        }
+    ]
+}

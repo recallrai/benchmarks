@@ -1,0 +1,19 @@
+{
+    "index": 289,
+    "question_type": "single-session-user",
+    "question": "What play did I attend at the local community theater?",
+    "question_date": "2023/05/30 (Tue) 03:57",
+    "ground_truth_answer": "The Glass Menagerie",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'the play they attended was a production of The Glass Menagerie,' which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'the play they attended was a production of The Glass Menagerie,' which directly matches the gold answer."
+        }
+    ]
+}

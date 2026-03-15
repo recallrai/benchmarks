@@ -1,0 +1,22 @@
+{
+    "index": 275,
+    "question_type": "single-session-assistant",
+    "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual gemstones?",
+    "question_date": "2023/05/29 (Mon) 20:24",
+    "ground_truth_answer": "@jessica_poole_jewellery",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_275_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 1512.18
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 5949.5
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 485,
+    "question_type": "multi-session",
+    "question": "How much more money did I raise than my initial goal in the charity cycling event?",
+    "question_date": "2023/05/28 (Sun) 14:12",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_485_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User raised $250 in donations during a recent charity cycling event, exceeding the initial $200 goal for a local children's hospital, feeling proud and purposeful, and is now seeking advice on properly tuning their bike after a long ride, while also planning to sign up for a triathlon in June.\nUser is seeking to improve cycling endurance, has been attending spin classes at the gym, has observed progress, and wants to elevate performance to the next level.\nUser is interested in incorporating interval training into spin classes and requests examples of interval workouts suitable for that setting.\nUser plans to organize a casual basketball game with coworkers during lunch breaks and is considering inviting friend Rachel, who ran a 5K with them last Saturday, finishing 27 minutes 12 seconds\u2014a personal best for Alice, and wonders if Rachel would be interested in playing.\nUser is uncertain about maintaining high\u2011intensity intervals in spin classes and seeks guidance on whether to modify intervals to match current fitness level.\nUser intends to try a modified interval routine and wants advice on tracking progress and staying motivated, including using a fitness app and celebrating small victories.\nUser requests guidance on creating a balanced triathlon training plan that incorporates swimming, biking, and running, aiming to allocate time and energy efficiently for overall performance.\nUser is excited to begin triathlon training, plans to prioritize rest and recovery, listen to body, adjust training, and may collaborate with a coach or experienced triathlete for a customized plan.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User raised $250 in donations during a recent charity cycling event, exceeding the initial $200 goal for a local children's hospital, feeling proud and purposeful, and is now seeking advice on properly tuning their bike after a long ride, while also planning to sign up for a triathlon in June.\nUser is seeking to improve cycling endurance, has been attending spin classes at the gym, has observed progress, and wants to elevate performance to the next level.\nUser is interested in incorporating interval training into spin classes and requests examples of interval workouts suitable for that setting.\nUser plans to organize a casual basketball game with coworkers during lunch breaks and is considering inviting friend Rachel, who ran a 5K with them last Saturday, finishing 27 minutes 12 seconds\u2014a personal best for Alice, and wonders if Rachel would be interested in playing.\nUser is uncertain about maintaining high\u2011intensity intervals in spin classes and seeks guidance on whether to modify intervals to match current fitness level.\nUser intends to try a modified interval routine and wants advice on tracking progress and staying motivated, including using a fitness app and celebrating small victories.\nUser requests guidance on creating a balanced triathlon training plan that incorporates swimming, biking, and running, aiming to allocate time and energy efficiently for overall performance.\nUser is excited to begin triathlon training, plans to prioritize rest and recovery, listen to body, adjust training, and may collaborate with a coach or experienced triathlete for a customized plan.",
+            "latency": 697.0
+        }
+    ]
+}

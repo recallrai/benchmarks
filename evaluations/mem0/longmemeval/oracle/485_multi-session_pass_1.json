@@ -1,0 +1,19 @@
+{
+    "index": 485,
+    "question_type": "multi-session",
+    "question": "How much more money did I raise than my initial goal in the charity cycling event?",
+    "question_date": "2023/05/28 (Sun) 14:12",
+    "ground_truth_answer": "$50",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user raised $250 and the initial goal was $200, which means they raised $50 more than the goal, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user raised $250 and the initial goal was $200, which correctly shows they raised $50 more than their goal."
+        }
+    ]
+}

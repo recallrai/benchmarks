@@ -1,0 +1,22 @@
+{
+    "index": 362,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the friends and family sale at Nordstrom?",
+    "question_date": "2022/12/01 (Thu) 11:48",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_362_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to mount the TV in the living room using a full-motion mount, specifically considering the Sanus VMF408, and has recently shopped at Nordstrom's friends and family sale, obtaining 20% off on dresses and tops and a $20 gift card for purchases over $100.\nUser intends to use the TV for gaming, movie nights, and casual viewing with a large family, and has recently shopped at the annual holiday market, buying unique gifts for siblings (a handmade candle and a customized phone case) and stocking stuffers (cozy socks and gourmet chocolates).\nUser is evaluating the Yamaha YAS-209 soundbar as a budget-friendly alternative to the Sonos Beam while still considering the Sonos Beam.\nUser recently purchased a new 4K TV during Black Friday and is seeking advice on selecting a suitable TV mount.\nUser plans to conduct further research to decide between the Sonos Beam and Yamaha YAS-209 and expresses gratitude for assistance.\nUser is considering purchasing a Sonos Beam soundbar to improve audio quality for the TV setup.",
+            "latency": 974.86
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to mount the TV in the living room using a full-motion mount, specifically considering the Sanus VMF408, and has recently shopped at Nordstrom's friends and family sale, obtaining 20% off on dresses and tops and a $20 gift card for purchases over $100.\nUser intends to use the TV for gaming, movie nights, and casual viewing with a large family, and has recently shopped at the annual holiday market, buying unique gifts for siblings (a handmade candle and a customized phone case) and stocking stuffers (cozy socks and gourmet chocolates).\nUser is evaluating the Yamaha YAS-209 soundbar as a budget-friendly alternative to the Sonos Beam while still considering the Sonos Beam.\nUser recently purchased a new 4K TV during Black Friday and is seeking advice on selecting a suitable TV mount.\nUser plans to conduct further research to decide between the Sonos Beam and Yamaha YAS-209 and expresses gratitude for assistance.\nUser is considering purchasing a Sonos Beam soundbar to improve audio quality for the TV setup.",
+            "latency": 1784.203
+        }
+    ]
+}

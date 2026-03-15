@@ -1,0 +1,19 @@
+{
+    "index": 440,
+    "question_type": "multi-session",
+    "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+    "question_date": "2023/05/30 (Tue) 16:15",
+    "ground_truth_answer": "Yes.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context indicates a 40% discount on the first HelloFresh order and a 20% discount on an UberEats order, which supports the 'Yes' answer that HelloFresh had a higher discount."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states HelloFresh first order had a 40% discount and an UberEats order had a 20% discount, which allows determining that yes, HelloFresh had a higher percentage discount, matching the gold answer."
+        }
+    ]
+}

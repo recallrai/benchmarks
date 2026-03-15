@@ -1,0 +1,19 @@
+{
+    "index": 221,
+    "question_type": "single-session-preference",
+    "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+    "question_date": "2023/05/27 (Sat) 13:54",
+    "ground_truth_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all key information mentioned in the gold answer: the user's home network storage capacity issues, their current reliance on external hard drives for backups, and their interest in NAS devices, which would enable providing an informed response about whether to buy now or wait."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about the user's storage capacity issues, current reliance on external hard drives for backups, and their research into NAS devices, which aligns with all key elements mentioned in the gold answer."
+        }
+    ]
+}

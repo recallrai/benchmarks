@@ -1,0 +1,19 @@
+{
+    "index": 345,
+    "question_type": "single-session-user",
+    "question": "Who gave me a new stand mixer as a birthday gift?",
+    "question_date": "2023/05/24 (Wed) 21:11",
+    "ground_truth_answer": "my sister",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states 'User received a new stand mixer from their sister last month,' which directly identifies the sister as the giver of the stand mixer, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user received a new stand mixer from their sister, which directly answers who gave the stand mixer and matches the gold answer."
+        }
+    ]
+}

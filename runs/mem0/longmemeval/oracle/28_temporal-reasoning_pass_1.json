@@ -1,0 +1,22 @@
+{
+    "index": 28,
+    "question_type": "temporal-reasoning",
+    "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+    "question_date": "2023/05/30 (Tue) 12:34",
+    "ground_truth_answer": "The arrival of the new prime lens",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_28_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a photographer who acquired a 50mm f/1.8 prime lens, is learning to master manual focus, and has applied the lens on a trip where they captured a friend standing on a cliff shutter to freeze waves, exposure compensation to avoid blown highlights, and shooting in RAW for flexibility.\nUser used a polarizing filter to reduce glare, plans to print and frame the portrait with a classic matte finish and a rustic or coastal\u2011themed frame, feeling pride, enthusiasm, and a strong attachment to the image.\nUser wants to learn Lightroom and Photoshop but struggles with color grading consistency, achieving specific looks, and managing color profiles. Also finds noise reduction and sharpening in RAW challenging, fearing loss of detail or over-sharpening.\nUser captured a seagull flying overhead with its wings spread wide, using a fast shutter speed to freeze the motion, and is planning to print and frame this seagull shot for their living room.\nUser is considering online printing services such as Shutterfly or Snapfish versus a local print shop, and plans to research and compare prices and quality before making a decision.\nUser is open to suggestions regarding paper type for printing; they have heard that matte paper reduces glare but are unsure if it is the best option for their image, and are seeking a recommendation.",
+            "latency": 755.46
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a photographer who acquired a 50mm f/1.8 prime lens, is learning to master manual focus, and has applied the lens on a trip where they captured a friend standing on a cliff shutter to freeze waves, exposure compensation to avoid blown highlights, and shooting in RAW for flexibility.\nUser used a polarizing filter to reduce glare, plans to print and frame the portrait with a classic matte finish and a rustic or coastal\u2011themed frame, feeling pride, enthusiasm, and a strong attachment to the image.\nUser wants to learn Lightroom and Photoshop but struggles with color grading consistency, achieving specific looks, and managing color profiles. Also finds noise reduction and sharpening in RAW challenging, fearing loss of detail or over-sharpening.\nUser captured a seagull flying overhead with its wings spread wide, using a fast shutter speed to freeze the motion, and is planning to print and frame this seagull shot for their living room.\nUser is considering online printing services such as Shutterfly or Snapfish versus a local print shop, and plans to research and compare prices and quality before making a decision.\nUser is open to suggestions regarding paper type for printing; they have heard that matte paper reduces glare but are unsure if it is the best option for their image, and are seeking a recommendation.",
+            "latency": 913.628
+        }
+    ]
+}

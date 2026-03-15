@@ -1,0 +1,19 @@
+{
+    "index": 18,
+    "question_type": "temporal-reasoning",
+    "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+    "question_date": "2023/05/24 (Wed) 14:19",
+    "ground_truth_answer": "Smart thermostat",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the smart thermostat was set up 'a month ago' while the mesh network system is described as 'new' in a later planning context, supporting that the smart thermostat was set up first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the smart thermostat was set up a month ago, while the mesh network system is described as 'new' with the user planning to upgrade their desktop to support it, indicating the smart thermostat was indeed set up first."
+        }
+    ]
+}

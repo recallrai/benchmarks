@@ -1,0 +1,22 @@
+{
+    "index": 21,
+    "question_type": "temporal-reasoning",
+    "question": "What was the date on which I attended the first BBQ event in June?",
+    "question_date": "2023/07/01 (Sat) 23:13",
+    "ground_truth_answer": "June 3rd",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_21_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User loves Sweet Baby Ray's sauce, is looking to try new BBQ sauce brands, and attended a backyard BBQ party at a colleague's house on June 3 where they saw an impressive variety of BBQ sauces.\nUser plans to host a BBQ party soon, wants a variety of dishes including Korean-style BBQ (like the June 10 recipe) and traditional BBQ favorites, and seeks tips for planning a successful BBQ party.\nUser made a Korean-style BBQ recipe on June 10 and is looking for recommendations for Korean-style BBQ sauces or marinades to use.\nUser wants Korean-style BBQ vegetarian options to serve alongside bulgogi and galbi at their party.\nUser is planning a BBQ party and wants to invest in a new patio set that can accommodate a large group, prioritizing durability, comfort, and easy cleaning.\nUser plans to use Kansas City Masterpiece sauce, has been experimenting with BBQ recipes at home, and seeks tips to achieve a perfect smoky flavor when grilling.\nUser experimented with apple wood chips last weekend, adding fruity flavor to grilled chicken, and is now planning to use hickory wood chips, seeking effective usage tips.",
+            "latency": 807.325
+        },
+        {
+            "strategy": "graph",
+            "context": "User loves Sweet Baby Ray's sauce, is looking to try new BBQ sauce brands, and attended a backyard BBQ party at a colleague's house on June 3 where they saw an impressive variety of BBQ sauces.\nUser plans to host a BBQ party soon, wants a variety of dishes including Korean-style BBQ (like the June 10 recipe) and traditional BBQ favorites, and seeks tips for planning a successful BBQ party.\nUser made a Korean-style BBQ recipe on June 10 and is looking for recommendations for Korean-style BBQ sauces or marinades to use.\nUser wants Korean-style BBQ vegetarian options to serve alongside bulgogi and galbi at their party.\nUser is planning a BBQ party and wants to invest in a new patio set that can accommodate a large group, prioritizing durability, comfort, and easy cleaning.\nUser plans to use Kansas City Masterpiece sauce, has been experimenting with BBQ recipes at home, and seeks tips to achieve a perfect smoky flavor when grilling.\nUser experimented with apple wood chips last weekend, adding fruity flavor to grilled chicken, and is now planning to use hickory wood chips, seeking effective usage tips.",
+            "latency": 1350.665
+        }
+    ]
+}

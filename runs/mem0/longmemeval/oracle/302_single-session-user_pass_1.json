@@ -1,0 +1,22 @@
+{
+    "index": 302,
+    "question_type": "single-session-user",
+    "question": "What did I buy for my sister's birthday gift?",
+    "question_date": "2023/05/30 (Tue) 04:48",
+    "ground_truth_answer": "a yellow dress",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_302_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has bought gifts for sister's birthday, mom, neighbor Mrs. Johnson, coworkers, best friend's baby shower, and brother's new apartment.\nUser bought a yellow dress and a pair of earrings for sister's birthday.\nUser bought a pair of silver hoop earrings with a small pearl in the center for mom.\nUser bought groceries and flowers for Mrs. Johnson during her recovery from surgery.\nUser bought snacks (granola bars, nuts) and drinks (energy drinks) for coworkers during a team-building event, and also bought a beautiful journal and a set of nice pens for coworker Rachel at her going-away party.",
+            "latency": 946.423
+        },
+        {
+            "strategy": "graph",
+            "context": "User has bought gifts for sister's birthday, mom, neighbor Mrs. Johnson, coworkers, best friend's baby shower, and brother's new apartment.\nUser bought a yellow dress and a pair of earrings for sister's birthday.\nUser bought a pair of silver hoop earrings with a small pearl in the center for mom.\nUser bought groceries and flowers for Mrs. Johnson during her recovery from surgery.\nUser bought snacks (granola bars, nuts) and drinks (energy drinks) for coworkers during a team-building event, and also bought a beautiful journal and a set of nice pens for coworker Rachel at her going-away party.",
+            "latency": 1808.099
+        }
+    ]
+}

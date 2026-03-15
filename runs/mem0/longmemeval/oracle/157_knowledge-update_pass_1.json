@@ -1,0 +1,22 @@
+{
+    "index": 157,
+    "question_type": "knowledge-update",
+    "question": "How many Instagram followers do I currently have?",
+    "question_date": "2023/06/08 (Thu) 22:24",
+    "ground_truth_answer": "600",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_157_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has reached 600 followers on Instagram, a milestone after previously hitting 500 followers, and is eager to increase social media presence with engaging promotional content.\nUser plans to host a Q&A session on Instagram Stories tomorrow using the Question Sticker, focusing on writing process and freelancing, will promote it by announcing in advance, creating a branded hashtag, and specifying the topic/theme, answer a selection of questions, address common themes, provide resources, and thank followers.\nThe user plans to incorporate behind\u2011the\u2011scenes content and a user\u2011generated content campaign into their strategy, specifically featuring their cat Luna in BTS posts and sharing snippets of their manuscript or research via Instagram Stories to humanize their brand and give followers a glimpse into their writing process.\nThe user will run an Instagram poll with three options\u2014more writing tips and advice, more behind\u2011the\u2011scenes content, and more sneak peeks of their manuscript\u2014then share the results in a follow\u2011up story with a graphic, thank followers, highlight the winning option, and encourage comments, aiming to keep engagement high and potentially spark new ideas for their writing and content creation.\nThe user intends to use a hybrid posting schedule for manuscript snippets\u2014posting as they finish new sections while maintaining a consistent frequency\u2014and will solicit follower preferences through polls to refine their content mix.",
+            "latency": 808.371
+        },
+        {
+            "strategy": "graph",
+            "context": "User has reached 600 followers on Instagram, a milestone after previously hitting 500 followers, and is eager to increase social media presence with engaging promotional content.\nUser plans to host a Q&A session on Instagram Stories tomorrow using the Question Sticker, focusing on writing process and freelancing, will promote it by announcing in advance, creating a branded hashtag, and specifying the topic/theme, answer a selection of questions, address common themes, provide resources, and thank followers.\nThe user plans to incorporate behind\u2011the\u2011scenes content and a user\u2011generated content campaign into their strategy, specifically featuring their cat Luna in BTS posts and sharing snippets of their manuscript or research via Instagram Stories to humanize their brand and give followers a glimpse into their writing process.\nThe user will run an Instagram poll with three options\u2014more writing tips and advice, more behind\u2011the\u2011scenes content, and more sneak peeks of their manuscript\u2014then share the results in a follow\u2011up story with a graphic, thank followers, highlight the winning option, and encourage comments, aiming to keep engagement high and potentially spark new ideas for their writing and content creation.\nThe user intends to use a hybrid posting schedule for manuscript snippets\u2014posting as they finish new sections while maintaining a consistent frequency\u2014and will solicit follower preferences through polls to refine their content mix.",
+            "latency": 1301.008
+        }
+    ]
+}

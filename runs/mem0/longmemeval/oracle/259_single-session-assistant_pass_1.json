@@ -1,0 +1,22 @@
+{
+    "index": 259,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+    "question_date": "2023/05/30 (Tue) 13:07",
+    "ground_truth_answer": "2-3 eggs",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_259_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to make a classic French omelette, is excited to try it, seeks tips for making it fluffy and light, and wants recommendations for fillings.",
+            "latency": 1527.005
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to make a classic French omelette, is excited to try it, seeks tips for making it fluffy and light, and wants recommendations for fillings.",
+            "latency": 4374.775
+        }
+    ]
+}

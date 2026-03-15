@@ -1,0 +1,19 @@
+{
+    "index": 367,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "question_date": "2023/05/06 (Sat) 05:25",
+    "ground_truth_answer": "3 weeks ago",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user is using or considering using Ibotta but contains no information about when they started using it or any temporal reference that would indicate '3 weeks ago' from the question date."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions the user's interest in and use of Ibotta, but contains no temporal information about when they started using the app (i.e., no mention of '3 weeks ago' or any date that would indicate when they began using it)."
+        }
+    ]
+}

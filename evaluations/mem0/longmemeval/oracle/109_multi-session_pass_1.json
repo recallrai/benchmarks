@@ -1,0 +1,19 @@
+{
+    "index": 109,
+    "question_type": "multi-session",
+    "question": "What is the total amount of money I earned from selling my products at the markets?",
+    "question_date": "2023/06/01 (Thu) 21:36",
+    "ground_truth_answer": "$495",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains three sales: $120 (May 15), $225 (May 29), and $150 (20 potted herb plants at $7.5 each at Summer Solstice Market), which totals $495, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three market sales: $120 on May 15, $225 on May 29, and $150 from selling 20 potted herb plants at $7.5 each at the Summer Solstice Market, which totals to $495, matching the gold answer."
+        }
+    ]
+}

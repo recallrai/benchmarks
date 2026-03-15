@@ -1,0 +1,22 @@
+{
+    "index": 120,
+    "question_type": "multi-session",
+    "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+    "question_date": "2023/05/28 (Sun) 06:00",
+    "ground_truth_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_120_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning their next trip and is torn between traveling solo or with family, having just returned from an amazing island\u2011hopping trip to Hawaii with family that sparked this dilemma.\nUser plans to stay in Europe for 7\u201310 days, is considering adding Barcelona or Amsterdam but is uncertain, definitely wants to spend a few days in Paris to see the Eiffel Tower and the Louvre, and in Rome to visit the Colosseum and try authentic Italian food; User also believes traveling between European cities is relatively easy and affordable and may add a third destination later.\nUser has outlined a 4\u2011day itinerary in Paris (Eiffel Tower, Louvre, Montmartre) and a 3\u2011day itinerary in Rome (Colosseum, Vatican City, Pantheon, Trevi Fountain), expressing excitement about visiting these landmarks.\nUser values flexibility highly; after a 10\u2011day family trip to Hawaii that required advance planning and limited on\u2011the\u2011fly changes, they now prefer solo travel and flexible itineraries in Europe.\nUser recently returned from a solo five\u2011day trip to New\u202fYork\u202fCity, staying at a hostel and eating at local caf\u00e9s, which helped User save money.\nUser is planning a trip to Europe, considering Paris or Rome, wants to visit the Louvre and try authentic Italian food, and is curious whether hostels are a good option in Europe.\nUser is fascinated by Japan, especially its food and unique culture, and is seeking guidance on the best time to visit, specific festivals or events to attend, and must\u2011try dishes and restaurants.\nUser is requesting budgeting tips for their upcoming trip, having successfully saved money on their recent solo NYC trip.",
+            "latency": 716.925
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning their next trip and is torn between traveling solo or with family, having just returned from an amazing island\u2011hopping trip to Hawaii with family that sparked this dilemma.\nUser plans to stay in Europe for 7\u201310 days, is considering adding Barcelona or Amsterdam but is uncertain, definitely wants to spend a few days in Paris to see the Eiffel Tower and the Louvre, and in Rome to visit the Colosseum and try authentic Italian food; User also believes traveling between European cities is relatively easy and affordable and may add a third destination later.\nUser has outlined a 4\u2011day itinerary in Paris (Eiffel Tower, Louvre, Montmartre) and a 3\u2011day itinerary in Rome (Colosseum, Vatican City, Pantheon, Trevi Fountain), expressing excitement about visiting these landmarks.\nUser values flexibility highly; after a 10\u2011day family trip to Hawaii that required advance planning and limited on\u2011the\u2011fly changes, they now prefer solo travel and flexible itineraries in Europe.\nUser recently returned from a solo five\u2011day trip to New\u202fYork\u202fCity, staying at a hostel and eating at local caf\u00e9s, which helped User save money.\nUser is planning a trip to Europe, considering Paris or Rome, wants to visit the Louvre and try authentic Italian food, and is curious whether hostels are a good option in Europe.\nUser is fascinated by Japan, especially its food and unique culture, and is seeking guidance on the best time to visit, specific festivals or events to attend, and must\u2011try dishes and restaurants.\nUser is requesting budgeting tips for their upcoming trip, having successfully saved money on their recent solo NYC trip.",
+            "latency": 894.11
+        }
+    ]
+}

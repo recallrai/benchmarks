@@ -1,0 +1,22 @@
+{
+    "index": 316,
+    "question_type": "single-session-user",
+    "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+    "question_date": "2023/05/24 (Wed) 22:04",
+    "ground_truth_answer": "The painting is worth triple what I paid for it.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_316_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a flea market find that is now valued at triple what they paid, is curious about art market trends favoring certain styles or periods, wants to understand the general rule of thumb for determining art value, and plans to keep the piece displayed in their living room as a conversation starter and part of their collection.\nUser is interested in taking an art history course to learn about the context and significance of different art movements, and is seeking online resources or beginner textbooks.",
+            "latency": 1134.568
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a flea market find that is now valued at triple what they paid, is curious about art market trends favoring certain styles or periods, wants to understand the general rule of thumb for determining art value, and plans to keep the piece displayed in their living room as a conversation starter and part of their collection.\nUser is interested in taking an art history course to learn about the context and significance of different art movements, and is seeking online resources or beginner textbooks.",
+            "latency": 2014.603
+        }
+    ]
+}

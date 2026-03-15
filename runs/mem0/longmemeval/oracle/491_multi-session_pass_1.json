@@ -1,0 +1,22 @@
+{
+    "index": 491,
+    "question_type": "multi-session",
+    "question": "How much discount will I get on my next purchase at FreshMart?",
+    "question_date": "2023/05/30 (Tue) 10:10",
+    "ground_truth_answer": "$5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_491_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a big grocery shopping trip to FreshMart this weekend, aiming to use their loyalty points (100 points equal $1 discount, 500 points equal $5 discount) to maximize savings, wants a personalized list based on their shopping habits, and is trying to shop at FreshMart more often to accumulate points.\nUser is considering purchasing a new office chair, has been buying office supplies and printer ink from OfficeDepot regularly, and hopes to use User's silver tier discount to secure a good deal, reflecting a desire for ergonomic comfort and cost savings.\nUser wants suggestions for a good coffee maker and has accumulated points at BedBath&Beyond that User would like to use, indicating interest in leveraging loyalty rewards.\nUser is contemplating canceling User's loyalty program membership at Petco because User has not been shopping there as much, has around 200 points accumulated, and feels it is no longer worthwhile, reflecting a reassessment of loyalty benefits.\nUser is thinking of buying a new pair of shoes at StyleHub, has earned points there and is close to reaching 500 points, and seeks recommendations for comfortable yet stylish shoes suitable for daily wear, showing anticipation of a reward redemption.\nUser wants suggestions for pet accessories, such as a new toy or bed for User's pet, but is uncertain about what to choose, indicating indecision about pet care needs.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a big grocery shopping trip to FreshMart this weekend, aiming to use their loyalty points (100 points equal $1 discount, 500 points equal $5 discount) to maximize savings, wants a personalized list based on their shopping habits, and is trying to shop at FreshMart more often to accumulate points.\nUser is considering purchasing a new office chair, has been buying office supplies and printer ink from OfficeDepot regularly, and hopes to use User's silver tier discount to secure a good deal, reflecting a desire for ergonomic comfort and cost savings.\nUser wants suggestions for a good coffee maker and has accumulated points at BedBath&Beyond that User would like to use, indicating interest in leveraging loyalty rewards.\nUser is contemplating canceling User's loyalty program membership at Petco because User has not been shopping there as much, has around 200 points accumulated, and feels it is no longer worthwhile, reflecting a reassessment of loyalty benefits.\nUser is thinking of buying a new pair of shoes at StyleHub, has earned points there and is close to reaching 500 points, and seeks recommendations for comfortable yet stylish shoes suitable for daily wear, showing anticipation of a reward redemption.\nUser wants suggestions for pet accessories, such as a new toy or bed for User's pet, but is uncertain about what to choose, indicating indecision about pet care needs.",
+            "latency": 701.871
+        }
+    ]
+}

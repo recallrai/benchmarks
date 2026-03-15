@@ -1,0 +1,19 @@
+{
+    "index": 29,
+    "question_type": "temporal-reasoning",
+    "question": "Which airline did I fly with the most in March and April?",
+    "question_date": "2023/04/27 (Thu) 13:11",
+    "ground_truth_answer": "United Airlines",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context shows 4 United Airlines flights in March 2023 (2 each way for Chicago trip) and 2 Southwest flights in March 2023 (Las Vegas trip), with no other flights mentioned for March-April 2023, confirming United as the most flown airline during that period."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions United Airlines flights in March 2023 (Chicago business trip with 2 flights each way on March 10-12) and Southwest flights in March 2023 (Las Vegas on March 15-18), with United having more total flights, which matches the gold answer of United Airlines."
+        }
+    ]
+}

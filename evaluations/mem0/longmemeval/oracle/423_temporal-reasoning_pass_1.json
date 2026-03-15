@@ -1,0 +1,19 @@
+{
+    "index": 423,
+    "question_type": "temporal-reasoning",
+    "question": "What did I do with Rachel on the Wednesday two months ago?",
+    "question_date": "2023/04/01 (Sat) 20:22",
+    "ground_truth_answer": "I started taking ukulele lessons with Rachel.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user started ukulele lessons with friend Rachel, which directly matches the gold answer about starting ukulele lessons with Rachel."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the user started ukulele lessons with friend Rachel, which directly matches the gold answer about starting ukulele lessons with Rachel."
+        }
+    ]
+}

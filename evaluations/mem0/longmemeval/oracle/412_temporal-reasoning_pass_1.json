@@ -1,0 +1,19 @@
+{
+    "index": 412,
+    "question_type": "temporal-reasoning",
+    "question": "What charity event did I participate in a month ago?",
+    "question_date": "2023/04/18 (Tue) 07:36",
+    "ground_truth_answer": "the 'Walk for Hunger' charity event",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions that the user 'just completed a 5\u2011kilometer Walk for Hunger charity event with colleagues,' which matches the gold answer of 'the Walk for Hunger charity event' and aligns with the timeframe of approximately a month ago."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user 'just completed a 5\u2011kilometer Walk for Hunger charity event with colleagues,' which matches the gold answer 'Walk for Hunger' charity event, and would allow someone to correctly answer the question about which charity event was participated in."
+        }
+    ]
+}

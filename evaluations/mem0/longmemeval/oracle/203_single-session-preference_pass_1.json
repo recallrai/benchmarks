@@ -1,0 +1,19 @@
+{
+    "index": 203,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest a hotel for my upcoming trip to Miami?",
+    "question_date": "2023/05/29 (Mon) 16:40",
+    "ground_truth_answer": "The user would prefer suggestions of hotels in Miami that offer great views, possibly of the ocean or the city skyline, and have unique features such as a rooftop pool or a hot tub on the balcony. They may not prefer suggestions of basic or budget hotels without these features.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses The Edgewater Hotel in Seattle (facing the Space Needle), but the question asks about hotel suggestions for Miami, and the gold answer describes preferences specific to Miami hotels."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context describes the user's hotel preferences (hot tub on balcony, great views, upscale amenities) from a different trip, which aligns with the gold answer's description of preferring hotels with views, unique features like hot tubs, and not basic/budget options."
+        }
+    ]
+}

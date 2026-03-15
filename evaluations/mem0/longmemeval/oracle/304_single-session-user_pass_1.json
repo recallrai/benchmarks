@@ -1,0 +1,19 @@
+{
+    "index": 304,
+    "question_type": "single-session-user",
+    "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+    "question_date": "2023/05/30 (Tue) 20:28",
+    "ground_truth_answer": "7",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses general packing habits and a 3-day business trip, but does not mention a 5-day trip to Costa Rica or the specific number of shirts (7) packed for that trip."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses general packing habits and a 3-day business trip but contains no information about a 5-day Costa Rica trip or the specific number of shirts packed (7)."
+        }
+    ]
+}

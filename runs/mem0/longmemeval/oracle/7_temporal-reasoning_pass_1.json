@@ -1,0 +1,22 @@
+{
+    "index": 7,
+    "question_type": "temporal-reasoning",
+    "question": "Which seeds were started first, the tomatoes or the marigolds?",
+    "question_date": "2023/03/10 (Fri) 02:46",
+    "ground_truth_answer": "Tomatoes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_7_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is thinking of adding support for marigolds as they grow and requests suggestions for DIY trellises or stakes.\nThe user plans to plant seedlings in their backyard soon, is excited that marigold seeds arrived on March 3rd and are already germinating, and wants to know the ideal temperature for planting them outside.\nThe user intends to transplant seedlings, including marigolds, into larger pots soon and seeks advice on how to do so without shocking the plants.\nThe user is located in zip code 23456 (Virginia Beach, VA) and is planning to plant out tomato, pepper, and cucumber seedlings; they need to wait until soil temperature reaches 55\u201360\u202f\u00b0F (13\u201316\u202f\u00b0C) for tomatoes, 60\u201370\u202f\u00b0F (16\u201321\u202f\u00b0C) for peppers and cucumbers, and 50\u201355\u202f\u00b0F (10\u201313\u202f\u00b0C) for marigolds before planting.\nThe user is considering using a combination of stakes and twine to support marigolds and wonders whether tying stems individually to stakes or creating a twine grid connecting multiple stems would be better.\nThe user has peas sprouting and wants to know best support options; trellises or cages can be used to help them grow upwards.\nThe user has been using a peat moss, vermiculite, and perlite mix for potting soil, finds it working well for seedlings, and wants to know if this mix is suitable for marigolds and other plants to be transplanted or if a different mix should be considered.\nThe user has added a 2\u2011inch layer of compost to their raised bed; this may raise soil temperature by 1\u20132\u202f\u00b0F (0.5\u20131\u202f\u00b0C) and improve soil structure.",
+            "latency": 828.863
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is thinking of adding support for marigolds as they grow and requests suggestions for DIY trellises or stakes.\nThe user plans to plant seedlings in their backyard soon, is excited that marigold seeds arrived on March 3rd and are already germinating, and wants to know the ideal temperature for planting them outside.\nThe user intends to transplant seedlings, including marigolds, into larger pots soon and seeks advice on how to do so without shocking the plants.\nThe user is located in zip code 23456 (Virginia Beach, VA) and is planning to plant out tomato, pepper, and cucumber seedlings; they need to wait until soil temperature reaches 55\u201360\u202f\u00b0F (13\u201316\u202f\u00b0C) for tomatoes, 60\u201370\u202f\u00b0F (16\u201321\u202f\u00b0C) for peppers and cucumbers, and 50\u201355\u202f\u00b0F (10\u201313\u202f\u00b0C) for marigolds before planting.\nThe user is considering using a combination of stakes and twine to support marigolds and wonders whether tying stems individually to stakes or creating a twine grid connecting multiple stems would be better.\nThe user has peas sprouting and wants to know best support options; trellises or cages can be used to help them grow upwards.\nThe user has been using a peat moss, vermiculite, and perlite mix for potting soil, finds it working well for seedlings, and wants to know if this mix is suitable for marigolds and other plants to be transplanted or if a different mix should be considered.\nThe user has added a 2\u2011inch layer of compost to their raised bed; this may raise soil temperature by 1\u20132\u202f\u00b0F (0.5\u20131\u202f\u00b0C) and improve soil structure.",
+            "latency": 1398.331
+        }
+    ]
+}

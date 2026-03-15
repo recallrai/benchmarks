@@ -1,0 +1,22 @@
+{
+    "index": 67,
+    "question_type": "multi-session",
+    "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+    "question_date": "2023/05/30 (Tue) 07:22",
+    "ground_truth_answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_67_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently driven six hours to Washington D.C. using a GPS device and is now seeking route options for their next road trip.\nUser is planning a road trip to Tybee Island, seeking a relaxed, laid\u2011back coastal town with beach activities and water sports, has decided on Tybee Island after comparing it to Chincoteague Island, and feels confident about the driving distance, citing a recent 4\u2011hour drive to the Outer Banks in North Carolina.\nUser plans a 7-10 day westward road trip from hometown to national parks, prefers scenic routes featuring national parks or scenic views, has no specific road restrictions, and is open to suggestions for stops or activities along the way.\nUser has previously camped in the mountains of Tennessee, driving five hours to reach the site, and found the experience totally worth it, indicating a positive attachment to mountain camping\nUser is interested in the Grand Teton and Yellowstone Loop, especially the Beartooth Highway, and wants detailed information about summer road conditions for that highway.\nUser is looking for scenic stops, rest stops, or overlooks along the drive from the Outer Banks to Tybee Island to break up the journey.\nUser intends to stop at Topsail Island, North Carolina, for a quick lunch break and a short walk on the beach, appreciates the island\u2019s seafood, and believes the detour will not add much time to the overall trip.\nUser intends to stay at Colter Bay Campground and needs confirmation of electric hookup availability and instructions for reserving such a site.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently driven six hours to Washington D.C. using a GPS device and is now seeking route options for their next road trip.\nUser is planning a road trip to Tybee Island, seeking a relaxed, laid\u2011back coastal town with beach activities and water sports, has decided on Tybee Island after comparing it to Chincoteague Island, and feels confident about the driving distance, citing a recent 4\u2011hour drive to the Outer Banks in North Carolina.\nUser plans a 7-10 day westward road trip from hometown to national parks, prefers scenic routes featuring national parks or scenic views, has no specific road restrictions, and is open to suggestions for stops or activities along the way.\nUser has previously camped in the mountains of Tennessee, driving five hours to reach the site, and found the experience totally worth it, indicating a positive attachment to mountain camping\nUser is interested in the Grand Teton and Yellowstone Loop, especially the Beartooth Highway, and wants detailed information about summer road conditions for that highway.\nUser is looking for scenic stops, rest stops, or overlooks along the drive from the Outer Banks to Tybee Island to break up the journey.\nUser intends to stop at Topsail Island, North Carolina, for a quick lunch break and a short walk on the beach, appreciates the island\u2019s seafood, and believes the detour will not add much time to the overall trip.\nUser intends to stay at Colter Bay Campground and needs confirmation of electric hookup availability and instructions for reserving such a site.",
+            "latency": 713.823
+        }
+    ]
+}

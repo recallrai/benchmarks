@@ -1,0 +1,19 @@
+{
+    "index": 61,
+    "question_type": "multi-session",
+    "question": "How many projects have I led or am currently leading?",
+    "question_date": "2023/05/30 (Tue) 04:18",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context explicitly mentions the user leading one project (Marketing Research class project with a data analysis team) and working on another project (customer data analysis), but does not clearly state they are leading the second project, making it difficult to confirm the gold answer of 2 projects led."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context explicitly mentions the user leading one project (Marketing Research class project) and working on another customer data analysis project, but does not clearly establish that the user is leading or has led exactly 2 projects total."
+        }
+    ]
+}

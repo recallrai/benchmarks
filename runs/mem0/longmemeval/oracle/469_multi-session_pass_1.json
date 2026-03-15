@@ -1,0 +1,22 @@
+{
+    "index": 469,
+    "question_type": "multi-session",
+    "question": "How much did I save on the Jimmy Choo heels?",
+    "question_date": "2023/05/30 (Tue) 18:46",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_469_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has purchased a pair of Jimmy Choo heels for $200 at an outlet mall, plans to pair them with a little black dress, and has chosen a coral\u2011colored geometric statement necklace to add a pop of color. User has long dark hair and has decided to wear it down for the outfit to create a relaxed, effortless glamour that contrasts with the formal heels. User is excited about the outfit and wants to look stylish while staying true to personal style, planning to wear it with friends this weekend for a night out.\nUser is interested in strategies for shopping during sales tax holidays or Black Friday to obtain deals on high\u2011quality basics.\nUser is seeking affordable fashion brands that offer high-quality, sustainable clothing, noting that designer brands like Jimmy Choo can be pricey, with original retail price of $500, and is considering Everlane and Cuyana for high\u2011quality basics.\nUser has recently purchased a Chanel bag, believes it will be a classic for years, and is considering buying an Omega watch that will last a lifetime.\nUser is considering buying high\u2011quality sunglasses, wondering if it's worth investing in a high\u2011end pair, and is evaluating whether to buy from an authorized dealer or a third\u2011party seller.\nUser is evaluating whether to invest in timeless pieces versus trendy items for building a sustainable wardrobe.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has purchased a pair of Jimmy Choo heels for $200 at an outlet mall, plans to pair them with a little black dress, and has chosen a coral\u2011colored geometric statement necklace to add a pop of color. User has long dark hair and has decided to wear it down for the outfit to create a relaxed, effortless glamour that contrasts with the formal heels. User is excited about the outfit and wants to look stylish while staying true to personal style, planning to wear it with friends this weekend for a night out.\nUser is interested in strategies for shopping during sales tax holidays or Black Friday to obtain deals on high\u2011quality basics.\nUser is seeking affordable fashion brands that offer high-quality, sustainable clothing, noting that designer brands like Jimmy Choo can be pricey, with original retail price of $500, and is considering Everlane and Cuyana for high\u2011quality basics.\nUser has recently purchased a Chanel bag, believes it will be a classic for years, and is considering buying an Omega watch that will last a lifetime.\nUser is considering buying high\u2011quality sunglasses, wondering if it's worth investing in a high\u2011end pair, and is evaluating whether to buy from an authorized dealer or a third\u2011party seller.\nUser is evaluating whether to invest in timeless pieces versus trendy items for building a sustainable wardrobe.",
+            "latency": 702.639
+        }
+    ]
+}

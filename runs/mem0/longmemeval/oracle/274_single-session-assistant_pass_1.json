@@ -1,0 +1,22 @@
+{
+    "index": 274,
+    "question_type": "single-session-assistant",
+    "question": "I was thinking back to our previous conversation about the Radiation Amplified zombie, and I was wondering if you remembered what we finally decided to name it?",
+    "question_date": "2023/05/30 (Tue) 04:27",
+    "ground_truth_answer": "Fissionator.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_274_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User prefers a radiation-themed zombie name that does not reference other games, likes the name 'Contaminated Colossus', wants one-word names, and finds 'Fissionator' appealing because it evokes a clunky, mechanical-looking design where the host was infected while working in a radiated environment and wore protective clothing that fused to the body.\nUser wants the Fissionator to be a slower, lumbering threat that stresses players through passive radiation and transformation of zombies; they emphasize a green\u2011ooze parasite and human host theme, with body horror deformations, including a large gash in the neck from which the parasite writhes and probes violently, attempting to infect the player and slow their movement; the protective suit is melted into the host, trapping the parasite, adding horror.\nUser envisions the Fissionator having an area\u2011of\u2011effect radiation attack that deals increasing damage the closer the player gets, coupled with vision distortion that serves as a warning; the AoE damage can be partially mitigated by Cosmic Cleanse, but the vision effect remains; the Fissionator\u2019s attacks cause radiation poisoning, and upon death it emits a radioactive burst that turns nearby zombies radioactive, increasing their damage and adding radiation effects, with a light green glow and visible slime\u2011parasite reacting violently.",
+            "latency": 1315.497
+        },
+        {
+            "strategy": "graph",
+            "context": "User prefers a radiation-themed zombie name that does not reference other games, likes the name 'Contaminated Colossus', wants one-word names, and finds 'Fissionator' appealing because it evokes a clunky, mechanical-looking design where the host was infected while working in a radiated environment and wore protective clothing that fused to the body.\nUser wants the Fissionator to be a slower, lumbering threat that stresses players through passive radiation and transformation of zombies; they emphasize a green\u2011ooze parasite and human host theme, with body horror deformations, including a large gash in the neck from which the parasite writhes and probes violently, attempting to infect the player and slow their movement; the protective suit is melted into the host, trapping the parasite, adding horror.\nUser envisions the Fissionator having an area\u2011of\u2011effect radiation attack that deals increasing damage the closer the player gets, coupled with vision distortion that serves as a warning; the AoE damage can be partially mitigated by Cosmic Cleanse, but the vision effect remains; the Fissionator\u2019s attacks cause radiation poisoning, and upon death it emits a radioactive burst that turns nearby zombies radioactive, increasing their damage and adding radiation effects, with a light green glow and visible slime\u2011parasite reacting violently.",
+            "latency": 2093.166
+        }
+    ]
+}

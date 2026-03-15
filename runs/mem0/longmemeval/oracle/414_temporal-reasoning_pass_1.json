@@ -1,0 +1,22 @@
+{
+    "index": 414,
+    "question_type": "temporal-reasoning",
+    "question": "What gardening-related activity did I do two weeks ago?",
+    "question_date": "2023/05/05 (Fri) 03:53",
+    "ground_truth_answer": "planting 12 new tomato saplings",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_414_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is experimenting with basil, mint, and parsley herbs, wants to ensure proper nutrients, and is considering compost as fertilizer. They recently attended a neighborhood gardening workshop learning companion planting and crop rotation, which helped plan their garden layout.\nUser uses a gardening app to track weather and soil moisture levels; they are a beginner gardener and are looking for additional apps or tools, and now want guidance on how often to water tomato plants during a dry spell.\nUser planted 12 new tomato saplings today, is excited to see them grow, and is seeking advice on keeping tomato plants healthy and pest\u2011free.\nUser has pests such as aphids and whiteflies on their plants; they are using neem oil and insecticidal soap to control these pests and are interested in additional natural methods, including on tomato and cucumber plants.\nUser plans to build a small trellis for rapidly climbing cucumber plants and asks whether additional support should be provided for tomato plants.\nUser considers using a mulch layer to conserve water and reduce evaporation, asking if this is a good approach.\nUser is actively managing fungal diseases on their tomato plants by using copper oxychloride to treat infections, removing infected leaves and stems, and is considering installing a drip irrigation system to deliver water directly to the roots and keep leaves dry, believing this could help prevent fungal diseases.",
+            "latency": 504.51
+        },
+        {
+            "strategy": "graph",
+            "context": "User is experimenting with basil, mint, and parsley herbs, wants to ensure proper nutrients, and is considering compost as fertilizer. They recently attended a neighborhood gardening workshop learning companion planting and crop rotation, which helped plan their garden layout.\nUser uses a gardening app to track weather and soil moisture levels; they are a beginner gardener and are looking for additional apps or tools, and now want guidance on how often to water tomato plants during a dry spell.\nUser planted 12 new tomato saplings today, is excited to see them grow, and is seeking advice on keeping tomato plants healthy and pest\u2011free.\nUser has pests such as aphids and whiteflies on their plants; they are using neem oil and insecticidal soap to control these pests and are interested in additional natural methods, including on tomato and cucumber plants.\nUser plans to build a small trellis for rapidly climbing cucumber plants and asks whether additional support should be provided for tomato plants.\nUser considers using a mulch layer to conserve water and reduce evaporation, asking if this is a good approach.\nUser is actively managing fungal diseases on their tomato plants by using copper oxychloride to treat infections, removing infected leaves and stems, and is considering installing a drip irrigation system to deliver water directly to the roots and keep leaves dry, believing this could help prevent fungal diseases.",
+            "latency": 716.695
+        }
+    ]
+}

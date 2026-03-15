@@ -1,0 +1,19 @@
+{
+    "index": 262,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about political propaganda and humor, and I was wondering if you could remind me of that Soviet cartoon you mentioned that mocked Western culture?",
+    "question_date": "2023/05/29 (Mon) 23:18",
+    "ground_truth_answer": "Nu, pogodi!",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions a general preference for political humor but does not contain any reference to a specific Soviet cartoon, 'Nu, pogodi!', or any cartoon that mocked Western culture."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the user's general preference for political humor but does not mention any Soviet cartoon, 'Nu, pogodi!', or anything about mocking Western culture, which is necessary to answer the specific question."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 304,
+    "question_type": "single-session-user",
+    "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+    "question_date": "2023/05/30 (Tue) 20:28",
+    "ground_truth_answer": "7",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_304_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is actively working to improve their packing habits for trips, beginning with a 3\u2011day business trip, and has requested a comprehensive list of essential items, guidance on what to pack in carry\u2011on versus checked luggage, strategies for selecting and mixing outfits, and general packing principles.\nThe user is asking for strategies to pack electronics and cables, specifically how to keep them organized and untangled during travel.\nThe user has invested in travel\u2011sized toiletry bottles and a packing cube to keep toiletries organized, and is seeking further advice on efficiently packing toiletries, including tips on decanting, choosing multi\u2011purpose products, and labeling containers.",
+            "latency": 1266.613
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is actively working to improve their packing habits for trips, beginning with a 3\u2011day business trip, and has requested a comprehensive list of essential items, guidance on what to pack in carry\u2011on versus checked luggage, strategies for selecting and mixing outfits, and general packing principles.\nThe user is asking for strategies to pack electronics and cables, specifically how to keep them organized and untangled during travel.\nThe user has invested in travel\u2011sized toiletry bottles and a packing cube to keep toiletries organized, and is seeking further advice on efficiently packing toiletries, including tips on decanting, choosing multi\u2011purpose products, and labeling containers.",
+            "latency": 2325.736
+        }
+    ]
+}

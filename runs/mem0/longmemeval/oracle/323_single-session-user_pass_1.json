@@ -1,0 +1,22 @@
+{
+    "index": 323,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new bookshelf from?",
+    "question_date": "2023/05/20 (Sat) 18:19",
+    "ground_truth_answer": "IKEA",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_323_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is content with having books organized and within reach, appreciates how a simple new bookshelf can make a big difference, and will stick with reading for now.\nUser recently rearranged living room furniture by swapping the couch and armchair, creating more space, and installed a new IKEA bookshelf, which helped declutter their book collection and they are very happy with it.\nUser donated old books to the local library, feeling great about decluttering, and is looking for apps to help keep track of their book collection.\nUser is actively seeking to improve organization, has recently organized their closet, and plans to use the Closet or Stylebook apps to further declutter and organize their closet.\nUser is considering organizing their living room and wants tips on creating more space and giving it a modern look.",
+            "latency": 1192.446
+        },
+        {
+            "strategy": "graph",
+            "context": "User is content with having books organized and within reach, appreciates how a simple new bookshelf can make a big difference, and will stick with reading for now.\nUser recently rearranged living room furniture by swapping the couch and armchair, creating more space, and installed a new IKEA bookshelf, which helped declutter their book collection and they are very happy with it.\nUser donated old books to the local library, feeling great about decluttering, and is looking for apps to help keep track of their book collection.\nUser is actively seeking to improve organization, has recently organized their closet, and plans to use the Closet or Stylebook apps to further declutter and organize their closet.\nUser is considering organizing their living room and wants tips on creating more space and giving it a modern look.",
+            "latency": 2072.141
+        }
+    ]
+}

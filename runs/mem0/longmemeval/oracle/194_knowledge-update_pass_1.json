@@ -1,0 +1,22 @@
+{
+    "index": 194,
+    "question_type": "knowledge-update",
+    "question": "How often do I see Dr. Johnson?",
+    "question_date": "2023/05/31 (Wed) 19:10",
+    "ground_truth_answer": "The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_194_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User prioritizes weekly yoga class and meditation to reduce anxiety, wonders if these practices improve sleep, attends bi\u2011weekly dinner with friends, has had a helpful session with Dr. Smith this week that increased confidence in setting healthy boundaries, and looks forward to discussing progress.\nUser wants a simple checklist to remind them of priorities and boundaries, appreciates the weekly review reminder, finds the proposed checklist helpful for staying on track, and has had a helpful session with Dr. Smith this week that increased confidence in setting healthy boundaries.\nUser contemplates setting boundaries with partner about social commitments, noting partner invites many events while user wants to stay home and relax, and seeks guidance on whether it's acceptable and how to bring it up.",
+            "latency": 623.358
+        },
+        {
+            "strategy": "graph",
+            "context": "User prioritizes weekly yoga class and meditation to reduce anxiety, wonders if these practices improve sleep, attends bi\u2011weekly dinner with friends, has had a helpful session with Dr. Smith this week that increased confidence in setting healthy boundaries, and looks forward to discussing progress.\nUser wants a simple checklist to remind them of priorities and boundaries, appreciates the weekly review reminder, finds the proposed checklist helpful for staying on track, and has had a helpful session with Dr. Smith this week that increased confidence in setting healthy boundaries.\nUser contemplates setting boundaries with partner about social commitments, noting partner invites many events while user wants to stay home and relax, and seeks guidance on whether it's acceptable and how to bring it up.",
+            "latency": 828.701
+        }
+    ]
+}

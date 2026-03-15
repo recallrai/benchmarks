@@ -1,0 +1,22 @@
+{
+    "index": 43,
+    "question_type": "temporal-reasoning",
+    "question": "Which streaming service did I start using most recently?",
+    "question_date": "2023/05/22 (Mon) 04:35",
+    "ground_truth_answer": "Disney+",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_43_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User enjoys watching 'The Handmaid's Tale' on Hulu, has recently finished 'For All Mankind' on Apple TV+, and is looking for new TV shows similar to those.\nUser is intrigued by 'Russian Doll', wants to know its tone and pacing relative to 'Stranger Things' and 'The Handmaid's Tale', and seeks advice on whether to start with it or 'The Haunting of Hill House'.\nUser streams on Netflix, Hulu, and Amazon Prime for the past six months, is open to exploring other services or new content on these platforms, and enjoys dystopian and sci\u2011fi series.\nUser wants recommendations for additional sci\u2011fi shows similar to \"Westworld\" and \"For All Mankind\".\nUser plans to use Amazon Prime Video with the HBO add-on, already has an Amazon Prime membership, and wants details on how the HBO add-on works, its fees, and any restrictions.\nUser is interested in watching \"The Power\" on Amazon Prime Video and wants more information about its premise and reception.\nUser is searching for a Disney+ exclusive nature documentary about a well-known mammal species, focusing on the animals' daily lives, filmed in forest or mountain habitats, recent, serious and educational yet engaging, and was viewed during the free trial last month.\nUser is interested in watching \"Westworld\" on HBO, wants more information about its premise and reception, and is uncertain whether they can access it through Amazon Prime Video or need a separate HBO subscription.\nUser has already watched and enjoyed 'The Marvelous Mrs. Maisel' on Amazon Prime, enjoys 'The Grand Tour', and wants details about its tone, pacing, style, and whether it leans more toward comedy or drama.",
+            "latency": 489.883
+        },
+        {
+            "strategy": "graph",
+            "context": "User enjoys watching 'The Handmaid's Tale' on Hulu, has recently finished 'For All Mankind' on Apple TV+, and is looking for new TV shows similar to those.\nUser is intrigued by 'Russian Doll', wants to know its tone and pacing relative to 'Stranger Things' and 'The Handmaid's Tale', and seeks advice on whether to start with it or 'The Haunting of Hill House'.\nUser streams on Netflix, Hulu, and Amazon Prime for the past six months, is open to exploring other services or new content on these platforms, and enjoys dystopian and sci\u2011fi series.\nUser wants recommendations for additional sci\u2011fi shows similar to \"Westworld\" and \"For All Mankind\".\nUser plans to use Amazon Prime Video with the HBO add-on, already has an Amazon Prime membership, and wants details on how the HBO add-on works, its fees, and any restrictions.\nUser is interested in watching \"The Power\" on Amazon Prime Video and wants more information about its premise and reception.\nUser is searching for a Disney+ exclusive nature documentary about a well-known mammal species, focusing on the animals' daily lives, filmed in forest or mountain habitats, recent, serious and educational yet engaging, and was viewed during the free trial last month.\nUser is interested in watching \"Westworld\" on HBO, wants more information about its premise and reception, and is uncertain whether they can access it through Amazon Prime Video or need a separate HBO subscription.\nUser has already watched and enjoyed 'The Marvelous Mrs. Maisel' on Amazon Prime, enjoys 'The Grand Tour', and wants details about its tone, pacing, style, and whether it leans more toward comedy or drama.",
+            "latency": 697.0
+        }
+    ]
+}

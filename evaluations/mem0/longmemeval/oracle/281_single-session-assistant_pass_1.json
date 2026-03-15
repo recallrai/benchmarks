@@ -1,0 +1,19 @@
+{
+    "index": 281,
+    "question_type": "single-session-assistant",
+    "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+    "question_date": "2023/05/29 (Mon) 18:39",
+    "ground_truth_answer": "Nostalgia",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses the user's interest in traditional Indian embroidery and tailoring materials but does not mention any specific online store name or 'Nostalgia'."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context discusses the user's interest in traditional Indian embroidery and tailoring materials, but does not mention 'Nostalgia' or any specific online store name."
+        }
+    ]
+}

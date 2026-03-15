@@ -1,0 +1,19 @@
+{
+    "index": 472,
+    "question_type": "multi-session",
+    "question": "How many dinner parties have I attended in the past month?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "three",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about dinner parties attended in the past month from May 30, 2023, but the retrieved context only references events from January 2026 (nearly 3 years in the future relative to the question date), which cannot answer a question about past events in May 2023."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions events from January 2026 (2026-01-21), which is almost 3 years after the question date of May 2023, and only describes one dinner party attended at Sarah's place, not three dinner parties in the past month."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 136,
+    "question_type": "knowledge-update",
+    "question": "How many titles are currently on my to-watch list?",
+    "question_date": "2023/06/20 (Tue) 09:36",
+    "ground_truth_answer": "25",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'their to\u2011watch list of 25 titles' which matches the gold answer of 25, even though another memory references 20 titles."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'to\u2011watch list of 25 titles' which matches the gold answer of 25, allowing someone to correctly answer the question."
+        }
+    ]
+}

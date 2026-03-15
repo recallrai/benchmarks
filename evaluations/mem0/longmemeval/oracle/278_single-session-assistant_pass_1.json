@@ -1,0 +1,19 @@
+{
+    "index": 278,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation about the Seco de Cordero recipe from Ancash. You mentioned using a light or medium-bodied beer, but I was wondering if you could remind me what type of beer you specifically recommended?",
+    "question_date": "2023/05/23 (Tue) 07:05",
+    "ground_truth_answer": "I recommended using a Pilsner or Lager for the recipe.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user plans to use a Pilsner in the lamb stew recipe, which aligns with the gold answer's recommendation of Pilsner or Lager and touches on the same topic."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions that the user 'plans to use a Pilsner in the recipe,' which directly confirms Pilsner as a recommended beer type for the Seco de Cordero recipe, matching part of the gold answer."
+        }
+    ]
+}

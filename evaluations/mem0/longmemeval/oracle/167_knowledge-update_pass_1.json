@@ -1,0 +1,19 @@
+{
+    "index": 167,
+    "question_type": "knowledge-update",
+    "question": "How many Crash Course videos have I watched in the past few weeks?",
+    "question_date": "2023/10/05 (Thu) 21:04",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user watched 10 Crash Course videos in the past few weeks, but the gold answer is 15, which is a different number."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user watched 10 Crash Course videos in the past few weeks, but the gold answer indicates 15 videos."
+        }
+    ]
+}

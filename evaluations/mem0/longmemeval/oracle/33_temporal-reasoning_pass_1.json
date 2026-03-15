@@ -1,0 +1,19 @@
+{
+    "index": 33,
+    "question_type": "temporal-reasoning",
+    "question": "Which health issue did I deal with first, the persistent cough or the skin tag removal?",
+    "question_date": "2023/02/28 (Tue) 02:35",
+    "ground_truth_answer": "Persistent cough",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context indicates the persistent cough had been ongoing for three weeks (starting early February) while the skin tag removal occurred on February 22, allowing determination that the persistent cough was dealt with first, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the persistent cough had been ongoing for three weeks with multiple doctor visits and treatments, while the skin tag removal is mentioned as occurring on February 22 (shortly before the question date of Feb 28), suggesting the cough issue began and was dealt with before the skin tag removal."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 479,
+    "question_type": "multi-session",
+    "question": "How many years older is my grandma than me?",
+    "question_date": "2024/02/05 (Mon) 08:25",
+    "ground_truth_answer": "43",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_479_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is 32 years old, reflecting on being in their 30s and feeling like just yesterday the user was in their 20s.\nThe user is interested in discovering must\u2011see places in Europe that are especially appealing to someone in their 30s, and is curious whether being 32 is considered young or old in the grand scheme of things.\nThe user is planning a trip to Europe and is seeking general packing and travel tips to ensure the user is fully prepared for the journey.\nThe user is specifically interested in visiting Barcelona and Amsterdam, wants detailed information on must\u2011see attractions and neighborhoods, is considering staying in hostels or budget hotels based on the user's age and travel style,\nand plans to spend 4\u20135 days in each city to balance visiting landmarks and exploring local neighborhoods.",
+            "latency": 489.135
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is 32 years old, reflecting on being in their 30s and feeling like just yesterday the user was in their 20s.\nThe user is interested in discovering must\u2011see places in Europe that are especially appealing to someone in their 30s, and is curious whether being 32 is considered young or old in the grand scheme of things.\nThe user is planning a trip to Europe and is seeking general packing and travel tips to ensure the user is fully prepared for the journey.\nThe user is specifically interested in visiting Barcelona and Amsterdam, wants detailed information on must\u2011see attractions and neighborhoods, is considering staying in hostels or budget hotels based on the user's age and travel style,\nand plans to spend 4\u20135 days in each city to balance visiting landmarks and exploring local neighborhoods.",
+            "latency": 737.398
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 379,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+    "question_date": "2023/05/08 (Mon) 21:01",
+    "ground_truth_answer": "6 days. 7 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_379_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is experimenting with basil, mint, and parsley in their garden and is seeking the right fertilizer for these herbs, while applying newly learned companion planting and crop rotation concepts from a local gardening workshop to plan their garden layout. They are also using compost as a fertilizer and have planted 12 new tomato saplings today, seeking advice on keeping the tomato plants healthy and pest\u2011free.\nThe user is using a gardening app to track weather and soil moisture levels and is looking for additional apps or tools that would be useful for a beginner gardener. They also seek guidance on how often to water tomato plants during a dry spell to maintain healthy growth.\nThe user built a small trellis for rapidly climbing cucumber plants and is asking whether additional support should be provided for their tomato plants.\nThe user has been using neem oil and insecticidal soap to control aphids and whiteflies, plans to try other natural methods, and is also seeking tips to prevent fungal diseases on tomato plants.\nThe user wants to know if neem oil and insecticidal soap would be effective for controlling aphids and whiteflies on cucumber plants.\nThe user is considering adding a mulch layer to conserve water and reduce evaporation, asking if this is a good approach.",
+            "latency": 588.884
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is experimenting with basil, mint, and parsley in their garden and is seeking the right fertilizer for these herbs, while applying newly learned companion planting and crop rotation concepts from a local gardening workshop to plan their garden layout. They are also using compost as a fertilizer and have planted 12 new tomato saplings today, seeking advice on keeping the tomato plants healthy and pest\u2011free.\nThe user is using a gardening app to track weather and soil moisture levels and is looking for additional apps or tools that would be useful for a beginner gardener. They also seek guidance on how often to water tomato plants during a dry spell to maintain healthy growth.\nThe user built a small trellis for rapidly climbing cucumber plants and is asking whether additional support should be provided for their tomato plants.\nThe user has been using neem oil and insecticidal soap to control aphids and whiteflies, plans to try other natural methods, and is also seeking tips to prevent fungal diseases on tomato plants.\nThe user wants to know if neem oil and insecticidal soap would be effective for controlling aphids and whiteflies on cucumber plants.\nThe user is considering adding a mulch layer to conserve water and reduce evaporation, asking if this is a good approach.",
+            "latency": 832.581
+        }
+    ]
+}

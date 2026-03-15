@@ -1,0 +1,22 @@
+{
+    "index": 388,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I finished reading 'The Nightingale' and the day I started reading 'The Hitchhiker's Guide to the Galaxy'?",
+    "question_date": "2022/05/01 (Sun) 21:43",
+    "ground_truth_answer": "1 day. 2 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_388_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has just finished reading 'The Nightingale' by Kristin Hannah, is still emotionally impacted, and is looking for book recommendations across different genres.\nUser is interested in learning more about 'The Power of Habit' by Charles Duhigg to understand their own habits, has been tracking reading habits with a log, notes that they read more during daily commute, and wants to use the habit loop to identify and change reading habits",
+            "latency": 729.298
+        },
+        {
+            "strategy": "graph",
+            "context": "User has just finished reading 'The Nightingale' by Kristin Hannah, is still emotionally impacted, and is looking for book recommendations across different genres.\nUser is interested in learning more about 'The Power of Habit' by Charles Duhigg to understand their own habits, has been tracking reading habits with a log, notes that they read more during daily commute, and wants to use the habit loop to identify and change reading habits",
+            "latency": 962.752
+        }
+    ]
+}

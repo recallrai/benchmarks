@@ -1,0 +1,22 @@
+{
+    "index": 327,
+    "question_type": "single-session-user",
+    "question": "Where did I go on a week-long trip with my family?",
+    "question_date": "2023/05/26 (Fri) 07:00",
+    "ground_truth_answer": "Hawaii",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_327_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip and is torn between traveling solo or with family, seeking destinations suitable for both solo travelers and families.\nUser plans a trip to Hawaii's Big Island, staying in Kailua-Kona, wants to explore the town and visit coffee farms, seeks accommodations suitable for solo travelers with a laid\u2011back, local vibe, will take a day trip to Hilo to visit the Hilo Farmers Market and Rainbow Falls, wants lunch recommendations, and intends to try traditional Hawaiian dishes such as laulau and kalua pig; the user previously visited Hawaii with family for a week last month and had a positive experience.",
+            "latency": 1155.424
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip and is torn between traveling solo or with family, seeking destinations suitable for both solo travelers and families.\nUser plans a trip to Hawaii's Big Island, staying in Kailua-Kona, wants to explore the town and visit coffee farms, seeks accommodations suitable for solo travelers with a laid\u2011back, local vibe, will take a day trip to Hilo to visit the Hilo Farmers Market and Rainbow Falls, wants lunch recommendations, and intends to try traditional Hawaiian dishes such as laulau and kalua pig; the user previously visited Hawaii with family for a week last month and had a positive experience.",
+            "latency": 2065.162
+        }
+    ]
+}

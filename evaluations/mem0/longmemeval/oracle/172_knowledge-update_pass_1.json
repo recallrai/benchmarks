@@ -1,0 +1,19 @@
+{
+    "index": 172,
+    "question_type": "knowledge-update",
+    "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+    "question_date": "2024/01/12 (Fri) 07:27",
+    "ground_truth_answer": "15",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states 20 new baseballs were added over the past few months, but the gold answer specifies 15 baseballs in the first three months of collection - these are different numbers and would lead to an incorrect answer."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The gold answer states 15 baseballs were added in the first three months of collection, but the retrieved context mentions 20 baseballs added over the past few months, which is both a different number and a different time reference (recent past vs. first three months of collection)."
+        }
+    ]
+}

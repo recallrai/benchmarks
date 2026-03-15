@@ -1,0 +1,22 @@
+{
+    "index": 262,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation about political propaganda and humor, and I was wondering if you could remind me of that Soviet cartoon you mentioned that mocked Western culture?",
+    "question_date": "2023/05/29 (Mon) 23:18",
+    "ground_truth_answer": "Nu, pogodi!",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_262_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User finds political humor refreshing compared to the constant seriousness of politics.",
+            "latency": 1653.149
+        },
+        {
+            "strategy": "graph",
+            "context": "User finds political humor refreshing compared to the constant seriousness of politics.",
+            "latency": 2683.296
+        }
+    ]
+}

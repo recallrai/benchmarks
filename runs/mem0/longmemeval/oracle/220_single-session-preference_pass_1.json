@@ -1,0 +1,22 @@
+{
+    "index": 220,
+    "question_type": "single-session-preference",
+    "question": "I've been feeling nostalgic lately. Do you think it would be a good idea to attend my high school reunion?",
+    "question_date": "2023/05/27 (Sat) 22:13",
+    "ground_truth_answer": "The user would prefer responses that draw upon their personal experiences and memories, specifically their positive high school experiences such as being part of the debate team and taking advanced placement courses. They would prefer suggestions that highlight the potential benefits of attending the reunion, such as reconnecting with old friends and revisiting favorite subjects like history and economics. The user might not prefer generic or vague responses that do not take into account their individual experiences and interests.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_220_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recalls positive high school experiences, including being part of the debate team and taking advanced placement economics courses, and is surprised to soon become an Economics major.\nUser is uncertain about committing to a full Master's program, wants online courses or certifications to build data science skills and get a feel for the field, noting that many old high school friends plan to work after graduation.\nUser is considering majoring in Economics and is seeking online resources or courses to prepare for the program.\nUser is weighing the pros and cons of pursuing a Master's degree and wants to assess whether they have a strong enough foundation in math and statistics to succeed in a Data Science program.",
+            "latency": 2968.796
+        },
+        {
+            "strategy": "graph",
+            "context": "User recalls positive high school experiences, including being part of the debate team and taking advanced placement economics courses, and is surprised to soon become an Economics major.\nUser is uncertain about committing to a full Master's program, wants online courses or certifications to build data science skills and get a feel for the field, noting that many old high school friends plan to work after graduation.\nUser is considering majoring in Economics and is seeking online resources or courses to prepare for the program.\nUser is weighing the pros and cons of pursuing a Master's degree and wants to assess whether they have a strong enough foundation in math and statistics to succeed in a Data Science program.",
+            "latency": 2299.753
+        }
+    ]
+}

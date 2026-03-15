@@ -1,0 +1,19 @@
+{
+    "index": 170,
+    "question_type": "knowledge-update",
+    "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+    "question_date": "2023/06/19 (Mon) 14:41",
+    "ground_truth_answer": "Premier Silver",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows the user first earned Premier Silver status (reaching 20,000 miles), then later achieved Premier Gold status, indicating Premier Silver was the previous status before the current one."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context shows the user first earned Premier Silver status at 20,000 miles, then later achieved Premier Gold status, indicating Premier Silver was the previous status before the current one."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 417,
+    "question_type": "temporal-reasoning",
+    "question": "Which bike did I fixed or serviced the past weekend?",
+    "question_date": "2023/03/21 (Tue) 05:24",
+    "ground_truth_answer": "road bike",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions mountain bike work done 'recently' or 'a few weeks ago', and road bike pedal upgrades done 'today', but does not contain information about fixing or servicing the road bike during the past weekend relative to the question date of March 21, 2023."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions the road bike pedal upgrade happening 'today' and mountain bike maintenance occurring 'a few weeks ago', indicating the road bike was the recently serviced one, which aligns with the gold answer of 'road bike' for the past weekend."
+        }
+    ]
+}

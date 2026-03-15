@@ -1,0 +1,22 @@
+{
+    "index": 123,
+    "question_type": "knowledge-update",
+    "question": "How many Korean restaurants have I tried in my city?",
+    "question_date": "2023/10/08 (Sun) 21:51",
+    "ground_truth_answer": "four",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_123_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has recently visited four Korean restaurants, each offering distinct flavors: one served an amazing bibimbap, another served a spicy kimchi stew, the third offered a unique Japchae made with sweet potato noodles, and the fourth provided a different culinary experience. The user is seeking new restaurant recommendations.\nUser is experimenting with different types of noodles and wants recommendations for popular Korean noodle dishes that can be made at home.\nUser is planning a dinner party featuring Korean-style BBQ beef as the main dish, with large\u2011quantity Korean BBQ, Indian dishes, and a Middle Eastern falafel that will be crispy on the outside and fluffy inside. The user also wants Indian\u2011inspired dishes that pair well with the Korean BBQ and falafel.\nUser is aware of a newly opened Indian restaurant in their neighborhood that serves chicken tikka masala, which they find appealing.\nUser chose kimchi and bokkeumbap as side dishes to accompany the Korean-style BBQ beef at the dinner party.\nUser is seeking recommendations for a high-quality basmati rice brand to use with saag aloo.\nUser selected samosas and saag aloo as Indian-inspired dishes for the dinner party.\nUser has been using an authentic Japanese short-grain rice brand and is uncertain if it is suitable for saag aloo, considering sticking with traditional Indian basmati rice.\nUser decided to use traditional Indian basmati rice for the dinner party.",
+            "latency": 659.045
+        },
+        {
+            "strategy": "graph",
+            "context": "User has recently visited four Korean restaurants, each offering distinct flavors: one served an amazing bibimbap, another served a spicy kimchi stew, the third offered a unique Japchae made with sweet potato noodles, and the fourth provided a different culinary experience. The user is seeking new restaurant recommendations.\nUser is experimenting with different types of noodles and wants recommendations for popular Korean noodle dishes that can be made at home.\nUser is planning a dinner party featuring Korean-style BBQ beef as the main dish, with large\u2011quantity Korean BBQ, Indian dishes, and a Middle Eastern falafel that will be crispy on the outside and fluffy inside. The user also wants Indian\u2011inspired dishes that pair well with the Korean BBQ and falafel.\nUser is aware of a newly opened Indian restaurant in their neighborhood that serves chicken tikka masala, which they find appealing.\nUser chose kimchi and bokkeumbap as side dishes to accompany the Korean-style BBQ beef at the dinner party.\nUser is seeking recommendations for a high-quality basmati rice brand to use with saag aloo.\nUser selected samosas and saag aloo as Indian-inspired dishes for the dinner party.\nUser has been using an authentic Japanese short-grain rice brand and is uncertain if it is suitable for saag aloo, considering sticking with traditional Indian basmati rice.\nUser decided to use traditional Indian basmati rice for the dinner party.",
+            "latency": 829.436
+        }
+    ]
+}

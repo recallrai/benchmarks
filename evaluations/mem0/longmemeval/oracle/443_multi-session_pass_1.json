@@ -1,0 +1,19 @@
+{
+    "index": 443,
+    "question_type": "multi-session",
+    "question": "How many hours do I work in a typical week during peak campaign seasons?",
+    "question_date": "2023/05/27 (Sat) 22:54",
+    "ground_truth_answer": "50",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context states the user typically works 40 hours per week and increases work hours by up to 5 hours weekly during peak campaign seasons (40+5=45 hours), which does not match the gold answer of 50 hours."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context states the user typically works 40 hours per week and increases work hours by up to 5 hours weekly during peak campaign seasons, which would total 45 hours, not the gold answer of 50 hours."
+        }
+    ]
+}

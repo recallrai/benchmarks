@@ -1,0 +1,19 @@
+{
+    "index": 254,
+    "question_type": "single-session-assistant",
+    "question": "I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+    "question_date": "2023/05/29 (Mon) 17:24",
+    "ground_truth_answer": "The 27th parameter was 'Sound effects (e.g., ambient, diegetic, non-diegetic, etc.)'.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the list of 100 prompt parameters or the 27th parameter, so it cannot be used to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context is empty and contains no information about the 27th parameter or any list of prompt parameters, so it cannot help answer the question."
+        }
+    ]
+}

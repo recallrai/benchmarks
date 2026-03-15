@@ -1,0 +1,22 @@
+{
+    "index": 375,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I cancelled my FarmFresh subscription and the day I did my online grocery shopping from Instacart?",
+    "question_date": "2023/03/18 (Sat) 07:42",
+    "ground_truth_answer": "54 days. 55 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_375_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User canceled the monthly grocery delivery subscription from FarmFresh, saving $100 per month, and intends to use those savings to try new recipes and ingredients at FreshMarket, a new grocery store discovered last month, while seeking suggestions on navigating the store and finding the best deals.\nUser plans to meal prep for the week with healthy recipes using chicken breasts and ground beef, Grilled Chicken Fajitas and Beef and Veggie Meatballs, and is planning recipes. They recently placed an online grocery order via Instacart, delivered to their doorstep, spending about $60, and seek guidance on portioning.\nUser is looking for suggestions to optimize grocery lists and reduce food waste.\nUser wants to make more intentional purchases, often buys random items and forgets what they have, and plans to use a spreadsheet to track pantry and fridge inventory, adding columns for store of purchase and whether item is staple or one-time purchase, to better plan shopping trips.\nUser likes Chicken and Quinoa Bowl and Korean-Style Ground Beef and Vegetable Stir-Fry and is seeking side dish suggestions to pair with these dishes.\nUser is planning to organize pantry and kitchen cabinets to improve meal prep efficiency, focusing on categorizing and storing dry goods such as rice, pasta, and canned goods.",
+            "latency": 521.521
+        },
+        {
+            "strategy": "graph",
+            "context": "User canceled the monthly grocery delivery subscription from FarmFresh, saving $100 per month, and intends to use those savings to try new recipes and ingredients at FreshMarket, a new grocery store discovered last month, while seeking suggestions on navigating the store and finding the best deals.\nUser plans to meal prep for the week with healthy recipes using chicken breasts and ground beef, Grilled Chicken Fajitas and Beef and Veggie Meatballs, and is planning recipes. They recently placed an online grocery order via Instacart, delivered to their doorstep, spending about $60, and seek guidance on portioning.\nUser is looking for suggestions to optimize grocery lists and reduce food waste.\nUser wants to make more intentional purchases, often buys random items and forgets what they have, and plans to use a spreadsheet to track pantry and fridge inventory, adding columns for store of purchase and whether item is staple or one-time purchase, to better plan shopping trips.\nUser likes Chicken and Quinoa Bowl and Korean-Style Ground Beef and Vegetable Stir-Fry and is seeking side dish suggestions to pair with these dishes.\nUser is planning to organize pantry and kitchen cabinets to improve meal prep efficiency, focusing on categorizing and storing dry goods such as rice, pasta, and canned goods.",
+            "latency": 788.118
+        }
+    ]
+}

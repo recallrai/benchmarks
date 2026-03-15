@@ -1,0 +1,22 @@
+{
+    "index": 162,
+    "question_type": "knowledge-update",
+    "question": "What is my current highest score in Ticket to Ride?",
+    "question_date": "2023/06/09 (Fri) 07:46",
+    "ground_truth_answer": "132 points",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_162_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is evaluating Carcassonne suitability for 6-8 vs smaller groups, noting a new high Ticket to Ride score of 132 points and a continued drive to improve.\nUser is planning to host another game night soon and is seeking new board\u2011game suggestions that match Ticket to Ride\u2019s level of strategy and complexity.\nUser has decided to play Carcassonne with a smaller group and is now seeking recommendations for games that work well with 6-8 players.\nUser wants to learn how to maximize trade opportunities with other players in Scythe, seeking strategies for building trade posts, forming agreements, and negotiating effectively.\nUser has chosen to purchase Deception: Murder in Hong Kong, expressing a preference for the investigator role and an engaging, immersive theme.\nUser is interested in Scythe\u2019s worker\u2011placement and resource\u2011management mechanics, wanting to understand how these core systems drive gameplay.\nUser has understood the basics of trading in Scythe and is ready to apply more advanced trade tactics.\nUser has played Codenames and What Do You Meme, enjoyed them, and is considering purchasing Deception: Murder in Hong Kong or Two Rooms and a Boom for the next game night, asking whether the two games offer similar or different experiences.\nUser is intrigued by Scythe and wants to know that a typical game lasts about 90\u2013120 minutes and that the game is suitable for 4\u20135 players.\nUser is particularly drawn to the Nordic Kingdom faction, enjoys its focus on industrialization and trade, and wants to learn more about the structure\u2011building mechanic used by that faction.",
+            "latency": 748.444
+        },
+        {
+            "strategy": "graph",
+            "context": "User is evaluating Carcassonne suitability for 6-8 vs smaller groups, noting a new high Ticket to Ride score of 132 points and a continued drive to improve.\nUser is planning to host another game night soon and is seeking new board\u2011game suggestions that match Ticket to Ride\u2019s level of strategy and complexity.\nUser has decided to play Carcassonne with a smaller group and is now seeking recommendations for games that work well with 6-8 players.\nUser wants to learn how to maximize trade opportunities with other players in Scythe, seeking strategies for building trade posts, forming agreements, and negotiating effectively.\nUser has chosen to purchase Deception: Murder in Hong Kong, expressing a preference for the investigator role and an engaging, immersive theme.\nUser is interested in Scythe\u2019s worker\u2011placement and resource\u2011management mechanics, wanting to understand how these core systems drive gameplay.\nUser has understood the basics of trading in Scythe and is ready to apply more advanced trade tactics.\nUser has played Codenames and What Do You Meme, enjoyed them, and is considering purchasing Deception: Murder in Hong Kong or Two Rooms and a Boom for the next game night, asking whether the two games offer similar or different experiences.\nUser is intrigued by Scythe and wants to know that a typical game lasts about 90\u2013120 minutes and that the game is suitable for 4\u20135 players.\nUser is particularly drawn to the Nordic Kingdom faction, enjoys its focus on industrialization and trade, and wants to learn more about the structure\u2011building mechanic used by that faction.",
+            "latency": 975.753
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 368,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed since I finished reading 'The Seven Husbands of Evelyn Hugo' when I attended the book reading event at the local library, where the author of 'The Silent Patient' is discussing her latest thriller novel?",
+    "question_date": "2023/02/10 (Fri) 14:44",
+    "ground_truth_answer": "18 days. 19 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_368_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for book recommendations similar to 'The Seven Husbands of Evelyn Hugo' by Taylor Jenkins Reid, having just finished a discussion about it in an online book club on Facebook, and is in the mood for similar books.\nUser finished 'The Seven Husbands of Evelyn Hugo', started a book journal, reads a lot, seeks new authors and genres, wants journal tips, has attended book events, read many thrillers, and is open to discovering new authors or genres to broaden horizons.\nUser plans to create a note for each book in Evernote, tagging by genre, author, and rating, and wants suggestions on what information to include in each note.\nUser intends to use Evernote or Notion for their digital book journal and wants tips on effectively using tags or keywords to easily find specific books or genres later.",
+            "latency": 728.791
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for book recommendations similar to 'The Seven Husbands of Evelyn Hugo' by Taylor Jenkins Reid, having just finished a discussion about it in an online book club on Facebook, and is in the mood for similar books.\nUser finished 'The Seven Husbands of Evelyn Hugo', started a book journal, reads a lot, seeks new authors and genres, wants journal tips, has attended book events, read many thrillers, and is open to discovering new authors or genres to broaden horizons.\nUser plans to create a note for each book in Evernote, tagging by genre, author, and rating, and wants suggestions on what information to include in each note.\nUser intends to use Evernote or Notion for their digital book journal and wants tips on effectively using tags or keywords to easily find specific books or genres later.",
+            "latency": 891.278
+        }
+    ]
+}

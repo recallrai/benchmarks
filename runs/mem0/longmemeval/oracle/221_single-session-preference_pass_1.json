@@ -1,0 +1,22 @@
+{
+    "index": 221,
+    "question_type": "single-session-preference",
+    "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+    "question_date": "2023/05/27 (Sat) 13:54",
+    "ground_truth_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_221_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a beginner looking to expand home network storage capacity by acquiring a NAS device and is seeking beginner-friendly recommendations.\nUser wants to understand the difference between 2-bay and 4-bay NAS devices and how to determine which model is appropriate for their storage needs.\nUser is concerned about data security on NAS devices and wants to know what typical security features (e.g., encryption, access control) are available.\nUser currently backs up files to an external hard drive but wants to use a NAS as a central backup location for all devices, including laptop and phone.\nUser is specifically looking for NAS devices that have strong security features such as encryption and access control and wants recommendations for such devices.",
+            "latency": 5780.825
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a beginner looking to expand home network storage capacity by acquiring a NAS device and is seeking beginner-friendly recommendations.\nUser wants to understand the difference between 2-bay and 4-bay NAS devices and how to determine which model is appropriate for their storage needs.\nUser is concerned about data security on NAS devices and wants to know what typical security features (e.g., encryption, access control) are available.\nUser currently backs up files to an external hard drive but wants to use a NAS as a central backup location for all devices, including laptop and phone.\nUser is specifically looking for NAS devices that have strong security features such as encryption and access control and wants recommendations for such devices.",
+            "latency": 2410.128
+        }
+    ]
+}

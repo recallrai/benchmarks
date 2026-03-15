@@ -1,0 +1,19 @@
+{
+    "index": 100,
+    "question_type": "multi-session",
+    "question": "How many bikes did I service or plan to service in March?",
+    "question_date": "2023/03/20 (Mon) 14:45",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context clearly mentions one road bike serviced on March 10th, but does not provide clear evidence of a second bike being serviced or planned for service in March 2023, making it insufficient to support the gold answer of 2 bikes."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The context only clearly mentions one bike (the road bike) being serviced at Pedal Power on March 10th, and while chain cleaning is mentioned for March 2nd and 22nd, it doesn't specify which bike(s) or clearly indicate that a second bike was serviced in March."
+        }
+    ]
+}

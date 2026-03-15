@@ -1,0 +1,19 @@
+{
+    "index": 26,
+    "question_type": "temporal-reasoning",
+    "question": "What time do I wake up on Tuesdays and Thursdays?",
+    "question_date": "2023/05/30 (Tue) 10:45",
+    "ground_truth_answer": "6:45 AM",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user wakes up 15 minutes earlier on Tuesdays and Thursdays and their regular wake-up time is 7:00 AM, which allows calculation of 6:45 AM for Tuesdays and Thursdays, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user wakes up 15 minutes earlier on Tuesdays and Thursdays and their regular wake-up time is 7:00 AM, which calculates to 6:45 AM and matches the gold answer."
+        }
+    ]
+}

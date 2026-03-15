@@ -1,0 +1,22 @@
+{
+    "index": 307,
+    "question_type": "single-session-user",
+    "question": "What certification did I complete last month?",
+    "question_date": "2023/05/29 (Mon) 09:02",
+    "ground_truth_answer": "Data Science",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_307_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to update their LinkedIn profile, specifically the education section, and has recently completed a Data Science certification last month; they are seeking tips on how to highlight academic achievements and optimize their profile for data science job opportunities.\nUser is considering pursuing a Master's degree in Business Administration, specifically MBA programs at the University of Florida and Arizona State University, and wants advice on researching and comparing these programs; they plan to reach out to current students and alumni from both programs to gather insights and are seeking help crafting a message to send to them.",
+            "latency": 992.156
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to update their LinkedIn profile, specifically the education section, and has recently completed a Data Science certification last month; they are seeking tips on how to highlight academic achievements and optimize their profile for data science job opportunities.\nUser is considering pursuing a Master's degree in Business Administration, specifically MBA programs at the University of Florida and Arizona State University, and wants advice on researching and comparing these programs; they plan to reach out to current students and alumni from both programs to gather insights and are seeking help crafting a message to send to them.",
+            "latency": 1941.898
+        }
+    ]
+}

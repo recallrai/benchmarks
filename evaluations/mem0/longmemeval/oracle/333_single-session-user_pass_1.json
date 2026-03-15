@@ -1,0 +1,19 @@
+{
+    "index": 333,
+    "question_type": "single-session-user",
+    "question": "Where did I attend the Imagine Dragons concert?",
+    "question_date": "2023/05/30 (Tue) 11:08",
+    "ground_truth_answer": "Xfinity Center",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'attended an Imagine Dragons concert at Xfinity Center,' which directly matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'attended an Imagine Dragons concert at Xfinity Center on June 15,' which directly matches the gold answer 'Xfinity Center.'"
+        }
+    ]
+}

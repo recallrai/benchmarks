@@ -1,0 +1,19 @@
+{
+    "index": 44,
+    "question_type": "temporal-reasoning",
+    "question": "How many months before my anniversary did Rachel get engaged?",
+    "question_date": "2023/07/07 (Fri) 23:22",
+    "ground_truth_answer": "2",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user's anniversary is July 22nd and Rachel got engaged on May 15th, which is approximately 2 months before the anniversary, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states Rachel got engaged on May 15th and the user's anniversary is July 22nd, which is approximately 2 months apart, matching the gold answer."
+        }
+    ]
+}

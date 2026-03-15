@@ -1,0 +1,22 @@
+{
+    "index": 34,
+    "question_type": "temporal-reasoning",
+    "question": "How old was I when I moved to the United States?",
+    "question_date": "2023/05/29 (Mon) 21:08",
+    "ground_truth_answer": "27",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_34_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "",
+            "latency": 914.883
+        },
+        {
+            "strategy": "graph",
+            "context": "",
+            "latency": 1638.789
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 356,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?",
+    "question_date": "2023/02/01 (Wed) 13:01",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_356_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art and is looking for recommendations of other NYC museums or exhibits for ancient culture enthusiasts.\nUser is particularly interested in the American Museum of Natural History for its dinosaur exhibits and the Brooklyn Museum for its ancient artifacts, and wants to know about guided tours or special adult programs at these museums.\nUser is intrigued by the sarcophagus symbolism of the womb and Isis, and wants to know about other ancient civilizations that practiced mummification or similar body preservation.\nUser is curious about the significance of mummification in ancient Egyptian culture.\nUser was fascinated by the Egyptian belief that the heart was the seat of the soul and wants more information about the significance and symbolism of sarcophagi seen at the exhibit.",
+            "latency": 684.852
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art and is looking for recommendations of other NYC museums or exhibits for ancient culture enthusiasts.\nUser is particularly interested in the American Museum of Natural History for its dinosaur exhibits and the Brooklyn Museum for its ancient artifacts, and wants to know about guided tours or special adult programs at these museums.\nUser is intrigued by the sarcophagus symbolism of the womb and Isis, and wants to know about other ancient civilizations that practiced mummification or similar body preservation.\nUser is curious about the significance of mummification in ancient Egyptian culture.\nUser was fascinated by the Egyptian belief that the heart was the seat of the soul and wants more information about the significance and symbolism of sarcophagi seen at the exhibit.",
+            "latency": 842.13
+        }
+    ]
+}

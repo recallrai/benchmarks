@@ -1,0 +1,19 @@
+{
+    "index": 465,
+    "question_type": "multi-session",
+    "question": "What is the total distance I covered in my four road trips?",
+    "question_date": "2023/05/26 (Fri) 11:56",
+    "ground_truth_answer": "3,000 miles",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states three road trips totaled 1,800 miles and a fourth Yellowstone trip covered 1,200 miles, which adds up to the gold answer of 3,000 miles."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three road trips totaling 1,800 miles (Durango, Breckenridge, Santa Fe) and a fourth Yellowstone trip covering 1,200 miles, which adds up to the gold answer of 3,000 miles for four road trips."
+        }
+    ]
+}

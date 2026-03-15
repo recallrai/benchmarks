@@ -1,0 +1,19 @@
+{
+    "index": 58,
+    "question_type": "temporal-reasoning",
+    "question": "Which project did I start first, the Ferrari model or the Porsche 991 Turbo S model?",
+    "question_date": "2023/05/26 (Fri) 00:18",
+    "ground_truth_answer": "The information provided is not enough. You did not mention starting the Porsche 991 Turbo S model.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions the Ferrari 288 GTO model and contains no information about a Porsche 991 Turbo S model, which aligns with the gold answer stating there is not enough information because the Porsche 991 Turbo S was never mentioned."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the Ferrari 288 GTO model but contains no mention of a Porsche 991 Turbo S model, which aligns with the gold answer stating there is insufficient information because the Porsche was never mentioned."
+        }
+    ]
+}

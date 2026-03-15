@@ -1,0 +1,22 @@
+{
+    "index": 142,
+    "question_type": "knowledge-update",
+    "question": "How many MCU films did I watch in the last 3 months?",
+    "question_date": "2023/06/06 (Tue) 10:43",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_142_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has watched 12 films in the last 3 months, including 5 MCU movies, and is planning a family movie marathon featuring Spider\u2011Man: Homecoming, The Lion King, Back to the Future, and The Goonies. They plan a Goonies\u2011inspired treasure hunt, serve popcorn, and run movie trivia, quote\u2011along, and poster\u2011guess games.\nUser plans a family movie marathon over the long weekend, having watched 12 films in the last 3 months including 5 MCU films, and wants classic childhood movies. They will include The Lion King, Back to the Future, and The Goonies, and exclude The NeverEnding Story for younger kids.\nUser is creating a Marvel\u2011themed photo booth for the movie night, planning to include Spider\u2011Man masks, capes, and additional props, and will use a cardboard box cityscape backdrop with DIY signs reading 'Spider\u2011Man's Neighborhood' or 'Queens, NY' to give an authentic feel; the user thanks for the ideas.",
+            "latency": 715.38
+        },
+        {
+            "strategy": "graph",
+            "context": "User has watched 12 films in the last 3 months, including 5 MCU movies, and is planning a family movie marathon featuring Spider\u2011Man: Homecoming, The Lion King, Back to the Future, and The Goonies. They plan a Goonies\u2011inspired treasure hunt, serve popcorn, and run movie trivia, quote\u2011along, and poster\u2011guess games.\nUser plans a family movie marathon over the long weekend, having watched 12 films in the last 3 months including 5 MCU films, and wants classic childhood movies. They will include The Lion King, Back to the Future, and The Goonies, and exclude The NeverEnding Story for younger kids.\nUser is creating a Marvel\u2011themed photo booth for the movie night, planning to include Spider\u2011Man masks, capes, and additional props, and will use a cardboard box cityscape backdrop with DIY signs reading 'Spider\u2011Man's Neighborhood' or 'Queens, NY' to give an authentic feel; the user thanks for the ideas.",
+            "latency": 896.561
+        }
+    ]
+}

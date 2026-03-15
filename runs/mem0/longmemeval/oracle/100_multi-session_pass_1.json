@@ -1,0 +1,22 @@
+{
+    "index": 100,
+    "question_type": "multi-session",
+    "question": "How many bikes did I service or plan to service in March?",
+    "question_date": "2023/03/20 (Mon) 14:45",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_100_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's road bike was serviced at Pedal Power on March 10th, where worn-out brake pads and cables were replaced, resulting in a smoother ride and increased confidence for an upcoming long ride this weekend.\nUser cleaned and lubricated the bike chain on March 2nd and again on March 22nd, noting that these maintenance actions have significantly improved the bike's shifting performance.\nUser is all set for the ride, thanks for tips and recommendations, plans to check out bike shops and repair services along Route 1 in case assistance is needed, and is excited and looking forward to the scenic journey.\nThe user specifically wants a Garmin Edge bike computer and is asking for personal experience or user feedback on Garmin products to inform their purchase decision.\nUser is planning a longer bike ride this weekend in the San Francisco Bay Area, targeting a 40-60 mile route with moderate hills, paved roads, and scenic coastal and rural views.\nThe user is considering adding a Garmin Edge bike computer and a set of bike lights to support early\u2011morning rides, indicating a desire for improved navigation, performance tracking, and visibility during low\u2011light conditions.\nUser wants to check the weather forecast for Saturday.\nUser recently acquired a new water bottle cage for their mountain bike, which securely holds a 27 oz bottle even on rough terrain, and plans to bring it on the long ride to stay hydrated.\nThe user, a commuter hybrid bike rider, has experienced front tire wear and a flat on February 20, 2026, and intends to replace the front tire with a Continental Gatorskin before April 2026 to ensure reliable performance on paved roads and bike paths.\nUser enjoys riding their mountain bike on bumpy trails that mix rocks and smooth sections, appreciates technical challenges and flowy parts, has favorite trails but is always exploring new ones.",
+            "latency": 497.247
+        },
+        {
+            "strategy": "graph",
+            "context": "User's road bike was serviced at Pedal Power on March 10th, where worn-out brake pads and cables were replaced, resulting in a smoother ride and increased confidence for an upcoming long ride this weekend.\nUser cleaned and lubricated the bike chain on March 2nd and again on March 22nd, noting that these maintenance actions have significantly improved the bike's shifting performance.\nUser is all set for the ride, thanks for tips and recommendations, plans to check out bike shops and repair services along Route 1 in case assistance is needed, and is excited and looking forward to the scenic journey.\nThe user specifically wants a Garmin Edge bike computer and is asking for personal experience or user feedback on Garmin products to inform their purchase decision.\nUser is planning a longer bike ride this weekend in the San Francisco Bay Area, targeting a 40-60 mile route with moderate hills, paved roads, and scenic coastal and rural views.\nThe user is considering adding a Garmin Edge bike computer and a set of bike lights to support early\u2011morning rides, indicating a desire for improved navigation, performance tracking, and visibility during low\u2011light conditions.\nUser wants to check the weather forecast for Saturday.\nUser recently acquired a new water bottle cage for their mountain bike, which securely holds a 27 oz bottle even on rough terrain, and plans to bring it on the long ride to stay hydrated.\nThe user, a commuter hybrid bike rider, has experienced front tire wear and a flat on February 20, 2026, and intends to replace the front tire with a Continental Gatorskin before April 2026 to ensure reliable performance on paved roads and bike paths.\nUser enjoys riding their mountain bike on bumpy trails that mix rocks and smooth sections, appreciates technical challenges and flowy parts, has favorite trails but is always exploring new ones.",
+            "latency": 697.0
+        }
+    ]
+}

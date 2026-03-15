@@ -1,0 +1,19 @@
+{
+    "index": 413,
+    "question_type": "temporal-reasoning",
+    "question": "Who did I go with to the music event last Saturday?",
+    "question_date": "2023/04/22 (Sat) 11:24",
+    "ground_truth_answer": "my parents",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'recently enjoyed a live concert with Adam Lambert at the Prudential Center in Newark, NJ with parents,' which matches the gold answer of 'my parents' and refers to a recent music event attended with parents."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user recently attended an Adam Lambert concert at the Prudential Center in Newark, NJ with parents, which matches the gold answer of 'my parents' for who they went with to a music event."
+        }
+    ]
+}

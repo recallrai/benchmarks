@@ -1,0 +1,22 @@
+{
+    "index": 233,
+    "question_type": "single-session-assistant",
+    "question": "I'm planning to revisit Orlando. I was wondering if you could remind me of that unique dessert shop with the giant milkshakes we talked about last time?",
+    "question_date": "2023/05/30 (Tue) 09:10",
+    "ground_truth_answer": "The Sugar Factory at Icon Park.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_233_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User's family are dessert fanatics who love trying new things, are up for the challenge of visiting all dessert spots in one night, and the user is excited to take on this dessert adventure.\nUser does not trust buffet restaurants and prefers other family-friendly dining options in Orlando.",
+            "latency": 1693.274
+        },
+        {
+            "strategy": "graph",
+            "context": "User's family are dessert fanatics who love trying new things, are up for the challenge of visiting all dessert spots in one night, and the user is excited to take on this dessert adventure.\nUser does not trust buffet restaurants and prefers other family-friendly dining options in Orlando.",
+            "latency": 2608.2
+        }
+    ]
+}

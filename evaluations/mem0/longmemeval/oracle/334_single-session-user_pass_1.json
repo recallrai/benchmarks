@@ -1,0 +1,19 @@
+{
+    "index": 334,
+    "question_type": "single-session-user",
+    "question": "How much screen time have I been averaging on Instagram per day?",
+    "question_date": "2023/05/30 (Tue) 19:37",
+    "ground_truth_answer": "2 hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'spends about two hours per day on Instagram for the past two weeks,' which directly matches the gold answer of '2 hours.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'spends about two hours per day on Instagram for the past two weeks', which directly matches the gold answer of '2 hours' and provides the information needed to answer the question about Instagram screen time averaging."
+        }
+    ]
+}

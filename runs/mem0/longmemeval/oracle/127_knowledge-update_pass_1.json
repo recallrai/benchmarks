@@ -1,0 +1,22 @@
+{
+    "index": 127,
+    "question_type": "knowledge-update",
+    "question": "Is my mom using the same grocery list method as me?",
+    "question_date": "2023/05/08 (Mon) 03:18",
+    "ground_truth_answer": "Yes.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_127_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is using a new grocery list app that helps organize grocery lists, finds it helpful, and is encouraging their mother to switch from paper lists; the mother has now started using the same app, allowing them to share lists and track needed items.\nUser is planning a dinner party this weekend with Lemon Garlic Chicken Breast, roasted sweet potatoes, and cauliflower gnocchi with Brown Butter Sage Sauce, seeking recipe details and cooking tips while using a grocery list app; the user also has dinner tonight with chicken fajitas.\nUser is excited to try the cauliflower gnocchi with Brown Butter Sage Sauce recipe and intends to let the assistant know how the dish turns out.\nUser is adding onions and bell peppers to their grocery list for chicken fajitas and has run low on olive oil.\nUser is excited about dinner tonight and thanks the assistant for tips.\nUser is considering trying new recipes with cauliflower gnocchi from Trader Joe's and wants ideas or recommendations.\nUser wants tips on keeping fresh herbs like cilantro and parsley fresh for a longer period.",
+            "latency": 642.129
+        },
+        {
+            "strategy": "graph",
+            "context": "User is using a new grocery list app that helps organize grocery lists, finds it helpful, and is encouraging their mother to switch from paper lists; the mother has now started using the same app, allowing them to share lists and track needed items.\nUser is planning a dinner party this weekend with Lemon Garlic Chicken Breast, roasted sweet potatoes, and cauliflower gnocchi with Brown Butter Sage Sauce, seeking recipe details and cooking tips while using a grocery list app; the user also has dinner tonight with chicken fajitas.\nUser is excited to try the cauliflower gnocchi with Brown Butter Sage Sauce recipe and intends to let the assistant know how the dish turns out.\nUser is adding onions and bell peppers to their grocery list for chicken fajitas and has run low on olive oil.\nUser is excited about dinner tonight and thanks the assistant for tips.\nUser is considering trying new recipes with cauliflower gnocchi from Trader Joe's and wants ideas or recommendations.\nUser wants tips on keeping fresh herbs like cilantro and parsley fresh for a longer period.",
+            "latency": 889.533
+        }
+    ]
+}

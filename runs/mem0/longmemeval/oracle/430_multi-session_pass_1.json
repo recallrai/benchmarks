@@ -1,0 +1,22 @@
+{
+    "index": 430,
+    "question_type": "multi-session",
+    "question": "How many pages do I have left to read in 'The Nightingale'?",
+    "question_date": "2023/05/25 (Thu) 10:43",
+    "ground_truth_answer": "190",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_430_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is currently reading 'The Nightingale' by Kristin Hannah, at page 250 of its 440-page book, and is excited to finish it. They want a plan to schedule reading sessions, eliminate distractions, and practice active reading to improve speed and retention.\nUser has read 12 books this year and aims to reach a goal of 50 books by the end of the year. They currently read at a pace of 10-20 pages per week for Sapiens, and are looking for recommendations for non\u2011dense, easy\u2011to\u2011read non\u2011fiction books. They also want to calculate the monthly reading target.\nUser wants to update their spreadsheet with a daily page goal to reach their reading goal of 50 books by the end of the year.\nUser wants to apply the principles from 'Atomic Habits' and 'Deep Work' to improve reading habits, specifically aiming to increase reading speed and retention. They plan to increase the number of days they dedicate to reading and alternate between graphic novels/manga and dense non-fiction books to maintain momentum and improve reading speed.",
+            "latency": 498.614
+        },
+        {
+            "strategy": "graph",
+            "context": "User is currently reading 'The Nightingale' by Kristin Hannah, at page 250 of its 440-page book, and is excited to finish it. They want a plan to schedule reading sessions, eliminate distractions, and practice active reading to improve speed and retention.\nUser has read 12 books this year and aims to reach a goal of 50 books by the end of the year. They currently read at a pace of 10-20 pages per week for Sapiens, and are looking for recommendations for non\u2011dense, easy\u2011to\u2011read non\u2011fiction books. They also want to calculate the monthly reading target.\nUser wants to update their spreadsheet with a daily page goal to reach their reading goal of 50 books by the end of the year.\nUser wants to apply the principles from 'Atomic Habits' and 'Deep Work' to improve reading habits, specifically aiming to increase reading speed and retention. They plan to increase the number of days they dedicate to reading and alternate between graphic novels/manga and dense non-fiction books to maintain momentum and improve reading speed.",
+            "latency": 733.127
+        }
+    ]
+}

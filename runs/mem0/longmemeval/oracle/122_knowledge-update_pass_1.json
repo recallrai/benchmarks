@@ -1,0 +1,22 @@
+{
+    "index": 122,
+    "question_type": "knowledge-update",
+    "question": "What was my personal best time in the charity 5K run?",
+    "question_date": "2023/06/01 (Thu) 00:58",
+    "ground_truth_answer": "25 minutes and 50 seconds (or 25:50)",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_122_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is preparing for an upcoming charity 5K run aiming to beat a 25:50 personal best, run a 27:12 5K. They juggle a soccer schedule with games every two weeks and seek endurance training tips to support both sports, scored a goal in a game and seeking shooting technique tips.\nUser is evaluating interval training strategy, weighing the importance of pushing hard versus maintaining a consistent pace throughout each interval, and wants guidance on how to balance effort and consistency.\nUser is planning to incorporate strength training into their routine to enhance running performance, asking for recommended exercises that target core, glutes, and legs to support both soccer and running.",
+            "latency": 702.04
+        },
+        {
+            "strategy": "graph",
+            "context": "User is preparing for an upcoming charity 5K run aiming to beat a 25:50 personal best, run a 27:12 5K. They juggle a soccer schedule with games every two weeks and seek endurance training tips to support both sports, scored a goal in a game and seeking shooting technique tips.\nUser is evaluating interval training strategy, weighing the importance of pushing hard versus maintaining a consistent pace throughout each interval, and wants guidance on how to balance effort and consistency.\nUser is planning to incorporate strength training into their routine to enhance running performance, asking for recommended exercises that target core, glutes, and legs to support both soccer and running.",
+            "latency": 789.731
+        }
+    ]
+}

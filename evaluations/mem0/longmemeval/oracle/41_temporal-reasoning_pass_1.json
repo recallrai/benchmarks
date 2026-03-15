@@ -1,0 +1,19 @@
+{
+    "index": 41,
+    "question_type": "temporal-reasoning",
+    "question": "Which group did I join first, 'Page Turners' or 'Marketing Professionals'?",
+    "question_date": "2023/05/25 (Thu) 07:58",
+    "ground_truth_answer": "Page Turners",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states Page Turners was joined 'last week' (around May 18, 2023) and Marketing Professionals was joined 'yesterday' (May 24, 2023), which correctly indicates Page Turners was joined first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context indicates Page Turners was joined 'last week' (around May 18) and Marketing Professionals was joined 'yesterday' (May 24) relative to the question date of May 25, 2023, confirming Page Turners was joined first."
+        }
+    ]
+}

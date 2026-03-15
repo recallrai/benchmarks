@@ -1,0 +1,19 @@
+{
+    "index": 134,
+    "question_type": "knowledge-update",
+    "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+    "question_date": "2023/06/28 (Wed) 22:01",
+    "ground_truth_answer": "220",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is reading 'A Short History of Nearly Everything' on page 220, which directly matches the gold answer of 220 pages."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is reading the book on page 220, which directly matches the gold answer of 220 pages."
+        }
+    ]
+}

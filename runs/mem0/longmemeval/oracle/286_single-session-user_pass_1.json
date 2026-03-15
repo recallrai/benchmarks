@@ -1,0 +1,22 @@
+{
+    "index": 286,
+    "question_type": "single-session-user",
+    "question": "What degree did I graduate with?",
+    "question_date": "2023/05/23 (Tue) 19:11",
+    "ground_truth_answer": "Business Administration",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_286_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User holds a Business Administration degree, which has helped them in their new role, and they seek advice on staying organized with paperwork, documentation, expense tracking, and reimbursements.",
+            "latency": 1300.77
+        },
+        {
+            "strategy": "graph",
+            "context": "User holds a Business Administration degree, which has helped them in their new role, and they seek advice on staying organized with paperwork, documentation, expense tracking, and reimbursements.",
+            "latency": 2137.772
+        }
+    ]
+}

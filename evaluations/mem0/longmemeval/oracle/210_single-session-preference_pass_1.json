@@ -1,0 +1,19 @@
+{
+    "index": 210,
+    "question_type": "single-session-preference",
+    "question": "What should I serve for dinner this weekend with my homegrown ingredients?",
+    "question_date": "2023/05/24 (Wed) 10:29",
+    "ground_truth_answer": "The user would prefer dinner suggestions that incorporate their homegrown cherry tomatoes and herbs like basil and mint, highlighting recipes that showcase their garden produce. They might not prefer suggestions that do not utilize these specific ingredients or do not emphasize the use of homegrown elements.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context clearly states the user has harvested cherry tomatoes from their garden, has been using basil and mint in cooking, and is looking for recipe ideas incorporating these herbs, which directly matches the gold answer's indication that the user wants dinner suggestions with homegrown cherry tomatoes, basil, and mint."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions the user has harvested cherry tomatoes from their garden and has been using basil and mint in cooking, which directly aligns with the gold answer's mention of homegrown cherry tomatoes and herbs like basil and mint."
+        }
+    ]
+}

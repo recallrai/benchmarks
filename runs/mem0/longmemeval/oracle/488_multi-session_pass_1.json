@@ -1,0 +1,22 @@
+{
+    "index": 488,
+    "question_type": "multi-session",
+    "question": "What was the page count of the two novels I finished in January and March?",
+    "question_date": "2023/05/29 (Mon) 23:44",
+    "ground_truth_answer": "856",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_488_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is an avid reader who enjoys fiction novels that explore complex themes, recently finished a 416-page novel, previously read 'The Power' by Naomi Alderman (341 pages, finished in about 5 weeks), and seeks recommendations with similar page lengths and depth.\nUser is currently listening to 'Ready Player One' and enjoys the blend of sci-fi and fantasy, and wants more about the themes and plot of 'The First Fifteen Lives of Harry August' audiobook.\nUser reads 20-30 pages per day before bed and wants to know if 'The Handmaid's Tale' (311 pages) and 'The Night Circus' (512 pages) will be engaging at that pace.\nUser is intrigued by 'The Brief Wondrous Life of Oscar Wao' for its blend of slang, Spanglish, and sci-fi/fantasy elements and wants more about its story and themes.\nUser is interested in books that delve into complex social commentary and relationships.\nUser is excited about reading 'The Women in the Castle' because it shares tone and themes with 'The Nightingale', and is requesting detailed information about the three female protagonists and how their stories intersect.",
+            "latency": 514.999
+        },
+        {
+            "strategy": "graph",
+            "context": "User is an avid reader who enjoys fiction novels that explore complex themes, recently finished a 416-page novel, previously read 'The Power' by Naomi Alderman (341 pages, finished in about 5 weeks), and seeks recommendations with similar page lengths and depth.\nUser is currently listening to 'Ready Player One' and enjoys the blend of sci-fi and fantasy, and wants more about the themes and plot of 'The First Fifteen Lives of Harry August' audiobook.\nUser reads 20-30 pages per day before bed and wants to know if 'The Handmaid's Tale' (311 pages) and 'The Night Circus' (512 pages) will be engaging at that pace.\nUser is intrigued by 'The Brief Wondrous Life of Oscar Wao' for its blend of slang, Spanglish, and sci-fi/fantasy elements and wants more about its story and themes.\nUser is interested in books that delve into complex social commentary and relationships.\nUser is excited about reading 'The Women in the Castle' because it shares tone and themes with 'The Nightingale', and is requesting detailed information about the three female protagonists and how their stories intersect.",
+            "latency": 771.733
+        }
+    ]
+}

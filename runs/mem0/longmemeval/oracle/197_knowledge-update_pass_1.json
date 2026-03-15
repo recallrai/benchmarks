@@ -1,0 +1,22 @@
+{
+    "index": 197,
+    "question_type": "knowledge-update",
+    "question": "How often do I play table tennis with my friends at the local park?",
+    "question_date": "2023/06/19 (Mon) 15:12",
+    "ground_truth_answer": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_197_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is a big fan of Roger Federer, considers him a legend, but does not feel inspired by professional players and plays tennis primarily for fun with friends; they are interested in learning how to keep their tennis racket in good condition.\nUser is a tennis player who plans to play with friends at the local park this Sunday, continuing their weekly sessions. They own Nike Air Zoom shoes and Nike Court Flex Socks, and follow racket care: cleaning regularly, storing in a dry place, using a cover, and checking string tension.\nUser is considering buying a new tennis bag that can fit their racket, shoes, and other essentials for trips to the local park.\nUser has signed up for swim lessons at a local pool, enjoys swimming, and wants tips to improve their swimming technique.\nUser is a baseline player who focuses on forehand and backhand groundstrokes, but is working to improve their net game by practicing volleys and overheads; they are seeking drills or exercises to improve reaction time and hand-eye coordination at the net.\nUser wants a 5\u2011mile jogging route in zip code 95123 with minimal traffic and nice scenery, and plans to jog the Almaden Lake Park Loop, a scenic route that loops around Almaden Lake and offers lake views, hills, and wooded areas.\nUser intends to visit CorePower Yoga Almaden after the jog, a yoga studio about 2.5 miles from Almaden Lake Park, and has heard good things about it.\nUser is seeking tips to stay motivated to exercise regularly, looking for strategies to maintain consistency in their fitness routine.",
+            "latency": 778.006
+        },
+        {
+            "strategy": "graph",
+            "context": "User is a big fan of Roger Federer, considers him a legend, but does not feel inspired by professional players and plays tennis primarily for fun with friends; they are interested in learning how to keep their tennis racket in good condition.\nUser is a tennis player who plans to play with friends at the local park this Sunday, continuing their weekly sessions. They own Nike Air Zoom shoes and Nike Court Flex Socks, and follow racket care: cleaning regularly, storing in a dry place, using a cover, and checking string tension.\nUser is considering buying a new tennis bag that can fit their racket, shoes, and other essentials for trips to the local park.\nUser has signed up for swim lessons at a local pool, enjoys swimming, and wants tips to improve their swimming technique.\nUser is a baseline player who focuses on forehand and backhand groundstrokes, but is working to improve their net game by practicing volleys and overheads; they are seeking drills or exercises to improve reaction time and hand-eye coordination at the net.\nUser wants a 5\u2011mile jogging route in zip code 95123 with minimal traffic and nice scenery, and plans to jog the Almaden Lake Park Loop, a scenic route that loops around Almaden Lake and offers lake views, hills, and wooded areas.\nUser intends to visit CorePower Yoga Almaden after the jog, a yoga studio about 2.5 miles from Almaden Lake Park, and has heard good things about it.\nUser is seeking tips to stay motivated to exercise regularly, looking for strategies to maintain consistency in their fitness routine.",
+            "latency": 960.764
+        }
+    ]
+}

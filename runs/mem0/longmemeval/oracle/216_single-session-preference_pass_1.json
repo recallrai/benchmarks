@@ -1,0 +1,22 @@
+{
+    "index": 216,
+    "question_type": "single-session-preference",
+    "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+    "question_date": "2023/05/27 (Sat) 13:23",
+    "ground_truth_answer": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate the new dresser and incorporate elements of this design aesthetic. They might not prefer general furniture arrangement tips or suggestions that do not consider their specific design preferences.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_216_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning to replace a new bedroom dresser with a mid\u2011century modern walnut dresser featuring a satin finish, brass accents, and simple knobs.\nUser wants to gather inspiration from design blogs and websites, and has identified resources such as The Spruce, Design Milk, Apartment Therapy, Mid Century Home, Dwell, Architectural Digest, Remodelista, Houzz, Instagram hashtags (#midcenturymodern, #walnutwood, #brassaccents, #homedecor), and Pinterest boards.\nUser has researched popular wood types for mid\u2011century modern furniture, noting walnut, oak, teak, and maple, and has considered finishes including oil\u2011based stains, wax, lacquer, and water\u2011based stains, with a preference for walnut paired with an oil\u2011based stain and a satin finish.\nUser wants to incorporate key mid\u2011century modern design elements such as clean lines, organic shapes, tapered legs, low profile, wood accents, simple drawer pulls, modular design, emphasis on functionality, bold color accents, and balanced proportions.\nUser is seeking hardware options that complement mid\u2011century modern style, favoring brass accents and simple knobs, and has identified hardware characteristics such as long linear pulls, recessed pulls, wooden knobs, minimalist handles, and brands like Rejuvenation, Schoolhouse Electric, Emtek, Schlage, and Baldwin.",
+            "latency": 1414.993
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning to replace a new bedroom dresser with a mid\u2011century modern walnut dresser featuring a satin finish, brass accents, and simple knobs.\nUser wants to gather inspiration from design blogs and websites, and has identified resources such as The Spruce, Design Milk, Apartment Therapy, Mid Century Home, Dwell, Architectural Digest, Remodelista, Houzz, Instagram hashtags (#midcenturymodern, #walnutwood, #brassaccents, #homedecor), and Pinterest boards.\nUser has researched popular wood types for mid\u2011century modern furniture, noting walnut, oak, teak, and maple, and has considered finishes including oil\u2011based stains, wax, lacquer, and water\u2011based stains, with a preference for walnut paired with an oil\u2011based stain and a satin finish.\nUser wants to incorporate key mid\u2011century modern design elements such as clean lines, organic shapes, tapered legs, low profile, wood accents, simple drawer pulls, modular design, emphasis on functionality, bold color accents, and balanced proportions.\nUser is seeking hardware options that complement mid\u2011century modern style, favoring brass accents and simple knobs, and has identified hardware characteristics such as long linear pulls, recessed pulls, wooden knobs, minimalist handles, and brands like Rejuvenation, Schoolhouse Electric, Emtek, Schlage, and Baldwin.",
+            "latency": 2303.576
+        }
+    ]
+}

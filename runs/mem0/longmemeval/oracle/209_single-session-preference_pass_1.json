@@ -1,0 +1,22 @@
+{
+    "index": 209,
+    "question_type": "single-session-preference",
+    "question": "I've been thinking about ways to stay connected with my colleagues. Any suggestions?",
+    "question_date": "2023/05/30 (Tue) 14:01",
+    "ground_truth_answer": "The user would prefer responses that acknowledge their desire for social interaction and collaboration while working remotely, utilizing their previous experiences with company initiatives and team collaborations. They might prefer suggestions of virtual team-building activities, regular check-ins, or joining interest-based groups within the company. The user may not prefer generic suggestions that do not take into account their specific work situation or previous attempts at staying connected with colleagues.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_209_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants to socialize with colleagues while working from home, missing watercooler chats, and is exploring virtual coffee breaks. They seek team comfort, a collaborative suggestion, and strategies like a regular schedule, reliable video platform, ground rules (no work talk, light conversation), and a virtual coffee shop.\nUser asked about potential benefits and challenges of virtual coffee breaks.",
+            "latency": 1396.38
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants to socialize with colleagues while working from home, missing watercooler chats, and is exploring virtual coffee breaks. They seek team comfort, a collaborative suggestion, and strategies like a regular schedule, reliable video platform, ground rules (no work talk, light conversation), and a virtual coffee shop.\nUser asked about potential benefits and challenges of virtual coffee breaks.",
+            "latency": 2509.115
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 175,
+    "question_type": "knowledge-update",
+    "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+    "question_date": "2023/06/25 (Sun) 04:48",
+    "ground_truth_answer": "Wednesday",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_175_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a language exchange session with tutor Maria on Thursday, following a prior session with tutor Juan on Wednesday evening.\nUser has a language exchange class with Juan, a Colombian tutor at a local language school, meeting every Wednesday evening; Juan helps the user with Spanish pronunciation and grammar, while the user assists him with English vocabulary.\nUser is planning their weekly schedule, including a trip to Colombia, a language exchange session with Maria on Thursday, and a prior session with Juan on Wednesday evening.\nThe user had previously been unsure of the day but now confirms it is Wednesday evening.\nUser plans to visit the Gold Museum in Bogot\u00e1 and wants information about exhibits on the Spanish conquest and nearby cafes or restaurants for a quick lunch or snack.\nUser wants information about nearby cafes or restaurants for a quick lunch or snack near the Gold Museum in Bogot\u00e1.\nUser wants to visit Plaza de Bol\u00edvar after the Gold Museum, wants to know its significance and what to expect to see there.\nUser is seeking tips to improve conversational flow in Spanish.\nUser is planning a trip to Colombia and wants travel tips and Spanish phrases.\nUser intends to grab a snack at a cafe around Plaza de Bol\u00edvar before exploring surrounding streets, and wants to know other nearby attractions or landmarks that they shouldn't miss.",
+            "latency": 665.254
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a language exchange session with tutor Maria on Thursday, following a prior session with tutor Juan on Wednesday evening.\nUser has a language exchange class with Juan, a Colombian tutor at a local language school, meeting every Wednesday evening; Juan helps the user with Spanish pronunciation and grammar, while the user assists him with English vocabulary.\nUser is planning their weekly schedule, including a trip to Colombia, a language exchange session with Maria on Thursday, and a prior session with Juan on Wednesday evening.\nThe user had previously been unsure of the day but now confirms it is Wednesday evening.\nUser plans to visit the Gold Museum in Bogot\u00e1 and wants information about exhibits on the Spanish conquest and nearby cafes or restaurants for a quick lunch or snack.\nUser wants information about nearby cafes or restaurants for a quick lunch or snack near the Gold Museum in Bogot\u00e1.\nUser wants to visit Plaza de Bol\u00edvar after the Gold Museum, wants to know its significance and what to expect to see there.\nUser is seeking tips to improve conversational flow in Spanish.\nUser is planning a trip to Colombia and wants travel tips and Spanish phrases.\nUser intends to grab a snack at a cafe around Plaza de Bol\u00edvar before exploring surrounding streets, and wants to know other nearby attractions or landmarks that they shouldn't miss.",
+            "latency": 847.092
+        }
+    ]
+}

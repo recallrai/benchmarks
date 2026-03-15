@@ -1,0 +1,19 @@
+{
+    "index": 403,
+    "question_type": "temporal-reasoning",
+    "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+    "question_date": "2023/08/05 (Sat) 23:49",
+    "ground_truth_answer": "3 weeks ago",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user attended the Summer Nights festival at Universal Studios Hollywood but does not include any temporal information (date or relative time reference) indicating when this occurred, making it impossible to determine it was 3 weeks ago."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms the user attended the Summer Nights festival at Universal Studios Hollywood but does not include any date or time reference for when this occurred, making it impossible to answer 'how many weeks ago' the event happened."
+        }
+    ]
+}

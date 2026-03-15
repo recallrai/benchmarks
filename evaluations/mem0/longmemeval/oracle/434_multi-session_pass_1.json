@@ -1,0 +1,19 @@
+{
+    "index": 434,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the new food bowl, measuring cup, dental chews, and flea and tick collar I got for Max?",
+    "question_date": "2023/05/26 (Fri) 21:10",
+    "ground_truth_answer": "$50",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains the costs for all four items: food bowl ($15), measuring cup ($5), dental chews ($10/month), and flea and tick collar ($20), which sum to $50, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all four item costs (food bowl $15, measuring cup $5, dental chews $10, flea and tick collar $20) which sum to $50, matching the gold answer."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 325,
+    "question_type": "single-session-user",
+    "question": "How many copies of my favorite artist's debut album were released worldwide?",
+    "question_date": "2023/05/29 (Mon) 20:11",
+    "ground_truth_answer": "500",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_325_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to create a nostalgic display by arranging a limited\u2011edition signed poster (only 500 copies worldwide), an antique clock, and a rare 1950s vintage camera on a shelf, and seeks advice on how to showcase each item safely, style the shelf to highlight the clock, and confirm that the combined arrangement will work.\nUser is looking to organize their vinyl collection and wants record storage solutions that protect albums from scratches and damage.",
+            "latency": 1201.17
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to create a nostalgic display by arranging a limited\u2011edition signed poster (only 500 copies worldwide), an antique clock, and a rare 1950s vintage camera on a shelf, and seeks advice on how to showcase each item safely, style the shelf to highlight the clock, and confirm that the combined arrangement will work.\nUser is looking to organize their vinyl collection and wants record storage solutions that protect albums from scratches and damage.",
+            "latency": 2260.512
+        }
+    ]
+}

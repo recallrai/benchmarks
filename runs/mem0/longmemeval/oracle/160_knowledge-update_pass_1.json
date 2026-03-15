@@ -1,0 +1,22 @@
+{
+    "index": 160,
+    "question_type": "knowledge-update",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/04/23 (Sun) 13:41",
+    "ground_truth_answer": "Yes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_160_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user wants an estimate of how long it would take to finish 'The Nightingale' by Kristin Hannah in time for the next book club discussion by dedicating their daily commute to reading, noting the book's emotional intensity.\nThe user plans to visit a new bookstore on Main Street to explore available reading journals and to ask staff for their favorite mythology-inspired books beyond Madeline Miller's works, as well as for suggestions that would help them get back into 'The Nightingale' and ease its emotional intensity.\nThe user is excited to dive into new titles after enjoying 'The Song of Achilles' and is seeking mythology-inspired book recommendations beyond that book, planning to ask bookstore staff for their favorite titles beyond Madeline Miller's works.\nThe user intends to pick up 'The Poppy War' next and wants an estimate of how long it would take to finish a 440-page book like that during their daily commute.\nUser plans to read 'The Alice Network' and 'The Women in the Castle' and wants audiobook recommendations for these titles and for historical fiction in general, enjoying listening during morning runs.\nThe user wants a physical reading journal to track progress and thoughts, prefers Goodreads and Book Lover's Journal, and is looking for additional reading journal or app recommendations beyond the Notes app.\nUser is interested in joining book clubs or online communities focused on historical fiction, wants recommendations for such groups, enjoys discussing books with coworker Rachel, and hopes to connect with more like\u2011minded readers.",
+            "latency": 539.097
+        },
+        {
+            "strategy": "graph",
+            "context": "The user wants an estimate of how long it would take to finish 'The Nightingale' by Kristin Hannah in time for the next book club discussion by dedicating their daily commute to reading, noting the book's emotional intensity.\nThe user plans to visit a new bookstore on Main Street to explore available reading journals and to ask staff for their favorite mythology-inspired books beyond Madeline Miller's works, as well as for suggestions that would help them get back into 'The Nightingale' and ease its emotional intensity.\nThe user is excited to dive into new titles after enjoying 'The Song of Achilles' and is seeking mythology-inspired book recommendations beyond that book, planning to ask bookstore staff for their favorite titles beyond Madeline Miller's works.\nThe user intends to pick up 'The Poppy War' next and wants an estimate of how long it would take to finish a 440-page book like that during their daily commute.\nUser plans to read 'The Alice Network' and 'The Women in the Castle' and wants audiobook recommendations for these titles and for historical fiction in general, enjoying listening during morning runs.\nThe user wants a physical reading journal to track progress and thoughts, prefers Goodreads and Book Lover's Journal, and is looking for additional reading journal or app recommendations beyond the Notes app.\nUser is interested in joining book clubs or online communities focused on historical fiction, wants recommendations for such groups, enjoys discussing books with coworker Rachel, and hopes to connect with more like\u2011minded readers.",
+            "latency": 751.789
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 5,
+    "question_type": "temporal-reasoning",
+    "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+    "question_date": "2023/02/20 (Mon) 22:35",
+    "ground_truth_answer": "30 days. 31 days (including the last day) is also acceptable.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions St. Mary's Church on Jan 2, 2026 and Ash Wednesday on Feb 1, but the year 2026 is inconsistent with the question date of 2023, and the dates don't clearly support the 30-31 day calculation in the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions St. Mary's Church on Jan 2 and Ash Wednesday service on Feb 1, which are dates 30 days apart (or 31 including the last day), matching the gold answer's time frame."
+        }
+    ]
+}

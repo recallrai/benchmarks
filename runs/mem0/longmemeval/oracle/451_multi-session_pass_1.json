@@ -1,0 +1,22 @@
+{
+    "index": 451,
+    "question_type": "multi-session",
+    "question": "What are the two hobbies that led me to join online communities?",
+    "question_date": "2023/05/29 (Mon) 21:10",
+    "ground_truth_answer": "photography and cooking",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_451_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has already joined several online cooking communities, has engaged in discussions about recipe techniques and shared thoughts on food-related posts, appreciates the guidance received, and is seeking additional recommendations for online communities or forums to further engage with other food enthusiasts and learn from their experiences.\nUser has a Canon EOS Rebel, chose the Canon EF 35mm f/2 IS USM for street and portrait photography, enjoys editing in Lightroom, and finds online photography communities helpful for learning new techniques and feedback.\nUser is seeking guidance on how to approach online discussions about food and cooking to contribute positively and avoid appearing as a know-it-all or a newbie.\nUser is looking for recipe inspiration and requests suggestions for popular cooking blogs or websites that focus on recipe techniques.\nUser is looking for recommendations of popular cooking YouTube channels or food vloggers that focus on recipe techniques and cooking fundamentals, aiming to learn from experienced chefs and home cooks.\nUser wants recommendations of popular cooking YouTube channels that focus on specific cuisines such as Italian, Chinese, or Indian cooking.\nUser plans to start a photography blog on WordPress with a registered domain, aiming to share street and portrait photography tutorials, Lightroom editing process, and later expand to camera settings and gear reviews to give back to the community.",
+            "latency": 498.507
+        },
+        {
+            "strategy": "graph",
+            "context": "User has already joined several online cooking communities, has engaged in discussions about recipe techniques and shared thoughts on food-related posts, appreciates the guidance received, and is seeking additional recommendations for online communities or forums to further engage with other food enthusiasts and learn from their experiences.\nUser has a Canon EOS Rebel, chose the Canon EF 35mm f/2 IS USM for street and portrait photography, enjoys editing in Lightroom, and finds online photography communities helpful for learning new techniques and feedback.\nUser is seeking guidance on how to approach online discussions about food and cooking to contribute positively and avoid appearing as a know-it-all or a newbie.\nUser is looking for recipe inspiration and requests suggestions for popular cooking blogs or websites that focus on recipe techniques.\nUser is looking for recommendations of popular cooking YouTube channels or food vloggers that focus on recipe techniques and cooking fundamentals, aiming to learn from experienced chefs and home cooks.\nUser wants recommendations of popular cooking YouTube channels that focus on specific cuisines such as Italian, Chinese, or Indian cooking.\nUser plans to start a photography blog on WordPress with a registered domain, aiming to share street and portrait photography tutorials, Lightroom editing process, and later expand to camera settings and gear reviews to give back to the community.",
+            "latency": 723.429
+        }
+    ]
+}

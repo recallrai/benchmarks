@@ -1,0 +1,22 @@
+{
+    "index": 311,
+    "question_type": "single-session-user",
+    "question": "How many amateur comedians did I watch perform at the open mic night?",
+    "question_date": "2023/05/30 (Tue) 03:13",
+    "ground_truth_answer": "10",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_311_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended an open mic night a few weeks ago, saw 10 amateur comedians perform, found the experience inspiring and had a great time.\nUser aims to apply improv principles to daily life and comedy writing, plans to use improvisational exercises and freewriting to generate new material, wants to improve on-stage quick thinking to avoid freezing and handle hecklers, and enjoys taking risks on stage.\nUser is seeking comedy writing tips, has taken a stand-up comedy class, is working on new material, and wants advice on writing a good joke.\nUser wants tips on structuring a comedy set, feels their jokes are disjointed, and seeks guidance on connecting jokes into a cohesive set.\nUser is working on improving improv skills, recently took an improv class that was helpful, practiced exercises to think on their feet, feels more spontaneous and creative, and is applying improv techniques to daily conversations with friends and family to stay present and avoid overthinking.\nUser is trying to incorporate personal experiences into jokes, wants tips to make jokes more relatable and authentic.",
+            "latency": 1072.668
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended an open mic night a few weeks ago, saw 10 amateur comedians perform, found the experience inspiring and had a great time.\nUser aims to apply improv principles to daily life and comedy writing, plans to use improvisational exercises and freewriting to generate new material, wants to improve on-stage quick thinking to avoid freezing and handle hecklers, and enjoys taking risks on stage.\nUser is seeking comedy writing tips, has taken a stand-up comedy class, is working on new material, and wants advice on writing a good joke.\nUser wants tips on structuring a comedy set, feels their jokes are disjointed, and seeks guidance on connecting jokes into a cohesive set.\nUser is working on improving improv skills, recently took an improv class that was helpful, practiced exercises to think on their feet, feels more spontaneous and creative, and is applying improv techniques to daily conversations with friends and family to stay present and avoid overthinking.\nUser is trying to incorporate personal experiences into jokes, wants tips to make jokes more relatable and authentic.",
+            "latency": 1896.124
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 431,
+    "question_type": "multi-session",
+    "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+    "question_date": "2023/05/30 (Tue) 03:23",
+    "ground_truth_answer": "$6",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_431_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User experienced a $12 taxi expense on Wednesday after missing the 7:45am train by 5 minutes, highlighting a recent setback in their commute routine and adding to their ongoing tracking of daily commute costs.\nUser has tracked total monthly commute expenses of $240 so far, which includes train fare, and has a daily train fare of $6.\nUser is interested in calculating potential savings if User starts cycling to the station instead of taking the train, based on a daily train fare of $6.\nUser normally takes the 7:45am train, and the Wednesday incident was an exception, indicating routine reliability with occasional disruptions that affect their commute budget.\nUser plans to build a buffer into their morning routine by leaving earlier to reduce the risk of missing the train and avoid costly taxi rides, reflecting a proactive approach to managing commute expenses.\nUser has signed up for the company's ride-sharing program and is seeking information on how it works and how it might help reduce commute expenses.\nUser is excited to start carpooling with Rachel on Fridays, hoping it will significantly reduce commute expenses, and is looking for tips on coordinating, communication, and conflict resolution to optimize the ride-sharing experience.\nUser believes the provided tips will help User and Rachel coordinate the carpooling schedule effectively, resolve potential issues, and expects the routine to reduce commute expenses.\nUser intends to use the extra buffer time to read daily, aiming to read at least 20 pages each day, which will help them finish the current novel chapter 7 more quickly and support their reading habit.\nUser wants to evaluate the pros and cons of cycling in rain, weighing cost savings against dealing with bad weather conditions most of the time.",
+            "latency": 546.617
+        },
+        {
+            "strategy": "graph",
+            "context": "User experienced a $12 taxi expense on Wednesday after missing the 7:45am train by 5 minutes, highlighting a recent setback in their commute routine and adding to their ongoing tracking of daily commute costs.\nUser has tracked total monthly commute expenses of $240 so far, which includes train fare, and has a daily train fare of $6.\nUser is interested in calculating potential savings if User starts cycling to the station instead of taking the train, based on a daily train fare of $6.\nUser normally takes the 7:45am train, and the Wednesday incident was an exception, indicating routine reliability with occasional disruptions that affect their commute budget.\nUser plans to build a buffer into their morning routine by leaving earlier to reduce the risk of missing the train and avoid costly taxi rides, reflecting a proactive approach to managing commute expenses.\nUser has signed up for the company's ride-sharing program and is seeking information on how it works and how it might help reduce commute expenses.\nUser is excited to start carpooling with Rachel on Fridays, hoping it will significantly reduce commute expenses, and is looking for tips on coordinating, communication, and conflict resolution to optimize the ride-sharing experience.\nUser believes the provided tips will help User and Rachel coordinate the carpooling schedule effectively, resolve potential issues, and expects the routine to reduce commute expenses.\nUser intends to use the extra buffer time to read daily, aiming to read at least 20 pages each day, which will help them finish the current novel chapter 7 more quickly and support their reading habit.\nUser wants to evaluate the pros and cons of cycling in rain, weighing cost savings against dealing with bad weather conditions most of the time.",
+            "latency": 751.678
+        }
+    ]
+}

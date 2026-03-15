@@ -1,0 +1,22 @@
+{
+    "index": 129,
+    "question_type": "knowledge-update",
+    "question": "How many bikes do I currently own?",
+    "question_date": "2023/10/29 (Sun) 15:48",
+    "ground_truth_answer": "4",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_129_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has four bikes\u2014road, mountain, commuter, and a newly purchased hybrid\u2014uses each for specific purposes (long weekend rides, trail rides, daily commutes, and hybrid rides), and is planning to book accommodations with bike storage to accommodate all four bikes.\nUser seeks recommendations for bike computers and GPS devices, currently using phone GPS, and is considering a dedicated device.\nUser intends to undertake a century ride soon, wonders if their current road bike\u2014already ridden for 2,000 miles\u2014is ready for that distance, and notes they also use a mountain bike and a commuter bike.\nUser wants to know if any adjustments are needed for his road bike before the long trip, noting he already has a new bike computer and tracks progress on Strava.\nUser is excited to try the new hybrid bike on scenic routes and is looking for bike shops that offer rentals or guided tours along the route, possibly renting a bike for a day or joining a guided tour.\nUser recently bought a pair of cycling shoes with clipless pedals that improve pedaling efficiency, and is deciding whether to bring the clipless pedals on the trip or stick with platform pedals on the hybrid bike.\nUser is planning a long road trip next month from San Francisco to New York City over 10 days, intends to cycle 3-4 days on low\u2011traffic scenic routes, and wants to stop at bike shops along the way.\nUser plans a 50-mile ride this weekend in the San Francisco Bay Area, wants derailleur adjustment tips and route recommendations to ensure their road bike is in top condition.\nUser is considering upgrading their road bike wheels to carbon fiber, reflecting on having ridden 2,000 miles on current wheels, and wants to know if the investment is worthwhile.\nUser is particularly interested in joining a guided mountain\u2011bike tour in Jackson Hole to tackle challenging trails.",
+            "latency": 721.936
+        },
+        {
+            "strategy": "graph",
+            "context": "User has four bikes\u2014road, mountain, commuter, and a newly purchased hybrid\u2014uses each for specific purposes (long weekend rides, trail rides, daily commutes, and hybrid rides), and is planning to book accommodations with bike storage to accommodate all four bikes.\nUser seeks recommendations for bike computers and GPS devices, currently using phone GPS, and is considering a dedicated device.\nUser intends to undertake a century ride soon, wonders if their current road bike\u2014already ridden for 2,000 miles\u2014is ready for that distance, and notes they also use a mountain bike and a commuter bike.\nUser wants to know if any adjustments are needed for his road bike before the long trip, noting he already has a new bike computer and tracks progress on Strava.\nUser is excited to try the new hybrid bike on scenic routes and is looking for bike shops that offer rentals or guided tours along the route, possibly renting a bike for a day or joining a guided tour.\nUser recently bought a pair of cycling shoes with clipless pedals that improve pedaling efficiency, and is deciding whether to bring the clipless pedals on the trip or stick with platform pedals on the hybrid bike.\nUser is planning a long road trip next month from San Francisco to New York City over 10 days, intends to cycle 3-4 days on low\u2011traffic scenic routes, and wants to stop at bike shops along the way.\nUser plans a 50-mile ride this weekend in the San Francisco Bay Area, wants derailleur adjustment tips and route recommendations to ensure their road bike is in top condition.\nUser is considering upgrading their road bike wheels to carbon fiber, reflecting on having ridden 2,000 miles on current wheels, and wants to know if the investment is worthwhile.\nUser is particularly interested in joining a guided mountain\u2011bike tour in Jackson Hole to tackle challenging trails.",
+            "latency": 891.799
+        }
+    ]
+}

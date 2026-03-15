@@ -1,0 +1,22 @@
+{
+    "index": 60,
+    "question_type": "multi-session",
+    "question": "How many items of clothing do I need to pick up or return from a store?",
+    "question_date": "2023/02/15 (Wed) 19:47",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_60_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is preparing to do a load of laundry this weekend and wants tips on preventing socks from getting lost in the wash.\nUser is organizing their closet, needs to pick up a navy\u2011blue blazer from dry cleaning soon, and seeks advice on proper storage, wrinkle prevention, and maintenance to keep it in good condition.\nUser will use a phone notes app to track pickups and returns.\nUser is planning an outfit for an outdoor winter concert this weekend, considering a green sweater that was lent to their sister and a yellow sundress, but is uncertain about the sweater's return timing and whether the sundress is appropriate for the season, and is looking for alternative outfit suggestions.\nUser exchanged Zara boots on Feb 5 for a larger size, still pending pickup, and will use a phone notes app to track pickups and returns.\nUser plans to dedicate a specific day each week to laundry and cleaning gym gear.\nUser plans to dedicate a specific day each week to laundry and cleaning gym gear, including washing favorite yoga pants worn last Thursday and keeping workout clothes organized and fresh.\nUser wore new black Levi's jeans on a dinner date last Friday, loves them, and seeks advice on caring for the jeans to keep them looking fresh.\nUser seeks tips on keeping workout clothes organized and fresh.\nUser is considering seasonal closet organization, storing winter clothes (thick grey scarf, gloves) in boxes at home and bringing out spring clothes (yellow sundress), and wants validation on this approach.",
+            "latency": 500.842
+        },
+        {
+            "strategy": "graph",
+            "context": "User is preparing to do a load of laundry this weekend and wants tips on preventing socks from getting lost in the wash.\nUser is organizing their closet, needs to pick up a navy\u2011blue blazer from dry cleaning soon, and seeks advice on proper storage, wrinkle prevention, and maintenance to keep it in good condition.\nUser will use a phone notes app to track pickups and returns.\nUser is planning an outfit for an outdoor winter concert this weekend, considering a green sweater that was lent to their sister and a yellow sundress, but is uncertain about the sweater's return timing and whether the sundress is appropriate for the season, and is looking for alternative outfit suggestions.\nUser exchanged Zara boots on Feb 5 for a larger size, still pending pickup, and will use a phone notes app to track pickups and returns.\nUser plans to dedicate a specific day each week to laundry and cleaning gym gear.\nUser plans to dedicate a specific day each week to laundry and cleaning gym gear, including washing favorite yoga pants worn last Thursday and keeping workout clothes organized and fresh.\nUser wore new black Levi's jeans on a dinner date last Friday, loves them, and seeks advice on caring for the jeans to keep them looking fresh.\nUser seeks tips on keeping workout clothes organized and fresh.\nUser is considering seasonal closet organization, storing winter clothes (thick grey scarf, gloves) in boxes at home and bringing out spring clothes (yellow sundress), and wants validation on this approach.",
+            "latency": 731.676
+        }
+    ]
+}

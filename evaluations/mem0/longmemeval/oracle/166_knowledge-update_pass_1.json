@@ -1,0 +1,19 @@
+{
+    "index": 166,
+    "question_type": "knowledge-update",
+    "question": "What time do I usually go to the gym?",
+    "question_date": "2023/06/08 (Thu) 00:54",
+    "ground_truth_answer": "6:00 pm",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context indicates a regular gym routine at 7:00 pm on Mondays, Wednesdays, and Fridays, while mentioning 6:00 pm only once in reference to a Tuesday gym session, making 7:00 pm appear to be the usual time rather than the gold answer of 6:00 pm."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions gym times at both 7:00 pm (Mondays, Wednesdays, Fridays - mentioned multiple times) and 6:00 pm (Tuesday), but the more frequent and explicitly stated 'usual' routine is 7:00 pm, which contradicts the gold answer of 6:00 pm."
+        }
+    ]
+}

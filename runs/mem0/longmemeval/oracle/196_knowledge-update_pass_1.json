@@ -1,0 +1,22 @@
+{
+    "index": 196,
+    "question_type": "knowledge-update",
+    "question": "How many autographed football have I added to my collection in the first three months of collection?",
+    "question_date": "2023/06/16 (Fri) 03:13",
+    "ground_truth_answer": "The information provided is not enough. You mentioned collecting autographed baseball but not football.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_196_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has 15 autographed Mike Trout baseballs and has added 20 more autographed baseballs in the past few months, feeling proud and excited, and they are interested in obtaining Mike Trout's current batting average and home run count for the season.\nThe user is an enthusiastic collector of baseball memorabilia, coins, vinyl records, stamps, and vintage cameras, feeling proud and excited about expanding their collection.\nUser wants resources to determine the value of and sell autographed baseballs.\nUser is planning to attend a stamp show in the next quarter and is searching for notable stamp shows or exhibitions in the coming months.\nUser is expanding their vinyl record collection to include international pressings, specifically seeking resources for finding rare records from Japan.\nUser is looking for upcoming sports memorabilia auctions in their city in the next few weeks.\nUser is considering selling vinyl records to make space in their collection and wants resources to determine their value and potentially sell them.\nUser is interested in error coins and is looking for upcoming coin shows in their area to attend.\nUser recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error and wants resources to learn more about error coins.\nUser intends to sell vintage cameras, including a Leica, to make room for new additions, and is exploring reputable online marketplaces and forums such as Fred Miranda and Rangefinder Forum, while considering whether including the original lens and accessories would increase the sale value.",
+            "latency": 799.462
+        },
+        {
+            "strategy": "graph",
+            "context": "User has 15 autographed Mike Trout baseballs and has added 20 more autographed baseballs in the past few months, feeling proud and excited, and they are interested in obtaining Mike Trout's current batting average and home run count for the season.\nThe user is an enthusiastic collector of baseball memorabilia, coins, vinyl records, stamps, and vintage cameras, feeling proud and excited about expanding their collection.\nUser wants resources to determine the value of and sell autographed baseballs.\nUser is planning to attend a stamp show in the next quarter and is searching for notable stamp shows or exhibitions in the coming months.\nUser is expanding their vinyl record collection to include international pressings, specifically seeking resources for finding rare records from Japan.\nUser is looking for upcoming sports memorabilia auctions in their city in the next few weeks.\nUser is considering selling vinyl records to make space in their collection and wants resources to determine their value and potentially sell them.\nUser is interested in error coins and is looking for upcoming coin shows in their area to attend.\nUser recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error and wants resources to learn more about error coins.\nUser intends to sell vintage cameras, including a Leica, to make room for new additions, and is exploring reputable online marketplaces and forums such as Fred Miranda and Rangefinder Forum, while considering whether including the original lens and accessories would increase the sale value.",
+            "latency": 902.116
+        }
+    ]
+}

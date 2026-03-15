@@ -1,0 +1,22 @@
+{
+    "index": 26,
+    "question_type": "temporal-reasoning",
+    "question": "What time do I wake up on Tuesdays and Thursdays?",
+    "question_date": "2023/05/30 (Tue) 10:45",
+    "ground_truth_answer": "6:45 AM",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_26_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wakes up 15 minutes earlier on Tuesdays and Thursdays to meditate and practice yoga poses, which helps them feel more centered and calm.\nUser has shifted wake\u2011up time from 8:30\u202fAM to 7:00\u202fAM, a significant improvement and source of excitement, and is looking for healthy breakfast ideas that can be prepared the night before to ensure a nutritious start to the day.\nUser wants guided meditation apps or resources for their Tuesday and Thursday meditation practice, interested in Headspace and Insight Timer, and exploring free resources like UCLA Mindful Awareness Research Center and Tara Brach's website.\nUser plans to commit to a daily meditation practice of at least 10 minutes, using Headspace and Insight Timer right after their morning walk, exploring free resources, aiming to establish consistency, notice benefits, feel centered, calm, focused, improve well\u2011being, and is excited to start.\nUser wants to make their 30\u2011minute morning walk more enjoyable, plans to listen to music, take in sights and sounds, set a walking goal, and is seeking recommendations for walking music or podcasts; the walk has increased energy and focus, and they want specific stretches or exercises during the walk.",
+            "latency": 819.907
+        },
+        {
+            "strategy": "graph",
+            "context": "User wakes up 15 minutes earlier on Tuesdays and Thursdays to meditate and practice yoga poses, which helps them feel more centered and calm.\nUser has shifted wake\u2011up time from 8:30\u202fAM to 7:00\u202fAM, a significant improvement and source of excitement, and is looking for healthy breakfast ideas that can be prepared the night before to ensure a nutritious start to the day.\nUser wants guided meditation apps or resources for their Tuesday and Thursday meditation practice, interested in Headspace and Insight Timer, and exploring free resources like UCLA Mindful Awareness Research Center and Tara Brach's website.\nUser plans to commit to a daily meditation practice of at least 10 minutes, using Headspace and Insight Timer right after their morning walk, exploring free resources, aiming to establish consistency, notice benefits, feel centered, calm, focused, improve well\u2011being, and is excited to start.\nUser wants to make their 30\u2011minute morning walk more enjoyable, plans to listen to music, take in sights and sounds, set a walking goal, and is seeking recommendations for walking music or podcasts; the walk has increased energy and focus, and they want specific stretches or exercises during the walk.",
+            "latency": 1306.568
+        }
+    ]
+}

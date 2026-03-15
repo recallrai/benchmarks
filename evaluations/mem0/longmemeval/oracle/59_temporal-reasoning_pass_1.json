@@ -1,0 +1,19 @@
+{
+    "index": 59,
+    "question_type": "temporal-reasoning",
+    "question": "Who became a parent first, Tom or Alex?",
+    "question_date": "2023/03/17 (Fri) 16:37",
+    "ground_truth_answer": "The information provided is not enough. You mentioned Alex becoming a parent in January, but you didn't mention anything about Tom.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions Alex becoming a parent in January through adoption but contains no information about Tom, which aligns with the gold answer stating there isn't enough information to compare."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions Alex adopting a baby girl in January but contains no information about Tom, which aligns with the gold answer stating there isn't enough information to compare who became a parent first."
+        }
+    ]
+}

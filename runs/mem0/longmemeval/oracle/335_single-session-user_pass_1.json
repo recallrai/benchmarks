@@ -1,0 +1,22 @@
+{
+    "index": 335,
+    "question_type": "single-session-user",
+    "question": "What type of bulb did I replace in my bedside lamp?",
+    "question_date": "2023/05/26 (Fri) 15:27",
+    "ground_truth_answer": "Philips LED bulb",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_335_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to replace the harsh overhead lighting in the kitchen with warm white smart bulbs, preferring a warm tone similar to the Philips LED bulb used in the user's bedside lamp, and is deciding between color-changing bulbs and plain white bulbs.\nUser plans to place a floor lamp behind the sofa in the living room, seeking a warm-tone floor lamp compatible with the Philips LED bulb used in the user's bedside lamp.\nUser wants to create a cozier atmosphere in the living room, specifically considering lamp placement and other ambient tips.\nUser prefers a floor lamp with a linen shade and is considering adding built-in timer or smart features, having found the timer function on the user's desk lamp helpful for staying focused.\nUser is interested in installing smart light bulbs in the kitchen and is evaluating whether to invest in a full smart lighting system or start with a few smart bulbs.",
+            "latency": 957.988
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to replace the harsh overhead lighting in the kitchen with warm white smart bulbs, preferring a warm tone similar to the Philips LED bulb used in the user's bedside lamp, and is deciding between color-changing bulbs and plain white bulbs.\nUser plans to place a floor lamp behind the sofa in the living room, seeking a warm-tone floor lamp compatible with the Philips LED bulb used in the user's bedside lamp.\nUser wants to create a cozier atmosphere in the living room, specifically considering lamp placement and other ambient tips.\nUser prefers a floor lamp with a linen shade and is considering adding built-in timer or smart features, having found the timer function on the user's desk lamp helpful for staying focused.\nUser is interested in installing smart light bulbs in the kitchen and is evaluating whether to invest in a full smart lighting system or start with a few smart bulbs.",
+            "latency": 1965.128
+        }
+    ]
+}

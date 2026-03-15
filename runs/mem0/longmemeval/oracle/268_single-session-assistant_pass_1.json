@@ -1,0 +1,22 @@
+{
+    "index": 268,
+    "question_type": "single-session-assistant",
+    "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+    "question_date": "2023/05/29 (Mon) 07:37",
+    "ground_truth_answer": "Patagonia and Southwest Airlines.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_268_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user feels that companies that prioritize employee safety create a win-win situation and that supporting such companies makes them feel better as a customer; they are also interested in learning about other companies that prioritize safety and well-being like Triumvirate.\nThe user feels glad that Triumvirate takes employee safety seriously and believes that companies should prioritize employee well-being.\nThe user wishes more companies would follow Triumvirate's example and feels reassured that companies can be successful while prioritizing employee safety.",
+            "latency": 6171.066
+        },
+        {
+            "strategy": "graph",
+            "context": "The user feels that companies that prioritize employee safety create a win-win situation and that supporting such companies makes them feel better as a customer; they are also interested in learning about other companies that prioritize safety and well-being like Triumvirate.\nThe user feels glad that Triumvirate takes employee safety seriously and believes that companies should prioritize employee well-being.\nThe user wishes more companies would follow Triumvirate's example and feels reassured that companies can be successful while prioritizing employee safety.",
+            "latency": 2411.548
+        }
+    ]
+}

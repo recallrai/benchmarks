@@ -1,0 +1,22 @@
+{
+    "index": 171,
+    "question_type": "knowledge-update",
+    "question": "What was my previous personal best time for the charity 5K run?",
+    "question_date": "2023/08/23 (Wed) 07:49",
+    "ground_truth_answer": "27 minutes and 45 seconds",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_171_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is training for a sprint triathlon on June 24th and has recently completed a charity 5K run with a personal best time of 26 minutes and 30 seconds, and is preparing for a 10\u2011K race in 12 weeks, aiming to finish under 55 minutes with an updated training plan.\nUser's route preferences: mix of rolling and steeper hills, secondary roads with less traffic, elevation gain around 500-1000 feet, scenic views, bike-friendly infrastructure, and start and end at the local park where the charity 5K run was done.\nUser is preparing for a 10\u2011K race in 12 weeks, aiming to finish under 55 minutes, and has updated the training plan to incorporate a more aggressive pace and volume, expressing excitement about how their body will respond.\nUser's current fitness levels: intermediate for yoga and cycling, beginner for swimming, and advanced for running.\nUser wants a map or GPS coordinates for the route and recommendations for coffee shops or cafes along the route for breaks.\nUser wants recommendations for bike computers or GPS devices to track rides.\nUser's training schedule: weekdays 7-9 am, weekends 8 am-12 pm; yoga twice a week 45 min, cycling once a week 2 hrs, soccer once a week 1.5 hrs, triathlon three times a week, prioritizes triathlon on weekends, one rest day per week.\nUser wants to create a schedule to balance sports activities, including soccer, cycling, yoga, and triathlon training.\nUser is planning a Saturday cycling group ride and wants a 20-mile route with some hills but not too difficult.",
+            "latency": 671.297
+        },
+        {
+            "strategy": "graph",
+            "context": "User is training for a sprint triathlon on June 24th and has recently completed a charity 5K run with a personal best time of 26 minutes and 30 seconds, and is preparing for a 10\u2011K race in 12 weeks, aiming to finish under 55 minutes with an updated training plan.\nUser's route preferences: mix of rolling and steeper hills, secondary roads with less traffic, elevation gain around 500-1000 feet, scenic views, bike-friendly infrastructure, and start and end at the local park where the charity 5K run was done.\nUser is preparing for a 10\u2011K race in 12 weeks, aiming to finish under 55 minutes, and has updated the training plan to incorporate a more aggressive pace and volume, expressing excitement about how their body will respond.\nUser's current fitness levels: intermediate for yoga and cycling, beginner for swimming, and advanced for running.\nUser wants a map or GPS coordinates for the route and recommendations for coffee shops or cafes along the route for breaks.\nUser wants recommendations for bike computers or GPS devices to track rides.\nUser's training schedule: weekdays 7-9 am, weekends 8 am-12 pm; yoga twice a week 45 min, cycling once a week 2 hrs, soccer once a week 1.5 hrs, triathlon three times a week, prioritizes triathlon on weekends, one rest day per week.\nUser wants to create a schedule to balance sports activities, including soccer, cycling, yoga, and triathlon training.\nUser is planning a Saturday cycling group ride and wants a 20-mile route with some hills but not too difficult.",
+            "latency": 878.228
+        }
+    ]
+}

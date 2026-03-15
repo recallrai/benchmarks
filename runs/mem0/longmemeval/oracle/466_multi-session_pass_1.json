@@ -1,0 +1,22 @@
+{
+    "index": 466,
+    "question_type": "multi-session",
+    "question": "What is the total time it takes I to get ready and commute to work?",
+    "question_date": "2023/05/27 (Sat) 13:44",
+    "ground_truth_answer": "an hour and a half",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_466_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants advice on making the most of a 30\u2011minute morning commute, considering listening to audiobooks or podcasts, plans to try a mix to see what they enjoy, and seeks app/platform recommendations for discovering new podcasts and audiobooks.\nUser wants a recipe for avocado toast with poached eggs and cherry tomatoes, including preparation time.\nUser wants to customize listening with playback speed and sleep timer, and wants tips for staying focused and alert as a non\u2011morning person.\nUser has expressed interest in the 'Morning Energy' meditation by Headspace, wanting to understand how it differs from other sessions and what to expect, and plans to try it.\nUser is interested in self\u2011help and personal development books to improve productivity and time\u2011management skills, and seeks app or tool recommendations for staying organized and focused throughout the day.\nUser is seeking meditation apps or guided meditations to maximize the effectiveness of a 20\u2011minute meditation session, specifically looking for sessions that boost energy and focus to prepare for a morning workout and busy day.",
+            "latency": 498.015
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants advice on making the most of a 30\u2011minute morning commute, considering listening to audiobooks or podcasts, plans to try a mix to see what they enjoy, and seeks app/platform recommendations for discovering new podcasts and audiobooks.\nUser wants a recipe for avocado toast with poached eggs and cherry tomatoes, including preparation time.\nUser wants to customize listening with playback speed and sleep timer, and wants tips for staying focused and alert as a non\u2011morning person.\nUser has expressed interest in the 'Morning Energy' meditation by Headspace, wanting to understand how it differs from other sessions and what to expect, and plans to try it.\nUser is interested in self\u2011help and personal development books to improve productivity and time\u2011management skills, and seeks app or tool recommendations for staying organized and focused throughout the day.\nUser is seeking meditation apps or guided meditations to maximize the effectiveness of a 20\u2011minute meditation session, specifically looking for sessions that boost energy and focus to prepare for a morning workout and busy day.",
+            "latency": 745.743
+        }
+    ]
+}

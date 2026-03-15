@@ -1,0 +1,19 @@
+{
+    "index": 54,
+    "question_type": "temporal-reasoning",
+    "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+    "question_date": "2023/05/30 (Tue) 08:08",
+    "ground_truth_answer": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions fixing the fence but contains no information about purchasing three cows from Peter, which matches the gold answer's statement that there isn't enough information to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions fixing the fence but contains no information about purchasing three cows from Peter, which aligns with the gold answer stating that information about purchasing cows from Peter was not mentioned."
+        }
+    ]
+}

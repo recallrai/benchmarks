@@ -1,0 +1,22 @@
+{
+    "index": 64,
+    "question_type": "multi-session",
+    "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+    "question_date": "2023/05/30 (Tue) 08:15",
+    "ground_truth_answer": "3.5 weeks",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_64_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently completed a Star Wars marathon, watching all the main films in a week and a half, describing the experience as a wild ride, and intends to add these films to their movie list.\nUser is attempting to organize their movie watching history and has recently completed an intense binge of all 22 Marvel Cinematic Universe movies in just two weeks, indicating a strong interest in superhero franchises and a capacity for rapid consumption.\nUser also watched Rogue One and Solo, and plans to add these Star Wars spin\u2011off films to their list.\nUser wants to add additional movies such as Captain Marvel, Us, Shazam!, and A Quiet Place to their list.\nUser is building a spreadsheet-based movie tracking system, adding columns for title, release year, watch date, rating, notes, franchise/series, genre, type, platform, format, re\u2011watch status, month watched, and optional columns such as director, cast, runtime, and language, and prefers bulk\u2011entering data via copy\u2011paste, feeling overwhelmed by entering many movies.\nUser has also watched Spider\u2011Man: Into the Spider\u2011Verse, Crazy Rich Asians, 2001: A Space Odyssey, The Shawshank Redemption, Jurassic Park, Toy Story 4, Midsommar, and The Lion King remake, and plans to include them in their movie tracker.\nUser has added a 'Month Watched' column to their spreadsheet to monitor monthly viewing patterns and analyze what movies were watched each month.\nUser has watched Game of Thrones season 1 in its entirety and is currently watching season 5 of The Office, and intends to add these TV shows to their tracking list.\nUser chooses to use Method 1\u2014copying and pasting a pre-written list of movies from a note-taking app into the spreadsheet\u2014to streamline data entry.\nUser intends to use the spreadsheet system to track future movies.",
+            "latency": 581.913
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently completed a Star Wars marathon, watching all the main films in a week and a half, describing the experience as a wild ride, and intends to add these films to their movie list.\nUser is attempting to organize their movie watching history and has recently completed an intense binge of all 22 Marvel Cinematic Universe movies in just two weeks, indicating a strong interest in superhero franchises and a capacity for rapid consumption.\nUser also watched Rogue One and Solo, and plans to add these Star Wars spin\u2011off films to their list.\nUser wants to add additional movies such as Captain Marvel, Us, Shazam!, and A Quiet Place to their list.\nUser is building a spreadsheet-based movie tracking system, adding columns for title, release year, watch date, rating, notes, franchise/series, genre, type, platform, format, re\u2011watch status, month watched, and optional columns such as director, cast, runtime, and language, and prefers bulk\u2011entering data via copy\u2011paste, feeling overwhelmed by entering many movies.\nUser has also watched Spider\u2011Man: Into the Spider\u2011Verse, Crazy Rich Asians, 2001: A Space Odyssey, The Shawshank Redemption, Jurassic Park, Toy Story 4, Midsommar, and The Lion King remake, and plans to include them in their movie tracker.\nUser has added a 'Month Watched' column to their spreadsheet to monitor monthly viewing patterns and analyze what movies were watched each month.\nUser has watched Game of Thrones season 1 in its entirety and is currently watching season 5 of The Office, and intends to add these TV shows to their tracking list.\nUser chooses to use Method 1\u2014copying and pasting a pre-written list of movies from a note-taking app into the spreadsheet\u2014to streamline data entry.\nUser intends to use the spreadsheet system to track future movies.",
+            "latency": 815.026
+        }
+    ]
+}

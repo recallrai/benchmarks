@@ -1,0 +1,19 @@
+{
+    "index": 327,
+    "question_type": "single-session-user",
+    "question": "Where did I go on a week-long trip with my family?",
+    "question_date": "2023/05/26 (Fri) 07:00",
+    "ground_truth_answer": "Hawaii",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'the user previously visited Hawaii with family for a week last month,' which directly answers the question about where the user went on a week-long trip with family and matches the gold answer of Hawaii."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'the user previously visited Hawaii with family for a week last month,' which directly answers the question about a week-long family trip and matches the gold answer of Hawaii."
+        }
+    ]
+}

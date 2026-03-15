@@ -1,0 +1,22 @@
+{
+    "index": 314,
+    "question_type": "single-session-user",
+    "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+    "question_date": "2023/05/27 (Sat) 00:51",
+    "ground_truth_answer": "3:1",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_314_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has settled on a 3:1 gin-to-vermouth ratio with a dash of citrus bitters for a classic martini, finds it brings out gin flavors, and is seeking recommendations for a good vermouth brand to pair with the gin.\nUser has made a batch of tasty pickled onions as a cocktail garnish and is looking for suggestions for other garnishes that pair well with a classic gin martini.\nUser is exploring mezcal-based cocktails, wants tips on working with mezcal and expected flavor profiles, seeks recipes combining mezcal with citrus, and plans to try a mezcal gimlet, noting that the smokiness of mezcal pairs well with the brightness of lime.\nUser is attempting to recreate a cucumber-basil gimlet from a new restaurant and seeks tips to achieve a silky smooth texture.",
+            "latency": 1096.696
+        },
+        {
+            "strategy": "graph",
+            "context": "User has settled on a 3:1 gin-to-vermouth ratio with a dash of citrus bitters for a classic martini, finds it brings out gin flavors, and is seeking recommendations for a good vermouth brand to pair with the gin.\nUser has made a batch of tasty pickled onions as a cocktail garnish and is looking for suggestions for other garnishes that pair well with a classic gin martini.\nUser is exploring mezcal-based cocktails, wants tips on working with mezcal and expected flavor profiles, seeks recipes combining mezcal with citrus, and plans to try a mezcal gimlet, noting that the smokiness of mezcal pairs well with the brightness of lime.\nUser is attempting to recreate a cucumber-basil gimlet from a new restaurant and seeks tips to achieve a silky smooth texture.",
+            "latency": 2348.638
+        }
+    ]
+}

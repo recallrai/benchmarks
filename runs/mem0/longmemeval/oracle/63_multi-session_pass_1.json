@@ -1,0 +1,22 @@
+{
+    "index": 63,
+    "question_type": "multi-session",
+    "question": "How many days did I spend on camping trips in the United States this year?",
+    "question_date": "2023/04/29 (Sat) 22:31",
+    "ground_truth_answer": "8 days.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_63_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for waterproof hiking boots suitable for multi-day backpacking trips, after completing a 3\u2011day solo camping trip to Big Sur in early April, noting that current boots performed adequately but the user feels they need better footwear\nUser is evaluating the Merrell Moab 2 Mid Waterproof boots for rocky, uneven terrain, having recently traversed trails in Yellowstone, and is also considering them for an upcoming 10\u2011day trek in New Zealand in November that will feature varying terrain including rocky trails\nUser is considering water filtration options for a 10\u2011day trek, preferring a water filter over purification tablets to avoid carrying many tablets, and asks whether the Sawyer Mini Water Filter would be a suitable choice\nUser plans to bring a portable stove and cooking pot for the trek and is seeking recommendations for a lightweight, compact stove that can withstand windy conditions\nUser is planning a day trip to Canyonlands National Park's Island in the Sky District and wants detailed information about the White Rim Road, including required permits, vehicle specifications, and logistical considerations.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for waterproof hiking boots suitable for multi-day backpacking trips, after completing a 3\u2011day solo camping trip to Big Sur in early April, noting that current boots performed adequately but the user feels they need better footwear\nUser is evaluating the Merrell Moab 2 Mid Waterproof boots for rocky, uneven terrain, having recently traversed trails in Yellowstone, and is also considering them for an upcoming 10\u2011day trek in New Zealand in November that will feature varying terrain including rocky trails\nUser is considering water filtration options for a 10\u2011day trek, preferring a water filter over purification tablets to avoid carrying many tablets, and asks whether the Sawyer Mini Water Filter would be a suitable choice\nUser plans to bring a portable stove and cooking pot for the trek and is seeking recommendations for a lightweight, compact stove that can withstand windy conditions\nUser is planning a day trip to Canyonlands National Park's Island in the Sky District and wants detailed information about the White Rim Road, including required permits, vehicle specifications, and logistical considerations.",
+            "latency": 721.233
+        }
+    ]
+}

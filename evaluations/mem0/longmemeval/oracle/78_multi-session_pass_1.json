@@ -1,0 +1,19 @@
+{
+    "index": 78,
+    "question_type": "multi-session",
+    "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+    "question_date": "2023/05/30 (Tue) 18:48",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 pieces of furniture that were bought or fixed (a kitchen table that was fixed and a wooden coffee table from West Elm that was acquired), but the gold answer states 4 pieces."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions 2 pieces of furniture that were bought or fixed (a kitchen table that was fixed last weekend and a wooden coffee table from West Elm that was acquired), but the gold answer indicates 4 pieces."
+        }
+    ]
+}

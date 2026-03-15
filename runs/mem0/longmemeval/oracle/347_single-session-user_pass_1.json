@@ -1,0 +1,22 @@
+{
+    "index": 347,
+    "question_type": "single-session-user",
+    "question": "What health issue did I initially think was just a cold?",
+    "question_date": "2023/05/25 (Thu) 08:18",
+    "ground_truth_answer": "bronchitis",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_347_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants quick, healthy snack ideas that are easy to prepare and time-efficient\nUser is dealing with health issues and is trying to get back on track with a fitness routine, wants gentle at-home exercises to improve flexibility, wants to avoid overexertion, and is seeking ways to boost the immune system, including specific foods and spices, yoga classes on Saturday mornings, cooking more meals at home, cutting processed foods, and overall lifestyle changes to support long-term immune health\nUser is considering starting a journal to track progress and reflect on thoughts and feelings, and is seeking confirmation that this is a good idea",
+            "latency": 935.726
+        },
+        {
+            "strategy": "graph",
+            "context": "User is dealing with health issues and is trying to get back on track with a fitness routine, wants gentle at-home exercises to improve flexibility, wants to avoid overexertion, and is seeking ways to boost the immune system, including specific foods and spices, yoga classes on Saturday mornings, cooking more meals at home, cutting processed foods, and overall lifestyle changes to support long-term immune health\nUser is considering starting a journal to track progress and reflect on thoughts and feelings, and is seeking confirmation that this is a good idea\nUser wants quick, healthy snack ideas that are easy to prepare and time-efficient",
+            "latency": 1693.431
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 178,
+    "question_type": "knowledge-update",
+    "question": "How much weight have I lost since I started going to the gym consistently?",
+    "question_date": "2023/06/23 (Fri) 16:42",
+    "ground_truth_answer": "10 pounds",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_178_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User tracks progress with a fitness app, burns an average of 2,500 calories per week, has lost about 5 pounds in the past month and 10 pounds in the past three months.\nUser wants to modify the training plan to progress more gradually, seeks tips to stay motivated and avoid burnout, appreciates having someone to report progress to, and seeks guidance to stay focused on long\u2011term goals like reaching goal weight by summer end.\nUser wants advice on how to make exercise a sustainable part of their daily routine.\nUser wants tips to keep energy levels up during workouts.\nUser wants tips on finding a running buddy through online platforms or local running groups, and guidelines for water intake during runs, planning to drink water before and during runs.\nUser plans a workout routine for the next month, wants new core and leg exercises, likes Pallof Press and Bird Dog, will add them. As a beginner runner, does 30\u2011minute walks 3\u00d7/week, can train 4\u20135 hours/week, wants a detailed plan, and aims to run a 10K by summer end. Currently does planks and Russian twists to strengthen core and is seeking additional core\u2011strengthening exercises.\nUser wants to mix up routine and is looking for exercises that specifically target obliques.\nUser is looking for high\u2011energy playlists to accompany their cardio days.\nUser is seeking tips to improve flexibility and range of motion, especially focusing on hamstrings and hip flexors.",
+            "latency": 602.076
+        },
+        {
+            "strategy": "graph",
+            "context": "User tracks progress with a fitness app, burns an average of 2,500 calories per week, has lost about 5 pounds in the past month and 10 pounds in the past three months.\nUser wants to modify the training plan to progress more gradually, seeks tips to stay motivated and avoid burnout, appreciates having someone to report progress to, and seeks guidance to stay focused on long\u2011term goals like reaching goal weight by summer end.\nUser wants advice on how to make exercise a sustainable part of their daily routine.\nUser wants tips to keep energy levels up during workouts.\nUser wants tips on finding a running buddy through online platforms or local running groups, and guidelines for water intake during runs, planning to drink water before and during runs.\nUser plans a workout routine for the next month, wants new core and leg exercises, likes Pallof Press and Bird Dog, will add them. As a beginner runner, does 30\u2011minute walks 3\u00d7/week, can train 4\u20135 hours/week, wants a detailed plan, and aims to run a 10K by summer end. Currently does planks and Russian twists to strengthen core and is seeking additional core\u2011strengthening exercises.\nUser wants to mix up routine and is looking for exercises that specifically target obliques.\nUser is looking for high\u2011energy playlists to accompany their cardio days.\nUser is seeking tips to improve flexibility and range of motion, especially focusing on hamstrings and hip flexors.",
+            "latency": 770.374
+        }
+    ]
+}

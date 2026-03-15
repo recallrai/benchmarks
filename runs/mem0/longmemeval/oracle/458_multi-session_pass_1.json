@@ -1,0 +1,22 @@
+{
+    "index": 458,
+    "question_type": "multi-session",
+    "question": "How much more did I have to pay for the trip after the initial quote?",
+    "question_date": "2023/05/24 (Wed) 02:59",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_458_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User awaits Sakura Travel Agency flight confirmation; trip price corrected to $2,800, paid via bank transfer, unsure about disputing if tickets fail, weighing contacting agency again or waiting, and proactively considering alternative flight options through airlines or comparison sites as backup.\nUser received a $50 quote from AXA Insurance for the entire trip, is uncertain if it is a good deal, is exploring other travel insurance providers, and is considering Allianz after hearing friend Sarah got a better deal.\nUser plans a Japan trip with a hotel booking due March\u202f1\u202f2026, intends to pay via credit card, wants a breakdown of the $2,800 total cost but is unsure accommodation share, and checks card funds.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User awaits Sakura Travel Agency flight confirmation; trip price corrected to $2,800, paid via bank transfer, unsure about disputing if tickets fail, weighing contacting agency again or waiting, and proactively considering alternative flight options through airlines or comparison sites as backup.\nUser received a $50 quote from AXA Insurance for the entire trip, is uncertain if it is a good deal, is exploring other travel insurance providers, and is considering Allianz after hearing friend Sarah got a better deal.\nUser plans a Japan trip with a hotel booking due March\u202f1\u202f2026, intends to pay via credit card, wants a breakdown of the $2,800 total cost but is unsure accommodation share, and checks card funds.",
+            "latency": 747.249
+        }
+    ]
+}

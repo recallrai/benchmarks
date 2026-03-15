@@ -1,0 +1,19 @@
+{
+    "index": 323,
+    "question_type": "single-session-user",
+    "question": "Where did I buy my new bookshelf from?",
+    "question_date": "2023/05/20 (Sat) 18:19",
+    "ground_truth_answer": "IKEA",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions 'installed a new IKEA bookshelf', which directly answers where the user bought their new bookshelf from."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly mentions that the user 'installed a new IKEA bookshelf,' which directly answers where they bought their new bookshelf from."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 493,
+    "question_type": "multi-session",
+    "question": "How many fun runs did I miss in March due to work commitments?",
+    "question_date": "2023/04/26 (Wed) 20:52",
+    "ground_truth_answer": "2",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_493_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is an active member of the local running community, regularly attending weekly 5K fun runs at the local park, and has missed two runs: March\u202f5 and March\u202f26 due to work commitments\nUser wants a calendar to organize runs, yoga classes, and swimming sessions for the next few months\nUser is training for a local triathlon in July, aiming to build endurance in swimming, running, and cycling, with a schedule of 5\u20136 training days per week and one or two rest days\nUser completed their first full marathon on April 10th and is currently experiencing significant soreness in the quads, calves, and hip flexors, indicating a need for targeted recovery strategies.\nUser is located in the 92101 zip code in San Diego and wants bike shop recommendations for maintenance\nUser wants to incorporate recreational volleyball sessions on Sundays into the training schedule\nUser is excited to return to swimming, a high school activity, and intends to focus on endurance and interval training; they are seeking guidance on optimal swim frequency, balancing a structured 2-3 times per week plan with listening to their body.\nUser was recommended RIDE Cyclery for a triathlon bike fitting, and will schedule the fitting after a few more training rides to assess comfort\nUser is concerned about tight hip flexors and plans to strengthen them by incorporating step-ups and lunges into their routine, while also seeking specific stretches to improve hip flexor strength and flexibility for running.\nUser prefers Saturday mornings for running, Wednesday evenings for running and swimming, Tuesdays and Thursdays for yoga, and adds an extra Friday swimming session",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is an active member of the local running community, regularly attending weekly 5K fun runs at the local park, and has missed two runs: March\u202f5 and March\u202f26 due to work commitments\nUser wants a calendar to organize runs, yoga classes, and swimming sessions for the next few months\nUser is training for a local triathlon in July, aiming to build endurance in swimming, running, and cycling, with a schedule of 5\u20136 training days per week and one or two rest days\nUser completed their first full marathon on April 10th and is currently experiencing significant soreness in the quads, calves, and hip flexors, indicating a need for targeted recovery strategies.\nUser is located in the 92101 zip code in San Diego and wants bike shop recommendations for maintenance\nUser wants to incorporate recreational volleyball sessions on Sundays into the training schedule\nUser is excited to return to swimming, a high school activity, and intends to focus on endurance and interval training; they are seeking guidance on optimal swim frequency, balancing a structured 2-3 times per week plan with listening to their body.\nUser was recommended RIDE Cyclery for a triathlon bike fitting, and will schedule the fitting after a few more training rides to assess comfort\nUser is concerned about tight hip flexors and plans to strengthen them by incorporating step-ups and lunges into their routine, while also seeking specific stretches to improve hip flexor strength and flexibility for running.\nUser prefers Saturday mornings for running, Wednesday evenings for running and swimming, Tuesdays and Thursdays for yoga, and adds an extra Friday swimming session",
+            "latency": 732.629
+        }
+    ]
+}

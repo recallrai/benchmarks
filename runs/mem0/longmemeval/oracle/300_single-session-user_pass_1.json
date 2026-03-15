@@ -1,0 +1,22 @@
+{
+    "index": 300,
+    "question_type": "single-session-user",
+    "question": "What was the discount I got on my first purchase from the new clothing brand?",
+    "question_date": "2023/05/30 (Tue) 21:10",
+    "ground_truth_answer": "10%",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_300_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is exploring Instagram and Twitter to promote their freelance writing services, has little experience with those platforms, and recently received a 10% discount on their first purchase from a new clothing brand last month.",
+            "latency": 1199.945
+        },
+        {
+            "strategy": "graph",
+            "context": "User is exploring Instagram and Twitter to promote their freelance writing services, has little experience with those platforms, and recently received a 10% discount on their first purchase from a new clothing brand last month.",
+            "latency": 2109.45
+        }
+    ]
+}

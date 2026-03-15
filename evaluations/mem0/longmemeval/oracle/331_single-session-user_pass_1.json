@@ -1,0 +1,19 @@
+{
+    "index": 331,
+    "question_type": "single-session-user",
+    "question": "What type of action figure did I buy from a thrift store?",
+    "question_date": "2023/05/30 (Tue) 13:38",
+    "ground_truth_answer": "a blue Snaggletooth",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'a rare blue Snaggletooth action figure' which matches the gold answer and provides the specific type of action figure asked about in the question."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions 'a rare blue Snaggletooth action figure' which matches the gold answer 'a blue Snaggletooth' and would allow someone to correctly identify the type of action figure."
+        }
+    ]
+}

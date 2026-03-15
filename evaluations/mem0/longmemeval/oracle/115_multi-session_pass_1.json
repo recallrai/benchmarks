@@ -1,0 +1,19 @@
+{
+    "index": 115,
+    "question_type": "multi-session",
+    "question": "How many graduation ceremonies have I attended in the past three months?",
+    "question_date": "2023/07/21 (Fri) 23:20",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 2 graduation ceremonies attended in the relevant timeframe (Rachel's master's degree graduation 'a couple of weeks ago' and cousin Emma's preschool graduation 'a couple of months ago'), but the gold answer states 3 ceremonies were attended."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions only 2 graduation ceremonies attended in the past three months from the question date (Rachel's master's degree ceremony 'a couple of weeks ago' and cousin Emma's preschool ceremony 'a couple of months ago'), while the gold answer indicates 3 ceremonies were attended."
+        }
+    ]
+}

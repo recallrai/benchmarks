@@ -1,0 +1,22 @@
+{
+    "index": 342,
+    "question_type": "single-session-user",
+    "question": "How much time do I dedicate to practicing guitar every day?",
+    "question_date": "2023/05/30 (Tue) 08:58",
+    "ground_truth_answer": "30 minutes",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_342_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to upgrade their guitar setup.\nUser wants to learn about guitar amplifiers and effects pedals.\nUser seeks online resources to improve music theory knowledge and fingerpicking techniques.\nUser is reading about the history of the electric guitar.\nUser wants beginner\u2011friendly harmonica tabs or songs to start with.\nUser intends to record jam sessions with friend Alex using a digital audio workstation.\nUser is evaluating whether to choose a tube amp or a solid\u2011state amp for better sound.\nUser is a guitarist who practices 30 minutes daily, finding it helps progress.\nUser wants online resources for jazz theory and improvisation.\nUser wants online resources for learning harmonica.",
+            "latency": 921.404
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to upgrade their guitar setup.\nUser wants to learn about guitar amplifiers and effects pedals.\nUser seeks online resources to improve music theory knowledge and fingerpicking techniques.\nUser is reading about the history of the electric guitar.\nUser wants beginner\u2011friendly harmonica tabs or songs to start with.\nUser intends to record jam sessions with friend Alex using a digital audio workstation.\nUser is evaluating whether to choose a tube amp or a solid\u2011state amp for better sound.\nUser is a guitarist who practices 30 minutes daily, finding it helps progress.\nUser wants online resources for jazz theory and improvisation.\nUser wants online resources for learning harmonica.",
+            "latency": 1618.944
+        }
+    ]
+}

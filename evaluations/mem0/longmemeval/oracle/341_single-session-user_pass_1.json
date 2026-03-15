@@ -1,0 +1,19 @@
+{
+    "index": 341,
+    "question_type": "single-session-user",
+    "question": "What is my ethnicity?",
+    "question_date": "2023/05/29 (Mon) 05:51",
+    "ground_truth_answer": "A mix of Irish and Italian",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has 'a mixed Irish and Italian heritage,' which directly matches the gold answer about ethnicity being a mix of Irish and Italian."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user has 'mixed Irish and Italian heritage,' which directly matches the gold answer of 'A mix of Irish and Italian.'"
+        }
+    ]
+}

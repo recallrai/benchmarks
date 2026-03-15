@@ -1,0 +1,22 @@
+{
+    "index": 426,
+    "question_type": "temporal-reasoning",
+    "question": "What kitchen appliance did I buy 10 days ago?",
+    "question_date": "2023/03/25 (Sat) 18:04",
+    "ground_truth_answer": "a smoker",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_426_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in learning what wood pellets are and how they compare to logs, chips, and chunks for use in smoking.\nUser is a BBQ enthusiast who has just acquired a smoker and is excited to experiment with different woods and meats while creating new homemade BBQ sauce recipes, always looking to improve their craft.\nUser wants to understand the differences between wood chips and wood chunks, including how each type is used in smoking.\nUser wants recommendations for the ratio of hickory to apple wood pellets to use when smoking pork and beef.\nUser is looking for recommendations on good brands and types of wood pellets that are suitable for smoking meats.",
+            "latency": 884.637
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in learning what wood pellets are and how they compare to logs, chips, and chunks for use in smoking.\nUser is a BBQ enthusiast who has just acquired a smoker and is excited to experiment with different woods and meats while creating new homemade BBQ sauce recipes, always looking to improve their craft.\nUser wants to understand the differences between wood chips and wood chunks, including how each type is used in smoking.\nUser wants recommendations for the ratio of hickory to apple wood pellets to use when smoking pork and beef.\nUser is looking for recommendations on good brands and types of wood pellets that are suitable for smoking meats.",
+            "latency": 1779.851
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 96,
+    "question_type": "multi-session",
+    "question": "How many pieces of jewelry did I acquire in the last two months?",
+    "question_date": "2023/05/29 (Mon) 17:44",
+    "ground_truth_answer": "3",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The question asks about jewelry acquired in the last two months before May 29, 2023 (approximately late March to May 2023), but the retrieved context only mentions jewelry purchases dated in December 2025 (future relative to the question date) and one purchase from 'last weekend' without a clear date, providing no information about the specific time period in question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions jewelry purchases on December 15, 2025 and December 28, 2025, which are both in the future relative to the question date of May 29, 2023, and one purchase with only a relative 'last weekend' reference that cannot be verified to fall within the two months before the question date."
+        }
+    ]
+}

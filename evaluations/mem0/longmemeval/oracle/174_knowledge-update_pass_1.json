@@ -1,0 +1,19 @@
+{
+    "index": 174,
+    "question_type": "knowledge-update",
+    "question": "How much time do I dedicate to coding exercises each day?",
+    "question_date": "2023/06/22 (Thu) 19:41",
+    "ground_truth_answer": "about two hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'dedicating about two hours each day to coding exercises,' which directly matches the gold answer of 'about two hours.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user is 'dedicating about two hours each day to coding exercises,' which directly matches the gold answer of 'about two hours.'"
+        }
+    ]
+}

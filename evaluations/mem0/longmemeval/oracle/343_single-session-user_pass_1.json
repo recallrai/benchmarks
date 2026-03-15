@@ -1,0 +1,19 @@
+{
+    "index": 343,
+    "question_type": "single-session-user",
+    "question": "Where does my sister Emily live?",
+    "question_date": "2023/05/22 (Mon) 18:58",
+    "ground_truth_answer": "Denver",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a sister named Emily in Denver', which directly answers the question and matches the gold answer of Denver."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has a sister named Emily in Denver', which directly answers the question and matches the gold answer."
+        }
+    ]
+}

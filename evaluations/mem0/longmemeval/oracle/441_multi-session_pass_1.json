@@ -1,0 +1,19 @@
+{
+    "index": 441,
+    "question_type": "multi-session",
+    "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+    "question_date": "2023/05/26 (Fri) 10:38",
+    "ground_truth_answer": "27",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has finished episode 12 of 'My Favorite Murder' and about 15 episodes of 'How I Built This', which totals 27 episodes matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user has finished episode 12 of 'My Favorite Murder' and about 15 episodes of 'How I Built This', which totals 27 episodes matching the gold answer."
+        }
+    ]
+}

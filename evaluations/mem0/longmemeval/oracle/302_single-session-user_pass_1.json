@@ -1,0 +1,19 @@
+{
+    "index": 302,
+    "question_type": "single-session-user",
+    "question": "What did I buy for my sister's birthday gift?",
+    "question_date": "2023/05/30 (Tue) 04:48",
+    "ground_truth_answer": "a yellow dress",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User bought a yellow dress and a pair of earrings for sister's birthday,' which directly matches the gold answer of 'a yellow dress.'"
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User bought a yellow dress and a pair of earrings for sister's birthday,' which directly matches the gold answer of 'a yellow dress.'"
+        }
+    ]
+}

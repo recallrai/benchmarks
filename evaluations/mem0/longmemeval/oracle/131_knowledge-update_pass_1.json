@@ -1,0 +1,19 @@
+{
+    "index": 131,
+    "question_type": "knowledge-update",
+    "question": "Where did I go on my most recent family trip?",
+    "question_date": "2023/06/09 (Fri) 21:26",
+    "ground_truth_answer": "Paris",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User recently traveled to Paris with family', which matches the gold answer of Paris as the most recent family trip."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User recently traveled to Paris with family,' which matches the gold answer and provides the information needed to answer the question about the most recent family trip."
+        }
+    ]
+}

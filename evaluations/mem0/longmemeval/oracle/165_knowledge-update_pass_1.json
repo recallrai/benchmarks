@@ -1,0 +1,19 @@
+{
+    "index": 165,
+    "question_type": "knowledge-update",
+    "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+    "question_date": "2023/12/29 (Fri) 12:41",
+    "ground_truth_answer": "10",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has made a Negroni at home 10 times since Emma taught them the recipe,' which directly answers the question with the same number as the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User has made a Negroni at home 10 times since Emma taught them the recipe,' which directly answers the question and matches the gold answer of 10."
+        }
+    ]
+}

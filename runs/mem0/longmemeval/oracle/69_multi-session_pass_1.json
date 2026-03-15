@@ -1,0 +1,22 @@
+{
+    "index": 69,
+    "question_type": "multi-session",
+    "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+    "question_date": "2023/05/27 (Sat) 18:41",
+    "ground_truth_answer": "2 AM",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_69_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a Tuesday schedule that includes a yoga class in the evening, wants to prioritize tasks and create a schedule, and has spent the rest of the day after a doctor\u2019s appointment researching healthy recipes and making a weekly meal plan.\nUser received blood test results showing slightly elevated cholesterol levels after a doctor's appointment at 10 AM on Thursday, and is seeking healthy recipe ideas or a meal\u2011planning app to help lower cholesterol.\nThe user wants healthy snack options to keep at their desk to curb cravings throughout the day.\nThe user feels sluggish today because they stayed up until 2\u202fAM last Wednesday, which made Thursday morning a struggle, and they are seeking healthy breakfast recipes to boost energy levels.\nUser has several work meetings, needs to finish a report due by the end of the week, wants to create a grocery list and do online shopping for healthy ingredients needed for a new meal plan, and is asking for help fitting all these tasks into the day.\nUser expresses satisfaction with the proposed schedule, believes everything can fit, and looks forward to the evening yoga class.\nThe user plans to have Avocado Toast with Poached Eggs for breakfast, wants a lunch that can be prepared in advance to keep the user full until the yoga class on Tuesday evening, plans to use MyFitnessPal to track nutrition, and wants healthy breakfast ideas that can help lower cholesterol.",
+            "latency": 830.872
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a Tuesday schedule that includes a yoga class in the evening, wants to prioritize tasks and create a schedule, and has spent the rest of the day after a doctor\u2019s appointment researching healthy recipes and making a weekly meal plan.\nUser received blood test results showing slightly elevated cholesterol levels after a doctor's appointment at 10 AM on Thursday, and is seeking healthy recipe ideas or a meal\u2011planning app to help lower cholesterol.\nThe user wants healthy snack options to keep at their desk to curb cravings throughout the day.\nThe user feels sluggish today because they stayed up until 2\u202fAM last Wednesday, which made Thursday morning a struggle, and they are seeking healthy breakfast recipes to boost energy levels.\nUser has several work meetings, needs to finish a report due by the end of the week, wants to create a grocery list and do online shopping for healthy ingredients needed for a new meal plan, and is asking for help fitting all these tasks into the day.\nUser expresses satisfaction with the proposed schedule, believes everything can fit, and looks forward to the evening yoga class.\nThe user plans to have Avocado Toast with Poached Eggs for breakfast, wants a lunch that can be prepared in advance to keep the user full until the yoga class on Tuesday evening, plans to use MyFitnessPal to track nutrition, and wants healthy breakfast ideas that can help lower cholesterol.",
+            "latency": 1108.394
+        }
+    ]
+}

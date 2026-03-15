@@ -1,0 +1,19 @@
+{
+    "index": 111,
+    "question_type": "multi-session",
+    "question": "How many online courses have I completed in total?",
+    "question_date": "2023/05/30 (Tue) 13:11",
+    "ground_truth_answer": "5",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context explicitly states the user completed three courses on Coursera, but the gold answer indicates 5 total completed courses, and the context does not provide information about 2 additional completed courses."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only explicitly states that the user has completed three courses on Coursera, which does not match the gold answer of 5 total completed courses."
+        }
+    ]
+}

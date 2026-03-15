@@ -1,0 +1,19 @@
+{
+    "index": 424,
+    "question_type": "temporal-reasoning",
+    "question": "I mentioned visiting a museum two months ago. Did I visit with a friend or not?",
+    "question_date": "2023/03/11 (Sat) 21:26",
+    "ground_truth_answer": "No, you did not visit with a friend.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions museum visits with a friend and recent visits, but does not specifically identify whether a museum visit two months ago (around January 2023) was with or without a friend, making it impossible to correctly answer the question from the retrieved context."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions a Science Museum visit with a chemistry professor friend and a History Museum lecture 'this month' (March), but does not clearly identify which museum visit occurred 'two months ago' (January 2023) or whether that specific visit was with a friend or not."
+        }
+    ]
+}

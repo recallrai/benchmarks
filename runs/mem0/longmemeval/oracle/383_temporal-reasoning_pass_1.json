@@ -1,0 +1,22 @@
+{
+    "index": 383,
+    "question_type": "temporal-reasoning",
+    "question": "What is the order of the sports events I watched in January?",
+    "question_date": "2023/01/30 (Mon) 01:51",
+    "ground_truth_answer": "First, I attended a NBA game at the Staples Center, then I watched the College Football National Championship game, and finally, I watched the NFL playoffs.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_383_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has previously organized a sports-themed scavenger hunt around the Staples Center, indicating a strong interest in sports-related team-building activities.\nUser is planning to order food for the next game, still high from watching the Kansas City Chiefs defeat the Buffalo Bills in the NFL playoffs at Mike's place, and is craving buffalo wings.\nThe user suggests a challenge that requires teams to find a specific sports-themed store or restaurant in the LA Live complex, such as the NBA Store on the upper level, and complete a task by taking a photo of the team holding a Lakers jersey with a specific player's name, seeking approval and additional ideas.\nThe user is planning a sports-themed team-building event for their office, seeking ideas to engage coworkers in a fun, collaborative outing.\nUser is located in Los Angeles, loves buffalo wings, had a group of five at Mike's watching the Chiefs game, and wants a restaurant that can handle a decent-sized order.\nUser wants to add pizza to the wings order, asking about pizza deals or combos available at Buffalo Wild Wings.\nUser intends to order online for pickup, wants an online ordering system that allows customization of the order and prepayment.\nThe user recently attended an NBA game at the Staples Center in Los Angeles with coworkers, enjoyed the Lakers vs. Bulls matchup, and wants to host the scavenger hunt around the Staples Center, seeking location-specific clues and challenges.\nUser recently watched the College Football National Championship game with family; Georgia defeated Alabama 33-18; user and dad were impressed by Stetson Bennett's performance.\nThe user proposes a trivia challenge that requires teams to locate a statue or monument of a Lakers legend outside the Staples Center, take a photo of the team posing in a slam dunk pose next to the statue, and wants feedback on the idea.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User has previously organized a sports-themed scavenger hunt around the Staples Center, indicating a strong interest in sports-related team-building activities.\nUser is planning to order food for the next game, still high from watching the Kansas City Chiefs defeat the Buffalo Bills in the NFL playoffs at Mike's place, and is craving buffalo wings.\nThe user suggests a challenge that requires teams to find a specific sports-themed store or restaurant in the LA Live complex, such as the NBA Store on the upper level, and complete a task by taking a photo of the team holding a Lakers jersey with a specific player's name, seeking approval and additional ideas.\nThe user is planning a sports-themed team-building event for their office, seeking ideas to engage coworkers in a fun, collaborative outing.\nUser is located in Los Angeles, loves buffalo wings, had a group of five at Mike's watching the Chiefs game, and wants a restaurant that can handle a decent-sized order.\nUser wants to add pizza to the wings order, asking about pizza deals or combos available at Buffalo Wild Wings.\nUser intends to order online for pickup, wants an online ordering system that allows customization of the order and prepayment.\nThe user recently attended an NBA game at the Staples Center in Los Angeles with coworkers, enjoyed the Lakers vs. Bulls matchup, and wants to host the scavenger hunt around the Staples Center, seeking location-specific clues and challenges.\nUser recently watched the College Football National Championship game with family; Georgia defeated Alabama 33-18; user and dad were impressed by Stetson Bennett's performance.\nThe user proposes a trivia challenge that requires teams to locate a statue or monument of a Lakers legend outside the Staples Center, take a photo of the team posing in a slam dunk pose next to the statue, and wants feedback on the idea.",
+            "latency": 697.163
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 1,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+    "question_date": "2023/05/28 (Sun) 06:47",
+    "ground_truth_answer": "'Data Analysis using Python' webinar",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the 'Data Analysis using Python' webinar was attended 'two months ago' while the 'Effective Time Management' workshop was attended 'last Saturday' relative to the question date, confirming the Python webinar was first."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the 'Data Analysis using Python' webinar was attended 'two months ago' while the 'Effective Time Management' workshop was attended 'last Saturday' (relative to the question date), clearly indicating the Python webinar was attended first, matching the gold answer."
+        }
+    ]
+}

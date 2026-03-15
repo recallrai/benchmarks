@@ -1,0 +1,19 @@
+{
+    "index": 67,
+    "question_type": "multi-session",
+    "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+    "question_date": "2023/05/30 (Tue) 07:22",
+    "ground_truth_answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context mentions three specific road trip destinations with driving times: Washington D.C. (6 hours), Outer Banks in North Carolina (4 hours), and mountains of Tennessee (5 hours), which total 15 hours one way or 30 hours round trip, matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three specific road trips with driving times: 6 hours to Washington D.C., 4 hours to Outer Banks in North Carolina, and 5 hours to the mountains of Tennessee, which totals exactly 15 hours matching the gold answer."
+        }
+    ]
+}

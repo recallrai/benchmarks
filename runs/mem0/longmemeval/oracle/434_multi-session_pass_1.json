@@ -1,0 +1,22 @@
+{
+    "index": 434,
+    "question_type": "multi-session",
+    "question": "What is the total cost of the new food bowl, measuring cup, dental chews, and flea and tick collar I got for Max?",
+    "question_date": "2023/05/26 (Fri) 21:10",
+    "ground_truth_answer": "$50",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_434_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "Max\u2019s new stainless steel food bowl from Amazon costs $15, and a measuring cup from the pet store costs $5; both are used with his grain\u2011free kibble.\nUser is a dog owner of Max and is actively tracking Max's supplies expenses, noting recurring monthly costs of grain-free kibble ($50/month) and dental chews ($10/month), and one-time purchases of a dog bed ($40) and a flea and tick collar ($20), and wants to calculate Max's average monthly supply cost.\nUser is curious whether the dental chews are making a difference in Max's teeth and asks the assistant why it started using them.\nMax is a 3\u2011year\u2011old golden retriever who loves playing fetch and squeaky toys, and he recently lost his favorite tennis ball.\nMax chose the Kong Classic Dog Toy with Holes and wants tips on how to introduce it to him.\nMax\u2019s new dog bed from PetSmart is black and brown, features a soft cushion, and he loves it.\nUser wants to research dog shampoos for Max, who has sensitive skin, to find a hypoallergenic, pH-balanced shampoo that avoids harsh chemicals.\nMax wants a durable squeaky ball or a rubber toy with holes, wants a specific rubber toy with holes suitable for a 3\u2011year\u2011old golden retriever, durable, easy to clean, to use as a treat dispenser for his grain\u2011free kibble.",
+            "latency": 504.334
+        },
+        {
+            "strategy": "graph",
+            "context": "Max\u2019s new stainless steel food bowl from Amazon costs $15, and a measuring cup from the pet store costs $5; both are used with his grain\u2011free kibble.\nUser is a dog owner of Max and is actively tracking Max's supplies expenses, noting recurring monthly costs of grain-free kibble ($50/month) and dental chews ($10/month), and one-time purchases of a dog bed ($40) and a flea and tick collar ($20), and wants to calculate Max's average monthly supply cost.\nUser is curious whether the dental chews are making a difference in Max's teeth and asks the assistant why it started using them.\nMax is a 3\u2011year\u2011old golden retriever who loves playing fetch and squeaky toys, and he recently lost his favorite tennis ball.\nMax chose the Kong Classic Dog Toy with Holes and wants tips on how to introduce it to him.\nMax\u2019s new dog bed from PetSmart is black and brown, features a soft cushion, and he loves it.\nUser wants to research dog shampoos for Max, who has sensitive skin, to find a hypoallergenic, pH-balanced shampoo that avoids harsh chemicals.\nMax wants a durable squeaky ball or a rubber toy with holes, wants a specific rubber toy with holes suitable for a 3\u2011year\u2011old golden retriever, durable, easy to clean, to use as a treat dispenser for his grain\u2011free kibble.",
+            "latency": 751.653
+        }
+    ]
+}

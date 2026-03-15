@@ -1,0 +1,19 @@
+{
+    "index": 228,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest some activities I can do during my commute to work?",
+    "question_date": "2023/05/28 (Sun) 21:56",
+    "ground_truth_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all key information from the gold answer: the user commutes and listens to podcasts, currently listens to true crime and self-improvement, wants to branch out to other genres (especially history and science), which would enable correctly answering the question about commute activities."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains all key information from the gold answer: the user listens to podcasts during their commute, currently listens to true crime and self-improvement but wants to branch out to other genres like history and science, which would enable someone to correctly suggest appropriate commute activities."
+        }
+    ]
+}

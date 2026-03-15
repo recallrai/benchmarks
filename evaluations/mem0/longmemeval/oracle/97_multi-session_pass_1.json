@@ -1,0 +1,19 @@
+{
+    "index": 97,
+    "question_type": "multi-session",
+    "question": "How much money did I raise in total through all the charity events I participated in?",
+    "question_date": "2023/05/01 (Mon) 23:35",
+    "ground_truth_answer": "$5,850",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three charity events with specific amounts raised: charity walk ($250), Bike-a-Thon for Cancer Research ($5,000), and charity yoga event ($600), which total to $5,850, matching the gold answer exactly."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions three charity events with specific amounts raised: charity walk ($250), Bike-a-Thon for Cancer Research ($5,000), and charity yoga event ($600), which sum to $5,850, matching the gold answer."
+        }
+    ]
+}

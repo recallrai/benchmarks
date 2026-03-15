@@ -1,0 +1,22 @@
+{
+    "index": 144,
+    "question_type": "knowledge-update",
+    "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+    "question_date": "2023/06/20 (Tue) 11:24",
+    "ground_truth_answer": "TechCorp",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_144_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10th and 11th, and intends to catch up soon; Rachel is now at TechCorp.\nUser considers adding a 'Company' column to track the companies contacts are working at.\nUser met Jason, CEO of StartupX, at the TechConnect conference and plans to follow up with him about potential collaboration opportunities.\nUser met David, a friend, at the WeWork startup mixer, and David introduced him to some colleagues from Google.\nUser met Alex, founder of an edtech startup, discussed a shared passion for education, and plans to reach out again to learn more about Alex's startup, ask recommended questions, be clear about goals and desired outcomes, and explore potential collaboration opportunities.\nUser intends to reconnect with Dr. Maria Hernandez, who was informative during a Women in Tech webinar, and is interested in exploring AI applications in education by learning about startups or companies developing AI-powered edtech solutions.\nUser is organizing contacts and wants a spreadsheet to track connections and the events where they met them.\nUser attends weekly BNI networking meetings, meets entrepreneurs and small business owners, receives valuable feedback on their elevator pitch from Jack, offers digital marketing insights to Jack, and is seeking online resources or tools to improve their elevator pitch.\nUser attended a speed networking event organized by the local chamber of commerce, where they met Tom, a marketing expert who offered to provide feedback on the user's startup's marketing strategy, and also met several other professionals from various industries.\nUser wants to learn the latest trends in AI and machine learning and is looking for online courses or webinars similar to the Women in Tech event hosted by Dr. Maria Hernandez.",
+            "latency": 796.75
+        },
+        {
+            "strategy": "graph",
+            "context": "User met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10th and 11th, and intends to catch up soon; Rachel is now at TechCorp.\nUser considers adding a 'Company' column to track the companies contacts are working at.\nUser met Jason, CEO of StartupX, at the TechConnect conference and plans to follow up with him about potential collaboration opportunities.\nUser met David, a friend, at the WeWork startup mixer, and David introduced him to some colleagues from Google.\nUser met Alex, founder of an edtech startup, discussed a shared passion for education, and plans to reach out again to learn more about Alex's startup, ask recommended questions, be clear about goals and desired outcomes, and explore potential collaboration opportunities.\nUser intends to reconnect with Dr. Maria Hernandez, who was informative during a Women in Tech webinar, and is interested in exploring AI applications in education by learning about startups or companies developing AI-powered edtech solutions.\nUser is organizing contacts and wants a spreadsheet to track connections and the events where they met them.\nUser attends weekly BNI networking meetings, meets entrepreneurs and small business owners, receives valuable feedback on their elevator pitch from Jack, offers digital marketing insights to Jack, and is seeking online resources or tools to improve their elevator pitch.\nUser attended a speed networking event organized by the local chamber of commerce, where they met Tom, a marketing expert who offered to provide feedback on the user's startup's marketing strategy, and also met several other professionals from various industries.\nUser wants to learn the latest trends in AI and machine learning and is looking for online courses or webinars similar to the Women in Tech event hosted by Dr. Maria Hernandez.",
+            "latency": 972.517
+        }
+    ]
+}

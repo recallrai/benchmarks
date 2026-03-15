@@ -1,0 +1,19 @@
+{
+    "index": 473,
+    "question_type": "multi-session",
+    "question": "How much did I spend on gifts for my sister?",
+    "question_date": "2023/05/27 (Sat) 18:44",
+    "ground_truth_answer": "$300",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions two past gifts for the sister: a $100 spa gift card and a $200 Tiffany's necklace, which total $300 matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions the user previously gave their sister a $100 gift card and a $200 necklace (totaling $300), which matches the gold answer."
+        }
+    ]
+}

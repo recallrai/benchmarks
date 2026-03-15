@@ -1,0 +1,22 @@
+{
+    "index": 150,
+    "question_type": "knowledge-update",
+    "question": "How many new postcards have I added to my collection since I started collecting again?",
+    "question_date": "2023/12/20 (Wed) 22:41",
+    "ground_truth_answer": "25",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_150_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is satisfied with having a list of their postcards, plans to add more details later, and thanks the assistant for help.\nUser has added 25 new postcards to their collection since restarting collecting, wants a simple yet effective display, plans to use a postcard rack, and seeks tips on categorizing and organizing the postcards for easy retrieval.\nUser has added 25 new postcards to their collection since restarting collecting, wants a simple yet effective display using a postcard rack, and seeks tips on categorizing and organizing the postcards by theme for easy retrieval, while also exploring online communities for postcard collectors.\nUser intends to categorize postcards by theme and wants recommendations for resources or online communities for postcard collectors to connect and learn more.\nUser is a vintage camera collector seeking space\u2011saving display solutions, considering wall\u2011mounted shelves combined with glass\u2011top display cases, and has recently acquired 8 new postcards from a local antique shop.\nUser plans to host a collector's gathering at their home to trade, share knowledge, and admire collections, and is looking for tips on organizing the event.\nUser is interested in learning film development and is seeking resources to deepen their knowledge.",
+            "latency": 664.869
+        },
+        {
+            "strategy": "graph",
+            "context": "User is satisfied with having a list of their postcards, plans to add more details later, and thanks the assistant for help.\nUser has added 25 new postcards to their collection since restarting collecting, wants a simple yet effective display, plans to use a postcard rack, and seeks tips on categorizing and organizing the postcards for easy retrieval.\nUser has added 25 new postcards to their collection since restarting collecting, wants a simple yet effective display using a postcard rack, and seeks tips on categorizing and organizing the postcards by theme for easy retrieval, while also exploring online communities for postcard collectors.\nUser intends to categorize postcards by theme and wants recommendations for resources or online communities for postcard collectors to connect and learn more.\nUser is a vintage camera collector seeking space\u2011saving display solutions, considering wall\u2011mounted shelves combined with glass\u2011top display cases, and has recently acquired 8 new postcards from a local antique shop.\nUser plans to host a collector's gathering at their home to trade, share knowledge, and admire collections, and is looking for tips on organizing the event.\nUser is interested in learning film development and is seeking resources to deepen their knowledge.",
+            "latency": 885.857
+        }
+    ]
+}

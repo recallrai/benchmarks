@@ -1,0 +1,22 @@
+{
+    "index": 191,
+    "question_type": "knowledge-update",
+    "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+    "question_date": "2023/05/24 (Wed) 22:13",
+    "ground_truth_answer": "Instant Pot",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_191_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to use their new Air Fryer to make crispy sweet potato fries as a side for upcoming meals, seeking tips for best results.\nUser is planning meals for the week and is looking for healthy lunch ideas that can be reheated, and has a new Instant Pot that User wants to use for soups and stews.\nUser is particularly interested in the Korean Chicken Stew (Jjimdak) recipe, wants detailed ingredient list and instructions, and seeks brand recommendations for Korean chili flakes (gochugaru) and gochujang.\nUser is planning a meal consisting of a Cuban Black Bean and Rice Bowl, crispy sweet potato fries, and a fruit salad dessert, and expresses excitement and thanks for the dessert suggestion.\nUser is concerned about the spiciness level of the Korean Chicken Stew when using the recommended 2 tablespoons of gochujang and 2 tablespoons of chili flakes, and wants an estimate of heat.\nUser wants guidance on whether to refrigerate or freeze leftovers from the Cuban Black Bean and Rice Bowl, seeking storage advice.\nUser will start preparing the ingredients for the Korean Chicken Stew, thanks for guidance on spiciness and chicken breast usage, and will adjust cooking time accordingly.\nUser plans to reduce the chili flakes to 1 tablespoon to start, is excited to try the recipe, and asks whether chicken breast can replace thighs or drumsticks.\nUser wants guidance on whether to refrigerate or freeze sweet potato fries, seeking storage advice.\nUser is looking for healthy weekly meal ideas that incorporate beans and lentils, inspired by a recent chili con carne they made.",
+            "latency": 762.278
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to use their new Air Fryer to make crispy sweet potato fries as a side for upcoming meals, seeking tips for best results.\nUser is planning meals for the week and is looking for healthy lunch ideas that can be reheated, and has a new Instant Pot that User wants to use for soups and stews.\nUser is particularly interested in the Korean Chicken Stew (Jjimdak) recipe, wants detailed ingredient list and instructions, and seeks brand recommendations for Korean chili flakes (gochugaru) and gochujang.\nUser is planning a meal consisting of a Cuban Black Bean and Rice Bowl, crispy sweet potato fries, and a fruit salad dessert, and expresses excitement and thanks for the dessert suggestion.\nUser is concerned about the spiciness level of the Korean Chicken Stew when using the recommended 2 tablespoons of gochujang and 2 tablespoons of chili flakes, and wants an estimate of heat.\nUser wants guidance on whether to refrigerate or freeze leftovers from the Cuban Black Bean and Rice Bowl, seeking storage advice.\nUser will start preparing the ingredients for the Korean Chicken Stew, thanks for guidance on spiciness and chicken breast usage, and will adjust cooking time accordingly.\nUser plans to reduce the chili flakes to 1 tablespoon to start, is excited to try the recipe, and asks whether chicken breast can replace thighs or drumsticks.\nUser wants guidance on whether to refrigerate or freeze sweet potato fries, seeking storage advice.\nUser is looking for healthy weekly meal ideas that incorporate beans and lentils, inspired by a recent chili con carne they made.",
+            "latency": 858.902
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 160,
+    "question_type": "knowledge-update",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "question_date": "2023/04/23 (Sun) 13:41",
+    "ground_truth_answer": "Yes",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions the user wanting to finish the book and seeking suggestions to get back into it, but contains no information confirming they actually finished reading 'The Nightingale'."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context shows the user was trying to finish 'The Nightingale' and seeking help to get back into it, but does not contain explicit confirmation that they actually finished reading the book."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": 280,
+    "question_type": "single-session-assistant",
+    "question": "I'm looking back at our previous conversation where you created two sad songs for me. Can you remind me what was the chord progression for the chorus in the second song?",
+    "question_date": "2023/05/29 (Mon) 23:17",
+    "ground_truth_answer": "C D E F G A B A G F E D C",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context confirms there were conversations about sad songs but does not contain the specific chord progression (C D E F G A B A G F E D C) needed to answer the question."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context only mentions that the user requested sad songs but does not contain the specific chord progression (C D E F G A B A G F E D C) needed to answer the question about the chorus of the second song."
+        }
+    ]
+}

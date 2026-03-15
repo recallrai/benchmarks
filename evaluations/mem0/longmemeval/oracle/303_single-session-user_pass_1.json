@@ -1,0 +1,19 @@
+{
+    "index": 303,
+    "question_type": "single-session-user",
+    "question": "What speed is my new internet plan?",
+    "question_date": "2023/05/30 (Tue) 05:53",
+    "ground_truth_answer": "500 Mbps",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions an internet upgrade to 500 Mbps on December 28, 2025, but the question was asked on May 30, 2023, which is over 2 years before the upgrade date mentioned in the context."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "While the context mentions 500 Mbps matching the gold answer, it describes an upgrade occurring around December 28, 2025, which is over 2 years in the future from the question date of May 30, 2023, so it cannot be referring to the same 'new internet plan' the question asks about."
+        }
+    ]
+}

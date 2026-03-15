@@ -1,0 +1,19 @@
+{
+    "index": 196,
+    "question_type": "knowledge-update",
+    "question": "How many autographed football have I added to my collection in the first three months of collection?",
+    "question_date": "2023/06/16 (Fri) 03:13",
+    "ground_truth_answer": "The information provided is not enough. You mentioned collecting autographed baseball but not football.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context only mentions autographed baseballs (not footballs), which aligns with the gold answer stating there is insufficient information about footballs and only mentions baseball collecting."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context contains information about autographed baseballs but no information about autographed footballs, which aligns with the gold answer stating that the user mentioned collecting baseballs but not footballs."
+        }
+    ]
+}

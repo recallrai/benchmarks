@@ -1,0 +1,22 @@
+{
+    "index": 24,
+    "question_type": "temporal-reasoning",
+    "question": "How long had I been a member of 'Book Lovers Unite' when I attended the meetup?",
+    "question_date": "2023/05/24 (Wed) 21:38",
+    "ground_truth_answer": "Two weeks",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_24_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has been a member of the Facebook group 'Book Lovers Unite' for three weeks, actively participates in discussions, and enjoys the recommendations shared by other members, reflecting a strong enthusiasm for community\u2011driven reading.\nUser has recently finished reading the latest bestseller by John Grisham, loved it, and attended a meetup organized by Book Lovers Unite last week where they discussed the book, enjoying debating plot twists and characters with fellow book lovers.\nUser has decided to use Gillian Flynn's 'Gone Girl' as the book for an upcoming book club discussion within 'Book Lovers Unite', and is requesting discussion questions to guide the conversation.\nUser is considering creating a post introducing themselves and mentioning that they just finished reading the latest John Grisham bestseller and attended a meetup last week, to connect with readers who might have similar interests.\nUser has chosen Michael Connelly's 'The Lincoln Lawyer' as a starting point for their reading list, plans to join Goodreads groups focused on Connelly and legal thrillers, and intends to begin reading the book soon while engaging in online discussions.\nUser is also considering inviting members to share personal experiences or thoughts about marriage and relationships, and is establishing a safe and respectful environment with clear guidelines to keep the discussion focused on the book.\nUser plans to join Goodreads groups dedicated to Michael Connelly and legal thrillers, and also check the Michael Connelly Fans Facebook group for discussions.\nUser is seeking popular thriller books to read and discuss, expressing a desire for titles that would be engaging for a book club setting.\nUser is looking for book recommendations, specifically interested in legal thrillers and wants to read Michael Connelly's The Lincoln Lawyer.\nUser wants to know whether the Mickey Haller series by Michael Connelly is standalone or requires reading in order.",
+            "latency": 802.325
+        },
+        {
+            "strategy": "graph",
+            "context": "User has been a member of the Facebook group 'Book Lovers Unite' for three weeks, actively participates in discussions, and enjoys the recommendations shared by other members, reflecting a strong enthusiasm for community\u2011driven reading.\nUser has recently finished reading the latest bestseller by John Grisham, loved it, and attended a meetup organized by Book Lovers Unite last week where they discussed the book, enjoying debating plot twists and characters with fellow book lovers.\nUser has decided to use Gillian Flynn's 'Gone Girl' as the book for an upcoming book club discussion within 'Book Lovers Unite', and is requesting discussion questions to guide the conversation.\nUser is considering creating a post introducing themselves and mentioning that they just finished reading the latest John Grisham bestseller and attended a meetup last week, to connect with readers who might have similar interests.\nUser has chosen Michael Connelly's 'The Lincoln Lawyer' as a starting point for their reading list, plans to join Goodreads groups focused on Connelly and legal thrillers, and intends to begin reading the book soon while engaging in online discussions.\nUser is also considering inviting members to share personal experiences or thoughts about marriage and relationships, and is establishing a safe and respectful environment with clear guidelines to keep the discussion focused on the book.\nUser plans to join Goodreads groups dedicated to Michael Connelly and legal thrillers, and also check the Michael Connelly Fans Facebook group for discussions.\nUser is seeking popular thriller books to read and discuss, expressing a desire for titles that would be engaging for a book club setting.\nUser is looking for book recommendations, specifically interested in legal thrillers and wants to read Michael Connelly's The Lincoln Lawyer.\nUser wants to know whether the Mickey Haller series by Michael Connelly is standalone or requires reading in order.",
+            "latency": 1096.781
+        }
+    ]
+}

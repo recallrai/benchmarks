@@ -1,0 +1,22 @@
+{
+    "index": 203,
+    "question_type": "single-session-preference",
+    "question": "Can you suggest a hotel for my upcoming trip to Miami?",
+    "question_date": "2023/05/29 (Mon) 16:40",
+    "ground_truth_answer": "The user would prefer suggestions of hotels in Miami that offer great views, possibly of the ocean or the city skyline, and have unique features such as a rooftop pool or a hot tub on the balcony. They may not prefer suggestions of basic or budget hotels without these features.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_203_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user has chosen The Edgewater Hotel, seeking a room with a hot tub on the balcony facing the Space Needle, a fireplace, and a package that includes complimentary room\u2011service breakfast (with dietary options), a $100 couples\u2019 massage credit, and other perks; the Space Needle Romance Package fulfills these wishes.",
+            "latency": 5537.394
+        },
+        {
+            "strategy": "graph",
+            "context": "The user has chosen The Edgewater Hotel, seeking a room with a hot tub on the balcony facing the Space Needle, a fireplace, and a package that includes complimentary room\u2011service breakfast (with dietary options), a $100 couples\u2019 massage credit, and other perks; the Space Needle Romance Package fulfills these wishes.",
+            "latency": 2476.856
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 213,
+    "question_type": "single-session-preference",
+    "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+    "question_date": "2023/05/21 (Sun) 23:36",
+    "ground_truth_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_213_single-session-preference"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User wants detailed information on the LG OLED C9 series, including its picture quality, viewing angles, HDR support, AI-powered image enhancement capabilities and expected improvements, as well as audio features such as Dolby Atmos support, the 2.2 channel speaker system, and other audio enhancements like AI audio processing, dialogue enhancement, and wireless audio streaming.\nUser is considering purchasing a new 4K smart TV from LG and wants information on the current lineup and any deals that might be available. The user also asks for guidance on what specific information they should inquire about regarding LG 4K smart TVs and deals, indicating a desire to understand the product range and promotional offers.\nUser is seeking advice on how to organize tech accessories for travel, specifically a portable power bank and wireless charging pad, and wants travel cases or pouches that can fit an Apple Watch, a portable power bank, and a wireless charging pad all together. The user also wants a comparison of pros and cons between the Bellroy Tech Kit and the Peak Design Tech Pouch, recommendations for cable organizers that fit within these cases, and suggestions for portable power banks that can fit in these cases.",
+            "latency": 4877.364
+        },
+        {
+            "strategy": "graph",
+            "context": "User wants detailed information on the LG OLED C9 series, including its picture quality, viewing angles, HDR support, AI-powered image enhancement capabilities and expected improvements, as well as audio features such as Dolby Atmos support, the 2.2 channel speaker system, and other audio enhancements like AI audio processing, dialogue enhancement, and wireless audio streaming.\nUser is considering purchasing a new 4K smart TV from LG and wants information on the current lineup and any deals that might be available. The user also asks for guidance on what specific information they should inquire about regarding LG 4K smart TVs and deals, indicating a desire to understand the product range and promotional offers.\nUser is seeking advice on how to organize tech accessories for travel, specifically a portable power bank and wireless charging pad, and wants travel cases or pouches that can fit an Apple Watch, a portable power bank, and a wireless charging pad all together. The user also wants a comparison of pros and cons between the Bellroy Tech Kit and the Peak Design Tech Pouch, recommendations for cable organizers that fit within these cases, and suggestions for portable power banks that can fit in these cases.",
+            "latency": 2445.977
+        }
+    ]
+}

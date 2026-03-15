@@ -1,0 +1,22 @@
+{
+    "index": 256,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercises like 'The Mountain Meditation' and 'The Body Scan Meditation'?",
+    "question_date": "2023/05/30 (Tue) 08:10",
+    "ground_truth_answer": "Mindful.org.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_256_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User found the suggested mindfulness techniques helpful and is now requesting guided imagery exercises or resources.\nUser is seeking effective mindfulness techniques tailored for individuals who cannot engage in strenuous physical activities.\nUser intends to incorporate mindfulness into daily routine, especially showering and dishwashing, and wants specific tips for being mindful during these tasks.",
+            "latency": 1777.739
+        },
+        {
+            "strategy": "graph",
+            "context": "User found the suggested mindfulness techniques helpful and is now requesting guided imagery exercises or resources.\nUser is seeking effective mindfulness techniques tailored for individuals who cannot engage in strenuous physical activities.\nUser intends to incorporate mindfulness into daily routine, especially showering and dishwashing, and wants specific tips for being mindful during these tasks.",
+            "latency": 2326.608
+        }
+    ]
+}

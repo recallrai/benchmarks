@@ -1,0 +1,19 @@
+{
+    "index": 127,
+    "question_type": "knowledge-update",
+    "question": "Is my mom using the same grocery list method as me?",
+    "question_date": "2023/05/08 (Mon) 03:18",
+    "ground_truth_answer": "Yes.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the mother 'has now started using the same app' as the user for grocery lists, which directly answers the question affirmatively."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states that the mother has now started using the same app as the user, which directly confirms they are using the same grocery list method."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 112,
+    "question_type": "multi-session",
+    "question": "How many music albums or EPs have I purchased or downloaded?",
+    "question_date": "2023/05/27 (Sat) 15:44",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_112_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is looking for new music recommendations, especially artists or albums similar to Billie Eilish's 'Happier Than Ever', which they have downloaded on Spotify.\nUser listens to music podcasts such as 'All Songs Considered' and 'Pitchfork', and wants recommendations for other music podcasts or YouTube channels.\nUser wants guidance on how to write helpful and informative music reviews for their blog.\nUser is interested in Lorde and Halsey, and wants Spotify playlists or radio stations for discovering new music.\nUser is interested in exploring music gear vendors at the festival, hoping to acquire a new guitar or accessories, and is curious about which specific music\u2011gear brands or local shops typically participate.\nUser wants to find vinyl records and music gear at the Telluride Bluegrass Festival, noting that they already have a signed Tame Impala vinyl from Red Rocks and are looking to expand their collection.\nUser wants to incorporate personal music experiences and stories, such as discovering The Whiskey Wanderers at a festival and listening to their EP 'Midnight Sky', into blog posts to make them more relatable and engaging.\nUser loves Billie Eilish's 'NDA' track and wants recommendations of songs or artists with a similar vibe or sound, featuring a catchy beat and unique vocal style.\nUser is considering starting a music blog (preferring a blog over a YouTube channel) to share music discoveries and thoughts with others.\nUser discovered indie and folk\u2011rock band The Whiskey Wanderers at a local festival, were drawn to the band\u2019s energetic stage presence and well\u2011crafted sound, purchased their EP 'Midnight Sky' from the merchandise booth, has been listening to it non\u2011stop, recommends the band to others, and notes their sound is similar to Mumford & Sons or The Lumineers.",
+            "latency": 489.764
+        },
+        {
+            "strategy": "graph",
+            "context": "User is looking for new music recommendations, especially artists or albums similar to Billie Eilish's 'Happier Than Ever', which they have downloaded on Spotify.\nUser listens to music podcasts such as 'All Songs Considered' and 'Pitchfork', and wants recommendations for other music podcasts or YouTube channels.\nUser wants guidance on how to write helpful and informative music reviews for their blog.\nUser is interested in Lorde and Halsey, and wants Spotify playlists or radio stations for discovering new music.\nUser is interested in exploring music gear vendors at the festival, hoping to acquire a new guitar or accessories, and is curious about which specific music\u2011gear brands or local shops typically participate.\nUser wants to find vinyl records and music gear at the Telluride Bluegrass Festival, noting that they already have a signed Tame Impala vinyl from Red Rocks and are looking to expand their collection.\nUser wants to incorporate personal music experiences and stories, such as discovering The Whiskey Wanderers at a festival and listening to their EP 'Midnight Sky', into blog posts to make them more relatable and engaging.\nUser loves Billie Eilish's 'NDA' track and wants recommendations of songs or artists with a similar vibe or sound, featuring a catchy beat and unique vocal style.\nUser is considering starting a music blog (preferring a blog over a YouTube channel) to share music discoveries and thoughts with others.\nUser discovered indie and folk\u2011rock band The Whiskey Wanderers at a local festival, were drawn to the band\u2019s energetic stage presence and well\u2011crafted sound, purchased their EP 'Midnight Sky' from the merchandise booth, has been listening to it non\u2011stop, recommends the band to others, and notes their sound is similar to Mumford & Sons or The Lumineers.",
+            "latency": 697.0
+        }
+    ]
+}

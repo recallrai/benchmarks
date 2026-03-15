@@ -1,0 +1,22 @@
+{
+    "index": 408,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I read the March 15th issue of The New Yorker?",
+    "question_date": "2023/04/01 (Sat) 16:41",
+    "ground_truth_answer": "12 days ago. 13 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_408_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is interested in learning more about climate change, having read a March 15th issue of The New Yorker that featured a fascinating article, and is seeking reputable sources for further study.\nUser wants to learn how news organizations, specifically The New York Times, are using artificial intelligence in their reporting and news gathering processes.\nUser read a Time Magazine article on artificial intelligence last week and wants more information on current advancements in AI.\nUser wants up-to-date information on the trade tensions between the United States and China, having read an article in The Economist last month and seeking current developments.\nUser enjoys podcasts such as The Daily from The New York Times and Pod Save America, which provide in-depth discussions on current events and politics, and is requesting recommendations for other podcasts that align with those interests.\nUser intends to cancel their People Magazine subscription, which they received as a gift from their sister last year, and is looking for alternative ways to stay informed about celebrity news and interviews.",
+            "latency": 911.963
+        },
+        {
+            "strategy": "graph",
+            "context": "User is interested in learning more about climate change, having read a March 15th issue of The New Yorker that featured a fascinating article, and is seeking reputable sources for further study.\nUser wants to learn how news organizations, specifically The New York Times, are using artificial intelligence in their reporting and news gathering processes.\nUser read a Time Magazine article on artificial intelligence last week and wants more information on current advancements in AI.\nUser wants up-to-date information on the trade tensions between the United States and China, having read an article in The Economist last month and seeking current developments.\nUser enjoys podcasts such as The Daily from The New York Times and Pod Save America, which provide in-depth discussions on current events and politics, and is requesting recommendations for other podcasts that align with those interests.\nUser intends to cancel their People Magazine subscription, which they received as a gift from their sister last year, and is looking for alternative ways to stay informed about celebrity news and interviews.",
+            "latency": 1623.308
+        }
+    ]
+}

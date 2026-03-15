@@ -1,0 +1,19 @@
+{
+    "index": 197,
+    "question_type": "knowledge-update",
+    "question": "How often do I play table tennis with my friends at the local park?",
+    "question_date": "2023/06/19 (Mon) 15:12",
+    "ground_truth_answer": "The information provided is not enough. You mentioned playing tennis but not table tennis.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The gold answer correctly states that there is no information about table tennis, only tennis, and the retrieved context confirms this by only mentioning tennis (not table tennis) activities with friends at the local park."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context mentions tennis (racket sport) but not table tennis, which aligns with the gold answer stating there is no information about table tennis frequency, only tennis."
+        }
+    ]
+}

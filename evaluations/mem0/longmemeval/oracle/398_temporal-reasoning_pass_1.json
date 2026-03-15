@@ -1,0 +1,19 @@
+{
+    "index": 398,
+    "question_type": "temporal-reasoning",
+    "question": "Which event did I participate in first, the charity gala or the charity bake sale?",
+    "question_date": "2023/05/01 (Mon) 02:55",
+    "ground_truth_answer": "I participated in the charity bake sale first.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions both the charity gala and charity bake sale but does not provide sufficient temporal information to determine which event occurred first, as the relative time references ('today' and 'tonight') are not anchored to specific dates that can be compared."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions both a charity bake sale 'today' and a charity gala 'tonight', but without clear temporal ordering or dates to establish which event occurred first relative to the question date, the context is insufficient to definitively answer which event the user participated in first."
+        }
+    ]
+}

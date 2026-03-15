@@ -1,0 +1,19 @@
+{
+    "index": 364,
+    "question_type": "temporal-reasoning",
+    "question": "How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+    "question_date": "2023/04/10 (Mon) 07:43",
+    "ground_truth_answer": "4 days.",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context confirms the user attended the Maundy Thursday service (which in 2023 was April 6th), and since the question date is April 10th, the 4-day difference matches the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context confirms the user attended the Maundy Thursday service 'today' (which refers to Maundy Thursday itself, April 6, 2023), and since the question was asked on April 10, 2023, this correctly corresponds to 4 days ago."
+        }
+    ]
+}

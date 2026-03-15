@@ -1,0 +1,22 @@
+{
+    "index": 83,
+    "question_type": "multi-session",
+    "question": "How many different types of food delivery services have I used recently?",
+    "question_date": "2023/05/29 (Mon) 14:52",
+    "ground_truth_answer": "3",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_83_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is seeking healthy weekday meal ideas to reduce reliance on food delivery services, having ordered Domino's Pizza three times last week, and discovered Fresh Fusion, a new delivery service offering pre-made meals.\nUser wants recommendations for apps to organize and keep track of recipes, consolidating cookbooks and online recipes.\nUser wants examples of meal planning and grocery lists for the week.\nUser enjoys the Quinoa and Black Bean Salad idea, has recently made a similar dish, and is planning to prepare a quinoa and black bean salad with grilled chicken for lunch this week, looking for flavor enhancements such as a cilantro lime dressing.\nUser wants recommendations for meal prep containers to start meal prepping for the week.\nUser wants recommendations for a cookbook stand to make cooking and following recipes easier.\nUser plans to try Chicken Fajita Pasta and wants healthy snack options to replace Uber Eats convenience.\nUser is looking for quick and easy weeknight recipes and has been relying on Uber Eats for weekends, indicating a desire to cook more at home.\nUser intends to prepare Breakfast Burritos as a convenient, healthy weekend meal-prep, wants guidance on the best reheating method for frozen burritos (microwave vs oven), and seeks unique fillings or toppings to boost flavor and nutrition.\nUser plans to grind flaxseeds using a coffee grinder, following advice that a coffee grinder is suitable for this task.",
+            "latency": 489.0
+        },
+        {
+            "strategy": "graph",
+            "context": "User is seeking healthy weekday meal ideas to reduce reliance on food delivery services, having ordered Domino's Pizza three times last week, and discovered Fresh Fusion, a new delivery service offering pre-made meals.\nUser wants recommendations for apps to organize and keep track of recipes, consolidating cookbooks and online recipes.\nUser wants examples of meal planning and grocery lists for the week.\nUser enjoys the Quinoa and Black Bean Salad idea, has recently made a similar dish, and is planning to prepare a quinoa and black bean salad with grilled chicken for lunch this week, looking for flavor enhancements such as a cilantro lime dressing.\nUser wants recommendations for meal prep containers to start meal prepping for the week.\nUser wants recommendations for a cookbook stand to make cooking and following recipes easier.\nUser plans to try Chicken Fajita Pasta and wants healthy snack options to replace Uber Eats convenience.\nUser is looking for quick and easy weeknight recipes and has been relying on Uber Eats for weekends, indicating a desire to cook more at home.\nUser intends to prepare Breakfast Burritos as a convenient, healthy weekend meal-prep, wants guidance on the best reheating method for frozen burritos (microwave vs oven), and seeks unique fillings or toppings to boost flavor and nutrition.\nUser plans to grind flaxseeds using a coffee grinder, following advice that a coffee grinder is suitable for this task.",
+            "latency": 728.105
+        }
+    ]
+}

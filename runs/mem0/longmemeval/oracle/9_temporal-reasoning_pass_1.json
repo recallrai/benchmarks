@@ -1,0 +1,22 @@
+{
+    "index": 9,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the 'Rack Fest' did I participate in the 'Turbocharged Tuesdays' event?",
+    "question_date": "2023/06/28 (Wed) 20:07",
+    "ground_truth_answer": "4 days.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_9_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User attended Rack Fest in a nearby city on June 18, 2026, and found the event amazing, reflecting their enthusiasm for drag racing events.\nUser received a free NitroFuel premium fuel additive at the 'Turbocharged Tuesdays' event and plans to use it for the next drag racing event.\nUser participated in a local racing event called 'Turbocharged Tuesdays' on 2026-06-14, achieving a personal best quarter\u2011mile time of 12.8 seconds.\nUser is planning to attend a drag racing event called 'Racing Nationals' in August 2026, has booked a hotel room and reserved a spot, and is seeking advice on preparation and competition expectations.\nUser is seeking advice to improve aerodynamics for the 2018 Ford Mustang GT, considering a rear spoiler or front splitter, and has met a mechanic at the 'Turbocharged Tuesdays' event who gave valuable performance tips.\nUser plans to take their 2018 Ford Mustang GT to a local track day event soon and wants recommendations for suitable tracks in the area that accommodate that vehicle.\nUser wants to learn the differences between all\u2011season, high\u2011performance, and track\u2011focused tires for the 2018 Ford Mustang GT.\nUser is considering new lightweight wheels and high\u2011performance tires for the 2018 Ford Mustang GT, unsure of the best fit.\nUser is a 2018 Ford Mustang GT owner who is actively upgrading the car for drag racing, and is currently seeking local shops in the nearby city that specialize in Mustang performance upgrades such as exhaust and suspension components.",
+            "latency": 818.883
+        },
+        {
+            "strategy": "graph",
+            "context": "User attended Rack Fest in a nearby city on June 18, 2026, and found the event amazing, reflecting their enthusiasm for drag racing events.\nUser received a free NitroFuel premium fuel additive at the 'Turbocharged Tuesdays' event and plans to use it for the next drag racing event.\nUser participated in a local racing event called 'Turbocharged Tuesdays' on 2026-06-14, achieving a personal best quarter\u2011mile time of 12.8 seconds.\nUser is planning to attend a drag racing event called 'Racing Nationals' in August 2026, has booked a hotel room and reserved a spot, and is seeking advice on preparation and competition expectations.\nUser is seeking advice to improve aerodynamics for the 2018 Ford Mustang GT, considering a rear spoiler or front splitter, and has met a mechanic at the 'Turbocharged Tuesdays' event who gave valuable performance tips.\nUser plans to take their 2018 Ford Mustang GT to a local track day event soon and wants recommendations for suitable tracks in the area that accommodate that vehicle.\nUser wants to learn the differences between all\u2011season, high\u2011performance, and track\u2011focused tires for the 2018 Ford Mustang GT.\nUser is considering new lightweight wheels and high\u2011performance tires for the 2018 Ford Mustang GT, unsure of the best fit.\nUser is a 2018 Ford Mustang GT owner who is actively upgrading the car for drag racing, and is currently seeking local shops in the nearby city that specialize in Mustang performance upgrades such as exhaust and suspension components.",
+            "latency": 1364.218
+        }
+    ]
+}

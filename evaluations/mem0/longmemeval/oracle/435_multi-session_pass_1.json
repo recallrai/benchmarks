@@ -1,0 +1,19 @@
+{
+    "index": 435,
+    "question_type": "multi-session",
+    "question": "How much cashback did I earn at SaveMart last Thursday?",
+    "question_date": "2023/05/29 (Mon) 13:21",
+    "ground_truth_answer": "$0.75",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context states the user spent $75 at SaveMart last Thursday and has a SaveMart membership earning 1% cashback, which calculates to $0.75 cashback ($75 \u00d7 1% = $0.75), matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context states the user spent $75 at SaveMart last Thursday and has a SaveMart membership earning 1% cashback on all purchases, which would calculate to $0.75 cashback matching the gold answer."
+        }
+    ]
+}

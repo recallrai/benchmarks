@@ -1,0 +1,22 @@
+{
+    "index": 497,
+    "question_type": "multi-session",
+    "question": "At which university did I present a poster for my undergrad course research project?",
+    "question_date": "2023/05/28 (Sun) 22:39",
+    "ground_truth_answer": "The information provided is not enough. You did not mention presenting a poster for your undergrad course research project.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_497_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User presented a poster on their thesis research on education technology at their first research conference during the summer, indicating a longstanding interest in the field.\nUser's research focused on the impact of artificial intelligence on education, specifically investigating how AI can support student learning outcomes.",
+            "latency": 593.348
+        },
+        {
+            "strategy": "graph",
+            "context": "User presented a poster on their thesis research on education technology at their first research conference during the summer, indicating a longstanding interest in the field.\nUser's research focused on the impact of artificial intelligence on education, specifically investigating how AI can support student learning outcomes.",
+            "latency": 794.745
+        }
+    ]
+}

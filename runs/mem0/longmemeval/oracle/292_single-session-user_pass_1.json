@@ -1,0 +1,22 @@
+{
+    "index": 292,
+    "question_type": "single-session-user",
+    "question": "Where do I take yoga classes?",
+    "question_date": "2023/05/26 (Fri) 15:21",
+    "ground_truth_answer": "Serenity Yoga",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_292_single-session-user"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a self-care day that includes a morning home yoga practice followed by a brunch with a friend, and is looking for healthy brunch spots near Serenity Yoga.\nUser has been using the Down Dog app for home yoga practice, finding it especially helpful on days when they cannot attend Serenity Yoga.\nUser intends to search online for healthy brunch spots near their location and is also interested in yoga apps to support their home practice.\nUser's yoga practice has positively impacted relationships, notably with best friend Sarah, who they convinced to practice together; they have established a Sunday morning yoga and brunch routine that strengthens their bond, and they hope yoga will help them become more patient, present, and calm in stressful interactions, fostering compassion.\nUser prefers vinyasa flow classes on Down Dog, enjoying the challenge, internal heat, and the strength and flexibility benefits, and reports increased flexibility, breath awareness, body alignment, greater energy and focus during the day.",
+            "latency": 1058.538
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a self-care day that includes a morning home yoga practice followed by a brunch with a friend, and is looking for healthy brunch spots near Serenity Yoga.\nUser has been using the Down Dog app for home yoga practice, finding it especially helpful on days when they cannot attend Serenity Yoga.\nUser intends to search online for healthy brunch spots near their location and is also interested in yoga apps to support their home practice.\nUser's yoga practice has positively impacted relationships, notably with best friend Sarah, who they convinced to practice together; they have established a Sunday morning yoga and brunch routine that strengthens their bond, and they hope yoga will help them become more patient, present, and calm in stressful interactions, fostering compassion.\nUser prefers vinyasa flow classes on Down Dog, enjoying the challenge, internal heat, and the strength and flexibility benefits, and reports increased flexibility, breath awareness, body alignment, greater energy and focus during the day.",
+            "latency": 2005.513
+        }
+    ]
+}

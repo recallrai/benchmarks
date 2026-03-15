@@ -1,0 +1,22 @@
+{
+    "index": 279,
+    "question_type": "single-session-assistant",
+    "question": "I wanted to follow up on our previous conversation about fracking in the Marcellus Shale region. You mentioned that some states require fracking companies to monitor groundwater quality at nearby wells before drilling and for a certain period after drilling is complete. Can you remind me which state you mentioned as an example that has this requirement?",
+    "question_date": "2023/05/21 (Sun) 12:42",
+    "ground_truth_answer": "Pennsylvania",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_279_single-session-assistant"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is asking how fracking has affected groundwater quality in the Marcellus Shale region and what monitoring measures are being developed.\nThe user does not trust fracking companies to properly monitor their own operations and asks who holds them accountable for any groundwater contamination they cause.\nThe user believes that regulations and monitoring measures alone are insufficient and advocates for a complete ban on fracking to protect water sources, arguing that the long\u2011term consequences of fracking outweigh the short\u2011term benefits of natural gas extraction.",
+            "latency": 1613.36
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is asking how fracking has affected groundwater quality in the Marcellus Shale region and what monitoring measures are being developed.\nThe user does not trust fracking companies to properly monitor their own operations and asks who holds them accountable for any groundwater contamination they cause.\nThe user believes that regulations and monitoring measures alone are insufficient and advocates for a complete ban on fracking to protect water sources, arguing that the long\u2011term consequences of fracking outweigh the short\u2011term benefits of natural gas extraction.",
+            "latency": 2307.787
+        }
+    ]
+}

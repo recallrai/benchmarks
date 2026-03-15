@@ -1,0 +1,19 @@
+{
+    "index": 319,
+    "question_type": "single-session-user",
+    "question": "How long did it take to move to the new apartment?",
+    "question_date": "2023/05/29 (Mon) 07:44",
+    "ground_truth_answer": "5 hours",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User and friends spent around 5 hours moving all belongings into the new apartment,' which directly matches the gold answer of 5 hours."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states 'User and friends spent around 5 hours moving all belongings into the new apartment,' which directly matches the gold answer of 5 hours."
+        }
+    ]
+}

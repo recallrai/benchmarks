@@ -1,0 +1,22 @@
+{
+    "index": 4,
+    "question_type": "temporal-reasoning",
+    "question": "How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Communication in the Workplace'?",
+    "question_date": "2023/01/13 (Fri) 19:39",
+    "ground_truth_answer": "7 days. 8 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_4_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has attended a workshop titled 'Effective Communication in the Workplace' on January\u202f10, which improved their active listening and conflict\u2011resolution skills, boosting confidence in presenting and engaging teams.\nThe user wants to understand why self-awareness is crucial in effective communication and how to continue developing this skill, reflecting on the workshop they attended.\nUser has made a personal note to practice active listening and conflict\u2011resolution skills during an upcoming team meeting on January\u202f17, and wants suggestions on how to prioritize agenda items, allocate time for each discussion topic, and seek resources and advice on those topics to keep the meeting focused and efficient.\nUser is concerned about taking notes during the meeting and wants advice on effective note\u2011taking techniques and how to organize notes afterward, including examples of templates or formats to structure meeting minutes.\nUser likes the parking\u2011lot concept for non\u2011essential topics and wants guidance on handling situations where a team member raises an off\u2011agenda topic that still seems important, balancing agenda adherence with responsiveness.\nThe user wants tips on how to effectively convey complex information in a simple, clear, and concise way, focusing on making the message accessible to their audience.\nUser wants examples of digital note\u2011taking templates\u2014such as Microsoft OneNote, Evernote, or Google Docs\u2014to help them organize meeting notes efficiently.\nThe user is looking for tools or software to create visually appealing slides and diagrams for their presentation, and also wants recommendations for interactive elements such as polls or Q&A sessions.",
+            "latency": 888.51
+        },
+        {
+            "strategy": "graph",
+            "context": "User has attended a workshop titled 'Effective Communication in the Workplace' on January\u202f10, which improved their active listening and conflict\u2011resolution skills, boosting confidence in presenting and engaging teams.\nThe user wants to understand why self-awareness is crucial in effective communication and how to continue developing this skill, reflecting on the workshop they attended.\nUser has made a personal note to practice active listening and conflict\u2011resolution skills during an upcoming team meeting on January\u202f17, and wants suggestions on how to prioritize agenda items, allocate time for each discussion topic, and seek resources and advice on those topics to keep the meeting focused and efficient.\nUser is concerned about taking notes during the meeting and wants advice on effective note\u2011taking techniques and how to organize notes afterward, including examples of templates or formats to structure meeting minutes.\nUser likes the parking\u2011lot concept for non\u2011essential topics and wants guidance on handling situations where a team member raises an off\u2011agenda topic that still seems important, balancing agenda adherence with responsiveness.\nThe user wants tips on how to effectively convey complex information in a simple, clear, and concise way, focusing on making the message accessible to their audience.\nUser wants examples of digital note\u2011taking templates\u2014such as Microsoft OneNote, Evernote, or Google Docs\u2014to help them organize meeting notes efficiently.\nThe user is looking for tools or software to create visually appealing slides and diagrams for their presentation, and also wants recommendations for interactive elements such as polls or Q&A sessions.",
+            "latency": 1469.997
+        }
+    ]
+}

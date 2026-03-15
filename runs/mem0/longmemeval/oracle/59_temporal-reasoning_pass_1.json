@@ -1,0 +1,22 @@
+{
+    "index": 59,
+    "question_type": "temporal-reasoning",
+    "question": "Who became a parent first, Tom or Alex?",
+    "question_date": "2023/03/17 (Fri) 16:37",
+    "ground_truth_answer": "The information provided is not enough. You mentioned Alex becoming a parent in January, but you didn't mention anything about Tom.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_59_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User shares that their cousin Alex, who adopted a baby girl from China in January, had a positive experience with an agency that prioritized supporting birth mothers, receiving updates about the birth mother's background, which made the adoption process more meaningful for Alex.\nUser is considering adopting a baby boy from foster care and is seeking information on the adoption process and requirements in their state. They note that their cousin Alex adopted a baby girl from China in January, which has shown them how life-changing adoption can be.\nUser values agencies that prioritize support for birth mothers, especially since they are considering adopting a baby boy from foster care, and wants to understand how agencies support birth mothers and how this focus might influence their adoption journey.\nUser is a resident of California and wants detailed information about the home study process for foster care adoption in California, specifically how long it typically takes (3-6 months) and the typical cost range ($1,500 to $3,000).",
+            "latency": 888.276
+        },
+        {
+            "strategy": "graph",
+            "context": "User shares that their cousin Alex, who adopted a baby girl from China in January, had a positive experience with an agency that prioritized supporting birth mothers, receiving updates about the birth mother's background, which made the adoption process more meaningful for Alex.\nUser is considering adopting a baby boy from foster care and is seeking information on the adoption process and requirements in their state. They note that their cousin Alex adopted a baby girl from China in January, which has shown them how life-changing adoption can be.\nUser values agencies that prioritize support for birth mothers, especially since they are considering adopting a baby boy from foster care, and wants to understand how agencies support birth mothers and how this focus might influence their adoption journey.\nUser is a resident of California and wants detailed information about the home study process for foster care adoption in California, specifically how long it typically takes (3-6 months) and the typical cost range ($1,500 to $3,000).",
+            "latency": 1505.458
+        }
+    ]
+}

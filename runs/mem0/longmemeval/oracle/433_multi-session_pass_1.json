@@ -1,0 +1,22 @@
+{
+    "index": 433,
+    "question_type": "multi-session",
+    "question": "How many antique items did I inherit or acquire from my family members?",
+    "question_date": "2023/05/30 (Tue) 17:24",
+    "ground_truth_answer": "5",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_433_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User plans to declutter apartment and sell an antique tea set received from cousin Rachel and a vintage typewriter that belonged to dad, aiming to monetize sentimental items while preserving family history.\nUser inherited a grandmother's vintage diamond necklace, an antique music box from great-aunt, and depression-era glassware from mom, and is seeking insurance companies that specialize in insuring such valuable heirlooms.\nUser is preparing to approach local antique dealers specializing in tea sets and typewriters, will emphasize the items' provenance (tea set from cousin Rachel, typewriter from dad), share relevant stories and documents, and will briefly note that the items were found during a decluttering effort but will keep that secondary.\nUser intends to research online marketplaces such as eBay and Etsy to estimate market value of the antique tea set and vintage typewriter, seeking guidance on specific keywords and categories to use in searches.\nUser plans to first appraise and insure the grandmother's vintage diamond necklace, then consider appraising and insuring the antique music box and depression-era glassware, and is seeking detailed guidance on the appraisal process, required documentation, and factors that influence the appraisal value.\nUser intends to search online for certified appraisers (e.g., NAJA or ASA), ask friends and family for referrals, and is evaluating whether to obtain multiple appraisals per item; ultimately decides to start with one appraisal report for each item and may pursue additional appraisals later if needed.\nUser expresses gratitude for the advice and assistance received.",
+            "latency": 576.962
+        },
+        {
+            "strategy": "graph",
+            "context": "User plans to declutter apartment and sell an antique tea set received from cousin Rachel and a vintage typewriter that belonged to dad, aiming to monetize sentimental items while preserving family history.\nUser inherited a grandmother's vintage diamond necklace, an antique music box from great-aunt, and depression-era glassware from mom, and is seeking insurance companies that specialize in insuring such valuable heirlooms.\nUser is preparing to approach local antique dealers specializing in tea sets and typewriters, will emphasize the items' provenance (tea set from cousin Rachel, typewriter from dad), share relevant stories and documents, and will briefly note that the items were found during a decluttering effort but will keep that secondary.\nUser intends to research online marketplaces such as eBay and Etsy to estimate market value of the antique tea set and vintage typewriter, seeking guidance on specific keywords and categories to use in searches.\nUser plans to first appraise and insure the grandmother's vintage diamond necklace, then consider appraising and insuring the antique music box and depression-era glassware, and is seeking detailed guidance on the appraisal process, required documentation, and factors that influence the appraisal value.\nUser intends to search online for certified appraisers (e.g., NAJA or ASA), ask friends and family for referrals, and is evaluating whether to obtain multiple appraisals per item; ultimately decides to start with one appraisal report for each item and may pursue additional appraisals later if needed.\nUser expresses gratitude for the advice and assistance received.",
+            "latency": 792.838
+        }
+    ]
+}

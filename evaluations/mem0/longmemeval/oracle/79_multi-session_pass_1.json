@@ -1,0 +1,19 @@
+{
+    "index": 79,
+    "question_type": "multi-session",
+    "question": "How many times did I bake something in the past two weeks?",
+    "question_date": "2023/05/30 (Tue) 20:07",
+    "ground_truth_answer": "4",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions 3 baking events in the past two weeks from May 30, 2023: cookies (last Thursday, May 25), whole wheat baguette (last Saturday, May 27), and chocolate cake (last weekend, May 27-28), but the gold answer states 4 times, which is not supported by the retrieved context."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions 3 baking events in the past two weeks (cookies on last Thursday ~May 25, whole wheat baguette on last Saturday ~May 27, and chocolate cake last weekend ~May 27-28), but the gold answer states 4 times, which cannot be verified from the provided context."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "index": 158,
+    "question_type": "knowledge-update",
+    "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+    "question_date": "2023/03/16 (Thu) 07:05",
+    "ground_truth_answer": "20",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_158_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has 20 dozen fresh eggs in the fridge and wants a simple egg salad recipe to use them up, and wants tips on storing eggs properly to keep them fresh longer\nUser plans to make a spinach and feta quiche for dinner using fresh eggs and goat milk\nUser is exploring breakfast recipes that combine fresh eggs and goat milk, seeking ideas for dishes that incorporate both ingredients\nUser is enthusiastic about cooking, eager to experiment with recipes, maximize use of eggs and goat milk, minimize waste, and learn new techniques\nUser has a large inventory of goat milk from two goats named Billy and Nibbles, and is looking for beginner-friendly cheese recipes to use it up\nUser plans to make ricotta cheese from goat milk and wants tips on how to use the freshly made ricotta\nUser wants advice on dealing with pests such as mites and flies in the chicken coop\nUser wants advice on building a predator-proof fence around the chicken coop to protect chickens from raccoons and foxes, and plans to start building the fence this weekend\nUser is considering getting bees for pollination on the farm and wants advice on starting beekeeping",
+            "latency": 787.473
+        },
+        {
+            "strategy": "graph",
+            "context": "User has 20 dozen fresh eggs in the fridge and wants a simple egg salad recipe to use them up, and wants tips on storing eggs properly to keep them fresh longer\nUser plans to make a spinach and feta quiche for dinner using fresh eggs and goat milk\nUser is exploring breakfast recipes that combine fresh eggs and goat milk, seeking ideas for dishes that incorporate both ingredients\nUser is enthusiastic about cooking, eager to experiment with recipes, maximize use of eggs and goat milk, minimize waste, and learn new techniques\nUser has a large inventory of goat milk from two goats named Billy and Nibbles, and is looking for beginner-friendly cheese recipes to use it up\nUser plans to make ricotta cheese from goat milk and wants tips on how to use the freshly made ricotta\nUser wants advice on dealing with pests such as mites and flies in the chicken coop\nUser wants advice on building a predator-proof fence around the chicken coop to protect chickens from raccoons and foxes, and plans to start building the fence this weekend\nUser is considering getting bees for pollination on the farm and wants advice on starting beekeeping",
+            "latency": 903.507
+        }
+    ]
+}

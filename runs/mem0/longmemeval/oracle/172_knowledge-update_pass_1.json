@@ -1,0 +1,22 @@
+{
+    "index": 172,
+    "question_type": "knowledge-update",
+    "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+    "question_date": "2024/01/12 (Fri) 07:27",
+    "ground_truth_answer": "15",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_172_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is searching for upcoming sports memorabilia auctions in their city within the next few weeks, and has recently expanded their autographed baseball collection by adding 20 new baseballs over the past few months, reflecting enthusiasm for collecting and a need to manage space.\nThe user wants to expand their vinyl record collection to include international pressings, specifically rare records from Japan.\nThe user is interested in Mike Trout's current batting average and home run count for the season.\nThe user is planning to attend a stamp show next quarter and wants information on upcoming stamp shows or exhibitions in the next few months.\nUser plans to sell some vinyl records to free space in their collection, and is seeking online marketplaces or local record stores that can help them assess the value of their records and facilitate sales.\nUser recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error and is looking for resources to learn more about error coins, and wants information on upcoming coin shows in their area.\nThe user is planning to sell vintage cameras, including a Leica, on Fred Miranda and Rangefinder Forum, and is considering whether to include the original lens and accessories to increase sale value.\nUser is considering purchasing a new lens for their vintage Leica camera and is looking for resources to learn about camera lenses and photography in general.",
+            "latency": 726.296
+        },
+        {
+            "strategy": "graph",
+            "context": "User is searching for upcoming sports memorabilia auctions in their city within the next few weeks, and has recently expanded their autographed baseball collection by adding 20 new baseballs over the past few months, reflecting enthusiasm for collecting and a need to manage space.\nThe user wants to expand their vinyl record collection to include international pressings, specifically rare records from Japan.\nThe user is interested in Mike Trout's current batting average and home run count for the season.\nThe user is planning to attend a stamp show next quarter and wants information on upcoming stamp shows or exhibitions in the next few months.\nUser plans to sell some vinyl records to free space in their collection, and is seeking online marketplaces or local record stores that can help them assess the value of their records and facilitate sales.\nUser recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error and is looking for resources to learn more about error coins, and wants information on upcoming coin shows in their area.\nThe user is planning to sell vintage cameras, including a Leica, on Fred Miranda and Rangefinder Forum, and is considering whether to include the original lens and accessories to increase sale value.\nUser is considering purchasing a new lens for their vintage Leica camera and is looking for resources to learn about camera lenses and photography in general.",
+            "latency": 810.59
+        }
+    ]
+}

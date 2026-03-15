@@ -1,0 +1,22 @@
+{
+    "index": 417,
+    "question_type": "temporal-reasoning",
+    "question": "Which bike did I fixed or serviced the past weekend?",
+    "question_date": "2023/03/21 (Tue) 05:24",
+    "ground_truth_answer": "road bike",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_417_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User recently fixed a flat on the mountain bike, replaced the inner tube, cleaned the chain, and has been maintaining the chain with regular cleaning and lubrication to keep the bike in top condition.\nUser wants tips on keeping the mountain bike's chain clean and well-lubricated after having fixed a flat tire a few weeks ago.\nUser is planning a 60\u2011mile weekend road bike ride and is scheduling a maintenance check at a local bike shop before the ride, as the brakes feel spongy and they want to avoid accidents.\nUser upgraded the road bike's pedals to Shimano Ultegra clipless pedals today, is confident in installing them themselves but remains open to having a local shop assist if needed.\nUser wants the mechanic to inspect the quick releases and bolts on the bike to confirm they are tightened properly, citing safety concerns about loose quick releases.\nUser wants the mechanic to check the tire pressure and adjust it as needed to ensure proper inflation for the new clipless pedals.\nUser wants the mechanic to inspect the brake pads for wear and contamination and to provide an estimate for replacing them if necessary.\nUser wants the mechanic to inspect the chain and gears for wear, noting skipping and hesitation when shifting, and to give an estimate for replacing the chain if it is worn.",
+            "latency": 492.202
+        },
+        {
+            "strategy": "graph",
+            "context": "User recently fixed a flat on the mountain bike, replaced the inner tube, cleaned the chain, and has been maintaining the chain with regular cleaning and lubrication to keep the bike in top condition.\nUser wants tips on keeping the mountain bike's chain clean and well-lubricated after having fixed a flat tire a few weeks ago.\nUser is planning a 60\u2011mile weekend road bike ride and is scheduling a maintenance check at a local bike shop before the ride, as the brakes feel spongy and they want to avoid accidents.\nUser upgraded the road bike's pedals to Shimano Ultegra clipless pedals today, is confident in installing them themselves but remains open to having a local shop assist if needed.\nUser wants the mechanic to inspect the quick releases and bolts on the bike to confirm they are tightened properly, citing safety concerns about loose quick releases.\nUser wants the mechanic to check the tire pressure and adjust it as needed to ensure proper inflation for the new clipless pedals.\nUser wants the mechanic to inspect the brake pads for wear and contamination and to provide an estimate for replacing them if necessary.\nUser wants the mechanic to inspect the chain and gears for wear, noting skipping and hesitation when shifting, and to give an estimate for replacing the chain if it is worn.",
+            "latency": 729.285
+        }
+    ]
+}

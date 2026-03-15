@@ -1,0 +1,22 @@
+{
+    "index": 52,
+    "question_type": "temporal-reasoning",
+    "question": "Who became a parent first, Rachel or Alex?",
+    "question_date": "2023/03/17 (Fri) 01:23",
+    "ground_truth_answer": "Alex",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_52_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User has a sister\u2011in\u2011law named Rachel who is caring for twins Jackson and Julia, who were born on February 12, 2025, and are approaching their first birthday. The user wants a neutral theme for their party, considering options like Woodland Wonderland or Little Explorer Party, and is looking for games, activities, and party favors that fit those themes.\nUser's cousin Alex adopted a baby girl from China in January and had a positive experience with an agency that prioritized supporting birth mothers, learning about the birth mother's background and receiving updates, which made the adoption process more meaningful for Alex.\nUser is planning a birthday party for niece Olivia, who is turning 6 soon, and is seeking unique, non\u2011traditional theme ideas and decoration suggestions for a kindergarten\u2011aged girl. The user ultimately chose an Art Studio Party theme and wants detailed ideas for organizing art stations, specific art projects for each station, and creative ways to display the children\u2019s artwork afterward.\nUser is looking ahead to the next steps in the party planning process, asking whether to send out invitations, plan games and activities, or prepare party favors.\nUser is considering adopting a baby boy from foster care in California and is seeking detailed information on the adoption process and requirements specific to that state.\nUser values agencies that support birth mothers and wants to understand how such support might impact their own adoption journey.",
+            "latency": 922.608
+        },
+        {
+            "strategy": "graph",
+            "context": "User has a sister\u2011in\u2011law named Rachel who is caring for twins Jackson and Julia, who were born on February 12, 2025, and are approaching their first birthday. The user wants a neutral theme for their party, considering options like Woodland Wonderland or Little Explorer Party, and is looking for games, activities, and party favors that fit those themes.\nUser's cousin Alex adopted a baby girl from China in January and had a positive experience with an agency that prioritized supporting birth mothers, learning about the birth mother's background and receiving updates, which made the adoption process more meaningful for Alex.\nUser is planning a birthday party for niece Olivia, who is turning 6 soon, and is seeking unique, non\u2011traditional theme ideas and decoration suggestions for a kindergarten\u2011aged girl. The user ultimately chose an Art Studio Party theme and wants detailed ideas for organizing art stations, specific art projects for each station, and creative ways to display the children\u2019s artwork afterward.\nUser is looking ahead to the next steps in the party planning process, asking whether to send out invitations, plan games and activities, or prepare party favors.\nUser is considering adopting a baby boy from foster care in California and is seeking detailed information on the adoption process and requirements specific to that state.\nUser values agencies that support birth mothers and wants to understand how such support might impact their own adoption journey.",
+            "latency": 1589.594
+        }
+    ]
+}

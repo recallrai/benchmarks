@@ -1,0 +1,22 @@
+{
+    "index": 447,
+    "question_type": "multi-session",
+    "question": "How much did I save on the designer handbag at TK Maxx?",
+    "question_date": "2023/05/28 (Sun) 08:25",
+    "ground_truth_answer": "$300",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_447_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "The user is considering splurging on a high\u2011end formal dress from luxury brands and is interested in finding discounted designer dresses at TK Maxx or similar outlets, recalling past success finding a designer handbag at TK Maxx for $200, which reinforces their confidence in the store's ability to offer good deals.\nUser recently purchased a designer handbag originally priced at $500, now has it at a fantastic deal; the bag is a black leather medium-sized tote from a brand similar to H&M but upscale, and the user is seeking fashion advice on how to style outfits to complement it.\nUser wants to understand Everlane's transparent pricing model and how it works.\nThe user is planning to buy new clothes for an upcoming event, specifically a formal dress for a wedding or gala, and is exploring online stores with a wide range of dresses.\nUser is planning to create a capsule wardrobe and is considering investing in high-quality, sustainable pieces from Everlane, specifically the white shirt and denim.",
+            "latency": 637.23
+        },
+        {
+            "strategy": "graph",
+            "context": "The user is considering splurging on a high\u2011end formal dress from luxury brands and is interested in finding discounted designer dresses at TK Maxx or similar outlets, recalling past success finding a designer handbag at TK Maxx for $200, which reinforces their confidence in the store's ability to offer good deals.\nUser recently purchased a designer handbag originally priced at $500, now has it at a fantastic deal; the bag is a black leather medium-sized tote from a brand similar to H&M but upscale, and the user is seeking fashion advice on how to style outfits to complement it.\nUser wants to understand Everlane's transparent pricing model and how it works.\nThe user is planning to buy new clothes for an upcoming event, specifically a formal dress for a wedding or gala, and is exploring online stores with a wide range of dresses.\nUser is planning to create a capsule wardrobe and is considering investing in high-quality, sustainable pieces from Everlane, specifically the white shirt and denim.",
+            "latency": 796.636
+        }
+    ]
+}

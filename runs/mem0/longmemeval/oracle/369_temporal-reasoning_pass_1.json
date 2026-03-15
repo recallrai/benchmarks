@@ -1,0 +1,22 @@
+{
+    "index": 369,
+    "question_type": "temporal-reasoning",
+    "question": "How many days did I spend on my solo camping trip to Yosemite National Park?",
+    "question_date": "2023/06/01 (Thu) 12:42",
+    "ground_truth_answer": "2 days. 3 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_369_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a trip to the Eastern Sierra in July or August, seeking scenic hiking trails, and has just started a solo camping trip to Yosemite National Park today, expressing excitement to explore the park.\nUser plans to drive from Yosemite to Lone Pine later, intends to take it easy and acclimate to higher elevation before attempting the Mount Whitney hike, and wants tips on what to expect during the drive and scenic stops or attractions along the way.\nUser is interested in the Mount Whitney Trail, acknowledges its challenging nature, wants details on elevation gain and preparation, has experience with high\u2011elevation hikes such as Vernal Falls in Yosemite, feels somewhat prepared, plans to acclimate and pack gear, is considering staying at Whitney Portal Campground the night before the hike, wants to know whether to reserve a campsite in advance or just show up, plans to reserve a campsite in advance, is excited about the hike but nervous about altitude sickness, and wonders if camping at Yosemite National Park for a few days will provide some acclimation to high elevation.\nUser plans to pick up gear at Mammoth Lakes outfitters before their upcoming hike and is seeking recommendations on what to get.",
+            "latency": 703.645
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a trip to the Eastern Sierra in July or August, seeking scenic hiking trails, and has just started a solo camping trip to Yosemite National Park today, expressing excitement to explore the park.\nUser plans to drive from Yosemite to Lone Pine later, intends to take it easy and acclimate to higher elevation before attempting the Mount Whitney hike, and wants tips on what to expect during the drive and scenic stops or attractions along the way.\nUser is interested in the Mount Whitney Trail, acknowledges its challenging nature, wants details on elevation gain and preparation, has experience with high\u2011elevation hikes such as Vernal Falls in Yosemite, feels somewhat prepared, plans to acclimate and pack gear, is considering staying at Whitney Portal Campground the night before the hike, wants to know whether to reserve a campsite in advance or just show up, plans to reserve a campsite in advance, is excited about the hike but nervous about altitude sickness, and wonders if camping at Yosemite National Park for a few days will provide some acclimation to high elevation.\nUser plans to pick up gear at Mammoth Lakes outfitters before their upcoming hike and is seeking recommendations on what to get.",
+            "latency": 924.69
+        }
+    ]
+}

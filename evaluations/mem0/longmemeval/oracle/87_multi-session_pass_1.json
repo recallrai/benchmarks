@@ -1,0 +1,19 @@
+{
+    "index": 87,
+    "question_type": "multi-session",
+    "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+    "question_date": "2023/05/25 (Thu) 15:52",
+    "ground_truth_answer": "$270",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The context shows Tokyo accommodation at ~$30/night and Hawaii (Maui) accommodation at over $300/night, which yields a difference of $270 matching the gold answer."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The context states Tokyo accommodation was $30 per night and Maui (Hawaii) resort was over $300 per night, which allows calculating the difference of $270 ($300-$30)."
+        }
+    ]
+}

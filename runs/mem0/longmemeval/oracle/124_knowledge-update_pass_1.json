@@ -1,0 +1,22 @@
+{
+    "index": 124,
+    "question_type": "knowledge-update",
+    "question": "Where did Rachel move to after her recent relocation?",
+    "question_date": "2023/06/24 (Sat) 08:50",
+    "ground_truth_answer": "the suburbs",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_124_knowledge-update"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User\u2019s friend Rachel has recently moved back to the suburbs (from Chicago), influencing the choice of a beach town close to a major city.\nUser is planning to visit friend Rachel, who recently moved to a new apartment in Chicago, and wants to know the weather in Chicago at this time of year; they also want recommendations for neighborhoods to stay in Chicago that allow easy exploration of the city and meeting up with Rachel, plan to ask Rachel about her neighborhood and favorite spots, and request recommendations for good coffee shops or cafes in Chicago.\nUser wants water sports such as paddleboarding, is evaluating The Outrigger Beach Resort for accommodation with beach view rooms, and plans an itinerary to explore Fort Myers Beach and nearby attractions.\nUser is planning a group beach vacation in Florida, weighing a relaxed beach town near a major city, considering Fort Myers Beach, and wants information on the best times to visit each destination.",
+            "latency": 762.154
+        },
+        {
+            "strategy": "graph",
+            "context": "User\u2019s friend Rachel has recently moved back to the suburbs (from Chicago), influencing the choice of a beach town close to a major city.\nUser is planning to visit friend Rachel, who recently moved to a new apartment in Chicago, and wants to know the weather in Chicago at this time of year; they also want recommendations for neighborhoods to stay in Chicago that allow easy exploration of the city and meeting up with Rachel, plan to ask Rachel about her neighborhood and favorite spots, and request recommendations for good coffee shops or cafes in Chicago.\nUser wants water sports such as paddleboarding, is evaluating The Outrigger Beach Resort for accommodation with beach view rooms, and plans an itinerary to explore Fort Myers Beach and nearby attractions.\nUser is planning a group beach vacation in Florida, weighing a relaxed beach town near a major city, considering Fort Myers Beach, and wants information on the best times to visit each destination.",
+            "latency": 879.526
+        }
+    ]
+}

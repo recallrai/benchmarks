@@ -1,0 +1,22 @@
+{
+    "index": 444,
+    "question_type": "multi-session",
+    "question": "How much older am I than the average age of employees in my department?",
+    "question_date": "2023/05/29 (Mon) 10:06",
+    "ground_truth_answer": "2.5 years",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_444_multi-session"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User prefers programs that are full-time or part-time with a mix of online and on-campus classes, noting that the average age in their department is 29.5 years old.\nUser wants insights on what makes an effective marketing leader and how to develop those leadership skills, indicating a strong interest in advancing their career.\nUser, age 32, is exploring how retinol interacts with vitamin C, believing the combination can brighten and firm skin and help address fine lines and wrinkles.\nUser, in their early 30s, is considering returning to school for a master's degree in marketing, has five years of industry experience, aims to move into a leadership role.\nUser is concerned about balancing school with their current job, plans to create a master schedule and set boundaries to manage both commitments, and is eager to learn about current digital marketing trends that impact the industry.\nUser is interested in customer-centricity and seeks guidance on conducting customer research and gathering feedback effectively to prioritize customer needs, preferences, and pain points.",
+            "latency": 551.445
+        },
+        {
+            "strategy": "graph",
+            "context": "User prefers programs that are full-time or part-time with a mix of online and on-campus classes, noting that the average age in their department is 29.5 years old.\nUser wants insights on what makes an effective marketing leader and how to develop those leadership skills, indicating a strong interest in advancing their career.\nUser, age 32, is exploring how retinol interacts with vitamin C, believing the combination can brighten and firm skin and help address fine lines and wrinkles.\nUser, in their early 30s, is considering returning to school for a master's degree in marketing, has five years of industry experience, aims to move into a leadership role.\nUser is concerned about balancing school with their current job, plans to create a master schedule and set boundaries to manage both commitments, and is eager to learn about current digital marketing trends that impact the industry.\nUser is interested in customer-centricity and seeks guidance on conducting customer research and gathering feedback effectively to prioritize customer needs, preferences, and pain points.",
+            "latency": 772.494
+        }
+    ]
+}

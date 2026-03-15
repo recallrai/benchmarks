@@ -1,0 +1,22 @@
+{
+    "index": 393,
+    "question_type": "temporal-reasoning",
+    "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+    "question_date": "2023/03/26 (Sun) 20:43",
+    "ground_truth_answer": "14 days. 15 days (including the last day) is also acceptable.",
+    "metadata": {
+        "mem0_user_id": "longmemeval_oracle_393_temporal-reasoning"
+    },
+    "retrieval_results": [
+        {
+            "strategy": "non_graph",
+            "context": "User is planning a new succulent arrangement on their dining table and has recently repotted a spider plant into a new pot with a mix of potting soil and compost, which the plant is now enjoying.\nUser is planning to give neighbor Mrs. Johnson a small ceramic planter with a cute design and a bag of organic potting mix formulated for indoor plants, and is seeking confirmation that this is a good idea.\nUser wants to know how often to water the succulent arrangement and the best way to water them.\nUser is considering adding moss to the succulent arrangement for greenery and wants guidance on how to incorporate moss.\nUser intends to use a ceramic planter with a layer of small rocks at the bottom for drainage, and wants advice on arranging succulents and determining an appropriate number of plants for a visually appealing display.\nUser is interested in decorative rocks for the succulent arrangement and is seeking suggestions for a shallow planter that complements succulents.",
+            "latency": 728.351
+        },
+        {
+            "strategy": "graph",
+            "context": "User is planning a new succulent arrangement on their dining table and has recently repotted a spider plant into a new pot with a mix of potting soil and compost, which the plant is now enjoying.\nUser is planning to give neighbor Mrs. Johnson a small ceramic planter with a cute design and a bag of organic potting mix formulated for indoor plants, and is seeking confirmation that this is a good idea.\nUser wants to know how often to water the succulent arrangement and the best way to water them.\nUser is considering adding moss to the succulent arrangement for greenery and wants guidance on how to incorporate moss.\nUser intends to use a ceramic planter with a layer of small rocks at the bottom for drainage, and wants advice on arranging succulents and determining an appropriate number of plants for a visually appealing display.\nUser is interested in decorative rocks for the succulent arrangement and is seeking suggestions for a shallow planter that complements succulents.",
+            "latency": 939.41
+        }
+    ]
+}

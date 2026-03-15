@@ -1,0 +1,19 @@
+{
+    "index": 300,
+    "question_type": "single-session-user",
+    "question": "What was the discount I got on my first purchase from the new clothing brand?",
+    "question_date": "2023/05/30 (Tue) 21:10",
+    "ground_truth_answer": "10%",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user 'received a 10% discount on their first purchase from a new clothing brand,' which directly matches the gold answer of 10%."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context explicitly states the user received a 10% discount on their first purchase from a new clothing brand, which directly matches the gold answer."
+        }
+    ]
+}

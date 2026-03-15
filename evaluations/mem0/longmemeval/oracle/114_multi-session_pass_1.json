@@ -1,0 +1,19 @@
+{
+    "index": 114,
+    "question_type": "multi-session",
+    "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+    "question_date": "2023/05/28 (Sun) 22:31",
+    "ground_truth_answer": "23",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "WRONG",
+            "reasoning": "The context mentions 17 poems written in the past two weeks and one writing challenge piece, but does not provide the total count of 23 pieces that includes all short stories, poems, and writing challenge pieces completed over three weeks."
+        },
+        {
+            "tag": "graph",
+            "label": "WRONG",
+            "reasoning": "The retrieved context mentions 17 poems in the past two weeks and one writing challenge piece, totaling only 18 pieces, which falls short of the gold answer of 23 total pieces and doesn't account for the three-week timeframe mentioned in the question."
+        }
+    ]
+}

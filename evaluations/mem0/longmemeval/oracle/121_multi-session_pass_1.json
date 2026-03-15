@@ -1,0 +1,19 @@
+{
+    "index": 121,
+    "question_type": "multi-session",
+    "question": "How many years in total did I spend in formal education from high school to the completion of my Master's degree?",
+    "question_date": "2023/08/20 (Sun) 14:44",
+    "ground_truth_answer": "The information provided is not enough. You mentioned 4 years in high school (2010-2014), 2 years at PCC (2014-2016), and 4 years at UCLA (2016-2020). But you didn't mention the number of years you spend getting the Master's degree",
+    "judge_response": [
+        {
+            "tag": "non_graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context shows high school (2010-2014), PCC (2014-2016), and UCLA (2016-2020) but only mentions 'considering pursuing a Master's degree' without any completion information, which aligns with the gold answer stating insufficient information about the Master's degree duration."
+        },
+        {
+            "tag": "graph",
+            "label": "CORRECT",
+            "reasoning": "The retrieved context indicates the user is 'considering pursuing a Master's degree' (not completed), and provides high school (2010-2014), PCC (2014-2016), and UCLA undergraduate (2016-2020) information, which allows someone to correctly conclude that the Master's degree completion information is not available, matching the gold answer."
+        }
+    ]
+}

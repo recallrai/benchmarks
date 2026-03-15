@@ -30,7 +30,7 @@ load_dotenv()
 
 class SupermemoryRunner(BaseLongMemEvalRunner):
     provider_name = "supermemory"
-    expected_strategies = ("default",)
+    expected_strategies = ("default", "hybrid")
     rate_limit_errors = (RateLimitError,)
 
     def __init__(
@@ -142,7 +142,8 @@ class SupermemoryRunner(BaseLongMemEvalRunner):
                 q=question,
                 container_tag=container_tag,
                 threshold=0.6,
-                limit=20
+                limit=20,
+                search_mode="memories" if strategy == "default" else "hybrid"
             )
             
             results = resp.results

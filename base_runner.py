@@ -19,7 +19,8 @@ class BaseLongMemEvalRunner(ABC):
     """Base class for all LongMemEval benchmark runners."""
 
     provider_name: str  # Subclasses must set this as a class variable
-    rate_limit_errors: tuple = ()  # Override in subclasses: e.g. (RateLimitError,)
+    expected_strategies: Tuple  # Subclasses must set this
+    rate_limit_errors: Tuple = ()  # Override in subclasses: e.g. (RateLimitError,)
 
     def __init__(self, data_path: str, output_base_dir: str, parallelism: int):
         self.parallelism = parallelism
@@ -45,6 +46,7 @@ class BaseLongMemEvalRunner(ABC):
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         self._result_cache: Dict[Tuple, Optional[Dict[str, Any]]] = {}
+        self._eval_cache: Dict[Tuple, Optional[Dict[str, bool]]] = {}
 
         # Load benchmark data
         with open(data_path, "r", encoding="utf-8") as f:
@@ -129,19 +131,58 @@ class BaseLongMemEvalRunner(ABC):
                 self._result_cache[key] = None
         return self._result_cache[key]
 
-    def _save_result(self, index: int, question_type: str, pass_idx: int, result: Dict[str, Any]) -> None:
+    async def _save_result(self, index: int, question_type: str, pass_idx: int, result: Dict[str, Any]) -> None:
         result_path = self._get_result_path(index, question_type, pass_idx)
         with open(result_path, "w", encoding="utf-8") as f:
             json.dump(result, indent=4, fp=f)
-        self.log(f"Saved result to: {result_path}")
+        await self.log(f"Saved result to: {result_path}")
 
-    @abstractmethod
+    def get_strategies_correct_in_any_pass(self, index: int, question_type: str, up_to_pass: int) -> set[str]:
+        """Collect strategies marked CORRECT across ALL passes from 1 to up_to_pass (inclusive).
+
+        Returns:
+            A set of strategy names that were CORRECT in any evaluated pass.
+            Returns an empty set if no passes have been evaluated yet.
+        """
+        correct: set[str] = set()
+        for p in range(1, up_to_pass + 1):
+            eval_results = self.get_pass_evaluation(index, question_type, p)
+            if eval_results is None:
+                break  # No more evaluated passes beyond this point
+            correct |= {name for name, is_correct in eval_results.items() if is_correct}
+        return correct
+
+    def get_strategies_needed_for_pass(self, index: int, question_type: str, pass_idx: int) -> set[str]:
+        """Determine which strategies still need to be run for a given pass.
+
+        For pass 1, all expected_strategies are needed.
+        For pass N>1, only strategies that were NOT correct in ANY of passes 1..N-1.
+        """
+        if pass_idx == 1:
+            return set(self.expected_strategies)
+        correct = self.get_strategies_correct_in_any_pass(index, question_type, pass_idx - 1)
+        return set(self.expected_strategies) - correct
+
     def is_successful_result(self, index: int, question_type: str, pass_idx: int) -> bool:
-        """Check if a saved result is complete and successful. Must be implemented by subclasses."""
+        """Check if a saved result contains all required strategies for this pass."""
+        result = self._load_result(index, question_type, pass_idx)
+        if not result:
+            return False
+        present = {item["strategy"] for item in result.get("retrieval_results", [])}
+        needed = self.get_strategies_needed_for_pass(index, question_type, pass_idx)
+        return needed.issubset(present)
 
-    @abstractmethod
     def describe_incomplete_result(self, index: int, question_type: str, pass_idx: int) -> str:
-        """Human-readable explanation of why a saved result is not complete. Must be implemented by subclasses."""
+        """Human-readable explanation of why a saved result is not complete."""
+        result = self._load_result(index, question_type, pass_idx)
+        if not result:
+            return "no result file found"
+        present = {item["strategy"] for item in result.get("retrieval_results", [])}
+        needed = self.get_strategies_needed_for_pass(index, question_type, pass_idx)
+        missing = needed - present
+        if missing:
+            return f"missing retrieval strategies: {', '.join(sorted(missing))}"
+        return "incomplete for unknown reason"
 
     # ---- Pass@k evaluation helpers ----
 
@@ -163,23 +204,31 @@ class BaseLongMemEvalRunner(ABC):
             A dictionary mapping `strategy_name -> bool (is_correct)`.
             If the pass has not been evaluated yet, returns None.
         """
+        key = (index, question_type, pass_idx)
+        if key in self._eval_cache:
+            return self._eval_cache[key]
+
         eval_path = self._get_eval_path(index, question_type, pass_idx)
         if not eval_path.exists():
+            self._eval_cache[key] = None
             return None
         try:
             with open(eval_path, "r", encoding="utf-8") as f:
                 eval_data = json.load(f)
             responses = eval_data.get("judge_response", [])
             if not responses:
+                self._eval_cache[key] = None
                 return None
                 
             eval_results = {}
             for r in responses:
                 tag = r.get("tag", "").removesuffix("_generated_context")
                 eval_results[tag] = (r.get("label") == "CORRECT")
-                    
+                
+            self._eval_cache[key] = eval_results
             return eval_results
         except Exception:
+            self._eval_cache[key] = None
             return None
 
     # ---- Abstract methods ----
@@ -250,7 +299,7 @@ class BaseLongMemEvalRunner(ABC):
                 f"Example {i} ({question_type}) [pass {pass_idx}]"
             )
             result = await self.run_single_example(i, example, client, pass_idx=pass_idx)
-            self._save_result(i, question_type, pass_idx, result)
+            await self._save_result(i, question_type, pass_idx, result)
             await self.log(f"[Example {i}] Successfully completed (pass {pass_idx})")
         except Exception as e:
             await self.log(f"[Example {i}] ERROR (pass {pass_idx}): {e}")
@@ -308,7 +357,9 @@ class BaseLongMemEvalRunner(ABC):
                     )
                     break
                 
-                if all(eval_results.values()):
+                # Check if ALL expected strategies are correct across all passes so far
+                correct_so_far = self.get_strategies_correct_in_any_pass(i, question_type, p)
+                if set(self.expected_strategies).issubset(correct_so_far):
                     # All strategies CORRECT – no more passes needed
                     processed += 1
                     await self.log(
@@ -317,7 +368,7 @@ class BaseLongMemEvalRunner(ABC):
                     )
                     break
                 
-                # At least one strategy WRONG – continue to next pass
+                # At least one strategy still WRONG – continue to next pass
 
             if next_pass is None:
                 skipped += 1

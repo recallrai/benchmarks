@@ -55,54 +55,6 @@ class RecallrRunner(BaseLongMemEvalRunner):
         async with AsyncRecallrAI(api_key=self.api_key, project_id=self.project_id, timeout=300) as client:
             yield client
 
-    # ---- Completeness checks ----
-
-    def is_successful_result(self, index: int, question_type: str, pass_idx: int) -> bool:
-        """Check if all required strategies for this pass are present in the results."""
-        result = self._load_result(index, question_type, pass_idx)
-        if not result:
-            return False
-            
-        present_strategies = {item["strategy"] for item in result.get("retrieval_results", [])}
-        
-        # Pass 1 requires all base strategies
-        if pass_idx == 1:
-            expected_strategies = set(self.expected_strategies)
-        else:
-            # Subsequent passes only require strategies that were WRONG in the previous pass
-            eval_results = self.get_pass_evaluation(index, question_type, pass_idx - 1)
-            if eval_results is None:
-                return False
-            
-            expected_strategies = {name for name, is_correct in eval_results.items() if not is_correct}
-            
-        return expected_strategies.issubset(present_strategies)
-
-    def describe_incomplete_result(self, index: int, question_type: str, pass_idx: int) -> str:
-        """Provide a human-readable reason why a pass result is missing or incomplete."""
-        result = self._load_result(index, question_type, pass_idx)
-        if not result:
-            return "no result file found"
-            
-        present_strategies = {item["strategy"] for item in result.get("retrieval_results", [])}
-        
-        # Determine what strategies we expect to see
-        if pass_idx == 1:
-            expected_strategies = set(self.expected_strategies)
-        else:
-            eval_results = self.get_pass_evaluation(index, question_type, pass_idx - 1)
-            if eval_results is None:
-                return "previous pass not yet evaluated"
-                
-            expected_strategies = {name for name, is_correct in eval_results.items() if not is_correct}
-            
-        # Find which strategies are missing
-        missing_strategies = expected_strategies - present_strategies
-        if missing_strategies:
-            return f"missing retrieval strategies: {', '.join(sorted(missing_strategies))}"
-            
-        return "incomplete for unknown reason"
-
     # ---- Core logic ----
 
     async def run_single_example(self, index: int, example: Dict[str, Any], client: AsyncRecallrAI, pass_idx: int) -> Dict[str, Any]:
@@ -240,8 +192,7 @@ class RecallrRunner(BaseLongMemEvalRunner):
         )
 
         # Retrieve context with all recall strategies
-        prev_eval = self.get_pass_evaluation(index, question_type, pass_idx - 1)
-        skip_strategies = {name for name, is_correct in prev_eval.items() if is_correct} if prev_eval else set()
+        skip_strategies = self.get_strategies_correct_in_any_pass(index, question_type, pass_idx - 1)
         
         retrieval_results: Dict[str, Any] = {}
         
@@ -259,7 +210,7 @@ class RecallrRunner(BaseLongMemEvalRunner):
                 "latency": latency,
             }
             await self.log(
-                f"[Example {index}] {strategy}: retrieved in {latency:.2f}s"
+                f"[Example {index}] {strategy}: retrieved in {latency:.2f}ms"
             )
 
         if query_session.status in (SessionStatus.PENDING, SessionStatus.FAILED):

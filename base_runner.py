@@ -83,7 +83,7 @@ class BaseLongMemEvalRunner(ABC):
         ``self.rate_limit_errors``. Falls through immediately if
         ``rate_limit_errors`` is empty (the default).
         """
-        delay = 2.0
+        delay = 1.0
         while True:
             try:
                 return await coro_fn(*args, **kwargs)
@@ -97,7 +97,7 @@ class BaseLongMemEvalRunner(ABC):
 
     async def _with_retry_timed(self, coro_fn: Callable[..., Coroutine[Any, Any, _T]], *args: Any, **kwargs: Any) -> tuple[_T, float]:
         """Like _with_retry, but returns (result, latency_ms) measuring only the successful call."""
-        delay = 2.0
+        delay = 1.0
         while True:
             try:
                 start = time.perf_counter()

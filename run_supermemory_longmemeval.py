@@ -147,7 +147,10 @@ class SupermemoryRunner(BaseLongMemEvalRunner):
             )
             
             results = resp.results
-            context = "\n".join(r.memory for r in results)
+            context = "\n\n".join(
+                r.memory if r.memory else r.chunk
+                for r in results
+            )
             
             retrieval_results[strategy] = {
                 "strategy": strategy,

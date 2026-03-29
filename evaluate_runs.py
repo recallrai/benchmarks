@@ -28,7 +28,7 @@ from rich.table import Table
 load_dotenv()
 
 # Bedrock Configuration (hardcoded)
-BEDROCK_REGION = "us-west-1"
+BEDROCK_REGION = "us-east-1"
 BEDROCK_MODEL = "us.anthropic.claude-sonnet-4-6"
 THINKING_BUDGET = 5_000
 

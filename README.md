@@ -16,7 +16,14 @@ Welcome to the public repository for benchmarking **Recallr AI** against other m
 | **Mem0** | Graph | 311/500 (62.2%) |
 | **Supermemory** | Default | 159/500 (31.8%) |
 
-> **Note:** The [Recallr AI website](https://recallr.ai) reports an overall accuracy of **97.5%**, measured using **Auto Recall** — a routing layer added after these per-strategy benchmarks were run. Auto Recall automatically selects the best strategy (Agentic, Balanced, or Low Latency) for each input query, combining the strengths of all three. The **93.2%** figure is the best single-strategy result (Agentic).
+> **Note:** The [Recallr AI website](https://recallr.ai) reports an overall accuracy of **97.5%**, measured using **Auto Recall**, a routing layer added after these per-strategy benchmarks were run. Auto Recall automatically selects the best strategy (Agentic, Balanced, or Low Latency) for each input query, combining the strengths of all three.
+
+### Limitations
+
+- These results use the LongMemEval Oracle dataset.
+- The evaluation is produced and published by Recallr AI, not by an independent third party.
+- Cloud provider behaviour may change after the recorded benchmark date.
+- LLM-based evaluation can exhibit model-dependent judgment variance.
 
 ### Latency Statistics (Seconds)
 

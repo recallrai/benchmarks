@@ -6,7 +6,7 @@ Welcome to the public repository for benchmarking **Recallr AI** against other m
 
 ### Overall Accuracy (Pass@k)
 
-| Provider | Strategy | Pass@1 Accuracy |
+| Provider | Strategy | Accuracy |
 |----------|----------|-----------------|
 | **Recallr AI** | Agentic | 466/500 (93.2%) |
 | **Recallr AI** | Low Latency | 439/500 (87.8%) |

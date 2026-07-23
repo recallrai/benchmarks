@@ -137,6 +137,12 @@ uv run python3 evaluate_runs.py \
 
 ---
 
+## Reproducibility
+
+We welcome independent reproduction, corrections, new provider integrations, and methodology improvements.
+
+---
+
 ## Contributing
 
 Contributions are welcome! If you want to add new memory providers, datasets, or optimize existing strategies, feel free to open a pull request or submit an issue.
